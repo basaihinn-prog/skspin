@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+package stats;
+
+import "pb/slots/data.proto";
+import "pb/empty.proto";
+
+message JsonData {
+    string Data = 1;
+}
+
+message GetLast10DayRunTimeDataReq {
+    string Game = 1;
+}
+
+message GetLast10DayRunTimeDataResp {
+    slots.ThreeMonkeyRunTimeResp General         = 1;
+    repeated slots.SlotsStatsBuyGame.Doc BuyGame = 2;
+}
+
+message GetTotalExpenseReq {
+    int64  Days = 1;
+    string Game = 2;
+}
+
+message GetTotalExpenseResp {
+    int64 TotalExpense = 1; // 总流水
+    int64 TotalIncome  = 2; // 总产出
+}
+
+// @ts: prefix(stats)
+service AdminStatsRpc {
+    rpc GetLast10DayRunTimeData(GetLast10DayRunTimeDataReq) returns (JsonData);
+
+    // 获取最近n天的总流水与总产出
+    rpc GetTotalExpense(GetTotalExpenseReq) returns (GetTotalExpenseResp);
+}

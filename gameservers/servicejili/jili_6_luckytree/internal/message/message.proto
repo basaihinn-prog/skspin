@@ -1,0 +1,895 @@
+syntax = "proto3";
+package message;
+option go_package = "./";
+
+message buff_BuffParam {
+    optional int64 BuffID = 1;
+    optional int32 Minute = 2;
+    optional double Param1 = 3;
+    optional double Param2 = 4;
+    optional double Param3 = 5;
+    optional double Param4 = 6;
+}
+
+message buff_EBuffOut {
+    optional int64 BuffIndex = 1;
+    optional int64 BuffID = 2;
+    optional int32 GameID = 3;
+    optional int64 BeginTime = 4;
+    optional int64 EndTime = 5;
+    optional int32 BuffType = 6;
+    optional double Param1 = 7;
+    optional double Param2 = 8;
+    optional double Param3 = 9;
+    optional double Param4 = 10;
+}
+
+message buff_WBuffOut {
+    optional int64 BuffIndex = 1;
+    optional int64 BuffID = 2;
+    optional int32 GameID = 3;
+    optional int32 Amount = 4;
+    optional int64 StartTime = 5;
+    optional int64 ExpiredTime = 6;
+    optional double Ratio = 7;
+    optional int32 BuffType = 8;
+    optional int32 Icon = 9;
+    optional int32 Star = 10;
+    optional string Name = 11;
+    optional string Desc = 12;
+    optional int32 Minute = 13;
+    optional double Param1 = 14;
+    optional double Param2 = 15;
+    optional double Param3 = 16;
+    optional double Param4 = 17;
+}
+
+message buff_GetPlayerBackAck {
+    optional int32 Result = 1;
+    repeated buff_WBuffOut List = 2;
+    repeated buff_WBuffOut IList = 3;
+}
+
+message buff_GetPlayerBuffAck {
+    optional int32 Result = 1;
+    repeated buff_EBuffOut List = 2;
+}
+
+message buff_AddPlayerBuffAck {
+    optional int32 Result = 1;
+    optional int32 State = 2;
+    repeated buff_WBuffOut Info = 3;
+}
+
+message buff_UsePlayerBuffAck {
+    optional int32 Result = 1;
+    optional int32 State = 2;
+    repeated buff_EBuffOut Info = 3;
+}
+
+message buff_UpdatelayerBuffAck {
+    optional int32 Result = 1;
+    optional int32 State = 2;
+}
+
+message buff_GetSettingParamAck {
+    optional int32 Result = 1;
+    repeated buff_BuffParam Info = 2;
+}
+
+message gaia_GaiaResponse {
+    optional int32 type = 1;
+    optional int32 ret = 2;
+    optional string token = 3;
+    optional string msg = 4;
+    optional bytes data = 5;
+}
+
+message gaia_Card {
+    optional int32 GameID = 1;
+    optional int32 Level = 2;
+    optional int32 CardIndex = 3;
+    optional int32 Star = 4;
+    optional int32 Count = 5;
+}
+
+message gaia_Mission {
+    optional uint32 ItemID = 1;
+    optional uint32 ItemCount = 2;
+    optional int64 ExtendID = 3;
+}
+
+message gaia_ServiceData {
+    optional uint32 missionReward = 1;
+    optional int32 jpType = 2;
+    optional double jpWin = 3;
+    optional double fullJpWin = 4;
+    optional int32 trialfinish = 5;
+    optional int32 trialaward = 6;
+    optional int32 freeremain = 7;
+    repeated gaia_Card cardlist = 8;
+    optional double buffmul = 9;
+    optional double buffmulwin = 10;
+    optional int32 buffexbet = 11;
+    optional int32 bufffree = 12;
+    repeated gaia_Mission missionlist = 13;
+    optional string ErrorMsg = 14;
+}
+
+message gaia_DebrisAInfoReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 currencynumber = 3;
+    optional int32 lang = 4;
+}
+
+message gaia_DebrisPInfoReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 currencynumber = 3;
+    optional int32 ano = 4;
+}
+
+message gaia_DebrisPGetReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 currencynumber = 3;
+}
+
+message gaia_DebrisExchangeReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 currencynumber = 3;
+    optional int32 ano = 4;
+    optional int32 fno = 5;
+    optional int32 amount = 6;
+}
+
+message gaia_FullJPInfoReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+}
+
+message gaia_FullJPInfoAllReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+}
+
+message gaia_FullJPHistoryReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+}
+
+message gaia_FullJPInfoAck {
+    optional double value = 1;
+    optional double full = 2;
+    optional int32 minvip = 3;
+    optional double minbet = 4;
+}
+
+message gaia_FullJPInfoAllAck {
+    optional int32 acktype = 1;
+    repeated gaia_FullJPList list = 2;
+}
+
+message gaia_FullJPList {
+    optional int32 apiid = 1;
+    optional int32 gameid = 2;
+    optional double value = 3;
+    optional double full = 4;
+}
+
+message gaia_FullJPHistoryAck {
+    repeated gaia_FullJPHistoryData list = 1;
+}
+
+message gaia_FullJPHistoryData {
+    optional string winner = 1;
+    optional string nickname = 2;
+    optional double win = 3;
+    optional int32 time = 4;
+}
+
+message gaia_ItemListReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 lang = 3;
+    optional int32 currencynumber = 4;
+}
+
+message gaia_ItemAllGameReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 lang = 3;
+    optional int32 currencynumber = 4;
+}
+
+message gaia_ItemUseCardReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 currencynumber = 3;
+    optional string itemindex = 4;
+    optional string itemid = 5;
+    optional string amount = 6;
+}
+
+message gaia_ItemCheckNewReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+}
+
+message gaia_ItemGetMailReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 currencynumber = 3;
+}
+
+message gaia_ItemSetReadReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 currencynumber = 3;
+}
+
+message gaia_MissionDailyReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional string lang = 3;
+    optional int32 currencynumber = 4;
+    optional bool isNow = 5;
+    optional int32 level = 6;
+}
+
+message gaia_ReplayListReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 currencynumber = 3;
+}
+
+message gaia_ReplayGetReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional string index = 3;
+}
+
+message gaia_ReplayCheckReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+}
+
+message gaia_ReplayListAck {
+    optional int32 acktype = 1;
+    repeated gaia_ReplayLDF list = 2;
+}
+
+message gaia_ReplayLDF {
+    repeated gaia_ReplayLClient row = 1;
+}
+
+message gaia_ReplayLClient {
+    optional int32 aid = 1;
+    optional string account = 2;
+    optional string name = 3;
+    optional double bet = 4;
+    optional double win = 5;
+    optional double odd = 6;
+    optional double adjustwin = 7;
+    optional int32 currency = 8;
+    optional string currsymbol = 9;
+    optional double currunit = 10;
+    optional string time = 11;
+    optional string index = 12;
+}
+
+message gaia_ReplayGetAck {
+    optional int32 acktype = 1;
+    optional string ack = 2;
+}
+
+message gaia_ReplayCheckAck {
+    optional int32 acktype = 1;
+    optional bool needinit = 2;
+}
+
+message gaia_TrialInfoReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 vip = 3;
+    optional int32 lang = 4;
+}
+
+message gaia_TrialSignUpReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 vip = 3;
+    optional int32 actno = 4;
+}
+
+message gaia_TrialGiveUpReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 actno = 3;
+}
+
+message gaia_TrialInfoAck {
+    optional int32 acktype = 1;
+    optional int32 nowactno = 2;
+    optional int32 targettype = 3;
+    repeated gaia_TrialAward awarddesc = 4;
+    optional int32 pstate = 5;
+    repeated gaia_TrialPData trialinfo = 6;
+    repeated double bet = 7;
+    optional bool remind = 8;
+    repeated gaia_TrialAward remindinfo = 9;
+    repeated int32 rtags = 10;
+    optional string start = 11;
+    optional string end = 12;
+}
+
+message gaia_TrialAward {
+    optional int32 award = 1;
+    optional int32 type = 2;
+    optional double gate = 3;
+    optional int32 gameid = 4;
+    optional int32 itemid = 5;
+    optional int32 amount = 6;
+    repeated gaia_TrialItem data = 7;
+    optional double money = 8;
+}
+
+message gaia_TrialItem {
+    optional int32 star = 1;
+    optional int32 icon = 2;
+    optional int32 type = 3;
+    optional double bet = 4;
+    optional string gamename = 5;
+}
+
+message gaia_TrialPData {
+    optional int32 apiid = 1;
+    optional int32 gameid = 2;
+    optional int32 sac = 3;
+    optional int32 activityno = 4;
+    optional double totalbet = 5;
+    optional double totalwin = 6;
+    optional double property = 7;
+}
+
+message gaia_TrialSignUpAck {
+    optional int32 acktype = 1;
+    repeated gaia_TrialPData trialinfo = 2;
+}
+
+message gaia_TrialGiveUpAck {
+    optional int32 acktype = 1;
+    optional int32 award = 2;
+}
+
+message gaia_UnionJPInfoReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+}
+
+message gaia_UnionJPInfoAllReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+}
+
+message gaia_UnionJPHistoryReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+}
+
+message gaia_UnionJPBlockReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 currencynumber = 3;
+}
+
+message gaia_UnionJPInfoAck {
+    repeated gaia_UnionJPPool list = 1;
+}
+
+message gaia_UnionJPPool {
+    optional int32 type = 1;
+    optional double value = 2;
+}
+
+message gaia_UnionJPInfoAllAck {
+    repeated gaia_UnionJPPool plist = 1;
+    repeated int32 glist = 2;
+}
+
+message gaia_UnionJPHistoryAck {
+    repeated gaia_UnionJPHistoryData list = 1;
+}
+
+message gaia_UnionJPHistoryData {
+    optional int32 type = 1;
+    optional string winner = 2;
+    optional string nickname = 3;
+    optional double win = 4;
+    optional int32 gameID = 5;
+}
+
+message gaia_UnionJPBlockAck {
+    repeated double list = 1;
+}
+
+message gaia_VipSignInfoReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 currencynumber = 3;
+}
+
+message gaia_VipSignRewardReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 currencynumber = 3;
+    optional string index = 4;
+}
+
+message gaia_VipSignInfoAck {
+    repeated gaia_VipSignInfoData info = 1;
+    optional int32 result = 2;
+}
+
+message gaia_VipSignInfoData {
+    repeated gaia_VipSignTreasure treasurelist = 1;
+    optional string expiredtime = 2;
+    optional int32 error = 3;
+}
+
+message gaia_VipSignTreasure {
+    optional string index = 1;
+    optional int32 minvip = 2;
+    optional double exp = 3;
+    optional bool isopen = 4;
+}
+
+message gaia_VipSignRewardAck {
+    repeated gaia_VipSignRewardData info = 1;
+    optional int32 result = 2;
+}
+
+message gaia_VipSignRewardData {
+    optional int32 itemid = 1;
+    optional int32 count = 2;
+    optional int32 error = 3;
+    optional int32 icon = 4;
+}
+
+message gaia_CheckMallReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 apiid = 3;
+    optional bool isvol = 4;
+    optional int32 voltype = 5;
+}
+
+message gaia_CheckMallAck {
+    repeated gaia_GameMallSetting Settings = 1;
+    optional int32 Show = 2;
+}
+
+message gaia_GameMallSetting {
+    optional int32 GameID = 1;
+    optional int32 APIID = 2;
+    optional int32 AlterID = 3;
+    optional int32 DescType = 4;
+    optional int32 DescRounds = 5;
+    optional double MaxBet = 6;
+    optional double PriceOdd = 7;
+    optional bool ForSale = 8;
+    repeated double BetVec = 9;
+    optional int32 ReelNo = 10;
+    optional int32 BetNo = 11;
+    optional bool Event = 12;
+}
+
+message gaia_LevelReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 currencynumber = 3;
+}
+
+message gaia_BuffBackReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 apiid = 3;
+    optional int32 lang = 4;
+}
+
+message gaia_BuffNowReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 apiid = 3;
+    optional int32 gameid = 4;
+}
+
+message gaia_BuffUseReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 apiid = 3;
+    optional int32 gameid = 4;
+    optional int64 buffidx = 5;
+    optional int64 buffid = 6;
+    optional int32 currency = 7;
+}
+
+message gaia_BuffParamReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    repeated int64 idlist = 3;
+}
+
+message gaia_VerifyGiftCodeReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 apiid = 3;
+    optional string giftcode = 4;
+}
+
+message gaia_CheckBlockGiftCodeReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+}
+
+message gaia_VerifyGiftCodeAck {
+    optional int32 Code = 1;
+    optional int32 Type = 2;
+    optional int32 Round = 3;
+}
+
+message gaia_CheckBlockGiftCodeAck {
+    optional int32 Code = 1;
+    optional string Message = 2;
+    optional bool IsBlock = 3;
+    optional int32 BlockDuration = 4;
+    optional int32 ErrorInputAmount = 5;
+}
+
+message luckytree_Column {
+    repeated int32 Row = 1;
+}
+
+message luckytree_Award {
+    optional int32 AwardTypeFlag = 1;
+    optional int32 AwardSymbol = 2;
+    optional int32 AwardLine = 3;
+    optional double Win = 4;
+}
+
+message luckytree_PlateData {
+    repeated int32 HitPosVec = 1;
+    repeated int32 LuckyTreeVec = 2;
+    repeated luckytree_Award AwardVec = 3;
+    repeated int32 Plate = 4;
+    optional double WinMoney = 5;
+    optional int32 AwardTypeFlag = 6;
+    optional int32 FreeGameTime = 7;
+}
+
+message luckytree_FreeGameData {
+    repeated luckytree_PlateData PlateDataVec = 1;
+    optional double TotalWin = 2;
+    optional int32 TotalTimes = 3;
+    optional int32 BeginTimes = 4;
+}
+
+message luckytree_BonusHitRecord {
+    optional int32 Sym = 1;
+    optional int32 HitCount = 2;
+}
+
+message luckytree_BonusAwardDetail {
+    optional int32 Symbol = 1;
+    optional int32 Count = 2;
+    optional double Win = 3;
+}
+
+message luckytree_BonusAward {
+    optional int32 ColorId = 1;
+    repeated luckytree_BonusAwardDetail AwardDetail = 2;
+}
+
+message luckytree_BonusGameData {
+    optional int32 TotalRound = 1;
+    optional double Bet = 2;
+    repeated luckytree_BonusHitRecord HitRecord = 3;
+    repeated int32 Other = 4;
+    optional double TotalWin = 5;
+    repeated int32 HitCount = 6;
+    repeated double HitCountWin = 7;
+}
+
+message luckytree_SpinAck {
+    repeated luckytree_PlateData PlateData = 1;
+    repeated luckytree_BonusGameData BonusGameData = 2;
+    repeated luckytree_FreeGameData FreeGameData = 3;
+    optional double TotalWin = 4;
+    optional int32 AwardType = 5;
+    optional string ShowIndex = 6;
+    optional double NowMoney = 7;
+    optional int32 AckType = 8;
+}
+
+message luckytree_GameInfoAck {
+    repeated luckytree_WalletInfo WalletInfo = 1;
+    optional int32 ArcadeNo = 2;
+    optional bool CanIntoArcade = 3;
+    optional bool Test = 4;
+    repeated luckytree_PreferRoundShow Prefer = 5;
+    optional int32 FreeSpinRemain = 6;
+}
+
+message luckytree_VolInfo {
+    optional int32 VolPos = 1;
+    repeated int32 VolList = 2;
+}
+
+message luckytree_GameReqData {
+    optional int32 aid = 1;
+    optional int32 apiid = 2;
+    optional string token = 3;
+    optional bytes encode = 4;
+    repeated luckytree_SpinReq spin = 5;
+    repeated luckytree_CheckMallReq checkMall = 6;
+}
+
+message luckytree_SpinReq {
+    optional double Bet = 1;
+    optional int32 Currency = 3;
+    optional int32 TestMode = 4;
+    optional int32 MallID = 5;
+    optional double MallBet = 6;
+    optional int32 VipLv = 7;
+    optional int32 Free = 8;
+    optional int32 Trial = 9;
+    optional int32 VolType = 10;
+    optional int32 Level = 11;
+}
+
+message luckytree_ResData {
+    optional int32 ret = 1;
+    optional int32 type = 2;
+    optional string token = 3;
+    optional string msg = 4;
+    repeated luckytree_InfoData data = 5;
+}
+
+message luckytree_InfoData {
+    optional bytes encode = 1;
+    repeated luckytree_SpinAllData spinAll = 2;
+    repeated luckytree_GameInfoAck gameInfo = 3;
+    repeated luckytree_CheckMallAck checkMall = 4;
+    repeated luckytree_LoginDataAck loginData = 5;
+    repeated luckytree_HeartAck heart = 6;
+    repeated luckytree_ExchangeAck exchange = 7;
+    repeated luckytree_LastSpinAck lastSpin = 8;
+}
+
+message luckytree_SpinAllData {
+    repeated luckytree_SpinAck info = 1;
+    repeated luckytree_ServiceData serviceInfo = 2;
+    optional bytes serviceProto = 3;
+}
+
+message luckytree_ServiceData {
+    optional uint32 missionReward = 1;
+    optional int32 jpType = 2;
+    optional double jpWin = 3;
+    optional double fullJpWin = 4;
+    optional int32 trialfinish = 5;
+    optional int32 trialaward = 6;
+    optional int32 freeremain = 7;
+}
+
+message luckytree_WalletInfo {
+    optional int32 currencyNumber = 1;
+    optional string currencyName = 2;
+    optional string currencySymbol = 3;
+    optional double coin = 4;
+    repeated double bet = 5;
+    optional double unit = 6;
+    optional double ratio = 7;
+    optional double rate = 8;
+    optional double upper = 9;
+    optional double lower = 10;
+    optional int32 cycle = 11;
+    optional int32 decimal = 12;
+}
+
+message luckytree_PreferRoundShow {
+    optional int32 BaseRound = 1;
+    optional int32 SigmaRound = 2;
+    optional double CV = 3;
+    optional double HR = 4;
+    optional double MGR = 5;
+    optional int32 Range = 6;
+    optional int32 Show = 7;
+}
+
+message luckytree_CheckMallReq {
+    optional int32 Currency = 1;
+}
+
+message luckytree_CheckMallAck {
+    repeated luckytree_GameMallSetting Settings = 1;
+    optional int32 Show = 2;
+}
+
+message luckytree_GameMallSetting {
+    optional int32 GameID = 1;
+    optional int32 APIID = 2;
+    optional int32 AlterID = 3;
+    optional int32 DescType = 4;
+    optional int32 DescRounds = 5;
+    optional double MaxBet = 6;
+    optional double PriceOdd = 7;
+    optional bool ForSale = 8;
+    repeated double BetVec = 9;
+    optional int32 ReelNo = 10;
+    optional int32 BetNo = 11;
+    optional bool Event = 12;
+}
+
+message luckytree_LoginDataAck {
+    optional int32 result = 1;
+    optional int32 aid = 2;
+}
+
+message luckytree_LoginDataReq {
+    optional string Token = 1;
+    optional int32 Source = 2;
+    optional string OSType = 3;
+    optional string OSVersion = 4;
+    optional string Browser = 5;
+    optional string BrowserVersion = 6;
+    optional int32 BrowserTag = 7;
+    optional string Machine = 8;
+    optional int32 Width = 9;
+    optional int32 Height = 10;
+    optional double Ratio = 11;
+    optional string Language = 12;
+    optional int32 Cheat = 13;
+}
+
+message luckytree_LogoutReq {
+    optional int32 aid = 1;
+}
+
+message luckytree_HeartAck {
+    optional int32 state = 1;
+    optional string message = 2;
+}
+
+message luckytree_ExchangeReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional string stamp = 3;
+}
+
+message luckytree_ExchangeAck {
+    repeated luckytree_Wallet wallet = 1;
+    optional string stamp = 2;
+}
+
+message luckytree_Wallet {
+    optional double coin = 1;
+    optional int32 currencyNumber = 2;
+    optional double ratio = 3;
+    optional double rate = 4;
+    optional double unit = 5;
+}
+
+message luckytree_LastReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+}
+
+message luckytree_LastSpinAck {
+    optional int32 result = 1;
+    repeated luckytree_SpinAck lastSpin = 2;
+}
+
+message mission_MissionReportReq {
+    optional int32 accountID = 1;
+    optional uint32 apiID = 2;
+    optional uint32 gameID = 3;
+    optional double bet = 4;
+    optional double win = 5;
+    optional bool isFG = 6;
+    optional int32 currencyNumber = 7;
+    optional uint32 siteID = 8;
+    optional int32 subAgentCode = 9;
+    optional double ratio = 10;
+    optional double rate = 11;
+    optional int32 themeID = 12;
+    optional int32 point = 13;
+    optional bool buy = 14;
+    repeated uint32 combo = 15;
+    optional uint32 fullplate = 16;
+    optional double property = 17;
+    optional int32 level = 18;
+}
+
+message mission_Reward {
+    optional uint32 ItemID = 1;
+    optional uint32 ItemCount = 2;
+    optional int64 ExtendID = 3;
+}
+
+message mission_MissionReportResponse {
+    optional uint32 missionReward = 1;
+    optional int32 error = 2;
+    repeated mission_Reward list = 3;
+}
+
+message mission_DailyMissionDataReq {
+    optional int32 accountID = 1;
+    optional uint32 apiID = 2;
+    optional uint32 gameID = 3;
+    optional bool isNow = 4;
+    optional string lang = 5;
+    optional int32 currencyNumber = 6;
+    optional uint32 siteID = 7;
+    optional int32 subAgentCode = 8;
+    optional double ratio = 9;
+    optional double rate = 10;
+    optional int32 gameType = 11;
+    optional double property = 12;
+    optional int32 level = 13;
+}
+
+message mission_DailyMissionDataResponse {
+    optional string message = 1;
+    optional int32 error = 2;
+    optional uint32 missionReward = 3;
+    optional bytes messageb = 4;
+    repeated mission_Reward list = 5;
+}
+
+message mission_DailyMissionData {
+    optional string Date = 1;
+    optional string ConditionDesc = 2;
+    optional int32 CurrentCount = 3;
+    optional int32 TotalCount = 4;
+    optional uint32 ItemID = 5;
+    optional uint32 ItemCount = 6;
+    optional bool Finished = 7;
+    optional int32 Vip = 8;
+    optional int32 Type = 9;
+    optional double Coin = 10;
+    optional int32 Show = 11;
+    optional bool Lock = 12;
+    optional int32 GameID = 13;
+    optional int32 ChainID = 14;
+    optional int32 MissionIndex = 15;
+    optional int64 ExtendID = 16;
+}
+
+message mission_ItemCard {
+    optional int32 GameID = 1;
+    optional string Game = 2;
+    optional string ItemName = 3;
+    optional int32 Icon = 4;
+    optional double ItemValue = 5;
+    optional double Bet = 6;
+    optional string GameName = 7;
+    optional int32 Star = 8;
+    optional int32 WinType = 9;
+    optional double WinMultiplier = 10;
+    optional double WinMaxMag = 11;
+    optional double PlayValue = 12;
+}
+
+message mission_GiftPack {
+    repeated mission_Gift List = 1;
+}
+
+message mission_Gift {
+    optional uint32 ItemID = 1;
+    optional uint32 ItemCount = 2;
+    optional int64 ExtendID = 3;
+}
+

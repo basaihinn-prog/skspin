@@ -1,0 +1,62 @@
+syntax = "proto3";
+package message;
+option go_package = "serve/servicejili/jili_33_pp/message";
+
+message Column {
+
+    repeated int32 Row = 1;
+}
+
+message ColumnF {
+
+    repeated double Row_f = 1;
+}
+
+message AwardData {
+
+    optional int32 Award_symbol = 1;
+    optional int32 Award_line = 2;
+    optional int32 Award_count = 3;
+    optional double Award_money = 4;
+}
+
+message SinglePlate {
+
+    repeated AwardData Award_data_list = 1;
+    repeated Column Plate_symbol = 2;
+    optional int32 Award_type_flag = 3;
+    optional double Plate_win = 4;
+    optional double Line_win = 5;
+    optional double JP_win = 6;
+    optional double Line_pig_mult = 7;
+    optional bool Is_new_pig = 8;
+}
+
+message SpinAck {
+
+    repeated SinglePlate Plate_info = 1;
+    repeated int32 Exp_len = 2;
+    repeated ColumnF Wild_plate = 3;
+    optional bool Has_respin = 4;
+    optional bool Has_expand = 5;
+    optional double Total_win = 6;
+    optional string Show_index = 7;
+    optional double Now_money = 8;
+    optional int32 Ack_type = 9;
+    JPInfo JP_info = 10;
+    optional double RT_p = 11;
+    optional int32 LI_d = 12;
+    optional int32 RI_d = 13;
+}
+
+message JpReq {
+
+    optional int32 currency = 1;
+}
+
+message JPInfo {
+
+    repeated double Fronts = 1;
+    repeated double Odd_prize = 2;
+    optional double Base_bet = 3;
+}

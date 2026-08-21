@@ -1,0 +1,10 @@
+## the default empty is OK
+# apiurlbase: "https://api.cocodr.xyz"
+
+bobetdetailstempurl: "https://pg.bxbet.asi/history/1489936.html?sid=1&psid=660cb855859579949c5a0402&api=%2F%2Fapi.cocodr.xyz%2Fback-office-proxy%2FReport%2FGetBetHistory&lang=en&gid=1489936"
+
+
+reverseproxy:
+  "static-pg.bxbet.asi": "https://static.pg-demo.com"
+  "m-pg.bxbet.asi": "https://m.pgsoft-games.com"
+  "pg.bxbet.asi": "https://public.pgsoft-games.com"

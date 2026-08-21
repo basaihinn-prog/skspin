@@ -1,0 +1,59 @@
+{
+    "CN": "cn",
+    "EN": "en",
+    "TH": "th",
+    "VN": "vn",
+    "ID": "id",
+    "HI": "hi",
+    "TA": "ta",
+    "MM": "mm",
+    "JP": "jp",
+    "MS": "ms",
+    "KO": "ko",
+    "BN": "bn",
+    "ES": "es",
+    "PT": "pt",
+    "IT": "it",
+    "SE": "se",
+    "DE": "de",
+    "DADK": "da",
+    "RORO": "ro",
+    "NLNL": "nl",
+    "TRTR": "trTR",
+    "RURU": "ruRU",
+    "GRGR": "grGR",
+    "FRFR": "frFR"
+}
+
+{
+    "CN": "zh-CN",
+    "EN": "en-US",
+    "TH": "th-TH",
+    "VN": "vi-VN",
+    "ID": "id-ID",
+    "HI": "hi-IN",
+    "TA": "ta-IN",
+    "MM": "my-MM",
+    "JP": "ja-JP",
+    "MS": "ms-MY",
+    "KO": "ko-KR",
+    "BN": "bn-IN",
+    "ES": "es-AR",
+    "PT": "pt-BR",
+    "IT": "it-IT",
+    "SE": "sv-SE",
+    "DE": "de-DE",
+    "DADK": "da-DK",
+    "RORO": "ro-RO",
+    "NLNL": "nl-NL",
+    "TRTR": "tr-TR",
+    "RURU": "ru-RU",
+    "GRGR": "gr-GR",
+    "FRFR": "fr-FR"
+}
+
+JILI 修改的配置
+  1 %a   "game_config.yaml"             line 8
+  2      "jiligateway_config.yaml"      line 7
+  3 #    "~/caddy/Caddyfile"            line 117
+  4      "grpc_route.yaml"              line 30

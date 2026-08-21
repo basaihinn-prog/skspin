@@ -1,0 +1,48 @@
+syntax = "proto3";
+
+package slots;
+
+import "pb/empty.proto";
+import "pb/duck/mongodb/TimeStamp.proto";
+
+message SlotsPlayerGameDayStatRecord {
+    string Game           = 1;
+    int64  Pid            = 2;
+    string Date           = 3;
+    string Flag           = 4;  //特殊的Flag就是针对All，代表
+    int64  Flow           = 5;  //押注
+    int64  Win            = 6;  //赢分
+    int64  YeJi           = 7;  //业绩
+    int64  NetProfit      = 8;  //净输赢
+    int64  Fee            = 9;  //抽水
+    int64  SelfPoolReward = 10; //个人奖池爆奖励
+}
+
+message SlotsDayBetReq {
+    string    Channel = 1;
+    int64     Pid     = 2;
+    string    Game    = 3;
+    TimeStamp Start   = 4;
+    TimeStamp End     = 5;
+}
+
+message SlotsGetAllDayInfoResp {
+    repeated SlotsPlayerGameDayStatRecord List = 1;
+}
+
+message GetGameDayWinCountReq {
+    string Game = 1;
+    string Day  = 2;
+}
+
+message GetGameDayWinCountResp {
+    int64 Count = 1;
+}
+
+service SlotsPlayerGameDayStatRpc {
+    rpc IncBoth(SlotsPlayerGameDayStatRecord) returns (Empty);
+    rpc IncAll(SlotsPlayerGameDayStatRecord) returns (Empty);
+    rpc GetAllDayInfo(SlotsDayBetReq) returns (SlotsGetAllDayInfoResp);
+    rpc GetPlrDayInfoByGame(SlotsDayBetReq) returns (SlotsPlayerGameDayStatRecord);
+    rpc GetGameDayWinCount(GetGameDayWinCountReq) returns (GetGameDayWinCountResp);
+}

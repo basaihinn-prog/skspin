@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+package message;
+option go_package = "serve/servicejili/jili_302_mcp/message";
+
+message SinglePlate {
+
+    repeated int32 Symbol = 1;
+}
+
+message SpinAck {
+
+    repeated SinglePlate Plate_symbol = 1;
+    double Main_win = 2;
+    double Re_spin_win = 3;
+    double Wheel_win = 4;
+    double Total_win = 5;
+    string Show_index = 6;
+    double Now_money = 7;
+    int32 Ack_type = 8;
+    double RT_p = 9;
+    int32 Show_type = 10;
+}
+
+message GameInfoData {
+
+    repeated Wheel Wheel_list = 7;
+    repeated double All_bet_list = 8;
+}
+
+message Wheel {
+
+    repeated double Mul = 1;
+}

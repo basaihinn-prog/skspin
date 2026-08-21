@@ -1,0 +1,65 @@
+syntax = "proto3";
+
+package message;
+option go_package = "serve/servicejili/jili_375_psd/message";
+
+message Column {
+
+    repeated int32 Col = 1;
+}
+
+message AwardData {
+
+    int32 Symbol = 1;
+    int32 Count = 2;
+    double Win = 3;
+}
+
+message MegaSingle {
+
+    int32 Size = 1;
+    repeated int32 Pos = 2;
+}
+
+message ComboStageInfo {
+
+    repeated Column Combo_stage_symbol = 1;
+    repeated Column Combo_stage_final = 2;
+    double Combo_stage_win = 3;
+    repeated AwardData Award_data_vec = 4;
+    bool Need_eliminate = 5;
+    repeated Column Eliminate = 6;
+    repeated Column Fill_symbols = 7;
+    int32 Sp_type = 8;
+    double Mul = 9;
+    int32 Mega_symbol = 10;
+    repeated MegaSingle Mega_list = 11;
+    int32 Up_target = 12;
+    int32 Up_final = 13;
+    bool Max_flag = 14;
+}
+
+message RoundInfo {
+
+    repeated ComboStageInfo Combo_stage_data = 1;
+    double Round_win = 2;
+    int32 Scatter_count = 3;
+    int32 Free_remain_round = 5;
+    int32 Free_total_round = 6;
+    int32 Add_rounds = 7;
+    int32 Award_type_flag = 8;
+    bool Max_flag = 9;
+}
+
+message SpinAck {
+
+    repeated RoundInfo Round_queue = 1;
+    double Free_total_win = 2;
+    double Total_win = 3;
+    string Show_index = 4;
+    double Now_money = 5;
+    int32 Ack_type = 6;
+    double RT_p = 7;
+    int32 LI_d = 8;
+    int32 RI_d = 9;
+}

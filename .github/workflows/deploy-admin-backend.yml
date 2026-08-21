@@ -1,0 +1,49 @@
+name: Deploy Admin Backend
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'gameadmin/backend/**'
+      - 'scripts/deploy/**'
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: Target environment
+        required: true
+        default: staging
+        type: choice
+        options: [staging, doudou-prod, dou-ph-prod, dou-idr-prod]
+
+jobs:
+  deploy-staging:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    environment: staging
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with: { go-version: '1.22' }
+      - uses: ./.github/actions/ssh-setup
+        with: { ssh-key: ${{ secrets.DEPLOY_SSH_KEY }} }
+      - name: Build & deploy to staging
+        working-directory: gameadmin/backend
+        env:
+          DEPLOY_HOST: ${{ vars.DEPLOY_HOST }}
+        run: ./deploy-all.sh "$DEPLOY_HOST"
+
+  deploy-manual:
+    if: github.event_name == 'workflow_dispatch' && github.event.inputs.environment != 'staging'
+    runs-on: ubuntu-latest
+    environment: ${{ github.event.inputs.environment }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with: { go-version: '1.22' }
+      - uses: ./.github/actions/ssh-setup
+        with: { ssh-key: ${{ secrets.DEPLOY_SSH_KEY }} }
+      - name: Build & deploy
+        working-directory: gameadmin/backend
+        env:
+          DEPLOY_HOST: ${{ vars.DEPLOY_HOST }}
+        run: ./deploy-all.sh "$DEPLOY_HOST"

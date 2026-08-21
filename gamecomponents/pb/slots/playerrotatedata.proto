@@ -1,0 +1,32 @@
+
+syntax = "proto3";
+
+package slots;
+
+import "pb/empty.proto";
+
+message SlotsPlayerRotateData {
+    message Doc {
+        string ID          = 1; // @gotags: bson:"_id"
+        int64  RotateCount = 2;
+    }
+
+    message IncRotateReq {
+        int64  Pid  = 1;
+        string Game = 2;
+    }
+
+    message GetRotateReq {
+        int64  Pid  = 1;
+        string Game = 2;
+    }
+
+    message GetRotateResp {
+        int64 Count = 1;
+    }
+}
+
+service SlotsPlayerRotateDataRpc {
+    rpc IncRotate(SlotsPlayerRotateData.IncRotateReq) returns (Empty);
+    rpc GetRotate(SlotsPlayerRotateData.GetRotateReq) returns (SlotsPlayerRotateData.GetRotateResp);
+}

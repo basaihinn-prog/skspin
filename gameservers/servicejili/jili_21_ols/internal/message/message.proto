@@ -1,0 +1,16 @@
+syntax = "proto3";
+package message;
+option go_package = "./";
+import "google/protobuf/timestamp.proto";
+
+message ols_SpinAck {
+    repeated int32 PlateSymbol = 1;
+    optional int32 Award = 2;
+    optional int32 AwardType = 3;
+    optional double Money = 4;
+    optional string ShowIndex = 5;
+    optional double NowMoney = 6;
+    optional int32 AckType = 7;
+    optional double RTP = 8;
+}
+

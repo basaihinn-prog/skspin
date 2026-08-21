@@ -1,0 +1,60 @@
+syntax = "proto3";
+package message;
+option go_package = "serve/servicejili/jili_43_xiyangyang/message";
+
+enum Symbol {
+
+    Wild = 0;
+    Bonus = 1;
+    Symbol1 = 2;
+    Symbol2 = 3;
+    Symbol3 = 4;
+    Symbol4 = 5;
+    Symbol5 = 6;
+    Symbol6 = 7;
+    Symbol7 = 8;
+    Symbol8 = 9;
+    SymbolLittle = 10;
+    SymbolLittle2 = 11;
+}
+
+message Block {
+
+    uint32 row = 1;
+    uint32 column = 2;
+}
+
+message Plate {
+
+    repeated ColumnData column = 1;
+    double win = 2;
+}
+
+message AllPlate {
+
+    repeated Plate plate = 1;
+    int32 bonus_type = 2;
+}
+
+message ColumnData {
+
+    repeated Cell row = 1;
+    bool is_change = 2;
+}
+
+message Cell {
+
+    int32 symbol = 1;
+    bool is_connect = 2;
+    bool is_change = 3;
+}
+
+enum BonusType {
+
+    None = 0;
+    RemoveSmall = 1;
+    WildReel = 2;
+    SmallToBig = 3;
+    MoveReel = 4;
+    Fake = 5;
+}

@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+package slots;
+
+import "pb/empty.proto";
+
+message SlotsGameDayStatRecord {
+    string Game           = 1;
+    string Date           = 2;
+    string Flag           = 3; //特殊的Flag就是针对All，代表
+    int64  EnterCount     = 4;
+    int64  Flow           = 5;  //押注
+    int64  Win            = 6;  //赢分
+    int64  YeJi           = 7;  //业绩
+    int64  NetProfit      = 8;  //净输赢
+    int64  Fee            = 9;  //抽水
+    int64  SelfPoolReward = 10; //个人奖池爆奖励
+}
+
+message SlotsGameDayStatDocsReq {
+    string          StartDate = 1;
+    string          EndDate   = 2;
+    string          Game      = 3;
+    repeated string Flags     = 4;
+}
+
+message SlotsGameDayStatDocsResp {
+    repeated SlotsGameDayStatRecord List = 1;
+}
+
+service SlotsGameDayStatRpc {
+    rpc IncBoth(SlotsGameDayStatRecord) returns (Empty);
+    rpc IncAll(SlotsGameDayStatRecord) returns (Empty);
+    rpc Docs(SlotsGameDayStatDocsReq) returns (SlotsGameDayStatDocsResp);
+}

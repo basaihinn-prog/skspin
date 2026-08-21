@@ -1,0 +1,599 @@
+{
+	"info": {
+		"_postman_id": "85c3550d-4dfa-4c71-81d3-323f87f24019",
+		"name": "Game Client",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37547201"
+	},
+	"item": [
+		{
+			"name": "1. Create Player",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Appsecret",
+						"value": "11c5d190-3add-4482-b6d4-ee990903f981",
+						"description": "Appsecret is static data. this variable should be set on header for client API request",
+						"type": "text"
+					},
+					{
+						"key": "Appid",
+						"value": "faketrans",
+						"description": "Appid is static data. this variable should be set on header for client API request",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{CLIENT API ENDPOINT}}/api/v1/player/create?UserID=mMHfVfnn-1737955714017-DemoUser",
+					"host": [
+						"{{CLIENT API ENDPOINT}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"player",
+						"create"
+					],
+					"query": [
+						{
+							"key": "UserID",
+							"value": "mMHfVfnn-1737955714017-DemoUser",
+							"description": "Random generated userID from client"
+						}
+					]
+				},
+				"description": "This API endpoint allows the client to create a new player with the specified UserID. Upon a successful execution of the request, the response will include the Pid (Player ID) associated with the newly created player.\n\nThe request should be sent as an HTTP POST to {{CLIENT API ENDPOINT}}/api/v1/player/create with the UserID parameter in the query string.\n\nThe response will have a status code of 200 and a content type of application/json. The response body will contain a JSON object with the keys \"code\", \"error\", and \"data\". The \"data\" object will include the Pid (Player ID) associated with the newly created player.\n\nExample response:\n\n``` json\n{\n    \"code\": 0,\n    \"error\": \"\",\n    \"data\": {\n        \"Pid\": 12345\n    }\n}\n\n ```\n\nThis endpoint makes an HTTP POST request to create a new player with the provided UserID.\n\n#### Request Parameters\n\n- UserID (query parameter) - The unique identifier for the user.\n    \n\n#### Response\n\nThe response is in JSON format and has the following schema:\n\n``` json\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"code\": {\n      \"type\": \"number\"\n    },\n    \"error\": {\n      \"type\": \"string\"\n    },\n    \"data\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"Pid\": {\n          \"type\": \"number\"\n        }\n      }\n    }\n  }\n}\n\n ```\n\nThe response contains the following fields:\n\n- code (number) - Indicates the status of the request.\n    \n- error (string) - Provides any error message, if applicable.\n    \n- data (object) - Contains the player information.\n    \n    - Pid (number) - The unique identifier for the newly created player."
+			},
+			"response": [
+				{
+					"name": "response",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Appsecret",
+								"value": "11c5d190-3add-4482-b6d4-ee990903f981",
+								"description": "Appsecret is static data. this variable should be set on header for client API request",
+								"type": "text"
+							},
+							{
+								"key": "Appid",
+								"value": "faketrans",
+								"description": "Appid is static data. this variable should be set on header for client API request",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{CLIENT API ENDPOINT}}/api/v1/player/create?UserID=mMHfVfnn-1737955714017-DemoUser",
+							"host": [
+								"{{CLIENT API ENDPOINT}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"player",
+								"create"
+							],
+							"query": [
+								{
+									"key": "UserID",
+									"value": "mMHfVfnn-1737955714017-DemoUser",
+									"description": "Random generated userID from client"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Alt-Svc",
+							"value": "h3=\":443\"; ma=2592000"
+						},
+						{
+							"key": "Content-Length",
+							"value": "43"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 29 Jan 2025 14:43:21 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": 0,\n    \"error\": \"\",\n    \"data\": {\n        \"Pid\": 103420   // The platform’s unique player ID\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "2. Generate Game URL",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Appsecret",
+						"value": "11c5d190-3add-4482-b6d4-ee990903f981",
+						"description": "Appsecret is static data. this variable should be set on header for client API request",
+						"type": "text"
+					},
+					{
+						"key": "Appid",
+						"value": "faketrans",
+						"description": "Appid is static data. this variable should be set on header for client API request",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{CLIENT API ENDPOINT}}/api/v1/game/launch?UserID=mMHfVfnn-1737955714017-DemoUser&GameID=jili_303_mp2&Platform=desktop&Language=en",
+					"host": [
+						"{{CLIENT API ENDPOINT}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"game",
+						"launch"
+					],
+					"query": [
+						{
+							"key": "UserID",
+							"value": "mMHfVfnn-1737955714017-DemoUser",
+							"description": "User ID"
+						},
+						{
+							"key": "GameID",
+							"value": "jili_303_mp2",
+							"description": "manufacture_id + \"_\" + game_id"
+						},
+						{
+							"key": "Platform",
+							"value": "desktop"
+						},
+						{
+							"key": "Language",
+							"value": "en"
+						}
+					]
+				},
+				"description": "This api responses the game url, and the browser opens up new tab with the custom url.  \n\n``` javascript\nlet Uri = `${res.data.data.Url}&game_name=${game.gameName}&mu=${game.manufacturerName}&_=${new Date().getTime()}`\n\n ```"
+			},
+			"response": [
+				{
+					"name": "response",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Appsecret",
+								"value": "11c5d190-3add-4482-b6d4-ee990903f981",
+								"description": "Appsecret is static data. this variable should be set on header for client API request",
+								"type": "text"
+							},
+							{
+								"key": "Appid",
+								"value": "faketrans",
+								"description": "Appid is static data. this variable should be set on header for client API request",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{CLIENT API ENDPOINT}}/api/v1/game/launch?UserID=mMHfVfnn-1737955714017-DemoUser&GameID=jili_303_mp2&Platform=desktop&Language=en",
+							"host": [
+								"{{CLIENT API ENDPOINT}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"game",
+								"launch"
+							],
+							"query": [
+								{
+									"key": "UserID",
+									"value": "mMHfVfnn-1737955714017-DemoUser",
+									"description": "User ID"
+								},
+								{
+									"key": "GameID",
+									"value": "jili_303_mp2",
+									"description": "manufacture_id + \"_\" + game_id"
+								},
+								{
+									"key": "Platform",
+									"value": "desktop"
+								},
+								{
+									"key": "Language",
+									"value": "en"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Alt-Svc",
+							"value": "h3=\":443\"; ma=2592000"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 29 Jan 2025 14:57:10 GMT"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Content-Length",
+							"value": "372"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": 0,\n    \"error\": \"\",\n    \"data\": {\n        \"Url\": \"https://m.skyspin.io/launch.html?exit=1&game_uri=https%3A%2F%2Fjilid-rslotszs001.skyspin.io%2Fmp2%2F%3FapiId%3D555%26be%3Dmoc.semag563tols.1afafaflj-df-tolsbw%26domain_gs%3Dtsetsemagpr%26domain_platform%3Dmoc.semag563tols.1afafaflj-df-tolsbw%26gameID%3D303%26gs%3Dmoc.semag563tols.1afafaflj-df-tolsbw%26iu%3Dtrue%26lang%3Den%26legalLang%3Dtrue%26ssoKey%3DeyJQIjoxMDM0MjAsIkUiOjE3MzgyMDU4MzAsIlMiOjEwMDIsIkQiOiJqaWxpXzMwM19tcDIifQ.fH-jiq1KzfCmAmJqw3PmfggSOpoKSjO4NtMp3RxAGrg&link=https%3A%2F%2Fgame.skyspin.io%2F\" // Game URI\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "3. Verify Operator Player Session",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{GAME API ENDPOINT}}/web-api/auth/session/v2/verifyOperatorPlayerSession?traceId=WEJFXU12&btt=1&vc=2&pf=1&l=en&gi=100&os=eyJQIjoxMDM0MjEsIkUiOjE3Mzk0MzE4ODgsIlMiOjEwMDEsIkQiOiJwZ18xMDAifQ.SRaGRXth8d7h5aqG3llnlUAVpIbEo9X1cfUiRkxyjPI&otk=abcd1234abcd123432531532111kkafa",
+					"host": [
+						"{{GAME API ENDPOINT}}"
+					],
+					"path": [
+						"web-api",
+						"auth",
+						"session",
+						"v2",
+						"verifyOperatorPlayerSession"
+					],
+					"query": [
+						{
+							"key": "traceId",
+							"value": "WEJFXU12"
+						},
+						{
+							"key": "btt",
+							"value": "1"
+						},
+						{
+							"key": "vc",
+							"value": "2"
+						},
+						{
+							"key": "pf",
+							"value": "1"
+						},
+						{
+							"key": "l",
+							"value": "en"
+						},
+						{
+							"key": "gi",
+							"value": "100"
+						},
+						{
+							"key": "os",
+							"value": "eyJQIjoxMDM0MjEsIkUiOjE3Mzk0MzE4ODgsIlMiOjEwMDEsIkQiOiJwZ18xMDAifQ.SRaGRXth8d7h5aqG3llnlUAVpIbEo9X1cfUiRkxyjPI"
+						},
+						{
+							"key": "otk",
+							"value": "abcd1234abcd123432531532111kkafa"
+						}
+					]
+				},
+				"description": "This API endpoint allows the client to create a new player with the specified UserID. Upon a successful execution of the request, the response will include the Pid (Player ID) associated with the newly created player.\n\nThe request should be sent as an HTTP POST to {{CLIENT API ENDPOINT}}/api/v1/player/create with the UserID parameter in the query string.\n\nThe response will have a status code of 200 and a content type of application/json. The response body will contain a JSON object with the keys \"code\", \"error\", and \"data\". The \"data\" object will include the Pid (Player ID) associated with the newly created player.\n\nExample response:\n\n``` json\n{\n    \"code\": 0,\n    \"error\": \"\",\n    \"data\": {\n        \"Pid\": 12345\n    }\n}\n\n ```\n\nThis endpoint makes an HTTP POST request to create a new player with the provided UserID.\n\n#### Request Parameters\n\n- UserID (query parameter) - The unique identifier for the user.\n    \n\n#### Response\n\nThe response is in JSON format and has the following schema:\n\n``` json\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"code\": {\n      \"type\": \"number\"\n    },\n    \"error\": {\n      \"type\": \"string\"\n    },\n    \"data\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"Pid\": {\n          \"type\": \"number\"\n        }\n      }\n    }\n  }\n}\n\n ```\n\nThe response contains the following fields:\n\n- code (number) - Indicates the status of the request.\n    \n- error (string) - Provides any error message, if applicable.\n    \n- data (object) - Contains the player information.\n    \n    - Pid (number) - The unique identifier for the newly created player."
+			},
+			"response": []
+		},
+		{
+			"name": "4. Get Game Name List",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "lang",
+							"value": " en",
+							"type": "text"
+						},
+						{
+							"key": "btt",
+							"value": " 1",
+							"type": "text"
+						},
+						{
+							"key": "atk",
+							"value": " eyJQIjoxMDM0MjEsIkUiOjE3Mzk0MzE4ODgsIlMiOjEwMDEsIkQiOiJwZ18xMDAifQ.SRaGRXth8d7h5aqG3llnlUAVpIbEo9X1cfUiRkxyjPI",
+							"type": "text"
+						},
+						{
+							"key": "pf",
+							"value": " 1",
+							"type": "text"
+						},
+						{
+							"key": "gid",
+							"value": " 100",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{GAME API ENDPOINT}}/web-api/game-proxy/v2/GameName/Get?traceId=NEMTBG12&lang= en&btt= 1&atk= eyJQIjoxMDM0MjEsIkUiOjE3Mzk0MzE4ODgsIlMiOjEwMDEsIkQiOiJwZ18xMDAifQ.SRaGRXth8d7h5aqG3llnlUAVpIbEo9X1cfUiRkxyjPI&pf= 1&gid= 100",
+					"host": [
+						"{{GAME API ENDPOINT}}"
+					],
+					"path": [
+						"web-api",
+						"game-proxy",
+						"v2",
+						"GameName",
+						"Get"
+					],
+					"query": [
+						{
+							"key": "traceId",
+							"value": "NEMTBG12"
+						},
+						{
+							"key": "lang",
+							"value": " en"
+						},
+						{
+							"key": "btt",
+							"value": " 1"
+						},
+						{
+							"key": "atk",
+							"value": " eyJQIjoxMDM0MjEsIkUiOjE3Mzk0MzE4ODgsIlMiOjEwMDEsIkQiOiJwZ18xMDAifQ.SRaGRXth8d7h5aqG3llnlUAVpIbEo9X1cfUiRkxyjPI"
+						},
+						{
+							"key": "pf",
+							"value": " 1"
+						},
+						{
+							"key": "gid",
+							"value": " 100"
+						}
+					]
+				},
+				"description": "This API endpoint allows the client to create a new player with the specified UserID. Upon a successful execution of the request, the response will include the Pid (Player ID) associated with the newly created player.\n\nThe request should be sent as an HTTP POST to {{CLIENT API ENDPOINT}}/api/v1/player/create with the UserID parameter in the query string.\n\nThe response will have a status code of 200 and a content type of application/json. The response body will contain a JSON object with the keys \"code\", \"error\", and \"data\". The \"data\" object will include the Pid (Player ID) associated with the newly created player.\n\nExample response:\n\n``` json\n{\n    \"code\": 0,\n    \"error\": \"\",\n    \"data\": {\n        \"Pid\": 12345\n    }\n}\n\n ```\n\nThis endpoint makes an HTTP POST request to create a new player with the provided UserID.\n\n#### Request Parameters\n\n- UserID (query parameter) - The unique identifier for the user.\n    \n\n#### Response\n\nThe response is in JSON format and has the following schema:\n\n``` json\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"code\": {\n      \"type\": \"number\"\n    },\n    \"error\": {\n      \"type\": \"string\"\n    },\n    \"data\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"Pid\": {\n          \"type\": \"number\"\n        }\n      }\n    }\n  }\n}\n\n ```\n\nThe response contains the following fields:\n\n- code (number) - Indicates the status of the request.\n    \n- error (string) - Provides any error message, if applicable.\n    \n- data (object) - Contains the player information.\n    \n    - Pid (number) - The unique identifier for the newly created player."
+			},
+			"response": []
+		},
+		{
+			"name": "5. Get Game Info",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "btt",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "atk",
+							"value": "eyJQIjoxMDM0MjEsIkUiOjE3Mzk0NTQxOTUsIlMiOjk5OCwiRCI6InBnXzEwMCJ9.aNMCF8OV8y1l_B18Hpxwb3qo0lgA-ngu53UGM0wGebo",
+							"description": "JWT token contains PID and Game ID",
+							"type": "text"
+						},
+						{
+							"key": "pf",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{GAME API ENDPOINT}}/game-api/100/v2/GameInfo/Get?traceId=MSPLCL13&atk=eyJQIjoxMDM0MjEsIkUiOjE3Mzk0NTQxOTUsIlMiOjk5OCwiRCI6InBnXzEwMCJ9.aNMCF8OV8y1l_B18Hpxwb3qo0lgA-ngu53UGM0wGebo&btt=1&pf=1",
+					"host": [
+						"{{GAME API ENDPOINT}}"
+					],
+					"path": [
+						"game-api",
+						"100",
+						"v2",
+						"GameInfo",
+						"Get"
+					],
+					"query": [
+						{
+							"key": "traceId",
+							"value": "MSPLCL13"
+						},
+						{
+							"key": "atk",
+							"value": "eyJQIjoxMDM0MjEsIkUiOjE3Mzk0NTQxOTUsIlMiOjk5OCwiRCI6InBnXzEwMCJ9.aNMCF8OV8y1l_B18Hpxwb3qo0lgA-ngu53UGM0wGebo"
+						},
+						{
+							"key": "btt",
+							"value": "1"
+						},
+						{
+							"key": "pf",
+							"value": "1"
+						}
+					]
+				},
+				"description": "This API endpoint allows the client to create a new player with the specified UserID. Upon a successful execution of the request, the response will include the Pid (Player ID) associated with the newly created player.\n\nThe request should be sent as an HTTP POST to {{CLIENT API ENDPOINT}}/api/v1/player/create with the UserID parameter in the query string.\n\nThe response will have a status code of 200 and a content type of application/json. The response body will contain a JSON object with the keys \"code\", \"error\", and \"data\". The \"data\" object will include the Pid (Player ID) associated with the newly created player.\n\nExample response:\n\n``` json\n{\n    \"code\": 0,\n    \"error\": \"\",\n    \"data\": {\n        \"Pid\": 12345\n    }\n}\n\n ```\n\nThis endpoint makes an HTTP POST request to create a new player with the provided UserID.\n\n#### Request Parameters\n\n- UserID (query parameter) - The unique identifier for the user.\n    \n\n#### Response\n\nThe response is in JSON format and has the following schema:\n\n``` json\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"code\": {\n      \"type\": \"number\"\n    },\n    \"error\": {\n      \"type\": \"string\"\n    },\n    \"data\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"Pid\": {\n          \"type\": \"number\"\n        }\n      }\n    }\n  }\n}\n\n ```\n\nThe response contains the following fields:\n\n- code (number) - Indicates the status of the request.\n    \n- error (string) - Provides any error message, if applicable.\n    \n- data (object) - Contains the player information.\n    \n    - Pid (number) - The unique identifier for the newly created player."
+			},
+			"response": []
+		},
+		{
+			"name": "6. Spin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "cs",
+							"value": "0.05",
+							"type": "text"
+						},
+						{
+							"key": "ml",
+							"value": "3",
+							"description": "JWT token contains PID and Game ID",
+							"type": "text"
+						},
+						{
+							"key": "sn",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "id",
+							"value": "662cecbd56c7703592f361db_2_2",
+							"type": "text"
+						},
+						{
+							"key": "wk",
+							"value": "0_C",
+							"type": "text"
+						},
+						{
+							"key": "btt",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "atk",
+							"value": "eyJQIjoxMDM0MjEsIkUiOjE3Mzk0NTQxOTUsIlMiOjk5OCwiRCI6InBnXzEwMCJ9.aNMCF8OV8y1l_B18Hpxwb3qo0lgA-ngu53UGM0wGebo",
+							"type": "text"
+						},
+						{
+							"key": "pf",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{GAME API ENDPOINT}}/game-api/100/v2/Spin?traceId=ZAKMMN13&cs=0.05&ml=3&sn=1&id=662cecbd56c7703592f361db_2_2&wk=0_C&btt=1&atk=eyJQIjoxMDM0MjEsIkUiOjE3Mzk0NTQxOTUsIlMiOjk5OCwiRCI6InBnXzEwMCJ9.aNMCF8OV8y1l_B18Hpxwb3qo0lgA-ngu53UGM0wGebo&pf=1",
+					"host": [
+						"{{GAME API ENDPOINT}}"
+					],
+					"path": [
+						"game-api",
+						"100",
+						"v2",
+						"Spin"
+					],
+					"query": [
+						{
+							"key": "traceId",
+							"value": "ZAKMMN13"
+						},
+						{
+							"key": "cs",
+							"value": "0.05",
+							"description": "Bet Size"
+						},
+						{
+							"key": "ml",
+							"value": "3",
+							"description": "Bet Level"
+						},
+						{
+							"key": "sn",
+							"value": "1"
+						},
+						{
+							"key": "id",
+							"value": "662cecbd56c7703592f361db_2_2"
+						},
+						{
+							"key": "wk",
+							"value": "0_C"
+						},
+						{
+							"key": "btt",
+							"value": "1"
+						},
+						{
+							"key": "atk",
+							"value": "eyJQIjoxMDM0MjEsIkUiOjE3Mzk0NTQxOTUsIlMiOjk5OCwiRCI6InBnXzEwMCJ9.aNMCF8OV8y1l_B18Hpxwb3qo0lgA-ngu53UGM0wGebo",
+							"description": "jwt contains player ID and game ID"
+						},
+						{
+							"key": "pf",
+							"value": "1"
+						}
+					]
+				},
+				"description": "This API endpoint allows the client to create a new player with the specified UserID. Upon a successful execution of the request, the response will include the Pid (Player ID) associated with the newly created player.\n\nThe request should be sent as an HTTP POST to {{CLIENT API ENDPOINT}}/api/v1/player/create with the UserID parameter in the query string.\n\nThe response will have a status code of 200 and a content type of application/json. The response body will contain a JSON object with the keys \"code\", \"error\", and \"data\". The \"data\" object will include the Pid (Player ID) associated with the newly created player.\n\nExample response:\n\n``` json\n{\n    \"code\": 0,\n    \"error\": \"\",\n    \"data\": {\n        \"Pid\": 12345\n    }\n}\n\n ```\n\nThis endpoint makes an HTTP POST request to create a new player with the provided UserID.\n\n#### Request Parameters\n\n- UserID (query parameter) - The unique identifier for the user.\n    \n\n#### Response\n\nThe response is in JSON format and has the following schema:\n\n``` json\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"code\": {\n      \"type\": \"number\"\n    },\n    \"error\": {\n      \"type\": \"string\"\n    },\n    \"data\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"Pid\": {\n          \"type\": \"number\"\n        }\n      }\n    }\n  }\n}\n\n ```\n\nThe response contains the following fields:\n\n- code (number) - Indicates the status of the request.\n    \n- error (string) - Provides any error message, if applicable.\n    \n- data (object) - Contains the player information.\n    \n    - Pid (number) - The unique identifier for the newly created player."
+			},
+			"response": []
+		}
+	]
+}

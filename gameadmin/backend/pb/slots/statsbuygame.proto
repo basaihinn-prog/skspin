@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+package slots;
+
+import "pb/empty.proto";
+import "pb/slots/data.proto";
+
+service SlotsStatsBuyGameRpc {
+    rpc Add(SlotsStatsBuyGame.Doc) returns (Empty);
+    rpc Query(SlotsStatsBuyGame.QueryReq) returns (SlotsStatsBuyGame.QueryResp);
+}

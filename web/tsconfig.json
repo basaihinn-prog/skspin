@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    // 路径配置
+    "baseUrl": "../assets",
+    "paths": { "@/*": ["src/*"],},
+    "outDir": "./dist/"
+  },
+  "lib": ["WebWorker"],
+
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    }
+  ]
+}

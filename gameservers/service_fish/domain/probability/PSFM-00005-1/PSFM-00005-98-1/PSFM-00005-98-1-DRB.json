@@ -1,0 +1,100 @@
+{
+  "FirstMultiplier_1": [ 100 ],
+  "FirstMultiplier_2": [ 100 ],
+  "FirstMultiplier_3": [ 100 ],
+  "BetGroup": {
+    "bet1": {
+      "Turnover": 20,
+      "Weight": 60
+    },
+    "bet2": {
+      "Turnover": 30,
+      "Weight": 60
+    },
+    "bet3": {
+      "Turnover": 40,
+      "Weight": 60
+    },
+    "bet4": {
+      "Turnover": 50,
+      "Weight": 10
+    },
+    "bet5": {
+      "Turnover": 60,
+      "Weight": 10
+    },
+    "bet6": {
+      "Turnover": 70,
+      "Weight": 0
+    },
+    "bet7": {
+      "Turnover": 80,
+      "Weight": 0
+    },
+    "bet8": {
+      "Turnover": 90,
+      "Weight": 0
+    },
+    "bet9": {
+      "Turnover": 100,
+      "Weight": 0
+    },
+    "bet10": {
+      "Turnover": 110,
+      "Weight": 0
+    }
+  },
+
+  "WinGroup": {
+    "Win1": {
+      "Multiplier": 10,
+      "Win": 2,
+      "Weight": 15
+    },
+    "Win2": {
+      "Multiplier": 10,
+      "Win": 4,
+      "Weight": 15
+    },
+    "Win3": {
+      "Multiplier": 10,
+      "Win": 5,
+      "Weight": 30
+    },
+    "Win4": {
+      "Multiplier": 10,
+      "Win": 6,
+      "Weight": 150
+    },
+    "Win5": {
+      "Multiplier": 10,
+      "Win": 8,
+      "Weight": 180
+    },
+    "Win6": {
+      "Multiplier": 10,
+      "Win": 10,
+      "Weight": 100
+    },
+    "Win7": {
+      "Multiplier": 10,
+      "Win": 15,
+      "Weight": 80
+    },
+    "Win8": {
+      "Multiplier": 10,
+      "Win": 20,
+      "Weight": 70
+    },
+    "Win9": {
+      "Multiplier": 10,
+      "Win": 25,
+      "Weight": 5
+    },
+    "Win10": {
+      "Multiplier": 10,
+      "Win": 30,
+      "Weight": 1
+    }
+  }
+}

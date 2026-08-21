@@ -1,0 +1,83 @@
+syntax = "proto3";
+package message;
+option go_package = "./";
+import "google/protobuf/timestamp.proto";
+
+message mw4_Grid {
+    optional int32 Col = 1;
+    optional int32 Row = 2;
+}
+
+message mw4_GridHit {
+    optional int32 Col = 1;
+    optional int32 Row = 2;
+    optional bool ChangeFlag = 3;
+}
+
+message mw4_GridJR {
+    optional int32 Col = 1;
+    optional int32 Row = 2;
+    repeated mw4_Grid Source = 3;
+}
+
+message mw4_MSymbol {
+    optional int32 Symbol = 1;
+    optional int32 Length = 2;
+}
+
+message mw4_MColumn {
+    repeated mw4_MSymbol MColumn = 1;
+}
+
+message mw4_CSymbol {
+    optional int32 Symbol = 1;
+    optional int32 Length = 2;
+    optional int32 Col = 3;
+    optional int32 Row = 4;
+}
+
+message mw4_AwardData {
+    optional int32 Symbol = 1;
+    optional int32 Count = 2;
+    optional int32 LineNum = 3;
+    optional double Win = 4;
+    repeated mw4_GridHit GridVec = 5;
+}
+
+message mw4_ComboStageInfo {
+    repeated mw4_MColumn ComboStageSymbol = 1;
+    optional double ComboStageWin = 2;
+    optional double ComboStageMult = 3;
+    repeated mw4_AwardData AwardDataVec = 4;
+    repeated mw4_MColumn FillSymbols = 5;
+    repeated mw4_CSymbol ChangeSymbols = 6;
+    repeated mw4_GridJR JokerReplace = 7;
+    optional bool MaxFlag = 8;
+}
+
+message mw4_RoundInfo {
+    repeated mw4_ComboStageInfo ComboStageData = 1;
+    optional double RoundWin = 2;
+    optional int32 AwardTypeFlag = 3;
+    optional int32 FreeRemainRound = 4;
+    optional int32 ScatterCount = 5;
+    optional bool MaxFlag = 6;
+}
+
+message mw4_SpinAck {
+    repeated mw4_RoundInfo RoundQueue = 1;
+    optional double FreeTotalWin = 2;
+    optional double TotalWin = 3;
+    optional int64 LogIndex = 4;
+    optional string ShowIndex = 5;
+    optional double NowMoney = 6;
+    optional int32 AckType = 7;
+    optional double RTP = 8;
+    optional bool Extra = 9;
+}
+
+message mw4_GameInfoData {
+    optional bool ShowExtra = 1;
+    repeated double Mul = 2;
+}
+

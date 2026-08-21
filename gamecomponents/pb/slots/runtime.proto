@@ -1,0 +1,38 @@
+
+syntax = "proto3";
+
+package slots;
+
+import "pb/empty.proto";
+import "pb/slots/data.proto";
+
+message AddRunTimeDataReq {
+    int64  Pid            = 1;
+    string Game           = 2;
+    int64  Expense        = 3;
+    int64  Income         = 4;
+    int64  SelfPoolReward = 5;
+    bool   IsSmallGame    = 6;
+    bool   IsFreeGameTurn = 7;
+}
+
+message GetTotalReq {
+    string Game = 1;
+}
+
+message GetTotalResp {
+    int64 Expense = 1;
+    int64 Income  = 2;
+}
+
+message FixRunTimeDataReq {
+    string Day  = 1;
+    string Game = 2;
+}
+
+service SlotsRuntimeRpc {
+    // 更新运行时数据
+    rpc AddRunTimeData(AddRunTimeDataReq) returns (Empty);
+    rpc GetTotal(GetTotalReq) returns (GetTotalResp);
+    rpc FixRunTimeData(FixRunTimeDataReq) returns (ThreeMonkeyRunTimeData);
+}

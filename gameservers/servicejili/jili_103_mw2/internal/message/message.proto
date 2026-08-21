@@ -1,0 +1,63 @@
+syntax = "proto3";
+package message;
+option go_package = "./";
+
+message mw2_Grid {
+    optional int32 Col = 1;
+    optional int32 Row = 2;
+}
+
+message mw2_MSymbol {
+    optional int32 Symbol = 1;
+    optional int32 Length = 2;
+    optional int32 Energy = 3;
+    optional bool Framed = 4;
+}
+
+message mw2_MColumn {
+    repeated mw2_MSymbol MColumn = 1;
+}
+
+message mw2_AwardData {
+    optional int32 Symbol = 1;
+    optional int32 Count = 2;
+    optional int32 LineNum = 3;
+    optional double Win = 4;
+    repeated mw2_Grid GridVec = 5;
+}
+
+message mw2_ComboStageInfo {
+    repeated mw2_MColumn ComboStageSymbol = 1;
+    optional double ComboStageWin = 2;
+    optional double ComboStageMult = 3;
+    repeated mw2_AwardData AwardDataVec = 4;
+    repeated mw2_MColumn FillSymbols = 5;
+    repeated mw2_MColumn ChangeSymbols = 6;
+    optional bool MaxFlag = 7;
+}
+
+message mw2_RoundInfo {
+    repeated mw2_ComboStageInfo ComboStageData = 1;
+    optional double RoundWin = 2;
+    optional int32 AwardTypeFlag = 3;
+    optional int32 FreeRemainRound = 4;
+    optional int32 ScatterCount = 5;
+    optional bool MaxFlag = 6;
+}
+
+message mw2_SpinAck {
+    repeated mw2_RoundInfo RoundQueue = 1;
+    optional double FreeTotalWin = 2;
+    optional double TotalWin = 3;
+    optional int64 LogIndex = 4;
+    optional string ShowIndex = 5;
+    optional double NowMoney = 6;
+    optional int32 AckType = 7;
+    optional double RTP = 8;
+}
+
+message mw2_GameInfoData {
+    optional bool ShowExtra = 1;
+    repeated double Mul = 2;
+}
+

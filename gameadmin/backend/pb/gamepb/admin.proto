@@ -1,0 +1,111 @@
+syntax = "proto3";
+
+import "pb/duck/mongodb/ObjectID.proto";
+import "pb/duck/mongodb/TimeStamp.proto";
+import "pb/empty.proto";
+import "pb/gamepb/customer.proto";
+
+message App {
+    string    AppID     = 1; // @gotags:bson:"_id"
+    string    AppSecret = 2;
+    string    Address   = 3; // 请求地址
+    string    Comment   = 4; // 备注
+    TimeStamp CreateAt  = 5; //
+}
+
+message AppListResp {
+    repeated App List = 1;
+}
+
+message PlayerInfoReq {
+    int64  Pid = 1;
+    string Uid = 2; // AppID-Uid 需要传入AppID
+}
+
+message DocPlayer {
+    // 内部ID
+    int64     Pid      = 1; // @gotags:bson:"_id"
+    string    Uid      = 2; // 外部id
+    string    AppID    = 3; // 所属产品
+    TimeStamp LoginAt  = 4; // 最后登录时间
+    TimeStamp CreateAt = 5; // 创建时间
+    int64     Bet      = 6;
+    int64     Win      = 7;
+}
+
+enum ModifyStatus {
+    OK  = 0;
+    Err = 1;
+}
+
+message DocModifyGoldLog {
+    ObjectID     ID       = 1;  //@gotags:bson:"_id"
+    int64        Pid      = 2;  // 内部id
+    int64        Change   = 3;  // 金币变化
+    int64        Balance  = 4;  // 修改后余额
+    string       Comment  = 5;  // 备注
+    ModifyStatus Status   = 6;  // 状态
+    TimeStamp    ReqTime  = 7;  // 请求时间
+    TimeStamp    RespTime = 8; // 回应时间
+}
+
+message PlayerListReq {
+    string AppID     = 1;
+    int64  PageIndex = 2;
+    int64  PageSize  = 3;
+}
+
+message PlayerListResp {
+    int64              Count = 1;
+    repeated DocPlayer List  = 2;
+}
+
+message BetLogListReq {
+    string             AppID     = 1; // 查询平台，空=查询所有平台
+    string             GameID    = 2; // 查询平台，空=查询所有平台
+    int64              Pid       = 3; // 玩家ID，空=所有玩家
+    int64              PageIndex = 4;
+    int64              PageSize  = 5;
+    repeated TimeStamp TimeRange = 6;
+}
+
+message BetLogListResp {
+    int64              Count = 1;
+    repeated DocBetLog List  = 2;
+}
+
+message ModifyLogListReq {
+    int64              Pid       = 1; // 玩家ID，空=所有玩家
+    int64              PageIndex = 2;
+    int64              PageSize  = 3;
+    repeated TimeStamp TimeRange = 4;
+}
+
+message ModifyLogListResp {
+    int64                     Count = 1;
+    repeated DocModifyGoldLog List  = 2;
+}
+
+//@ts: prefix(gamecenter)
+service AdminGameCenter {
+    // 添加一个产品
+    rpc AddApp(App) returns (App);
+    // 产品列表
+    rpc AppList(Empty) returns (AppListResp);
+    // 修改产品信息，Address/Comment 可修改
+    rpc ModifyApp(App) returns (Empty);
+    // 获取用户详情
+    rpc PlayerInfo(PlayerInfoReq) returns (DocPlayer);
+    //
+    rpc PlayerList(PlayerListReq) returns (PlayerListResp);
+    // 下注日志
+    rpc BetLogList(BetLogListReq) returns (BetLogListResp);
+    // 金币修改日志
+    rpc ModifyLogList(ModifyLogListReq) returns (ModifyLogListResp);
+    // 游戏列表
+    rpc GameList(Empty) returns (GameListResp);
+    // 修改一个游戏
+    rpc ModifyGame(Game) returns (Empty);
+    // 添加一个游戏
+    rpc AddGame(Game) returns (Empty);
+}

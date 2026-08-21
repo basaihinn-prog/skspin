@@ -1,0 +1,21 @@
+[
+  {
+    "id": "2",
+    "label": "节日",
+    "value": "festival",
+    "sort": "1"
+  },
+  {
+    "id": "3",
+    "label": "新游戏",
+    "value": "newGame",
+    "sort": "2"
+  },
+  {
+    "id": "4",
+    "label": "动物",
+    "value": "animal",
+    "sort": "3"
+  }
+]
+

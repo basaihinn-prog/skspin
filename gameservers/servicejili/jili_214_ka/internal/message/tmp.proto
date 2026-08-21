@@ -1,0 +1,54 @@
+syntax = "proto3";
+package message;
+option go_package = "./";
+import "google/protobuf/timestamp.proto";
+
+message ka_Column {
+    repeated int32 Col = 1;
+}
+
+message ka_ColumnFloat {
+    repeated double Col = 1;
+}
+
+message ka_AwardData {
+    optional int32 Symbol = 1;
+    optional int32 Count = 2;
+    optional int32 Line = 3;
+    optional double Win = 4;
+}
+
+message ka_RoundInfo {
+    repeated ka_Column PlateSymbol = 1;
+    repeated ka_AwardData AwardDataVec = 2;
+    optional int32 AwardTypeFlag = 3;
+    optional double RoundWin = 4;
+    optional int32 FreeRemainRound = 5;
+    repeated ka_Column MGWildVS = 6;
+    repeated int32 MGWildWinner = 7;
+    optional double MGMult = 8;
+    repeated double FGNowValue = 9;
+    repeated ka_ColumnFloat FGNewPlate = 10;
+    repeated int32 FGWinner = 11;
+    repeated ka_Column PlateSymbolLog = 12;
+    repeated double FGNowValueAfterDuel = 13;
+    repeated int32 MGMultResult = 14;
+    optional bool MaxFlag = 15;
+}
+
+message ka_SpinAck {
+    repeated ka_RoundInfo RoundQueue = 1;
+    optional double FreeTotalWin = 2;
+    optional double TotalWin = 3;
+    optional string ShowIndex = 4;
+    optional double NowMoney = 5;
+    optional int32 AckType = 6;
+    optional double Bet = 7;
+    optional double RTP = 8;
+}
+
+message ka_GameInfoData {
+    optional bool ShowExtra = 1;
+    repeated double Mul = 2;
+}
+

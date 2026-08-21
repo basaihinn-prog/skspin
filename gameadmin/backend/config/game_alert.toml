@@ -1,0 +1,5 @@
+[[Alert]]
+Trigger="singleWin"
+Target=""  # 飞机群http 接口。将{{Msg}}填到合适的地方
+Msg="ID:{{Pid}} {{Date}}在{{GameID}}游戏单局盈利超{{Win}}" 
+

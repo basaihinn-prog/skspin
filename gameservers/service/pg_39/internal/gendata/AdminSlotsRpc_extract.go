@@ -1,0 +1,89 @@
+package gendata
+
+import (
+	"context"
+	"log/slog"
+
+	"serve/comm/db"
+	"serve/comm/mux"
+
+	"github.com/samber/lo"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/bson/primitive"
+	"go.mongodb.org/mongo-driver/mongo"
+)
+
+func init() {
+	mux.RegRpc("/pg_39/AdminSlotsRpc/ExtractAction", "提取数据", "gendata", ExtractAction, []ExtractActionPsItem{
+		{
+			Index: 5,
+			Count: 1000,
+		},
+		{
+			Index: 6,
+			Count: 2000,
+		},
+	}).SetOnlyDev()
+}
+
+type ExtractActionPsItem struct {
+	Index int
+	Count int
+}
+
+func ExtractAction(reqs []ExtractActionPsItem, _ *int) (err error) {
+	coll := db.Collection("pgSpinData")
+
+	bucketIds := lo.Map(reqs, func(item ExtractActionPsItem, _ int) int {
+		return item.Index
+	})
+	coll.UpdateMany(context.TODO(), bson.M{
+		"bucketid": bson.M{"$in": bucketIds},
+	}, bson.M{
+		"$set": bson.M{"selected": false},
+	})
+
+	// db.users.aggregate(
+	// 	[ { $sample: { size: 3 } } ]
+	//  )
+	for _, req := range reqs {
+		slog.Info("ExtractAction", "index", req.Index, "count", req.Count)
+		if req.Count <= 0 {
+			continue
+		}
+
+		cursor, err := coll.Aggregate(context.TODO(), mongo.Pipeline{
+			db.D("$match", db.D(
+				"bucketid", req.Index,
+			)),
+
+			db.D("$sample", db.D("size", req.Count)),
+			// db.D("$set", db.D("selected", true)),
+			db.D("$project", db.D("_id", 1)),
+		})
+		if err != nil {
+			return err
+		}
+
+		type dt struct {
+			ID primitive.ObjectID `bson:"_id"`
+			// Times float64
+		}
+		var docs []dt
+		err = cursor.All(context.TODO(), &docs)
+		if err != nil {
+			return err
+		}
+		// fmt.Println(docs)
+
+		ids := lo.Map(docs, func(item dt, _ int) primitive.ObjectID {
+			return item.ID
+		})
+		_, err = coll.UpdateMany(context.TODO(), db.D("_id", db.D("$in", ids)), db.D("$set", db.D("selected", true)))
+		if err != nil {
+			return err
+		}
+	}
+
+	return
+}

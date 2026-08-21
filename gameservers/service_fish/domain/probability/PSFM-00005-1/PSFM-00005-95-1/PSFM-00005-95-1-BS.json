@@ -1,0 +1,1012 @@
+{
+  "ModuleType": "",
+  "BaseData": {
+    "ProjectID": "",
+    "ModuleID": "",
+    "GameType": "",
+    "StripType": "",
+    "GameTypeDetail": "",
+    "BonusList": [
+      ""
+    ]
+  },
+
+  "Icons": {
+    "Clam": {
+      "IconID": 0,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 2 ],
+      "RTP1": {
+        "ID": "40",
+        "HitWeight": [ 20000, 80000 ]
+      },
+      "RTP2": {
+        "ID": "60",
+        "HitWeight": [ 30000, 70000 ]
+      },
+      "RTP3": {
+        "ID": "80",
+        "HitWeight": [ 40000, 60000 ]
+      },
+      "RTP4": {
+        "ID": "100",
+        "HitWeight": [ 50000, 50000 ]
+      },
+      "RTP5": {
+        "ID": "200",
+        "HitWeight": [ 75000, 25000 ]
+      }
+    },
+
+    "Shrimp": {
+      "IconID": 1,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 2 ],
+      "RTP1": {
+        "ID": "40",
+        "HitWeight": [ 20000, 80000 ]
+      },
+      "RTP2": {
+        "ID": "60",
+        "HitWeight": [ 30000, 70000 ]
+      },
+      "RTP3": {
+        "ID": "80",
+        "HitWeight": [ 40000, 60000 ]
+      },
+      "RTP4": {
+        "ID": "100",
+        "HitWeight": [ 50000, 50000 ]
+      },
+      "RTP5": {
+        "ID": "200",
+        "HitWeight": [ 75000, 25000 ]
+      }
+    },
+
+    "Surmullet": {
+      "IconID": 2,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 3 ],
+      "RTP1": {
+        "ID": "40",
+        "HitWeight": [ 13333, 86667 ]
+      },
+      "RTP2": {
+        "ID": "60",
+        "HitWeight": [ 20000, 80000 ]
+      },
+      "RTP3": {
+        "ID": "100",
+        "HitWeight": [ 33333, 66667 ]
+      },
+      "RTP4": {
+        "ID": "150",
+        "HitWeight": [ 50000, 50000 ]
+      },
+      "RTP5": {
+        "ID": "200",
+        "HitWeight": [ 66667, 33333 ]
+      }
+    },
+
+    "Squid": {
+      "IconID": 3,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 4 ],
+      "RTP1": {
+        "ID": "40",
+        "HitWeight": [ 10000, 90000 ]
+      },
+      "RTP2": {
+        "ID": "60",
+        "HitWeight": [ 15000, 85000 ]
+      },
+      "RTP3": {
+        "ID": "100",
+        "HitWeight": [ 25000, 75000 ]
+      },
+      "RTP4": {
+        "ID": "150",
+        "HitWeight": [ 37500, 62500 ]
+      },
+      "RTP5": {
+        "ID": "200",
+        "HitWeight": [ 50000, 50000 ]
+      }
+    },
+
+    "Flying Fish": {
+      "IconID": 4,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 5 ],
+      "RTP1": {
+        "ID": "40",
+        "HitWeight": [ 8000, 92000 ]
+      },
+      "RTP2": {
+        "ID": "60",
+        "HitWeight": [ 12000, 88000 ]
+      },
+      "RTP3": {
+        "ID": "100",
+        "HitWeight": [ 20000, 80000 ]
+      },
+      "RTP4": {
+        "ID": "150",
+        "HitWeight": [ 30000, 70000 ]
+      },
+      "RTP5": {
+        "ID": "200",
+        "HitWeight": [ 40000, 60000 ]
+      }
+    },
+
+    "Halibut": {
+      "IconID": 5,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 6 ],
+      "RTP1": {
+        "ID": "40",
+        "HitWeight": [ 6667, 93333 ],
+        "TriggerIconID": 23
+      },
+      "RTP2": {
+        "ID": "60",
+        "HitWeight": [ 10000, 90000 ],
+        "TriggerIconID": 23
+      },
+      "RTP3": {
+        "ID": "100",
+        "HitWeight": [ 16667, 83333 ],
+        "TriggerIconID": 23
+      },
+      "RTP4": {
+        "ID": "150",
+        "HitWeight": [ 25000, 75000 ],
+        "TriggerIconID": 23
+      },
+      "RTP5": {
+        "ID": "200",
+        "HitWeight": [ 33333, 66667 ],
+        "TriggerIconID": 23
+      }
+    },
+
+    "Butterflyfish": {
+      "IconID": 6,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 7 ],
+      "RTP1": {
+        "ID": "40",
+        "HitWeight": [ 5714, 94286 ]
+      },
+      "RTP2": {
+        "ID": "60",
+        "HitWeight": [ 8571, 91429 ]
+      },
+      "RTP3": {
+        "ID": "100",
+        "HitWeight": [ 14286, 85714 ]
+      },
+      "RTP4": {
+        "ID": "150",
+        "HitWeight": [ 21429, 78571 ]
+      },
+      "RTP5": {
+        "ID": "200",
+        "HitWeight": [ 28571, 71429 ]
+      }
+    },
+
+    "Oplegnathus": {
+      "IconID": 7,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 8 ],
+      "RTP1": {
+        "ID": "40",
+        "HitWeight": [ 5000, 95000 ]
+      },
+      "RTP2": {
+        "ID": "60",
+        "HitWeight": [ 7500, 92500 ]
+      },
+      "RTP4": {
+        "ID": "100",
+        "HitWeight": [ 12500, 87500 ]
+      },
+      "RTP3": {
+        "ID": "150",
+        "HitWeight": [ 10000, 90000 ]
+      },
+      "RTP5": {
+        "ID": "200",
+        "HitWeight": [ 25000, 75000 ]
+      }
+    },
+
+    "Snapper": {
+      "IconID": 8,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 9 ],
+      "RTP1": {
+        "ID": "40",
+        "HitWeight": [ 4444, 95556 ]
+      },
+      "RTP2": {
+        "ID": "60",
+        "HitWeight": [ 6667, 93333 ]
+      },
+      "RTP3": {
+        "ID": "100",
+        "HitWeight": [ 11111, 88889 ]
+      },
+      "RTP4": {
+        "ID": "150",
+        "HitWeight": [ 16667, 83333 ]
+      },
+      "RTP5": {
+        "ID": "200",
+        "HitWeight": [ 22222, 77778 ]
+      }
+    },
+
+    "Mahi Mahi": {
+      "IconID": 9,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 10 ],
+      "RTP1": {
+        "ID": "40",
+        "HitWeight": [ 4000, 96000 ]
+      },
+      "RTP2": {
+        "ID": "60",
+        "HitWeight": [ 6000, 94000 ]
+      },
+      "RTP3": {
+        "ID": "100",
+        "HitWeight": [ 10000, 90000 ]
+      },
+      "RTP4": {
+        "ID": "150",
+        "HitWeight": [ 15000, 85000 ]
+      },
+      "RTP5": {
+        "ID": "200",
+        "HitWeight": [ 20000, 80000 ]
+      }
+    },
+
+    "Stingray": {
+      "IconID": 10,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 12 ],
+      "RTP1": {
+        "ID": "40",
+        "HitWeight": [ 3333, 96667 ]
+      },
+      "RTP2": {
+        "ID": "60",
+        "HitWeight": [ 5000, 95000 ]
+      },
+      "RTP3": {
+        "ID": "100",
+        "HitWeight": [ 8333, 91667 ]
+      },
+      "RTP4": {
+        "ID": "150",
+        "HitWeight": [ 12500, 87500 ]
+      },
+      "RTP5": {
+        "ID": "200",
+        "HitWeight": [ 16667, 83333 ]
+      }
+    },
+
+    "Lobster Waiter": {
+      "IconID": 11,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 15 ],
+      "RTP1": {
+        "ID": "50",
+        "HitWeight": [ 3333, 96667 ]
+      },
+      "RTP2": {
+        "ID": "60",
+        "HitWeight": [ 4000, 96000 ]
+      },
+      "RTP3": {
+        "ID": "80",
+        "HitWeight": [ 5333, 94667 ]
+      },
+      "RTP4": {
+        "ID": "100",
+        "HitWeight": [ 6667, 93333 ]
+      },
+      "RTP5": {
+        "ID": "200",
+        "HitWeight": [ 13333, 86667 ]
+      }
+    },
+
+    "Penguin Waiter": {
+      "IconID": 12,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 18 ],
+      "RTP1": {
+        "ID": "50",
+        "HitWeight": [ 2778, 97222 ],
+        "TriggerIconID": 24
+      },
+      "RTP2": {
+        "ID": "60",
+        "HitWeight": [ 3333, 96667 ],
+        "TriggerIconID": 24
+      },
+      "RTP3": {
+        "ID": "80",
+        "HitWeight": [ 4444, 95556 ],
+        "TriggerIconID": 24
+      },
+      "RTP4": {
+        "ID": "100",
+        "HitWeight": [ 5556, 94444 ],
+        "TriggerIconID": 24
+      },
+      "RTP5": {
+        "ID": "200",
+        "HitWeight": [ 11111, 88889 ],
+        "TriggerIconID": 24
+      }
+    },
+
+    "Platypus Senior Chef": {
+      "IconID": 13,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 20 ],
+      "RTP1": {
+        "ID": "50",
+        "HitWeight": [ 2500, 97500 ]
+      },
+      "RTP2": {
+        "ID": "60",
+        "HitWeight": [ 3000, 97000 ]
+      },
+      "RTP3": {
+        "ID": "80",
+        "HitWeight": [ 4000, 96000 ]
+      },
+      "RTP4": {
+        "ID": "100",
+        "HitWeight": [ 5000, 95000 ]
+      },
+      "RTP5": {
+        "ID": "200",
+        "HitWeight": [ 10000, 90000 ]
+      }
+    },
+
+    "Sea Lion Chef": {
+      "IconID": 14,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 25 ],
+      "RTP1": {
+        "ID": "50",
+        "HitWeight": [ 2000, 98000 ]
+      },
+      "RTP2": {
+        "ID": "60",
+        "HitWeight": [ 2400, 97600 ]
+      },
+      "RTP3": {
+        "ID": "80",
+        "HitWeight": [ 3200, 96800 ]
+      },
+      "RTP4": {
+        "ID": "100",
+        "HitWeight": [ 4000, 96000 ]
+      },
+      "RTP5": {
+        "ID": "200",
+        "HitWeight": [ 8000, 92000 ]
+      }
+    },
+
+    "Hairt Crab": {
+      "IconID": 15,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 30 ],
+      "RTP1": {
+        "ID": "60",
+        "HitWeight": [ 2000, 98000 ]
+      },
+      "RTP2": {
+        "ID": "80",
+        "HitWeight": [ 2667, 97333 ]
+      },
+      "RTP3": {
+        "ID": "100",
+        "HitWeight": [ 3333, 96667 ]
+      },
+      "RTP4": {
+        "ID": "200",
+        "HitWeight": [ 6667, 93333 ]
+      },
+      "RTP5": {
+        "ID": "300",
+        "HitWeight": [ 10000, 90000 ]
+      }
+    },
+
+    "Snaggletooth Shark": {
+      "IconID": 16,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 40 ],
+      "RTP1": {
+        "ID": "60",
+        "HitWeight": [ 1500, 98500 ]
+      },
+      "RTP2": {
+        "ID": "80",
+        "HitWeight": [ 2000, 98000 ]
+      },
+      "RTP3": {
+        "ID": "100",
+        "HitWeight": [ 2500, 97500 ]
+      },
+      "RTP4": {
+        "ID": "200",
+        "HitWeight": [ 5000, 95000 ]
+      },
+      "RTP5": {
+        "ID": "300",
+        "HitWeight": [ 7500, 92500 ]
+      }
+    },
+
+    "Swordfish": {
+      "IconID": 17,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 50 ],
+      "RTP1": {
+        "ID": "60",
+        "HitWeight": [ 1200, 98800 ]
+      },
+      "RTP2": {
+        "ID": "80",
+        "HitWeight": [ 1600, 98400 ]
+      },
+      "RTP3": {
+        "ID": "100",
+        "HitWeight": [ 2000, 98000 ]
+      },
+      "RTP4": {
+        "ID": "200",
+        "HitWeight": [ 4000, 96000 ]
+      },
+      "RTP5": {
+        "ID": "300",
+        "HitWeight": [ 6000, 94000 ]
+      }
+    },
+
+    "Whale Shark": {
+      "IconID": 18,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 80 ],
+      "RTP1": {
+        "ID": "60",
+        "HitWeight": [ 750, 99250 ]
+      },
+      "RTP2": {
+        "ID": "80",
+        "HitWeight": [ 1000, 99000 ]
+      },
+      "RTP3": {
+        "ID": "100",
+        "HitWeight": [ 1250, 98750 ]
+      },
+      "RTP4": {
+        "ID": "200",
+        "HitWeight": [ 2500, 97500 ]
+      },
+      "RTP5": {
+        "ID": "300",
+        "HitWeight": [ 3750, 96250 ]
+      }
+    },
+
+    "Giant Oarfish": {
+      "IconID": 19,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 100 ],
+      "RTP1": {
+        "ID": "60",
+        "HitWeight": [ 600, 99400 ]
+      },
+      "RTP2": {
+        "ID": "80",
+        "HitWeight": [ 800, 99200 ]
+      },
+      "RTP3": {
+        "ID": "100",
+        "HitWeight": [ 1000, 99000 ]
+      },
+      "RTP4": {
+        "ID": "200",
+        "HitWeight": [ 2000, 98000 ]
+      },
+      "RTP5": {
+        "ID": "300",
+        "HitWeight": [ 3000, 97000 ]
+      }
+    },
+
+
+    "Red envelope": {
+      "IconID": 100,
+      "BonusID": "",
+      "BonusTimes": [],
+      "RTP1": {
+        "ID": "80",
+        "AvgPay": [ 61 ],
+        "HitWeight": [ 1280, 98720 ],
+        "LowIconPays": [ 10, 15, 20, 25, 30, 50 ],
+        "LowIconPaysWeight": [ 10, 10, 10, 10, 5, 2 ],
+        "HighIconPays": [ 100, 200, 300, 500, 1000 ],
+        "HighIconPaysWeight": [ 150, 150, 100, 50, 1 ]
+      },
+      "RTP2": {
+        "ID": "100",
+        "AvgPay": [ 61 ],
+        "HitWeight": [ 1601, 98399 ],
+        "LowIconPays": [ 10, 15, 20, 25, 30, 50 ],
+        "LowIconPaysWeight": [ 10, 10, 10, 10, 5, 2 ],
+        "HighIconPays": [ 100, 200, 300, 500, 1000 ],
+        "HighIconPaysWeight": [ 150, 150, 100, 50, 1 ]
+      },
+      "RTP3": {
+        "ID": "150",
+        "AvgPay": [ 61 ],
+        "HitWeight": [ 2401, 97599 ],
+        "LowIconPays": [ 10, 15, 20, 25, 30, 50 ],
+        "LowIconPaysWeight": [ 10, 10, 10, 10, 5, 2 ],
+        "HighIconPays": [ 100, 200, 300, 500, 1000 ],
+        "HighIconPaysWeight": [ 150, 150, 100, 50, 1 ]
+      },
+      "RTP4": {
+        "ID": "200",
+        "AvgPay": [ 61 ],
+        "HitWeight": [ 3201, 96799 ],
+        "LowIconPays": [ 10, 15, 20, 25, 30, 50 ],
+        "LowIconPaysWeight": [ 10, 10, 10, 10, 5, 2 ],
+        "HighIconPays": [ 100, 200, 300, 500, 1000 ],
+        "HighIconPaysWeight": [ 150, 150, 100, 50, 1 ]
+      },
+      "RTP5": {
+        "ID": "300",
+        "AvgPay": [ 61 ],
+        "HitWeight": [ 4802, 95198 ],
+        "LowIconPays": [ 10, 15, 20, 25, 30, 50 ],
+        "LowIconPaysWeight": [ 10, 10, 10, 10, 5, 2 ],
+        "HighIconPays": [ 100, 200, 300, 500, 1000 ],
+        "HighIconPaysWeight": [ 150, 150, 100, 50, 1 ]
+      }
+    },
+
+
+    "slot": {
+      "IconID": 101,
+      "BonusID": "PSFM-00005-97-1-FS",
+      "BonusTimes": [ 1 ],
+      "IconPays": [ 0 ],
+      "RTP1": {
+        "ID": "80",
+        "AvgPay": [ 115 ],
+        "HitWeight": [ 701, 99299 ]
+      },
+      "RTP2": {
+        "ID": "100",
+        "AvgPay": [ 115 ],
+        "HitWeight": [ 877, 99123 ]
+      },
+      "RTP3": {
+        "ID": "150",
+        "AvgPay": [ 115 ],
+        "HitWeight": [ 1315, 98685 ]
+      },
+      "RTP4": {
+        "ID": "200",
+        "AvgPay": [ 115 ],
+        "HitWeight": [ 1753, 98247 ]
+      },
+      "RTP5": {
+        "ID": "300",
+        "AvgPay": [ 115 ],
+        "HitWeight": [ 2630, 97370 ]
+      }
+    },
+
+    "Machine Gun": {
+      "IconID": 201,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 10 ],
+      "UseRTP": "100",
+      "RTP1": {
+        "ID": "80",
+        "AvgPay": [ 66 ],
+        "HitWeight": [ 1219, 98781 ],
+        "BonusTimes": [ 20, 25, 30, 35, 40, 45, 50, 60, 80, 100 ],
+        "BonusTimesWeight": [ 5, 10, 10, 10, 20, 30, 30, 30, 30, 20 ],
+        "BonusIconID": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 26, 27 ]
+      },
+      "RTP2": {
+        "ID": "100",
+        "AvgPay": [ 66 ],
+        "HitWeight": [ 1523, 98477 ],
+        "BonusTimes": [ 20, 25, 30, 35, 40, 45, 50, 60, 80, 100 ],
+        "BonusTimesWeight": [ 5, 10, 10, 10, 20, 30, 30, 30, 30, 20 ],
+        "BonusIconID": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 26, 27 ]
+      },
+      "RTP3": {
+        "ID": "150",
+        "AvgPay": [ 66 ],
+        "HitWeight": [ 2285, 97715 ],
+        "BonusTimes": [ 20, 25, 30, 35, 40, 45, 50, 60, 80, 100 ],
+        "BonusTimesWeight": [ 5, 10, 10, 10, 20, 30, 30, 30, 30, 20 ],
+        "BonusIconID": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 26, 27 ]
+      },
+      "RTP4": {
+        "ID": "200",
+        "AvgPay": [ 66 ],
+        "HitWeight": [ 3047, 96953 ],
+        "BonusTimes": [ 20, 25, 30, 35, 40, 45, 50, 60, 80, 100 ],
+        "BonusTimesWeight": [ 5, 10, 10, 10, 20, 30, 30, 30, 30, 20 ],
+        "BonusIconID": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 26, 27 ]
+      },
+      "RTP5": {
+        "ID": "300",
+        "AvgPay": [ 66 ],
+        "HitWeight": [ 4570, 95430 ],
+        "BonusTimes": [ 20, 25, 30, 35, 40, 45, 50, 60, 80, 100 ],
+        "BonusTimesWeight": [ 5, 10, 10, 10, 20, 30, 30, 30, 30, 20 ],
+        "BonusIconID": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 26, 27 ]
+      }
+    },
+
+    "Super Machine Gun": {
+      "IconID": 202,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 10 ],
+      "UseRTP": "200",
+      "RTP1": {
+        "ID": "80",
+        "AvgPay": [ 107 ],
+        "HitWeight": [ 749, 99251 ],
+        "BonusTimes": [ 20, 25, 30, 35, 40, 45, 50, 60, 80, 100 ],
+        "BonusTimesWeight": [ 5, 10, 10, 10, 20, 30, 30, 30, 10, 5 ],
+        "BonusIconID": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 25, 26, 27 ]
+      },
+      "RTP2": {
+        "ID": "100",
+        "AvgPay": [ 107 ],
+        "HitWeight": [ 936, 99064 ],
+        "BonusTimes": [ 20, 25, 30, 35, 40, 45, 50, 60, 80, 100 ],
+        "BonusTimesWeight": [ 5, 10, 10, 10, 20, 30, 30, 30, 10, 5 ],
+        "BonusIconID": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 25, 26, 27 ]
+      },
+      "RTP3": {
+        "ID": "150",
+        "AvgPay": [ 107 ],
+        "HitWeight": [ 1404, 98596 ],
+        "BonusTimes": [ 20, 25, 30, 35, 40, 45, 50, 60, 80, 100 ],
+        "BonusTimesWeight": [ 5, 10, 10, 10, 20, 30, 30, 30, 10, 5 ],
+        "BonusIconID": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 25, 26, 27 ]
+      },
+      "RTP4": {
+        "ID": "200",
+        "AvgPay": [ 107 ],
+        "HitWeight": [ 1871, 98129 ],
+        "BonusTimes": [ 20, 25, 30, 35, 40, 45, 50, 60, 80, 100 ],
+        "BonusTimesWeight": [ 5, 10, 10, 10, 20, 30, 30, 30, 10, 5 ],
+        "BonusIconID": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 25, 26, 27 ]
+      },
+      "RTP5": {
+        "ID": "300",
+        "AvgPay": [ 107 ],
+        "HitWeight": [ 2807, 97193 ],
+        "BonusTimes": [ 20, 25, 30, 35, 40, 45, 50, 60, 80, 100 ],
+        "BonusTimesWeight": [ 5, 10, 10, 10, 20, 30, 30, 30, 10, 5 ],
+        "BonusIconID": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 25, 26, 27 ]
+      }
+    },
+
+    "Lobster Dish": {
+      "IconID": 300,
+      "BonusID": "",
+      "BonusTimes": [],
+      "RTP1": {
+        "ID": "60",
+        "AvgPay": [ 82 ],
+        "HitWeight": [ 732, 99268 ],
+        "IconPays": [ 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150 ],
+        "IconPaysWeight": [ 20, 30, 40, 40, 30, 15, 10, 5, 5, 5, 5 ]
+      },
+      "RTP2": {
+        "ID": "80",
+        "AvgPay": [ 82 ],
+        "HitWeight": [ 976, 99024 ],
+        "IconPays": [ 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150 ],
+        "IconPaysWeight": [ 20, 30, 40, 40, 30, 15, 10, 5, 5, 5, 5 ]
+      },
+      "RTP3": {
+        "ID": "100",
+        "AvgPay": [ 82 ],
+        "HitWeight": [ 1220, 98780 ],
+        "IconPays": [ 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150 ],
+        "IconPaysWeight": [ 20, 30, 40, 40, 30, 15, 10, 5, 5, 5, 5 ]
+      },
+      "RTP4": {
+        "ID": "200",
+        "AvgPay": [ 82 ],
+        "HitWeight": [ 2440, 97560 ],
+        "IconPays": [ 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150 ],
+        "IconPaysWeight": [ 20, 30, 40, 40, 30, 15, 10, 5, 5, 5, 5 ]
+      },
+      "RTP5": {
+        "ID": "300",
+        "AvgPay": [ 82 ],
+        "HitWeight": [ 3661, 96339 ],
+        "IconPays": [ 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150 ],
+        "IconPaysWeight": [ 20, 30, 40, 40, 30, 15, 10, 5, 5, 5, 5 ]
+      }
+    },
+
+    "Fruit Dish": {
+      "IconID": 301,
+      "BonusID": "",
+      "BonusTimes": [],
+      "RTP1": {
+        "ID": "60",
+        "HitWeight": [ 682, 99318 ],
+        "AvgPay": [ 88 ],
+        "IconPays": [ 25, 50, 75, 100, 125, 150, 175, 200 ],
+        "IconPaysWeight": [ 5, 20, 40, 30, 10, 5, 5, 1 ]
+      },
+      "RTP2": {
+        "ID": "80",
+        "HitWeight": [ 910, 99090 ],
+        "AvgPay": [ 88 ],
+        "IconPays": [ 25, 50, 75, 100, 125, 150, 175, 200 ],
+        "IconPaysWeight": [ 5, 20, 40, 30, 10, 5, 5, 1 ]
+      },
+      "RTP3": {
+        "ID": "100",
+        "HitWeight": [ 1137, 98863 ],
+        "AvgPay": [ 88 ],
+        "IconPays": [ 25, 50, 75, 100, 125, 150, 175, 200 ],
+        "IconPaysWeight": [ 5, 20, 40, 30, 10, 5, 5, 1 ]
+      },
+      "RTP4": {
+        "ID": "200",
+        "HitWeight": [ 2275, 97725 ],
+        "AvgPay": [ 88 ],
+        "IconPays": [ 25, 50, 75, 100, 125, 150, 175, 200 ],
+        "IconPaysWeight": [ 5, 20, 40, 30, 10, 5, 5, 1 ]
+      },
+      "RTP5": {
+        "ID": "300",
+        "HitWeight": [ 3412, 96588 ],
+        "AvgPay": [ 88 ],
+        "IconPays": [ 25, 50, 75, 100, 125, 150, 175, 200 ],
+        "IconPaysWeight": [ 5, 20, 40, 30, 10, 5, 5, 1 ]
+      }
+    },
+
+    "XIAO LONG BAO": {
+      "IconID": 302,
+      "BonusID": "",
+      "BonusTimes": [],
+      "RTP1": {
+        "ID": "60",
+        "HitWeight": [ 779, 99221 ],
+        "AvgPay": [ 77 ],
+        "Gain amount": [ 1, 2, 3, 4, 5 ],
+        "Gain amount weight": [ 30, 40, 20, 5, 1 ],
+        "1 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 1, 5, 5, 5, 5, 30, 30, 30, 20, 5, 5 ]
+        },
+        "2 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 40, 50, 60, 20, 20, 10, 10, 10, 5, 1, 1 ]
+        },
+        "3 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 30, 40, 30, 10, 10, 5, 1, 1, 1, 1, 1 ]
+        },
+        "4 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 20, 30, 20, 20, 20, 5, 5, 5, 1, 1, 1 ]
+        },
+        "5 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 20, 30, 30, 20, 10, 5, 5, 1, 1, 1, 1 ]
+        }
+      },
+      "RTP2": {
+        "ID": "80",
+        "HitWeight": [ 1039, 98961 ],
+        "AvgPay": [ 77 ],
+        "Gain amount": [ 1, 2, 3, 4, 5 ],
+        "Gain amount weight": [ 30, 40, 20, 5, 1 ],
+        "1 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 1, 5, 5, 5, 5, 30, 30, 30, 20, 5, 5 ]
+        },
+        "2 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 40, 50, 60, 20, 20, 10, 10, 10, 5, 1, 1 ]
+        },
+        "3 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 30, 40, 30, 10, 10, 5, 1, 1, 1, 1, 1 ]
+        },
+        "4 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 20, 30, 20, 20, 20, 5, 5, 5, 1, 1, 1 ]
+        },
+        "5 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 20, 30, 30, 20, 10, 5, 5, 1, 1, 1, 1 ]
+        }
+      },
+      "RTP3": {
+        "ID": "100",
+        "HitWeight": [ 1299, 98701 ],
+        "AvgPay": [ 77 ],
+        "Gain amount": [ 1, 2, 3, 4, 5 ],
+        "Gain amount weight": [ 30, 40, 20, 5, 1 ],
+        "1 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 1, 5, 5, 5, 5, 30, 30, 30, 20, 5, 5 ]
+        },
+        "2 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 40, 50, 60, 20, 20, 10, 10, 10, 5, 1, 1 ]
+        },
+        "3 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 30, 40, 30, 10, 10, 5, 1, 1, 1, 1, 1 ]
+        },
+        "4 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 20, 30, 20, 20, 20, 5, 5, 5, 1, 1, 1 ]
+        },
+        "5 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 20, 30, 30, 20, 10, 5, 5, 1, 1, 1, 1 ]
+        }
+      },
+      "RTP4": {
+        "ID": "200",
+        "HitWeight": [ 2598, 97402 ],
+        "AvgPay": [ 77 ],
+        "Gain amount": [ 1, 2, 3, 4, 5 ],
+        "Gain amount weight": [ 30, 40, 20, 5, 1 ],
+        "1 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 1, 5, 5, 5, 5, 30, 30, 30, 20, 5, 5 ]
+        },
+        "2 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 40, 50, 60, 20, 20, 10, 10, 10, 5, 1, 1 ]
+        },
+        "3 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 30, 40, 30, 10, 10, 5, 1, 1, 1, 1, 1 ]
+        },
+        "4 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 20, 30, 20, 20, 20, 5, 5, 5, 1, 1, 1 ]
+        },
+        "5 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 20, 30, 30, 20, 10, 5, 5, 1, 1, 1, 1 ]
+        }
+      },
+      "RTP5": {
+        "ID": "300",
+        "HitWeight": [ 3897, 96103 ],
+        "AvgPay": [ 77 ],
+        "Gain amount": [ 1, 2, 3, 4, 5 ],
+        "Gain amount weight": [ 30, 40, 20, 5, 1 ],
+        "1 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 1, 5, 5, 5, 5, 30, 30, 30, 20, 5, 5 ]
+        },
+        "2 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 40, 50, 60, 20, 20, 10, 10, 10, 5, 1, 1 ]
+        },
+        "3 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 30, 40, 30, 10, 10, 5, 1, 1, 1, 1, 1 ]
+        },
+        "4 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 20, 30, 20, 20, 20, 5, 5, 5, 1, 1, 1 ]
+        },
+        "5 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 20, 30, 30, 20, 10, 5, 5, 1, 1, 1, 1 ]
+        }
+      }
+    },
+
+    "WHITE TIGER CHEF": {
+      "IconID": 400,
+      "BonusID": "",
+      "BonusTimes": [],
+      "RTP1": {
+        "ID": "60",
+        "AvgPay": [ 120 ],
+        "HitWeight": [ 501, 99499 ],
+        "IconPays": [ 50, 75, 100, 125, 150, 175, 200, 250, 300 ],
+        "IconPaysWeight": [ 5, 40, 40, 30, 20, 10, 10, 5, 1 ]
+      },
+      "RTP2": {
+        "ID": "80",
+        "AvgPay": [ 120 ],
+        "HitWeight": [ 667, 99333 ],
+        "IconPays": [ 50, 75, 100, 125, 150, 175, 200, 250, 300 ],
+        "IconPaysWeight": [ 5, 40, 40, 30, 20, 10, 10, 5, 1 ]
+      },
+      "RTP3": {
+        "ID": "100",
+        "AvgPay": [ 120 ],
+        "HitWeight": [ 834, 99166 ],
+        "IconPays": [ 50, 75, 100, 125, 150, 175, 200, 250, 300 ],
+        "IconPaysWeight": [ 5, 40, 40, 30, 20, 10, 10, 5, 1 ]
+      },
+      "RTP4": {
+        "ID": "200",
+        "AvgPay": [ 120 ],
+        "HitWeight": [ 1668, 98332 ],
+        "IconPays": [ 50, 75, 100, 125, 150, 175, 200, 250, 300 ],
+        "IconPaysWeight": [ 5, 40, 40, 30, 20, 10, 10, 5, 1 ]
+      },
+      "RTP5": {
+        "ID": "300",
+        "AvgPay": [ 120 ],
+        "HitWeight": [ 2503, 97497 ],
+        "IconPays": [ 50, 75, 100, 125, 150, 175, 200, 250, 300 ],
+        "IconPaysWeight": [ 5, 40, 40, 30, 20, 10, 10, 5, 1 ]
+      }
+    }
+
+
+  }
+}

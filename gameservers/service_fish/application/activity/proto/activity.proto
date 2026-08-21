@@ -1,0 +1,29 @@
+syntax = "proto3";
+package activity.proto;
+
+import "pkg/mod/serve/fish_comm/flux/common@v0.1.1/proto/common.proto";
+
+enum Kind {
+    KILL_RANKING                                                           = 0; // 擊殺數量
+    WIN_RANKING                                                            = 1; // 贏分累積
+}
+
+enum Status {
+    PREVIEW                                                                = 0; // 預覽
+    START                                                                  = 1; // 開始
+    STOP                                                                   = 2; // 結束
+    CLOSE                                                                  = 3; // 關閉
+}
+
+message Settings {
+    common.proto.EMSGID msgid                                              = 1;
+    repeated Activity activities                                           = 2;
+}
+
+message Activity {
+    string uuid                                                            = 1;
+    string url                                                             = 2;
+    repeated int64 time                                                    = 3; // 每個階段的時間點
+    Kind kind                                                              = 4;
+    Status status                                                          = 5;
+}

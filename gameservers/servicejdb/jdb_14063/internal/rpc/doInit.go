@@ -1,0 +1,66 @@
+package rpc
+
+import (
+	"encoding/json"
+	"fmt"
+	"github.com/nats-io/nats.go"
+	"serve/comm/db"
+	"serve/comm/redisx"
+	"serve/servicejdb/jdb_14063/internal"
+	"serve/servicejdb/jdbcomm"
+)
+
+func init() {
+	jdbcomm.RegRpc("h5.init", doInit)
+}
+
+var (
+	sampleDoInit = `{"maxBet":9223372036854775807,"defaultWaysBetIdx":-1,"singleBetCombinations":{"10_10_1_NoExtraBet":30,"10_1_1_NoExtraBet":3,"10_20_1_NoExtraBet":60,"10_2_1_NoExtraBet":6,"10_5_1_NoExtraBet":15},"minBet":0,"gambleTimes":0,"defaultLineBetIdx":0,"defaultConnectBetIdx":-1,"defaultQuantityBetIdx":-1,"gameFeatureCount":3,"executeSetting":{"settingId":"v3_14063_05_00_001","betSpecSetting":{"paymentType":"PT_026","extraBetTypeList":["NoExtraBet"],"betSpecification":{"lineBetList":[1,2,5,10,20],"betLineList":[1],"betType":"LineGame"}},"gameStateSetting":[{"gameStateType":"GS_129","frameSetting":{"screenColumn":4,"screenRow":1,"wheelUsePattern":"Dependent"},"tableSetting":{"tableCount":1,"tableHitProbability":[1.0],"wheelData":[[{"wheelLength":14,"noWinIndex":[2],"wheelData":[11,10,8,7,10,9,8,11,8,10,9,11,8,7]},{"wheelLength":24,"noWinIndex":[5],"wheelData":[8,7,10,11,7,9,7,10,9,11,8,11,9,11,9,8,11,10,8,9,11,9,10,11]},{"wheelLength":15,"noWinIndex":[2],"wheelData":[8,11,9,10,8,11,9,10,9,7,11,7,9,8,10]},{"wheelLength":26,"noWinIndex":[11],"wheelData":[5,0,3,5,0,2,5,0,3,2,4,1,0,3,5,0,3,5,0,4,0,3,0,2,0,2]}]]},"symbolSetting":{"symbolCount":12,"symbolAttribute":["BonusGame_01","BonusGame_02","BonusGame_03","BonusGame_04","BonusGame_05","BonusGame_06","FreeGame_01","M1","M2","M3","M4","M5"],"payTable":[[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,1000,0],[0,0,200,0],[0,0,100,0],[0,0,40,0],[0,0,20,0]],"mixGroupCount":20,"mixGroupSetting":[{"count":2,"symbol":[7,8],"payTable":[0,0,40,0]},{"count":2,"symbol":[7,9],"payTable":[0,0,40,0]},{"count":2,"symbol":[8,9],"payTable":[0,0,40,0]},{"count":3,"symbol":[7,8,9],"payTable":[0,0,40,0]},{"count":2,"symbol":[10,11],"payTable":[0,0,10,0]},{"count":2,"symbol":[7,10],"payTable":[0,0,4,0]},{"count":2,"symbol":[7,11],"payTable":[0,0,4,0]},{"count":2,"symbol":[8,10],"payTable":[0,0,4,0]},{"count":2,"symbol":[8,11],"payTable":[0,0,4,0]},{"count":2,"symbol":[9,10],"payTable":[0,0,4,0]},{"count":2,"symbol":[9,11],"payTable":[0,0,4,0]},{"count":3,"symbol":[7,8,10],"payTable":[0,0,4,0]},{"count":3,"symbol":[7,8,11],"payTable":[0,0,4,0]},{"count":3,"symbol":[7,9,10],"payTable":[0,0,4,0]},{"count":3,"symbol":[7,9,11],"payTable":[0,0,4,0]},{"count":3,"symbol":[8,9,10],"payTable":[0,0,4,0]},{"count":3,"symbol":[8,9,11],"payTable":[0,0,4,0]},{"count":3,"symbol":[7,10,11],"payTable":[0,0,4,0]},{"count":3,"symbol":[8,10,11],"payTable":[0,0,4,0]},{"count":3,"symbol":[9,10,11],"payTable":[0,0,4,0]}]},"lineSetting":{"maxBetLine":1,"lineTable":[[0,0,0,0]]},"gameHitPatternSetting":{"gameHitPattern":"LineGame_LeftToRight","maxEliminateTimes":0},"specialFeatureSetting":{"specialFeatureCount":0,"specialHitInfo":[]},"progressSetting":{"triggerLimitType":"NoLimit","stepSetting":{"defaultStep":1,"addStep":0,"maxStep":1},"stageSetting":{"defaultStage":1,"addStage":0,"maxStage":1},"roundSetting":{"defaultRound":1,"addRound":0,"maxRound":1}},"displaySetting":{"readyHandSetting":{"readyHandLimitType":"NoReadyHandLimit","readyHandCount":0,"readyHandType":[]}},"extendSetting":{"bonusDampSize":3,"bonusType":["Respins","Multiple","Multiple","Multiple","Extra","Extra","","","","","",""],"bonusExtra":[0,0,0,0,100,10,0,0,0,0,0,0],"bonusMultiple":[1,10,5,2,1,1,1,1,1,1,1,1],"respinRoundWeight":[30,26,21,12,11]}}],"doubleGameSetting":{"doubleRoundUpperLimit":5,"doubleBetUpperLimit":1000000000,"rtp":0.96,"tieRate":0.1},"boardDisplaySetting":{"winRankSetting":{"BigWin":90000,"MegaWin":99000,"UltraWin":99900}},"gameFlowSetting":{"conditionTableWithoutBoardEnd":[["CD_False","CD_True"],["CD_False","CD_False"]]}},"denoms":[10],"defaultDenomIdx":0,"defaultBetLineIdx":0,"betCombinations":{"10_1_NoExtraBet":30,"1_1_NoExtraBet":3,"20_1_NoExtraBet":60,"2_1_NoExtraBet":6,"5_1_NoExtraBet":15},"gambleLimit":0,"buyFeatureLimit":2147483647,"buyFeature":true,"defaultWaysBetColumnIdx":-1}`
+)
+
+//pp.PutByteArray("entity", []byte(`{"maxBet":9223372036854775807,"defaultWaysBetIdx":-1,"singleBetCombinations":{"10_10_9_NoExtraBet":90,"10_1_9_NoExtraBet":9,"10_20_9_NoExtraBet":180,"10_30_9_NoExtraBet":270,"10_40_9_NoExtraBet":360,"10_50_9_NoExtraBet":450,"10_5_9_NoExtraBet":45},"minBet":0,"gambleTimes":0,"defaultLineBetIdx":0,"defaultConnectBetIdx":-1,"defaultQuantityBetIdx":-1,"gameFeatureCount":3,"executeSetting":{"settingId":"v3_14027_05_03_002","betSpecSetting":{"paymentType":"PT_001","extraBetTypeList":["NoExtraBet"],"betSpecification":{"lineBetList":[1,5,10,20,30,40,50],"betLineList":[9],"betType":"LineGame"}},"gameStateSetting":[{"gameStateType":"GS_003","frameSetting":{"screenColumn":3,"screenRow":3,"wheelUsePattern":"Dependent"},"tableSetting":{"tableCount":1,"tableHitProbability":[1.0],"wheelData":[[{"wheelLength":55,"noWinIndex":[0],"wheelData":[3,7,5,0,7,6,2,8,6,1,9,6,9,5,0,8,0,2,6,1,9,4,7,7,2,6,0,3,7,4,8,1,9,3,8,5,0,9,8,3,7,5,1,4,8,2,7,8,0,9,6,3,8,9,1]},{"wheelLength":67,"noWinIndex":[0],"wheelData":[6,4,8,2,5,3,7,0,9,4,6,2,5,8,1,4,7,2,9,5,0,6,8,3,9,4,7,1,6,8,3,9,7,2,5,9,3,8,6,0,9,5,8,3,6,4,9,1,8,6,4,9,2,8,5,3,9,7,0,8,6,1,3,7,9,2,5]},{"wheelLength":62,"noWinIndex":[0],"wheelData":[8,4,3,8,6,4,1,5,7,2,6,4,9,0,7,5,7,2,9,4,5,9,1,6,9,4,3,9,3,0,9,4,7,2,8,5,9,1,8,4,5,2,7,7,0,5,7,3,9,4,1,9,3,6,7,2,5,9,0,5,4,8]}]]},"symbolSetting":{"symbolCount":10,"symbolAttribute":["Wild_01","FreeGame_01","M1","M2","M3","M4","M5","M6","M7","M8"],"payTable":[[0,0,100],[0,0,0],[0,0,50],[0,0,25],[0,0,15],[0,0,12],[0,0,8],[0,0,8],[0,0,3],[0,0,3]],"mixGroupCount":0,"mixGroupSetting":[]},"lineSetting":{"maxBetLine":9,"lineTable":[[1,1,1],[0,0,0],[2,2,2],[0,1,2],[2,1,0],[2,1,2],[0,1,0],[1,0,1],[1,2,1]]},"gameHitPatternSetting":{"gameHitPattern":"LineGame_LeftToRight","maxEliminateTimes":0},"specialFeatureSetting":{"specialFeatureCount":1,"specialHitInfo":[{"specialHitPattern":"HP_05","triggerEvent":"Trigger_01","basePay":0}]},"progressSetting":{"triggerLimitType":"RoundLimit","stepSetting":{"defaultStep":1,"addStep":0,"maxStep":1},"stageSetting":{"defaultStage":1,"addStage":0,"maxStage":1},"roundSetting":{"defaultRound":1,"addRound":0,"maxRound":1}},"displaySetting":{"readyHandSetting":{"readyHandLimitType":"NoReadyHandLimit","readyHandCount":1,"readyHandType":["ReadyHand_01"]}}},{"gameStateType":"GS_069","frameSetting":{"screenColumn":5,"screenRow":3,"wheelUsePattern":"Dependent"},"tableSetting":{"tableCount":1,"tableHitProbability":[1.0],"wheelData":[[{"wheelLength":48,"noWinIndex":[0],"wheelData":[5,3,7,6,5,2,8,7,9,4,8,7,9,0,9,7,8,5,9,7,3,8,7,5,8,6,9,2,8,7,4,9,7,3,6,9,5,7,9,0,6,7,4,5,9,7,8,8]},{"wheelLength":39,"noWinIndex":[0],"wheelData":[8,6,4,7,3,8,9,5,7,9,6,7,4,8,6,3,7,5,8,4,7,9,6,0,9,7,5,8,9,7,4,9,5,8,2,9,5,8,6]},{"wheelLength":44,"noWinIndex":[0],"wheelData":[7,9,2,6,1,7,7,0,6,5,8,1,7,9,4,6,5,7,8,4,9,1,7,4,8,0,9,5,1,8,6,3,7,9,3,9,5,7,9,1,8,4,9,6]},{"wheelLength":51,"noWinIndex":[0],"wheelData":[8,3,1,5,4,6,2,7,6,3,7,5,1,8,4,6,7,0,6,5,8,4,9,6,1,7,8,4,9,6,2,8,6,4,9,5,1,7,9,4,6,8,0,5,9,3,6,4,9,6,4]},{"wheelLength":58,"noWinIndex":[0],"wheelData":[6,5,9,4,0,6,5,7,1,8,4,9,6,2,8,5,3,6,9,5,8,4,9,5,8,0,6,4,7,3,9,5,6,1,8,4,9,6,2,8,6,4,7,9,1,9,6,3,8,5,9,2,6,9,3,6,4,6]}]]},"symbolSetting":{"symbolCount":10,"symbolAttribute":["Wild_01","FreeGame_01","M1","M2","M3","M4","M5","M6","M7","M8"],"payTable":[[0,0,100,200,1000],[0,0,0,0,0],[0,0,50,100,500],[0,0,25,50,200],[0,0,15,25,100],[0,0,12,25,100],[0,0,8,15,50],[0,0,8,15,50],[0,0,3,8,30],[0,0,3,5,30]],"mixGroupCount":0,"mixGroupSetting":[]},"lineSetting":{"maxBetLine":25,"lineTable":[[1,1,1,1,1],[0,0,0,0,0],[2,2,2,2,2],[0,1,2,1,0],[2,1,0,1,2],[2,1,2,2,2],[0,1,0,0,0],[1,0,1,2,2],[1,2,1,0,0],[0,1,1,1,2],[2,1,1,1,0],[1,1,0,1,1],[1,1,2,1,1],[1,0,0,0,1],[1,2,2,2,1],[0,0,1,2,1],[2,2,1,0,1],[0,0,1,2,2],[2,2,1,0,0],[0,0,0,1,2],[2,2,2,1,0],[2,1,0,0,0],[0,1,2,2,2],[0,1,2,1,2],[2,1,0,1,0]]},"gameHitPatternSetting":{"gameHitPattern":"LineGame_LeftToRight","maxEliminateTimes":0},"specialFeatureSetting":{"specialFeatureCount":1,"specialHitInfo":[{"specialHitPattern":"HP_07","triggerEvent":"ReTrigger_01","basePay":0}]},"progressSetting":{"triggerLimitType":"RoundLimit","stepSetting":{"defaultStep":1,"addStep":0,"maxStep":1},"stageSetting":{"defaultStage":1,"addStage":0,"maxStage":1},"roundSetting":{"defaultRound":5,"addRound":5,"maxRound":25}},"displaySetting":{"readyHandSetting":{"readyHandLimitType":"NoReadyHandLimit","readyHandCount":1,"readyHandType":["ReadyHand_06"]}},"extendSetting":{"roundOddsRadix":2,"startPower":0,"maxRoundOdds":64}}],"doubleGameSetting":{"doubleRoundUpperLimit":5,"doubleBetUpperLimit":1000000000,"rtp":0.96,"tieRate":0.1},"boardDisplaySetting":{"winRankSetting":{"BigWin":38,"MegaWin":246,"UltraWin":550}},"gameFlowSetting":{"conditionTableWithoutBoardEnd":[["CD_False","CD_True","CD_False"],["CD_False","CD_False","CD_01"],["CD_False","CD_False","CD_False"]]}},"denoms":[10],"defaultDenomIdx":0,"defaultBetLineIdx":0,"betCombinations":{"10_9_NoExtraBet":90,"1_9_NoExtraBet":9,"20_9_NoExtraBet":180,"30_9_NoExtraBet":270,"40_9_NoExtraBet":360,"50_9_NoExtraBet":450,"5_9_NoExtraBet":45},"gambleLimit":0,"buyFeatureLimit":2147483647,"buyFeature":true,"defaultWaysBetColumnIdx":-1}`))
+
+func doInit(msg *nats.Msg) (ret []byte, err error) {
+	pid, _, err := jdbcomm.ParsePidSfsObject(msg.Data)
+	if err != nil {
+		return nil, err
+	}
+
+	err = db.CallWithPlayer(pid, func(plr *jdbcomm.Player) error {
+		var data map[string]interface{}
+		if err := json.Unmarshal([]byte(sampleDoInit), &data); err != nil {
+			fmt.Println("Error unmarshaling JSON:", err)
+			return err
+		}
+		info, err := redisx.LoadAppIdCache(plr.AppID)
+		if err != nil {
+			return err
+		}
+		// 修改数据
+		if betCombinations, ok := data["singleBetCombinations"].(map[string]interface{}); ok {
+			betCombinations = make(map[string]interface{})
+			for i := range info.Cs {
+				key := fmt.Sprintf("10_%f_%d_NoExtraBet", info.Cs[i], internal.Line)
+				betCombinations[key] = info.Cs[i] * internal.Line
+			}
+			data["singleBetCombinations"] = betCombinations
+		}
+		modifiedJSON, err := json.MarshalIndent(data, "", "  ")
+		if err != nil {
+			fmt.Println("Error marshaling JSON:", err)
+			return err
+		}
+		ret = modifiedJSON
+		//curItem := lazy.GetCurrencyItem(plr.CurrencyKey)
+		//todo 后台没写
+		//c, err := redisx.GetPlayerCs(plr.AppID, plr.PID, true)
+		//if err != nil {
+		//	return err
+		//}
+
+		plr.SpinCountOfThisEnter = 0
+		return nil
+	})
+
+	return
+}

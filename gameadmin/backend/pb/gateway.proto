@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+
+message OnlineReq {
+    int64 Pid = 1;
+}
+message OnlineResp {
+
+}
+
+service General {
+    rpc Online(OnlineReq) returns (OnlineResp);
+    rpc Offline(OnlineReq) returns (OnlineResp);
+}

@@ -1,0 +1,93 @@
+syntax = "proto3";
+import "pb/empty.proto";
+import "pb/adminpb/auth.proto";
+import "pb/duck/mongodb/TimeStamp.proto";
+//权限组表
+message DBAuth {
+    int64     ID         = 1; //@gotags:bson:"_id"
+    string    MenuIds    = 2; //菜单id
+    string    Name       = 3; //权限组名称
+    string    Remark     = 4; //备注
+    TimeStamp CreateTime = 5; //创建时间
+}
+
+message AdminListResp {
+    int64              Count = 1;
+    repeated DBAdminer List  = 2;
+}
+
+message AddAdminReq {
+    string Username = 1;
+    int32  GroupId  = 2;
+}
+
+message AdminPid {
+    int64 Pid = 1;
+}
+
+message UpdateOpenGooleReq {
+    int64 Pid         = 1;
+    bool  IsOpenGoole = 2;
+}
+
+message AdminerStatusReq {
+    int64       Pid    = 1;
+    AdminStatus Status = 2;
+}
+
+//菜单表
+message DBMenu {
+    int64  ID    = 1; //@gotags:bson:"_id"
+    string Title = 2; //菜单标题
+    int64  Pid   = 3; //菜单pid 0为顶级pid
+    string Url   = 4; //节点
+    string Icon  = 5; //图标icon
+    int64  Sort  = 6; //排序
+}
+
+message AdminInfoResp {
+    int64           ID       = 1;
+    string          Username = 2;
+    int32           Gid      = 3;
+    repeated DBMenu MenuList = 4;
+}
+
+message UpdatePasswdReq {
+    string OldPasswd     = 1;
+    string NewPasswd     = 2;
+    string ConfirmPasswd = 3;
+}
+
+message PageListReq {
+    int64  PageIndex = 1;
+    int64  PageSize  = 2;
+    string Query     = 3;
+    string Sort      = 4;
+}
+
+service AdminInfo {
+
+    // 获取登录管理员详情
+    rpc GetAdminInfo(Empty) returns (AdminInfoResp);
+
+    // 获取管理员列表
+    rpc AdminerList(PageListReq) returns (AdminListResp);
+
+    // 添加管理员
+    rpc AddAdminer(AddAdminReq) returns (Empty);
+
+    // 删除管理员
+    rpc DelAdminer(AdminPid) returns (Empty);
+
+    // 开关谷歌验证
+    rpc UpdateOpenGoole(UpdateOpenGooleReq) returns (Empty);
+
+    // 冻结解冻管理员
+    rpc AdminerStatus(AdminerStatusReq) returns (Empty);
+
+    // 修改密码
+    rpc UpdatePasswd(UpdatePasswdReq) returns (Empty);
+
+    // 退出登录
+    rpc LoginOut(Empty) returns (Empty);
+}

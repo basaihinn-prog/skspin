@@ -1,0 +1,93 @@
+{
+  "error": 0,
+  "description": "OK",
+  "serverTime": 1720240823,
+  "tournaments": [
+    {
+      "id": 1684801,
+      "status": "C",
+      "name": "Daily Tournament#18##DDW#",
+      "clientMode": "V",
+      "startDate": 1720026060,
+      "endDate": 1720112340,
+      "optJurisdiction": [
+        "SE",
+        "UK",
+        "NL"
+      ],
+      "campaignId": 2961,
+      "campaignEndDate": 1720630740,
+      "optin": true
+    },
+    {
+      "id": 1689101,
+      "status": "C",
+      "name": "Daily Tournament#18##DDW#",
+      "clientMode": "V",
+      "startDate": 1720112460,
+      "endDate": 1720198740,
+      "optJurisdiction": [
+        "SE",
+        "UK",
+        "NL"
+      ],
+      "campaignId": 2961,
+      "campaignEndDate": 1720630740,
+      "optin": true
+    },
+    {
+      "id": 1689201,
+      "status": "O",
+      "name": "Daily Tournament#18##DDW#",
+      "clientMode": "V",
+      "startDate": 1720198860,
+      "endDate": 1720285140,
+      "optJurisdiction": [
+        "SE",
+        "UK",
+        "NL"
+      ],
+      "campaignId": 2961,
+      "campaignEndDate": 1720630740,
+      "optin": false
+    }
+  ],
+  "races": [
+    {
+      "id": 2106301,
+      "status": "C",
+      "name": "Daily Prize Drops#18##DDW#",
+      "clientMode": "V",
+      "startDate": 1720112460,
+      "endDate": 1720198740,
+      "optJurisdiction": [
+        "SE",
+        "UK",
+        "NL"
+      ],
+      "clientStyle": "EU",
+      "showWinnersList": true,
+      "campaignId": 2961,
+      "campaignEndDate": 1720630740,
+      "optin": true
+    },
+    {
+      "id": 2106401,
+      "status": "O",
+      "name": "Daily Prize Drops#18##DDW#",
+      "clientMode": "V",
+      "startDate": 1720198860,
+      "endDate": 1720285140,
+      "optJurisdiction": [
+        "SE",
+        "UK",
+        "NL"
+      ],
+      "clientStyle": "EU",
+      "showWinnersList": true,
+      "campaignId": 2961,
+      "campaignEndDate": 1720630740,
+      "optin": false
+    }
+  ]
+}

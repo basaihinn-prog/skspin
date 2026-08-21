@@ -1,0 +1,54 @@
+syntax = "proto3";
+package message;
+option go_package = "./";
+import "google/protobuf/timestamp.proto";
+
+message thor_Column {
+    repeated int32 Col = 1;
+}
+
+message thor_AwardData {
+    optional int32 Symbol = 1;
+    optional int32 Count = 2;
+    optional int32 Line = 3;
+    optional double Win = 4;
+}
+
+message thor_ComboStageInfo {
+    repeated thor_Column ComboStageSymbol = 1;
+    optional double ComboStageWin = 2;
+    repeated thor_AwardData AwardDataVec = 3;
+    repeated thor_Column FillSymbols = 4;
+    optional bool BonusHit = 5;
+    optional bool MaxFlag = 6;
+}
+
+message thor_RoundInfo {
+    repeated thor_ComboStageInfo ComboStageData = 1;
+    optional double RoundWin = 2;
+    optional int32 AwardTypeFlag = 3;
+    optional int32 FreeRemainRound = 4;
+    optional bool BonusFlag = 5;
+    optional bool MaxFlag = 6;
+}
+
+message thor_BonusGameInfo {
+    optional int32 Symbol = 1;
+    optional int32 Result = 2;
+    optional double Win = 3;
+    optional int32 HealthPoint = 4;
+    optional bool MaxFlag = 5;
+}
+
+message thor_BonusGameInfoArray {
+    repeated thor_BonusGameInfo Array = 1;
+}
+
+message thor_SpinAck {
+    repeated thor_RoundInfo RoundQueue = 1;
+    optional double FreeTotalWin = 2;
+    repeated thor_BonusGameInfoArray BonusInfo = 3;
+    repeated double BonusTotalWin = 4;
+    optional double TotalWin = 5;
+}
+

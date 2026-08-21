@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+        }
+        img{
+            width: 100%;
+            height: auto;
+        }
+
+
+
+        @media (max-width: 770px) {
+
+            img{
+                width: 100%;
+
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+
+<img  id="active_img">
+
+</body>
+
+<script>
+    window.onload = () => {
+        let imgUri = "/cb1c3fa2914ee48fdaa0640a2bf72e.jpg"
+        if (window.innerWidth >= 770){
+            imgUri = "/6c7188e1e440649fc36d795d766320.png"
+        }
+
+        document.getElementById("active_img").setAttribute("src",imgUri )
+    }
+</script>
+
+
+</html>

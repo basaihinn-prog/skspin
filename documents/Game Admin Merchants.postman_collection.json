@@ -1,0 +1,112 @@
+{
+	"info": {
+		"_postman_id": "31751454-634f-4ae6-ae6d-2c3068e8d88f",
+		"name": "Game Admin Merchants",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37547201"
+	},
+	"item": [
+		{
+			"name": "Get Merchant List",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "1c53dc20-b20a-4fb6-8a01-fd37278c3dd7",
+						"description": "JWT Token from login api response",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"BelongingCountry\": \"ALL\",      // Country of Merchants to support\r\n    \"OperatorType\": 0,              // 0: ALL, 1: Line Operator 2: Merchant\r\n    \"Name\": \"\",                     // Merchant Name\r\n    \"Status\": -1,                   // -1: ALL, UNREVIEWED 1: OPEN, 0: DISABLE \r\n    \"CreatedTime\": [],              // Not available\r\n    \"createdStartTime\": 0,          // 0: ALL, others: start time for search, ex:1739347200000\r\n    \"createdEndTime\": 0,            // 0: ALL, others: end time for search, ex: 1736409600000\r\n    \"AppID\": \"\",                    // ex: testTW02\r\n    \"Id\": \"\",                       \r\n    \"ReviewStatus\": 0,              // 0: ALL, OPEN, DISABLE, -1: UNREVIEWED\r\n    \"PageIndex\": 1,\r\n    \"PageSize\": 20,                 \r\n    \"Count\": 0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{ADMIN API ENDPOINT}}/AdminInfo/SearchOperator",
+					"host": [
+						"{{ADMIN API ENDPOINT}}"
+					],
+					"path": [
+						"AdminInfo",
+						"SearchOperator"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Merchant List By Line Operator",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "1c53dc20-b20a-4fb6-8a01-fd37278c3dd7",
+						"description": "JWT Token from login api response",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"AppID\": \"L1231\"          // APP ID of Line Operator\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{ADMIN API ENDPOINT}}/AdminInfo/GetLineOperator",
+					"host": [
+						"{{ADMIN API ENDPOINT}}"
+					],
+					"path": [
+						"AdminInfo",
+						"GetLineOperator"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Merchant By ID",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "1c53dc20-b20a-4fb6-8a01-fd37278c3dd7",
+						"description": "JWT Token from login api response",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"AppID\": \"faketrans\"      // Merchat APP ID\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{ADMIN API ENDPOINT}}/AdminInfo/GetOperatorById",
+					"host": [
+						"{{ADMIN API ENDPOINT}}"
+					],
+					"path": [
+						"AdminInfo",
+						"GetOperatorById"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,247 @@
+[
+	{
+		"name": "20次都不中奖",
+		"NoAwardCount": 20,
+		"NeedCombine": 800
+	},
+	{
+		"name": "15次都不中奖",
+		"NoAwardCount": 15,
+		"NeedCombine": 800
+	},
+	{
+		"name": "10次都不中奖",
+		"NoAwardCount": 10,
+		"NeedCombine": 800
+	},
+	{
+		"name": "8次都不中奖",
+		"NoAwardCount": 8,
+		"NeedCombine": 800
+	},
+	{
+		"name": "1次8倍+9次都不中奖",
+		"AwardArr": [
+			{
+				"x": 1,
+				"y": 0,
+				"count": 1
+			}
+		],
+		"NoAwardCount": 9,
+		"NeedCombine": 500
+	},
+	{
+		"name": "2次8倍+8次都不中奖",
+		"AwardArr": [
+			{
+				"x": 1,
+				"y": 0,
+				"count": 2
+			}
+		],
+		"NoAwardCount": 8,
+		"NeedCombine": 500
+	},
+	{
+		"name": "3次8倍+12次都不中奖",
+		"AwardArr": [
+			{
+				"x": 1,
+				"y": 0,
+				"count": 3
+			}
+		],
+		"NoAwardCount": 12,
+		"NeedCombine": 500
+	},
+	{
+		"name": "1次18倍+9次都不中奖",
+		"AwardArr": [
+			{
+				"x": 2,
+				"y": 0,
+				"count": 1
+			}
+		],
+		"NoAwardCount": 9,
+		"NeedCombine": 200
+	},
+	{
+		"name": "1次18倍+1次8倍+8次都不中奖",
+		"AwardArr": [
+			{
+				"x": 2,
+				"y": 0,
+				"count": 1
+			},
+			{
+				"x": 1,
+				"y": 0,
+				"count": 1
+			}
+		],
+		"NoAwardCount": 8,
+		"NeedCombine": 200
+	},
+	{
+		"name": "2次18倍+1次8倍+12次都不中奖",
+		"AwardArr": [
+			{
+				"x": 2,
+				"y": 0,
+				"count": 2
+			},
+			{
+				"x": 1,
+				"y": 0,
+				"count": 1
+			}
+		],
+		"NoAwardCount": 12,
+		"NeedCombine": 200
+	},
+	{
+		"name": "1次18倍+1次8倍+1次28倍+12次都不中奖",
+		"AwardArr": [
+			{
+				"x": 3,
+				"y": 0,
+				"count": 1
+			},
+			{
+				"x": 2,
+				"y": 0,
+				"count": 1
+			},
+			{
+				"x": 1,
+				"y": 0,
+				"count": 1
+			}
+		],
+		"NoAwardCount": 12,
+		"NeedCombine": 200
+	},
+	{
+		"name": "1次28倍+1次58倍+18次都不中奖",
+		"AwardArr": [
+			{
+				"x": 3,
+				"y": 0,
+				"count": 1
+			},
+			{
+				"x": 4,
+				"y": 0,
+				"count": 1
+			}
+		],
+		"NoAwardCount": 18,
+		"NeedCombine": 80
+	},
+	{
+		"name": "1次28倍+1次88倍+18次都不中奖",
+		"AwardArr": [
+			{
+				"x": 3,
+				"y": 0,
+				"count": 1
+			},
+			{
+				"x": 5,
+				"y": 0,
+				"count": 1
+			}
+		],
+		"NoAwardCount": 18,
+		"NeedCombine": 30
+	},
+	{
+		"name": "2次28倍+18次都不中奖",
+		"AwardArr": [
+			{
+				"x": 3,
+				"y": 0,
+				"count": 2
+			}
+		],
+		"NoAwardCount": 18,
+		"NeedCombine": 100
+	},
+	{
+		"name": "1次58倍+1次8倍+8次都不中奖",
+		"AwardArr": [
+			{
+				"x": 1,
+				"y": 0,
+				"count": 1
+			},
+			{
+				"x": 4,
+				"y": 0,
+				"count": 1
+			}
+		],
+		"NoAwardCount": 8,
+		"NeedCombine": 80
+	},
+	{
+		"name": "1次88倍+1次8倍+8次都不中奖",
+		"AwardArr": [
+			{
+				"x": 1,
+				"y": 0,
+				"count": 1
+			},
+			{
+				"x": 5,
+				"y": 0,
+				"count": 1
+			}
+		],
+		"NoAwardCount": 8,
+		"NeedCombine": 30
+	},
+	{
+		"name": "1次58倍+1次88倍+23次都不中奖",
+		"AwardArr": [
+			{
+				"x": 4,
+				"y": 0,
+				"count": 1
+			},
+			{
+				"x": 5,
+				"y": 0,
+				"count": 1
+			}
+		],
+		"NoAwardCount": 23,
+		"NeedCombine": 40
+	},
+	{
+		"name": "2次58倍+18次都不中奖",
+		"AwardArr": [
+			{
+				"x": 4,
+				"y": 0,
+				"count": 2
+			}
+		],
+		"NoAwardCount": 18,
+		"NeedCombine": 50
+	},
+	{
+		"name": "1次888倍+20次都不中奖",
+		"AwardArr": [
+			{
+				"x": 6,
+				"y": 0,
+				"count": 1
+			}
+		],
+		"NoAwardCount": 20,
+		"NeedCombine": 5
+	}
+]

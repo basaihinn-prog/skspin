@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="favicon/pg.ico">
+    <link rel="icon" href="favicon/pg.ico">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .iframe {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+
+        #loadingBorder {
+            display: none;
+        }
+        .loadingBorder1 {
+            width: 75%;
+            height: 5px;
+            background: #a74eff;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 6666;
+            animation-name: loadingAnimal;
+            animation-duration: 3s;
+        }
+
+
+        .loadingBorder2 {
+            width: 50%;
+            animation-name: loadingAnimal2;
+            animation-duration: 1s;
+        }
+
+        .loadingBorder3 {
+            width: 100%;
+            animation-name: loadingAnimal3;
+            animation-duration: 0.5s;
+
+        }
+
+        @keyframes loadingAnimal {
+            0% {
+                width: 5%;
+                background: #a74eff;
+            }
+            20% {
+                width: 25%;
+                background: #fff100;
+            }
+            50% {
+                width: 50%;
+                background: #c8e35a;
+            }
+            100% {
+                width: 75%;
+                background: #74e259;
+            }
+        }
+
+        @keyframes loadingAnimal2 {
+
+            0% {
+                width: 5%
+            }
+            20% {
+                width: 20%
+            }
+            50% {
+                width: 40%
+            }
+            100% {
+                width: 50%
+            }
+        }
+
+        @keyframes loadingAnimal3 {
+            0% {
+                background: #74e259;
+
+                width: 78%;
+            }
+
+            100% {
+                background: #59e390;
+                width: 100%;
+            }
+        }
+
+        #closeIframe {
+            width: 45px;
+            height: 45px;
+            position: fixed;
+            left: calc(50% - 250px);
+            top: 50px;
+            margin-top: 0;
+            margin-left: 10px;
+            z-index: 99999999;
+            border-radius: 50%;
+            background: rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+        }
+
+        #closeIframe > img {
+            width: 25px;
+            height: 25px;
+            display: block;
+            margin: 0 auto
+        }
+
+        @media (max-width: 770px) {
+
+
+            #closeIframe {
+                width: 35px;
+                height: 35px;
+                left: 0;
+                top: 50px;
+                transform: none;
+                margin-top: 0;
+                margin-left: 0;
+
+
+            }
+
+            #closeIframe > img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+<div id="loadingBorder" class="loadingBorder1"></div>
+<div id="context">
+
+    <div id="closeIframe"
+         onclick="backPage()">
+        <img src="./back.webp">
+    </div>
+</div>
+</body>
+
+<script src="./jquery-3.7.1.min.js"></script>
+
+<script type="text/javascript">
+
+    let ButLink = ""
+
+
+    window.onload = function () {
+
+
+
+        let paramRecord = {}
+
+
+        let param = window.location.href.split("?")[1]
+
+        if (param) {
+            let params = param.split("&")
+
+
+            for (const i in params) {
+                let paramItem = params[i].split("=")
+                paramRecord[paramItem[0]] = paramItem[1]
+            }
+
+        }
+
+        let game_uri = decodeURIComponent(paramRecord["game_uri"])
+        let game_name = decodeURIComponent(paramRecord["game_name"])
+
+        ButLink = decodeURIComponent(paramRecord["link"])
+
+        if (paramRecord["mu"].toUpperCase() == "PG") {
+
+            $("#loadingBorder").css({display: "block"})
+        }
+
+
+
+        const iframe = $(`<iframe id="GameIframe" class="iframe" frameborder="0" onload="${iframReload()}"></iframe>`)
+
+
+        iframe.attr("src", game_uri)
+
+        $("#context").append(iframe)
+
+
+
+        $("title").attr("text", game_name)
+        document.getElementsByTagName("title")[0].text = game_name ? game_name : "PG"
+
+
+        if (paramRecord["mu"].toUpperCase() == "JILI" || paramRecord["mu"].toUpperCase() == "TADA") {
+            $("#closeIframe").css({
+                "left": 0,
+                "top": "145px",
+            })
+
+
+            if (window.innerWidth < 770) {
+                $("#closeIframe").css({
+                    "left": 0,
+                    "top": "100px",
+                })
+            }
+
+
+        }
+
+        if (paramRecord["mu"].toUpperCase() == "PP" || paramRecord["mu"].toUpperCase() == "SPRIBE" || paramRecord["mu"].toUpperCase() == "JDB") {
+            $("#closeIframe").css({
+                "left": 0,
+                "top": "30px",
+            })
+
+        }
+
+        $("link[rel='icon']").attr("href", `favicon/${paramRecord["mu"].toLowerCase()}.ico`)
+        $("link[rel='shortcut icon']").attr("href", `favicon/${paramRecord["mu"].toLowerCase()}.ico`)
+
+
+        $("#closeIframe").find("img").attr("src", `./back.webp?_${new Date().getTime()}`)
+
+
+    }
+
+
+    function iframReload() {
+        $('#loadingBorder').addClass("loadingBorder3")
+        setTimeout(function () {
+            $('#loadingBorder').remove()
+        }, 500)
+
+
+    }
+
+    function backPage() {
+
+
+        if (ButLink) {
+            window.location.href = ButLink
+        }
+
+
+    }
+
+
+</script>
+</html>

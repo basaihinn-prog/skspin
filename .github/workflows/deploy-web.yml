@@ -1,0 +1,64 @@
+name: Deploy Web (player site)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'web/**'
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: Target environment
+        required: true
+        default: staging
+        type: choice
+        options: [staging, doudou-prod, dou-ph-prod, dou-idr-prod]
+      mode:
+        description: Vite build mode
+        required: true
+        default: production
+        type: choice
+        options: [production, superHigh, vip, vipSuperHigh]
+
+jobs:
+  deploy-staging:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    environment: staging
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+      - run: npm ci
+      - run: npm run build
+      - uses: ./.github/actions/ssh-setup
+        with: { ssh-key: ${{ secrets.DEPLOY_SSH_KEY }} }
+      - name: Sync dist to staging
+        env:
+          DEPLOY_HOST: ${{ vars.DEPLOY_HOST }}
+          REMOTE_DIR: ${{ vars.DEPLOY_REMOTE_DIR }}
+        run: ./sync.sh "$DEPLOY_HOST" "$REMOTE_DIR"
+
+  deploy-manual:
+    if: github.event_name == 'workflow_dispatch' && github.event.inputs.environment != 'staging'
+    runs-on: ubuntu-latest
+    environment: ${{ github.event.inputs.environment }}
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+      - run: npm ci
+      - run: npm run build -- --mode ${{ github.event.inputs.mode }}
+      - uses: ./.github/actions/ssh-setup
+        with: { ssh-key: ${{ secrets.DEPLOY_SSH_KEY }} }
+      - name: Sync dist
+        env:
+          DEPLOY_HOST: ${{ vars.DEPLOY_HOST }}
+          REMOTE_DIR: ${{ vars.DEPLOY_REMOTE_DIR }}
+        run: ./sync.sh "$DEPLOY_HOST" "$REMOTE_DIR"

@@ -1,0 +1,715 @@
+use GameAdmin
+
+db.CurrencyType.deleteMany({})
+db.CurrencyType.insertMany([
+    {
+        "CurrencyCode": "CNY",
+        "CurrencyName": "人民币",
+        "CurrencySymbol": "¥"
+    },
+    {
+        "CurrencyCode": "USD",
+        "CurrencyName": "美元",
+        "CurrencySymbol": "$"
+    },
+    {
+        "CurrencyCode": "AED",
+        "CurrencyName": "阿联酋迪拉姆",
+        "CurrencySymbol": "د.إ"
+    },
+    {
+        "CurrencyCode": "AFN",
+        "CurrencyName": "阿富汗尼",
+        "CurrencySymbol": "؋"
+    },
+    {
+        "CurrencyCode": "ALL",
+        "CurrencyName": "列克",
+        "CurrencySymbol": "L"
+    },
+    {
+        "CurrencyCode": "AMD",
+        "CurrencyName": "亚美尼亚德拉姆",
+        "CurrencySymbol": "֏"
+    },
+    {
+        "CurrencyCode": "ANG",
+        "CurrencyName": "荷属安的列斯盾",
+        "CurrencySymbol": "ƒ"
+    },
+    {
+        "CurrencyCode": "AOA",
+        "CurrencyName": "宽扎",
+        "CurrencySymbol": "Kz"
+    },
+    {
+        "CurrencyCode": "ARS",
+        "CurrencyName": "阿根廷披索",
+        "CurrencySymbol": "$"
+    },
+    {
+        "CurrencyCode": "AUD",
+        "CurrencyName": "澳元",
+        "CurrencySymbol": "$"
+    },
+    {
+        "CurrencyCode": "AWG",
+        "CurrencyName": "阿鲁巴弗罗林",
+        "CurrencySymbol": "ƒ"
+    },
+    {
+        "CurrencyCode": "AZN",
+        "CurrencyName": "阿塞拜疆马纳特",
+        "CurrencySymbol": "₼"
+    },
+    {
+        "CurrencyCode": "BAM",
+        "CurrencyName": "自由兑换马克",
+        "CurrencySymbol": "KM"
+    },
+    {
+        "CurrencyCode": "BBD",
+        "CurrencyName": "巴巴多斯元",
+        "CurrencySymbol": "$"
+    },
+    {
+        "CurrencyCode": "BDT",
+        "CurrencyName": "塔卡",
+        "CurrencySymbol": "৳"
+    },
+    {
+        "CurrencyCode": "BGN",
+        "CurrencyName": "保加利亚列弗",
+        "CurrencySymbol": "лв"
+    },
+    {
+        "CurrencyCode": "BHD",
+        "CurrencyName": "巴林第纳尔",
+        "CurrencySymbol": ".د.ب"
+    },
+    {
+        "CurrencyCode": "BIF",
+        "CurrencyName": "布隆迪法郎",
+        "CurrencySymbol": "₣"
+    },
+    {
+        "CurrencyCode": "BMD",
+        "CurrencyName": "百慕大元",
+        "CurrencySymbol": "$"
+    },
+    {
+        "CurrencyCode": "BND",
+        "CurrencyName": "文莱元",
+        "CurrencySymbol": "$"
+    },
+    {
+        "CurrencyCode": "BOB",
+        "CurrencyName": "玻利维亚诺",
+        "CurrencySymbol": "Bs."
+    },
+    {
+        "CurrencyCode": "BRL",
+        "CurrencyName": "巴西雷亚尔",
+        "CurrencySymbol": "R$"
+    },
+    {
+        "CurrencyCode": "BS",
+        "CurrencyName": "强势玻利瓦尔",
+        "CurrencySymbol": "Bs.F"
+    },
+    {
+        "CurrencyCode": "BSD",
+        "CurrencyName": "巴哈马元",
+        "CurrencySymbol": "$"
+    },
+    {
+        "CurrencyCode": "BSS",
+        "CurrencyName": "主权玻利瓦尔",
+        "CurrencySymbol": "Bs."
+    },
+    {
+        "CurrencyCode": "BTN",
+        "CurrencyName": "努扎姆",
+        "CurrencySymbol": "Nu."
+    },
+    {
+        "CurrencyCode": "BWP",
+        "CurrencyName": "普拉",
+        "CurrencySymbol": "P"
+    },
+    {
+        "CurrencyCode": "BYN",
+        "CurrencyName": "白俄罗斯卢布",
+        "CurrencySymbol": "Br"
+    },
+    {
+        "CurrencyCode": "BZD",
+        "CurrencyName": "伯利兹元",
+        "CurrencySymbol": "$"
+    },
+    {
+        "CurrencyCode": "CAD",
+        "CurrencyName": "加拿大元",
+        "CurrencySymbol": "$"
+    },
+    {
+        "CurrencyCode": "CDF",
+        "CurrencyName": "刚果法郎",
+        "CurrencySymbol": "₣"
+    },
+    {
+        "CurrencyCode": "CHE",
+        "CurrencyName": "WIR欧元",
+        "CurrencySymbol": "€"
+    },
+    {
+        "CurrencyCode": "CHF",
+        "CurrencyName": "瑞士法郎",
+        "CurrencySymbol": "CHF"
+    },
+    {
+        "CurrencyCode": "CHW",
+        "CurrencyName": "WIR法郎",
+        "CurrencySymbol": "CHW"
+    },
+    {
+        "CurrencyCode": "CLP",
+        "CurrencyName": "智利比索",
+        "CurrencySymbol": "$"
+    },
+    {
+        "CurrencyCode": "COP",
+        "CurrencyName": "哥伦比亚比索",
+        "CurrencySymbol": "$"
+    },
+    {
+        "CurrencyCode": "CRC",
+        "CurrencyName": "哥斯达黎加科朗",
+        "CurrencySymbol": "₡"
+    },
+    {
+        "CurrencyCode": "CUC",
+        "CurrencyName": "可兑换比索",
+        "CurrencySymbol": "$"
+    },
+    {
+        "CurrencyCode": "CUP",
+        "CurrencyName": "古巴比索",
+        "CurrencySymbol": "$"
+    },
+    {
+        "CurrencyCode": "CVE",
+        "CurrencyName": "佛得角埃斯库多",
+        "CurrencySymbol": "$"
+    },
+    {
+        "CurrencyCode": "CZK",
+        "CurrencyName": "捷克克朗",
+        "CurrencySymbol": "Kč"
+    },
+    {
+        "CurrencyCode": "DJF",
+        "CurrencyName": "吉布提法郎",
+        "CurrencySymbol": "₣"
+    },
+    {
+        "CurrencyCode": "DKK",
+        "CurrencyName": "丹麦克朗",
+        "CurrencySymbol": "kr"
+    },
+    {
+        "CurrencyCode": "DOP",
+        "CurrencyName": "多明尼加比索",
+        "CurrencySymbol": "$"
+    },
+    {
+        "CurrencyCode": "DZD",
+        "CurrencyName": "阿尔及利亚第纳尔",
+        "CurrencySymbol": "دج"
+    },
+    {
+        "CurrencyCode": "EGP",
+        "CurrencyName": "埃及镑",
+        "CurrencySymbol": "£"
+    },
+    {
+        "CurrencyCode": "ERN",
+        "CurrencyName": "纳克法",
+        "CurrencySymbol": "Nfk"
+    },
+    {
+        "CurrencyCode": "ETB",
+        "CurrencyName": "埃塞俄比亚比尔",
+        "CurrencySymbol": "Br"
+    },
+    {
+        "CurrencyCode": "EUR",
+        "CurrencyName": "欧元",
+        "CurrencySymbol": "€"
+    },
+    {
+        "CurrencyCode": "FJD",
+        "CurrencyName": "斐济元",
+        "CurrencySymbol": "$"
+    },
+    {
+        "CurrencyCode": "FKP",
+        "CurrencyName": "福克兰镑",
+        "CurrencySymbol": "£"
+    },
+    {
+        "CurrencyCode": "GBP",
+        "CurrencyName": "英镑",
+        "CurrencySymbol": "£"
+    },
+    {
+        "CurrencyCode": "GEL",
+        "CurrencyName": "拉里",
+        "CurrencySymbol": "₾"
+    },
+    {
+        "CurrencyCode": "GHS",
+        "CurrencyName": "加纳塞地",
+        "CurrencySymbol": "₵"
+    },
+    {
+        "CurrencyCode": "GIP",
+        "CurrencyName": "直布罗陀镑",
+        "CurrencySymbol": "£"
+    },
+    {
+        "CurrencyCode": "GMD",
+        "CurrencyName": "冈比亚达拉西",
+        "CurrencySymbol": "D"
+    },
+    {
+        "CurrencyCode": "GNF",
+        "CurrencyName": "几内亚法郎",
+        "CurrencySymbol": "₣"
+    },
+    {
+        "CurrencyCode": "GTQ",
+        "CurrencyName": "格查尔",
+        "CurrencySymbol": "Q"
+    },
+    {
+        "CurrencyCode": "GYD",
+        "CurrencyName": "圭亚那元",
+        "CurrencySymbol": "$"
+    },
+    {
+        "CurrencyCode": "HKD",
+        "CurrencyName": "港币",
+        "CurrencySymbol": "$"
+    },
+    {
+        "CurrencyCode": "HNL",
+        "CurrencyName": "伦皮拉",
+        "CurrencySymbol": "L"
+    },
+    {
+        "CurrencyCode": "HRK",
+        "CurrencyName": "库纳",
+        "CurrencySymbol": "kn"
+    },
+    {
+        "CurrencyCode": "HTG",
+        "CurrencyName": "古德",
+        "CurrencySymbol": "G"
+    },
+    {
+        "CurrencyCode": "HUF",
+        "CurrencyName": "福林",
+        "CurrencySymbol": "Ft"
+    },
+    {
+        "CurrencyCode": "IDR",
+        "CurrencyName": "印尼卢比",
+        "CurrencySymbol": "Rp"
+    },
+    {
+        "CurrencyCode": "ILS",
+        "CurrencyName": "以色列新锡克尔",
+        "CurrencySymbol": "₪"
+    },
+    {
+        "CurrencyCode": "INR",
+        "CurrencyName": "印度卢比",
+        "CurrencySymbol": "₹"
+    },
+    {
+        "CurrencyCode": "IQD",
+        "CurrencyName": "伊拉克第纳尔",
+        "CurrencySymbol": "ع.د"
+    },
+    {
+        "CurrencyCode": "IRR",
+        "CurrencyName": "伊朗里亚尔",
+        "CurrencySymbol": "﷼"
+    },
+    {
+        "CurrencyCode": "ISK",
+        "CurrencyName": "冰岛克郎",
+        "CurrencySymbol": "kr"
+    },
+    {
+        "CurrencyCode": "JMD",
+        "CurrencyName": "牙买加元",
+        "CurrencySymbol": "$"
+    },
+    {
+        "CurrencyCode": "JOD",
+        "CurrencyName": "约旦第纳尔",
+        "CurrencySymbol": "د.ا"
+    },
+    {
+        "CurrencyCode": "JPY",
+        "CurrencyName": "日元",
+        "CurrencySymbol": "¥"
+    },
+    {
+        "CurrencyCode": "KES",
+        "CurrencyName": "肯尼亚先令",
+        "CurrencySymbol": "Sh"
+    },
+    {
+        "CurrencyCode": "KGS",
+        "CurrencyName": "吉尔吉斯斯坦索姆",
+        "CurrencySymbol": "с"
+    },
+    {
+        "CurrencyCode": "KMF",
+        "CurrencyName": "科摩罗法郎",
+        "CurrencySymbol": "₣"
+    },
+    {
+        "CurrencyCode": "KPW",
+        "CurrencyName": "朝鲜元",
+        "CurrencySymbol": "₩"
+    },
+    {
+        "CurrencyCode": "KRW",
+        "CurrencyName": "韩元",
+        "CurrencySymbol": "₩"
+    },
+    {
+        "CurrencyCode": "KWD",
+        "CurrencyName": "科威特第纳尔",
+        "CurrencySymbol": "د.ك"
+    },
+    {
+        "CurrencyCode": "KYD",
+        "CurrencyName": "开曼群岛元",
+        "CurrencySymbol": "$"
+    },
+    {
+        "CurrencyCode": "KZT",
+        "CurrencyName": "哈萨克坚戈",
+        "CurrencySymbol": "₸"
+    },
+    {
+        "CurrencyCode": "LAK",
+        "CurrencyName": "老挝基普",
+        "CurrencySymbol": "₭"
+    },
+    {
+        "CurrencyCode": "LBP",
+        "CurrencyName": "黎巴嫩镑",
+        "CurrencySymbol": "ل.ل"
+    },
+    {
+        "CurrencyCode": "LKR",
+        "CurrencyName": "斯里兰卡卢比",
+        "CurrencySymbol": "Rs"
+    },
+    {
+        "CurrencyCode": "LRD",
+        "CurrencyName": "利比里亚元",
+        "CurrencySymbol": "$"
+    },
+    {
+        "CurrencyCode": "LSL",
+        "CurrencyName": "莱索托洛蒂",
+        "CurrencySymbol": "L"
+    },
+    {
+        "CurrencyCode": "LYD",
+        "CurrencyName": "利比亚第纳尔",
+        "CurrencySymbol": "ل.د"
+    },
+    {
+        "CurrencyCode": "MAD",
+        "CurrencyName": "摩洛哥道拉姆",
+        "CurrencySymbol": "د.م"
+    },
+    {
+        "CurrencyCode": "MDL",
+        "CurrencyName": "摩尔多瓦列伊",
+        "CurrencySymbol": "L"
+    },
+    {
+        "CurrencyCode": "MGA",
+        "CurrencyName": "马达加斯加阿里亚里",
+        "CurrencySymbol": "Ar"
+    },
+    {
+        "CurrencyCode": "MKD",
+        "CurrencyName": "马其顿第纳尔",
+        "CurrencySymbol": "ден"
+    },
+    {
+        "CurrencyCode": "MMK",
+        "CurrencyName": "缅甸元",
+        "CurrencySymbol": "K"
+    },
+    {
+        "CurrencyCode": "MNT",
+        "CurrencyName": "图格里克",
+        "CurrencySymbol": "₮"
+    },
+    {
+        "CurrencyCode": "MOP",
+        "CurrencyName": "澳门元",
+        "CurrencySymbol": "P"
+    },
+    {
+        "CurrencyCode": "MRU",
+        "CurrencyName": "毛里塔尼亚乌吉亚",
+        "CurrencySymbol": "UM"
+    },
+    {
+        "CurrencyCode": "MUR",
+        "CurrencyName": "毛里求斯卢比",
+        "CurrencySymbol": "₨"
+    },
+    {
+        "CurrencyCode": "MVR",
+        "CurrencyName": "马尔代夫拉菲亚",
+        "CurrencySymbol": "ރ"
+    },
+    {
+        "CurrencyCode": "MWK",
+        "CurrencyName": "马拉维克瓦查",
+        "CurrencySymbol": "MK"
+    },
+    {
+        "CurrencyCode": "MXN",
+        "CurrencyName": "墨西哥比索",
+        "CurrencySymbol": "$"
+    },
+    {
+        "CurrencyCode": "MXV",
+        "CurrencyName": "墨西哥(资金)",
+        "CurrencySymbol": "$"
+    },
+    {
+        "CurrencyCode": "MYR",
+        "CurrencyName": "马来西亚林吉特",
+        "CurrencySymbol": "RM"
+    },
+    {
+        "CurrencyCode": "MZN",
+        "CurrencyName": "梅蒂卡尔",
+        "CurrencySymbol": "MT"
+    },
+    {
+        "CurrencyCode": "NAD",
+        "CurrencyName": "纳米比亚元",
+        "CurrencySymbol": "$"
+    },
+    {
+        "CurrencyCode": "NGN",
+        "CurrencyName": "奈拉",
+        "CurrencySymbol": "₦"
+    },
+    {
+        "CurrencyCode": "NIO",
+        "CurrencyName": "尼加拉瓜科多巴",
+        "CurrencySymbol": "C$"
+    },
+    {
+        "CurrencyCode": "NOK",
+        "CurrencyName": "挪威克朗",
+        "CurrencySymbol": "kr"
+    },
+    {
+        "CurrencyCode": "NPR",
+        "CurrencyName": "尼泊尔卢比",
+        "CurrencySymbol": "Rs"
+    },
+    {
+        "CurrencyCode": "NZD",
+        "CurrencyName": "新西兰元",
+        "CurrencySymbol": "$"
+    },
+    {
+        "CurrencyCode": "OMR",
+        "CurrencyName": "阿曼里亚尔",
+        "CurrencySymbol": "﷼"
+    },
+    {
+        "CurrencyCode": "PAB",
+        "CurrencyName": "巴拿马巴波亚",
+        "CurrencySymbol": "B/."
+    },
+    {
+        "CurrencyCode": "PEN",
+        "CurrencyName": "秘鲁索尔",
+        "CurrencySymbol": "S/"
+    },
+    {
+        "CurrencyCode": "PGK",
+        "CurrencyName": "巴布亚新几内亚基那",
+        "CurrencySymbol": "K"
+    },
+    {
+        "CurrencyCode": "PHP",
+        "CurrencyName": "菲律宾比索",
+        "CurrencySymbol": "₱"
+    },
+    {
+        "CurrencyCode": "PKR",
+        "CurrencyName": "巴基斯坦卢比",
+        "CurrencySymbol": "₨"
+    },
+    {
+        "CurrencyCode": "PLN",
+        "CurrencyName": "波兰兹罗提",
+        "CurrencySymbol": "zł"
+    },
+    {
+        "CurrencyCode": "PYG",
+        "CurrencyName": "巴拉圭瓜拉尼",
+        "CurrencySymbol": "₲"
+    },
+    {
+        "CurrencyCode": "QAR",
+        "CurrencyName": "卡塔尔里亚尔",
+        "CurrencySymbol": "﷼"
+    },
+    {
+        "CurrencyCode": "RON",
+        "CurrencyName": "罗马尼亚列伊",
+        "CurrencySymbol": "lei"
+    },
+    {
+        "CurrencyCode": "RSD",
+        "CurrencyName": "塞尔维亚第纳尔",
+        "CurrencySymbol": "дин"
+    },
+    {
+        "CurrencyCode": "RUB",
+        "CurrencyName": "俄罗斯卢布",
+        "CurrencySymbol": "₽"
+    },
+    {
+        "CurrencyCode": "RWF",
+        "CurrencyName": "卢旺达法郎",
+        "CurrencySymbol": "₣"
+    },
+    {
+        "CurrencyCode": "SAR",
+        "CurrencyName": "沙特里亚尔",
+        "CurrencySymbol": "﷼"
+    },
+    {
+        "CurrencyCode": "SBD",
+        "CurrencyName": "所罗门群岛元",
+        "CurrencySymbol": "$"
+    },
+    {
+        "CurrencyCode": "SCR",
+        "CurrencyName": "塞舌尔卢比",
+        "CurrencySymbol": "₨"
+    },
+    {
+        "CurrencyCode": "SDG",
+        "CurrencyName": "苏丹镑",
+        "CurrencySymbol": "ج.س"
+    },
+    {
+        "CurrencyCode": "SEK",
+        "CurrencyName": "瑞典克朗",
+        "CurrencySymbol": "kr"
+    },
+    {
+        "CurrencyCode": "SGD",
+        "CurrencyName": "新加坡元",
+        "CurrencySymbol": "$"
+    },
+    {
+        "CurrencyCode": "SHP",
+        "CurrencyName": "圣赫勒拿镑",
+        "CurrencySymbol": "£"
+    },
+    {
+        "CurrencyCode": "SLL",
+        "CurrencyName": "塞拉利昂利昂",
+        "CurrencySymbol": "Le"
+    },
+    {
+        "CurrencyCode": "SOS",
+        "CurrencyName": "索马里先令",
+        "CurrencySymbol": "Sh"
+    },
+    {
+        "CurrencyCode": "SRD",
+        "CurrencyName": "苏里南元",
+        "CurrencySymbol": "$"
+    },
+    {
+        "CurrencyCode": "SSP",
+        "CurrencyName": "南苏丹镑",
+        "CurrencySymbol": "£"
+    },
+    {
+        "CurrencyCode": "STN",
+        "CurrencyName": "圣多美多布拉",
+        "CurrencySymbol": "Db"
+    },
+    {
+        "CurrencyCode": "SVC",
+        "CurrencyName": "萨尔瓦多科朗",
+        "CurrencySymbol": "$"
+    },
+    {
+        "CurrencyCode": "SYP",
+        "CurrencyName": "叙利亚镑",
+        "CurrencySymbol": "£"
+    },
+    {
+        "CurrencyCode": "SZL",
+        "CurrencyName": "斯威士兰里兰吉尼",
+        "CurrencySymbol": "L"
+    },
+    {
+        "CurrencyCode": "THB",
+        "CurrencyName": "泰铢",
+        "CurrencySymbol": "฿"
+    },
+    {
+        "CurrencyCode": "TJS",
+        "CurrencyName": "塔吉克斯坦索莫尼",
+        "CurrencySymbol": "ЅМ"
+    },
+    {
+        "CurrencyCode": "TMT",
+        "CurrencyName": "土库曼斯坦马纳特",
+        "CurrencySymbol": "m"
+    },
+    {
+        "CurrencyCode": "TND",
+        "CurrencyName": "突尼斯第纳尔",
+        "CurrencySymbol": "د.ت"
+    },
+    {
+        "CurrencyCode": "USDT",
+        "CurrencyName": "USDT",
+        "CurrencySymbol": "USDT"
+    },
+    {
+        "CurrencyCode": "TWD",
+        "CurrencyName": "新台币",
+        "CurrencySymbol": "NT$"
+    }
+])

@@ -1,0 +1,15 @@
+alert:
+  telegramnotify: "https://api.telegram.org/bot8842460561:AAHrxpUfi7CoqNxjiZLFi47-v-4H-kIYnn0/sendMessage?chat_id=-1003423365627\u0026text="
+  alertgamethreshold: 100000
+  # alertgamethreshold: 6
+  alertsinglewinthreshold: 20000
+  # alertsinglewinthreshold: 5
+isDev: true
+currency:
+  - key: "THB"
+    symbol: "฿"
+    multi: 1
+  - key: "THB1"
+    symbol: "฿"
+    multi: 1
+ 

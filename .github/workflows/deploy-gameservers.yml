@@ -1,0 +1,49 @@
+name: Game Servers (build check + targeted deploy)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'gameservers/**'
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: Target environment
+        required: true
+        default: staging
+        type: choice
+        options: [staging, doudou-prod, dou-ph-prod, dou-idr-prod]
+      services:
+        description: 'REQUIRED: space-separated engine binary names to redeploy (e.g. service_pg_100). There are 400+ engines - full-fleet redeploy is not automated, deploy explicit targets only.'
+        required: true
+
+jobs:
+  # Push to main only compiles everything to catch build breaks - it does NOT
+  # deploy. A full redeploy of all ~400 engines is slow and would restart every
+  # running game at once, so deploys always require an explicit service list.
+  build-check:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with: { go-version: '1.22' }
+      - name: Compile all engines
+        working-directory: gameservers
+        run: sh buildall.sh
+
+  deploy:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    environment: ${{ github.event.inputs.environment }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with: { go-version: '1.22' }
+      - uses: ./.github/actions/ssh-setup
+        with: { ssh-key: ${{ secrets.DEPLOY_SSH_KEY }} }
+      - name: Build & deploy selected engines
+        working-directory: gameservers
+        env:
+          DEPLOY_HOST: ${{ vars.DEPLOY_HOST }}
+        run: ./deploy.sh "$DEPLOY_HOST" ${{ github.event.inputs.services }}

@@ -1,0 +1,696 @@
+{
+  "fishPath":{
+    "PA00": {
+      "PathID": 0,
+      "Path": [ -48, 1250, 261, 818, 495, 482, 797, 34 ],
+      "Direction": 0
+    },
+    "PA01": {
+      "PathID": 1,
+      "Path": [ -48, 1250, 261, 818, 495, 482, 797, 34 ],
+      "Direction": 1
+    },
+    "PA02":{
+      "PathID": 2,
+      "Path": [ 769, 1243, 477, 810, 249, 483, -61, 33 ],
+      "Direction": 0
+    },
+    "PA03":{
+      "PathID": 3,
+      "Path": [ 769, 1243, 477, 810, 249, 483, -61, 33 ],
+      "Direction": 1
+    },
+    "PA04":{
+      "PathID": 4,
+      "Path": [ -189, 564, 173, 564, 570, 564, 990, 564 ],
+      "Direction": 0
+    },
+    "PA05":{
+      "PathID": 5,
+      "Path": [ -189, 564, 173, 564, 570, 564, 990, 564 ],
+      "Direction": 1
+    },
+    "PA06":{
+      "PathID": 6,
+      "Path":[ -189, 372, 173, 372, 570, 372, 990, 372 ],
+      "Direction": 0
+    },
+    "PA07":{
+      "PathID": 7,
+      "Path": [ -189, 372, 173, 372, 570, 372, 990, 372 ],
+      "Direction": 1
+    },
+    "PA08":{
+      "PathID": 8,
+      "Path":  [ -189, 755, 173, 755, 570, 755, 990, 755 ],
+      "Direction": 0
+    },
+    "PA09":{
+      "PathID": 9,
+      "Path":  [ -189, 755, 173, 755, 570, 755, 990, 755 ],
+      "Direction": 1
+    },
+    "PA10":{
+      "PathID": 10,
+      "Path": [ -189, 932, 173, 932, 570, 932, 990, 932 ],
+      "Direction": 0
+    },
+    "PA11":{
+      "PathID": 11,
+      "Path": [ -189, 932, 173, 932, 570, 932, 990, 932 ],
+      "Direction": 1
+    },
+    "PA12":{
+      "PathID": 12,
+      "Path":  [ -99, 1253, 228, 1143, 307, 231, -110, 55 ],
+      "Direction": 0
+    },
+    "PA13":{
+      "PathID": 13,
+      "Path":  [ -99, 1253, 228, 1143, 307, 231, -110, 55 ],
+      "Direction": 1
+    },
+    "PA14":{
+      "PathID": 14,
+      "Path": [ 811, 1253, 491, 1141, 482, 268, 828, 46 ],
+      "Direction": 0
+    },
+    "PA15":{
+      "PathID": 15,
+      "Path": [ 811, 1253, 491, 1141, 482, 268, 828, 46 ],
+      "Direction": 1
+    },
+    "PA16":{
+      "PathID": 16,
+      "Path": [ -86, 1322, 17, 922, 684, 898, 816, 1317 ],
+      "Direction": 0
+    },
+    "PA17":{
+      "PathID": 17,
+      "Path": [ -86, 1322, 17, 922, 684, 898, 816, 1317 ],
+      "Direction": 1
+    },
+    "PA18":{
+      "PathID": 18,
+      "Path": [ -76, -16, 34, 437, 685, 433, 819, -26 ],
+      "Direction": 0
+    },
+    "PA19":{
+      "PathID": 19,
+      "Path": [ -76, -16, 34, 437, 685, 433, 819, -26 ],
+      "Direction": 1
+    },
+    "PA20":{
+      "PathID": 20,
+      "Path": [ 822, 1083, 462, 978, 283, 393, -145, 306 ],
+      "Direction": 0
+    },
+    "PA21":{
+      "PathID": 21,
+      "Path": [ 822, 1083, 462, 978, 283, 393, -145, 306 ],
+      "Direction": 1
+    },
+    "PA22":{
+      "PathID": 22,
+      "Path": [ -134, 1076, 278, 1011, 452, 400, 828, 302 ],
+      "Direction": 0
+    },
+    "PA23":{
+      "PathID": 23,
+      "Path": [ -134, 1076, 278, 1011, 452, 400, 828, 302 ],
+      "Direction": 1
+    },
+    "PA24":{
+      "PathID": 24,
+      "Path": [ 391, 1344, 384, 956, 605, 595, 829, 467 ],
+      "Direction": 0
+    },
+    "PA25":{
+      "PathID": 25,
+      "Path": [ 391, 1344, 384, 956, 605, 595, 829, 467 ],
+      "Direction": 1
+    },
+    "PA26":{
+      "PathID": 26,
+      "Path": [ 301, 1344, 332, 954, 150, 611, -120, 463 ],
+      "Direction": 0
+    },
+    "PA27":{
+      "PathID": 27,
+      "Path": [ 301, 1344, 332, 954, 150, 611, -120, 463 ],
+      "Direction": 1
+    },
+    "PA28":{
+      "PathID": 28,
+      "Path": [ 359, 1334, 360, 960, 450, 327, 829, 163 ],
+      "Direction": 0
+    },
+    "PA29":{
+      "PathID": 29,
+      "Path": [ 359, 1334, 360, 960, 450, 327, 829, 163 ],
+      "Direction": 1
+    },
+    "PA30":{
+      "PathID": 30,
+      "Path": [ 341, 1332, 360, 960, 291, 324, -133, 160 ],
+      "Direction": 0
+    },
+    "PA31":{
+      "PathID": 31,
+      "Path": [ 341, 1332, 360, 960, 291, 324, -133, 160 ],
+      "Direction": 1
+    },
+    "PA32":{
+      "PathID": 32,
+      "Path": [ 848, 886, 597, 858, 416, 413, 404, -61 ],
+      "Direction": 0
+    },
+    "PA33":{
+      "PathID": 33,
+      "Path": [ 848, 886, 597, 858, 416, 413, 404, -61 ],
+      "Direction": 1
+    },
+    "PA34":{
+      "PathID": 34,
+      "Path": [ -129, 884, 146, 861, 332, 413, 331, -62 ],
+      "Direction": 0
+    },
+    "PA35":{
+      "PathID": 35,
+      "Path": [ -129, 884, 146, 861, 332, 413, 331, -62 ],
+      "Direction": 1
+    },
+    "PA36":{
+      "PathID": 36,
+      "Path": [ -1, -39, 65, 898, 663, 321, 777, 1208 ],
+      "Direction": 0
+    },
+    "PA37":{
+      "PathID": 37,
+      "Path": [ -1, -39, 65, 898, 663, 321, 777, 1208 ],
+      "Direction": 1
+    },
+    "PA38":{
+      "PathID": 38,
+      "Path": [ -82, 1191, 70, 331, 684, 898, 806, 73 ],
+      "Direction": 0
+    },
+    "PA39":{
+      "PathID": 39,
+      "Path": [ -82, 1191, 70, 331, 684, 898, 806, 73 ],
+      "Direction": 1
+    },
+    "PA40":{
+      "PathID": 40,
+      "Path": [ 173, -91, 242, 367, 266, 978, 137, 1351 ],
+      "Direction": 0
+    },
+    "PA41":{
+      "PathID": 41,
+      "Path": [ 173, -91, 242, 367, 266, 978, 137, 1351 ],
+      "Direction": 1
+    },
+    "PA42":{
+      "PathID": 42,
+      "Path": [ 343, -95, 347, 385, 349, 975, 378, 1357 ],
+      "Direction": 0
+    },
+    "PA43":{
+      "PathID": 43,
+      "Path": [ 343, -95, 347, 385, 349, 975, 378, 1357 ],
+      "Direction": 1
+    },
+    "PA44":{
+      "PathID": 44,
+      "Path": [ 575, -91, 480, 384, 481, 975, 593, 1350 ],
+      "Direction": 0
+    },
+    "PA45":{
+      "PathID": 45,
+      "Path": [ 575, -91, 480, 384, 481, 975, 593, 1350 ],
+      "Direction": 1
+    },
+    "PA46":{
+      "PathID": 46,
+      "Path": [ 825, 1200, 315, 953, 130, 760, 32, -81 ],
+      "Direction": 0
+    },
+    "PA47":{
+      "PathID": 47,
+      "Path": [ 825, 1200, 315, 953, 130, 760, 32, -81 ],
+      "Direction": 1
+    },
+    "PA48":{
+      "PathID": 48,
+      "Path": [ -126, 1174, 433, 1119, 684, 422, 695, -83 ],
+      "Direction": 0
+    },
+    "PA49":{
+      "PathID": 49,
+      "Path":  [ -126, 1174, 433, 1119, 684, 422, 695, -83 ],
+      "Direction": 1
+    },
+    "PA50":{
+      "PathID": 50,
+      "Path":  [ 50, 1365, 208, 408, 527, 850, 800, 36 ],
+      "Direction": 0
+    },
+    "PA51":{
+      "PathID": 51,
+      "Path":  [ 50, 1365, 208, 408, 527, 850, 800, 36 ],
+      "Direction": 1
+    },
+    "PA52":{
+      "PathID": 52,
+      "Path":  [ 625, 1363, 542, 410, 197, 838, -68, 43 ],
+      "Direction": 0
+    },
+    "PA53":{
+      "PathID": 53,
+      "Path":  [ 625, 1363, 542, 410, 197, 838, -68, 43 ],
+      "Direction": 1
+    },
+
+    "PA54":{
+      "PathID": 54,
+      "Path":  [ 43, 1381, 83, 1021, 645, 1016, 676, 1378 ],
+      "Direction": 0
+    },
+    "PA55":{
+      "PathID": 55,
+      "Path":  [ 43, 1381, 83, 1021, 645, 1016, 676, 1378 ],
+      "Direction": 1
+    },
+    "PA56":{
+      "PathID": 56,
+      "Path": [ 12, -80, 106, 341, 636, 332, 729, -84 ],
+      "Direction": 0
+    },
+    "PA57":{
+      "PathID": 57,
+      "Path": [ 12, -80, 106, 341, 636, 332, 729, -84 ],
+      "Direction": 1
+    },
+    "PA58":{
+      "PathID": 58,
+      "Path": [ 331, 629, 220, 464, 143, 234, 56, -44 ],
+      "Direction": 0
+    },
+    "PA59":{
+      "PathID": 59,
+      "Path": [ 397, 638, 538, 487, 569, 239, 663, -51 ],
+      "Direction": 0
+    },
+    "PA60":{
+      "PathID": 60,
+      "Path": [ 336, 623, 326, 455, 292, 218, 266, -54 ],
+      "Direction": 0
+    },
+    "PA61":{
+      "PathID": 61,
+      "Path": [ 370, 623, 436, 457, 465, 205, 485, -53 ],
+      "Direction": 0
+    },
+    "PA62":{
+      "PathID": 62,
+      "Path": [ 383, 711, 255, 959, 98, 1078, -70, 1132 ],
+      "Direction": 0
+    },
+    "PA63":{
+      "PathID": 63,
+      "Path": [ 336, 676, 225, 797, 66, 842, -97, 773 ],
+      "Direction": 0
+    },
+    "PA64":{
+      "PathID": 64,
+      "Path": [ 374, 669, 298, 408, 86, 224, -103, 109 ],
+      "Direction": 0
+    },
+    "PA65":{
+      "PathID": 65,
+      "Path":[ 376, 779, 253, 587, 34, 479, -97, 473 ],
+      "Direction": 0
+    },
+    "PA66":{
+      "PathID": 66,
+      "Path": [ 378, 733, 505, 950, 682, 1093, 817, 1128 ],
+      "Direction": 0
+    },
+    "PA67":{
+      "PathID": 67,
+      "Path": [ 353, 670, 506, 677, 675, 797, 810, 810 ],
+      "Direction": 0
+    },
+    "PA68":{
+      "PathID": 68,
+      "Path": [ 367, 716, 465, 556, 648, 471, 816, 448 ],
+      "Direction": 0
+    },
+    "PA69":{
+      "PathID": 69,
+      "Path":[ 363, 700, 414, 398, 640, 222, 795, 126 ],
+      "Direction": 0
+    },
+
+    "RAN_PA00":{
+      "PathID": 70,
+      "RandomPath_1":{
+        "PathID": 0,
+        "Weight": 1
+      },
+      "RandomPath_2":{
+        "PathID": 1,
+        "Weight": 1
+      },
+      "RandomPath_3":{
+        "PathID": 2,
+        "Weight": 1
+      },
+      "RandomPath_4":{
+        "PathID": 3,
+        "Weight": 1
+      },
+      "RandomPath_5":{
+        "PathID": 4,
+        "Weight": 1
+      },
+      "RandomPath_6":{
+        "PathID": 5,
+        "Weight": 1
+      },
+      "RandomPath_7":{
+        "PathID": 6,
+        "Weight": 1
+      },
+      "RandomPath_8":{
+        "PathID": 7,
+        "Weight": 1
+      },
+      "RandomPath_9":{
+        "PathID": 8,
+        "Weight": 1
+      },
+      "RandomPath_10":{
+        "PathID": 9,
+        "Weight": 1
+      },
+      "RandomPath_11":{
+        "PathID": 10,
+        "Weight": 1
+      },
+      "RandomPath_12":{
+        "PathID": 11,
+        "Weight": 1
+      }
+    },
+    "RAN_PA01":{
+      "PathID": 71,
+      "RandomPath_1":{
+        "PathID": 12,
+        "Weight": 1
+      },
+      "RandomPath_2":{
+        "PathID": 13,
+        "Weight": 1
+      },
+      "RandomPath_3":{
+        "PathID": 14,
+        "Weight": 1
+      },
+      "RandomPath_4":{
+        "PathID": 15,
+        "Weight": 1
+      },
+      "RandomPath_5":{
+        "PathID": 16,
+        "Weight": 1
+      },
+      "RandomPath_6":{
+        "PathID": 17,
+        "Weight": 1
+      },
+      "RandomPath_7":{
+        "PathID": 18,
+        "Weight": 1
+      },
+      "RandomPath_8":{
+        "PathID": 19,
+        "Weight": 1
+      },
+      "RandomPath_9":{
+        "PathID": 20,
+        "Weight": 1
+      },
+      "RandomPath_10":{
+        "PathID": 21,
+        "Weight": 1
+      },
+      "RandomPath_11":{
+        "PathID": 22,
+        "Weight": 1
+      },
+      "RandomPath_12":{
+        "PathID": 23,
+        "Weight": 1
+      }
+    },
+    "RAN_PA02":{
+      "PathID": 72,
+      "RandomPath_1":{
+        "PathID": 24,
+        "Weight": 1
+      },
+      "RandomPath_2":{
+        "PathID": 25,
+        "Weight": 1
+      },
+      "RandomPath_3":{
+        "PathID": 26,
+        "Weight": 1
+      },
+      "RandomPath_4":{
+        "PathID": 27,
+        "Weight": 1
+      },
+      "RandomPath_5":{
+        "PathID": 28,
+        "Weight": 1
+      },
+      "RandomPath_6":{
+        "PathID": 29,
+        "Weight": 1
+      },
+      "RandomPath_7":{
+        "PathID": 30,
+        "Weight": 1
+      },
+      "RandomPath_8":{
+        "PathID": 31,
+        "Weight": 1
+      }
+    },
+    "RAN_PA03": {
+      "PathID": 73,
+      "RandomPath_1": {
+        "PathID": 36,
+        "Weight": 1
+      },
+      "RandomPath_2": {
+        "PathID": 37,
+        "Weight": 1
+      },
+      "RandomPath_3": {
+        "PathID": 38,
+        "Weight": 1
+      },
+      "RandomPath_4": {
+        "PathID": 39,
+        "Weight": 1
+      },
+      "RandomPath_5": {
+        "PathID": 40,
+        "Weight": 1
+      },
+      "RandomPath_6": {
+        "PathID": 41,
+        "Weight": 1
+      },
+      "RandomPath_7": {
+        "PathID": 42,
+        "Weight": 1
+      },
+      "RandomPath_8": {
+        "PathID": 43,
+        "Weight": 1
+      },
+      "RandomPath_9": {
+        "PathID": 44,
+        "Weight": 1
+      },
+      "RandomPath_10": {
+        "PathID": 45,
+        "Weight": 1
+      },
+      "RandomPath_11": {
+        "PathID": 50,
+        "Weight": 1
+      },
+      "RandomPath_12": {
+        "PathID": 51,
+        "Weight": 1
+      },
+      "RandomPath_13": {
+        "PathID": 52,
+        "Weight": 1
+      },
+      "RandomPath_14": {
+        "PathID": 53,
+        "Weight": 1
+      },
+      "RandomPath_15":{
+        "PathID": 54,
+        "Weight": 1
+      },
+      "RandomPath_16":{
+        "PathID": 55,
+        "Weight": 1
+      },
+      "RandomPath_17":{
+        "PathID": 56,
+        "Weight": 1
+      },
+      "RandomPath_18":{
+        "PathID": 57,
+        "Weight": 1
+      }
+    },
+    "RAN_PA04": {
+      "PathID": 74,
+      "RandomPath_1": {
+        "PathID": 16,
+        "Weight": 1
+      },
+      "RandomPath_2": {
+        "PathID": 17,
+        "Weight": 1
+      },
+      "RandomPath_3": {
+        "PathID": 18,
+        "Weight": 1
+      },
+      "RandomPath_4": {
+        "PathID": 19,
+        "Weight": 1
+      },
+      "RandomPath_5": {
+        "PathID": 20,
+        "Weight": 1
+      },
+      "RandomPath_6": {
+        "PathID": 21,
+        "Weight": 1
+      },
+      "RandomPath_7": {
+        "PathID": 22,
+        "Weight": 1
+      },
+      "RandomPath_8": {
+        "PathID": 23,
+        "Weight": 1
+      }
+    },
+    "RAN_PA05":{
+      "PathID": 75,
+      "RandomPath_1":{
+        "PathID": 58,
+        "Weight": 1
+      },
+      "RandomPath_2":{
+        "PathID": 59,
+        "Weight": 1
+      },
+      "RandomPath_3":{
+        "PathID": 60,
+        "Weight": 1
+      },
+      "RandomPath_4":{
+        "PathID": 61,
+        "Weight": 1
+      }
+    },
+    "RAN_PA06":{
+      "PathID": 76,
+      "RandomPath_1":{
+        "PathID": 62,
+        "Weight": 1
+      },
+      "RandomPath_2":{
+        "PathID": 63,
+        "Weight": 1
+      },
+      "RandomPath_3":{
+        "PathID": 64,
+        "Weight": 1
+      },
+      "RandomPath_4":{
+        "PathID": 65,
+        "Weight": 1
+      }
+    },
+    "RAN_PA07":{
+      "PathID": 77,
+      "RandomPath_1":{
+        "PathID": 66,
+        "Weight": 1
+      },
+      "RandomPath_2":{
+        "PathID": 67,
+        "Weight": 1
+      },
+      "RandomPath_3":{
+        "PathID": 68,
+        "Weight": 1
+      },
+      "RandomPath_4":{
+        "PathID": 69,
+        "Weight": 1
+      }
+    },
+    "RAN_PA08":{
+      "PathID": 78,
+      "RandomPath_1":{
+        "PathID": 0,
+        "Weight": 1
+      },
+      "RandomPath_2":{
+        "PathID": 1,
+        "Weight": 1
+      },
+      "RandomPath_3":{
+        "PathID": 2,
+        "Weight": 1
+      },
+      "RandomPath_4":{
+        "PathID": 3,
+        "Weight": 1
+      },
+      "RandomPath_5":{
+        "PathID": 36,
+        "Weight": 1
+      },
+      "RandomPath_6":{
+        "PathID": 37,
+        "Weight": 1
+      },
+      "RandomPath_7":{
+        "PathID": 38,
+        "Weight": 1
+      }
+    },
+    "RandomPath_8":{
+      "PathID": 39,
+      "Weight": 1
+    }
+  },
+  "usePath":false
+}

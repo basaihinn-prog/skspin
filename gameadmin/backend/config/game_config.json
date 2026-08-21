@@ -1,0 +1,20 @@
+{
+  "Websocket": "wss://api.cocodr.xyz:11080/login",
+  "LaunchUrl": "https://h5.ppslot.site/",
+  "BetHistoryUrl": "https://history.cocodr.xyz/",
+  "Apps": [
+	  {
+    "AppID": "mega",
+    "AppSecret": "mega",
+    "Address": "https://api.cocodr.xyz:9999/kk",
+    "Comment": "测试用"
+  },
+	  {
+    "AppID": "fake",
+    "AppSecret": "fake",
+    "Address": "https://api.cocodr.xyz:11080",
+    "Comment": "测试用"
+  }
+
+  ]
+}

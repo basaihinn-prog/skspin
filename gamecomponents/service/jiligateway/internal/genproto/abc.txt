@@ -1,0 +1,50 @@
+l.ResData = function() {
+function e(e) {
+	if (e)
+		for (var t = Object.keys(e), n = 0; n < t.length; ++n)
+			null != e[t[n]] && (this[t[n]] = e[t[n]])
+}
+return e.prototype.ret = 0,
+e.prototype.type = 0,
+e.prototype.token = "",
+e.prototype.msg = "",
+e.prototype.data = null,
+e.encode = function(e, t) {
+	return t || (t = u.create()),
+	null != e.ret && Object.hasOwnProperty.call(e, "ret") && t.uint32(8).int32(e.ret),
+	null != e.type && Object.hasOwnProperty.call(e, "type") && t.uint32(16).int32(e.type),
+	null != e.token && Object.hasOwnProperty.call(e, "token") && t.uint32(26).string(e.token),
+	null != e.msg && Object.hasOwnProperty.call(e, "msg") && t.uint32(34).string(e.msg),
+	null != e.data && Object.hasOwnProperty.call(e, "data") && p.cshProto.InfoData.encode(e.data, t.uint32(42).fork()).ldelim(),
+	t
+}
+,
+e.decode = function(e, t) {
+	e instanceof i || (e = i.create(e));
+	for (var n = void 0 === t ? e.len : e.pos + t, r = new p.cshProto.ResData; e.pos < n; ) {
+		var o = e.uint32();
+		switch (o >>> 3) {
+		case 1:
+			r.ret = e.int32();
+			break;
+		case 2:
+			r.type = e.int32();
+			break;
+		case 3:
+			r.token = e.string();
+			break;
+		case 4:
+			r.msg = e.string();
+			break;
+		case 5:
+			r.data = p.cshProto.InfoData.decode(e, e.uint32());
+			break;
+		default:
+			e.skipType(7 & o)
+		}
+	}
+	return r
+}
+,
+e
+}(),

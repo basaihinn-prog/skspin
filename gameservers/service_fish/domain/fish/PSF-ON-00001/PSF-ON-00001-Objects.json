@@ -1,0 +1,164 @@
+{
+  "Objects":{
+	"F00": {
+	  "FishID": 0,
+	  "Speed": 20,
+	  "Layer": 3,
+	  "ExtraData":[]
+	},
+	"F01": {
+	  "FishID": 1,
+	  "Speed": 20,
+	  "Layer": 3,
+	  "ExtraData":[]
+	},
+	"F02":{
+	  "FishID": 2,
+	  "Speed": 20,
+	  "Layer": 3,
+	  "ExtraData":[]
+	},
+	"F03":{
+	  "FishID": 3,
+	  "Speed": 20,
+	  "Layer": 3,
+	  "ExtraData":[]
+	},
+	"F04":{
+	  "FishID": 4,
+	  "Speed": 20,
+	  "Layer": 3,
+	  "ExtraData":[]
+	},
+	"F05":{
+	  "FishID": 5,
+	  "Speed": 20,
+	  "Layer": 3,
+	  "ExtraData":[]
+	},
+	"F06":{
+	  "FishID": 6,
+	  "Speed": 20,
+	  "Layer": 3,
+	  "ExtraData":[]
+	},
+	"F07":{
+	  "FishID": 7,
+	  "Speed": 20,
+	  "Layer": 3,
+	  "ExtraData":[]
+	},
+	"F08":{
+	  "FishID": 8,
+	  "Speed": 20,
+	  "Layer": 3,
+	  "ExtraData":[]
+	},
+	"F09":{
+	  "FishID": 9,
+	  "Speed": 20,
+	  "Layer": 3,
+	  "ExtraData":[]
+	},
+	"F10":{
+	  "FishID": 10,
+	  "Speed": 20,
+	  "Layer": 3,
+	  "ExtraData":[]
+	},
+	"F11":{
+	  "FishID": 11,
+	  "Speed": 30,
+	  "Layer": 3,
+	  "ExtraData":[]
+	},
+	"F12":{
+	  "FishID": 12,
+	  "Speed": 30,
+	  "Layer": 3,
+	  "ExtraData":[]
+	},
+	"F13":{
+	  "FishID": 13,
+	  "Speed": 30,
+	  "Layer": 3,
+	  "ExtraData":[]
+	},
+	"F14":{
+	  "FishID": 14,
+	  "Speed": 30,
+	  "Layer": 3,
+	  "ExtraData":[]
+	},
+	"F15":{
+	  "FishID": 15,
+	  "Speed": 35,
+	  "Layer": 3,
+	  "ExtraData":[]
+	},
+	"F16":{
+	  "FishID": 16,
+	  "Speed": 35,
+	  "Layer": 3,
+	  "ExtraData":[]
+	},
+	"F17":{
+	  "FishID": 17,
+	  "Speed": 35,
+	  "Layer": 3,
+	  "ExtraData":[]
+	},
+	"F18":{
+	  "FishID": 18,
+	  "Speed": 35,
+	  "Layer": 3,
+	  "ExtraData":[]
+	},
+	"F19":{
+	  "FishID": 19,
+	  "Speed": 40,
+	  "Layer": 3,
+	  "ExtraData":[]
+	},
+	"F20":{
+	  "FishID": 20,
+	  "Speed": 40,
+	  "Layer": 2,
+	  "ExtraData":[]
+	},
+	"F26":{
+	  "FishID": 26,
+	  "Speed": 40,
+	  "Layer": 1,
+	  "ExtraData":[]
+	},
+	"F27":{
+	  "FishID": 27,
+	  "Speed": 40,
+	  "Layer": 1,
+	  "ExtraData":[]
+	},
+	"F28":{
+	  "FishID": 28,
+	  "Speed": 40,
+	  "Layer": 2,
+	  "ExtraData":[]
+	},
+	"F29":{
+	  "FishID": 29,
+	  "Speed": 40,
+	  "Layer": 4,
+	  "ExtraData":[]
+	},
+	"F30":{
+	  "FishID": 30,
+	  "Speed": 60,
+	  "Layer": 4,
+	  "ExtraData":[
+	    {
+	      "ChangeFaceTime": 15
+        }
+	  ]
+	}
+  }
+}

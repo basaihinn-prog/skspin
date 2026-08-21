@@ -1,0 +1,15 @@
+service_alerter
+service_cleardb
+service_facaigateway
+service_fakeapp
+service_gamecenter
+service_gateway
+service_hacksawgateway
+service_jdbgateway
+service_jiligateway
+service_minigateway
+service_pggateway
+service_ppgateway
+service_proxy
+service_slots
+service_stats

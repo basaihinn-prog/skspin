@@ -1,0 +1,285 @@
+[
+	[{
+		"flag": "不中奖",
+		"minRate": -1,
+		"maxRate": 0,
+		"BounsCount": 0,
+		"minus" : 0,
+		"expectCount": 200000
+	}, {
+		"flag": "不中奖",
+		"minRate": -1,
+		"maxRate": 0,
+		"BounsCount": 1,
+		"minus" : 0,
+		"expectCount": 50000
+	}, {
+		"flag": "不中奖",
+		"minRate": -1,
+		"maxRate": 0,
+		"BounsCount": 2,
+		"minus" : 0,
+		"expectCount": 40000
+	}, {
+		"flag": "不中奖",
+		"minRate": -1,
+		"maxRate": 0,
+		"BounsCount": 3,
+		"minus" : 0,
+		"expectCount": 10000
+	}],
+	[{
+			"flag": "普通旋转",
+			"minRate": 0,
+			"maxRate": 0.34,
+			"minus" : 0,
+			"expectCount": 120000
+		},
+		{
+			"flag": "普通旋转",
+			"minRate": 0.34,
+			"maxRate": 0.67,
+			"minus" : 0,
+			"expectCount": 120000
+		},
+		{
+			"flag": "普通旋转",
+			"minRate": 0.67,
+			"maxRate": 1,
+			"minus" : 0,
+			"expectCount": 80000
+		},
+		{
+			"flag": "普通旋转",
+			"minRate": 1,
+			"maxRate": 2,
+			"minus" : 0,
+			"expectCount": 80000
+		},
+		{
+			"flag": "普通旋转",
+			"minRate": 2,
+			"maxRate": 4,
+			"minus" : 0,
+			"expectCount": 40000
+		},
+		{
+			"flag": "普通旋转",
+			"minRate": 4,
+			"maxRate": 6,
+			"minus" : 0,
+			"expectCount": 40000
+		},
+		{
+			"flag": "普通旋转",
+			"minRate": 6,
+			"maxRate": 10,
+			"minus" : 0,
+			"expectCount": 20000
+		},
+		{
+			"flag": "普通旋转",
+			"minRate": 10,
+			"maxRate": 20,
+			"minus" : 0,
+			"expectCount": 10000  
+		}
+	],
+	[{
+			"flag": "免费旋转4次",
+			"minRate": 6,
+			"maxRate": 10,
+			"minus" : 0,
+			"expectCount": 10000
+		},
+		{
+			"flag": "免费旋转4次",
+			"minRate": 10,
+			"maxRate": 15,
+			"minus" : 0,
+			"expectCount": 10000
+		},
+		{
+			"flag": "免费旋转4次",
+			"minRate": 15,
+			"maxRate": 20,
+			"minus" : 0,
+			"expectCount": 10000
+		},
+		{
+			"flag": "免费旋转4次",
+			"minRate": 20,
+			"maxRate": 30,
+			"minus" : 5,
+			"expectCount": 10000
+		}
+	],
+	[ {
+		"flag": "免费旋转5次",
+		"minRate": 6,
+		"maxRate": 10,
+		"minus" : 0,
+		"expectCount": 10000
+	}, {
+		"flag": "免费旋转5次",
+		"minRate": 10,
+		"maxRate": 15,
+		"minus" : 0,
+		"expectCount": 10000
+	}, {
+		"flag": "免费旋转5次",
+		"minRate": 15,
+		"maxRate": 20,
+		"minus" : 0,
+		"expectCount": 10000
+	}, {
+		"flag": "免费旋转5次",
+		"minRate": 20,
+		"maxRate": 30,
+		"minus" : 5,
+		"expectCount": 10000
+	}],
+	[{
+			"flag": "免费旋转10次",
+			"minRate": 10,
+			"maxRate": 15,
+			"minus" : 0,
+			"expectCount": 5000
+		},
+		{
+			"flag": "免费旋转10次",
+			"minRate": 15,
+			"maxRate": 20,
+			"minus" : 0,
+			"expectCount": 5000
+		},
+		{
+			"flag": "免费旋转10次",
+			"minRate": 20,
+			"maxRate": 30,
+			"minus" : 5,
+			"expectCount": 5000
+		},
+		{
+			"flag": "免费旋转10次",
+			"minRate": 30,
+			"maxRate": 40,
+			"minus" : 8,
+			"expectCount": 5000
+		},
+		{
+			"flag": "免费旋转10次",
+			"minRate": 40,
+			"maxRate": 50,
+			"minus" : 10,
+			"expectCount": 5000
+		},
+		{
+			"flag": "免费旋转10次",
+			"minRate": 50,
+			"maxRate": 60,
+			"minus" : 12,
+			"expectCount": 5000
+		}
+	],
+	[{
+			"flag": "免费旋转20次",
+			"minRate": 15,
+			"maxRate": 20,
+			"minus" : 0,
+			"expectCount": 5000
+		},
+		{
+			"flag": "免费旋转20次",
+			"minRate": 20,
+			"maxRate": 30,
+			"minus" : 5,
+			"expectCount": 5000
+		},
+		{
+			"flag": "免费旋转20次",
+			"minRate": 30,
+			"maxRate": 40,
+			"minus" : 8,
+			"expectCount": 5000
+		},
+		{
+			"flag": "免费旋转20次",
+			"minRate": 40,
+			"maxRate": 50,
+			"minus" : 10,
+			"expectCount": 5000
+		},
+		{
+			"flag": "免费旋转20次",
+			"minRate": 50,
+			"maxRate": 60,
+			"minus" : 12,
+			"expectCount": 5000
+		},
+		{
+			"flag": "免费旋转20次",
+			"minRate": 60,
+			"maxRate": 80,
+			"minus" : 15,
+			"expectCount": 5000
+		}
+	],
+	[{
+			"flag": "砍狮子",
+			"minRate": 8,
+			"maxRate": 20,
+			"minus" : 2,
+			"expectCount": 10000
+		},
+		{
+			"flag": "砍狮子",
+			"minRate": 20,
+			"maxRate": 40,
+			"minus" : 6,
+			"expectCount": 10000
+		},
+		{
+			"flag": "砍狮子",
+			"minRate": 40,
+			"maxRate": 80,
+			"minus" : 15,
+			"expectCount": 1000
+		},
+		{
+			"flag": "砍狮子",
+			"minRate": 80,
+			"maxRate": 120,
+			"minus" : 24,
+			"expectCount": 1000
+		},
+		{
+			"flag": "砍狮子",
+			"minRate": 120,
+			"maxRate": 150,
+			"minus" : 30,
+			"expectCount": 1000
+		},
+		{
+			"flag": "砍狮子",
+			"minRate": 150,
+			"maxRate": 200,
+			"minus" : 40,
+			"expectCount": 500
+		},
+		{
+			"flag": "砍狮子",
+			"minRate": 200,
+			"maxRate": 250,
+			"minus" : 50,
+			"expectCount": 200
+		},
+		{
+			"flag": "砍狮子",
+			"minRate": 250,
+			"maxRate": 300,
+			"minus" : 60,
+			"expectCount": 200
+		}
+	]
+]

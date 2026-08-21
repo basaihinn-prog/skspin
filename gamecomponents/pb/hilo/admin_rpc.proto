@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package hilo;
+
+import "pb/empty.proto";
+import "pb/hilo/msg.proto";
+
+//@ts: prefix(Hilo)
+service AdminHiloRpc {
+    rpc GetAwardPool(Empty) returns (GetAwardPoolResp);
+    rpc SetAwardPool(SetAwardPoolReq) returns (Empty);
+    rpc RuntimeData(Empty) returns (RuntimeDataResp);
+}

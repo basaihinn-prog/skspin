@@ -1,0 +1,72 @@
+syntax = "proto3";
+
+package message;
+option go_package = "serve/servicejili/jili_301_jpj/message";
+
+message Column {
+
+  repeated int32 Row = 1;
+}
+
+message Single {
+
+  repeated message.Column Col = 1;
+}
+
+message AwardData {
+
+  int32 Symbol = 1;
+  int32 Line = 2;
+  double Win = 3;
+}
+
+message SpinAck {
+
+  repeated message.Single Plate_symbol = 1;
+  repeated int32 Plate_mult = 2;
+  repeated message.AwardData Award_data_vec = 3;
+  int32 Jp_type = 4;
+  double JP_mul = 5;
+  double JP_win = 6;
+  double Mult = 7;
+  bool Extra = 8;
+  int32 Award_type_flag = 9;
+  double Total_win = 10;
+  string Show_index = 11;
+  double Now_money = 12;
+  int32 Ack_type = 13;
+  bool Can_buy = 14;
+  double Can_buy_rate = 15;
+  double RT_p = 16;
+  bool Is_buy = 17;
+  int32 Re_spin_symbol = 18;
+  int32 Re_spin_column = 19;
+  double Base_bet = 20;
+  int32 LI_d = 21;
+  int32 RI_d = 22;
+}
+
+message GameInfoData {
+
+  repeated double Buy_mul = 1;
+  repeated message.SingleRange Show_range = 2;
+  repeated double Mul = 3;
+}
+
+message SingleRange {
+
+  double Min = 1;
+  double Max = 2;
+}
+
+message BuyReq {
+
+  double Base_bet = 1;
+}
+
+message StateInfo {
+
+  repeated message.Column Symbol = 1;
+  repeated int32 Mul = 2;
+  double Buymul = 3;
+}

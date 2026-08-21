@@ -1,0 +1,291 @@
+{
+  "ModuleType": 14,
+  "BaseData": {
+    "ProjectID": "",
+    "ModuleID": "",
+    "GameType": 0,
+    "StripType": 0,
+    "GameTypeDetail": 17,
+    "BonusList": []
+  },
+
+  "StripTable": {
+    "Normal": {
+      "UseIcon": [ 0, 4, 9, 11, 13, 14, 15, 16, 17, 30, 31 ],
+      "HitWeight": [ 1, 4, 3, 2, 2, 2, 2, 1, 1, 1, 5 ]
+    },
+    "Block": {
+      "UseIcon": [ 0, 4, 9, 11, 13, 14, 15, 16, 17, 30, 31 ],
+      "HitWeight": [ 6, 6, 6, 6, 6, 6, 6, 2, 2, 4, 7 ]
+    }
+    },
+
+  "Icons": {
+    "starfish": {
+      "IconID": 0,
+      "IconPays": [
+        2000
+      ]
+    },
+    "Clownfish": {
+      "IconID": 4,
+      "IconPays": [
+        2000
+      ]
+    },
+    "Lionfish": {
+      "IconID": 9,
+      "IconPays": [
+        2000
+      ]
+    },
+    "giant jellyfish": {
+      "IconID": 11,
+      "IconPays": [
+        2000
+      ]
+    },
+    "lobster": {
+      "IconID": 13,
+      "IconPays": [
+        2000
+      ]
+    },
+    "hermit crab": {
+      "IconID": 14,
+      "IconPays": [
+        2000
+      ]
+    },
+    "gold gem turtle": {
+      "IconID": 15,
+      "IconPays": [
+        2000
+      ]
+    },
+    "gold coin toad": {
+      "IconID": 16,
+      "IconPays": [
+        2000
+      ]
+    },
+    "gold crab": {
+      "IconID": 17,
+      "IconPays": [
+        2000
+      ]
+    },
+    "Face Off 1": {
+      "IconID": 21,
+      "IconPays": [
+        2000
+      ]
+    },
+    "Face Off 3": {
+      "IconID": 23,
+      "IconPays": [
+        2000
+      ]
+    },
+    "Face Off 5": {
+      "IconID": 25,
+      "IconPays": [
+        2000
+      ]
+    },
+    "Face Off random change": {
+      "IconID": 30,
+      "IconPays": [
+        0
+      ]
+    },
+    "mystery symbol random change": {
+      "IconID": 31,
+      "IconPays": [
+        0
+      ]
+    }
+  },
+
+  "ChangeLink_1": {
+    "ChangeIconId": [
+      31
+    ],
+    "ChangeCandidate_Normal": {
+      "ChangeCandidate_1": {
+        "IconID": 0,
+        "Weight": 2
+      },
+      "ChangeCandidate_2": {
+        "IconID": 4,
+        "Weight": 1
+      },
+      "ChangeCandidate_3": {
+        "IconID": 9,
+        "Weight": 1
+      },
+      "ChangeCandidate_4": {
+        "IconID": 11,
+        "Weight": 1
+      },
+      "ChangeCandidate_5": {
+        "IconID": 13,
+        "Weight": 1
+      },
+      "ChangeCandidate_6": {
+        "IconID": 14,
+        "Weight": 1
+      },
+      "ChangeCandidate_7": {
+        "IconID": 15,
+        "Weight": 0
+      },
+      "ChangeCandidate_8": {
+        "IconID": 16,
+        "Weight": 0
+      },
+      "ChangeCandidate_9": {
+        "IconID": 17,
+        "Weight": 0
+      },
+      "ChangeCandidate_10": {
+        "IconID": 30,
+        "Weight": 0
+      }
+    },
+    "ChangeCandidate_Block": {
+      "ChangeCandidate_1": {
+        "IconID": 0,
+        "Weight": 0
+      },
+      "ChangeCandidate_2": {
+        "IconID": 4,
+        "Weight": 0
+      },
+      "ChangeCandidate_3": {
+        "IconID": 9,
+        "Weight": 0
+      },
+      "ChangeCandidate_4": {
+        "IconID": 11,
+        "Weight": 0
+      },
+      "ChangeCandidate_5": {
+        "IconID": 13,
+        "Weight": 0
+      },
+      "ChangeCandidate_6": {
+        "IconID": 14,
+        "Weight": 0
+      },
+      "ChangeCandidate_7": {
+        "IconID": 15,
+        "Weight": 1
+      },
+      "ChangeCandidate_8": {
+        "IconID": 16,
+        "Weight": 1
+      },
+      "ChangeCandidate_9": {
+        "IconID": 17,
+        "Weight": 1
+      },
+      "ChangeCandidate_10": {
+        "IconID": 30,
+        "Weight": 1
+      }
+    }
+  },
+ 
+  "ChangeLink_2": {
+    "ChangeIconId": [
+      30
+    ],
+    "ChangeCandidate_Normal": {
+      "ChangeCandidate_1": {
+        "IconID": 21,
+        "Weight": 2
+      },
+      "ChangeCandidate_2": {
+        "IconID": 23,
+        "Weight": 2
+      },
+      "ChangeCandidate_3": {
+        "IconID": 25,
+        "Weight": 5
+      }
+    },
+    "ChangeCandidate_Block": {
+      "ChangeCandidate_1": {
+        "IconID": 21,
+        "Weight": 5
+      },
+      "ChangeCandidate_2": {
+        "IconID": 23,
+        "Weight": 5
+      },
+      "ChangeCandidate_3": {
+        "IconID": 25,
+        "Weight": 1
+      }
+    }
+  },
+  "MixAward": [
+    {
+      "MixAwardId": 3,
+      "IconLinkThreshold": 3,
+      "Pay": [ 8, 9, 12, 14, 17, 19, 20, 22, 24, 25, 27, 29, 30, 32, 34, 35, 37, 40, 42, 44, 45, 47, 50, 52, 54, 55, 57, 60, 62, 65, 67, 70, 72, 75, 77, 80, 82, 85, 90, 92, 95, 100, 102, 104, 105, 107, 110, 112, 115, 117, 120, 122, 125, 127, 130, 132, 135, 140, 142, 145, 150, 152, 155, 160, 165, 170, 175, 180, 190, 200, 202, 205, 210, 215, 220, 225, 230, 240, 250, 304, 307, 310, 312, 315, 317, 320, 322, 325, 327, 330, 332, 335, 340, 342, 345, 350, 352, 355, 360, 365, 370, 375, 380, 390, 400, 402, 405, 410, 415, 420, 425, 430, 440, 450, 500, 504, 507, 510, 512, 515, 517, 520, 522, 525, 527, 530, 532, 535, 540, 542, 545, 550, 552, 555, 560, 565, 570, 575, 580, 590, 600, 602, 605, 610, 615, 620, 625, 630, 640, 650, 700, 802, 805, 810, 815, 820, 825, 830, 840, 850, 900, 1002, 1005, 1010, 1015, 1020, 1025, 1030, 1040, 1050, 1100, 1200, 1300, 2000 ],
+      "MixIconGroup": [
+        {
+          "IconId": 0,
+          "Quantity": 2
+        },
+        {
+          "IconId": 4,
+          "Quantity": 5
+        },
+        {
+          "IconId": 9,
+          "Quantity": 10
+        },
+        {
+          "IconId": 11,
+          "Quantity": 15
+        },
+        {
+          "IconId": 13,
+          "Quantity": 20
+        },
+        {
+          "IconId": 14,
+          "Quantity": 25
+        },
+        {
+          "IconId": 15,
+          "Quantity": 30
+        },
+        {
+          "IconId": 16,
+          "Quantity": 40
+        },
+        {
+          "IconId": 17,
+          "Quantity": 50
+        },
+        {
+          "IconId": 21,
+          "Quantity": 100
+        },
+        {
+          "IconId": 23,
+          "Quantity": 300
+        },
+        {
+          "IconId": 25,
+          "Quantity": 500
+        }
+      ],
+      "WildGroup": []
+    }
+  ]
+}

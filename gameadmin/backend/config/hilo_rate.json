@@ -1,0 +1,1037 @@
+[
+	[
+		{
+			"Rate": 2,
+			"Customer": 950,
+			"Robot": 850
+		},
+		{
+			"Rate": 3,
+			"Customer": 50,
+			"Robot": 80
+		},
+		{
+			"Rate": 4,
+			"Customer": 0,
+			"Robot": 50
+		},
+		{
+			"Rate": 5,
+			"Customer": 0,
+			"Robot": 10
+		},
+		{
+			"Rate": 6,
+			"Customer": 0,
+			"Robot": 10
+		},
+		{
+			"Rate": 11,
+			"Customer": 0,
+			"Robot": 10
+		}
+	],
+	[
+		{
+			"Rate": 2,
+			"Customer": 920,
+			"Robot": 850
+		},
+		{
+			"Rate": 3,
+			"Customer": 50,
+			"Robot": 80
+		},
+		{
+			"Rate": 4,
+			"Customer": 20,
+			"Robot": 50
+		},
+		{
+			"Rate": 5,
+			"Customer": 20,
+			"Robot": 10
+		},
+		{
+			"Rate": 6,
+			"Customer": 0,
+			"Robot": 10
+		},
+		{
+			"Rate": 11,
+			"Customer": 0,
+			"Robot": 10
+		}
+	],
+	[
+		{
+			"Rate": 8,
+			"Customer": 920,
+			"Robot": 840
+		},
+		{
+			"Rate": 9,
+			"Customer": 70,
+			"Robot": 80
+		},
+		{
+			"Rate": 10,
+			"Customer": 0,
+			"Robot": 20
+		},
+		{
+			"Rate": 11,
+			"Customer": 10,
+			"Robot": 20
+		},
+		{
+			"Rate": 16,
+			"Customer": 0,
+			"Robot": 20
+		},
+		{
+			"Rate": 21,
+			"Customer": 0,
+			"Robot": 20
+		}
+	],
+	[
+		{
+			"Rate": 2,
+			"Customer": 872,
+			"Robot": 800
+		},
+		{
+			"Rate": 3,
+			"Customer": 88,
+			"Robot": 120
+		},
+		{
+			"Rate": 4,
+			"Customer": 20,
+			"Robot": 40
+		},
+		{
+			"Rate": 5,
+			"Customer": 10,
+			"Robot": 20
+		},
+		{
+			"Rate": 6,
+			"Customer": 10,
+			"Robot": 10
+		},
+		{
+			"Rate": 11,
+			"Customer": 0,
+			"Robot": 10
+		}
+	],
+	[
+		{
+			"Rate": 2,
+			"Customer": 900,
+			"Robot": 800
+		},
+		{
+			"Rate": 3,
+			"Customer": 80,
+			"Robot": 120
+		},
+		{
+			"Rate": 4,
+			"Customer": 20,
+			"Robot": 40
+		},
+		{
+			"Rate": 5,
+			"Customer": 0,
+			"Robot": 20
+		},
+		{
+			"Rate": 6,
+			"Customer": 0,
+			"Robot": 10
+		},
+		{
+			"Rate": 11,
+			"Customer": 0,
+			"Robot": 10
+		}
+	],
+	[
+		{
+			"Rate": 2,
+			"Customer": 900,
+			"Robot": 800
+		},
+		{
+			"Rate": 3,
+			"Customer": 80,
+			"Robot": 120
+		},
+		{
+			"Rate": 4,
+			"Customer": 10,
+			"Robot": 40
+		},
+		{
+			"Rate": 5,
+			"Customer": 9,
+			"Robot": 20
+		},
+		{
+			"Rate": 6,
+			"Customer": 1,
+			"Robot": 10
+		},
+		{
+			"Rate": 11,
+			"Customer": 0,
+			"Robot": 10
+		}
+	],
+	[
+		{
+			"Rate": 2,
+			"Customer": 950,
+			"Robot": 800
+		},
+		{
+			"Rate": 3,
+			"Customer": 50,
+			"Robot": 120
+		},
+		{
+			"Rate": 4,
+			"Customer": 0,
+			"Robot": 40
+		},
+		{
+			"Rate": 5,
+			"Customer": 0,
+			"Robot": 20
+		},
+		{
+			"Rate": 6,
+			"Customer": 0,
+			"Robot": 10
+		},
+		{
+			"Rate": 11,
+			"Customer": 0,
+			"Robot": 10
+		}
+	],
+	[
+		{
+			"Rate": 2,
+			"Customer": 990,
+			"Robot": 700
+		},
+		{
+			"Rate": 3,
+			"Customer": 10,
+			"Robot": 200
+		},
+		{
+			"Rate": 4,
+			"Customer": 0,
+			"Robot": 40
+		},
+		{
+			"Rate": 5,
+			"Customer": 0,
+			"Robot": 20
+		},
+		{
+			"Rate": 6,
+			"Customer": 0,
+			"Robot": 20
+		},
+		{
+			"Rate": 11,
+			"Customer": 0,
+			"Robot": 20
+		}
+	],
+	[
+		{
+			"Rate": 2,
+			"Customer": 990,
+			"Robot": 700
+		},
+		{
+			"Rate": 3,
+			"Customer": 10,
+			"Robot": 200
+		},
+		{
+			"Rate": 4,
+			"Customer": 0,
+			"Robot": 40
+		},
+		{
+			"Rate": 5,
+			"Customer": 0,
+			"Robot": 20
+		},
+		{
+			"Rate": 6,
+			"Customer": 0,
+			"Robot": 20
+		},
+		{
+			"Rate": 11,
+			"Customer": 0,
+			"Robot": 20
+		}
+	],
+	[
+		{
+			"Rate": 6,
+			"Customer": 660,
+			"Robot": 700
+		},
+		{
+			"Rate": 7,
+			"Customer": 120,
+			"Robot": 50
+		},
+		{
+			"Rate": 8,
+			"Customer": 100,
+			"Robot": 50
+		},
+		{
+			"Rate": 9,
+			"Customer": 60,
+			"Robot": 50
+		},
+		{
+			"Rate": 11,
+			"Customer": 30,
+			"Robot": 50
+		},
+		{
+			"Rate": 16,
+			"Customer": 20,
+			"Robot": 50
+		},
+		{
+			"Rate": 21,
+			"Customer": 10,
+			"Robot": 50
+		}
+	],
+	[
+		{
+			"Rate": 6,
+			"Customer": 660,
+			"Robot": 700
+		},
+		{
+			"Rate": 7,
+			"Customer": 90,
+			"Robot": 50
+		},
+		{
+			"Rate": 8,
+			"Customer": 50,
+			"Robot": 50
+		},
+		{
+			"Rate": 9,
+			"Customer": 50,
+			"Robot": 50
+		},
+		{
+			"Rate": 11,
+			"Customer": 50,
+			"Robot": 50
+		},
+		{
+			"Rate": 16,
+			"Customer": 50,
+			"Robot": 50
+		},
+		{
+			"Rate": 21,
+			"Customer": 50,
+			"Robot": 50
+		}
+	],
+	[
+		{
+			"Rate": 6,
+			"Customer": 680,
+			"Robot": 610
+		},
+		{
+			"Rate": 7,
+			"Customer": 85,
+			"Robot": 65
+		},
+		{
+			"Rate": 8,
+			"Customer": 80,
+			"Robot": 65
+		},
+		{
+			"Rate": 9,
+			"Customer": 60,
+			"Robot": 65
+		},
+		{
+			"Rate": 11,
+			"Customer": 40,
+			"Robot": 65
+		},
+		{
+			"Rate": 16,
+			"Customer": 30,
+			"Robot": 65
+		},
+		{
+			"Rate": 21,
+			"Customer": 25,
+			"Robot": 65
+		}
+	],
+	[
+		{
+			"Rate": 6,
+			"Customer": 680,
+			"Robot": 610
+		},
+		{
+			"Rate": 7,
+			"Customer": 45,
+			"Robot": 65
+		},
+		{
+			"Rate": 8,
+			"Customer": 50,
+			"Robot": 65
+		},
+		{
+			"Rate": 9,
+			"Customer": 85,
+			"Robot": 65
+		},
+		{
+			"Rate": 11,
+			"Customer": 75,
+			"Robot": 65
+		},
+		{
+			"Rate": 16,
+			"Customer": 40,
+			"Robot": 65
+		},
+		{
+			"Rate": 21,
+			"Customer": 25,
+			"Robot": 65
+		}
+	],
+	[
+		{
+			"Rate": 6,
+			"Customer": 680,
+			"Robot": 610
+		},
+		{
+			"Rate": 7,
+			"Customer": 100,
+			"Robot": 65
+		},
+		{
+			"Rate": 8,
+			"Customer": 70,
+			"Robot": 65
+		},
+		{
+			"Rate": 9,
+			"Customer": 60,
+			"Robot": 65
+		},
+		{
+			"Rate": 11,
+			"Customer": 40,
+			"Robot": 65
+		},
+		{
+			"Rate": 16,
+			"Customer": 30,
+			"Robot": 65
+		},
+		{
+			"Rate": 21,
+			"Customer": 20,
+			"Robot": 65
+		}
+	],
+	[
+		{
+			"Rate": 6,
+			"Customer": 680,
+			"Robot": 610
+		},
+		{
+			"Rate": 7,
+			"Customer": 100,
+			"Robot": 65
+		},
+		{
+			"Rate": 8,
+			"Customer": 90,
+			"Robot": 65
+		},
+		{
+			"Rate": 9,
+			"Customer": 65,
+			"Robot": 65
+		},
+		{
+			"Rate": 11,
+			"Customer": 35,
+			"Robot": 65
+		},
+		{
+			"Rate": 16,
+			"Customer": 20,
+			"Robot": 65
+		},
+		{
+			"Rate": 21,
+			"Customer": 10,
+			"Robot": 65
+		}
+	],
+	[
+		{
+			"Rate": 6,
+			"Customer": 680,
+			"Robot": 610
+		},
+		{
+			"Rate": 7,
+			"Customer": 180,
+			"Robot": 65
+		},
+		{
+			"Rate": 8,
+			"Customer": 60,
+			"Robot": 65
+		},
+		{
+			"Rate": 9,
+			"Customer": 50,
+			"Robot": 65
+		},
+		{
+			"Rate": 11,
+			"Customer": 20,
+			"Robot": 65
+		},
+		{
+			"Rate": 16,
+			"Customer": 10,
+			"Robot": 65
+		},
+		{
+			"Rate": 21,
+			"Customer": 0,
+			"Robot": 65
+		}
+	],
+	[
+		{
+			"Rate": 6,
+			"Customer": 680,
+			"Robot": 610
+		},
+		{
+			"Rate": 7,
+			"Customer": 110,
+			"Robot": 65
+		},
+		{
+			"Rate": 8,
+			"Customer": 80,
+			"Robot": 65
+		},
+		{
+			"Rate": 9,
+			"Customer": 60,
+			"Robot": 65
+		},
+		{
+			"Rate": 11,
+			"Customer": 30,
+			"Robot": 65
+		},
+		{
+			"Rate": 16,
+			"Customer": 20,
+			"Robot": 65
+		},
+		{
+			"Rate": 21,
+			"Customer": 20,
+			"Robot": 65
+		}
+	],
+	[
+		{
+			"Rate": 6,
+			"Customer": 680,
+			"Robot": 610
+		},
+		{
+			"Rate": 7,
+			"Customer": 115,
+			"Robot": 65
+		},
+		{
+			"Rate": 8,
+			"Customer": 90,
+			"Robot": 65
+		},
+		{
+			"Rate": 9,
+			"Customer": 50,
+			"Robot": 65
+		},
+		{
+			"Rate": 11,
+			"Customer": 30,
+			"Robot": 65
+		},
+		{
+			"Rate": 16,
+			"Customer": 20,
+			"Robot": 65
+		},
+		{
+			"Rate": 21,
+			"Customer": 15,
+			"Robot": 65
+		}
+	],
+	[
+		{
+			"Rate": 6,
+			"Customer": 680,
+			"Robot": 610
+		},
+		{
+			"Rate": 7,
+			"Customer": 65,
+			"Robot": 65
+		},
+		{
+			"Rate": 8,
+			"Customer": 60,
+			"Robot": 65
+		},
+		{
+			"Rate": 9,
+			"Customer": 80,
+			"Robot": 65
+		},
+		{
+			"Rate": 11,
+			"Customer": 50,
+			"Robot": 65
+		},
+		{
+			"Rate": 16,
+			"Customer": 40,
+			"Robot": 65
+		},
+		{
+			"Rate": 21,
+			"Customer": 25,
+			"Robot": 65
+		}
+	],
+	[
+		{
+			"Rate": 6,
+			"Customer": 680,
+			"Robot": 610
+		},
+		{
+			"Rate": 7,
+			"Customer": 195,
+			"Robot": 65
+		},
+		{
+			"Rate": 8,
+			"Customer": 50,
+			"Robot": 65
+		},
+		{
+			"Rate": 9,
+			"Customer": 35,
+			"Robot": 65
+		},
+		{
+			"Rate": 11,
+			"Customer": 20,
+			"Robot": 65
+		},
+		{
+			"Rate": 16,
+			"Customer": 10,
+			"Robot": 65
+		},
+		{
+			"Rate": 21,
+			"Customer": 10,
+			"Robot": 65
+		}
+	],
+	[
+		{
+			"Rate": 6,
+			"Customer": 680,
+			"Robot": 610
+		},
+		{
+			"Rate": 7,
+			"Customer": 210,
+			"Robot": 65
+		},
+		{
+			"Rate": 8,
+			"Customer": 60,
+			"Robot": 65
+		},
+		{
+			"Rate": 9,
+			"Customer": 40,
+			"Robot": 65
+		},
+		{
+			"Rate": 11,
+			"Customer": 10,
+			"Robot": 65
+		},
+		{
+			"Rate": 16,
+			"Customer": 0,
+			"Robot": 65
+		},
+		{
+			"Rate": 21,
+			"Customer": 0,
+			"Robot": 65
+		}
+	],
+	[
+		{
+			"Rate": 6,
+			"Customer": 680,
+			"Robot": 610
+		},
+		{
+			"Rate": 7,
+			"Customer": 140,
+			"Robot": 65
+		},
+		{
+			"Rate": 8,
+			"Customer": 80,
+			"Robot": 65
+		},
+		{
+			"Rate": 9,
+			"Customer": 50,
+			"Robot": 65
+		},
+		{
+			"Rate": 11,
+			"Customer": 20,
+			"Robot": 65
+		},
+		{
+			"Rate": 16,
+			"Customer": 20,
+			"Robot": 65
+		},
+		{
+			"Rate": 21,
+			"Customer": 10,
+			"Robot": 65
+		}
+	],
+	[
+		{
+			"Rate": 6,
+			"Customer": 700,
+			"Robot": 610
+		},
+		{
+			"Rate": 7,
+			"Customer": 195,
+			"Robot": 65
+		},
+		{
+			"Rate": 8,
+			"Customer": 80,
+			"Robot": 65
+		},
+		{
+			"Rate": 9,
+			"Customer": 15,
+			"Robot": 65
+		},
+		{
+			"Rate": 11,
+			"Customer": 10,
+			"Robot": 65
+		},
+		{
+			"Rate": 16,
+			"Customer": 0,
+			"Robot": 65
+		},
+		{
+			"Rate": 21,
+			"Customer": 0,
+			"Robot": 65
+		}
+	],
+	[
+		{
+			"Rate": 6,
+			"Customer": 950,
+			"Robot": 610
+		},
+		{
+			"Rate": 7,
+			"Customer": 50,
+			"Robot": 65
+		},
+		{
+			"Rate": 8,
+			"Customer": 0,
+			"Robot": 65
+		},
+		{
+			"Rate": 9,
+			"Customer": 0,
+			"Robot": 65
+		},
+		{
+			"Rate": 11,
+			"Customer": 0,
+			"Robot": 65
+		},
+		{
+			"Rate": 16,
+			"Customer": 0,
+			"Robot": 65
+		},
+		{
+			"Rate": 21,
+			"Customer": 0,
+			"Robot": 65
+		}
+	],
+	[
+		{
+			"Rate": 3,
+			"Customer": 900,
+			"Robot": 850
+		},
+		{
+			"Rate": 4,
+			"Customer": 100,
+			"Robot": 50
+		},
+		{
+			"Rate": 5,
+			"Customer": 0,
+			"Robot": 30
+		},
+		{
+			"Rate": 6,
+			"Customer": 0,
+			"Robot": 30
+		},
+		{
+			"Rate": 11,
+			"Customer": 0,
+			"Robot": 20
+		},
+		{
+			"Rate": 16,
+			"Customer": 0,
+			"Robot": 20
+		}
+	],
+	[
+		{
+			"Rate": 4,
+			"Customer": 850,
+			"Robot": 1200
+		},
+		{
+			"Rate": 5,
+			"Customer": 100,
+			"Robot": 80
+		},
+		{
+			"Rate": 6,
+			"Customer": 50,
+			"Robot": 150
+		},
+		{
+			"Rate": 11,
+			"Customer": 0,
+			"Robot": 100
+		},
+		{
+			"Rate": 16,
+			"Customer": 0,
+			"Robot": 95
+		},
+		{
+			"Rate": 21,
+			"Customer": 0,
+			"Robot": 20
+		}
+	],
+	[
+		{
+			"Rate": 4,
+			"Customer": 850,
+			"Robot": 1205
+		},
+		{
+			"Rate": 5,
+			"Customer": 80,
+			"Robot": 300
+		},
+		{
+			"Rate": 6,
+			"Customer": 37,
+			"Robot": 100
+		},
+		{
+			"Rate": 11,
+			"Customer": 23,
+			"Robot": 20
+		},
+		{
+			"Rate": 16,
+			"Customer": 10,
+			"Robot": 70
+		},
+		{
+			"Rate": 21,
+			"Customer": 10,
+			"Robot": 10
+		}
+	],
+	[
+		{
+			"Rate": 3,
+			"Customer": 980,
+			"Robot": 850
+		},
+		{
+			"Rate": 4,
+			"Customer": 20,
+			"Robot": 50
+		},
+		{
+			"Rate": 5,
+			"Customer": 0,
+			"Robot": 30
+		},
+		{
+			"Rate": 6,
+			"Customer": 0,
+			"Robot": 30
+		},
+		{
+			"Rate": 11,
+			"Customer": 0,
+			"Robot": 20
+		},
+		{
+			"Rate": 16,
+			"Customer": 0,
+			"Robot": 20
+		}
+	],
+	[
+		{
+			"Rate": 2,
+			"Customer": 750,
+			"Robot": 1010
+		},
+		{
+			"Rate": 3,
+			"Customer": 80,
+			"Robot": 200
+		},
+		{
+			"Rate": 4,
+			"Customer": 60,
+			"Robot": 200
+		},
+		{
+			"Rate": 5,
+			"Customer": 60,
+			"Robot": 120
+		},
+		{
+			"Rate": 6,
+			"Customer": 30,
+			"Robot": 80
+		},
+		{
+			"Rate": 11,
+			"Customer": 20,
+			"Robot": 20
+		}
+	],
+	[
+		{
+			"Rate": 2,
+			"Customer": 750,
+			"Robot": 1010
+		},
+		{
+			"Rate": 3,
+			"Customer": 160,
+			"Robot": 200
+		},
+		{
+			"Rate": 4,
+			"Customer": 50,
+			"Robot": 200
+		},
+		{
+			"Rate": 5,
+			"Customer": 20,
+			"Robot": 120
+		},
+		{
+			"Rate": 6,
+			"Customer": 10,
+			"Robot": 80
+		},
+		{
+			"Rate": 11,
+			"Customer": 10,
+			"Robot": 20
+		}
+	]
+]

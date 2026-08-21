@@ -1,0 +1,37 @@
+syntax = "proto3";
+package message;
+option go_package = "./";
+// import "google/protobuf/timestamp.proto";
+
+message custom_Block {
+    optional uint32 row = 1;
+    optional uint32 column = 2;
+}
+
+message custom_Plate {
+    repeated custom_ColumnData column = 1;
+    repeated custom_Plate_AwardReel award = 2;
+    optional int64 win = 3;
+    optional uint32 ballCount = 4;
+    optional int64 bonusWin = 5;
+}
+
+message custom_Plate_AwardReel {
+    optional uint32 line = 1;
+    repeated custom_Block block = 2;
+    optional int64 win = 3;
+}
+
+message custom_AllPlate {
+    repeated custom_Plate plate = 1;
+}
+
+message custom_ColumnData {
+    repeated custom_Cell row = 1;
+}
+
+message custom_Cell {
+    optional int32 symbol = 1;
+    optional int64 value = 2;
+}
+

@@ -1,0 +1,68 @@
+syntax = "proto3";
+
+package message;
+option go_package = "serve/servicejili/jili_372_dts/message";
+
+message Column {
+
+    repeated int32 Col = 1;
+}
+
+message AwardData {
+
+    int32 Symbol = 1;
+    int32 Count = 2;
+    int32 Line = 3;
+    double Win = 4;
+}
+
+message RoundInfo {
+
+    repeated Column Plate_symbol = 1;
+    repeated AwardData Award_data_vec = 2;
+    int32 Award_type_flag = 3;
+    int32 Free_remain_round = 4;
+    int32 Free_now_round = 5;
+    int32 Free_total_round = 6;
+    double Round_win = 7;
+    double Fire_multiple = 8;
+    double Thunder_odd = 9;
+    bool Reach_max_odd = 10;
+    repeated bool Add_crack = 11;
+    bool Max_flag = 12;
+    repeated int32 Add_crack_lv = 13;
+}
+
+message SpinAck {
+
+    repeated RoundInfo Round_queue = 1;
+    double Bet = 2;
+    double Free_total_win = 3;
+    double Total_win = 4;
+    string Show_index = 5;
+    double Now_money = 6;
+    int32 Ack_type = 7;
+    double RT_p = 8;
+    int32 FG_reel = 9;
+    repeated int32 Crack_levels = 10;
+}
+
+message StateInfo {
+
+    repeated int32 Crack_levels = 1;
+}
+
+message GameInfoData {
+
+    bool Show_extra = 1;
+    repeated double Mul = 2;
+    repeated int32 Crack_levels = 3;
+    double Max_bet = 4;
+    repeated double Buy_mul = 5;
+}
+
+message BuyReq {
+
+    double Base_bet = 1;
+    int32 Buy_type = 2;
+}

@@ -1,0 +1,12 @@
+CtrlPoint: 100 #有100个点
+CtrPool: 0 #奖池小于0时，启用强杀点
+Point_CtrPool: 0 #奖池小于0时，触发的强杀点
+CtrPool1: -1000000000 #奖池小于0时，启用强杀点
+Point_CtrPool1: 0 #奖池小于0时，触发的强杀点
+CtrPool2: -2000000000 #奖池小于0时，启用强杀点
+Point_CtrPool2: 0 #奖池小于0时，触发的强杀点
+Point_SystemWin: 0 #系统强杀点个数
+Point_SystemLose: 100 #系统放水点个数
+MinGap: 0 #特殊点之间的最小间距
+MaxGap: 100 #特殊点之间的最大间距
+ROA: 972 #预设回报率，配置需除以1000

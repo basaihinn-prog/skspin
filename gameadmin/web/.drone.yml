@@ -1,0 +1,27 @@
+kind: pipeline
+type: exec
+name: build-update
+
+platform:
+  os: darwin
+  arch: amd64
+
+trigger:
+  branch:
+  - main
+  event:
+  - push
+
+  
+steps:
+- name: setup
+  commands:
+  - yarn --update-checksums
+
+- name: build
+  commands:
+  - yarn build
+
+- name: sync-staging
+  commands:
+  - sh ./sync.sh doudou-test

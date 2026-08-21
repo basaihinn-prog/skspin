@@ -1,0 +1,27 @@
+{
+  "logo": "",
+  "link": [
+    {
+      "label": "推广网",
+      "href": "https://www.baidu.com",
+      "image": "https://images.jiamengweiquan.com/guava/links/ImQmNgHl.png"
+    },
+    {
+      "label": "CQ9官网",
+      "href": "https://www.google.com",
+      "image": "https://images.jiamengweiquan.com/guava/links/Okw6onTP.jpeg"
+    }
+  ],
+  "connect": [
+    {
+      "image": "telegram_concat.webp",
+      "label": "Telegram",
+      "href": "https://t.me/qiyao88"
+    }
+  ],
+  "runStatus": {
+    "enabled": "public/enabled.png",
+    "disabled": "public/disabled.png"
+  },
+  "bottomText": "https://game.ppply.site/"
+}

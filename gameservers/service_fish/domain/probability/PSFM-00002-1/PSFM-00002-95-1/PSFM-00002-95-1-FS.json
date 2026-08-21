@@ -1,0 +1,198 @@
+{
+  "ModuleType": 14,
+  "BaseData": {
+    "ProjectID": "",
+    "ModuleID": "",
+    "GameType": 0,
+    "StripType": 0,
+    "GameTypeDetail": 17,
+    "BonusList": []
+  },
+  
+	  "StripTable": {																																																																																																																																																						
+	    "Normal": {																																																																																																																																																						
+	      "Reel": [																																																																																																																																																						
+			17,16,9,13,15,30,4,11,4,30,0,14,4,15,13,9,11,9,4,14
+
+	      ]																																																																																																																																																						
+	    },																																																																																																																																																						
+	    "Block": {																																																																																																																																																						
+	      "Reel": [																																																																																																																																																						
+			17,9,4,14,13,14,11,0,13,15,11,9,17,15,4,9,30,0,14,11,15,0,4,13,16,4,0,14,11,13,0,15,11,16,9,4,13,15,4,14,9,14,13,0,9,11,15
+
+	      ]																																																																																																																																																						
+	    }																																																																																																																																																						
+	  },																																																																																																																																																						
+  
+  "Icons": {  
+    "starfish": {
+      "IconID": 0,
+      "IconPays": [
+        8
+      ]
+    },
+	"Dory": {
+      "IconID": 4,
+      "IconPays": [
+        20
+      ]
+    },
+	"Lionfish": {
+      "IconID": 9,
+      "IconPays": [
+        40
+      ]
+    },
+	"lobster": {
+      "IconID": 11,
+      "IconPays": [
+        60
+      ]
+    },
+	"platypus": {
+      "IconID": 13,
+      "IconPays": [
+        80
+      ]
+    },
+	"manatee": {
+      "IconID": 14,
+      "IconPays": [
+        100
+      ]
+    },
+	"dolphin": {
+      "IconID": 15,
+      "IconPays": [
+        120
+      ]
+    },
+	"Koi": {
+      "IconID": 16,
+      "IconPays": [
+        160
+      ]
+    },
+	"Hermit crab": {
+      "IconID": 17,
+      "IconPays": [
+        200
+      ]
+    },
+	"Face Off 1": {
+      "IconID": 21,
+      "IconPays": [
+        400
+      ]
+    },
+	"Face Off 3": {
+      "IconID": 23,
+      "IconPays": [
+        1200
+      ]
+    },
+	"Face Off 5": {
+      "IconID": 25,
+      "IconPays": [
+        2000
+      ]
+    },
+	"Face Off random change": {
+      "IconID": 30,
+      "IconPays": [
+        0
+      ]
+    }
+  },
+  "ChangeLink": {
+    "ChangeIconId": [
+      30
+    ],
+    "ChangeCandidate_Normal": {
+      "ChangeCandidate_1": {
+        "IconID": 21,
+        "Weight": 2
+      },
+      "ChangeCandidate_2": {
+        "IconID": 23,
+        "Weight": 2
+      },
+      "ChangeCandidate_3": {
+        "IconID": 25,
+        "Weight": 5
+      }
+    },
+	"ChangeCandidate_Block": {
+      "ChangeCandidate_1": {
+        "IconID": 21,
+        "Weight": 5
+      },
+      "ChangeCandidate_2": {
+        "IconID": 23,
+        "Weight": 5
+      },
+      "ChangeCandidate_3": {
+        "IconID": 25,
+        "Weight": 1
+      }
+    }
+  },
+    "MixAward":[
+		{
+			"MixAwardId":3,
+			"IconLinkThreshold": 3,
+			"Pay":[8,9,12,14,17,19,20,22,24,25,27,29,30,32,34,35,37,40,42,44,45,47,50,52,54,55,57,60,62,65,67,70,72,75,77,80,82,85,90,92,95,100,102,104,105,107,110,112,115,117,120,122,125,127,130,132,135,140,142,145,150,152,155,160,165,170,175,180,190,200,202,205,210,215,220,225,230,240,250,304,307,310,312,315,317,320,322,325,327,330,332,335,340,342,345,350,352,355,360,365,370,375,380,390,400,402,405,410,415,420,425,430,440,450,500,504,507,510,512,515,517,520,522,525,527,530,532,535,540,542,545,550,552,555,560,565,570,575,580,590,600,602,605,610,615,620,625,630,640,650,700,802,805,810,815,820,825,830,840,850,900,1002,1005,1010,1015,1020,1025,1030,1040,1050,1100,1200,1300,2000],
+			"MixIconGroup":[
+				{
+					"IconId":0,
+					"Quantity":2
+				},
+				{
+					"IconId":4,
+					"Quantity":5
+				},
+				{
+					"IconId":9,
+					"Quantity":10
+				},
+				{
+					"IconId":11,
+					"Quantity":15
+				},
+				{
+					"IconId":13,
+					"Quantity":20
+				},
+				{
+					"IconId":14,
+					"Quantity":25
+				},
+				{
+					"IconId":15,
+					"Quantity":30
+				},
+				{
+					"IconId":16,
+					"Quantity":40
+				},
+				{
+					"IconId":17,
+					"Quantity":50
+				},
+				{
+					"IconId":21,
+					"Quantity":100
+				},
+				{
+					"IconId":23,
+					"Quantity":300
+				},
+				{
+					"IconId":25,
+					"Quantity":500
+				}
+			],
+			"WildGroup":[]
+		}
+    ]
+}

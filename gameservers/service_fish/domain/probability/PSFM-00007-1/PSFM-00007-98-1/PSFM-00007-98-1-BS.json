@@ -1,0 +1,2327 @@
+{
+  "ModuleType": "",
+  "BaseData": {
+    "ProjectID": "",
+    "ModuleID": "",
+    "GameType": "",
+    "StripType": "",
+    "GameTypeDetail": "",
+    "BonusList": [
+      ""
+    ]
+  },
+
+  "Icons": {
+    "Fish_0": {
+      "IconID": 0,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 2 ],
+      "RTP1": {
+        "ID": "0",
+        "HitWeight": [ 0, 100000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP2": {
+        "ID": "20",
+        "HitWeight": [ 9500, 90500 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP3": {
+        "ID": "40",
+        "HitWeight": [ 19500, 80500 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP4": {
+        "ID": "60",
+        "HitWeight": [ 29500, 70500 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP5": {
+        "ID": "80",
+        "HitWeight": [ 35000, 65000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP6": {
+        "ID": "100",
+        "HitWeight": [ 45000, 55000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 126, 99874 ],
+        "Type": 2
+      },
+      "RTP7": {
+        "ID": "150",
+        "HitWeight": [ 70000, 30000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 126, 99874 ],
+        "Type": 2
+      },
+      "RTP8": {
+        "ID": "200",
+        "HitWeight": [ 50000, 50000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 1256, 98744 ],
+        "Type": 2
+      },
+      "RTP9": {
+        "ID": "300",
+        "HitWeight": [ 75000, 25000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 1884, 98116 ],
+        "Type": 2
+      }
+    },
+
+    "Fish_1": {
+      "IconID": 1,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 2 ],
+      "RTP1": {
+        "ID": "0",
+        "HitWeight": [ 0, 100000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP2": {
+        "ID": "20",
+        "HitWeight": [ 9500, 90500 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP3": {
+        "ID": "40",
+        "HitWeight": [ 19500, 80500 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP4": {
+        "ID": "60",
+        "HitWeight": [ 29500, 70500 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP5": {
+        "ID": "80",
+        "HitWeight": [ 35000, 65000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP6": {
+        "ID": "100",
+        "HitWeight": [ 45000, 55000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 126, 99874 ],
+        "Type": 2
+      },
+      "RTP7": {
+        "ID": "150",
+        "HitWeight": [ 70000, 30000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 126, 99874 ],
+        "Type": 2
+      },
+      "RTP8": {
+        "ID": "200",
+        "HitWeight": [ 50000, 50000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 1256, 98744 ],
+        "Type": 2
+      },
+      "RTP9": {
+        "ID": "300",
+        "HitWeight": [ 75000, 25000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 1884, 98116 ],
+        "Type": 2
+      }
+    },
+
+    "Fish_2": {
+      "IconID": 2,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 3 ],
+      "RTP1": {
+        "ID": "0",
+        "HitWeight": [ 0, 100000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP2": {
+        "ID": "20",
+        "HitWeight": [ 6333, 93667 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP3": {
+        "ID": "40",
+        "HitWeight": [ 13000, 87000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP4": {
+        "ID": "60",
+        "HitWeight": [ 19667, 80333 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP5": {
+        "ID": "80",
+        "HitWeight": [ 23333, 76667 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP6": {
+        "ID": "100",
+        "HitWeight": [ 30000, 70000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 126, 99874 ],
+        "Type": 2
+      },
+      "RTP7": {
+        "ID": "150",
+        "HitWeight": [ 46667, 53333 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 126, 99874 ],
+        "Type": 2
+      },
+      "RTP8": {
+        "ID": "200",
+        "HitWeight": [ 33333, 66667 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 1256, 98744 ],
+        "Type": 2
+      },
+      "RTP9": {
+        "ID": "300",
+        "HitWeight": [ 50000, 50000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 1884, 98116 ],
+        "Type": 2
+      }
+    },
+
+    "Fish_3": {
+      "IconID": 3,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 4 ],
+      "RTP1": {
+        "ID": "0",
+        "HitWeight": [ 0, 100000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP2": {
+        "ID": "20",
+        "HitWeight": [ 4750, 95250 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP3": {
+        "ID": "40",
+        "HitWeight": [ 9750, 90250 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP4": {
+        "ID": "60",
+        "HitWeight": [ 14750, 85250 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP5": {
+        "ID": "80",
+        "HitWeight": [ 17500, 82500 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP6": {
+        "ID": "100",
+        "HitWeight": [ 22500, 77500 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 126, 99874 ],
+        "Type": 2
+      },
+      "RTP7": {
+        "ID": "150",
+        "HitWeight": [ 35000, 65000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 126, 99874 ],
+        "Type": 2
+      },
+      "RTP8": {
+        "ID": "200",
+        "HitWeight": [ 25000, 75000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 1256, 98744 ],
+        "Type": 2
+      },
+      "RTP9": {
+        "ID": "300",
+        "HitWeight": [ 37500, 62500 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 1884, 98116 ],
+        "Type": 2
+      }
+    },
+
+    "Fish_4": {
+      "IconID": 4,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 5 ],
+      "RTP1": {
+        "ID": "0",
+        "HitWeight": [ 0, 100000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP2": {
+        "ID": "20",
+        "HitWeight": [ 3800, 96200 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP3": {
+        "ID": "40",
+        "HitWeight": [ 7800, 92200 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP4": {
+        "ID": "60",
+        "HitWeight": [ 11800, 88200 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP5": {
+        "ID": "80",
+        "HitWeight": [ 14000, 86000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP6": {
+        "ID": "100",
+        "HitWeight": [ 18000, 82000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 126, 99874 ],
+        "Type": 2
+      },
+      "RTP7": {
+        "ID": "150",
+        "HitWeight": [ 28000, 72000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 126, 99874 ],
+        "Type": 2
+      },
+      "RTP8": {
+        "ID": "200",
+        "HitWeight": [ 20000, 80000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 1256, 98744 ],
+        "Type": 2
+      },
+      "RTP9": {
+        "ID": "300",
+        "HitWeight": [ 30000, 70000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 1884, 98116 ],
+        "Type": 2
+      }
+    },
+
+    "Fish_5": {
+      "IconID": 5,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 6 ],
+      "RTP1": {
+        "ID": "0",
+        "HitWeight": [ 0, 100000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP2": {
+        "ID": "20",
+        "HitWeight": [ 3167, 96833 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP3": {
+        "ID": "40",
+        "HitWeight": [ 6500, 93500 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP4": {
+        "ID": "60",
+        "HitWeight": [ 9833, 90167 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP5": {
+        "ID": "80",
+        "HitWeight": [ 11667, 88333 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP6": {
+        "ID": "100",
+        "HitWeight": [ 15000, 85000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 126, 99874 ],
+        "Type": 2
+      },
+      "RTP7": {
+        "ID": "150",
+        "HitWeight": [ 23333, 76667 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 126, 99874 ],
+        "Type": 2
+      },
+      "RTP8": {
+        "ID": "200",
+        "HitWeight": [ 16667, 83333 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 1256, 98744 ],
+        "Type": 2
+      },
+      "RTP9": {
+        "ID": "300",
+        "HitWeight": [ 25000, 75000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 1884, 98116 ],
+        "Type": 2
+      }
+    },
+
+    "Fish_6": {
+      "IconID": 6,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 7 ],
+      "RTP1": {
+        "ID": "0",
+        "HitWeight": [ 0, 100000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP2": {
+        "ID": "20",
+        "HitWeight": [ 2714, 97286 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP3": {
+        "ID": "40",
+        "HitWeight": [ 5571, 94429 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP4": {
+        "ID": "60",
+        "HitWeight": [ 8429, 91571 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP5": {
+        "ID": "80",
+        "HitWeight": [ 10000, 90000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP6": {
+        "ID": "100",
+        "HitWeight": [ 12857, 87143 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 126, 99874 ],
+        "Type": 2
+      },
+      "RTP7": {
+        "ID": "150",
+        "HitWeight": [ 20000, 80000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 126, 99874 ],
+        "Type": 2
+      },
+      "RTP8": {
+        "ID": "200",
+        "HitWeight": [ 14286, 85714 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 1256, 98744 ],
+        "Type": 2
+      },
+      "RTP9": {
+        "ID": "300",
+        "HitWeight": [ 21429, 78571 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 1884, 98116 ],
+        "Type": 2
+      }
+    },
+
+    "Fish_7": {
+      "IconID": 7,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 8 ],
+      "RTP1": {
+        "ID": "0",
+        "HitWeight": [ 0, 100000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP2": {
+        "ID": "20",
+        "HitWeight": [ 2375, 97625 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP3": {
+        "ID": "40",
+        "HitWeight": [ 4875, 95125 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP4": {
+        "ID": "60",
+        "HitWeight": [ 7375, 92625 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP5": {
+        "ID": "80",
+        "HitWeight": [ 8750, 91250 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP6": {
+        "ID": "100",
+        "HitWeight": [ 11250, 88750 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 126, 99874 ],
+        "Type": 2
+      },
+      "RTP7": {
+        "ID": "150",
+        "HitWeight": [ 17500, 82500 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 126, 99874 ],
+        "Type": 2
+      },
+      "RTP8": {
+        "ID": "200",
+        "HitWeight": [ 12500, 87500 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 1256, 98744 ],
+        "Type": 2
+      },
+      "RTP9": {
+        "ID": "300",
+        "HitWeight": [ 18750, 81250 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 1884, 98116 ],
+        "Type": 2
+      }
+    },
+
+    "Fish_8": {
+      "IconID": 8,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 9 ],
+      "RTP1": {
+        "ID": "0",
+        "HitWeight": [ 0, 100000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP2": {
+        "ID": "20",
+        "HitWeight": [ 2111, 97889 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP3": {
+        "ID": "40",
+        "HitWeight": [ 4333, 95667 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP4": {
+        "ID": "60",
+        "HitWeight": [ 6556, 93444 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP5": {
+        "ID": "80",
+        "HitWeight": [ 7778, 92222 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP6": {
+        "ID": "100",
+        "HitWeight": [ 10000, 90000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 126, 99874 ],
+        "Type": 2
+      },
+      "RTP7": {
+        "ID": "150",
+        "HitWeight": [ 15556, 84444 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 126, 99874 ],
+        "Type": 2
+      },
+      "RTP8": {
+        "ID": "200",
+        "HitWeight": [ 11111, 88889 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 1256, 98744 ],
+        "Type": 2
+      },
+      "RTP9": {
+        "ID": "300",
+        "HitWeight": [ 16667, 83333 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 1884, 98116 ],
+        "Type": 2
+      }
+    },
+
+    "Fish_9": {
+      "IconID": 9,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 10 ],
+      "RTP1": {
+        "ID": "0",
+        "HitWeight": [ 0, 100000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP2": {
+        "ID": "20",
+        "HitWeight": [ 1900, 98100 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP3": {
+        "ID": "40",
+        "HitWeight": [ 3900, 96100 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP4": {
+        "ID": "60",
+        "HitWeight": [ 5900, 94100 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP5": {
+        "ID": "80",
+        "HitWeight": [ 7000, 93000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP6": {
+        "ID": "100",
+        "HitWeight": [ 9000, 91000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 126, 99874 ],
+        "Type": 2
+      },
+      "RTP7": {
+        "ID": "150",
+        "HitWeight": [ 14000, 86000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 126, 99874 ],
+        "Type": 2
+      },
+      "RTP8": {
+        "ID": "200",
+        "HitWeight": [ 10000, 90000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 1256, 98744 ],
+        "Type": 2
+      },
+      "RTP9": {
+        "ID": "300",
+        "HitWeight": [ 15000, 85000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 1884, 98116 ],
+        "Type": 2
+      }
+    },
+
+    "Fish_10": {
+      "IconID": 10,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 12 ],
+      "RTP1": {
+        "ID": "0",
+        "HitWeight": [ 0, 100000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP2": {
+        "ID": "20",
+        "HitWeight": [ 1583, 98417 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP3": {
+        "ID": "40",
+        "HitWeight": [ 3250, 96750 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP4": {
+        "ID": "60",
+        "HitWeight": [ 4917, 95083 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP5": {
+        "ID": "80",
+        "HitWeight": [ 5833, 94167 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP6": {
+        "ID": "100",
+        "HitWeight": [ 7500, 92500 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 126, 99874 ],
+        "Type": 2
+      },
+      "RTP7": {
+        "ID": "150",
+        "HitWeight": [ 11667, 88333 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 126, 99874 ],
+        "Type": 2
+      },
+      "RTP8": {
+        "ID": "200",
+        "HitWeight": [ 8333, 91667 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 1256, 98744 ],
+        "Type": 2
+      },
+      "RTP9": {
+        "ID": "300",
+        "HitWeight": [ 12500, 87500 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 1884, 98116 ],
+        "Type": 2
+      }
+    },
+
+    "Fish_11": {
+      "IconID": 11,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 15 ],
+      "RTP1": {
+        "ID": "0",
+        "HitWeight": [ 0, 100000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP2": {
+        "ID": "20",
+        "HitWeight": [ 1267, 98733 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP3": {
+        "ID": "40",
+        "HitWeight": [ 2600, 97400 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP4": {
+        "ID": "60",
+        "HitWeight": [ 3933, 96067 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP5": {
+        "ID": "80",
+        "HitWeight": [ 5267, 94733 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP6": {
+        "ID": "100",
+        "HitWeight": [ 6000, 94000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP7": {
+        "ID": "150",
+        "HitWeight": [ 9333, 90667 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP8": {
+        "ID": "200",
+        "HitWeight": [ 12667, 87333 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP9": {
+        "ID": "300",
+        "HitWeight": [ 16667, 83333 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 954, 99046 ],
+        "Type": 1
+      }
+    },
+
+    "Fish_12": {
+      "IconID": 12,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 18 ],
+      "RTP1": {
+        "ID": "0",
+        "HitWeight": [ 0, 100000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP2": {
+        "ID": "20",
+        "HitWeight": [ 1056, 98944 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP3": {
+        "ID": "40",
+        "HitWeight": [ 2167, 97833 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP4": {
+        "ID": "60",
+        "HitWeight": [ 3278, 96722 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP5": {
+        "ID": "80",
+        "HitWeight": [ 4389, 95611 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP6": {
+        "ID": "100",
+        "HitWeight": [ 5000, 95000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP7": {
+        "ID": "150",
+        "HitWeight": [ 7778, 92222 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP8": {
+        "ID": "200",
+        "HitWeight": [ 10556, 89444 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP9": {
+        "ID": "300",
+        "HitWeight": [ 13889, 86111 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 954, 99046 ],
+        "Type": 1
+      }
+    },
+
+    "Fish_13": {
+      "IconID": 13,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 20 ],
+      "RTP1": {
+        "ID": "0",
+        "HitWeight": [ 0, 100000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP2": {
+        "ID": "20",
+        "HitWeight": [ 950, 99050 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP3": {
+        "ID": "40",
+        "HitWeight": [ 1950, 98050 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP4": {
+        "ID": "60",
+        "HitWeight": [ 2950, 97050 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP5": {
+        "ID": "80",
+        "HitWeight": [ 3950, 96050 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP6": {
+        "ID": "100",
+        "HitWeight": [ 4500, 95500 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP7": {
+        "ID": "150",
+        "HitWeight": [ 7000, 93000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP8": {
+        "ID": "200",
+        "HitWeight": [ 9500, 90500 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP9": {
+        "ID": "300",
+        "HitWeight": [ 12500, 87500 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 954, 99046 ],
+        "Type": 1
+      }
+    },
+
+    "Fish_14": {
+      "IconID": 14,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 25 ],
+      "RTP1": {
+        "ID": "0",
+        "HitWeight": [ 0, 100000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP2": {
+        "ID": "20",
+        "HitWeight": [ 760, 99240 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP3": {
+        "ID": "40",
+        "HitWeight": [ 1560, 98440 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP4": {
+        "ID": "60",
+        "HitWeight": [ 2360, 97640 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP5": {
+        "ID": "80",
+        "HitWeight": [ 3160, 96840 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP6": {
+        "ID": "100",
+        "HitWeight": [ 3600, 96400 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP7": {
+        "ID": "150",
+        "HitWeight": [ 5600, 94400 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP8": {
+        "ID": "200",
+        "HitWeight": [ 7600, 92400 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP9": {
+        "ID": "300",
+        "HitWeight": [ 10000, 90000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 954, 99046 ],
+        "Type": 1
+      }
+    },
+
+    "Fish_15": {
+      "IconID": 15,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 30 ],
+      "RTP1": {
+        "ID": "0",
+        "HitWeight": [ 0, 100000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP2": {
+        "ID": "20",
+        "HitWeight": [ 633, 99367 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP3": {
+        "ID": "40",
+        "HitWeight": [ 1300, 98700 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP4": {
+        "ID": "60",
+        "HitWeight": [ 1967, 98033 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP5": {
+        "ID": "80",
+        "HitWeight": [ 2633, 97367 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP6": {
+        "ID": "100",
+        "HitWeight": [ 3000, 97000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP7": {
+        "ID": "150",
+        "HitWeight": [ 4667, 95333 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP8": {
+        "ID": "200",
+        "HitWeight": [ 6333, 93667 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP9": {
+        "ID": "300",
+        "HitWeight": [ 8333, 91667 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 954, 99046 ],
+        "Type": 1
+      }
+    },
+
+    "Fish_16": {
+      "IconID": 16,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 40 ],
+      "RTP1": {
+        "ID": "0",
+        "HitWeight": [ 0, 100000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP2": {
+        "ID": "20",
+        "HitWeight": [ 475, 99525 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP3": {
+        "ID": "40",
+        "HitWeight": [ 975, 99025 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP4": {
+        "ID": "60",
+        "HitWeight": [ 1475, 98525 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP5": {
+        "ID": "80",
+        "HitWeight": [ 1975, 98025 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP6": {
+        "ID": "100",
+        "HitWeight": [ 2250, 97750 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP7": {
+        "ID": "150",
+        "HitWeight": [ 3500, 96500 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP8": {
+        "ID": "200",
+        "HitWeight": [ 4750, 95250 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP9": {
+        "ID": "300",
+        "HitWeight": [ 6250, 93750 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 954, 99046 ],
+        "Type": 1
+      }
+    },
+
+    "Fish_17": {
+      "IconID": 17,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 50 ],
+      "RTP1": {
+        "ID": "0",
+        "HitWeight": [ 0, 100000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP2": {
+        "ID": "20",
+        "HitWeight": [ 380, 99620 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP3": {
+        "ID": "40",
+        "HitWeight": [ 780, 99220 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP4": {
+        "ID": "60",
+        "HitWeight": [ 1180, 98820 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP5": {
+        "ID": "80",
+        "HitWeight": [ 1580, 98420 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP6": {
+        "ID": "100",
+        "HitWeight": [ 1800, 98200 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP7": {
+        "ID": "150",
+        "HitWeight": [ 2800, 97200 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP8": {
+        "ID": "200",
+        "HitWeight": [ 3800, 96200 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP9": {
+        "ID": "300",
+        "HitWeight": [ 5000, 95000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 954, 99046 ],
+        "Type": 1
+      }
+    },
+
+    "Fish_18": {
+      "IconID": 18,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 80 ],
+      "RTP1": {
+        "ID": "0",
+        "HitWeight": [ 0, 100000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP2": {
+        "ID": "20",
+        "HitWeight": [ 12, 99988 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 363, 99637 ],
+        "Type": 1
+      },
+      "RTP3": {
+        "ID": "40",
+        "HitWeight": [ 12, 99988 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 744, 99256 ],
+        "Type": 1
+      },
+      "RTP4": {
+        "ID": "60",
+        "HitWeight": [ 625, 99375 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP5": {
+        "ID": "80",
+        "HitWeight": [ 762, 99238 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 363, 99637 ],
+        "Type": 1
+      },
+      "RTP6": {
+        "ID": "100",
+        "HitWeight": [ 1125, 98875 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP7": {
+        "ID": "150",
+        "HitWeight": [ 1750, 98250 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP8": {
+        "ID": "200",
+        "HitWeight": [ 2375, 97625 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP9": {
+        "ID": "300",
+        "HitWeight": [ 3125, 96875 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 954, 99046 ],
+        "Type": 1
+      }
+    },
+    "Fish_19": {
+      "IconID": 19,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 100 ],
+      "RTP1": {
+        "ID": "0",
+        "HitWeight": [ 0, 100000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP2": {
+        "ID": "20",
+        "HitWeight": [ 10, 99990 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 363, 99637 ],
+        "Type": 1
+      },
+      "RTP3": {
+        "ID": "40",
+        "HitWeight": [ 10, 99990 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 744, 99256 ],
+        "Type": 1
+      },
+      "RTP4": {
+        "ID": "60",
+        "HitWeight": [ 410, 99590 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 363, 99637 ],
+        "Type": 1
+      },
+      "RTP5": {
+        "ID": "80",
+        "HitWeight": [ 610, 99390 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 363, 99637 ],
+        "Type": 1
+      },
+      "RTP6": {
+        "ID": "100",
+        "HitWeight": [ 900, 99100 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP7": {
+        "ID": "150",
+        "HitWeight": [ 1400, 98600 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP8": {
+        "ID": "200",
+        "HitWeight": [ 1900, 98100 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 191, 99809 ],
+        "Type": 1
+      },
+      "RTP9": {
+        "ID": "300",
+        "HitWeight": [ 2500, 97500 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 954, 99046 ],
+        "Type": 1
+      }
+    },
+
+    "Red Envelope": {
+      "IconID": 100,
+      "BonusID": "",
+      "BonusTimes": [],
+      "LowIconPays": [
+        10,
+        15,
+        20,
+        25,
+        30,
+        50
+      ],
+      "LowIconPaysWeight": [
+        10,
+        10,
+        10,
+        10,
+        5,
+        2
+      ],
+      "HighIconPays": [
+        100,
+        200,
+        300,
+        500,
+        1000
+      ],
+      "HighIconPaysWeight": [
+        150,
+        150,
+        150,
+        50,
+        1
+      ],
+      "RTP1": {
+        "ID": "0",
+        "HitWeight": [ 0, 100000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP2": {
+        "ID": "20",
+        "HitWeight": [ 320, 99680 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP3": {
+        "ID": "40",
+        "HitWeight": [ 640, 99360 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP4": {
+        "ID": "60",
+        "HitWeight": [ 960, 99040 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP5": {
+        "ID": "80",
+        "HitWeight": [ 1280, 98720 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP6": {
+        "ID": "100",
+        "HitWeight": [ 1601, 98399 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 2
+      },
+      "RTP7": {
+        "ID": "150",
+        "HitWeight": [ 2401, 97599 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 2
+      },
+      "RTP8": {
+        "ID": "200",
+        "HitWeight": [ 3201, 96799 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 2
+      },
+      "RTP9": {
+        "ID": "300",
+        "HitWeight": [ 4802, 95198 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 2
+      }
+    },
+    "Luck Slot": {
+      "IconID": 101,
+      "BonusID": "PSFM-00007-98-1-FS",
+      "BonusTimes": [
+        1
+      ],
+      "IconPays": [
+        0
+      ],
+      "RTP1": {
+        "ID": "0",
+        "HitWeight": [ 0, 100000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP2": {
+        "ID": "20",
+        "HitWeight": [ 123, 99877 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP3": {
+        "ID": "40",
+        "HitWeight": [ 247, 99753 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP4": {
+        "ID": "60",
+        "HitWeight": [ 370, 99630 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP5": {
+        "ID": "80",
+        "HitWeight": [ 494, 99506 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP6": {
+        "ID": "100",
+        "HitWeight": [ 617, 99383 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 2
+      },
+      "RTP7": {
+        "ID": "150",
+        "HitWeight": [ 925, 99075 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 2
+      },
+      "RTP8": {
+        "ID": "200",
+        "HitWeight": [ 1234, 98766 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 2
+      },
+      "RTP9": {
+        "ID": "300",
+        "HitWeight": [ 1851, 98149 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 2
+      }
+    },
+    "Random Trigger Envelope": {
+      "IconID": 102,
+      "BonusID": "",
+      "BonusTimes": [],
+      "HitWeight": [],
+      "Type1": {
+        "LowIconPays": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40,
+          45,
+          100
+        ],
+        "LowIconPaysWeight": [
+          100,
+          100,
+          50,
+          50,
+          20,
+          10,
+          5,
+          2,
+          2
+        ],
+        "HighIconPays": [
+          100,
+          150,
+          200,
+          250,
+          300,
+          350,
+          500,
+          1000
+        ],
+        "HighIconPaysWeight": [
+          100,
+          95,
+          50,
+          35,
+          25,
+          20,
+          10,
+          1
+        ]
+      },
+      "Type2": {
+        "LowIconPays": [
+          20,
+          25,
+          30,
+          40,
+          50,
+          60,
+          70,
+          80,
+          100
+        ],
+        "LowIconPaysWeight": [
+          10,
+          10,
+          10,
+          25,
+          25,
+          15,
+          10,
+          5,
+          3
+        ],
+        "HighIconPays": [
+          100,
+          150,
+          200,
+          250,
+          300,
+          350,
+          500,
+          1000
+        ],
+        "HighIconPaysWeight": [
+          50,
+          40,
+          40,
+          20,
+          20,
+          15,
+          10,
+          1
+        ]
+      }
+    },
+
+
+    "Machine gun": {
+      "IconID": 201,
+      "BonusID": "",
+      "UseRTP": "100",
+      "BonusTimes": [ 20, 25, 30, 35, 40, 45, 50, 60, 80, 100 ],
+      "BonusTimesWeight": [ 5, 10, 10, 10, 20, 30, 30, 30, 30, 30 ],
+      "BonusIconID": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 100, 101, 201, 300, 301, 302, 400 ],
+      "IconPays": [
+        10
+      ],
+      "RTP1": {
+        "ID": "0",
+        "HitWeight": [ 0, 100000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP2": {
+        "ID": "20",
+        "HitWeight": [ 15, 99985 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 363, 99637 ],
+        "Type": 1
+      },
+      "RTP3": {
+        "ID": "40",
+        "HitWeight": [ 15, 99985 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 744, 99256 ],
+        "Type": 1
+      },
+      "RTP4": {
+        "ID": "60",
+        "HitWeight": [ 15, 99985 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 1126, 98874 ],
+        "Type": 1
+      },
+      "RTP5": {
+        "ID": "80",
+        "HitWeight": [ 1165, 98835 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP6": {
+        "ID": "100",
+        "HitWeight": [ 1460, 98540 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP7": {
+        "ID": "150",
+        "HitWeight": [ 2197, 97803 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP8": {
+        "ID": "200",
+        "HitWeight": [ 2935, 97065 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP9": {
+        "ID": "300",
+        "HitWeight": [ 3245, 96755 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 1527, 98473 ],
+        "Type": 1
+      }
+    },
+    "Super Machine Gun": {
+      "IconID": 202,
+      "BonusID": "",
+      "UseRTP": "200",
+      "BonusTimes": [ 20, 25, 30, 35, 40, 45, 50, 60, 80, 100 ],
+      "BonusTimesWeight": [ 5, 10, 20, 30, 30, 30, 20, 20, 10, 10 ],
+      "BonusIconID": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 100, 101, 202, 300, 301, 302, 400 ],
+      "IconPays": [
+        10
+      ],
+      "RTP1": {
+        "ID": "0",
+        "HitWeight": [ 0, 100000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP2": {
+        "ID": "20",
+        "HitWeight": [ 10, 99990 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 363, 99637 ],
+        "Type": 1
+      },
+      "RTP3": {
+        "ID": "40",
+        "HitWeight": [ 10, 99990 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 744, 99256 ],
+        "Type": 1
+      },
+      "RTP4": {
+        "ID": "60",
+        "HitWeight": [ 10, 99990 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 1126, 98874 ],
+        "Type": 1
+      },
+      "RTP5": {
+        "ID": "80",
+        "HitWeight": [ 771, 99229 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP6": {
+        "ID": "100",
+        "HitWeight": [ 966, 99034 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP7": {
+        "ID": "150",
+        "HitWeight": [ 1455, 98545 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP8": {
+        "ID": "200",
+        "HitWeight": [ 1943, 98057 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 19, 99981 ],
+        "Type": 1
+      },
+      "RTP9": {
+        "ID": "300",
+        "HitWeight": [ 2441, 97559 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 954, 99046 ],
+        "Type": 1
+      }
+    },
+
+    "Magic Shell": {
+      "IconID": 300,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150 ],
+      "IconPaysWeight": [ 20, 30, 40, 40, 30, 15, 10, 5, 5, 5, 5 ],
+      "RTP1": {
+        "ID": "0",
+        "HitWeight": [ 0, 100000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP2": {
+        "ID": "20",
+        "HitWeight": [ 244, 99756 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP3": {
+        "ID": "40",
+        "HitWeight": [ 488, 99512 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP4": {
+        "ID": "60",
+        "HitWeight": [ 732, 99268 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP5": {
+        "ID": "80",
+        "HitWeight": [ 976, 99024 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP6": {
+        "ID": "100",
+        "HitWeight": [ 1220, 98780 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP7": {
+        "ID": "150",
+        "HitWeight": [ 1830, 98170 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP8": {
+        "ID": "200",
+        "HitWeight": [ 2440, 97560 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP9": {
+        "ID": "300",
+        "HitWeight": [ 3661, 96339 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      }
+    },
+
+    "Fu Che": {
+      "IconID": 301,
+      "BonusID": "",
+      "BonusTimes": [],
+      "IconPays": [ 25, 50, 75, 100, 125, 150, 175, 200 ],
+      "IconPaysWeight": [ 5, 20, 40, 30, 10, 5, 5, 1 ],
+      "RTP1": {
+        "ID": "0",
+        "HitWeight": [ 0, 100000 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP2": {
+        "ID": "20",
+        "HitWeight": [ 227, 99773 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP3": {
+        "ID": "40",
+        "HitWeight": [ 455, 99545 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP4": {
+        "ID": "60",
+        "HitWeight": [ 682, 99318 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP5": {
+        "ID": "80",
+        "HitWeight": [ 910, 99090 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP6": {
+        "ID": "100",
+        "HitWeight": [ 1137, 98863 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP7": {
+        "ID": "150",
+        "HitWeight": [ 1706, 98294 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP8": {
+        "ID": "200",
+        "HitWeight": [ 2275, 97725 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP9": {
+        "ID": "300",
+        "HitWeight": [ 3412, 96588 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      }
+    },
+    "Treasure Hermit Crab": {
+      "IconID": 302,
+      "BonusID": "",
+      "BonusTimes": [],
+      "RTP1": {
+        "ID": "0",
+        "HitWeight": [ 0, 100000 ],
+        "Gain amount": [ 1, 2, 3, 4, 5 ],
+        "Gain amount weight": [ 40, 30, 5, 1, 15 ],
+        "1 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 1, 5, 5, 5, 5, 30, 30, 30, 20, 5, 5 ]
+        },
+        "2 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 30, 60, 30, 5, 5, 5, 5, 30, 1, 1, 1 ]
+        },
+        "3 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 30, 40, 30, 10, 10, 5, 1, 1, 1, 1, 1 ]
+        },
+        "4 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 70, 30, 70, 15, 15, 5, 5, 1, 1, 1, 1 ]
+        },
+        "5 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 40, 60, 15, 5, 1, 1, 1, 1, 1, 1, 1 ]
+        },
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 2
+      },
+      "RTP2": {
+        "ID": "20",
+        "HitWeight": [ 255, 99745 ],
+        "Gain amount": [ 1, 2, 3, 4, 5 ],
+        "Gain amount weight": [ 40, 30, 5, 1, 15 ],
+        "1 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 1, 5, 5, 5, 5, 30, 30, 30, 20, 5, 5 ]
+        },
+        "2 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 30, 60, 30, 5, 5, 5, 5, 30, 1, 1, 1 ]
+        },
+        "3 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 30, 40, 30, 10, 10, 5, 1, 1, 1, 1, 1 ]
+        },
+        "4 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 70, 30, 70, 15, 15, 5, 5, 1, 1, 1, 1 ]
+        },
+        "5 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 40, 60, 15, 5, 1, 1, 1, 1, 1, 1, 1 ]
+        },
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 2
+      },
+      "RTP3": {
+        "ID": "40",
+        "HitWeight": [ 510, 99490 ],
+        "Gain amount": [ 1, 2, 3, 4, 5 ],
+        "Gain amount weight": [ 40, 30, 5, 1, 15 ],
+        "1 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 1, 5, 5, 5, 5, 30, 30, 30, 20, 5, 5 ]
+        },
+        "2 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 30, 60, 30, 5, 5, 5, 5, 30, 1, 1, 1 ]
+        },
+        "3 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 30, 40, 30, 10, 10, 5, 1, 1, 1, 1, 1 ]
+        },
+        "4 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 70, 30, 70, 15, 15, 5, 5, 1, 1, 1, 1 ]
+        },
+        "5 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 40, 60, 15, 5, 1, 1, 1, 1, 1, 1, 1 ]
+        },
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 2
+      },
+      "RTP4": {
+        "ID": "60",
+        "HitWeight": [ 765, 99235 ],
+        "Gain amount": [ 1, 2, 3, 4, 5 ],
+        "Gain amount weight": [ 40, 30, 5, 1, 15 ],
+        "1 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 1, 5, 5, 5, 5, 30, 30, 30, 20, 5, 5 ]
+        },
+        "2 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 30, 60, 30, 5, 5, 5, 5, 30, 1, 1, 1 ]
+        },
+        "3 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 30, 40, 30, 10, 10, 5, 1, 1, 1, 1, 1 ]
+        },
+        "4 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 70, 30, 70, 15, 15, 5, 5, 1, 1, 1, 1 ]
+        },
+        "5 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 40, 60, 15, 5, 1, 1, 1, 1, 1, 1, 1 ]
+        },
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 2
+      },
+      "RTP5": {
+        "ID": "80",
+        "HitWeight": [ 1020, 98980 ],
+        "Gain amount": [ 1, 2, 3, 4, 5 ],
+        "Gain amount weight": [ 40, 30, 5, 1, 15 ],
+        "1 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 1, 5, 5, 5, 5, 30, 30, 30, 20, 5, 5 ]
+        },
+        "2 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 30, 60, 30, 5, 5, 5, 5, 30, 1, 1, 1 ]
+        },
+        "3 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 30, 40, 30, 10, 10, 5, 1, 1, 1, 1, 1 ]
+        },
+        "4 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 70, 30, 70, 15, 15, 5, 5, 1, 1, 1, 1 ]
+        },
+        "5 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 40, 60, 15, 5, 1, 1, 1, 1, 1, 1, 1 ]
+        },
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 2
+      },
+      "RTP6": {
+        "ID": "100",
+        "HitWeight": [ 1275, 98725 ],
+        "Gain amount": [ 1, 2, 3, 4, 5 ],
+        "Gain amount weight": [ 40, 30, 5, 1, 15 ],
+        "1 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 1, 5, 5, 5, 5, 30, 30, 30, 20, 5, 5 ]
+        },
+        "2 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 30, 60, 30, 5, 5, 5, 5, 30, 1, 1, 1 ]
+        },
+        "3 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 30, 40, 30, 10, 10, 5, 1, 1, 1, 1, 1 ]
+        },
+        "4 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 70, 30, 70, 15, 15, 5, 5, 1, 1, 1, 1 ]
+        },
+        "5 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 40, 60, 15, 5, 1, 1, 1, 1, 1, 1, 1 ]
+        },
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 2
+      },
+      "RTP7": {
+        "ID": "150",
+        "HitWeight": [ 1913, 98087 ],
+        "Gain amount": [ 1, 2, 3, 4, 5 ],
+        "Gain amount weight": [ 40, 30, 5, 1, 15 ],
+        "1 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 1, 5, 5, 5, 5, 30, 30, 30, 20, 5, 5 ]
+        },
+        "2 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 30, 60, 30, 5, 5, 5, 5, 30, 1, 1, 1 ]
+        },
+        "3 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 30, 40, 30, 10, 10, 5, 1, 1, 1, 1, 1 ]
+        },
+        "4 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 70, 30, 70, 15, 15, 5, 5, 1, 1, 1, 1 ]
+        },
+        "5 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 40, 60, 15, 5, 1, 1, 1, 1, 1, 1, 1 ]
+        },
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 2
+      },
+      "RTP8": {
+        "ID": "200",
+        "HitWeight": [ 2550, 97450 ],
+        "Gain amount": [ 1, 2, 3, 4, 5 ],
+        "Gain amount weight": [ 40, 30, 5, 1, 15 ],
+        "1 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 1, 5, 5, 5, 5, 30, 30, 30, 20, 5, 5 ]
+        },
+        "2 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 30, 60, 30, 5, 5, 5, 5, 30, 1, 1, 1 ]
+        },
+        "3 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 30, 40, 30, 10, 10, 5, 1, 1, 1, 1, 1 ]
+        },
+        "4 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 70, 30, 70, 15, 15, 5, 5, 1, 1, 1, 1 ]
+        },
+        "5 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 40, 60, 15, 5, 1, 1, 1, 1, 1, 1, 1 ]
+        },
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 2
+      },
+      "RTP9": {
+        "ID": "300",
+        "HitWeight": [ 3826, 96174 ],
+        "Gain amount": [ 1, 2, 3, 4, 5 ],
+        "Gain amount weight": [ 40, 30, 5, 1, 15 ],
+        "1 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 1, 5, 5, 5, 5, 30, 30, 30, 20, 5, 5 ]
+        },
+        "2 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 30, 60, 30, 5, 5, 5, 5, 30, 1, 1, 1 ]
+        },
+        "3 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 30, 40, 30, 10, 10, 5, 1, 1, 1, 1, 1 ]
+        },
+        "4 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 70, 30, 70, 15, 15, 5, 5, 1, 1, 1, 1 ]
+        },
+        "5 Gain ": {
+          "IconPays": [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110 ],
+          "IconPaysWeight": [ 40, 60, 15, 5, 1, 1, 1, 1, 1, 1, 1 ]
+        },
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 2
+      }
+    },
+
+
+    "Gold Children": {
+      "IconID": 400,
+      "BonusID": "",
+      "BonusTimes": [],
+      "RTP1": {
+        "ID": "0",
+        "HitWeight": [ 0, 100000 ],
+        "IconPays": [ 75, 80, 85, 90, 95, 100, 150, 200 ],
+        "IconPaysWeight": [ 150, 60, 60, 10, 10, 2, 2, 1 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP2": {
+        "ID": "20",
+        "HitWeight": [ 249, 99751 ],
+        "IconPays": [ 75, 80, 85, 90, 95, 100, 150, 200 ],
+        "IconPaysWeight": [ 150, 60, 60, 10, 10, 2, 2, 1 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP3": {
+        "ID": "40",
+        "HitWeight": [ 498, 99502 ],
+        "IconPays": [ 75, 80, 85, 90, 95, 100, 150, 200 ],
+        "IconPaysWeight": [ 150, 60, 60, 10, 10, 2, 2, 1 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP4": {
+        "ID": "60",
+        "HitWeight": [ 747, 99253 ],
+        "IconPays": [ 75, 80, 85, 90, 95, 100, 150, 200 ],
+        "IconPaysWeight": [ 150, 60, 60, 10, 10, 2, 2, 1 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP5": {
+        "ID": "80",
+        "HitWeight": [ 996, 99004 ],
+        "IconPays": [ 75, 80, 85, 90, 95, 100, 150, 200 ],
+        "IconPaysWeight": [ 150, 60, 60, 10, 10, 2, 2, 1 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP6": {
+        "ID": "100",
+        "HitWeight": [ 1047, 98953 ],
+        "IconPays": [ 80, 90, 95, 100, 150, 250, 350, 500 ],
+        "IconPaysWeight": [ 100, 60, 60, 30, 10, 2, 2, 1 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP7": {
+        "ID": "150",
+        "HitWeight": [ 1115, 98885 ],
+        "IconPays": [ 100, 125, 150, 175, 200, 300, 400, 500 ],
+        "IconPaysWeight": [ 100, 60, 60, 30, 10, 2, 2, 1 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP8": {
+        "ID": "200",
+        "HitWeight": [ 1487, 98513 ],
+        "IconPays": [ 100, 125, 150, 175, 200, 300, 400, 500 ],
+        "IconPaysWeight": [ 100, 60, 60, 30, 10, 2, 2, 1 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      },
+      "RTP9": {
+        "ID": "300",
+        "HitWeight": [2230, 97770 ],
+        "IconPays": [ 100, 125, 150, 175, 200, 300, 400, 500 ],
+        "IconPaysWeight": [ 100, 60, 60, 30, 10, 2, 2, 1 ],
+        "TriggerIconID": 102,
+        "TriggerWeight": [ 0, 100000 ],
+        "Type": 1
+      }
+    }
+
+  }
+}

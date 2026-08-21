@@ -1,0 +1,42 @@
+
+syntax = "proto3";
+
+package slots;
+
+import "pb/empty.proto";
+
+enum PoolType {
+    Invalid = 0; // 无效
+    Slots   = 1; // 所有slots
+    BaiRen  = 2; // 所有百人
+}
+
+message IncSelfSlotsPoolReq {
+    int64    Pid  = 1;
+    int64    Gold = 2;
+    PoolType Type = 3;
+}
+
+message GetSelfSlotsPoolReq {
+    int64    Pid  = 1;
+    PoolType Type = 2;
+}
+
+message GetSelfSlotsPoolResp {
+    int64 Gold = 1;
+}
+
+message SetSelfSlotsPoolReq {
+    int64    Pid  = 1;
+    int64    Gold = 2;
+    PoolType Type = 3;
+}
+
+service SlotsPoolRpc {
+    // 更新个人奖池
+    rpc IncSelfSlotsPool(IncSelfSlotsPoolReq) returns (Empty);
+    // 获取个人奖池
+    rpc GetSelfSlotsPool(GetSelfSlotsPoolReq) returns (GetSelfSlotsPoolResp);
+    // 设置个人奖池
+    rpc SetSelfSlotsPool(SetSelfSlotsPoolReq) returns (Empty);
+}

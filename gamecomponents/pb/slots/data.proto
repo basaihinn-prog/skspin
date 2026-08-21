@@ -1,0 +1,48 @@
+syntax = "proto3";
+
+package slots;
+
+message ThreeMonkeyRunTimeData {
+    string Channel         = 1;
+    string Date            = 2;
+    int64  Expense         = 3;
+    int64  Income          = 4;
+    int64  NetProfit       = 5;
+    int64  SelfPoolReward  = 6;
+    int64  Hit             = 7;
+    int64  AwardHit        = 8;
+    int64  SmallGameHit    = 9;
+    int64  SmallGameIncome = 10;
+    int64  FreeGameHit     = 11;
+    int64  FreeGameIncome  = 12;
+    int64  EnterCount      = 13;
+    int64  WinPlrCount     = 14;
+    int64  PlrCount        = 15;
+}
+
+message ThreeMonkeyRunTimeResp {
+    repeated ThreeMonkeyRunTimeData Arr          = 1;
+    repeated string                 Pools        = 2;
+    double                          GlobalN      = 3;
+    int64                           TotalExpense = 4;
+    int64                           TotalIncome  = 5;
+}
+
+message SlotsStatsBuyGame {
+    message Doc {
+        string ID   = 1; // @gotags: bson:"_id"
+        string Day  = 2;
+        string Game = 3;
+        int64  Bet  = 4;
+        int64  Win  = 5;
+    }
+
+    message QueryReq {
+        repeated string Days = 1;
+        string          Game = 2;
+    }
+
+    message QueryResp {
+        repeated Doc List = 1;
+    }
+}

@@ -1,0 +1,11 @@
+.git
+*.log
+/bin/log/
+bin/slotsDB/XingYunXiang_DstKeyConfig*
+*OriginDBFile.xbin
+/bin/cache/
+/bin/cache-file/
+/bin/cache.20240407.1736/
+/bin/statistics/
+/bin/config-sample/
+/bin/*.new

@@ -1,0 +1,52 @@
+syntax = "proto3";
+package bullet.proto;
+
+import "serve/service_fish/models/proto/common_fish.proto";
+
+message BonusBullet {
+    string uuid                                                            = 1;   // 道具子彈編號(唯一id)
+    int32 total                                                            = 2;   // 子彈總數量
+    int32 used                                                             = 3;   // 已射出子彈數量
+    int32 type                                                             = 4;   // 子彈類型 26:鑽頭炮, 27,201:機關槍, 202:超級機關槍
+}
+
+message ExtraData {
+    common.fish.proto.Point target                                         = 1;   // 射擊點座標
+    int32 shoot_mode                                                       = 2;   // 發射模式 0:普通 1:自動 2:瞄準
+    int32 muzzle_idx                                                       = 3;   // 多重炮管
+    repeated string lock_obj_uuid                                          = 4;   // 瞄準模式鎖定的物件uuid
+}
+
+message Shoot {
+    common.fish.proto.EMSGID msgid                                         = 1;
+    string token                                                           = 2;
+    string room_uuid                                                       = 3;    // 玩家所在的房間
+    int32 seat_id                                                          = 4;
+    string bullet_uuid                                                     = 5;    // 子彈編號(唯一id)
+    int32 bullet_type_id                                                   = 6;    // 子彈類型 0:普通砲彈, 27:機關槍, 26:鑽頭砲
+    common.fish.proto.BetRateLine bet_rate_line                            = 7;
+    repeated BonusBullet machine_gun                                       = 8;    // 目前已中機關槍資訊
+    repeated BonusBullet drill                                             = 9;    // 目前已中鑽頭砲資訊
+    ExtraData extra_data                                                   = 10;
+    repeated BonusBullet bonusBullet                                       = 11;   // 測試中, 額外子彈的資訊
+}
+
+message BroadcastShoot {
+    common.fish.proto.EMSGID msgid                                         = 1;
+    Shoot shoot                                                            = 2;
+    uint64 player_cent                                                     = 3;    // 玩家目前分數
+}
+
+message BetChange {
+    common.fish.proto.EMSGID msgid                                         = 1;
+    string room_uuid                                                       = 2;    // 玩家所在的房間
+    int32 seat_id                                                          = 3;
+    int32 bullet_type_id                                                   = 4;    // 子彈類型 0:普通砲彈, 27:機關槍, 26:鑽頭炮
+    common.fish.proto.BetRateLine bet_rate_line                            = 5;
+    int32 shoot_mode                                                       = 6;    // 發射模式 0:普通 1:自動 2:瞄準
+}
+
+message BroadcastBetChange {
+    common.fish.proto.EMSGID msgid                                         = 1;
+    BetChange bet_change                                                   = 2;
+}

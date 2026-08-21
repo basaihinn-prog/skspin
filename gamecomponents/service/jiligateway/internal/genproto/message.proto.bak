@@ -1,0 +1,230 @@
+syntax = "proto3";
+package message;
+option go_package = "./";
+
+message Grid {
+    optional int32 Column = 1;
+    optional int32 Row = 2;
+}
+
+message AwardData {
+    optional int32 AwardSymbol = 1;
+    repeated Grid AwardGridVec = 2;
+    optional double AwardMoney = 3;
+    optional int32 SymbolCount = 4;
+    optional int32 Lines = 5;
+    optional bool ContainWild = 6;
+}
+
+message AwardDetail {
+    repeated AwardData AwardSet = 1;
+    optional double AwardMoney = 3;
+}
+
+message Column {
+    repeated int32 Row = 1;
+}
+
+message SinglePlate {
+    repeated AwardDetail AwardVec = 1;
+    repeated Column PlateVec = 2;
+    repeated Column ColumnSymbol = 3;
+    optional int32 AwardTypeFlag = 4;
+    optional int32 RemainRound = 5;
+    optional int32 ExtraRound = 6;
+    optional int32 ExtraOdds = 7;
+    optional double Coin = 8;
+    optional string LogIndex = 9;
+}
+
+message SpinAck {
+    repeated SinglePlate AckVec = 1;
+    optional double MGWin = 2;
+    optional double FGWin = 3;
+    optional double TotalWin = 4;
+    optional string ShowIndex = 5;
+    optional double NowMoney = 6;
+    optional int32 AckType = 7;
+}
+
+message GameInfoAck {
+    repeated WalletInfo WalletInfo = 1;
+    optional int32 ArcadeNo = 2;
+    optional bool CanIntoArcade = 3;
+    optional bool Test = 4;
+    optional PreferRoundShow Prefer = 5;
+    optional int32 FreeSpinRemain = 6;
+    repeated int32 Plate = 7;
+}
+
+message VolInfo {
+    optional int32 VolPos = 1;
+    repeated int32 VolList = 2;
+}
+
+message GameReqData {
+    optional int32 aid = 1;
+    optional int32 apiid = 2;
+    optional string token = 3;
+    optional bytes encode = 4;
+    optional SpinReq spin = 5;
+    optional CheckMallReq checkMall = 6;
+}
+
+message SpinReq {
+    optional double Bet = 1;
+    optional int32 BetType = 2;
+    optional int32 Currency = 3;
+    optional int32 TestMode = 4;
+    optional int32 MallID = 5;
+    optional double MallBet = 6;
+    optional int32 VipLv = 7;
+    optional int32 Free = 8;
+    optional int32 Trial = 9;
+    optional int32 VolType = 10;
+    optional int32 Level = 11;
+}
+
+message ResData {
+    optional int32 ret = 1;
+    optional int32 type = 2;
+    optional string token = 3;
+    optional string msg = 4;
+    optional InfoData data = 5;
+}
+
+message InfoData {
+    optional bytes encode = 1;
+    optional SpinAllData spinAll = 2;
+    optional GameInfoAck gameInfo = 3;
+    optional CheckMallAck checkMall = 4;
+    optional LoginDataAck loginData = 5;
+    optional HeartAck heart = 6;
+    optional ExchangeAck exchange = 7;
+    optional LastSpinAck lastSpin = 8;
+}
+
+message SpinAllData {
+    optional SpinAck info = 1;
+    optional ServiceData serviceInfo = 2;
+    optional bytes serviceProto = 3;
+}
+
+message ServiceData {
+    optional uint32 missionReward = 1;
+    optional int32 jpType = 2;
+    optional double jpWin = 3;
+    optional double fullJpWin = 4;
+    optional int32 trialfinish = 5;
+    optional int32 trialaward = 6;
+    optional int32 freeremain = 7;
+}
+
+message WalletInfo {
+    optional int32 currencyNumber = 1;
+    optional string currencyName = 2;
+    optional string currencySymbol = 3;
+    optional double coin = 4;
+    repeated double bet = 5;
+    optional double unit = 6;
+    optional double ratio = 7;
+    optional double rate = 8;
+    optional double upper = 9;
+    optional double lower = 10;
+    optional int32 cycle = 11;
+    optional int32 decimal = 12;
+}
+
+message PreferRoundShow {
+    optional int32 BaseRound = 1;
+    optional int32 SigmaRound = 2;
+    optional double CV = 3;
+    optional double HR = 4;
+    optional double MGR = 5;
+    optional int32 Range = 6;
+    optional int32 Show = 7;
+}
+
+message CheckMallReq {
+    optional int32 Currency = 1;
+}
+
+message CheckMallAck {
+    repeated GameMallSetting Settings = 1;
+    optional int32 Show = 2;
+}
+
+message GameMallSetting {
+    optional int32 GameID = 1;
+    optional int32 APIID = 2;
+    optional int32 AlterID = 3;
+    optional int32 DescType = 4;
+    optional int32 DescRounds = 5;
+    optional double MaxBet = 6;
+    optional double PriceOdd = 7;
+    optional bool ForSale = 8;
+    repeated double BetVec = 9;
+    optional int32 ReelNo = 10;
+    optional int32 BetNo = 11;
+    optional bool Event = 12;
+}
+
+message LoginDataAck {
+    optional int32 result = 1;
+    optional int32 aid = 2;
+}
+
+message LoginDataReq {
+    optional string Token = 1;
+    optional int32 Source = 2;
+    optional string OSType = 3;
+    optional string OSVersion = 4;
+    optional string Browser = 5;
+    optional string BrowserVersion = 6;
+    optional int32 BrowserTag = 7;
+    optional string Machine = 8;
+    optional int32 Width = 9;
+    optional int32 Height = 10;
+    optional double Ratio = 11;
+    optional string Language = 12;
+    optional int32 Cheat = 13;
+}
+
+message LogoutReq {
+    optional int32 aid = 1;
+}
+
+message HeartAck {
+    optional int32 state = 1;
+    optional string message = 2;
+}
+
+message ExchangeReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional string stamp = 3;
+}
+
+message ExchangeAck {
+    repeated Wallet wallet = 1;
+    optional string stamp = 2;
+}
+
+message Wallet {
+    optional double coin = 1;
+    optional int32 currencyNumber = 2;
+    optional double ratio = 3;
+    optional double rate = 4;
+    optional double unit = 5;
+}
+
+message LastReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+}
+
+message LastSpinAck {
+    optional int32 result = 1;
+    optional SpinAck lastSpin = 2;
+}
+

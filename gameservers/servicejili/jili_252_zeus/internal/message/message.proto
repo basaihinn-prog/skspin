@@ -1,0 +1,53 @@
+syntax = "proto3";
+package message;
+option go_package = "./";
+
+message zeus_Column {
+    repeated int32 Col = 1;
+}
+
+message zeus_AwardData {
+    optional int32 Symbol = 1;
+    optional int32 Count = 2;
+    optional int32 LineNum = 3;
+    optional double Win = 4;
+    repeated int32 Pos = 5;
+}
+
+message zeus_ComboStageInfo {
+    repeated zeus_Column ComboStageSymbol = 1;
+    optional double ComboStageWin = 2;
+    repeated zeus_AwardData AwardDataVec = 3;
+    repeated zeus_Column FillSymbols = 4;
+    optional int32 ChangeSpecial = 5;
+    optional bool NeedEliminate = 6;
+    repeated zeus_Column Eliminate = 7;
+    optional int32 ScatterCount = 8;
+    optional int32 NowExtend = 9;
+    optional int32 GetExtend = 10;
+    optional int32 GetPlusRound = 11;
+    optional bool MaxFlag = 12;
+}
+
+message zeus_RoundInfo {
+    repeated zeus_ComboStageInfo ComboStageData = 1;
+    optional double RoundWin = 2;
+    optional int32 FreeRemainRound = 3;
+    optional int32 FreeTotalRound = 4;
+    optional int32 AddRounds = 5;
+    optional int32 AwardTypeFlag = 6;
+    optional bool MaxFlag = 7;
+}
+
+message zeus_SpinAck {
+    repeated zeus_RoundInfo RoundQueue = 1;
+    optional double FreeTotalWin = 2;
+    optional double TotalWin = 3;
+    optional string ShowIndex = 4;
+    optional double NowMoney = 5;
+    optional int32 AckType = 6;
+    optional double RTP = 7;
+    optional int32 LID = 8;
+    optional int32 RID = 9;
+}
+

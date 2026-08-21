@@ -1,0 +1,48 @@
+syntax = "proto3";
+package message;
+option go_package = "./";
+import "google/protobuf/timestamp.proto";
+
+message df_Column {
+    repeated int32 Col = 1;
+}
+
+message df_AwardData {
+    optional int32 Symbol = 1;
+    optional int32 Count = 2;
+    optional int32 Line = 3;
+    optional double Win = 4;
+    optional double Mult = 5;
+}
+
+message df_RoundInfo {
+    repeated df_Column PlateSymbol = 1;
+    repeated df_AwardData AwardDataVec = 2;
+    optional int32 AwardTypeFlag = 3;
+    optional int32 FreeType = 4;
+    optional int32 FreeRemainRound = 5;
+    optional double Mult = 6;
+    optional double RoundWin = 7;
+    optional int32 FreeTotalRound = 8;
+    optional int32 FreeNowRound = 9;
+    optional bool MaxFlag = 10;
+}
+
+message df_SpinAck {
+    repeated df_RoundInfo RoundQueue = 1;
+    optional double FreeTotalWin = 2;
+    optional double TotalWin = 3;
+    optional bool Extra = 4;
+    optional string ShowIndex = 5;
+    optional double NowMoney = 6;
+    optional int32 AckType = 7;
+    optional double RTP = 8;
+    optional double Bet = 9;
+}
+
+message df_GameInfoData {
+    optional bool ShowExtra = 1;
+    repeated double Mul = 2;
+    repeated double JPOdds = 3;
+}
+

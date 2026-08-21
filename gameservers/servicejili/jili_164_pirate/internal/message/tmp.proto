@@ -1,0 +1,56 @@
+syntax = "proto3";
+package message;
+option go_package = "serve/servicejili/jili_164_pirate/message";
+
+message Column {
+
+  repeated int32 Col = 1;
+}
+
+message AwardData {
+
+  int32 Symbol = 1;
+  int32 Count = 2;
+  double Win = 3;
+  repeated int32 Pos_vec = 4;
+}
+
+message ComboStageInfo {
+
+  repeated Column Combo_stage_symbol = 1;
+  double Combo_stage_win = 2;
+  repeated Column Combo_stage_mults = 3;
+  repeated AwardData Award_data_vec = 4;
+  repeated Column Fill_symbols = 5;
+  repeated Column Fill_mults = 6;
+}
+
+message RoundInfo {
+
+  repeated ComboStageInfo Combo_stage_data = 1;
+  double Round_win = 2;
+  double Round_mult = 3;
+  int32 Award_type_flag = 4;
+  int32 Free_remain_round = 5;
+  int32 Target_symbol = 6;
+  repeated int32 Target_pos_vec = 7;
+  int32 Count_round = 8;
+}
+
+message SpinAck {
+
+  repeated RoundInfo Round_queue = 1;
+  double Free_total_win = 2;
+  double Total_win = 3;
+  string Show_index = 4;
+  double Now_money = 5;
+  int32 Ack_type = 6;
+  double RT_p = 7;
+  bool Extra = 8;
+}
+
+message GameInfoData {
+
+  bool Show_extra = 1;
+  repeated double Mul = 2;
+}

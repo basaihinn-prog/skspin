@@ -1,0 +1,63 @@
+syntax = "proto3";
+package jilijpOfficial;
+option go_package = "serve/servicejili/jiliOfficialProto/jilijpOfficial";
+import "google/protobuf/timestamp.proto";
+
+enum JpType {
+
+    None = 0;
+    Mini = 1;
+    Minor = 2;
+    Major = 3;
+    Grand = 4;
+}
+
+message JiliJpHistory {
+
+    int64 accountI_d = 1;
+    string name = 2;
+    uint32 gameI_d = 3;
+    int32 jp_type = 4;
+    double win = 5;
+    google.protobuf.Timestamp time = 6;
+}
+
+message JiliJpHistoryList {
+
+    repeated jilijpOfficial.JiliJpHistory list = 1;
+}
+
+message JiliJpOpen {
+
+    int32 id = 1;
+    uint32 gameI_d = 2;
+    int64 accountI_d = 3;
+    string name = 4;
+    int32 jp_type = 5;
+    double win = 6;
+    google.protobuf.Timestamp create_time = 7;
+    double odds = 8;
+}
+
+message JiliJpSetting {
+
+    repeated double win = 1;
+    bool is_open = 2;
+    repeated double min_bet = 3;
+}
+
+message JiliJpOpenList {
+
+    repeated jilijpOfficial.JiliJpOpen list = 1;
+}
+
+message JiliJpGameList {
+
+    repeated jilijpOfficial.JiliJpGameData list = 1;
+}
+
+message JiliJpGameData {
+
+    uint32 gameI_d = 1;
+    int32 sort = 2;
+}

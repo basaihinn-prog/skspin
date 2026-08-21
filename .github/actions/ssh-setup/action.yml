@@ -1,0 +1,18 @@
+name: ssh-setup
+description: Configure an ephemeral SSH key for deploy scripts
+
+inputs:
+  ssh-key:
+    description: Private key contents (secrets.DEPLOY_SSH_KEY)
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: |
+        mkdir -p ~/.ssh
+        chmod 700 ~/.ssh
+        printf '%s\n' "${{ inputs.ssh-key }}" > ~/.ssh/deploy_key
+        chmod 600 ~/.ssh/deploy_key
+        echo "DEPLOY_SSH_OPTS=-i $HOME/.ssh/deploy_key -o StrictHostKeyChecking=accept-new" >> "$GITHUB_ENV"

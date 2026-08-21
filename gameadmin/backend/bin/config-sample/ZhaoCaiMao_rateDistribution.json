@@ -1,0 +1,484 @@
+[
+    [
+        {
+            "flag": "不中奖",
+            "minRate": -1,
+            "maxRate": 0,
+            "bonusCount": [
+                0,
+                1,
+                2
+            ],
+            "expectCount": 500000
+        },
+        {
+            "flag": "不中奖但有3个游戏图标",
+            "minRate": -1,
+            "maxRate": 0,
+            "bonusCount": [
+                3
+            ],
+            "expectCount": 200000
+        }
+    ],
+    [
+        {
+            "flag": "普通旋转",
+            "minRate": 0,
+            "maxRate": 0.1,
+            "bonusCount": [
+                0,
+                1,
+                2
+            ],
+            "expectCount": 150000
+        },
+        {
+            "flag": "普通旋转",
+            "minRate": 0.1,
+            "maxRate": 0.2,
+            "bonusCount": [
+                0,
+                1,
+                2
+            ],
+            "expectCount": 150000
+        },
+        {
+            "flag": "普通旋转",
+            "minRate": 0.2,
+            "maxRate": 0.5,
+            "bonusCount": [
+                0,
+                1,
+                2
+            ],
+            "expectCount": 150000
+        },
+        {
+            "flag": "普通旋转",
+            "minRate": 0.5,
+            "maxRate": 1,
+            "bonusCount": [
+                0,
+                1,
+                2
+            ],
+            "expectCount": 150000
+        },
+        {
+            "flag": "普通旋转但有3个游戏图标",
+            "minRate": 0,
+            "maxRate": 1,
+            "bonusCount": [
+                3
+            ],
+            "expectCount": 80000
+        }],
+  	   [
+        {
+            "flag": "普通旋转",
+            "minRate": 1,
+            "maxRate": 2,
+            "bonusCount": [
+                0,
+                1,
+                2
+            ],
+            "expectCount": 100000
+        },
+        {
+            "flag": "普通旋转",
+            "minRate": 2,
+            "maxRate": 4,
+            "bonusCount": [
+                0,
+                1,
+                2
+            ],
+            "expectCount": 80000
+        },
+        {
+            "flag": "普通旋转但有3个游戏图标",
+            "minRate": 1,
+            "maxRate": 4,
+            "bonusCount": [
+                3
+            ],
+            "expectCount": 80000
+        }
+    ],
+    [
+        {
+            "flag": "普通旋转",
+            "minRate": 4,
+            "maxRate": 6,
+            "bonusCount": [
+                0,
+                1,
+                2
+            ],
+            "expectCount": 60000
+        },
+        {
+            "flag": "普通旋转",
+            "minRate": 6,
+            "maxRate": 8,
+            "bonusCount": [
+                0,
+                1,
+                2
+            ],
+            "expectCount": 60000
+        },
+        {
+            "flag": "普通旋转但有3个游戏图标",
+            "minRate": 4,
+            "maxRate": 8,
+            "bonusCount": [
+                3
+            ],
+            "expectCount": 60000
+        }
+    ],
+    [
+        {
+            "flag": "普通旋转",
+            "minRate": 8,
+            "maxRate": 12,
+            "bonusCount": [
+                0,
+                1,
+                2
+            ],
+            "expectCount": 60000
+        },
+        {
+            "flag": "普通旋转",
+            "minRate": 12,
+            "maxRate": 15,
+            "bonusCount": [
+                0,
+                1,
+                2
+            ],
+            "expectCount": 50000
+        },
+        {
+            "flag": "普通旋转但有3个游戏图标",
+            "minRate": 8,
+            "maxRate": 15,
+            "bonusCount": [
+                3
+            ],
+            "expectCount": 50000
+        }
+    ],
+    [
+        {
+            "flag": "普通旋转",
+            "minRate": 15,
+            "maxRate": 20,
+            "bonusCount": [
+                0,
+                1,
+                2
+            ],
+            "expectCount": 30000
+        },
+        {
+            "flag": "普通旋转但有3个游戏图标",
+            "minRate": 15,
+            "maxRate": 20,
+            "bonusCount": [
+                3
+            ],
+            "expectCount": 30000
+        }
+    ],
+    [
+        {
+            "flag": "普通旋转",
+            "minRate": 20,
+            "maxRate": 25,
+            "bonusCount": [
+                0,
+                1,
+                2
+            ],
+            "expectCount": 30000
+        },
+        {
+            "flag": "普通旋转",
+            "minRate": 25,
+            "maxRate": 30,
+            "bonusCount": [
+                0,
+                1,
+                2
+            ],
+            "expectCount": 30000
+        },
+      {
+            "flag": "普通旋转",
+            "minRate": 30,
+            "maxRate": 40,
+            "bonusCount": [
+                0,
+                1,
+                2
+            ],
+            "expectCount": 10000
+        },
+        {
+            "flag": "普通旋转但有3个游戏图标",
+            "minRate": 20,
+            "maxRate": 40,
+            "bonusCount": [
+                3
+            ],
+            "expectCount": 30000
+        }
+    ],
+    [
+        {
+            "flag": "小游戏",
+            "minRate": 0,
+            "maxRate": 3,
+            "bonusCount": [
+                4
+            ],
+            "expectCount": 5000
+        },
+        {
+            "flag": "小游戏",
+            "minRate": 3,
+            "maxRate": 8,
+            "bonusCount": [
+                4
+            ],
+            "expectCount": 5000
+        }
+    ],
+    [
+        {
+            "flag": "小游戏",
+            "minRate": 8,
+            "maxRate": 15,
+            "bonusCount": [
+                4
+            ],
+            "expectCount": 5000
+        },
+        {
+            "flag": "小游戏",
+            "minRate": 15,
+            "maxRate": 30,
+            "bonusCount": [
+                4
+            ],
+            "expectCount": 20000
+        },
+        {
+            "flag": "小游戏",
+            "minRate": 30,
+            "maxRate": 50,
+            "bonusCount": [
+                4
+            ],
+            "expectCount": 20000
+        }
+    ],
+    [
+        {
+            "flag": "小游戏",
+            "minRate": 50,
+            "maxRate": 75,
+            "bonusCount": [
+                4
+            ],
+            "expectCount": 10000
+        },
+        {
+            "flag": "小游戏",
+            "minRate": 75,
+            "maxRate": 100,
+            "bonusCount": [
+                4
+            ],
+            "expectCount": 5000
+        }
+    ],
+    [
+        {
+            "flag": "小游戏",
+            "minRate": 100,
+            "maxRate": 150,
+            "bonusCount": [
+                4
+            ],
+            "expectCount": 3000
+        },
+        {
+            "flag": "小游戏",
+            "minRate": 150,
+            "maxRate": 200,
+            "bonusCount": [
+                4
+            ],
+            "expectCount": 3000
+        }
+    ],
+    [
+        {
+            "flag": "小游戏",
+            "minRate": 200,
+            "maxRate": 300,
+            "bonusCount": [
+                4
+            ],
+            "expectCount": 2000
+        }
+    ],
+    [
+        {
+            "flag": "小游戏",
+            "minRate": 300,
+            "maxRate": 400,
+            "bonusCount": [
+                4
+            ],
+            "expectCount": 500
+        }
+    ],
+    [
+        {
+            "flag": "购买小游戏",
+            "minRate": 0,
+            "maxRate": 8,
+            "bonusCount": [
+                4
+            ],
+            "buyGame": true,
+            "expectCount": 5000
+        },
+        {
+            "flag": "购买小游戏",
+            "minRate": 8,
+            "maxRate": 15,
+            "bonusCount": [
+                4
+            ],
+            "buyGame": true,
+            "expectCount": 5000
+        }
+    ],
+    [
+        {
+            "flag": "购买小游戏",
+            "minRate": 15,
+            "maxRate": 30,
+            "bonusCount": [
+                4
+            ],
+            "buyGame": true,
+            "expectCount": 5000
+        },
+        {
+            "flag": "购买小游戏",
+            "minRate": 30,
+            "maxRate": 40,
+            "bonusCount": [
+                4
+            ],
+            "buyGame": true,
+            "expectCount": 5000
+        },
+        {
+            "flag": "购买小游戏",
+            "minRate": 40,
+            "maxRate": 50,
+            "bonusCount": [
+                4
+            ],
+            "buyGame": true,
+            "expectCount": 5000
+        }
+    ],
+    [
+        {
+            "flag": "购买小游戏",
+            "minRate": 50,
+            "maxRate": 60,
+            "bonusCount": [
+                4
+            ],
+            "buyGame": true,
+            "expectCount": 3000
+        },
+        {
+            "flag": "购买小游戏",
+            "minRate": 60,
+            "maxRate": 75,
+            "bonusCount": [
+                4
+            ],
+            "buyGame": true,
+            "expectCount": 3000
+        },
+        {
+            "flag": "购买小游戏",
+            "minRate": 75,
+            "maxRate": 100,
+            "bonusCount": [
+                4
+            ],
+            "buyGame": true,
+            "expectCount": 3000
+        }
+    ],
+    [
+        {
+            "flag": "购买小游戏",
+            "minRate": 100,
+            "maxRate": 150,
+            "bonusCount": [
+                4
+            ],
+            "buyGame": true,
+            "expectCount": 3000
+        },
+        {
+            "flag": "购买小游戏",
+            "minRate": 150,
+            "maxRate": 200,
+            "bonusCount": [
+                4
+            ],
+            "buyGame": true,
+            "expectCount": 2000
+        }
+    ],
+    [
+        {
+            "flag": "购买小游戏",
+            "minRate": 200,
+            "maxRate": 300,
+            "bonusCount": [
+                4
+            ],
+            "buyGame": true,
+            "expectCount": 1000
+        },
+        {
+            "flag": "购买小游戏",
+            "minRate": 300,
+            "maxRate": 400,
+            "bonusCount": [
+                4
+            ],
+            "buyGame": true,
+            "expectCount": 1000
+        }
+    ]
+]

@@ -1,0 +1,45 @@
+syntax = "proto3";
+
+import "pb/duck/mongodb/TimeStamp.proto";
+
+message AdminLoginReq {
+    string Username  = 1; //用户名
+    string Password  = 2; //密码
+    string GooleCode = 3; //谷歌验证码
+}
+
+message AdminLoginResp {
+    string    Token    = 1;
+    TimeStamp ExpireAt = 2;
+}
+
+enum AdminStatus {
+    Normal = 0; //正常
+    Frozen = 1; //冻结
+}
+
+enum IsDelete {
+    NoDelete  = 0; //正常
+    YesDelete = 1; //删除
+}
+
+message DBAdminer {
+    int64       ID            = 1;  // @gotags: bson:"_id"
+    string      Username      = 2;  // 用户名（昵称）
+    string      Password      = 3;  // @gotags: json:"-"
+    string      GoogleCode    = 4;  // 谷歌验证码
+    string      Qrcode        = 5;  // 谷歌二维码
+    string      Avatar        = 6;  // 头像
+    bool        IsOpenGoole   = 7;  // 是否打开谷歌验证码开关
+    AdminStatus Status        = 8;  // 管理员状态
+    IsDelete    IsDelete      = 9;  // 是否删除
+    TimeStamp   CreateAt      = 10; // 注册时间
+    TimeStamp   LoginAt       = 11; // 登录时间
+    int32       GroupId       = 12; // 权限组ID
+    string      Token         = 13; // 最后登陆的token，用于单点登录
+    TimeStamp   TokenExpireAt = 14; // Token有效期
+}
+
+service AdminAuth {
+    rpc Login(AdminLoginReq) returns (AdminLoginResp);
+}

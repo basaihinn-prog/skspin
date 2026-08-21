@@ -1,0 +1,175 @@
+{
+	"info": {
+		"_postman_id": "670cb73b-655b-4ffa-8262-3b9ecba551e3",
+		"name": "Playstar Integration",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37547201"
+	},
+	"item": [
+		{
+			"name": "1. Generate Game URL",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Appsecret",
+						"value": "11c5d190-3add-4482-b6d4-ee990903f981",
+						"description": "Appsecret is static data. this variable should be set on header for client API request",
+						"type": "text"
+					},
+					{
+						"key": "Appid",
+						"value": "faketrans",
+						"description": "Appid is static data. this variable should be set on header for client API request",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"UserID\":\"mMHfVfnn-1737955714017-DemoUser\",\r\n    \"GameID\":\"playstar_PSS-ON-00159\",\r\n    \"Platform\":\"desktop\",\r\n    \"Language\":\"en\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{CLIENT API ENDPOINT}}/api/v1/game/launch",
+					"host": [
+						"{{CLIENT API ENDPOINT}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"game",
+						"launch"
+					]
+				},
+				"description": "This api responses the game url, and the browser opens up new tab with the custom url.  \n\n``` javascript\nlet Uri = `${res.data.data.Url}&game_name=${game.gameName}&mu=${game.manufacturerName}&_=${new Date().getTime()}`\n\n ```"
+			},
+			"response": []
+		},
+		{
+			"name": "1. Generate Game URL Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Appsecret",
+						"value": "11c5d190-3add-4482-b6d4-ee990903f981",
+						"description": "Appsecret is static data. this variable should be set on header for client API request",
+						"type": "text"
+					},
+					{
+						"key": "Appid",
+						"value": "faketrans",
+						"description": "Appid is static data. this variable should be set on header for client API request",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"UserID\":\"mMHfVfnn-1737955714017-DemoUser\",\r\n    \"GameID\":\"playstar_PSS-ON-00159\",\r\n    \"Platform\":\"desktop\",\r\n    \"Language\":\"en\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{CLIENT API ENDPOINT}}/api/v1/game/launch",
+					"host": [
+						"{{CLIENT API ENDPOINT}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"game",
+						"launch"
+					]
+				},
+				"description": "This api responses the game url, and the browser opens up new tab with the custom url.  \n\n``` javascript\nlet Uri = `${res.data.data.Url}&game_name=${game.gameName}&mu=${game.manufacturerName}&_=${new Date().getTime()}`\n\n ```"
+			},
+			"response": []
+		},
+		{
+			"name": "2. Get Balance",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Appsecret",
+						"value": "11c5d190-3add-4482-b6d4-ee990903f981",
+						"type": "text"
+					},
+					{
+						"key": "Appid",
+						"value": "faketrans",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ATK\": \"eyJQIjoxMDkyODEsIkUiOjE3NDM3MTU4NzEsIlMiOjk5NiwiRCI6InBnXzE4Nzk3NTIifQ.7AXX5OWEd-XRwKBpCvl72DjXlW-i7vBcSrujxIjKzD4\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{CLIENT API ENDPOINT}}/api/v1/balance",
+					"host": [
+						"{{CLIENT API ENDPOINT}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"balance"
+					]
+				},
+				"description": "This API endpoint allows the client to create a new player with the specified UserID. Upon a successful execution of the request, the response will include the Pid (Player ID) associated with the newly created player.\n\nThe request should be sent as an HTTP POST to {{CLIENT API ENDPOINT}}/api/v1/player/create with the UserID parameter in the query string.\n\nThe response will have a status code of 200 and a content type of application/json. The response body will contain a JSON object with the keys \"code\", \"error\", and \"data\". The \"data\" object will include the Pid (Player ID) associated with the newly created player.\n\nExample response:\n\n``` json\n{\n    \"code\": 0,\n    \"error\": \"\",\n    \"data\": {\n        \"Pid\": 12345\n    }\n}\n\n ```\n\nThis endpoint makes an HTTP POST request to create a new player with the provided UserID.\n\n#### Request Parameters\n\n- UserID (query parameter) - The unique identifier for the user.\n    \n\n#### Response\n\nThe response is in JSON format and has the following schema:\n\n``` json\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"code\": {\n      \"type\": \"number\"\n    },\n    \"error\": {\n      \"type\": \"string\"\n    },\n    \"data\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"Pid\": {\n          \"type\": \"number\"\n        }\n      }\n    }\n  }\n}\n\n ```\n\nThe response contains the following fields:\n\n- code (number) - Indicates the status of the request.\n    \n- error (string) - Provides any error message, if applicable.\n    \n- data (object) - Contains the player information.\n    \n    - Pid (number) - The unique identifier for the newly created player."
+			},
+			"response": []
+		},
+		{
+			"name": "3. Transaction Bet & Win",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Appsecret",
+						"value": "11c5d190-3add-4482-b6d4-ee990903f981",
+						"type": "text"
+					},
+					{
+						"key": "Appid",
+						"value": "faketrans",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"GPlay_ID\": 581,\r\n    \"GPlay_Trans\": 1740065593838,\r\n    \"Game_Symbol\": \"PSS-ON-00150\",\r\n    \"Round\": \"1632907842094784515\",\r\n    \"Type\": 1,\r\n    \"Amount\": 6.0,\r\n    \"IS_CALL\": false,\r\n    \"Match_ID\": 0,\r\n    \"ATK\": \"eyJQIjoxMDQxMTIsIkUiOjE3NDE5NTg2OTAsIlMiOjEwMDIsIkQiOiJwZ18xODc5NzUyIn0.h6cYQEp-wRel5A3br_zUsO_XZLN2U7TSn3WXMyJwDzA\", //jwt token\r\n    \"GameID\":\"playstar_PSS-ON-00159\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{CLIENT API ENDPOINT}}/api/v1/transaction",
+					"host": [
+						"{{CLIENT API ENDPOINT}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"transaction"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

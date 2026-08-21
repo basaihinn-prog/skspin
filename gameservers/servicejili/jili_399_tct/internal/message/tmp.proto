@@ -1,0 +1,93 @@
+syntax = "proto3";
+
+package message;
+option go_package = "serve/servicejili/jili_399_tct/message";
+
+message Column {
+
+    repeated int32 Col = 1;
+}
+
+message CColumn {
+
+    repeated CSymbol Col = 1;
+}
+
+message CSymbol {
+
+    int32 Symbol = 1;
+    int32 JP_state = 2;
+    int32 JP_mult = 3;
+    double Number = 4;
+}
+
+message AwardData {
+
+    int32 Symbol = 1;
+    int32 Count = 2;
+    int32 Line = 3;
+    double Win = 4;
+}
+
+message FeatureEffect {
+
+    int32 Scatter_pos = 1;
+    repeated int32 Effect_pos = 2;
+    int32 JP_state = 3;
+    double Number = 4;
+}
+
+message RoundInfo {
+
+    repeated Column Main_plate_symbol = 1;
+    repeated CColumn Free_plate_symbol = 2;
+    repeated CColumn Free_plate_symbol_log = 3;
+    repeated AwardData Award_data_vec = 4;
+    int32 Award_type_flag = 5;
+    double Round_win = 6;
+    int32 Free_remain_round = 7;
+    int32 Free_now_round = 8;
+    int32 MG_reel_weight_result = 10;
+    repeated FeatureEffect Blue_data = 11;
+    repeated FeatureEffect Red_data = 12;
+    repeated FeatureEffect Green_data = 13;
+    repeated bool Add_crack = 14;
+    bool Max_flag = 15;
+}
+
+message SpinAck {
+
+    repeated RoundInfo Round_queue = 1;
+    double Free_total_win = 2;
+    double Total_win = 3;
+    string Show_index = 4;
+    double Now_money = 5;
+    int32 Ack_type = 6;
+    double RT_p = 7;
+    double Bet = 8;
+    int32 Folder_index = 9;
+    repeated int32 Crack_levels = 10;
+}
+
+message StateInfo {
+
+    repeated int32 Crack_levels = 1;
+}
+
+message GameInfoData {
+
+    bool Show_extra = 1;
+    repeated double Mul = 2;
+    repeated int32 JP_odds = 3;
+    repeated Column Blue_odds = 4;
+    repeated Column Coin_odds = 5;
+    repeated int32 Crack_levels = 6;
+    double Max_bet = 7;
+    repeated double Buy_mul = 8;
+}
+
+message BuyReq {
+
+    double Base_bet = 1;
+    int32 Buy_type = 2;
+}

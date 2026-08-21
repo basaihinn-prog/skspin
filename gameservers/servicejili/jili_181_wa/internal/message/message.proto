@@ -1,0 +1,55 @@
+syntax = "proto3";
+package message;
+option go_package = "./";
+import "google/protobuf/timestamp.proto";
+
+message wa_Column {
+    repeated int32 Col = 1;
+}
+
+message wa_AwardData {
+    optional int32 Symbol = 1;
+    optional int32 Count = 2;
+    optional int32 LineNum = 3;
+    optional double Win = 4;
+    optional double Mult = 5;
+    repeated int32 PosVec = 6;
+}
+
+message wa_ComboStageInfo {
+    repeated wa_Column ComboStageSymbol = 1;
+    optional double ComboStageWin = 2;
+    optional int32 ComboLevel = 3;
+    repeated wa_AwardData AwardDataVec = 4;
+    repeated wa_Column FillSymbols = 5;
+    repeated int32 UpgradeVec = 6;
+    optional double Mult = 7;
+    optional bool MaxFlag = 8;
+}
+
+message wa_RoundInfo {
+    repeated wa_ComboStageInfo ComboStageData = 1;
+    optional double RoundWin = 2;
+    optional int32 AwardTypeFlag = 3;
+    optional int32 FreeRemainRound = 4;
+    optional int32 AddRound = 5;
+    optional bool Plus = 6;
+    optional bool MaxFlag = 7;
+}
+
+message wa_SpinAck {
+    repeated wa_RoundInfo RoundQueue = 1;
+    optional double FreeTotalWin = 2;
+    optional double TotalWin = 3;
+    optional string ShowIndex = 4;
+    optional double NowMoney = 5;
+    optional int32 AckType = 6;
+    optional double RTP = 7;
+}
+
+message wa_GameInfoData {
+    optional bool ShowExtra = 1;
+    repeated double Mul = 2;
+    repeated wa_Column ComboSetting = 3;
+}
+

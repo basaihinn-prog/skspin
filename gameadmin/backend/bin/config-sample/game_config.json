@@ -1,0 +1,20 @@
+{
+  "Websocket": "ws://192.168.1.14:11080/login",
+  "LaunchUrl": "http://h5.megakf.com/",
+  "BetHistoryUrl": "https://bethistory.pg2.com/",
+  "Apps": [
+	  {
+    "AppID": "mega",
+    "AppSecret": "mega",
+    "Address": "http://127.0.0.1:9999/kk",
+    "Comment": "测试用"
+  },
+	  {
+    "AppID": "fake",
+    "AppSecret": "fake",
+    "Address": "http://192.168.1.14:11080",
+    "Comment": "测试用"
+  }
+
+  ]
+}

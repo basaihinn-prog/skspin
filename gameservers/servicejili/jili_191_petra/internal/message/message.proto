@@ -1,0 +1,61 @@
+syntax = "proto3";
+package message;
+option go_package = "./";
+import "google/protobuf/timestamp.proto";
+
+message petra_Column {
+    repeated int32 Col = 1;
+}
+
+message petra_AwardData {
+    optional int32 Symbol = 1;
+    optional int32 Count = 2;
+    optional int32 LineNum = 3;
+    optional double Win = 4;
+    repeated int32 PosVec = 5;
+}
+
+message petra_ComboStageInfo {
+    repeated petra_Column ComboStageSymbol = 1;
+    optional double ComboStageWin = 2;
+    optional double ComboStageMult = 3;
+    repeated petra_AwardData AwardDataVec = 4;
+    repeated int32 HitSlatePosVec = 5;
+    repeated petra_Column FillSymbols = 6;
+    repeated petra_Column ChangeSymbols = 7;
+    optional int32 AddRounds = 8;
+    optional int32 AddMults = 9;
+    repeated int32 FGChange = 10;
+    repeated int32 Holy = 11;
+    optional int32 FGChangeSymbol = 12;
+    repeated petra_Column ComboStageSymbolLog = 13;
+    optional bool MaxFlag = 14;
+}
+
+message petra_RoundInfo {
+    repeated petra_ComboStageInfo ComboStageData = 1;
+    optional double RoundWin = 2;
+    optional int32 AwardTypeFlag = 3;
+    optional int32 FreeRemainRound = 4;
+    optional int32 FreeTotalRound = 5;
+    optional int32 AddRounds = 6;
+    optional bool MaxFlag = 7;
+}
+
+message petra_SpinAck {
+    repeated petra_RoundInfo RoundQueue = 1;
+    optional double FreeTotalWin = 2;
+    optional double TotalWin = 3;
+    optional string ShowIndex = 4;
+    optional double NowMoney = 5;
+    optional int32 AckType = 6;
+    optional double RTP = 7;
+    optional double Bet = 8;
+}
+
+message petra_GameInfoData {
+    optional bool ShowExtra = 1;
+    repeated double Mul = 2;
+    repeated petra_Column ComboSetting = 3;
+}
+

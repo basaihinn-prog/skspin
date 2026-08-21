@@ -1,0 +1,58 @@
+syntax = "proto3";
+package auth.proto;
+
+import "pkg/mod/serve/fish_comm/flux/common@v0.1.1/proto/common.proto";
+import "serve/service_fish/models/proto/common_fish.proto";
+
+message LoginCall {
+    common.proto.EMSGID msgid                                              = 1;
+    string member_id                                                       = 2;
+    string password                                                        = 3;
+    string machine_id                                                      = 4;
+    string token                                                           = 5;
+}
+
+message LoginRecall {
+    common.proto.EMSGID msgid                                              = 1;
+    common.proto.Status.Code status_code                                   = 2;
+    string token                                                           = 3;
+}
+
+message UserInfoAsk {
+    common.proto.EMSGID msgid                                              = 1;
+    repeated UserInfo player                                               = 2;
+}
+
+message UserInfo {
+    message Column {
+        bool id                                                            = 1;
+        bool name                                                          = 2;
+        bool balance                                                       = 3;
+        bool avatar                                                        = 4;
+    }
+    string player_id                                                       = 1;
+    string player_name                                                     = 2;
+    uint64 player_cent                                                     = 3;
+    uint32 seat_id                                                         = 4;
+    common.fish.proto.BetRateLine bet_rate_line                            = 5;
+    string avatar_id                                                       = 6;
+    Column visible                                                         = 7;
+    PLAYER_TYPE player_type                                                = 8;
+}
+
+message BroadcastPlayerIn {
+    common.proto.EMSGID msgid                                              = 1;
+    string room_uuid                                                       = 2;
+    repeated UserInfo player                                               = 3;
+}
+
+message BroadcastPlayerOut {
+    common.proto.EMSGID msgid                                              = 1;
+    string room_uuid                                                       = 2;
+    UserInfo player                                                        = 3;
+}
+
+enum PLAYER_TYPE {
+    GAME                                                                   = 0;  // 玩家
+    BOT                                                                    = 1;  // BOT
+}

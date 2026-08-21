@@ -1,0 +1,237 @@
+[
+	{
+		"name": "5次都不中奖",
+		"NoAwardCount": 5,
+		"NeedCombine": 10000
+	},
+	{
+		"name": "8次都不中奖",
+		"NoAwardCount": 8,
+		"NeedCombine": 8000
+	},
+	{
+		"name": "1次普通中奖（4，6】+5次不中奖+4次剩余随机",
+		"AwardArr": [
+			{
+				"x": 1,
+				"y": 5,
+				"count": 1
+			}
+		],
+		"NoAwardCount": 5,
+		"RandCount": 4,
+		"NeedCombine": 8000
+	},
+	{
+		"name": "1次普通中奖（6，10】+6次不中奖+3次剩余随机",
+		"AwardArr": [
+			{
+				"x": 1,
+				"y": 6,
+				"count": 1
+			}
+		],
+		"NoAwardCount": 6,
+		"RandCount": 3,
+		"NeedCombine": 4000
+	},
+	{
+		"name": "1次普通中奖（10，20】+7次不中奖+2次剩余随机",
+		"AwardArr": [
+			{
+				"x": 1,
+				"y": 7,
+				"count": 1
+			}
+		],
+		"FreeCount": 0,
+		"NoAwardCount": 7,
+		"RandCount": 2,
+		"NeedCombine": 1200
+	},
+	{
+		"name": "1次免费旋转+5次不中奖+4次剩余随机",
+		"AwardArr": [],
+		"FreeCount": 1,
+		"NoAwardCount": 5,
+		"RandCount": 4,
+		"NeedCombine": 1000
+	},
+	{
+		"name": "2次免费旋转+4次不中奖+4次剩余随机",
+		"AwardArr": [],
+		"FreeCount": 2,
+		"NoAwardCount": 4,
+		"RandCount": 4,
+		"NeedCombine": 1000
+	},
+	{
+		"name": "1次小游戏（8，20】+15次不中奖+4次剩余随机",
+		"AwardArr": [
+			{
+				"x": 6,
+				"y": 0,
+				"count": 1
+			}
+		],
+		"FreeCount": 0,
+		"NoAwardCount": 15,
+		"RandCount": 4,
+		"NeedCombine": 140
+	},
+	{
+		"name": "1次小游戏（20，40】+15次不中奖+4次剩余随机",
+		"AwardArr": [
+			{
+				"x": 6,
+				"y": 1,
+				"count": 1
+			}
+		],
+		"FreeCount": 0,
+		"NoAwardCount": 15,
+		"RandCount": 4,
+		"NeedCombine": 400
+	},
+	{
+		"name": "1次小游戏（40，80】+15次不中奖+4次剩余随机",
+		"AwardArr": [
+			{
+				"x": 6,
+				"y": 2,
+				"count": 1
+			}
+		],
+		"FreeCount": 0,
+		"NoAwardCount": 15,
+		"RandCount": 4,
+		"NeedCombine": 200
+	},
+	{
+		"name": "1次小游戏（80，120】+15次不中奖+4次剩余随机",
+		"AwardArr": [
+			{
+				"x": 6,
+				"y": 3,
+				"count": 1
+			}
+		],
+		"FreeCount": 0,
+		"NoAwardCount": 15,
+		"RandCount": 4,
+		"NeedCombine": 100
+	},
+	{
+		"name": "1次小游戏（120，150】+15次不中奖+4次剩余随机",
+		"AwardArr": [
+			{
+				"x": 6,
+				"y": 4,
+				"count": 1
+			}
+		],
+		"FreeCount": 0,
+		"NoAwardCount": 15,
+		"RandCount": 4,
+		"NeedCombine": 40
+	},
+	{
+		"name": "1次小游戏（150，200】+15次不中奖+4次剩余随机",
+		"AwardArr": [
+			{
+				"x": 6,
+				"y": 5,
+				"count": 1
+			}
+		],
+		"FreeCount": 0,
+		"NoAwardCount": 15,
+		"RandCount": 4,
+		"NeedCombine": 15
+	},
+	{
+		"name": "1次小游戏（8，20】+1次小游戏（8，20】+10次不中奖+8次剩余随机",
+		"AwardArr": [
+			{
+				"x": 6,
+				"y": 0,
+				"count": 2
+			}
+		],
+		"FreeCount": 0,
+		"NoAwardCount": 10,
+		"RandCount": 8,
+		"NeedCombine": 100
+	},
+	{
+		"name": "1次小游戏（8，20】+1次小游戏（20，40】+10次不中奖+8次剩余随机",
+		"AwardArr": [
+			{
+				"x": 6,
+				"y": 0,
+				"count": 1
+			},
+			{
+				"x": 6,
+				"y": 1,
+				"count": 1
+			}
+		],
+		"FreeCount": 0,
+		"NoAwardCount": 10,
+		"RandCount": 8,
+		"NeedCombine": 100
+	},
+	{
+		"name": "1次小游戏（8，20】+1次小游戏（40，80】+10次不中奖+8次剩余随机",
+		"AwardArr": [
+			{
+				"x": 6,
+				"y": 0,
+				"count": 1
+			},
+			{
+				"x": 6,
+				"y": 2,
+				"count": 1
+			}
+		],
+		"FreeCount": 0,
+		"NoAwardCount": 10,
+		"RandCount": 8,
+		"NeedCombine": 100
+	},
+	{
+		"name": "1次小游戏（20，40】+1次小游戏（20，40】+10次不中奖+8次剩余随机",
+		"AwardArr": [
+			{
+				"x": 6,
+				"y": 1,
+				"count": 2
+			}
+		],
+		"FreeCount": 0,
+		"NoAwardCount": 10,
+		"RandCount": 8,
+		"NeedCombine": 150
+	},
+	{
+		"name": "1次小游戏（20，40】+1次小游戏（40，80】+10次不中奖+8次剩余随机",
+		"AwardArr": [
+			{
+				"x": 6,
+				"y": 1,
+				"count": 1
+			},
+			{
+				"x": 6,
+				"y": 2,
+				"count": 1
+			}
+		],
+		"FreeCount": 0,
+		"NoAwardCount": 10,
+		"RandCount": 8,
+		"NeedCombine": 200
+	}
+]

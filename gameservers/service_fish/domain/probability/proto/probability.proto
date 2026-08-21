@@ -1,0 +1,140 @@
+syntax = "proto3";
+package probability.proto;
+
+import "pkg/mod/serve/fish_comm/flux/common@v0.1.1/proto/common.proto";
+import "serve/service_fish/models/proto/common_fish.proto";
+import "serve/service_fish/domain/gamerecovery/proto/game_recovery.proto";
+
+message HitFish {
+    string uuid                                                            = 1;    // 魚的編號(唯一id)
+    int32 symbol_id                                                        = 2;    // 魚的種類編號(symbol id)
+    string rtpId                                                           = 3;    // 指定的RtpId "":不指定
+}
+
+message HitBullet {
+    string bonus_uuid                                                      = 1;    // 表示此子彈隸屬於哪一個 bonus
+    string uuid                                                            = 2;    // 子彈的編號(唯一id)
+    int32 type_id                                                          = 3;    // 子彈類型 0:普通砲彈, 27:機關槍, 26:鑽頭炮 or others
+    common.fish.proto.Point target                                         = 4;    // 射擊點座標
+    int32 shoot_mode                                                       = 5;    // 發射模式 0:普通 1:自動 2:瞄準
+    uint64 accumulated_pay                                                 = 6;    // 累加的得分 0:未結束
+}
+
+message HitResult {
+    uint64 pay                                                             = 1;    // 得分 (pay * bet * line * rate)
+    int32 multiplier                                                       = 2;    // bonus 倍數
+    uint64 player_cent                                                     = 3;    // 玩家目前分數
+    uint64 bullet_pay                                                      = 4;    // 免費子彈 (bullet)
+    uint64 bullet_collection                                               = 5;    // 玩家目前的子彈收集條
+}
+
+message TriggerBonus {
+    string uuid                                                            = 1;   // bonus 的編號(唯一id)
+    int32 type_id                                                          = 2;   // bonus 類型 26:鑽頭炮 27:機關槍 or other
+    int32 times                                                            = 3;   // bonus 次數
+    ExtraInfo bonusExtraInfo                                               = 4;   // bonus其他資訊
+}
+
+message ExtraInfo {
+    repeated int32 bonusPays                                               = 1;   // 算出的倍率 小籠包5個
+    repeated int32 bonusLocation                                           = 2;   // 算出倍率是否有中 0:沒有中 1:有中
+}
+
+message ResultCall {
+    common.proto.EMSGID msgid                                              = 1;
+    string token                                                           = 2;
+    string room_uuid                                                       = 3;    // 玩家所在的房間
+    int32 seat_id                                                          = 4;    // 玩家所在的位置
+    HitFish hit_fish                                                       = 5;
+    HitBullet hit_bullet                                                   = 6;
+    int32 mercenary_type                                                   = 7;    // 傭兵類型 -1:玩家 0:步槍, 1:散彈槍, 2:火箭炮
+}
+
+message MultiResultCall {
+    common.proto.EMSGID msgid                                              = 1;
+    string token                                                           = 2;
+    string room_uuid                                                       = 3;    // 玩家所在的房間
+    int32 seat_id                                                          = 4;    // 玩家所在的位置
+    repeated HitFish hit_fishies                                           = 5;    // 多隻魚的資訊
+    HitBullet hit_bullet                                                   = 6;
+    int32 mercenary_type                                                   = 7;    // 傭兵類型 -1:玩家 0:步槍, 1:散彈槍, 2:火箭炮
+}
+
+message ResultRecall {
+    common.proto.EMSGID msgid                                              = 1;
+    common.proto.Status.Code status_code                                   = 2;
+    string room_uuid                                                       = 3;    // 玩家所在的房間
+    int32 seat_id                                                          = 4;    // 玩家所在的位置
+    common.fish.proto.BetRateLine bet_rate_line                            = 5;
+    HitFish hit_fish                                                       = 6;
+    HitBullet hit_bullet                                                   = 7;
+    HitResult hit_result                                                   = 8;
+    TriggerBonus trigger_bonus                                             = 9;
+    repeated TriggerBonus extra_trigger_bonus                              = 10;
+    game.recovery.proto.Mercenary mercenary_info                           = 11;   // 傭兵收集條 和 傭兵資訊
+    int32 mercenary_type                                                   = 12;   // 傭兵類型 -1:玩家 0:步槍, 1:散彈槍, 2:火箭炮
+}
+
+message MultiResultRecall {
+    common.proto.EMSGID msgid                                              = 1;
+    repeated ResultRecall result_recall                                    = 2;
+}
+
+message BroadcastResult {
+    common.proto.EMSGID msgid                                              = 1;
+    ResultRecall result_recall                                             = 2;
+}
+
+message BroadcastMultiResult {
+    common.proto.EMSGID msgid                                              = 1;
+    MultiResultRecall multi_result_recall                                  = 2;
+}
+
+enum OPTION_MODE {
+    eGetSelectRedEnvelopeOption = 0;
+    eGetSelectSlot777Option     = 1;
+}
+
+message OptionCall {
+    common.proto.EMSGID msgid               = 1;    //  for 額外的小遊戲使用  例如抽紅包  777
+    OPTION_MODE opt_mode                    = 2;
+    string token                            = 3;
+    string room_uuid                        = 4;    // 玩家所在的房間
+    int32 seat_id                           = 5;    // 玩家所在的位置
+    string bonus_uuid                       = 6;    // bonus的編號(唯一id)
+    int32 player_opt_index                  = 7;
+}
+
+message OptionRecall {
+    common.proto.EMSGID msgid               = 1;
+    common.proto.Status.Code status_code    = 2;
+    string room_uuid                        = 3;    // 玩家所在的房間
+    int32 seat_id                           = 4;    // 玩家所在的位置
+    string bonus_uuid                       = 5;    // bonus的編號(唯一id)
+    int32 player_opt_index                  = 6;    // 玩家選擇 PAY 的位置
+    repeated int32 symbol_id                = 7;    // 給玩家看所有位置的 SYMBOL
+    repeated int64 all_pay                  = 8;    // 給玩家看所有位置的 PAY
+    HitResult hit_result                    = 9;
+}
+
+message BroadcastOption {
+    common.proto.EMSGID msgid               = 1;
+    OptionRecall option_recall              = 2;
+}
+
+message MercenaryOpenCall {
+    common.fish.proto.EMSGID msgid          = 1;
+    string room_uuid                        = 2;
+    int32 seat_id                           = 3;
+    uint64 mercenary_type                   = 4; // 傭兵類型 0:步槍, 1:散彈槍, 2:火箭炮
+    uint64 bullet                           = 5; // 扣除的蒐集條
+}
+
+message MercenaryOpenRecall {
+    common.fish.proto.EMSGID msgid          = 1;
+    common.proto.Status.Code status_code    = 2;
+    int32 seat_id                           = 3;
+    uint64 bullet_collection                = 4;
+    uint64 mercenary_type                   = 5; // 傭兵類型 0:步槍, 1:散彈槍, 2:火箭炮
+    uint64 mercenary_bullet                 = 6;
+}

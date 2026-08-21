@@ -1,0 +1,44 @@
+[
+    [{
+        "flag": "不中奖",
+        "minRate": -1,
+        "maxRate": 0,
+        "expectCount": 20000
+    }],
+    [{
+        "flag": "普通旋转",
+        "minRate": 8,
+        "maxRate": 8,
+        "expectCount": 20
+    }],
+    [{
+        "flag": "普通旋转",
+        "minRate": 18,
+        "maxRate": 18,
+        "expectCount": 120000
+    }],
+    [{
+        "flag": "普通旋转",
+        "minRate": 28,
+        "maxRate": 28,
+        "expectCount": 120000
+    }],
+    [{
+        "flag": "普通旋转",
+        "minRate": 58,
+        "maxRate": 58,
+        "expectCount": 120000
+    }],
+    [{
+        "flag": "普通旋转",
+        "minRate": 88,
+        "maxRate": 88,
+        "expectCount": 120000
+    }],
+    [{
+        "flag": "普通旋转",
+        "minRate": 888,
+        "maxRate": 888,
+        "expectCount": 120000
+    }]
+]

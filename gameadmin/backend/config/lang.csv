@@ -1,0 +1,1429 @@
+id,th,en,idr,it,es
+已下注，不能退出,วางเดิมพันแล้วและไม่สามารถถอนออกได้,The bet has been placed and cannot be withdrawn,Taruhan telah dipasang dan tidak dapat ditarik,La scommessa è stata piazzata e non può essere ritirata,La apuesta se ha realizado y no se puede retirar.
+不在此房间内,ไม่ได้อยู่ในห้องนี้,Not in this room,Tidak di ruangan ini,Non in questa stanza,No en esta habitación
+您的下注不符合要求，请调整下注金额！,การเดิมพันของคุณไม่เป็นไปตามข้อกำหนด โปรดปรับจำนวนเงินเดิมพันของคุณ!,"Your bet does not meet the requirements, please adjust the bet amount!","Taruhan anda tidak memenuhi persyaratan, silakan sesuaikan jumlah taruhan anda!","La tua scommessa non soddisfa i requisiti, modifica l'importo della scommessa!","Tu apuesta no cumple con los requisitos, ¡ajusta el monto de tu apuesta!"
+投注后携带金额不能低于{{.Gold}}金币,จำนวนเงินที่คุณถือได้หลังการเดิมพันต้องไม่ต่ำกว่า {{.Gold}} เหรียญทอง,The amount you carry after placing a bet cannot be less than {{.gold}} coins,Jumlah yang anda bawa setelah bertaruh tidak boleh kurang dari {{.gold}} koin emas,L'importo che porti con te dopo aver scommesso non può essere inferiore a {{.gold}} monete d'oro,La cantidad que llevas después de apostar no puede ser inferior a {{.gold}} monedas de oro.
+下注已达上限{{.Gold}}金币,การเดิมพันถึงขีดจำกัดของเหรียญทอง {{.Gold}} แล้ว,The bet has reached the upper limit of {{.gold}} coins,Taruhan telah mencapai batas {{.gold}} koin emas,Le scommesse hanno raggiunto il limite di {{.gold}} monete d'oro,Las apuestas han alcanzado el límite de {{.gold}} monedas de oro
+取消下注失败,ไม่สามารถยกเลิกเดิมพันได้,Failed to cancel bet,Tidak dapat membatalkan taruhan,Impossibile annullare la scommessa,No se puede cancelar la apuesta
+请求太频繁,ร้องขอบ่อยเกินไป,Requests too frequent,Terlalu sering diminta,Richiesto troppo frequentemente,Solicitado con demasiada frecuencia
+桌子ID无效,รหัสตารางไม่ถูกต้อง,Invalid table id,Id tabel tidak valid,Id tabella non valido,Id de tabla no válido
+桌子尚未启动，请稍后重新进入,ตารางยังไม่ได้เริ่ม โปรดเข้ามาใหม่ในภายหลัง,"The table has not been started yet, please try again later","Tabel belum dimulai, silakan masuk kembali nanti","La tabella non è ancora stata avviata, ti preghiamo di rientrare più tardi","La mesa aún no se ha iniciado, vuelva a ingresar más tarde"
+桌子无效,ตารางไม่ถูกต้อง,Invalid table,Tabel tidak valid,Tabella non valida,Tabla no válida
+下注区域不合法,พื้นที่เดิมพันเป็นสิ่งผิดกฎหมาย,Illegal betting area,Area taruhan adalah ilegal,L'area scommesse è illegale,La zona de apuestas es ilegal.
+已经离开,ออกไปแล้ว,Already left,Sudah pergi,Già partito,Ya se fue
+桌子还未开启,โต๊ะยังไม่เปิดเลย,The table is not open yet,Mejanya belum terbuka,Il tavolo non è ancora aperto,La mesa aún no está abierta.
+玩家不在桌子里,ผู้เล่นไม่อยู่ที่โต๊ะ,Player not at table,Pemain tidak ada di meja,Il giocatore non è al tavolo,El jugador no está en la mesa.
+项目,โครงการ,Project,Proyek,Progetto,Proyecto
+7日数据,ข้อมูล 7 วัน,7-day data,Data 7 hari,Dati di 7 giorni,Datos de 7 días
+当月数据,ข้อมูลสำหรับเดือน,Data for the month,Data untuk bulan tersebut,Dati del mese,Datos del mes
+总数据,ข้อมูลทั้งหมด,Total data,Jumlah data,Dati totali,Datos totales
+总产出,ผลผลิตทั้งหมด,Total output,Jumlah keluaran,Produzione totale,Producción total
+总流水,มูลค่าการซื้อขายทั้งหมด,Total turnover,Jumlah omset,Fatturato totale,Volumen de negocios total
+总回报率,ผลตอบแทนรวม,Total return,Pengembalian total,Rendimento totale,Retorno total
+日期,วันที่,Date,Tanggal,Data,Fecha
+系统收益,ประโยชน์ของระบบ,System benefits,Manfaat sistem,Beneficio del sistema,Beneficio del sistema
+购买小游戏总投注,เดิมพันรวมในการซื้อมินิเกม,Total bet for buying mini games,Total taruhan untuk pembelian mini-game,Scommessa totale sull'acquisto di minigiochi,Apuesta total en la compra de minijuegos
+购买小游戏回报率,อัตราผลตอบแทนสำหรับการซื้อมินิเกม,Return rate for purchasing mini games,Tingkat pengembalian untuk pembelian mini-game,Tasso di restituzione per l'acquisto di minigiochi,Tasa de retorno por la compra de minijuegos
+回报率,อัตราผลตอบแทน,Rate of return,Tingkat pengembalian,Tasso di rendimento,Tasa de retorno
+默认权限组,กลุ่มสิทธิ์เริ่มต้น,Default permission group,Grup izin default,Gruppo di autorizzazioni predefinito,Grupo de permisos predeterminado
+名字重复,ชื่อซ้ำกัน,Duplicate name,Nama duplikat,Nome duplicato,Nombre duplicado
+权限不足,สิทธิ์ไม่เพียงพอ,Insufficient permissions,Izin tidak memadai,Autorizzazioni insufficienti,Permisos insuficientes
+参数错误,ข้อผิดพลาดของพารามิเตอร์,Parameter error,Kesalahan parameter,Errore di parametro,Error de parámetro
+数据库错误,ข้อผิดพลาดของฐานข้อมูล,Database error,Kesalahan basis data,Errore nel database,Error de base de datos
+用户名,ชื่อผู้ใช้,Username,Nama belakang,Nome utente,Nombre de usuario
+用户,ชื่อผู้ใช้,Username,Nama belakang,Nome utente,Nombre de usuario
+密码,รหัสผ่าน,Password,Kata sandi,Password,Contraseña
+登录,เข้าสู่ระบบ,Log in,Masuk,Login,Acceso
+登录成功,เข้าสู่ระบบสำเร็จ,Login successful,Masuk berhasil,Accesso riuscito,Iniciar sesión exitosamente
+退出登录,ออกจากระบบ,Log out,Keluar,Esci,Finalizar la sesión
+选择图片,เลือกรูปภาพ,Select image,Pilih gambar,Seleziona l'immagine,Seleccionar imagen
+当前路径,เส้นทางปัจจุบัน,Current path,Jalur saat ini,Percorso attuale,Camino actual
+已存在文件,มีไฟล์อยู่แล้ว,File already exists,Berkas sudah ada,Il file esiste già,El archivo ya existe
+请输入,กรุณาเข้า,Enter,Silakan masuk,Per favore entra,Por favor ingresa
+请选择,กรุณาเลือก,Select,Silakan pilih,Seleziona,Por favor seleccione
+修改密码,เปลี่ยนรหัสผ่าน,Change password,Ubah kata sandi,Cambiare la password,Cambiar la contraseña
+取消,ยกเลิก,Cancel,Membatalkan,Cancellare,Cancelar
+确定,แน่นอน,Sure,Tentu,Sicuro,Seguro
+旧密码,รหัสผ่านเก่า,Old password,Kata sandi lama,Vecchia parola d'ordine,Contraseña anterior
+新密码,รหัสผ่านใหม่,New password,Kata sandi baru,Nuova parola d'ordine,Nueva contraseña
+确认密码,ยืนยันรหัสผ่าน,Confirm password,Konfirmasi kata sandi,Conferma password,Confirmar contraseña
+保存,บันทึก,Save,Menyimpan,Salva,Ahorrar
+请填写旧密码,กรุณากรอกรหัสผ่านเก่า,Fill in the old password,Silakan isi kata sandi lama,Per favore inserisci la vecchia password,Por favor complete la contraseña anterior
+请填写新密码,กรุณากรอกรหัสผ่านใหม่,Enter a new password,Silakan isi kata sandi baru,Inserisci la nuova password,Por favor ingrese una nueva contraseña
+请再次确认密码,กรุณายืนยันรหัสผ่านอีกครั้ง,Confirm your password again,Harap konfirmasi kata sandi lagi,Si prega di confermare nuovamente la password,Por favor confirme la contraseña nuevamente
+修改成功,การแก้ไขสำเร็จ,Modification successful,Modifikasi berhasil,Modifica riuscita,Modificación exitosa
+搜索,ค้นหา,Search,Mencari,Ricerca,Buscar
+导出,ส่งออก,Export,Ekspor,Esportare,Exportar
+手机号,หมายเลขโทรศัพท์,Phone number,Nomor telepon,Numero di telefono,Número de teléfono
+银行卡号,หมายเลขบัตรธนาคาร,Bank card number,Nomor kartu bank,Numero della carta bancaria,Número de tarjeta bancaria
+真实姓名,ชื่อจริง,Real name,Nama asli,Vero nome,Nombre real
+trueMoney姓名,trueMoneyName,Truemoney name,Namauang yang sebenarnya,Truemoneyname,Nombredineroverdadero
+状态,สถานะ,State,Negara,Stato,Estado
+全部,ทั้งหมด,All,Semua,Tutto,Todo
+正常,ปกติ,Normal,Normal,Normale,Normal
+封禁,ห้าม,Ban,Melarang,Divieto,Prohibición
+注册日期,วันที่ลงทะเบียน,Registration date,Tanggal pendaftaran,Data di registrazione,Fecha de registro
+登录日期,วันที่เข้าสู่ระบบ,Login date,Tanggal masuk,Data di accesso,Fecha de inicio de sesión
+至,ถึง,To,Ke,A,A
+结束日期,วันที่สิ้นสุด,End date,Tanggal akhir,Data di fine,Fecha de finalización
+开始日期,วันที่เริ่มต้น,Start date,Tanggal mulai,Data di inizio,Fecha de inicio
+详情,รายละเอียด,Details,Detail,Dettagli,Detalles
+携带金币,พกเหรียญทอง,Carrying gold,Bawalah koin emas,Porta con te monete d'oro,Llevar monedas de oro
+银行金币,เหรียญทองของธนาคาร,Bank coins,Koin emas bank,Monete d'oro bancarie,Monedas de oro del banco
+充值金币总和,เหรียญทองเติมเงินทั้งหมด,Total amount of recharged coins,Total isi ulang koin emas,Ricarica totale monete d'oro,Recarga total de monedas de oro.
+提现金币总和,ถอนจำนวนเหรียญทั้งหมด,Total cash withdrawal amount,Tarik jumlah total koin,Preleva l'importo totale delle monete,Retirar la cantidad total de monedas.
+VIP等级,ระดับวีไอพี,Vip level,Tingkat vip,Livello vip,Nivel vip
+最大VIP等级,ระดับวีไอพีสูงสุด,Maximum vip level,Tingkat vip maksimum,Livello vip massimo,Nivel vip máximo
+注册时间,เวลาลงทะเบียน,Registration time,Waktu pendaftaran,Orario di registrazione,Hora de registro
+最后登录时间,เวลาเข้าสู่ระบบครั้งล่าสุด,Last login time,Waktu masuk terakhir,Ora dell'ultimo accesso,Hora del último inicio de sesión
+操作,ดำเนินงาน,Operate,Beroperasi,Operare,Funcionar
+用户列表,รายชื่อผู้ใช้,User list,Daftar pengguna,Elenco utenti,Lista de usuarios
+玩家信息,ข้อมูลผู้เล่น,Player info,Informasi pemain,Informazioni sul giocatore,Información del jugador
+昵称,ชื่อนิค,Nick name,Nama panggilan,Soprannome,Apodo
+性别,เพศ,Gender,Jenis kelamin,Genere,Género
+生日,วันเกิด,Birthday,Hari ulang tahun,Compleanno,Cumpleaños
+身份证,บัตรประจำตัวประชาชน,Id card,Kartu identitas,Carta d'identità,Tarjeta de identificación
+剩余转转乐次数,จำนวนรอบที่เหลือ,Remaining number of spins,Jumlah putaran yang tersisa,Numero di giri rimanente,Número restante de vueltas
+转转乐积分余额,จวนจวนเล่อชี้สมดุล,Zhuanzhuanle points balance,Saldo poin zhuanzhuanle,Saldo punti zhuanzhuanle,Saldo de puntos de zhuanzhuanle
+上级代理ID,รหัสตัวแทนที่เหนือกว่า,Parent agent id,Id agen unggul,Id agente superiore,Id de agente superior
+成长值,มูลค่าการเติบโต,Growth value,Nilai pertumbuhan,Valore di crescita,Valor de crecimiento
+周成长值,มูลค่าการเติบโตรายสัปดาห์,Weekly growth,Nilai pertumbuhan mingguan,Valore di crescita settimanale,Valor de crecimiento semanal
+最后登陆时间,เวลาเข้าสู่ระบบครั้งล่าสุด,Last login time,Waktu masuk terakhir,Ora dell'ultimo accesso,Hora del último inicio de sesión
+登陆IP,เข้าสู่ระบบไอพี,Login ip,Ip masuk,Ip di accesso,Ip de inicio de sesión
+复制,สำเนา,Copy,Menyalin,Copia,Copiar
+男,ชาย,Male,Pria,Maschio,Masculino
+女,หญิง,Female,Perempuan,Femmina,Femenino
+金币数据,ข้อมูลเหรียญทอง,Gold coin data,Data koin emas,Dati sulle monete d'oro,Datos de monedas de oro
+金币总额,รวมเหรียญทอง,Total gold coins,Jumlah koin emas,Totale monete d'oro,Monedas de oro totales
+可提现金币,เหรียญเงินสดที่สามารถถอนได้,Cash coins available,Koin tunai yang dapat ditarik,Monete in contanti prelevabili,Monedas en efectivo retirables
+锁金,ล็อคทอง,Lock gold,Kunci emas,Serratura d'oro,Cerradura de oro
+锁水,ล็อคน้ำ,Locks in moisture,Kunci air,Bloccare l'acqua,Bloquear agua
+剩余提现额度,วงเงินถอนคงเหลือ,Remaining withdrawal amount,Batas penarikan yang tersisa,Limite di prelievo rimanente,Límite de retiro restante
+当日的剩余提现额度,จำนวนเงินถอนคงเหลือสำหรับวันนั้น,The remaining withdrawal amount for the day,Jumlah sisa penarikan untuk hari itu,L'importo residuo del prelievo giornaliero,El monto restante del retiro del día
+充值到帐金币,เติมเงินเหรียญทอง,Recharge gold coins,Isi ulang koin emas,Ricarica le monete d'oro,Recarga monedas de oro
+成功的提现申请总额,จำนวนคำขอถอนเงินที่สำเร็จทั้งหมด,Total amount of successful withdrawal applications,Jumlah total permintaan penarikan yang berhasil,Importo totale delle richieste di prelievo riuscite,Cantidad total de solicitudes de retiro exitosas
+提现待处理金币,ถอนเหรียญทองที่รอดำเนินการ,Withdraw pending gold coins,Tarik koin emas yang tertunda,Ritira le monete d'oro in sospeso,Retirar monedas de oro pendientes
+提现退回金币,การถอนและคืนเหรียญทองคำ,Withdraw and return gold coins,Penarikan dan pengembalian koin emas,Ritiro e rimborso di monete d'oro,Retiro y devolución de monedas de oro.
+提现手续费,ค่าธรรมเนียมการถอนเงิน,Withdrawal fee,Biaya penarikan,Commissione di prelievo,Tarifa de retiro
+充值的总手续费,ค่าธรรมเนียมการจัดการทั้งหมดสำหรับการเติมเงิน,Total recharge fee,Total biaya penanganan untuk isi ulang,Spese di gestione totali per la ricarica,Tarifa total de gestión de recarga
+绑定信息,ข้อมูลผูกพัน,Binding info,Informasi yang mengikat,Informazioni vincolanti,Información vinculante
+银行名称,ชื่อธนาคาร,Bank name,Nama bank,Nome della banca,Nombre del banco
+银行账号,หมายเลขบัญชีธนาคาร,Bank account number,Nomor rekening bank,Numero di conto bancario,Número de cuenta bancaria
+Truemoney帐号,บัญชีทรูมันนี่,Truemoney account,Akun truemoney,Conto truemoney,Cuenta de dinero verdadero
+Truemoney真实姓名,ชื่อจริง ทรูมันนี่,Truemoney real name,Nama asli truemoney,Vero nome truemoney,Nombre real de truemoney
+设备ID,รหัสอุปกรณ์,Device id,Id perangkat,Id del dispositivo,Id del dispositivo
+是否白名单,ไม่ว่าจะไวท์ลิสต์หรือไม่,Is it whitelisted?,Apakah akan masuk daftar putih,Se inserire nella whitelist,Ya sea para incluir en la lista blanca
+渠道号,หมายเลขช่อง,Channel number,Nomor saluran,Numero del canale,Número de canal
+直属下级人数,จำนวนผู้ใต้บังคับบัญชาโดยตรง,Number of direct subordinates,Jumlah bawahan langsung,Numero di subordinati diretti,Número de subordinados directos
+停封账号,ระงับบัญชี,Suspend account,Tangguhkan akun,Sospendere l'account,Suspender cuenta
+当前状态,สถานะปัจจุบัน,Current status,Status saat ini,Stato attuale,Estado actual
+备注,บันทึกย่อ,Notes,Catatan,Note,Note
+解封,เลิกบล็อก,Unblock,Buka blokir,Sbloccare,Desatascar
+设置生日,ตั้งวันเกิด,Set birthday,Mengatur ulang tahun,Impostare il compleanno,Establecer cumpleaños
+提交,ส่ง,Submit,Kirim,Invia,Entregar
+金币流水管理,การจัดการการไหลของเหรียญทอง,Gold coin flow management,Manajemen aliran koin emas,Gestione del flusso delle monete in oro,Gestión del flujo de monedas de oro.
+三个类型输入+值代表加相应值，-值代表减相应值！,ในอินพุตทั้งสามประเภท ค่า + หมายถึงการเพิ่มค่าที่สอดคล้องกัน และค่า - หมายถึงการลบค่าที่สอดคล้องกัน!,"The three types of input + value represent adding the corresponding value, and - value represent subtracting the corresponding value!","Dalam tiga jenis input, + nilai mewakili penambahan nilai yang sesuai, dan - nilai mewakili pengurangan nilai yang sesuai!","Nei tre tipi di input, + valore rappresenta l'aggiunta del valore corrispondente e - valore rappresenta la sottrazione del valore corrispondente!","En los tres tipos de entrada, + valor representa sumar el valor correspondiente y - valor representa restar el valor correspondiente."
+账户携带金币,บัญชีมีเหรียญทอง,Account carries gold coins,Akun membawa koin emas,Il conto trasporta monete d'oro,La cuenta lleva monedas de oro.
+账户保险箱金币,บัญชีเหรียญทองที่ปลอดภัย,Account safe gold,Akun koin emas yang aman,Monete d'oro sicure per il conto,Cuenta de monedas de oro seguras
+金币业绩流水,กระแสประสิทธิภาพของเหรียญทอง,Gold coin performance flow,Aliran kinerja koin emas,Flusso delle prestazioni delle monete d'oro,Flujo de rendimiento de monedas de oro
+提现解锁流水,การถอนจะปลดล็อคน้ำกลิ้ง,Withdrawal unlock transaction,Penarikan membuka kunci air yang mengalir,Il ritiro sblocca l'acqua rotolante,La retirada desbloquea el agua rodante
+赠送金币,แจกเหรียญทอง,Give gold coins,Berikan koin emas,Regala monete d'oro,Regala monedas de oro
+锁定金币,ล็อคเหรียญทอง,Locking coins,Kunci koin emas,Blocca le monete d'oro,Bloquear monedas de oro
+提现限制流水,มูลค่าการซื้อขายจำกัดการถอน,Withdrawal limit flow,Batas penarikan turnover,Turnover limite di prelievo,Rotación de límite de retiro
+当前总金币,เหรียญทองทั้งหมดในปัจจุบัน,Current total gold coins,Total koin emas saat ini,Totale attuale delle monete d'oro,Monedas de oro totales actuales
+三个类型输入+值代表加相应值，-值代表减相应值，输入值为加减值，并非最终值！,ในทั้งสามประเภท ค่า + แสดงถึงการเพิ่มค่าที่สอดคล้องกัน และค่า - แสดงถึงการลบค่าที่สอดคล้องกัน ค่าที่ป้อนคือค่าบวกหรือการลบ ไม่ใช่ค่าสุดท้าย!,"The three types of input + value represent adding the corresponding value, and - value represent subtracting the corresponding value. The input value is the addition or subtraction value, not the final value!","Dalam ketiga jenis tersebut, nilai + mewakili penambahan nilai yang sesuai, dan - nilai mewakili pengurangan nilai yang sesuai.","Nei tre tipi, il valore + rappresenta l'aggiunta del valore corrispondente e il valore - rappresenta la sottrazione del valore corrispondente. Il valore immesso è il valore di addizione o sottrazione, non il valore finale!","En los tres tipos, el valor + representa la suma del valor correspondiente y el valor - representa la resta del valor correspondiente. El valor de entrada es el valor de suma o resta, no el valor final."
+重置账户信息,รีเซ็ตข้อมูลบัญชี,Reset account info,Setel ulang informasi akun,Reimposta le informazioni dell'account,Restablecer información de la cuenta
+重置类别,รีเซ็ตหมวดหมู่,Reset category,Kategori ulang,Reimpostare la categoria,Restablecer categoría
+重置银行卡信息,รีเซ็ตข้อมูลบัตรธนาคาร,Reset bank card info,Setel ulang informasi kartu bank,Reimposta i dati della carta bancaria,Restablecer información de la tarjeta bancaria
+重置登陆密码,รีเซ็ตรหัสผ่านเข้าสู่ระบบ,Reset login password,Setel ulang kata sandi masuk,Reimposta la password di accesso,Restablecer contraseña de inicio de sesión
+重置Truemoney信息,รีเซ็ตข้อมูลทรูมันนี่,Reset truemoney info,Setel ulang informasi truemoney,Reimposta le informazioni di truemoney,Restablecer la información de truemoney
+重置手机号,รีเซ็ตหมายเลขโทรศัพท์มือถือ,Reset phone number,Setel ulang nomor ponsel,Reimposta il numero di cellulare,Restablecer número de móvil
+手机号修改,ปรับเปลี่ยนหมายเลขโทรศัพท์มือถือ,Phone number modification,Ubah nomor ponsel,Modifica numero di cellulare,Modificar número de teléfono móvil
+用户成长值修改,การปรับเปลี่ยนมูลค่าการเติบโตของผู้ใช้,User growth value modification,Modifikasi nilai pertumbuhan pengguna,Modifica del valore di crescita degli utenti,Modificación del valor de crecimiento del usuario.
+输入+值代表加相应成长值，-值代表减相应成长值！,การป้อนค่า + หมายถึงการเพิ่มมูลค่าการเติบโตที่สอดคล้องกัน และค่า - หมายถึงการลบมูลค่าการเติบโตที่สอดคล้องกัน!,"Entering a + value means adding the corresponding growth value, and a - value means subtracting the corresponding growth value!","Memasukkan nilai + berarti menambahkan nilai pertumbuhan yang sesuai, dan - nilai berarti mengurangi nilai pertumbuhan yang sesuai!","Inserire un valore + significa aggiungere il valore di crescita corrispondente, e un valore - significa sottrarre il valore di crescita corrispondente!",Ingresar un valor + significa sumar el valor de crecimiento correspondiente y un valor - significa restar el valor de crecimiento correspondiente.
+转转乐积分修改,การปรับเปลี่ยนจุด Zhuanzhuanle,Changes to zhuanzhuanle points,Modifikasi poin zhuanzhuanle,Modifica dei punti zhuanzhuanle,Modificación de puntos zhuanzhuanle
+积分,บูรณาการ,Integral,Integral,Integrante,Integral
+输入+值代表加相应积分，-值代表减相应积分！,การป้อนค่า + หมายถึงการเพิ่มคะแนนที่สอดคล้องกัน และค่า - หมายถึงการลบคะแนนที่สอดคล้องกัน!,"Entering a + value means adding the corresponding points, and a - value means subtracting the corresponding points!","Memasukkan nilai + berarti menambahkan poin yang bersesuaian, dan - nilai berarti mengurangi poin yang bersesuaian!","Inserire un valore + significa aggiungere i punti corrispondenti, e un valore - significa sottrarre i punti corrispondenti!",Ingresar un valor + significa sumar los puntos correspondientes y un valor - significa restar los puntos correspondientes.
+转转乐次数修改,การแก้ไขจำนวนครั้งของจวนจวนเล่อ,Modify the number of spins,Modifikasi jumlah kali zhuanzhuanle,Modifica del numero di volte zhuanzhuanle,Modificación del número de tiempos de zhuanzhuanle.
+次数,ความถี่,Frequency,Frekuensi,Frequenza,Frecuencia
+原因,เหตุผล,Reason,Alasan,Motivo,Razón
+绑定上级关系,ผูกสัมพันธ์ที่เหนือกว่า,Binding parent relationship,Mengikat hubungan superior,Legare una relazione superiore,Vincular relación superior
+上级ID,ซูพีเรียไอดี,Parent id,Id unggul,Identificazione superiore,Identificación superior
+搜索日期,ค้นหาวันที่,Search date,Tanggal pencarian,Data di ricerca,Fecha de búsqueda
+用户ID,รหัสผู้ใช้,User id,Id pengguna,Id utente,Id de usuario
+操作人,ตัวดำเนินการ,Operator,Operator,Operatore,Operador
+行为,พฤติกรรม,Behavior,Perilaku,Comportamento,Comportamiento
+类型,พิมพ์,Type,Jenis,Tipo,Tipo
+金币变化,การเปลี่ยนแปลงเหรียญทอง,Gold coin changes,Perubahan koin emas,Cambiamenti delle monete d'oro,Cambios de monedas de oro.
+银行变化,การเปลี่ยนแปลงของธนาคาร,Bank changes,Perubahan bank,Cambiamenti bancari,Cambios de banco
+流水变化,การเปลี่ยนแปลงการไหล,Water flow changes,Perubahan aliran,Cambiamenti di flusso,Cambios de flujo
+锁水变化,การเปลี่ยนแปลงล็อคน้ำ,Water lock changes,Perubahan kunci air,Modifiche alla chiusa idrica,Cambios de esclusas de agua
+锁金变化,ล็อคทองเปลี่ยนแปลง,Lock gold changes,Kunci perubahan emas,Blocca le modifiche all'oro,Bloquear cambios de oro
+流水/锁水/锁金,ชำระบัญชี/ล็อคน้ำ/ล็อคทอง,Flow/lock water/lock gold,Likuidasi/kunci air/kunci emas,Liquidazione/blocco dell'acqua/blocco dell'oro,Liquidación/esclusa de agua/esclusa de oro
+未知,ไม่ทราบ,Unknown,Tidak dikenal,Sconosciuto,Desconocido
+游戏,เกม,Game,Permainan,Gioco,Juego
+保险箱,ปลอดภัย,Safe,Aman,Sicuro,Seguro
+充值,เติมเงิน,Top up,Isi ulang,Ricaricare,Completar
+提现,ถอนเงินสด,Withdrawal,Tarik uang tunai,Prelevare contanti,Retirar efectivo
+后台,หลังเวที,Backstage,Di belakang panggung,Dietro le quinte,Entre bastidores
+退回金币,กลับเหรียญทอง,Return coins,Kembalikan koin emas,Restituisci le monete d'oro,Devolver monedas de oro
+绑定手机,ผูกโทรศัพท์มือถือ,Bind mobile phone,Ikat ponsel,Legare il cellulare,Vincular teléfono móvil
+生日奖励,รางวัลวันเกิด,Birthday rewards,Hadiah ulang tahun,Premio di compleanno,Recompensa de cumpleaños
+节日奖励,รางวัลวันหยุด,Holiday rewards,Hadiah liburan,Premi per le vacanze,Recompensas navideñas
+开心转转乐,มีความสุข,Happy spin,Selamat bersenang-senang,Divertiti,Divertirse
+输钱返还,คืนเงินหลังจากสูญเสียเงิน,Loss refund,Mengembalikan uang setelah kehilangan uang,Restituire i soldi dopo aver perso soldi,Devolver dinero después de perder dinero
+下注返还,เดิมพันกลับ,Bet return,Bertaruh kembali,Scommetti di nuovo,Apuesta de nuevo
+彩票,ลอตเตอรี,Lottery,Lotere,Lotteria,Lotería
+vip宝箱,หีบสมบัติวีไอพี,Vip treasure box,Peti harta karun vip,Scrigno del tesoro vip,Cofre del tesoro vip
+绑定推广金,ผูกเงินโปรโมชั่น,Binding promotion funds,Ikat uang promosi,Vincolare i soldi della promozione,Vincular dinero de promoción
+充值推广金,เติมเงินกองทุนส่งเสริมการขาย,Recharge promotion funds,Isi ulang dana promosi,Ricarica i fondi promozionali,Recargar fondos promocionales
+商城兑换,การแลกเปลี่ยนห้างสรรพสินค้า,Mall exchange,Pertukaran mal,Scambio di centri commerciali,Intercambio de centro comercial
+平台,แพลตฟอร์ม,Platform,Platform,Piattaforma,Plataforma
+平台名,ชื่อแพลตฟอร์ม,Platform name,Nama platform,Nome della piattaforma,Nombre de la plataforma
+游戏类型,ประเภทเกม,Game type,Jenis permainan,Tipo di gioco,Tipo de juego
+游戏ID,ไอดีเกม,Game ID,ID Permainan,ID del gioco,ID del juego
+游戏局号,หมายเลขเกม,Game number,Nomor permainan,Numero di gioco,Numero de juego
+消耗,บริโภค,Consumption,Mengkonsumsi,Consumare,Consumir
+产出,เอาท์พุท,Output,Keluaran,Produzione,Producción
+有效下注额,จำนวนเงินเดิมพันที่มีผล,Effective bet amount,Jumlah taruhan efektif,Importo effettivo della scommessa,Monto efectivo de la apuesta
+下注时间,เวลาเดิมพัน,Betting time,Waktu taruhan,Tempo di scommesse,Hora de apostar
+结算时间,เวลาชำระบัญชี,Settlement time,Waktu penyelesaian,Tempo di liquidazione,Tiempo de liquidación
+变更类型,เปลี่ยนประเภท,Change type,Ubah jenis,Cambia tipo,Tipo de cambio
+变更模式,เปลี่ยนโหมด,Change mode,Mengubah modus,Cambiare modalità,Cambiar modo
+收入,รายได้,Income,Penghasilan,Reddito,Ingreso
+支出,ค่าใช้จ่าย,Expenditure,Pengeluaran,Spesa,Gasto
+等级变更,การเปลี่ยนแปลงระดับ,Level change,Perubahan tingkat,Cambio di livello,Cambio de nivel
+变更后等级,ระดับหลังการเปลี่ยนแปลง,Level after change,Tingkat demi perubahan,Livello dopo la modifica,Nivel después del cambio
+成长值变化,การเปลี่ยนแปลงมูลค่าการเติบโต,Growth value changes,Nilai pertumbuhan berubah,Cambiamenti nel valore della crescita,Cambios en el valor del crecimiento.
+成长值变更,การเปลี่ยนแปลงมูลค่าการเติบโต,Growth value changes,Nilai pertumbuhan berubah,Cambiamenti nel valore della crescita,Cambios en el valor del crecimiento.
+后台增加,เพิ่มแบ็กเอนด์แล้ว,Background increase,Bagian belakang ditambahkan,Backend aggiunto,Backend agregado
+后台扣除,การหักแบ็กเอนด์,Background deduction,Pengurangan backend,Detrazione back-end,Deducción de backend
+每周扣除,การหักเงินรายสัปดาห์,Weekly deductions,Pemotongan mingguan,Detrazione settimanale,Deducción semanal
+玩家数量,จำนวนผู้เล่น,Number of players,Jumlah pemain,Numero di giocatori,Número de jugadores
+活跃数量,ปริมาณที่ใช้งานอยู่,Active quantity,Kuantitas aktif,Quantità attiva,Cantidad activa
+领取宝箱数量,จำนวนหีบสมบัติที่ได้รับ,Receive treasure chest quantity,Jumlah peti harta karun yang diterima,Numero di scrigni del tesoro ricevuti,Número de cofres del tesoro recibidos
+领取宝箱金额,รับจำนวนหีบสมบัติ,Receive treasure chest amount,Terima jumlah peti harta karun,Ricevi l'importo del forziere del tesoro,Recibe la cantidad del cofre del tesoro
+充值金额,จำนวนการเติมเงิน,Recharge amount,Jumlah isi ulang,Importo della ricarica,Monto de recarga
+提现金额,ถอนจำนวนเงิน,Withdrawal amount,Jumlah penarikan,Prelevare l'importo,Retirar cantidad
+统计日期,วันที่สถิติ,Statistical date,Tanggal statistik,Data statistica,Fecha de las estadísticas
+等级,ระดับ,Grade,Nilai,Grado,Calificación
+电话号码,หมายเลขโทรศัพท์,Telephone number,Nomor telepon,Numero di telefono,Número telefónico
+总充值,เติมเงินทั้งหมด,Total recharge,Isi ulang total,Ricarica totale,Recarga total
+总提现,การถอนเงินทั้งหมด,Total withdrawals,Jumlah penarikan,Prelievi totali,Retiros totales
+总充提差,รวมการฝากและถอนเงิน,Total deposit and withdrawal difference,Total setoran dan penarikan,Deposito e prelievo totale,Depósito y retiro total
+玩家盈利金币,ผู้เล่นได้กำไรเหรียญทอง,Player profit coins,Koin emas keuntungan pemain,Monete d'oro del profitto del giocatore,Monedas de oro del beneficio del jugador
+带出时间,ดึงเวลาออกมา,Bring out time,Mengeluarkan waktu,Far emergere il tempo,Saca el tiempo
+当日时间,เวลาของวัน,Time of day,Waktu hari,Ora del giorno,Hora del día
+输钱,เสียเงิน,Losing money,Kehilangan uang,Perdere soldi,Perder dinero
+保险箱金币,เหรียญทองที่ปลอดภัย,Safe coins,Koin emas yang aman,Monete d'oro sicure,Monedas de oro seguras
+总金币,เหรียญทองทั้งหมด,Total gold,Jumlah koin emas,Totale delle monete d'oro,Monedas de oro totales
+登录时间,เวลาเข้าสู่ระบบ,Login time,Waktu masuk,Orario di accesso,Hora de inicio de sesión
+总库存金币,เหรียญทองสินค้าคงคลังทั้งหมด,Total gold coins in stock,Total inventaris koin emas,Totale monete d'oro dell'inventario,Inventario total de monedas de oro.
+手动添加金币,เพิ่มเหรียญด้วยตนเอง,Manually add coins,Tambahkan koin secara manual,Aggiungi monete manualmente,Agregar monedas manualmente
+手动扣除金币,หักเหรียญทองด้วยตนเอง,Manually deduct coins,Kurangi koin emas secara manual,Deduci manualmente le monete d'oro,Deducir manualmente monedas de oro
+绑定手机次数,ผูกเวลาโทรศัพท์มือถือ,Number of mobile phone bindings,Ikat waktu ponsel,Vincola gli orari del cellulare,Vincular los tiempos del teléfono móvil
+绑定手机奖励,ผูกรางวัลโทรศัพท์มือถือ,Mobile phone binding reward,Ikat hadiah ponsel,Vincolare i premi del telefono cellulare,Vincular recompensas de teléfonos móviles
+每日投注返还,ผลตอบแทนการเดิมพันรายวัน,Daily betting returns,Pengembalian taruhan harian,Rendimenti giornalieri delle scommesse,Retornos diarios de apuestas
+彩票奖励,รางวัลลอตเตอรี,Lottery rewards,Hadiah lotere,Premi della lotteria,Recompensas de lotería
+推广奖励(绑定手机),รางวัลส่งเสริมการขาย (ผูกกับมือถือ),Promotion rewards (bound to mobile phone),Hadiah promosi (diikat ke ponsel),Premi promozionali (vincolati al cellulare),Recompensas promocionales (vinculadas al teléfono móvil)
+推广奖励(充值奖励),รางวัลส่งเสริมการขาย (รางวัลเติมเงิน),Promotion rewards (recharge rewards),Hadiah promosi (hadiah isi ulang),Premi promozionali (premi di ricarica),Recompensas promocionales (recompensas de recarga)
+VIP宝箱奖励,รางวัลหีบสมบัติวีไอพี,Vip treasure box rewards,Hadiah peti harta karun vip,Ricompense del forziere del tesoro vip,Recompensas del cofre del tesoro vip
+转转乐奖励,รางวัลจวนจวนเล่อ,Rewards,Hadiah zhuanzhuanle,Premi zhuanzhuanle,Recompensas de zhuanzhuanle
+输钱返金,ส่วนลดสำหรับการสูญเสียเงิน,Loss rebate,Rabat karena kehilangan uang,Sconto per perdita di denaro,Reembolso por perder dinero
+生日奖金,โบนัสวันเกิด,Birthday bonus,Bonus ulang tahun,Bonus di compleanno,Bono de cumpleaños
+节日奖金,โบนัสวันหยุด,Holiday bonus,Bonus liburan,Bonus vacanze,Bono de vacaciones
+游戏总流水,มูลค่าการซื้อขายเกมทั้งหมด,Total game turnover,Total turnover permainan,Turnover totale del gioco,Volumen de juego total
+充值到账金币,เติมเงินเหรียญทอง,Recharge gold coins,Isi ulang koin emas,Ricarica le monete d'oro,Recarga monedas de oro
+系统承担充值服务费,ระบบจะคิดค่าบริการเติมเงิน,The system bears the recharge service fee,Sistem menanggung biaya layanan isi ulang,Il sistema sostiene il costo del servizio di ricarica,El sistema corre con la tarifa del servicio de recarga.
+充值人数,จำนวนคนที่กำลังชาร์จ,Number of people who deposited,Jumlah orang yang mengisi ulang,Numero di persone in ricarica,Número de personas recargando
+充值次数,จำนวนการชาร์จ,Recharge times,Jumlah pengisian ulang,Numero di ricariche,Número de recargas
+付费率,อัตราจ่าย,Payment rate,Tingkat pembayaran,Tasso di paga,Tasa de pago
+首充总金额,ยอดฝากครั้งแรกทั้งหมด,Total amount of first deposit,Total jumlah setoran pertama,Importo totale del primo deposito,Monto total del primer depósito
+首充平均付费,การชำระเงินมัดจำครั้งแรกโดยเฉลี่ย,Average first charge payment,Rata-rata pembayaran setoran pertama,Pagamento medio del primo deposito,Pago promedio del primer depósito
+首充人数,จำนวนผู้ที่ทำการฝากเงินครั้งแรก,Number of first deposits,Jumlah orang yang melakukan deposit pertama,Numero di persone che effettuano il primo deposito,Número de personas que realizan el primer depósito
+有上级的首充人数,จำนวนผู้ฝากเงินครั้งแรกกับผู้บังคับบัญชา,Number of first-time rechargers with superiors,Jumlah deposan pertama kali dengan atasan,Numero di depositanti per la prima volta presso superiori,Número de depositantes por primera vez con superiores
+提现通过金额,จำนวนเงินที่ส่งสำหรับการถอน,Withdrawal amount,Jumlah yang lolos untuk penarikan,Importo passato per il ritiro,Monto pasado para retiro
+提现到账金额,จำนวนเงินที่ถอน,Withdrawal amount,Jumlah penarikan,Importo del prelievo,Monto del retiro
+今日新增,ใหม่วันนี้,New today,Baru hari ini,Nuovo oggi,Nuevo hoy
+新增未绑定上级,เพิ่มความเหนือกว่าแบบไม่มีขีดจำกัด,Added unbound superior,Tambahkan atasan tidak terikat,Aggiungi superiore non legato,Añadir superior independiente
+新增绑定上级,เพิ่มการผูกใหม่ที่เหนือกว่า,Add binding parent,Tambahkan atasan pengikat baru,Aggiungi una nuova rilegatura superiore,Agregar nueva encuadernación superior
+IOS新增,ใหม่สำหรับไอโอเอส,Ios new,Baru untuk ios,Novità per ios,Nuevo para ios
+Android新增,Androidใหม่,Android new,Androidbaru,Androidnovità,Androidnuevo
+今日活跃,ใช้งานอยู่วันนี้,Active today,Aktif hari ini,Attivo oggi,Activo hoy
+次日存留,บันทึกในวันถัดไป,Next day storage,Simpan keesokan harinya,Salva il giorno successivo,Guardar al día siguiente
+{day}日存留,การรักษาไว้ {day} วัน,{day} day retention,Retensi {hari} hari,{day} giorni di conservazione,{día} día de retención
+付费次留,จ่ายเงินเพื่อเข้าพัก,Paid stay,Bayar untuk menginap,Paga per restare,Pagar para quedarse
+付费{day}留,ชำระเงิน {day} เพื่อเข้าพัก,Paid {day} stay,Bayar {day} untuk menginap,Paga {giorno} per restare,Paga {día} para quedarte
+最高在线,ออนไลน์ยอดนิยม,Top online,Teratas daring,In alto in linea,Arriba en línea
+单日,วันเดียว,Single day,Satu hari,Singolo giorno,Solo dia
+活跃,คล่องแคล่ว,Active,Aktif,Attivo,Activo
+登录人次,จำนวนการเข้าสู่ระบบ,Number of logins,Jumlah login,Numero di accessi,Número de inicios de sesión
+盈利人数,จำนวนคนที่ทำกำไรได้,Profitable number,Jumlah orang yang menguntungkan,Numero redditizio di persone,Número rentable de personas.
+总带入,นำมาเสมอ,Total,Selalu bawa masuk,Portare sempre dentro,Siempre trae
+总带出,ให้นำออกมาเสมอ,Total take out,Selalu bawa keluar,Tirare sempre fuori,Siempre saca a relucir
+总消耗,การบริโภคทั้งหมด,Total consumption,Total konsumsi,Consumo totale,Consumo total
+平均消耗,การบริโภคเฉลี่ย,Average consumption,Konsumsi rata-rata,Consumo medio,Consumo medio
+盈利率,อัตรากำไร,Profitability,Tingkat keuntungan,Tasso di profitto,Tasa de beneficio
+平台收益,รายได้จากแพลตฟอร์ม,Platform revenue,Pendapatan platform,Redditi della piattaforma,Ingresos de la plataforma
+平台综合数据,ข้อมูลที่ครอบคลุมของแพลตฟอร์ม,Platform comprehensive data,Data komprehensif platform,Dati completi della piattaforma,Datos completos de la plataforma
+订单号,หมายเลขคำสั่งซื้อ,Order number,Nomor pesanan,Numero dell'ordine,Número de orden
+渠道,ช่อง,Channel,Saluran,Canale,Canal
+第三方订单号,หมายเลขคำสั่งซื้อของบุคคลที่สาม,Third-party order number,Nomor pesanan pihak ketiga,Numero d'ordine di terze parti,Número de pedido de terceros
+上分金额,จำนวนโบนัส,Amount of points,Jumlah bonus,Importo del bonus,Monto del bono
+充值渠道,ช่องเติมเงิน,Recharge channels,Isi ulang saluran,Ricaricare i canali,Canales de recarga
+申请时间,เวลาสมัคร,Application period,Waktu aplikasi,Tempo di applicazione,Tiempo de aplicación
+更新时间,เวลาอัปเดต,Update time,Perbarui waktu,Ora dell'aggiornamento,Hora de actualización
+是否确定此条数据补单?,คุณแน่ใจหรือไม่ว่าต้องการกรอกข้อมูลนี้?,Are you sure you want to make up this data?,Apakah anda yakin ingin mengisi data ini?,Sei sicuro di voler inserire questi dati?,¿estás seguro de que quieres rellenar estos datos?
+补单,กรอกคำสั่งซื้อ,Make up the order,Isi pesanan,Compila l'ordine,Llenar orden
+付款信息,ข้อมูลการชำระเงิน,Payment info,Informasi pembayaran,Informazioni sul pagamento,Información de pago
+银行代码,รหัสธนาคาร,Bank code,Kode perbankan,Codice bancario,Código bancario
+付款人,ผู้ชำระเงิน,Payer,Pembayar,Pagatore,Pagador
+付款账号,บัญชีการชำระเงิน,Payment account,Akun pembayaran,Conto di pagamento,Cuenta de pago
+收款信息,ข้อมูลการชำระเงิน,Payment info,Informasi pembayaran,Informazioni sul pagamento,Información de pago
+收款人,ผู้รับเงิน,Payee,Penerima pembayaran,Beneficiario,Tenedor
+收款账号,หมายเลขบัญชีการชำระเงิน,Receiving account,Nomor rekening pembayaran,Numero del conto di pagamento,Número de cuenta de pago
+充提详情,รายละเอียดการฝากและถอนเงิน,Deposit and withdrawal details,Detail setoran dan penarikan,Dettagli di deposito e prelievo,Detalles de depósito y retiro
+关闭,ปิด,Closure,Penutup,Chiusura,Cierre
+收款信息备注,หมายเหตุเกี่ยวกับข้อมูลการชำระเงิน,Payment info notes,Keterangan tentang informasi pembayaran,Osservazioni sulle informazioni di pagamento,Observaciones sobre la información de pago.
+收款银行,ธนาคารผู้รับผลประโยชน์,Receiving bank,Bank penerima,Banca beneficiaria,Banco beneficiario
+收款金额,จำนวนเงินที่ชำระ,Amount of payment,Jumlah pembayaran,Importo del pagamento,Monto del pago
+流水号,หมายเลขซีเรียล,Serial number,Nomor seri,Numero di serie,Número de serie
+请选择收款银行,กรุณาเลือกธนาคารผู้รับผลประโยชน์,Select the receiving bank,Silakan pilih bank penerima,Seleziona la banca beneficiaria,Por favor seleccione el banco beneficiario
+请选择收款渠道,กรุณาเลือกช่องทางการชำระเงิน,Select payment channel,Silakan pilih saluran pembayaran,Seleziona un canale di pagamento,Por favor seleccione un canal de pago
+收款渠道,ช่องทางการสะสม,Payment channels,Saluran koleksi,Canali di raccolta,Canales de cobranza
+请输入收款金额,กรุณากรอกจำนวนเงินที่ชำระ,Enter the amount to be paid,Silakan masukkan jumlah pembayaran,Inserisci l'importo del pagamento,Por favor ingrese el monto del pago
+请输入流水号,กรุณากรอกหมายเลขซีเรียล,Enter the serial number,Silakan masukkan nomor seri,Inserisci il numero di serie,Por favor ingrese el número de serie
+请选择日期,โปรดเลือกวันที่,Select date,Silakan pilih tanggal,Seleziona una data,Por favor seleccione una fecha
+添加,เพิ่ม,Add,Tambahkan,Aggiungere,Agregar
+删除,ลบ,Delete,Menghapus,Eliminare,Borrar
+查询并填写,สอบถามและกรอกข้อมูล,Query and fill in,Tanyakan dan isi,Richiedi e compila,Consulta y completa
+等待,รอ,Wait,Tunggu,Aspettare,Esperar
+成功,ความสำเร็จ,Success,Kesuksesan,Successo,Éxito
+失败,ล้มเหลว,Fail,Gagal,Fallire,Fallar
+操作成功,การดำเนินงานประสบความสำเร็จ,Operation successful,Operasi berhasil,Operazione riuscita,Operación exitosa
+提交金额,แจ้งยอดเงิน,Submit amount,Kirimkan jumlah,Invia importo,Enviar cantidad
+手续费,ค่าธรรมเนียมการจัดการ,Handling fees,Biaya penanganan,Commissione di gestione,Tarifa de manejo
+付款金额,จำนวนเงินที่ชำระ,Payment amount,Jumlah pembayaran,Importo del pagamento,Monto del pago
+提现渠道,ช่องทางการถอนเงิน,Withdrawal channels,Saluran penarikan,Canali di prelievo,Canales de retiro
+是否首次提现,เป็นการถอนเงินครั้งแรกหรือไม่?,Is this the first time to withdraw cash?,Apakah ini pertama kalinya menarik uang?,È la prima volta che prelevi denaro?,¿es la primera vez que retira dinero?
+是,ใช่,Yes,Ya,Sì,Sí
+否,เลขที่,No,Tidak,No,No
+今日剩余额度,ยอดคงเหลือของวันนี้,Today's remaining balance,Sisa saldo hari ini,Saldo residuo di oggi,Saldo restante de hoy
+审核状态,ตรวจสอบสถานะ,Review status,Status tinjauan,Controlla lo stato,Estado de revisión
+是否通过此条审核?,คุณผ่านการตรวจสอบนี้หรือไม่?,Did you pass this review?,Apakah anda lulus ulasan ini?,Hai superato questa revisione?,¿pasaste esta revisión?
+通过,ผ่าน,Pass,Lulus,Passaggio,Aprobar
+拒绝,ปฏิเสธ,Reject,Menolak,Rifiutare,Rechazar
+审核,ทบทวน,Audit,Tinjauan,Revisione,Revisar
+用户收款信息,ข้อมูลการชำระเงินของผู้ใช้,User payment info,Informasi pembayaran pengguna,Informazioni sul pagamento dell'utente,Información de pago del usuario
+请填写原因,กรุณากรอกเหตุผล,Enter the reason,Silakan isi alasannya,Si prega di compilare il motivo,Por favor complete el motivo
+支付状态,สถานะการชำระเงิน,Payment status,Status pembayaran,Stato del pagamento,Estado de pago
+此条数据是否退回金币?,ข้อมูลชิ้นนี้จะส่งคืนเหรียญทองหรือไม่,Will gold coins be returned for this data?,Akankah data ini mengembalikan koin emas?,Questo dato restituirà monete d'oro?,¿este dato devolverá monedas de oro?
+退回,กลับ,Return,Kembali,Ritorno,Devolver
+处理,จัดการกับ,Deal with,Menghadapi,Affrontare,Tratar con
+申请总额,จำนวนใบสมัครทั้งหมด,Total amount of application,Jumlah total aplikasi,Importo totale della domanda,Monto total de la solicitud
+到帐总额,จำนวนเงินทั้งหมดที่ได้รับ,Total amount received,Jumlah total yang diterima,Importo totale ricevuto,Monto total recibido
+未支付金额,จำนวนเงินที่ยังไม่ได้ชำระ,Unpaid amount,Jumlah yang belum dibayar,Importo non pagato,Monto impago
+金额,จำนวน,Amount,Jumlah,Quantità,Cantidad
+提现次数,จำนวนการถอนเงิน,Number of withdrawals,Jumlah penarikan,Numero di prelievi,Número de retiros
+VIP自动充值,เติมเงินอัตโนมัติวีไอพี,Vip automatic recharge,Isi ulang otomatis vip,Ricarica automatica vip,Recarga automática vip
+truemoney自动充值,ทรูมันนี่เติมเงินอัตโนมัติ,Truemoney automatic recharge,Isi ulang otomatis truemoney,Ricarica automatica truemoney,Recarga automática truemoney
+充值渠道名称,ชื่อช่องเติมเงิน,Recharge channel name,Isi ulang nama saluran,Ricarica il nome del canale,Nombre del canal de recarga
+是否开启,ไม่ว่าจะเปิด,Is it enabled?,Apakah akan menyala,Se accendere,Ya sea para encender
+最小充值金额,จำนวนการเติมเงินขั้นต่ำ,Minimum recharge amount,Jumlah isi ulang minimum,Importo minimo di ricarica,Cantidad mínima de recarga
+最大充值金额,จำนวนการเติมเงินสูงสุด,Maximum recharge amount,Jumlah isi ulang maksimum,Importo massimo di ricarica,Cantidad máxima de recarga
+位置,ที่ตั้ง,Location,Lokasi,Posizione,Ubicación
+充值快捷金额组,กลุ่มจำนวนเงินเติมเงินด่วน,Quick recharge amount group,Grup jumlah isi ulang cepat,Gruppo importo ricarica rapida,Grupo de importe de recarga rápida
+修改,ปรับปรุงใหม่,Revise,Merevisi,Rivedere,Revisar
+渠道名称,ชื่อช่อง,Channel name,Nama saluran,Nome del canale,Nombre del canal
+提现渠道名称,ชื่อช่องทางการถอนเงิน,Withdrawal channel name,Nama saluran penarikan,Nome del canale di prelievo,Nombre del canal de retiro
+最小提现金额,จำนวนถอนขั้นต่ำ,Minimum withdrawal amount,Jumlah penarikan minimum,Importo minimo di prelievo,Monto mínimo de retiro
+最大提现金额,จำนวนเงินถอนสูงสุด,Maximum withdrawal amount,Jumlah penarikan maksimum,Importo massimo di prelievo,Monto máximo de retiro
+平台流水号,หมายเลขซีเรียลของแพลตฟอร์ม,Platform serial number,Nomor seri platform,Numero di serie della piattaforma,Número de serie de la plataforma
+打款银行,ธนาคารแห่งการชำระเงิน,Remittance bank,Bank pembayaran,Banca di pagamento,Banco de pago
+收到流水订单时间,เวลาที่ได้รับคำสั่งดำเนินการ,Time to receive the order,Waktu penerimaan pesanan berjalan,Orario di ricezione degli ordini in corso,Hora de recepción de órdenes en ejecución.
+玩家付款时间,เวลาชำระเงินของผู้เล่น,Player payment time,Waktu pembayaran pemain,Tempo di pagamento del giocatore,Tiempo de pago del jugador
+成功匹配时间,เวลาจับคู่สำเร็จ,Successful matching time,Waktu pencocokan yang berhasil,Tempo di abbinamento riuscito,Tiempo de coincidencia exitoso
+超时,หมดเวลา,Time out,Waktu habis,Tempo scaduto,Se acabó el tiempo
+重复,ทำซ้ำ,Repeat,Mengulang,Ripetere,Repetir
+姓名,ชื่อ,Name,Nama,Nome,Nombre
+卡号,หมายเลขบัตร,Card number,Nomor kartu,Numero della carta,Número de tarjeta
+银行短信号码,หมายเลข SMS ของธนาคาร,Bank sms number,Nomor sms bank,Numero sms della banca,Número de sms del banco
+玩家ID尾号,รหัสผู้เล่นหมายเลขสุดท้าย,Player id suffix,Id pemain nomor terakhir,Ultimo numero dell'id giocatore,Id del jugador último número
+是否确定删除此项数据?,คุณแน่ใจหรือไม่ว่าต้องการลบข้อมูลนี้,Are you sure you want to delete this data?,Apakah anda yakin ingin menghapus data ini?,Sei sicuro di voler eliminare questi dati?,¿estás seguro de que deseas eliminar estos datos?
+请选择银行,กรุณาเลือกธนาคาร,Select a bank,Silakan pilih bank,Seleziona una banca,Por favor seleccione un banco
+请填写姓名,กรุณากรอกชื่อของคุณ,Fill in your name,Silakan isi nama anda,Per favore inserisci il tuo nome,Por favor escribe tu nombre
+请填写卡号,กรุณากรอกหมายเลขบัตร,Fill in the card number,Silakan isi nomor kartu,Si prega di inserire il numero della carta,Por favor complete el número de tarjeta
+请填写银行短信号码,กรุณากรอกหมายเลข SMS ของธนาคาร,Fill in the bank sms number,Silakan isi nomor sms bank,Si prega di inserire il numero sms della banca,Por favor complete el número de sms del banco
+玩家真实姓名,ชื่อจริงของผู้เล่น,Player's real name,Nama asli pemain,Il vero nome del giocatore,Nombre real del jugador.
+重置类型,ประเภทการรีเซ็ต,Reset type,Tipe ulang,Tipo di ripristino,Tipo de reinicio
+退还金额,จำนวนเงินคืน,Refund amount,Jumlah pengembalian dana,Importo del rimborso,Monto del reembolso
+创建时间,เวลาสร้าง,Creation time,Waktu penciptaan,Tempo di creazione,Tiempo de creación
+退还时间,เวลากลับ,Refund time,Waktu kembali,Orario di ritorno,Hora de regreso
+每日次数,ครั้งต่อวัน,Daily frequency,Kali per hari,Volte al giorno,Veces por dia
+VIP次数,เวลาวีไอพี,Vip times,Waktu vip,Tempi vip,Horarios vip
+积分变化,คะแนนเปลี่ยนไป,Points change,Poin berubah,I punti cambiano,Cambio de puntos
+玩家积分,คะแนนผู้เล่น,Player points,Poin pemain,Punti del giocatore,Puntos de jugador
+奖金数量,จำนวนโบนัส,Number of bonuses,Jumlah bonus,Importo del bonus,Monto del bono
+抽奖比例,อัตราส่วนลอตเตอรี,Lottery ratio,Rasio lotere,Rapporto della lotteria,Proporción de lotería
+累计返还,ผลตอบแทนสะสม,Cumulative refund,Pengembalian kumulatif,Rendimento cumulativo,Rentabilidad acumulada
+输钱金额,จำนวนเงินที่สูญเสีย,Amount of loss,Jumlah yang hilang,Importo perdente,Cantidad perdida
+返还金币,กลับเหรียญทอง,Return coins,Kembalikan koin emas,Restituisci le monete d'oro,Devolver monedas de oro
+是否确定对以下数据进行全部发放？,คุณแน่ใจหรือว่าจะเผยแพร่ข้อมูลต่อไปนี้ทั้งหมด,Are you sure you want to release all the following data?,Apakah anda yakin akan merilis semua data berikut?,Sei sicuro di rilasciare tutti i seguenti dati?,¿está seguro de publicar todos los datos siguientes?
+发放全部,ออกให้หมด,Issue all,Keluarkan semua,Emetti tutto,Emitir todo
+周结束时间,เวลาสิ้นสุดสัปดาห์,Week end time,Waktu akhir minggu,Orario di fine settimana,Hora de fin de semana
+领取状态,สถานะการรวบรวม,Collection status,Status koleksi,Stato della raccolta,Estado de la colección
+已领取,ได้รับ,Received,Diterima,Ricevuto,Recibió
+未领取,ไม่รวบรวม,Not received,Tidak dikumpulkan,Non raccolto,No recogido
+返还比例,อัตราส่วนผลตอบแทน,Refund ratio,Rasio pengembalian,Rapporto di rendimento,Relación de retorno
+是否确定此项数据进行发放?,คุณแน่ใจที่จะเปิดเผยข้อมูลนี้หรือไม่?,Are you sure you want to release this data?,Apakah anda yakin akan merilis data ini?,Sei sicuro di rilasciare questi dati?,¿estás seguro de publicar estos datos?
+发放,ปัญหา,Issue,Masalah,Problema,Asunto
+累计充值,การเติมเงินสะสม,Accumulated recharge,Akumulasi isi ulang,Ricarica accumulata,Recarga acumulada
+累计奖励,รางวัลสะสม,Accumulated rewards,Imbalan kumulatif,Premi cumulativi,Recompensas acumulativas
+期数,ระยะเวลา,Issue,Periode,Periodo,Período
+合计投注,เดิมพันทั้งหมด,Total bets,Jumlah taruhan,Scommesse totali,Apuestas totales
+奖励金额,จำนวนรางวัล,Reward amount,Jumlah hadiah,Importo della ricompensa,Monto de la recompensa
+电子投注,การเดิมพันทางอิเล็กทรอนิกส์,Electronic betting,Taruhan elektronik,Scommesse elettroniche,Apuestas electrónicas
+捕鱼投注,การพนันตกปลา,Fishing betting,Taruhan memancing,Scommesse sulla pesca,Apuestas de pesca
+真人投注,การเดิมพันสด,Live betting,Taruhan langsung,Scommesse dal vivo,Apuestas en vivo
+体育投注,การเดิมพันกีฬา,Sports betting,Taruhan olahraga,Scommesse sportive,Apuestas deportivas
+棋牌投注,การพนันหมากรุกและไพ่,Cards betting,Taruhan catur dan kartu,Scommesse sugli scacchi e sulle carte,Ajedrez y apuestas de cartas
+电子总返水,ส่วนลดทั้งหมดทางอิเล็กทรอนิกส์,Electronic total rebate,Total rabat elektronik,Sconto totale elettronico,Reembolso total electrónico
+捕鱼总返水,ส่วนลดการตกปลาทั้งหมด,Fishing total rebate,Total rabat memancing,Sconto totale sulla pesca,Descuento total por pesca
+真人总返水,ส่วนลดรวมสำหรับคนจริง,Total cashback for real people,Rabat total untuk orang sungguhan,Sconto totale per persone reali,Reembolso total para personas reales
+体育总返水,ส่วนลดกีฬาทั้งหมด,Sports total rebate,Rabat total olahraga,Sconto totale sportivo,Reembolso total deportivo
+棋牌总返水,ส่วนลดทั้งหมดสำหรับเกมหมากรุกและไพ่,Total rebate for chess and card games,Total rabat untuk permainan catur dan kartu,Sconto totale per scacchi e giochi di carte,Reembolso total para ajedrez y juegos de cartas.
+平台总返水,ส่วนลดแพลตฟอร์มทั้งหมด,Total rebate from the platform,Total rabat platform,Sconto totale sulla piattaforma,Reembolso total de la plataforma
+累计返水,ส่วนลดสะสม,Accumulated rebate,Akumulasi rabat,Sconto accumulato,Reembolso acumulado
+获得积分,รับคะแนน,Earn points,Mendapatkan poin,Ottenere punti,Obtener puntos
+名称,ชื่อ,Name,Nama,Nome,Nombre
+新增商品,เพิ่มผลิตภัณฑ์ใหม่,New products,Tambahkan produk baru,Aggiungi nuovo prodotto,Añadir nuevo producto
+商品名称,ชื่อสินค้า,Product name,Nama produk,Nome del prodotto,Nombre del producto
+商品图片,รูปภาพสินค้า,Product images,Gambar produk,Immagini del prodotto,Imágenes del producto
+数量,ปริมาณ,Quantity,Kuantitas,Quantità,Cantidad
+库存,ในสต็อก,In stock,Dalam stok,In magazzino,En stock
+库存设置,การตั้งค่าสินค้าคงคลัง,Inventory settings,Pengaturan inventaris,Impostazioni dell'inventario,Configuración de inventario
+商品,สินค้าโภคภัณฑ์,Commodity,Komoditi,Merce,Producto
+商品类型,ประเภทสินค้า,Product type,Jenis produk,Tipo di prodotto,Tipo de producto
+金币,ทอง,Gold,Emas,Oro,Oro
+实物,วัตถุทางกายภาพ,Physical,Objek fisik,Oggetto fisico,Objeto físico
+商品数量,ปริมาณสินค้า,Quantity of products,Kuantitas produk,Quantità di prodotto,Cantidad de producto
+兑换积分,แลกคะแนน,Redeem points,Tukarkan poin,Riscattare punti,Canjear puntos
+商品库存,สินค้าคงคลังของผลิตภัณฑ์,Product inventory,Persediaan produk,Inventario dei prodotti,Inventario de productos
+兑换等级,ระดับการไถ่ถอน,Exchange level,Tingkat penebusan,Livello di riscatto,Nivel de canje
+是否启用,ไม่ว่าจะเปิดใช้งาน,Is it enabled?,Apakah akan mengaktifkan,Se abilitare,Ya sea para habilitar
+请填写商品名称,กรุณากรอกชื่อผลิตภัณฑ์,Fill in the product name,Silakan isi nama produk,Si prega di inserire il nome del prodotto,Por favor complete el nombre del producto
+请填写奖品库存,กรุณากรอกช่องรายการรางวัล,Fill in the prize inventory,Silakan isi inventaris hadiah,Si prega di compilare l'inventario dei premi,Por favor complete el inventario de premios.
+请填写价格,กรุณากรอกราคา,Fill in the price,Silakan isi harganya,Si prega di inserire il prezzo,Por favor complete el precio
+请选择VIP等级,กรุณาเลือกระดับวีไอพี,Select vip level,Silakan pilih tingkat vip,Seleziona il livello vip,Por favor seleccione el nivel vip
+请填写奖品数量,กรุณากรอกจำนวนรางวัล,Fill in the number of prizes,Silakan isi jumlah hadiahnya,Si prega di inserire il numero di premi,Por favor complete el número de premios
+请选择是否商品类型,กรุณาเลือกว่าประเภทสินค้า,Select whether the product type,Silakan pilih apakah jenis produknya,Seleziona se il tipo di prodotto,Por favor seleccione si el tipo de producto
+请选择是否启用,โปรดเลือกว่าจะเปิดใช้งานหรือไม่,Select whether to enable,Silakan pilih apakah akan mengaktifkan,Scegli se abilitare,Por favor elija si desea habilitar
+请填写数量,กรุณากรอกจำนวน,Fill in the quantity,Silakan isi jumlahnya,Si prega di inserire la quantità,Por favor complete la cantidad
+奖品ID,รหัสรางวัล,Prize id,Id hadiah,Identificativo del premio,Id del premio
+奖品名称,ชื่อรางวัล,Prize name,Nama hadiah,Nome del premio,Nombre del premio
+兑换数量,ปริมาณการแลกเปลี่ยน,Exchange quantity,Kuantitas pertukaran,Quantità di scambio,Cantidad de cambio
+单份奖品数量,จำนวนรางวัลเดี่ยว,Number of prizes per item,Jumlah hadiah tunggal,Numero di premi singoli,Número de premios individuales
+已处理,ดำเนินการแล้ว,Processed,Diproses,Elaborato,Procesado
+未处理,ไม่ได้รับการประมวลผล,Unprocessed,Tidak diproses,Non elaborato,No procesado
+变更数量,เปลี่ยนปริมาณ,Number of changes,Ubah kuantitas,Modifica quantità,Cambiar cantidad
+变更原因,เหตุผลในการเปลี่ยนแปลง,Reason for change,Alasan perubahan,Motivo del cambiamento,Razón del cambio
+变更详情,เปลี่ยนแปลงรายละเอียด,Change details,Ubah detailnya,Modificare i dettagli,Cambiar detalles
+幸运号码,หมายเลขนำโชค,Lucky numbers,Nomor keberuntungan,Numero fortunato,Numero de la suerte
+彩票数量,จำนวนสลาก,Number of lottery tickets,Jumlah tiket lotere,Numero di biglietti della lotteria,Número de billetes de lotería
+玩家彩票奖励,รางวัลลอตเตอรีของผู้เล่น,Lottery rewards for players,Hadiah lotere pemain,Premi della lotteria dei giocatori,Recompensas de lotería para jugadores
+机器人彩票奖励,รางวัลลอตเตอรีหุ่นยนต์,Robot lottery rewards,Hadiah lotere robot,Premi della lotteria robot,Recompensas de lotería de robots
+奖励类型,ประเภทรางวัล,Reward type,Jenis hadiah,Tipo di ricompensa,Tipo de recompensa
+兑换失败原因,เหตุผลในการแลกเปลี่ยนล้มเหลว,Reason for redemption failure,Alasan kegagalan pertukaran,Motivo del fallimento dello scambio,Razón del fracaso del intercambio
+是否虚拟,มันเป็นเสมือน?,Is it virtual?,Apakah itu maya?,È virtuale?,¿es virtual?
+领取时间,เวลารวบรวม,Collection time,Waktu pengumpulan,Orario di raccolta,Hora de recogida
+下级人数,จำนวนผู้ใต้บังคับบัญชา,Number of subordinates,Jumlah bawahan,Numero di subordinati,Número de subordinados
+下级绑定手机数量,จำนวนโทรศัพท์มือถือที่ผูกพันกับลูกน้อง,Number of subordinate bound mobile phones,Jumlah ponsel yang terikat pada bawahan,Numero di cellulari legati ai subordinati,Número de teléfonos móviles vinculados a subordinados
+下级充值次数,จำนวนการชาร์จระดับล่าง,Number of lower-level recharges,Jumlah pengisian ulang tingkat yang lebih rendah,Numero di ricariche di livello inferiore,Número de recargas de nivel inferior
+下级充值金额,จำนวนการเติมระดับล่าง,Lower level recharge amount,Jumlah isi ulang tingkat yang lebih rendah,Importo di ricarica di livello inferiore,Cantidad de recarga de nivel inferior
+下级绑定奖金,โบนัสการผูกมัดระดับล่าง,Subordinate binding bonus,Bonus pengikatan tingkat rendah,Bonus vincolante di livello inferiore,Bonificación de vinculación de nivel inferior
+下级充值奖金,โบนัสเติมเงินระดับล่าง,Lower level recharge bonus,Bonus isi ulang tingkat rendah,Bonus di ricarica di livello inferiore,Bono de recarga de nivel inferior
+下级累计奖励,รางวัลสะสมระดับล่าง,Subordinate cumulative rewards,Imbalan kumulatif tingkat yang lebih rendah,Premi cumulativi di livello inferiore,Recompensas acumulativas de nivel inferior
+下级ID,รหัสผู้ใต้บังคับบัญชา,Subordinate id,Id bawahan,Id subordinato,Identificación subordinada
+绑定IP,ผูก IP,Bind ip,Ikat ip,Associa l'ip,Vincular ip
+是否绑定手机,ไม่ว่าจะผูกโทรศัพท์มือถือ,Whether to bind mobile phone,Apakah akan mengikat ponsel,Se vincolare il cellulare,Ya sea para vincular el teléfono móvil
+绑定奖励,ผลตอบแทนที่มีผลผูกพัน,Binding rewards,Imbalan yang mengikat,Premi vincolanti,Recompensas vinculantes
+充值奖励,เติมเงินรางวัล,Recharge rewards,Isi ulang hadiah,Ricarica i premi,Recargar recompensas
+是否解绑,ไม่ว่าจะแยกกลุ่ม,Whether to unbind,Apakah akan diurai,Se disaggregare,Ya sea para desagregar
+绑定时间,เวลามีผลผูกพัน,Binding time,Waktu pengikatan,Tempo vincolante,Tiempo de encuadernación
+数据ID,รหัสข้อมูล,Data id,Id data,Identificativo dei dati,Id de datos
+绑定ID,ID การผูกมัด,Bind id,Id yang mengikat,Identificativo vincolante,Id vinculante
+预警类型,ประเภทคำเตือน,Warning type,Jenis peringatan,Tipo di avviso,Tipo de advertencia
+预警状态,สถานะการแจ้งเตือน,Warning status,Status peringatan,Stato di avviso,Estado de alerta
+是否确定豁免此项数据?,คุณแน่ใจหรือไม่ว่าต้องการยกเว้นข้อมูลนี้,Are you sure you want to exempt this data?,Apakah anda yakin ingin mengecualikan data ini?,Sei sicuro di voler esentare questi dati?,¿está seguro de que desea eximir estos datos?
+豁免,ได้รับการยกเว้น,Exemptions,Pembebasan,Esenzione,Exención
+是否确定冻结此项数据?,คุณแน่ใจหรือไม่ว่าต้องการหยุดข้อมูลนี้,Are you sure you want to freeze this data?,Apakah anda yakin ingin membekukan data ini?,Sei sicuro di voler congelare questi dati?,¿estás seguro de que quieres congelar estos datos?
+冻结,แช่แข็ง,Freeze,Membekukan,Congelare,Congelar
+是否确定此项数据解除下级?,คุณแน่ใจหรือไม่ว่าข้อมูลนี้จะถูกลบออกจากระดับล่าง,Are you sure you want to remove this data?,Apakah anda yakin data ini akan dihapus dari tingkat yang lebih rendah?,Sei sicuro che questi dati verranno rimossi dal livello inferiore?,¿está seguro de que estos datos se eliminarán del nivel inferior?
+解除下级,ไล่ผู้ใต้บังคับบัญชาออก,Removal of subordinates,Memberhentikan bawahan,Licenziare i subordinati,Despedir a los subordinados
+超出预警,เตือนเกิน,Exceed warning,Melebihi peringatan,Superare l'avviso,Advertencia de exceso
+请填写备注,ป้อนหมายเหตุ,Enter notes,Masukkan catatan,Inserisci delle note,Introducir notas
+解绑时间,เวลาที่ไม่ถูกผูกมัด,Unbinding time,Waktu yang tidak mengikat,Tempo senza vincoli,Tiempo de desvinculación
+解绑原因,เหตุผลในการแยกกลุ่ม,Unbinding reason,Alasan untuk melakukan unbundling,Motivo della disaggregazione,Razón de la desagregación
+添加图标,เพิ่มไอคอน,Add icon,Tambahkan ikon,Aggiungi icona,Agregar icono
+同步,ซิงโครนัส,Synchronous,Sinkronis,Sincrono,Sincrónico
+添加子图标,เพิ่มไอคอนย่อย,Add sub-icon,Tambahkan subikon,Aggiungi icona secondaria,Agregar subicono
+所属平台,แพลตฟอร์ม,Platform,Platform,Piattaforma,Plataforma
+游戏平台ID,รหัสแพลตฟอร์มเกม,Game platform id,Id platform permainan,Id della piattaforma di gioco,Id de plataforma de juego
+图标名称,ชื่อไอคอน,Icon name,Nama ikon,Nome dell'icona,Nombre del icono
+图标状态,สถานะไอคอน,Icon status,Status ikon,Stato dell'icona,Estado del icono
+特效编号,หมายเลขเอฟเฟกต์พิเศษ,Special effect number,Nomor efek khusus,Numero di effetti speciali,Número de efectos especiales
+图标类型,ประเภทไอคอน,Icon type,Jenis ikon,Tipo di icona,Tipo de icono
+图标尺寸,ขนาดไอคอน,Icon size,Ukuran ikon,Dimensione dell'icona,Tamaño del icono
+图标,ไอคอน,Icon,Ikon,Icona,Icono
+图片地址,ที่อยู่รูปภาพ,Image url,Alamat gambar,Indirizzo dell'immagine,Dirección de imagen
+包含图标,ประกอบด้วยไอคอน,Contains icons,Berisi ikon,Contiene l'icona,Contiene icono
+子图标,ไอคอนย่อย,Sub icon,Subikon,Sottoicona,Subicón
+正方形,สี่เหลี่ยม,Square,Persegi,Piazza,Cuadrado
+长方形,สี่เหลี่ยมผืนผ้า,Rectangle,Persegi panjang,Rettangolo,Rectángulo
+游戏图标,ไอคอนเกม,Game icon,Ikon permainan,Icona del gioco,Icono del juego
+平台图标，有子游戏,ไอคอนแพลตฟอร์มพร้อมเกมย่อย,Platform icon with sub-games,Ikon platform dengan subgame,Icona della piattaforma con sottogiochi,Icono de plataforma con subjuegos.
+平台图标，无子游戏,ไอคอนแพลตฟอร์ม เกมย่อย,"Platform icon, no subgame","Ikon platform, permainan subless","Icona della piattaforma, gioco senza sottotitoli","Icono de plataforma, juego subless."
+集合,รวมตัว,Gather,Mengumpulkan,Raccogliere,Recolectar
+轮播图，广告,ม้าหมุนการโฆษณา,"Carousel, advertisement","Korsel, periklanan","Carosello, pubblicità","Carrusel, publicidad"
+隐藏,ซ่อน,Hide,Bersembunyi,Nascondere,Esconder
+维护,บำรุงรักษา,Maintain,Menjaga,Mantenere,Mantener
+请填写所属平台,กรุณากรอกแพลตฟอร์มที่คุณเป็นสมาชิก,Fill in the platform,Silakan isi platform tempat anda berada,Compila la piattaforma di appartenenza,Por favor completa la plataforma a la que perteneces
+请填写平台游戏ID,กรุณากรอกรหัสเกมแพลตฟอร์ม,Fill in the platform game id,Silakan isi id permainan platform,Inserisci l'id del gioco della piattaforma,Por favor completa el id del juego de plataforma
+保存成功,บันทึกเรียบร้อยแล้ว,Saved successfully,Berhasil disimpan,Salvato con successo,Guardado exitosamente
+JSON文件名,ชื่อไฟล์ JSON,Json file name,Nama file json,Nome del file json,Nombre de archivo json
+高亮,ไฮไลท์,Highlight,Menyorot,Evidenziare,Destacar
+查看历史,ดูประวัติ,View history,Lihat riwayat,Visualizza la cronologia,Ver historial
+历史记录,ประวัติศาสตร์,History,Sejarah,Storia,Historia
+配置文件列表,รายการไฟล์การกำหนดค่า,Profile list,Daftar file konfigurasi,Elenco dei file di configurazione,Lista de archivos de configuración
+添加平台,เพิ่มแพลตฟอร์ม,Add platform,Tambahkan platform,Aggiungi piattaforma,Agregar plataforma
+模板,แม่แบบ,Template,Templat,Modello,Plantilla
+拉单间隔,ช่วงสั่งซื้อ,Pull single interval,Interval pemesanan,Intervallo dell'ordine,Intervalo de pedido
+拉单延迟,ความล่าช้าในการสั่งซื้อ,Order pull delay,Keterlambatan dalam menempatkan pesanan,Ritardo nell'effettuare gli ordini,Retraso en realizar pedidos
+跳过错误,ข้ามข้อผิดพลาด,Skip error,Lewati kesalahan,Salta gli errori,Saltar errores
+解锁延迟,ปลดล็อคล่าช้า,Unlock delay,Buka kunci penundaan,Ritardo di sblocco,Retraso de desbloqueo
+查看,ตรวจสอบ,Check,Memeriksa,Controllo,Controlar
+创建平台,สร้างแพลตฟอร์ม,Create a platform,Buat platform,Crea una piattaforma,Crear una plataforma
+模板平台,แพลตฟอร์มเทมเพลต,Template platform,Platform templat,Piattaforma modello,Plataforma de plantillas
+解锁延迟（分钟）,ความล่าช้าในการปลดล็อค (นาที),Unlock delay (minutes),Buka kunci penundaan (menit),Ritardo di sblocco (minuti),Retraso de desbloqueo (minutos)
+拉单延迟（分钟）,ความล่าช้าในการสั่งซื้อ (นาที),Order pull delay (minutes),Keterlambatan pesanan (menit),Ritardo ordine (minuti),Retraso del pedido (minutos)
+拉单间隔（分钟）,ช่วงเวลาการดึงคำสั่งซื้อ (นาที),Pull order interval (minutes),Interval penarikan pesanan (menit),Intervallo di estrazione dell'ordine (minuti),Intervalo de extracción de pedidos (minutos)
+跳过拉单错误,ข้ามข้อผิดพลาดลำดับการดึง,Skip pull order error,Lewati kesalahan pesanan tarik,Salta errore ordine pull,Error de omitir orden de extracción
+拉单出错后不管，直接拉最新的(jdb),ละเว้นข้อผิดพลาดและดึงอันล่าสุดโดยตรง (jdb),"No matter what happens when you pull an order, just pull the latest one (jdb)",Abaikan kesalahan dan tarik langsung yang terbaru (jdb),Ignora l'errore ed estrai direttamente l'ultimo (jdb),Ignore el error y extraiga el último directamente (jdb)
+拉取游戏,ดึงเกม,Pull game,Permainan tarik,Gioco a tirare,Juego de tirar
+所属模板,แม่แบบที่เป็นของ,Template,Templat milik,Modello di appartenenza,Plantilla de pertenencia
+添加游戏,เพิ่มเกม,Add game,Tambahkan permainan,Aggiungi gioco,Agregar juego
+游戏名,ชื่อเกม,Game name,Nama permainan,Nome del gioco,Nombre del juego
+图片,รูปภาพ,Picture,Gambar,Immagine,Imagen
+开启,เปิดเครื่อง,Open,Menyalakan,Accendere,Encender
+排序,เรียงลำดับ,Sorting,Menyortir,Ordinare,Clasificar
+是否关闭,ไม่ว่าจะปิด.,Close,Apakah akan ditutup,Se chiudere,Ya sea para cerrar
+请填写GameID,กรุณากรอกรหัสเกม,Fill in gameid,Silakan isi gameid,Inserisci il gameid,Por favor complete gameid
+请填写游戏名,กรุณากรอกชื่อเกม,Fill in the game name,Silakan isi nama permainannya,Inserisci il nome del gioco,Por favor completa el nombre del juego
+请选择图片,กรุณาเลือกรูปภาพ,Select a picture,Silakan pilih gambar,Seleziona un'immagine,Por favor seleccione una imagen
+请选择所属模板,โปรดเลือกเทมเพลต,Select the template,Silakan pilih templatnya,Seleziona il modello,Por favor seleccione la plantilla
+请选择是否关闭,กรุณาเลือกว่าจะปิดหรือไม่,Select whether to close,Silakan pilih apakah akan ditutup,Scegli se chiudere,Por favor elige si deseas cerrar
+请填写排序,กรุณากรอกคำสั่งซื้อ,Fill in the order,Silakan isi pesanannya,Si prega di compilare l'ordine,Por favor complete el pedido
+添加产品,เพิ่มสินค้า,Add products,Tambahkan produk,Aggiungi prodotto,Añadir producto
+确定修改参数吗？,คุณแน่ใจหรือไม่ว่าต้องการแก้ไขพารามิเตอร์,Are you sure you want to modify the parameters?,Apakah anda yakin ingin mengubah parameternya?,Sei sicuro di voler modificare i parametri?,¿está seguro de que desea modificar los parámetros?
+玩家ID(可选),รหัสผู้เล่น (ไม่บังคับ),Player id (optional),Id pemain (opsional),Id giocatore (facoltativo),Id de jugador (opcional)
+查询,แบบสอบถาม,Query,Pertanyaan,Domanda,Consulta
+带出,นำออกมา,Bring out,Membawa,Portare fuori,Sacar
+带入,นำเข้ามา,Bring in,Mendatangkan,Portare dentro,Traer
+插入时间,ใส่เวลา,Insert time,Masukkan waktu,Inserire l'ora,Insertar tiempo
+尝试次数,จำนวนครั้งที่พยายาม,Number of attempts,Sejumlah percobaan,Numero di tentativi,Número de intentos
+排队中,กำลังเข้าคิว,In the queue,Mengantri,In coda,Hacer cola
+已处理，第三方有记录,ดำเนินการแล้ว บุคคลที่สามมีบันทึก,"Processed, third party has records","Diproses, pihak ketiga memiliki catatan","Elaborato, la terza parte ha dei record","Procesado, el tercero tiene registros"
+已处理，第三方无记录,ดำเนินการแล้ว ไม่มีบันทึกจากบุคคลที่สาม,"Processed, no record from third party","Diproses, tidak ada catatan dari pihak ketiga","Elaborato, nessun record di terze parti","Procesado, sin registro de terceros"
+未处理，超时,ไม่ได้ประมวลผล หมดเวลา,"Unprocessed, timeout","Tidak diproses, waktunya habis","Non elaborato, scaduto","No procesado, agotado el tiempo de espera"
+已处理，人工补单,ดำเนินการเติมด้วยตนเอง,"Processed, manually re-ordered","Diproses, pengisian manual",Rifornimento manuale elaborato,Reposición manual procesada
+已补单,ออเดอร์เต็มแล้ว,Order completed,Pesanan terisi,Ordine completato,Orden completada
+玩家ID,รหัสผู้เล่น,Player id,Id pemain,Id del giocatore,Id del jugador
+添加公告,เพิ่มประกาศ,Add announcement,Tambahkan pengumuman,Aggiungi annuncio,Agregar anuncio
+标题,ชื่อ,Title,Judul,Titolo,Título
+内容,เนื้อหา,Content,Isi,Contenuto,Contenido
+启用,เปิดใช้งาน,Enable,Memungkinkan,Abilitare,Permitir
+截止日期,วันหมดอายุ,Expiration date,Kedaluwarsa,Data di scadenza,Fecha de expiración
+公告,ประกาศ,Announcement,Pengumuman,Annuncio,Anuncio
+尺寸,ขนาด,Size,Ukuran,Misurare,Tamaño
+文字,คำ,Word,Kata,Parola,Palabra
+请填写标题,กรุณากรอกชื่อเรื่อง,Fill in the title,Silakan isi judulnya,Si prega di compilare il titolo,Por favor completa el título
+请选择类型,กรุณาเลือกประเภท,Select type,Silakan pilih jenis,Seleziona il tipo,Por favor seleccione el tipo
+请编辑内容,กรุณาแก้ไขเนื้อหา,Edit the content,Harap edit konten,Modifica il contenuto,Por favor edite el contenido
+请选择截止日期,โปรดเลือกวันหมดอายุ,Select a deadline,Silakan pilih tanggal kedaluwarsa,Seleziona una data di scadenza,Por favor seleccione una fecha de vencimiento
+验证码,รหัสยืนยัน,Verification code,Kode verifikasi,Codice di verifica,Código de verificación
+查询结果,ผลลัพธ์การค้นหา,Query results,Hasil kueri,Risultati della query,Resultados de la consulta
+添加白名单,เพิ่มรายการที่อนุญาตพิเศษ,Add whitelist,Tambahkan daftar putih,Aggiungi lista bianca,Agregar lista blanca
+白名单,รายการที่อนุญาต,Whitelist,Daftar putih,Lista bianca,Lista blanca
+批量删除白名单,แบทช์ลบไวท์ลิสต์,Batch delete whitelist,Hapus banyak daftar putih,Eliminazione batch della whitelist,Eliminar por lotes la lista blanca
+客服ID,รหัสบริการลูกค้า,Customer service id,Id layanan pelanggan,Identificativo del servizio clienti,Id de servicio al cliente
+客服链接,ลิงค์บริการลูกค้า,Customer service link,Tautan layanan pelanggan,Collegamento al servizio clienti,Enlace de atención al cliente
+客服类型,ประเภทการบริการลูกค้า,Customer service type,Jenis layanan pelanggan,Tipo di servizio clienti,Tipo de servicio al cliente
+上分,คะแนนสูง,Up,Skor tinggi,Punteggio alto,Puntuación alta
+下分,คะแนนต่ำกว่า,Next,Skor lebih rendah,Punteggio più basso,Puntuación más baja
+其他,อื่น,Other,Lainnya,Altro,Otro
+请填写客服链接,กรุณากรอกลิงค์บริการลูกค้า,Fill in the customer service link,Silakan isi tautan layanan pelanggan,Si prega di compilare il collegamento al servizio clienti,Por favor complete el enlace de servicio al cliente
+请选择客服类型,กรุณาเลือกประเภทการบริการลูกค้า,Select customer service type,Silakan pilih jenis layanan pelanggan,Seleziona il tipo di servizio clienti,Seleccionar tipo de servicio al cliente
+添加菜单,เพิ่มเมนู,Add menu,Tambahkan menu,Aggiungi menù,Agregar menú
+菜单名称,ชื่อเมนู,Menu name,Nama menu,Nome del menù,Nombre del menú
+前端路由,การกำหนดเส้นทางส่วนหน้า,Front-end routing,Perutean ujung depan,Instradamento front-end,Enrutamiento frontal
+添加下级,เพิ่มผู้ใต้บังคับบัญชา,Add subordinate,Tambahkan bawahan,Aggiungi subordinato,Agregar subordinado
+菜单,เมนู,Menu,Menu,Menu,Menú
+请填写菜单名,กรุณากรอกชื่อเมนู,Fill in the menu name,Silakan isi nama menunya,Si prega di inserire il nome del menu,Por favor complete el nombre del menú
+请填写前端路由,กรุณากรอกเส้นทางส่วนหน้า,Fill in the front-end route,Silakan isi perutean front-end,Compila il routing front-end,Complete la ruta frontal
+添加权限组,เพิ่มกลุ่มสิทธิ์,Add permission group,Tambahkan grup izin,Aggiungi gruppo di autorizzazioni,Agregar grupo de permisos
+权限名称,ชื่อการอนุญาต,Permission name,Nama izin,Nome dell'autorizzazione,Nombre del permiso
+设置权限,ตั้งค่าการอนุญาต,Set permissions,Tetapkan izin,Imposta le autorizzazioni,Establecer permisos
+权限,สิทธิ์,Permissions,Izin,Autorizzazioni,Permisos
+请填写权限名称,กรุณากรอกชื่อการอนุญาต,Fill in the permission name,Silakan isi nama izinnya,Inserisci il nome dell'autorizzazione,Por favor complete el nombre del permiso
+添加成功,เพิ่มเรียบร้อยแล้ว,Added successfully,Berhasil ditambahkan,Aggiunto con successo,Agregado exitosamente
+添加管理员,เพิ่มผู้ดูแลระบบ,Adding administrators,Tambahkan administrator,Aggiungi amministratore,Agregar administrador
+权限ID,รหัสการอนุญาต,Permission id,Id izin,Id autorizzazione,Id de permiso
+谷歌二维码,รหัส QR ของ Google,Google qr code,Kode qr google,Codice qr di google,Código qr de google
+谷歌验证码,รหัสยืนยันของ Google,Google captcha,Kode verifikasi google,Codice di verifica di google,Código de verificación de google
+有效标志,ธงที่ถูกต้อง,Valid flag,Bendera yang sah,Bandiera valida,Bandera válida
+管理员,ผู้ดูแลระบบ,Administrator,Administrator,Amministratore,Administrador
+权限组,กลุ่มการอนุญาต,Permission group,Kelompok izin,Gruppo di autorizzazioni,Grupo de permisos
+请填写用户名,กรุณากรอกชื่อผู้ใช้,Fill in your username,Silakan isi nama pengguna,Inserisci il nome utente,Por favor complete el nombre de usuario
+请选择权限组,โปรดเลือกกลุ่มสิทธิ์,Select a permission group,Silakan pilih grup izin,Seleziona un gruppo di autorizzazioni,Por favor seleccione un grupo de permisos
+～找不到当前页面了～,~ไม่พบหน้าปัจจุบัน~,~The current page cannot be found~,~Halaman saat ini tidak dapat ditemukan~,~Impossibile trovare la pagina corrente~,~No se puede encontrar la página actual~
+返回首页,กลับไปที่หน้าแรก,Back to home,Kembali ke halaman beranda,Ritorna alla home page,Volver a la página de inicio
+流水号不存在,ไม่มีหมายเลขซีเรียล,Serial number does not exist,Nomor seri tidak ada,Il numero di serie non esiste,El número de serie no existe
+无,ไม่มี,None,Tidak ada,Nessuno,Ninguno
+系统判定恶意注册多帐号套利，再检测到即取消提款资格。,ระบบจะพิจารณาว่ามีการลงทะเบียนหลายบัญชีอย่างประสงค์ร้ายเพื่อการเก็งกำไร และหากตรวจพบอีกครั้ง คุณสมบัติการถอนจะถูกยกเลิก,"If the system determines that multiple accounts are registered maliciously for arbitrage, withdrawal qualifications will be revoked if detected again.","Sistem menentukan bahwa beberapa akun telah didaftarkan secara jahat untuk arbitrase, dan jika terdeteksi lagi, kualifikasi penarikan akan dibatalkan.","Il sistema determina che più account sono stati registrati in modo dannoso per l'arbitraggio e, se rilevati nuovamente, la qualifica di ritiro verrà annullata.","El sistema determina que se han registrado varias cuentas de forma maliciosa para arbitraje y, si se detecta nuevamente, se cancelará la calificación de retiro."
+本次提款不符合平台替则，详情请联系客服。,การถอนนี้ไม่เป็นไปตามกฎของแพลตฟอร์ม โปรดติดต่อฝ่ายบริการลูกค้าเพื่อขอรายละเอียด,This withdrawal does not comply with the platform's rules. Please contact customer service for details.,"Penarikan ini tidak mematuhi aturan platform, silakan hubungi layanan pelanggan untuk detailnya.","Questo ritiro non è conforme alle regole della piattaforma, contatta il servizio clienti per i dettagli.",Este retiro no cumple con las reglas de la plataforma; comuníquese con el servicio de atención al cliente para obtener más detalles.
+游戏列表,รายการเกม,Game list,Daftar permainan,Elenco dei giochi,Lista de juegos
+充值记录,บันทึกการเติมเงิน,Recharge record,Catatan isi ulang,Ricaricare il registro,Registro de recarga
+提现记录,บันทึกการถอนเงิน,Withdrawal record,Catatan penarikan,Registri di prelievo,Registros de retiro
+充值赠送,เติมเงินของขวัญ,Recharge gift,Isi ulang hadiah,Regalo di ricarica,Recarga de regalo
+金币小于10解锁锁金锁水。,หากเหรียญทองน้อยกว่า 10 คุณสามารถปลดล็อคทองและน้ำได้,"If the gold coins are less than 10, the gold and water locks will be unlocked.","Jika koin emas kurang dari 10, anda dapat membuka kunci emas dan air.","Se le monete d'oro sono inferiori a 10, puoi sbloccare oro e acqua.","Si las monedas de oro son menos de 10, puedes desbloquear oro y agua."
+中文名称,ชื่อจีน,Chinese name,Nama cina,Nome cinese,Nombre chino
+英文名称,ชื่อภาษาอังกฤษ,English name,Nama inggris,Nome inglese,Nombre en ingles
+泰文名称,ชื่อไทย,Thai name,Nama thailand,Nome tailandese,Nombre tailandés
+唯一标识,ตัวระบุที่ไม่ซ้ำ,Unique id,Pengenal unik,Identificatore univoco,Identificador único
+运营商,ผู้ดำเนินการ,Operators,Operator,Operatore,Operador
+总投注,เดิมพันทั้งหมด,Total bets,Jumlah taruhan,Scommessa totale,Apuesta total
+总赢分,คะแนนรวมที่ชนะ,Total win points,Jumlah poin kemenangan,Punti vincenti totali,Puntos ganadores totales
+Slot奖池,เงินรางวัลสล็อต,Slot prize pool,Kumpulan hadiah slot,Montepremi delle slot,Bolsa de premios de tragamonedas
+百人奖池,เงินรางวัลรวมร้อยคน,Hundred-person prize pool,Kumpulan hadiah ratusan orang,Montepremi di cento persone,Premio acumulado para cien personas
+可视化图表,แผนภูมิภาพ,Visualization chart,Grafik visual,Grafici visivi,Gráficos visuales
+表格,แผ่น,Sheet,Lembaran,Foglio,Hoja
+7日总流水,มูลค่าการซื้อขายรวม 7 วัน,Total turnover in 7 days,Total omzet 7 hari,Fatturato totale di 7 giorni,7 días de facturación total
+7日总产出,ผลผลิตรวม 7 วัน,Total output in 7 days,Total keluaran 7 hari,Produzione totale di 7 giorni,Producción total de 7 días
+7日总回报率,ผลตอบแทนรวม 7 วัน,7-day total return,Total pengembalian 7 hari,Rendimento totale a 7 giorni,Devolución total en 7 días
+DAU双周分析,การวิเคราะห์ DAU รายปักษ์,Dau bi-weekly analysis,Analisis dua mingguan dau,Analisi bisettimanale dau,Análisis quincenal dau
+本月总流水,มูลค่าการซื้อขายรวมในเดือนนี้,Total turnover this month,Total omzet bulan ini,Fatturato totale questo mese,Facturación total este mes
+本月总产出,ผลผลิตรวมในเดือนนี้,Total output this month,Total keluaran bulan ini,Produzione totale questo mese,Producción total este mes
+本月总回报率,ผลตอบแทนรวมในเดือนนี้,Total return this month,Total pengembalian bulan ini,Rendimento totale questo mese,Retorno total este mes
+系统收益双周分析,การวิเคราะห์รายได้ของระบบรายปักษ์,Biweekly analysis of system revenue,Analisis dua mingguan pendapatan sistem,Analisi bisettimanale dei ricavi di sistema,Análisis quincenal de ingresos del sistema
+购买小游戏总投注双周分析,การวิเคราะห์การเดิมพันทั้งหมดสำหรับการซื้อมินิเกมรายปักษ์,Biweekly analysis of total bets on purchased mini games,Analisis dua mingguan dari total taruhan pada pembelian mini-game,Analisi bisettimanale del totale delle puntate sugli acquisti dei minigiochi,Análisis quincenal de apuestas totales en compras de minijuegos
+回报率双周分析,การวิเคราะห์ผลตอบแทนรายปักษ์,Biweekly analysis of return rate,Analisis pengembalian dua mingguan,Analisi bisettimanale dei rendimenti,Análisis quincenal de rentabilidad
+购买小游戏回报率双周分析,การวิเคราะห์อัตราผลตอบแทนสำหรับการซื้อมินิเกมทุกสองสัปดาห์,Biweekly analysis of the return on purchase of mini games,Analisis tingkat pengembalian dua mingguan untuk pembelian mini-game,Analisi bisettimanale del tasso di rendimento per l'acquisto di minigiochi,Análisis quincenal de la tasa de retorno por la compra de minijuegos
+玩家注册时间,เวลาลงทะเบียนผู้เล่น,Player registration time,Waktu pendaftaran pemain,Orario di registrazione del giocatore,Hora de registro del jugador.
+玩家最后登录时间,เวลาเข้าสู่ระบบครั้งสุดท้ายของผู้เล่น,Player's last login time,Waktu login terakhir pemain,L'ora dell'ultimo accesso del giocatore,Hora del último inicio de sesión del jugador
+投注,เดิมพัน,Betting,Bertaruh,Scommettere,Apuesta
+赢分,คะแนนที่ชนะ,Win points,Poin kemenangan,Punti vincenti,Puntos ganadores
+总共,ทั้งหมด,Total,Total,Totale,Total
+页,หน้าหนังสือ,Page,Halaman,Pagina,Página
+跳转至,ข้ามไปที่,Jump to,Lompat ke,Vai a,Saltar a
+游戏名称,เกมส์,Games,Permainan,Giochi,Juegos
+游戏难度,ความยาก,Difficulty level,Tingkat kesulitan,Livello di difficoltà,Nivel de dificultad
+收益,รายได้,Income,Penghasilan,Reddito,Ingreso
+活跃用户,ผู้ใช้ที่ใช้งานอยู่,Active users,Pengguna aktif,Utenti attivi,Usuarios activos
+有效用户,ผู้ใช้ที่ถูกต้อง,Valid users,Pengguna yang sah,Utente valido,Usuario válido
+添加运营商,เพิ่มผู้ให้บริการ,Add carrier,Tambahkan operator,Aggiungi operatore,Agregar transportista
+id,บัตรประจำตัวประชาชน,ID,Pengenal,ID,Identificación
+运营商名称,ชื่อผู้ดำเนินการ,Operator name,Nama operator,Nome dell'operatore,Nombre del operador
+权限设置,การตั้งค่าการอนุญาต,Permission settings,Pengaturan izin,Impostazioni dei permessi,Configuración de permisos
+admin权限组,กลุ่มสิทธิ์ของผู้ดูแลระบบ,Admin permission group,Grup izin admin,Gruppo di autorizzazioni dell'amministratore,Grupo de permisos de administrador
+系统创建,การสร้างระบบ,System creation,Pembuatan sistem,Creazione del sistema,Creación del sistema
+设置,ตั้งค่า,Set up,Mendirikan,Impostare,Configuración
+用户名称,ชื่อผู้ใช้,Username,Nama belakang,Nome utente,Nombre de usuario
+下注,วางเดิมพัน,Betting,Pasang taruhan,Piazza una scommessa,Hacer una apuesta
+Name,ชื่อ,Name,Nama,Nome,Nombre
+投注时间,เวลาเดิมพัน,Betting time,Waktu taruhan,Tempo di scommesse,Hora de apostar
+投注金额,จำนวนเงินเดิมพัน,Bet amount,Jumlah taruhan,Importo della scommessa,Monto de la apuesta
+赢分金额,จำนวนเงินที่ชนะ,Winning amount,Jumlah kemenangan,Importo vincente,Monto ganador
+投注日期,วันที่วางเดิมพัน,Betting date,Tanggal taruhan,Data della scommessa,Fecha de apuesta
+日期查询,สอบถามวันที่,Date query,Permintaan tanggal,Interrogazione sulla data,Consulta de fecha
+首页,หน้าแรก,Front page,Halaman depan,Prima pagina,Página delantera
+玩家管理,การจัดการผู้เล่น,Player management,Manajemen pemain,Gestione dei giocatori,Gestión de jugadores
+玩家信息（商户）,ข้อมูลผู้เล่น (ร้านค้า),Player info (merchant),Informasi pemain (pedagang),Informazioni sul giocatore (commerciante),Información del jugador (comerciante)
+数据统计,สถิติ,Statistics,Statistik,Statistiche,Estadística
+玩家数据,ข้อมูลผู้เล่น,Player data,Data pemain,Dati del giocatore,Datos del jugador
+每日游戏详情,รายละเอียดเกมรายวัน,Daily game details,Detail permainan harian,Dettagli di gioco giornalieri,Detalles del juego diario
+产品数据,ข้อมูลผลิตภัณฑ์,Product data,Data produk,Dati del prodotto,Datos del producto
+下注历史,ประวัติการเดิมพัน,Betting history,Sejarah taruhan,Storia delle scommesse,Historial de apuestas
+每日平台汇总,สรุปแพลตฟอร์มรายวัน,Daily platform summary,Ringkasan platform harian,Riepilogo giornaliero della piattaforma,Resumen diario de la plataforma
+每月平台汇总,สรุปแพลตฟอร์มรายเดือน,Monthly platform summary,Ringkasan platform bulanan,Riepilogo mensile della piattaforma,Resumen mensual de la plataforma
+平台玩家汇总,สรุปผู้เล่นแพลตฟอร์ม,Platform player summary,Ringkasan pemain platform,Riepilogo dei giocatori della piattaforma,Resumen de jugadores de plataformas.
+平台汇总,สรุปแพลตฟอร์ม,Platform summary,Ringkasan platform,Riepilogo della piattaforma,Resumen de la plataforma
+slots生成,การสร้างสล็อต,Slots generation,Generasi slot,Generazione di slot,Generación de tragamonedas
+配置文件,ไฟล์การกำหนดค่า,Configuration files,Berkas konfigurasi,File di configurazione,Archivo de configuración
+产品管理,การจัดการผลิตภัณฑ์,Product management,Manajemen produk,Gestione del prodotto,Gestión de productos
+产品列表,รายการสินค้า,Product list,Daftar produk,Elenco prodotti,Lista de productos
+后台管理,การจัดการแบ็กเอนด์,Backstage management,Manajemen ujung belakang,Gestione del backend,Gestión de back-end
+运营商维护,การบำรุงรักษาผู้ให้บริการ,Operator maintenance,Pemeliharaan operator,Manutenzione del trasportatore,Mantenimiento del transportista
+功能菜单维护,การบำรุงรักษาเมนูฟังก์ชั่น,Function menu maintenance,Pemeliharaan menu fungsi,Manutenzione del menu funzioni,Mantenimiento del menú de funciones
+功能权限维护,การบำรุงรักษาการอนุญาตฟังก์ชัน,Function permission maintenance,Pemeliharaan izin fungsi,Manutenzione dei permessi delle funzioni,Mantenimiento de permisos de función
+用户维护,การบำรุงรักษาผู้ใช้,User maintenance,Pemeliharaan pengguna,Manutenzione dell'utente,Mantenimiento de usuarios
+游戏运行时统计,สถิติรันไทม์ของเกม,Game runtime statistics,Statistik waktu proses permainan,Statistiche sulla durata del gioco,Estadísticas de tiempo de ejecución del juego
+玩家id和唯一标识必填其中一项,ต้องมีรหัสผู้เล่นและตัวระบุเฉพาะ,Either the player id or the unique identifier is required,Id pemain dan pengenal unik diperlukan.,Sono richiesti l'id giocatore e l'identificatore univoco.,Se requiere identificación del jugador y un identificador único.
+当前日期无数据,ไม่มีข้อมูลสำหรับวันที่ปัจจุบัน,No data for the current date,Tidak ada data untuk tanggal saat ini,Nessun dato per la data corrente,No hay datos para la fecha actual
+请给运营商管理员配置权限,โปรดกำหนดค่าการอนุญาตสำหรับผู้ดูแลระบบของผู้ให้บริการ,Give the operator administrator configuration permissions,Silakan konfigurasikan izin untuk administrator operator,Configurare le autorizzazioni per l'amministratore dell'operatore,Por favor configure permisos para el administrador del operador.
+请填写名称,กรุณากรอกชื่อ,Fill in your name,Silakan isi namanya,Per favore inserisci il nome,Por favor complete el nombre
+请选择运营商,โปรดเลือกโอเปอเรเตอร์,Select a carrier,Silakan pilih operator,Seleziona un operatore,Por favor seleccione un operador
+货币,สกุลเงิน,Currency,Mata uang,Valuta,Divisa
+玩家输赢金额,การชนะและการสูญเสียของผู้เล่น,Player win or loss amount,Kemenangan dan kekalahan pemain,Vincite e perdite del giocatore,Ganancias y pérdidas del jugador.
+玩家余额,ความสมดุลของผู้เล่น,Player balance,Keseimbangan pemain,Equilibrio del giocatore,Saldo del jugador
+新玩家数量,จำนวนผู้เล่นใหม่,Number of new players,Jumlah pemain baru,Numero di nuovi giocatori,Número de nuevos jugadores
+投注次数,จำนวนเดิมพัน,Number of bets,Jumlah taruhan,Numero di scommesse,Número de apuestas
+回合次数,จำนวนรอบ,Number of rounds,Jumlah putaran,Numero di round,Número de rondas
+赢得金额,จำนวนเงินที่ชนะ,Winning amount,Jumlah kemenangan,Importo vincente,Monto ganador
+玩家输赢,ผู้เล่นชนะหรือแพ้,Player wins or loses,Pemain menang atau kalah,I giocatori vincono o perdono,Los jugadores ganan o pierden.
+玩家输赢占比,อัตราส่วนการชนะ/แพ้ของผู้เล่น,Player win/loss ratio,Rasio menang/kalah pemain,Rapporto vittorie/sconfitte dei giocatori,Relación de victorias/pérdidas de jugadores
+公司输赢,บริษัทจะชนะหรือแพ้,Company wins and loses,Perusahaan menang atau kalah,L'azienda vince o perde,La empresa gana o pierde.
+公司输赢占比,อัตราส่วนการชนะต่อการสูญเสียของบริษัท,Company win/loss ratio,Rasio menang-kalah perusahaan,Il rapporto vincite-perdite dell’azienda,La relación ganancias-pérdidas de la empresa
+投注月份,เดือนแห่งการเดิมพัน,Betting month,Bulan taruhan,Mese di scommesse,Mes de apuestas
+增幅,เพิ่มขึ้น,Increase,Meningkatkan,Aumento,Aumentar
+轻度,อ่อน,Mild,Lembut,Blando,Leve
+中度,ปานกลาง,Moderate,Sedang,Moderare,Moderado
+重度,รุนแรง,Severe,Berat,Acuto,Severo
+简单,ง่าย,Easy ,Mudah,Facile,Fácil
+一般,ปกติ,Normal,Normal,Normale,Normal
+困难,ฮาร์ด,Hard,Keras,Duro,Duro
+本周DAU,DAU ในสัปดาห์นี้,Dau this week,Dau minggu ini,Dau questa settimana,Dau esta semana
+上周DAU,DAU เมื่อสัปดาห์ที่แล้ว,Last week dau,Dau minggu lalu,Dau la settimana scorsa,Dau la semana pasada
+本周总投注,คะแนนรวมเดิมพันสัปดาห์นี้,Total bets this week,Total poin yang dipertaruhkan minggu ini,Punti totali scommessi questa settimana,Puntos totales apostados esta semana
+上周总投注,คะแนนรวมเดิมพันสัปดาห์ที่แล้ว,Total bets last week,Total poin yang dipertaruhkan minggu lalu,Punti totali scommessi la scorsa settimana,Puntos totales apostados la semana pasada
+本周系统收益,รายได้ของระบบสัปดาห์นี้,System revenue this week,Pendapatan sistem minggu ini,Reddito di sistema questa settimana,Ingresos del sistema esta semana
+上周系统收益,รายได้ของระบบสัปดาห์ที่แล้ว,Last week's system revenue,Pendapatan sistem minggu lalu,Reddito di sistema la scorsa settimana,Ingresos del sistema la semana pasada
+本周购买小游戏总投注,เดิมพันรวมในการซื้อมินิเกมในสัปดาห์นี้,Total bets on mini games purchased this week,Total taruhan pada pembelian mini-game minggu ini,Scommesse totali sugli acquisti di minigiochi questa settimana,Apuestas totales en compras de minijuegos esta semana
+上周购买小游戏总投注,เดิมพันรวมในการซื้อมินิเกมเมื่อสัปดาห์ที่แล้ว,Total bets on mini games purchased last week,Total taruhan pada pembelian mini-game minggu lalu,Scommesse totali sugli acquisti di minigiochi della scorsa settimana,Apuestas totales en compras de minijuegos la semana pasada
+本周回报率,การกลับมาของสัปดาห์นี้,This week's return,Kembalinya minggu ini,Il ritorno di questa settimana,El regreso de esta semana
+上周回报率,การกลับมาของสัปดาห์ที่แล้ว,Last week's return,Kepulangan minggu lalu,Il ritorno della scorsa settimana,El regreso de la semana pasada
+本周购买小游戏回报率,อัตราผลตอบแทนสำหรับการซื้อมินิเกมในสัปดาห์นี้,This week's purchase of mini games return rate,Tingkat pengembalian untuk membeli mini-game minggu ini,Tasso di rendimento per l'acquisto di minigiochi questa settimana,Tasa de devolución por comprar minijuegos esta semana
+上周购买小游戏回报率,อัตราผลตอบแทนจากการซื้อมินิเกมเมื่อสัปดาห์ที่แล้ว,Return rate of purchasing mini games last week,Tingkat pengembalian pembelian mini-game minggu lalu,Tasso di rendimento sugli acquisti di minigiochi della scorsa settimana,Tasa de retorno en compras de minijuegos la semana pasada
+序号,หมายเลขซีเรียล,SN,SN,SN,SN
+拉霸游戏,เกมสล็อต,Slot games,Permainan slot,Gioco di slot,Juego de tragamonedas
+百人游戏,เกมผู้เล่นร้อยคน,Hundred player game,Permainan seratus pemain,Gioco da cento giocatori,Juego de cien jugadores.
+游戏运行时,รันไทม์ของเกม,Game runtime,Waktu permainan,Durata del gioco,Tiempo de ejecución del juego
+多语言管理,การจัดการหลายภาษา,Multilingual management,Manajemen multi-bahasa,Gestione multilingue,Gestión multilingüe
+游戏管理后台,ภูมิหลังด้านการจัดการ,Admin backend,Latar belakang manajemen,Contesto gestionale,Experiencia en gestión
+金币不足,เหรียญทองไม่พอ,Insufficient coins,Koin emas tidak cukup,Non abbastanza monete d'oro,No hay suficientes monedas de oro
+请先完成小游戏,กรุณาทำมินิเกมให้เสร็จก่อน,Complete the mini game first,Silakan selesaikan mini-gamenya terlebih dahulu,Per favore completa prima il minigioco,Primero completa el minijuego.
+下注额非法,จำนวนเงินเดิมพันที่ผิดกฎหมาย,Illegal betting amount,Jumlah taruhan ilegal,Importo della scommessa illegale,Monto de la apuesta ilegal
+IP Limit,ขีดจำกัด IP,Ip limit,Batas ip,Limite ip,Límite de ip
+没有更多了,ไม่มีอีกแล้ว,No more,Tidak lebih,Non più,No más
+返回,กลับ,Return,Kembali,Ritorno,Devolver
+请求失败，点击重新加载,คำขอล้มเหลว คลิกเพื่อโหลดซ้ำ,"Request failed, click to reload","Permintaan gagal, klik untuk memuat ulang","Richiesta non riuscita, fare clic per ricaricare","Solicitud fallida, haga clic para recargar"
+游戏历史记录,ประวัติเกม,Game history,Sejarah permainan,Storia del gioco,Historia del juego
+输入框,กล่องขาเข้า,Input box,Kotak masukan,Casella di immissione,Cuadro de entrada
+选择框,กล่องเลือก,Select box,Kotak pilihan,Casella di selezione,Cuadro de selección
+当前位置,ตำแหน่งปัจจุบัน,Current location,Lokasi saat ini,Posizione attuale,Ubicación actual
+免费游戏,เกมฟรี,Free games,Game gratis,Giochi gratuiti,Juegos gratis
+中奖元素,องค์ประกอบที่ชนะ,Winning elements,Elemen pemenang,Elementi vincenti,Elementos ganadores
+元素,องค์ประกอบ,Element,Elemen,Elemento,Elemento
+中奖情况,สถานการณ์ที่ชนะ,Winning situation,Situasi kemenangan,Situazione vincente,Situación ganadora
+各列数量,จำนวนคอลัมน์,Number of columns,Jumlah kolom,Numero di colonne,Número de columnas
+倍率,กำลังขยาย,Magnification,Pembesaran,Ingrandimento,Aumento
+列,รายการ,List,Daftar,Lista,Lista
+旋转定位,การวางตำแหน่งแบบหมุน,Rotation positioning,Posisi rotasi,Posizionamento rotatorio,Posicionamiento rotacional
+继续选号,เลือกหมายเลขต่อไป,Continue to select number,Lanjutkan memilih nomor,Continua a selezionare i numeri,Continuar seleccionando números
+开奖视频,วิดีโอลอตเตอรี่,Prize draw video,Video lotere,Video della lotteria,Vídeo de lotería
+张,เปิด,Open,Membuka,Aprire,Abierto
+收益或损失,กำไรหรือขาดทุน,Gain or loss,Keuntungan atau kerugian,Guadagno o perdita,Ganancia o pérdida
+四等奖,รางวัลที่สี่,Fourth prize,Hadiah keempat,Quarto premio,Cuarto premio
+选号码,เลือกหมายเลข,Select number,Pilih nomor,Scegli il numero,Elige el número
+前三,สามอันดับแรก,Top three,Tiga teratas,I primi tre,Los tres primeros
+查看开奖结果,ดูผลการออกสลาก,View the lottery results,Lihat hasil lotere,Visualizza i risultati della lotteria,Ver resultados de lotería
+确认,ยืนยัน,Confirm,Mengonfirmasi,Confermare,Confirmar
+倒计时,นับถอยหลัง,Countdown,Hitung mundur,Conto alla rovescia,Cuenta atrás
+套票,บรรจุุภัณฑ์,Packages,Kemasan,Pacchetto,Paquete
+官网开奖视频,วิดีโอลอตเตอรีเว็บไซต์อย่างเป็นทางการ,Official website prize drawing video,Video lotere situs web resmi,Video della lotteria sul sito ufficiale,Vídeo de lotería del sitio web oficial.
+商品编号,หมายเลขรายการ,Product number,Nomor barang,Numero dell'articolo,Número de artículo
+清空已选号码,ล้างหมายเลขที่เลือก,Clear selected numbers,Hapus nomor yang dipilih,Cancella i numeri selezionati,Borrar números seleccionados
+游戏规则,กฎของเกม,Rules of the game,Aturan permainan,Regole del gioco,Reglas del juego
+前3位,อันดับ 3,Top 3,3 teratas,Primi 3,3 mejores
+下期彩票,ลอตเตอรี่ต่อไป,Next lottery,Lotere berikutnya,Prossima lotteria,Próxima lotería
+时,ชั่วโมง,Hour,Jam,Ora,Hora
+开始投注,เริ่มเดิมพัน,Start betting,Mulai bertaruh,Inizia a scommettere,Empezar a apostar
+开奖记录,ผลการออกสลาก,Prize draw record,Hasil lotere,Risultati della lotteria,Resultados de la lotería
+当前一期,ปัญหาปัจจุบัน,Current issue,Masalah saat ini,Problema attuale,Problema actual
+二等奖,รางวัลที่สอง,Second prize,Hadiah kedua,Secondo premio,Accésit
+三等奖,รางวัลที่สาม,Third prize,Hadiah ketiga,Terzo premio,Tercer premio
+总投注金币,เดิมพันเหรียญทั้งหมด,Total bet coins,Taruhan total koin,Scommessa totale delle monete,Apuesta total de monedas
+去支付,ที่จะจ่ายเงิน,Go to payment,Untuk membayar,Pagare,Pagar
+我的彩票投注记录,บันทึกการเดิมพันลอตเตอรีของฉัน,My lottery betting records,Catatan taruhan lotere saya,I miei registri delle scommesse della lotteria,Mis registros de apuestas de lotería
+单张,ใบปลิว,Leaflet,Selebaran,Volantino,Prospecto
+后2位,เลขท้าย2ตัว,Last 2 digits,2 digit terakhir,Ultime 2 cifre,Últimos 2 dígitos
+最高奖金,โบนัสสูงสุด,Maximum prize,Bonus maksimal,Bonus massimo,Bonificación máxima
+历史几期,ช่วงเวลาทางประวัติศาสตร์,History,Periode sejarah,Periodi storici,Períodos históricos
+数字彩票,ลอตเตอรีดิจิทัล,Digital lottery,Lotere digital,Lotteria digitale,Loteria digital
+搜索号码,ค้นหาหมายเลข,Search number,Nomor pencarian,Numero di ricerca,Número de búsqueda
+取消选择,ยกเลิกการเลือก,Deselect,Batalkan pilihan,Deseleziona,Deseleccionar
+下次开奖日期,วันออกสลากครั้งต่อไป,Next draw date,Tanggal undian lotere berikutnya,Data della prossima estrazione della lotteria,Fecha del próximo sorteo de lotería
+号码,ตัวเลข,Number,Nomor,Numero,Número
+购买,ซื้อ,Buy,Membeli,Acquistare,Comprar
+秒,ที่สอง,Second,Kedua,Secondo,Segundo
+所有号码,ตัวเลขทั้งหมด,All numbers,Semua nomor,Tutti i numeri,Todos los numeros
+主页,หน้าแรก,Home,Halaman beranda,Pagina iniziale,Pagina de inicio
+下次开奖截止日期为,กำหนดเส้นตายในการออกรางวัลลอตเตอรี่ครั้งต่อไปคือ,The next prize draw deadline is,Batas waktu pengundian lotere berikutnya adalah,La scadenza per la prossima estrazione della lotteria è,La fecha límite para el próximo sorteo de lotería es
+购买成功,การซื้อสำเร็จ,Purchase success,Pembelian berhasil,Acquisto riuscito,Compra exitosa
+天,ท้องฟ้า,Sky,Langit,Cielo,Cielo
+下一期,ฉบับต่อไป,Next issue,Edisi berikutnya,Prossimo numero,Próximo número
+未中奖,ไม่ชนะ,No winning,Tidak menang,Non ho vinto,No gané
+清空,ชัดเจน,Clear,Jernih,Chiaro,Claro
+随机号码,หมายเลขสุ่ม,Random numbers,Nomor acak,Numero casuale,Numero aleatorio
+大厅,ห้องโถง,Hall,Aula,Sala,Sala
+当前金币,เหรียญทองในปัจจุบัน,Current gold coins,Koin emas saat ini,Monete d'oro attuali,Monedas de oro actuales
+上一期,ฉบับที่แล้ว,Previous issue,Edisi sebelumnya,Numero precedente,Número anterior
+合计,ทั้งหมด,Total,Total,Totale,Total
+买彩票,ซื้อสลากลอตเตอรี,Buy lottery tickets,Membeli tiket lotre,Acquistare i biglietti della lotteria,Comprar billetes de lotería
+一等奖边奖,รางวัลด้านรางวัลที่หนึ่ง,First prize side award,Hadiah sampingan hadiah pertama,Primo premio premio collaterale,Premio secundario del primer premio
+复制链接,คัดลอกลิงก์,Copy link,Salin tautan,Copia collegamento,Copiar enlace
+已选择xxx,xxx ถูกเลือกแล้ว,Selected xxx,Xxx telah dipilih,È stato selezionato xxx,Xxx ha sido seleccionado
+未开奖彩票,ตั๋วลอตเตอรีที่ยังไม่ได้ออก,Undrawn lottery tickets,Tiket lotere yang belum ditarik,Biglietti della lotteria non estratti,Billetes de lotería no sorteados
+支付,จ่าย,Payment,Membayar,Paga,Pagar
+已选择,เลือกแล้ว,Selected,Terpilih,Selezionato,Seleccionado
+我的彩票,ลอตเตอรีของฉัน,My lottery,Lotere saya,La mia lotteria,Mi loteria
+五等奖,รางวัลที่ห้า,Fifth prize,Hadiah kelima,Quinto premio,Quinto premio
+后3位,เลขท้าย 3 ตัว,Last 3 digits,3 digit terakhir,Ultime 3 cifre,Últimos 3 dígitos
+你将花费,คุณจะใช้จ่าย,You will spend,Kamu akan menghabiskan,Spenderai,Gastarás
+待开奖,ที่จะวาด,Prize draw,Untuk ditarik,Da disegnare,Para ser dibujado
+选择,เลือก,Choose,Memilih,Scegliere,Elegir
+加载中...,กำลังโหลด...,Loading...,Memuat...,Caricamento...,Cargando...
+订单日期,วันที่สั่งซื้อ,Order date,Tanggal pemesanan,Data dell'ordine,Fecha del pedido
+余额,สมดุล,Balance,Keseimbangan,Bilancia,Balance
+彩票号码1,ลอตเตอรีหมายเลข 1,Lottery number 1,Lotere nomor 1,Lotteria numero 1,Lotería número 1
+彩票号码2,ลอตเตอรีหมายเลข 2,Lottery number 2,Lotere nomor 2,Lotteria numero 2,Lotería número 2
+彩票号码3,ลอตเตอรีหมายเลข 3,Lottery number 3,Lotere nomor 3,Lotteria numero 3,Lotería número 3
+请输入彩票号码,กรุณากรอกหมายเลขลอตเตอรี่,Enter your lottery number,Silakan masukkan nomor lotere,Inserisci il numero della lotteria,Por favor ingrese el número de lotería
+后三,สามคนสุดท้าย,The last three,Tiga yang terakhir,Gli ultimi tre,Los ultimos tres
+后二,สองอันสุดท้าย,The latter two,Dua yang terakhir,Gli ultimi due,Los dos ultimos
+暂未开奖,ยังไม่มีการจับรางวัล,No prize has been drawn yet,Belum ada pengundian hadiah,Nessuna estrazione ancora,Aún no hay sorteo
+开放购买时间为,เปิดรับซื้อ,Open purchase time is,Terbuka untuk pembelian,Aperto per l'acquisto,Abierto para compra
+本期购买截止日期为,กำหนดเส้นตายในการซื้อฉบับนี้คือ,The purchase deadline for this issue is,Batas waktu untuk membeli edisi ini adalah,La scadenza per l'acquisto di questo numero è,La fecha límite para adquirir este número es
+前三位,สามอันดับแรก,Top three,Tiga teratas,I primi tre,Los tres primeros
+后三位,สามครั้งสุดท้าย,The last three,Tiga terakhir,Ultimi tre,Últimos tres
+后两位,สองอันสุดท้าย,The last two,Dua yang terakhir,Gli ultimi due,Los dos ultimos
+订单详情,รายละเอียดการสั่งซื้อ,Order details,Detail pesanan,Dettagli dell'ordine,Detalles del pedido
+时间,เวลา,Time,Waktu,Tempo,Tiempo
+交易订单号,หมายเลขคำสั่งซื้อธุรกรรม,Transaction order number,Nomor pesanan transaksi,Numero dell'ordine della transazione,Número de orden de transacción
+订单超时，返回主界面刷新后重试,คำสั่งซื้อหมดเวลา กลับไปที่อินเทอร์เฟซหลัก รีเฟรชและลองอีกครั้ง,"The order has timed out, return to the main interface and refresh to try again","Pesanan habis waktu, kembali ke antarmuka utama, segarkan dan coba lagi.","L'ordine scade, torna all'interfaccia principale, aggiorna e riprova.","El pedido se agota, regresa a la interfaz principal, actualiza y vuelve a intentarlo."
+至少购买一张彩票,ซื้อตั๋วลอตเตอรีอย่างน้อยหนึ่งใบ,Buy at least one lottery ticket,Beli setidaknya satu tiket lotere,Acquista almeno un biglietto della lotteria,Compra al menos un billete de lotería
+此时间段已停止销售,การขายถูกหยุดในช่วงเวลานี้,Sales have stopped during this period,Penjualan telah dihentikan selama periode ini,Le vendite sono state interrotte durante questo periodo di tempo,Las ventas se han detenido durante este período de tiempo.
+只剩下,เหลือเพียงเท่านั้น,Only,Hanya tersisa,Rimane solo,Solo queda
+已开奖,ได้มีการจับรางวัลแล้ว,Prizes awarded,Hadiah telah diundi,Il premio è stato estratto,El premio ha sido sorteado.
+分数,เศษส่วน,Fraction,Pecahan,Frazione,Fracción
+分,จุด,Point,Titik,Punto,Punto
+超值福利活动，玩家购买的首张彩票打9折，快来购买吧~ (支付时计算折扣),กิจกรรมสวัสดิการสุดคุ้ม ผู้เล่นจะได้รับส่วนลด 10% สำหรับลอตเตอรีใบแรก มาซื้อเลย~ (ส่วนลดจะคำนวณเมื่อชำระเงิน),"Super value welfare event, players will get a 10% discount on the first lottery ticket they buy, come and buy it~ (discount calculated when paying)","Aktivitas kesejahteraan bernilai super, pemain akan menerima diskon 10% pada tiket lotere pertama mereka, datang dan beli~ (diskon akan dihitung saat membayar)","Attività di welfare di grande valore, i giocatori riceveranno uno sconto del 10% sul loro primo biglietto della lotteria, vieni a comprarlo~ (lo sconto verrà calcolato al momento del pagamento)","Actividad de bienestar de gran valor, los jugadores recibirán un 10% de descuento en su primer boleto de lotería, vengan y cómprelo ~ (el descuento se calculará al pagar)"
+后二位,สองอันสุดท้าย,The last two,Dua yang terakhir,Gli ultimi due,Los dos últimos
+结算,การตั้งถิ่นฐาน,Settlement,Hunian,Insediamento,Asentamiento
+猜两位数,เดาตัวเลขสองหลัก,Guess two digits,Tebak dua digit,Indovina due cifre,Adivina dos dígitos
+前三位中奖,ผู้ชนะสามคนแรก,The first three winners,Tiga pemenang pertama,I primi tre vincitori,Los tres primeros ganadores
+后三位中奖,ผู้ชนะสามคนสุดท้าย,The last three winners,Tiga pemenang terakhir,Gli ultimi tre vincitori,Los últimos tres ganadores
+无法进行结算,ไม่สามารถดำเนินการชำระหนี้ได้,Unable to settle,Tidak dapat melanjutkan penyelesaian,Impossibile procedere con la liquidazione,No se puede proceder con el acuerdo
+投注号,หมายเลขเดิมพัน,Betting number,Nomor taruhan,Numero di scommessa,Número de apuesta
+猜号码,เดาหมายเลข,Guess the number,Tebak nomornya,Indovina il numero,Adivina el numero
+加入成功,เข้าร่วมสำเร็จแล้ว,Join success,Berhasil bergabung,Iscrizione avvenuta con successo,Se unió exitosamente
+中奖倍率,อัตราการชนะ,Winning odds,Tingkat kemenangan,Tasso di vincita,Tasa ganadora
+猜一等奖号码,ทายเลขรางวัลที่หนึ่ง,Guess the first prize number,Tebak nomor hadiah pertama,Indovina il primo numero del premio,Adivina el número del primer premio
+猜两位数的后一位数中奖,ทายเลขท้ายสองหลักแล้วรับรางวัล,Guess the last digit of a two-digit number and win,Tebak digit terakhir dari dua digit dan menangkan hadiahnya,Indovina l'ultima cifra di due cifre e vinci il premio,Adivina el último dígito de dos dígitos y gana el premio
+赔率,ราคาต่อรอง,Odds,Kemungkinan,Probabilità,Impares
+预计盈利,กำไรที่คาดหวัง,Expected profit,Keuntungan yang diharapkan,Profitto atteso,Beneficio esperado
+已选择号码,เลือกหมายเลขแล้ว,Selected number,Nomor dipilih,Numero selezionato,Número seleccionado
+猜前三位,เดาสามอันดับแรก,Guess the first three,Tebak tiga teratas,Indovina i primi tre,Adivina los tres primeros
+猜两位数的后两位数中奖,ทายเลขท้ายสองตัวของเลขสองหลักแล้วรับรางวัล,Guess the last two digits of a two-digit number and win,Tebak dua digit terakhir dari dua digit angka dan menangkan hadiahnya,Indovina le ultime due cifre di un numero a due cifre e vinci il premio,Adivina las dos últimas cifras de un número de dos cifras y gana el premio
+商品列表,รายการสินค้า,Product list,Daftar produk,Elenco prodotti,Lista de productos
+猜彩票号码,ทายเลขหวย,Guess the lottery number,Tebak nomor lotre,Indovina i numeri della lotteria,Adivina los números de la lotería
+后三位无序,เลขท้ายสามตัวไม่เรียงลำดับ,The last three digits are out of order,Tiga digit terakhir tidak berurutan,Le ultime tre cifre non sono in ordine,Los últimos tres dígitos no están en orden.
+头奖后三位无序,รางวัลที่ 1 เลขท้ายสามตัวไม่เรียงลำดับ,The last three digits of the first prize are not in order,Tiga digit terakhir dari hadiah pertama tidak berurutan.,Le ultime tre cifre del primo premio non sono in ordine.,Los últimos tres dígitos del primer premio no están ordenados.
+头奖后二位,สองตัวล่างของรางวัลที่หนึ่ง,First prize second place,Dua terbawah dari hadiah pertama,Gli ultimi due del primo premio,Los dos últimos del primer premio
+头奖后一位,ต่อจากรางวัลที่หนึ่ง,The first prize,Satu demi satu hadiah pertama,Uno dopo il primo premio,Uno después del primer premio.
+投注号码,เดิมพันหมายเลข,Betting numbers,Nomor taruhan,Numeri delle scommesse,Números de apuestas
+后一位,อันสุดท้าย,The next one,Yang terakhir,L'ultimo,El ultimo
+头奖后三位,3 ตัวล่างของรางวัลที่ 1,Three digits after the first prize,Tiga terbawah dari hadiah pertama,Gli ultimi tre del primo premio,Los tres últimos del primer premio
+输入长度错误,ความยาวอินพุตไม่ถูกต้อง,Input length error,Panjang masukan salah,Lunghezza di input errata,Longitud de entrada incorrecta
+倍,ครั้ง,Times,Kali,Volte,Veces
+总金额,เงินก้อน,Lump sum,Jumlah bulat,Forfettario,Suma global
+完成,เสร็จ,Finish,Menyelesaikan,Fine,Finalizar
+当前连线得分,คะแนนการเชื่อมต่อปัจจุบัน,Current connection score,Skor koneksi saat ini,Punteggio di connessione attuale,Puntuación de conexión actual
+下注额度,จำนวนเงินเดิมพัน,Bet amount,Jumlah taruhan,Importo della scommessa,Monto de la apuesta
+百搭总倍数,ตัวคูณรวมป่า,Total wild multiplier,Pengganda total yang liar,Moltiplicatore totale selvaggio,Multiplicador total salvaje
+（3个、4个或者5个相同的元素对应的倍数）,"(ทวีคูณที่สอดคล้องกับองค์ประกอบที่เหมือนกัน 3, 4 หรือ 5 รายการ)","(multiples of 3, 4 or 5 identical elements)","(kelipatan yang sesuai dengan 3, 4 atau 5 elemen identik)","(multipli corrispondenti a 3, 4 o 5 elementi identici)","(múltiplos correspondientes a 3, 4 o 5 elementos idénticos)"
+买彩票规则,กฎลอตเตอรี,Lottery rules,Aturan lotere,Regole della lotteria,Reglas de lotería
+猜号码规则,กฎการทายจำนวน,Guessing number rules,Aturan menebak angka,Regole per indovinare i numeri,Reglas para adivinar números
+切换,สวิตช์,Switch,Mengalihkan,Interruttore,Cambiar
+点击切换按钮可以查看其他购买记录,คลิกปุ่มสลับเพื่อดูการซื้ออื่นๆ,Click the toggle button to view other purchase records,Klik tombol sakelar untuk melihat pembelian lainnya,Fare clic sul pulsante di attivazione/disattivazione per visualizzare altri acquisti,Haga clic en el botón de alternancia para ver otras compras
+删除成功,ลบสำเร็จ,Deleted successfully,Hapus berhasil,Elimina con successo,Eliminar exitosamente
+游戏运行时（非运营商）,รันไทม์ของเกม (ไม่ใช่โอเปอเรเตอร์),Game runtime (non-operator),Waktu proses game (non-operator),Runtime del gioco (non operatore),Tiempo de ejecución del juego (sin operador)
+游戏运行时（运营商）,รันไทม์ของเกม (โอเปอเรเตอร์),Game runtime (operator),Waktu proses game (operator),Durata del gioco (operatore),Tiempo de ejecución del juego (operador)
+游戏运行时（汇总）,รันไทม์ของเกม (สรุป),Game runtime (aggregate),Waktu proses game (ringkasan),Durata del gioco (riepilogo),Tiempo de ejecución del juego (resumen)
+个人奖池爆奖,รางวัลส่วนตัวระเบิดกองกลาง,Personal prize pool explosion,Ledakan kumpulan hadiah pribadi,Esplosione del montepremi personale,Explosión del pozo de premios personal
+购买小游戏总赢分,คะแนนรวมที่ชนะสำหรับการซื้อมินิเกม,Total winning points for purchasing mini games,Total poin kemenangan untuk pembelian mini-game,Punti vincenti totali per l'acquisto di minigiochi,Puntos ganadores totales por la compra de minijuegos
+购买小游戏系统收益,รายได้จากการซื้อระบบมินิเกม,Profits from purchasing mini-game system,Hasil dari pembelian sistem mini-game,Proventi dall'acquisto di sistemi di minigiochi,Ingresos por la compra de sistemas de minijuegos
+上月系统收益,รายได้ของระบบเดือนที่แล้ว,Last month's system revenue,Pendapatan sistem bulan lalu,Reddito di sistema il mese scorso,Ingresos del sistema el mes pasado
+上月回报率,การกลับมาของเดือนที่แล้ว,Last month's return,Pengembalian bulan lalu,Il ritorno del mese scorso,El regreso del mes pasado
+本月系统收益,รายได้ของระบบในเดือนนี้,System income this month,Pendapatan sistem bulan ini,Reddito di sistema questo mese,Ingresos del sistema este mes
+本月回报率,การกลับมาของเดือนนี้,Monthly return,Kembalinya bulan ini,Il ritorno di questo mese,El regreso de este mes
+七日总投注,คะแนนรวมที่ฝากในเจ็ดวัน,Seven-day total bet points,Total poin yang disetorkan dalam tujuh hari,Punti totali depositati in sette giorni,Puntos totales depositados en siete días.
+七日系统收益,รายได้ระบบเจ็ดวัน,Seven-day system income,Pendapatan sistem tujuh hari,Reddito di sistema di sette giorni,Ingresos del sistema de siete días
+七日回报率,อัตราผลตอบแทนเจ็ดวัน,Seven-day return rate,Tingkat pengembalian tujuh hari,Tasso di reso a sette giorni,Tasa de retorno de siete días
+今日总赢分,คะแนนรวมที่ชนะในวันนี้,Today's total win points,Total poin yang dimenangkan hari ini,Punti totali vinti oggi,Puntos totales ganados hoy
+今日系统收益,รายได้ระบบวันนี้,Today's system income,Pendapatan sistem saat ini,Il reddito di sistema oggi,Los ingresos del sistema actual
+今日回报率,อัตราผลตอบแทนวันนี้,Today's return rate,Tingkat pengembalian hari ini,Il tasso di rendimento di oggi,La tasa de rendimiento actual
+游戏打码量与游戏盈利统计,ปริมาณการเขียนโค้ดเกมและสถิติผลกำไรของเกม,Game code volume and game profit statistics,Volume pengkodean game dan statistik keuntungan game,Volume di codifica del gioco e statistiche sui profitti del gioco,Volumen de codificación de juegos y estadísticas de ganancias de juegos
+打码量,จำนวนการเข้ารหัส,Coding volume,Jumlah pengkodean,Quantità di codifica,Cantidad de codificación
+游戏盈利,กำไรเกม,Game profit,Laba permainan,Profitto del gioco,Beneficio del juego
+刷新,รีเฟรช,Refresh,Menyegarkan,Aggiornare,Refrescar
+打码量占比（当日）,สัดส่วนปริมาณการเข้ารหัส (วันนั้น),Proportion of coding volume (on the day),Proporsi volume pengkodean (hari itu),Proporzione del volume di codifica (quel giorno),Proporción del volumen de codificación (ese día)
+打码量占比（7天）,สัดส่วนปริมาณการเข้ารหัส (7 วัน),Proportion of coding volume (7 days),Proporsi volume pengkodean (7 hari),Proporzione del volume di codifica (7 giorni),Proporción del volumen de codificación (7 días)
+打码量占比（当月）,สัดส่วนปริมาณการเข้ารหัส (เดือนปัจจุบัน),Proportion of coding volume (this month),Proporsi volume pengkodean (bulan ini),Proporzione del volume di codifica (mese corrente),Proporción del volumen de codificación (mes actual)
+打码量（投注金额）,ปริมาณรหัส (จำนวนเงินเดิมพัน),Code amount (bet amount),Volume kode (jumlah taruhan),Volume del codice (importo della scommessa),Volumen de código (cantidad de apuesta)
+打码量占比,สัดส่วนของปริมาณการเข้ารหัส,Proportion of coding volume,Proporsi volume pengkodean,Proporzione del volume di codifica,Proporción del volumen de codificación
+游戏盈利占比,อัตราส่วนกำไรของเกม,Game profit share,Rasio keuntungan permainan,Rapporto profitto del gioco,Relación de beneficio del juego
+游戏盈利占比（当日）,อัตรากำไรของเกม (วันนั้น),Game profit share (on the day),Rasio keuntungan game (hari itu),Rapporto profitto del gioco (quel giorno),Proporción de ganancias del juego (ese día)
+游戏盈利占比（7天）,อัตรากำไรของเกม (7 วัน),Game profit share (7 days),Rasio keuntungan game (7 hari),Rapporto profitto del gioco (7 giorni),Proporción de ganancias del juego (7 días)
+游戏盈利占比（当月）,สัดส่วนกำไรของเกม (เดือนปัจจุบัน),Game profit share (current month),Proporsi keuntungan game (bulan ini),Proporzione del profitto del gioco (mese corrente),Proporción de ganancias del juego (mes actual)
+slots生成列表,สล็อตสร้างรายการ,Slots generation list,Slot menghasilkan daftar,Gli slot generano un elenco,Lista de generación de tragamonedas
+普通转动回报,การหมุนกลับตามปกติ,Normal rotation return,Putaran normal kembali,Ritorna la rotazione normale,Vuelve el giro normal
+购买小游戏回报,รางวัลสำหรับการซื้อมินิเกม,Purchase mini-game rewards,Hadiah untuk membeli mini-game,Premi per l'acquisto di minigiochi,Recompensas por comprar minijuegos
+区间,ช่วงเวลา,Interval,Selang,Intervallo,Intervalo
+库存参考,อ้างอิงหุ้น,Stock reference,Referensi stok,Riferimento di borsa,Referencia bursátil
+剩余个数,เหลือจำนวน,Remaining number,Nomor yang tersisa,Numero rimanente,Número restante
+组合用掉个数,จำนวนชุดค่าผสมที่ใช้หมด,Combination used up number,Jumlah kombinasi yang digunakan,Numero di combinazioni utilizzate,Número de combinaciones utilizadas
+配置个数,จำนวนการกำหนดค่า,Configuration number,Jumlah konfigurasi,Numero di configurazioni,Número de configuraciones
+分布比例,สัดส่วนการกระจายสินค้า,Distribution ratio,Proporsi distribusi,Proporzione di distribuzione,Proporción de distribución
+中奖倍数,ตัวคูณที่ชนะ,Winning multiples,Pengganda kemenangan,Moltiplicatore vincente,Multiplicador ganador
+中奖倍数比,อัตราส่วนตัวคูณที่ชนะ,Winning multiple ratio,Rasio pengganda kemenangan,Rapporto moltiplicatore vincente,Relación multiplicadora ganadora
+生成时间,เวลาในการสร้าง,Generation time,Waktu generasi,Tempo di generazione,Tiempo de generacion
+三个小游戏,มินิเกมสามเกม,Three mini games,Tiga mini game,Tre minigiochi,Tres minijuegos
+原始值,มูลค่าเดิม,Original value,Nilai asli,Valore originale,Valor original
+提取,สารสกัด,Extract,Ekstrak,Estrarre,Extracto
+小游戏,มินิเกม,Minigames,Permainan mini,Minigiochi,Minijuegos
+小游戏购买,การซื้อมินิเกม,Mini game purchases,Pembelian permainan mini,Acquisto del minigioco,Compra de minijuegos
+组合数组设置,การตั้งค่าอาร์เรย์แบบรวม,Combined array settings,Pengaturan array gabungan,Impostazioni dell'array combinato,Configuración de matriz combinada
+配置组数,จำนวนกลุ่มการกำหนดค่า,Configuration group number,Jumlah grup konfigurasi,Numero di gruppi di configurazione,Número de grupos de configuración
+组合,การผสมผสาน,Combination,Kombinasi,Combinazione,Combinación
+XX次都不中奖,ไม่ชนะ XX ครั้ง,No win for xx times,Tidak menang xx kali,Non ho vinto xx volte,No gané xx veces
+XX次有XX个小游戏图标+XX次不中奖+XX次随机,XX ครั้งพร้อมไอคอนมินิเกม XX + XX ครั้งไม่ชนะ + XX ครั้งแบบสุ่ม,Xx times there are xx mini-game icons + xx times no prizes + xx times random,Xx kali dengan xx ikon mini-game + xx kali tidak menang + xx kali acak,Xx volte con xx icone minigioco + xx volte senza vincere + xx volte in modo casuale,Xx veces con xx iconos de minijuegos + xx veces sin ganar + xx veces al azar
+普通（】+XX次不中奖+XX次剩余随机,ปกติ (】+XX เท่าโดยไม่ชนะ +XX เท่าเหลือแบบสุ่ม,Normal (】+xx times no winning +xx times remaining random,Biasa (】+xx kali tanpa kemenangan +xx kali tersisa secara acak,Ordinario (】+xx volte senza vincere +xx volte rimanenti casuali,Ordinario (】+xx veces sin ganar +xx veces restantes al azar
+小游戏（】+XX次不中奖+XX次剩余随机,มินิเกม (】+XX ครั้งโดยไม่ชนะ +XX ครั้งเหลือแบบสุ่ม,Mini game (】+xx times no winning +xx times remaining random,Mini-game (】+xx kali tanpa kemenangan +xx kali tersisa secara acak,Minigioco (】+xx volte senza vincere +xx volte rimanenti casuali,Minijuego (】+xx veces sin ganar +xx veces restantes al azar
+小游戏（】+小游戏（】+XX次不中奖+XX次剩余随机,มินิเกม ( ] + มินิเกม ( ] + XX ครั้งโดยไม่ชนะ + XX ครั้งเหลือแบบสุ่ม,Mini game (] + mini game (] + xx times of no winning + xx times of remaining random,Mini-game ( ] + mini-game ( ] + xx kali tanpa kemenangan + xx kali tersisa secara acak,Minigioco ( ] + minigioco ( ] + xx volte senza vincere + xx volte rimanenti casuali,Minijuego ( ] + minijuego ( ] + xx veces sin ganar + xx veces restantes al azar
+XX游戏列表,รายชื่อเกม XX,Xx game list,Daftar permainan xx,Elenco dei giochi xx,Lista de juegos xx
+搜索相应游戏即可查询,ค้นหาเกมที่เกี่ยวข้องเพื่อสอบถาม,Search for the corresponding game to query,Cari game yang sesuai untuk ditanyakan,Cerca il gioco corrispondente da interrogare,Busque el juego correspondiente para consultar.
+请选择相应游戏,กรุณาเลือกเกมที่เหมาะสม,Select the corresponding game,Silakan pilih permainan yang sesuai,Seleziona il gioco appropriato,Por favor seleccione el juego apropiado
+购买小游戏下注倍数,ซื้อตัวคูณการเดิมพันมินิเกม,Purchase mini-game betting multiples,Beli pengganda taruhan mini-game,Acquista moltiplicatori di scommesse per i minigiochi,Compra multiplicadores de apuestas de minijuegos
+暂无,ไม่มี,None,Tidak ada,Nessuno,Ninguno
+中奖倍数-奖池,ชนะรางวัลทวีคูณ,Winning multiples-prize pool,Memenangkan kumpulan hadiah pengganda,Montepremi vincente moltiplicatore,Fondo ganador de premios multiplicadores
+回报分布,การกระจายผลตอบแทน,Return distribution,Distribusi kembali,Distribuzione dei rendimenti,Distribución de retorno
+生成组合数据,สร้างข้อมูลที่รวมกัน,Generate combined data,Hasilkan data gabungan,Genera dati combinati,Generar datos combinados
+月末处理,การประมวลผลสิ้นเดือน,Month-end processing,Pemrosesan akhir bulan,Elaborazione di fine mese,Procesamiento de fin de mes
+对账单,คำแถลง,Statement,Penyataan,Dichiarazione,Declaración
+分类,การจำแนกประเภท,Classification,Klasifikasi,Classificazione,Clasificación
+投注额,จำนวนเงินเดิมพัน,Bet amount,Jumlah taruhan,Importo della scommessa,Monto de la apuesta
+费率,ประเมิน,Rates,Kecepatan,Valutare,Tasa
+应收,ลูกหนี้,Receivables,Piutang,Ricevibile,Cuenta por cobrar
+汇率,อัตราแลกเปลี่ยน,Exchange rate,Kurs,Tasso di cambio,Tipo de cambio
+应收外币,ลูกหนี้เงินตราต่างประเทศ,Foreign currency receivables,Piutang mata uang asing,Crediti in valuta estera,Moneda extranjera por cobrar
+电子,อิเล็กทรอนิกส์,Electronic,Elektronik,Elettronico,Electrónico
+彩票管理,การจัดการลอตเตอรี,Lottery management,Manajemen lotere,Gestione della lotteria,Gestión de lotería
+未开奖,ยังไม่ได้วาดเลย,No prizes awarded,Belum ditarik,Non ancora disegnato,Aún no dibujado
+手动兑奖,การไถ่ถอนด้วยตนเอง,Manual redemption,Penukaran manual,Redenzione manuale,Redención manual
+查看详情,รายละเอียด,Details,Rincian,Dettagli,Detalles
+销售的XX-XX期彩票共有（X）个中奖，中奖总金额（）,มี (X) ตั๋วถูกรางวัลสำหรับตั๋วลอตเตอรี XX-XX ที่จำหน่ายไปแล้ว และยอดชนะทั้งหมดคือ (),"There are (x) winners in the xx-xx lottery tickets sold, and the total amount of winnings is ()","Ada (x) tiket pemenang untuk tiket lotere xx-xx yang terjual, dan jumlah total kemenangan adalah ()",Ci sono (x) biglietti vincenti per i biglietti della lotteria xx-xx venduti e l'importo totale della vincita è (),Hay (x) boletos ganadores para los boletos de lotería xx-xx vendidos y el monto total ganador es ()
+确定要进行xx的手动兑奖吗？,คุณแน่ใจหรือไม่ว่าต้องการแลกรางวัลด้วยตนเองเป็น xx?,Are you sure you want to manually redeem the prize for xx?,Apakah anda yakin ingin menukarkan hadiah sebesar xx secara manual?,Sei sicuro di voler riscattare manualmente il premio per xx?,¿estás seguro de que deseas canjear manualmente el premio por xx?
+确定开奖,ลอตเตอรี่ยืนยันแล้ว,Confirm the prize,Lotere dikonfirmasi,Lotteria confermata,Lotería confirmada
+彩票报表（二期）,ใบแจ้งยอดลอตเตอรี่ (ระยะที่ 2),Lottery report (phase ii),Pernyataan lotere (tahap ii),Estratto conto della lotteria (fase ii),Declaración de lotería (fase ii)
+彩票报表（一期）,ใบแจ้งยอดลอตเตอรี่ (ฉบับ),Lottery report (first period),Pernyataan lotere (masalah),Estratto conto della lotteria (emissione),Declaración de lotería (emisión)
+开奖期数,จำนวนงวด,Number of draws,Jumlah undian,Numero di estrazioni,Número de sorteos
+进入次数,จำนวนรายการ,Number of entries,Jumlah entri,Numero di voci,Número de entradas
+有效投注DAU,เดิมพัน DAU ที่ถูกต้อง,Effective betting dau,Taruhan yang sah dau,Scommessa valida dau,Apuesta válida dau
+销售金额,จำนวนการขาย,Sales amount,Jumlah penjualan,Importo delle vendite,Monto de ventas
+总销售金额,ยอดขายรวม,Total sales amount,Jumlah total penjualan,Importo totale delle vendite,Monto total de ventas
+开奖金额,จำนวนรางวัล,Prize amount,Jumlah hadiah,Importo del premio,Monto del premio
+游戏预警,คำเตือนเกม,Game warning,Peringatan permainan,Avviso di gioco,Advertencia de juego
+运营商回调地址,ที่อยู่ติดต่อกลับของผู้ให้บริการ,Operator callback address,Alamat panggilan balik operator,Indirizzo di richiamata dell'operatore,Dirección de devolución de llamada del operador
+复制为JSON,คัดลอกเป็น JSON,Copy as json,Salin sebagai json,Copia come json,Copiar como json
+游戏进行时,ในขณะที่เกมกำลังดำเนินอยู่,During the game,Saat permainan sedang berlangsung,Mentre il gioco è in corso,Mientras el juego está en progreso
+XXX默认权限组,XXX กลุ่มสิทธิ์เริ่มต้น,Xxx default permission group,Grup izin default xxx,Xxx gruppo di autorizzazioni predefinito,Xxx grupo de permisos predeterminado
+需要开启谷歌验证码,ต้องเปิดใช้ Google CAPTCHA,Need to enable Google CAPTCHA,Perlu mengaktifkan Google CAPTCHA,È necessario abilitare Google CAPTCHA,Necesita habilitar Google CAPTCHA
+通用,สากล,Universal,Universal,Universale,Universal
+添加多语言,เพิ่มหลายภาษา,Add Multilingual,Tambahkan Multibahasa,Aggiungi Multilingue,Añadir multilingüe
+中文,ชาวจีน,Chinese,Cina,Cinese,Chino
+英文,ภาษาอังกฤษ,English,Bahasa inggris,Inglese,Inglés
+泰文,แบบไทย,Thai,Thai,Tailandese,Tailandés
+转账模式测试运营商,ผู้ดำเนินการทดสอบโหมดการถ่ายโอน,Transfer mode test operator,Operator uji mode transfer,Operatore di test della modalità di trasferimento,Operador de prueba en modo de transferencia
+总旋转次数,สปินทั้งหมด,Total spins,Putaran total,Giri totali,Giros totales
+未结算金额,จำนวนเงินที่ไม่แน่นอน,Unsettled amount,Jumlah yang belum dilunasi,Importo non saldato,Monto pendiente de liquidación
+未转移金额,จำนวนเงินไม่โอน,Untransferred amount,Jumlah tidak ditransfer,Importo non trasferito,Monto no transferido
+玩家id和唯一标识必填其中一项！,ต้องใช้ ID ผู้เล่นและตัวระบุเฉพาะ!,One of the player id and unique identifier must be filled in!,Id pemain dan pengenal unik diperlukan!,Sono richiesti l'id giocatore e l'identificatore univoco!,¡se requiere identificación de jugador y un identificador único!
+设置未转移金额,กำหนดจำนวนเงินที่ยังไม่ได้โอน,Set untransferred amount,Tetapkan jumlah yang tidak ditransfer,Imposta l'importo non trasferito,Establecer la cantidad no transferida
+游戏设置,การตั้งค่าเกม,Game settings,Pengaturan permainan,Impostazioni di gioco,Configuración del juego
+多语言,พูดได้หลายภาษา,Multilingual,Multibahasa,Multilingue,Plurilingüe
+后台Grpc转发,การส่งต่อ Grpc พื้นหลัง,Background grpc forwarding,Penerusan grpc latar belakang,Inoltro grpc in background,Reenvío grpc en segundo plano
+七日总赢分,คะแนนรวมที่ชนะในเจ็ดวัน,Seven-day total win points,Total poin kemenangan dalam tujuh hari,Punti vincenti totali in sette giorni,Puntos ganadores totales en siete días
+转移金额,จำนวนเงินที่โอน,Transfer amount,Jumlah transfer,Importo del trasferimento,Monto de la transferencia
+百人,หลายร้อยคน,Hundred people,Ratusan orang,Centinaia di persone,Cientos de personas
+转入转出,โอนเข้าโอนออก,Transfer in and transfer out,Transfer masuk transfer keluar,Trasferimento in trasferimento in uscita,Transferencia de entrada transferencia de salida
+总盈亏,กำไรและขาดทุนทั้งหมด,Total profit and loss,Jumlah untung dan rugi,Profitti e perdite totali,Ganancias y pérdidas totales
+图表,แผนภูมิ,Chart,Bagan,Grafico,Cuadro
+所有中奖号码,หมายเลขที่ชนะทั้งหมด,All winning numbers,Semua nomor pemenang,Tutti i numeri vincenti,Todos los números ganadores
+炸弹倍率之和,ผลรวมของตัวคูณระเบิด,Total bomb multipliers,Jumlah pengganda bom,Somma dei moltiplicatori delle bombe,Suma de multiplicadores de bombas
+此次总得分,คะแนนรวมในครั้งนี้,Total score this time,Skor total kali ini,Punteggio totale questa volta,Puntuación total esta vez
+正在购买,กำลังซื้อ,Purchasing,Pembelian,Acquisto,Comprar
+下一页,หน้าถัดไป,Next page,Halaman selanjutnya,Pagina successiva,Página siguiente
+彩票号码,หมายเลขลอตเตอรี,Lottery numbers,Nomor lotere,Numeri della lotteria,Números de lotería
+汇总,สรุป,Summary,Ringkasan,Riepilogo,Resumen
+游戏数据,ข้อมูลเกม,Game data,Data permainan,Dati di gioco,Datos del juego
+非运营商,ไม่ใช่ผู้ดำเนินการ,Non-operator,Non-operator,Non operatore,No operador
+数据生成,การสร้างข้อมูล,Data generation,Pembuatan data,Generazione di dati,Generación de datos
+接口文档,เอกสารประกอบอินเทอร์เฟซ,Interface documentation,Dokumentasi antarmuka,Documentazione dell'interfaccia,Documentación de la interfaz
+转账钱包,โอนกระเป๋าสตางค์,Transfer wallet,Mentransfer dompet,Trasferisci portafoglio,Transferir billetera
+单一钱包,กระเป๋าเงินใบเดียว,Single wallet,Dompet tunggal,Portafoglio unico,Billetera individual
+销售张数,จำนวนยอดขาย,Number of sales,Jumlah penjualan,Numero di vendite,Número de ventas
+总销售张数,จำนวนยอดขายทั้งหมด,Total sales,Jumlah total penjualan,Numero totale di vendite,Número total de ventas
+购买小游戏倍数,ซื้อตัวคูณมินิเกม,Purchase mini-game multipliers,Beli pengganda mini-game,Acquista moltiplicatori di minigiochi,Compra multiplicadores de minijuegos
+图片上传,อัพโหลดรูปภาพ,Image upload,Unggah gambar,Caricamento immagini,Subir imagen
+复制成功,คัดลอกเรียบร้อยแล้ว,Copy success,Berhasil disalin,Copiato con successo,Copiado exitosamente
+请设置未转移金额,กรุณากำหนดจำนวนเงินที่ยังไม่ได้โอน,Set the untransferred amount,Silakan atur jumlah yang tidak ditransfer,Si prega di impostare l'importo non trasferito,Por favor establece el monto no transferido
+确定要进行,ยืนยันเพื่อดำเนินการต่อ,Confirm to proceed,Konfirmasikan untuk melanjutkan,Conferma per procedere,Confirmar para continuar
+的手动兑奖吗？,เป็นไปได้ไหมที่จะแลกรางวัลด้วยตนเอง?,Manual redemption of prizes?,Apakah bisa menukarkan hadiah secara manual?,È possibile riscattare i premi manualmente?,¿es posible canjear premios manualmente?
+年份,ปี,Years,Bertahun-tahun,Anni,Años
+钱包类型,ประเภทกระเป๋าสตางค์,Wallet types,Jenis dompet,Tipo di portafoglio,Tipo de billetera
+请选择钱包类型,กรุณาเลือกประเภทกระเป๋าสตางค์,Select wallet type,Silakan pilih jenis dompet,Seleziona il tipo di portafoglio,Por favor seleccione el tipo de billetera
+推荐位,ตำแหน่งที่แนะนำ,Recommended,Posisi yang direkomendasikan,Posizione consigliata,Posición recomendada
+搜索结果,ผลการค้นหา,Search results,Hasil pencarian,Risultati della ricerca,Resultados de la búsqueda
+请填写id,กรุณากรอกไอดี,Fill in id,Silakan isi identitasnya,Si prega di inserire l'id,Por favor complete la identificación
+请选择状态,โปรดเลือกสถานะ,Select status,Silakan pilih status,Seleziona uno stato,Por favor seleccione un estado
+搏一搏余额,เดิมพันกับยอดเงินคงเหลือของคุณ,Balance,Bertaruh pada saldo anda,Scommetti sul tuo saldo,Apuesta por tu saldo
+一等奖,รางวัลที่หนึ่ง,First prize,Hadiah pertama,Primo premio,Primer premio
+确定要进行手动兑奖？,คุณแน่ใจหรือไม่ว่าต้องการแลกรางวัลด้วยตนเอง,Are you sure you want to redeem the prize manually?,Apakah anda yakin ingin menukarkan hadiah secara manual?,Sei sicuro di voler riscattare il tuo premio manualmente?,¿estás seguro de que deseas canjear tu premio manualmente?
+销售的彩票中奖个数,จำนวนสลากที่ถูกรางวัลที่ขายได้,Number of winning tickets sold,Jumlah tiket lotere pemenang yang terjual,Numero di biglietti vincenti della lotteria venduti,Número de billetes de lotería ganadores vendidos
+中奖总金额,จำนวนเงินที่ชนะทั้งหมด,Total amount of winnings,Jumlah total kemenangan,Importo totale della vincita,Cantidad total ganada
+共销售彩票张数,จำนวนลอตเตอรี่ที่ขายได้ทั้งหมด,Total number of lottery tickets sold,Jumlah total tiket lotre yang terjual,Numero totale di biglietti della lotteria venduti,Número total de billetes de lotería vendidos
+请选择号码,กรุณาเลือกหมายเลข,Select a number,Silakan pilih nomor,Seleziona un numero,Por favor seleccione un número
+打码量与盈利统计,ปริมาณการเข้ารหัสและสถิติผลกำไร,Code volume and profit statistics,Mengkodekan statistik volume dan keuntungan,Codifica delle statistiche sul volume e sui profitti,Volumen de codificación y estadísticas de ganancias.
+提示,คำใบ้,Hint,Petunjuk,Suggerimento,Pista
+印尼文,ชาวอินโดนีเซีย,Indonesian,Indonesia,Indonesiano,Indonesio
+总投注双周分析,การวิเคราะห์การเดิมพันทั้งหมดรายปักษ์,Total betting points biweekly analysis,Analisis total taruhan dua mingguan,Analisi bisettimanale del totale delle scommesse,Análisis quincenal de apuestas totales
+7日购买小游戏回报率,อัตราการคืนสินค้า 7 วันสำหรับการซื้อมินิเกม,7-day purchase rate of return on mini games,Tingkat pengembalian 7 hari untuk pembelian mini-game,Tasso di reso di 7 giorni per l'acquisto di minigiochi,Tasa de devolución de 7 días para la compra de minijuegos
+本月购买小游戏回报率,อัตราผลตอบแทนสำหรับการซื้อมินิเกมในเดือนนี้,Return rate of purchasing mini games this month,Tingkat pengembalian untuk pembelian mini-game bulan ini,Tasso di rendimento per l'acquisto di minigiochi questo mese,Tasa de retorno por la compra de minijuegos este mes
+总计购买小游戏回报率,อัตราผลตอบแทนรวมสำหรับการซื้อมินิเกม,Total return rate of purchasing mini games,Tingkat pengembalian total untuk pembelian mini-game,Tasso di rendimento totale per l'acquisto di minigiochi,Tasa de retorno total por la compra de minijuegos
+请切换到竖屏模式,กรุณาเปลี่ยนเป็นโหมดแนวตั้ง,Switch to portrait mode,Silakan beralih ke mode potret,Passa alla modalità verticale,Por favor cambia al modo retrato.
+方案管理,การจัดการโปรแกรม,Program management,Manajemen program,Gestione del programma,Gestión de programas
+游戏列表数据无效,ข้อมูลรายชื่อเกมไม่ถูกต้อง,Invalid game list data,Data daftar permainan tidak valid,I dati dell'elenco dei giochi non sono validi,Los datos de la lista de juegos no son válidos.
+获取游戏列表时发生错误,เกิดข้อผิดพลาดขณะรับรายชื่อเกม,An error occurred while getting the game list,Terjadi kesalahan saat mengambil daftar permainan,Si è verificato un errore durante il recupero dell'elenco dei giochi,Se produjo un error al obtener la lista de juegos.
+游戏未命名,เกมไม่มีชื่อ,Untitled game,Permainan tidak disebutkan namanya,Gioco senza nome,Juego sin nombre
+请为新的方案命名,กรุณาตั้งชื่อโครงการใหม่,Name the new plan,Tolong beri nama pada skema baru tersebut,Si prega di dare un nome al nuovo schema,"Por favor, dale un nombre al nuevo esquema."
+未找到游戏名称，请刷新页面后重试,ไม่พบชื่อเกม โปรดรีเฟรชหน้านี้แล้วลองอีกครั้ง,The game name was not found. Please refresh the page and try again.,"Nama permainan tidak ditemukan, segarkan halaman dan coba lagi","Nome del gioco non trovato, aggiorna la pagina e riprova",No se encontró el nombre del juego. Actualiza la página e inténtalo de nuevo.
+修改方案成功,แผนการปรับเปลี่ยนสำเร็จ,Modification plan successful,Rencana modifikasi berhasil,Piano di modifica riuscito,Plan de modificación exitoso
+保存方案成功,บันทึกแผนเรียบร้อยแล้ว,Save the plan successfully,Simpan rencana berhasil,Salva il piano con successo,Guardar plan exitosamente
+勾选方案,ตรวจสอบแผน,Check the plan,Periksa rencananya,Controlla il piano,Consulta el plan
+搜索游戏,ค้นหาเกม,Search games,Cari permainan,Cerca giochi,Buscar juegos
+请搜索需要勾选的游戏,กรุณาค้นหาเกมที่ต้องการตรวจสอบ,Search for the game you want to check,Silakan cari game yang perlu dicek,Cerca il gioco che deve essere controllato,Busque el juego que necesita ser revisado.
+请选择你需要的方案,โปรดเลือกแผนที่คุณต้องการ,Select the solution you need,Silakan pilih paket yang anda perlukan,Seleziona il piano di cui hai bisogno,Por favor selecciona el plan que necesitas
+已显示游戏列表,รายชื่อเกมที่แสดง,Displayed game list,Daftar permainan ditampilkan,Elenco dei giochi mostrato,Se muestra la lista de juegos
+重新保存至到我的方案中,บันทึกไปที่แผนของฉันอีกครั้ง,Save it back to my project,Simpan kembali ke rencana saya,Salva nuovamente in i miei piani,Volver a guardar en mis planes
+您可以为新的方案命名,คุณสามารถตั้งชื่อรูปแบบใหม่ได้,You can name the new plan,Anda dapat memberi nama pada skema baru tersebut,Puoi dare un nome al nuovo schema,Puedes darle un nombre al nuevo esquema.
+重新保存方案,บันทึกแผนอีกครั้ง,Resave the plan,Simpan kembali rencana,Salva nuovamente il piano,Guardar plan
+保存方案,บันทึกโครงการ,Save the solution,Skema simpan,Schema di salvataggio,Guardar esquema
+该运营商未关联方案，请确认,โอเปอเรเตอร์นี้ไม่เกี่ยวข้องกับแผน โปรดยืนยัน,"This operator is not associated with a plan, please confirm","Operator ini tidak terkait dengan paket, harap konfirmasi","Questo operatore non è associato a un piano, conferma","Este operador no está asociado a ningún plan, por favor confirme"
+编辑运营商时发生错误，请重试,เกิดข้อผิดพลาดขณะแก้ไขผู้ให้บริการ โปรดลองอีกครั้ง,"An error occurred while editing the carrier, please try again","Terjadi kesalahan saat mengedit operator, silakan coba lagi","Si è verificato un errore durante la modifica dell'operatore, riprova","Se produjo un error al editar el operador, inténtalo de nuevo."
+必填项,ช่องที่ต้องกรอก,Required fields,Bidang yang wajib diisi,Campi obbligatori,Campos obligatorios
+投注的起止时间不能超过7天,เวลาเริ่มต้นและสิ้นสุดของการเดิมพันต้องไม่เกิน 7 วัน,The start and end time of the bet cannot exceed 7 days,Waktu mulai dan berakhirnya taruhan tidak boleh lebih dari 7 hari,L'orario di inizio e fine delle scommesse non può superare i 7 giorni,La hora de inicio y finalización de las apuestas no puede exceder los 7 días.
+加入下载队列,เข้าร่วมคิวดาวน์โหลด,Add to download queue,Bergabunglah dengan antrian unduhan,Unisciti alla coda di download,Únase a la cola de descarga
+即将跳转下载页面,จะข้ามไปหน้าดาวน์โหลดเร็วๆ นี้,You will be redirected to the download page,Akan segera melompat ke halaman unduh,Passeremo presto alla pagina di download,Pronto saltará a la página de descarga.
+请选择投注时间,กรุณาเลือกเวลาเดิมพัน,Please select betting time,Silakan pilih waktu taruhan,Seleziona l'orario delle scommesse,Por favor seleccione el tiempo de apuesta
+文档名称,ชื่อไฟล์,File name,Nama file,Nome del file,Nombre del archivo
+创建日期,วันที่สร้าง,Creation date,Tanggal pembuatan,Data di creazione,Fecha de creación
+下载文件失败,ดาวน์โหลดไฟล์ล้มเหลว,Failed to download the file,Gagal mengunduh file,Download del file non riuscito,Falló la descarga del archivo
+过去7天,7 วันที่ผ่านมา,Last 7 days,7 hari terakhir,Ultimi 7 giorni,Últimos 7 días
+今天,วันนี้,Today,Hari ini,Oggi,Hoy
+已生成下载任务,สร้างงานดาวน์โหลดแล้ว,Download task generated,Tugas pengunduhan dihasilkan,Scarica l'attività generata,Descargar tarea generada
+下载任务处理中,กำลังดำเนินการดาวน์โหลดงาน,Download task in progress,Tugas pengunduhan sedang diproses,L'attività di download è in fase di elaborazione,La tarea de descarga se está procesando
+下载文件已生成,สร้างไฟล์ดาวน์โหลดแล้ว,Download file generated,File unduhan telah dibuat,Il file di download è stato generato,El archivo de descarga ha sido generado.
+下载记录管理,ดาวน์โหลดการจัดการบันทึก,Download record management,Unduh manajemen catatan,Scarica la gestione dei record,Descargar gestión de registros
+下载记录的有效期为7天，超过有效期下载记录自动删除,ระยะเวลาที่ถูกต้องของบันทึกการดาวน์โหลดคือ 7 วัน บันทึกการดาวน์โหลดจะถูกลบโดยอัตโนมัติหลังจากระยะเวลาที่ถูกต้อง,"The download record is valid for 7 days, after which the download record will be automatically deleted.",Masa berlaku catatan pengunduhan adalah 7 hari. Catatan pengunduhan akan otomatis terhapus setelah masa berlakunya habis.,Il periodo di validità dei record di download è di 7 giorni. I record di download verranno automaticamente eliminati dopo il periodo di validità.,El período de validez de los registros de descarga es de 7 días. Los registros de descarga se eliminarán automáticamente después del período de validez.
+不切换,ไม่มีการสลับ,No switching,Tidak ada peralihan,Nessuna commutazione,Sin cambio
+切换多语言会导致标签页失效，确认切换吗?,การสลับระหว่างหลายภาษาจะทำให้หน้าแท็บไม่ถูกต้อง คุณแน่ใจหรือว่าจะเปลี่ยน?,Switching multiple languages will cause the tab page to become invalid. Confirm to switch?,Beralih di antara beberapa bahasa akan menyebabkan halaman tab menjadi tidak valid.,Il passaggio da una lingua all'altra renderà la scheda non più valida. Sei sicuro di voler cambiare?,Cambiar entre varios idiomas hará que la página de la pestaña deje de ser válida. ¿está seguro de cambiar?
+服务器时区,โซนเวลาของเซิร์ฟเวอร์,Server time zone,Zona waktu server,Fuso orario del server,Zona horaria del servidor
+管理系统,ระบบการจัดการ,Management system,Sistem manajemen,Sistema di gestione,Sistema de gestión
+登录失败,การเข้าสู่ระบบล้มเหลว,Login failed,Gagal masuk,Accesso non riuscito,Error de inicio de sesion
+切换语言失败,ไม่สามารถเปลี่ยนภาษาได้,Failed to switch language,Gagal mengganti bahasa,Impossibile cambiare lingua,No se pudo cambiar el idioma
+语言获取失败,การรับภาษาล้มเหลว,Language acquisition failed,Akuisisi bahasa gagal,Acquisizione della lingua fallita,Falló la adquisición del lenguaje
+昨天,เมื่อวาน,Yesterday,Kemarin,Ieri,Ayer
+近7天,7 วันที่ผ่านมา,Last 7 days,7 hari terakhir,Ultimi 7 giorni,Últimos 7 días
+近30天,30 วันที่ผ่านมา,Last 30 days,30 hari terakhir,Ultimi 30 giorni,Últimos 30 días
+本月,เดือนนี้,This month,Bulan ini,Questo mese,Este mes
+上月,เมื่อเดือนที่แล้ว,Last month,Bulan lalu,Il mese scorso,Mes pasado
++ 转入,+โอนเข้า.,+ transfer in,+ transfer masuk,+ trasferimento,+ traslado en
+- 转出,- โอนออก,- transfer out,- pindahkan keluar,- trasferimento,- transferir
+账号不存在或密码错误,ไม่มีบัญชีหรือรหัสผ่านไม่ถูกต้อง,The account does not exist or the password is incorrect,Akun tidak ada atau kata sandi salah,L'account non esiste oppure la password è errata,La cuenta no existe o la contraseña es incorrecta
+验证失败,การตรวจสอบสิทธิ์ล้มเหลว,Authentication failed,Otentikasi gagal,Autenticazione non riuscita,Error de autenticación
+游戏不存在,ไม่มีเกม,Game does not exist,Permainan tidak ada,Il gioco non esiste,El juego no existe
+必填项：,ช่องที่ต้องกรอก:,Required fields:,Bidang yang wajib diisi:,Campi obbligatori:,Campos obligatorios:
+运营商，玩家ID，投注时间,ผู้ดำเนินการ รหัสผู้เล่น เวลาเดิมพัน,"Operator, player id, betting time","Operator, id pemain, waktu taruhan","Operatore, id giocatore, tempo di scommessa","Operador, id de jugador, tiempo de apuesta"
+请输入玩家ID,กรุณากรอกรหัสผู้เล่น,Enter your player id,Silakan masukkan id pemain,Inserisci l'id giocatore,Por favor ingresa el id del jugador
+投注信息,ข้อมูลการเดิมพัน,Betting info,Informasi taruhan,Informazioni sulle scommesse,Información de apuestas
+欢迎来到,ยินดีต้อนรับสู่,Welcome to,Selamat datang di,Benvenuto a,Bienvenido a
+体育,พลศึกษา,Physical education,Pendidikan jasmani,Educazione fisica,Educación física
+上期中奖号码,เลขถูกรางวัลลอตเตอรี่ตัวสุดท้าย,Last winning numbers,Nomor pemenang lotere terakhir,Gli ultimi numeri vincenti della lotteria,Últimos números ganadores de la lotería
+账目,บัญชี,Accounts,Akun,Conti,Cuentas
+泰国国家彩票,สลากกินแบ่งรัฐบาลไทย,Thailand national lottery,Lotere nasional thailand,Lotteria nazionale tailandese,Lotería nacional de tailandia
+广告位,พื้นที่โฆษณา,Advertising space,Ruang periklanan,Spazio pubblicitario,Espacio publicitario
+投注数字,เดิมพันหมายเลข,Betting numbers,Nomor taruhan,Numeri delle scommesse,Números de apuestas
+订单ID,รหัสคำสั่งซื้อ,Order id,Id pesanan,Id dell'ordine,Id de pedido
+最高金额,จำนวนเงินสูงสุด,Maximum amount,Jumlah maksimum,Importo massimo,Cantidad máxima
+请前往账目页面查看详情,โปรดไปที่หน้าบัญชีเพื่อดูรายละเอียด,Go to the accounts page for details,Silakan buka halaman akun untuk melihat detailnya,Vai alla pagina degli account per visualizzare i dettagli,Vaya a la página de cuentas para ver los detalles.
+时间选择,การเลือกเวลา,Time selection,Pemilihan waktu,Selezione dell'ora,Selección de tiempo
+输入金额非法,จำนวนเงินที่ป้อนไม่ถูกต้อง,The input amount is illegal,Jumlah yang dimasukkan tidak sah,L'importo inserito non è valido,La cantidad ingresada es ilegal.
+单次订单购买最大金额为10000 可重复购买,"จำนวนการซื้อสูงสุดสำหรับคำสั่งซื้อเดียวคือ 10,000 และสามารถซื้อซ้ำได้","The maximum purchase amount for a single order is 10,000 and can be purchased repeatedly",Jumlah pembelian maksimum untuk satu pesanan adalah 10.000 dan dapat dibeli berulang kali,L'importo massimo di acquisto per un singolo ordine è 10.000 e può essere acquistato più volte,"El monto máximo de compra para un solo pedido es 10,000 y se puede comprar repetidamente"
+确认订单,ยืนยันการสั่งซื้อ,Confirm your order,Konfirmasikan pesanan,Conferma ordine,Confirmar pedido
+记录生成时间,เวลาสร้างบันทึก,Record creation time,Catat waktu pembuatan,Registra il tempo di generazione,Tiempo de generación récord
+事件类型,ประเภทเหตุการณ์,Event type,Jenis acara,Tipo di evento,Tipo de evento
+电子投注/结算,การเดิมพัน/การชำระหนี้ทางอิเล็กทรอนิกส์,Electronic betting/Settlement,Taruhan/Penyelesaian elektronik,Scommesse/Regolamenti elettronici,Apuestas/Liquidación electrónica
+彩票结算,การชำระลอตเตอรี,Lottery settlement,Penyelesaian lotere,Regolamento della lotteria,Liquidación de lotería
+彩票投注,การพนันลอตเตอรี,Lottery betting,Taruhan lotere,Scommesse della lotteria,Apuestas de lotería
+百人投注/结算,ผู้คนหลายร้อยคนเดิมพัน/ชำระบัญชี,Hundreds of bets/Settlement,Ratusan orang bertaruh/penyelesaian,Centinaia di persone scommettono/risolvono,Cientos de personas apostando/liquidando
+单张金额,จำนวนเดียว,Single amount,Jumlah tunggal,Importo unico,Cantidad única
+加载更多,โหลดเพิ่มเติม,Load more,Memuat lebih banyak,Caricare di più,Cargar más
+admin设置,การตั้งค่าผู้ดูแลระบบ,Admin settings,Pengaturan admin,Impostazioni di amministrazione,Configuración de administrador
+数据汇总,สรุปข้อมูล,Data summary,Ringkasan data,Riepilogo dei dati,Resumen de datos
+上月总赢分,คะแนนรวมที่ชนะเมื่อเดือนที่แล้ว,Total win points last month,Total poin yang dimenangkan bulan lalu,Punti totali vinti il mese scorso,Puntos totales ganados el mes pasado
+本月总赢分,คะแนนรวมที่ชนะในเดือนนี้,Total win points this month,Total poin yang dimenangkan bulan ini,Punti totali vinti questo mese,Puntos totales ganados este mes
+玩家状态,สถานะผู้เล่น,Player status,Status pemain,Stato del giocatore,Estado del jugador
+禁用,ปิดการใช้งาน,Disable,Cacat,Disabilita,Desactivar
+冻结账号时间,ระงับเวลาบัญชี,Account freeze time,Bekukan waktu akun,Blocca il tempo dell'account,Congelar el tiempo de la cuenta
+商户管理,การจัดการผู้ค้า,Merchant management,Manajemen pedagang,Gestione del commerciante,Gestión de comerciantes
+商户列表,รายชื่อผู้ค้า,Merchant list,Daftar pedagang,Elenco commercianti,Lista de comerciantes
+商户类型,ประเภทผู้ค้า,Merchant type,Tipe pedagang,Tipologia commerciante,Tipo de comerciante
+线路商,ผู้ให้บริการสาย,Line operator,Penyedia jalur,Fornitore della linea,Proveedor de línea
+请输入商户名称,กรุณากรอกชื่อร้านค้า,Enter the merchant name,Silakan masukkan nama pedagang,Inserisci il nome del commerciante,Por favor ingrese el nombre del comerciante
+开始时间,เวลาเริ่มต้น,Start time,Waktu mulai,Ora di inizio,Hora de inicio
+结束时间,เวลาสิ้นสุด,End time,Waktu akhir,Ora di fine,Tiempo final
+商户编码,รหัสผู้ค้า,Merchant code,Kode pedagang,Codice commerciante,Código de comerciante
+请输入商户编码,กรุณากรอกรหัสร้านค้า,Enter the merchant code,Silakan masukkan kode pedagang,Inserisci il codice commerciante,Por favor ingrese el código de comerciante
+重置,รีเซ็ต,Reset,Mengatur ulang,Reset,Reiniciar
+新增,เพิ่ม,Add,Tambahkan,Aggiungere,Agregar
+商户名称,ชื่อผู้ค้า,Merchant name,Nama pedagang,Nome del commerciante,Nombre del comerciante
+商户账号,บัญชีผู้ค้า,Merchant account,Akun pedagang,Conto commerciante,Cuenta mercantil
+基础信息,ข้อมูลพื้นฐาน,Basic info,Informasi dasar,Informazioni di base,Información básica
+普通旋转（投注）金额,จำนวนสปินปกติ (เดิมพัน),Normal spin (bet) amount,Jumlah putaran (taruhan) normal,Importo del giro normale (scommessa).,Cantidad de giro normal (apuesta)
+普通旋转（投注）次数,จำนวนการหมุนปกติ (เดิมพัน),Normal spins (bets),Jumlah putaran normal (taruhan),Numero di giri normali (scommesse),Número de giros normales (apuestas)
+普通旋转（投注）平均数,สปินปกติ (เดิมพัน) เฉลี่ย,Average number of spins (bets),Rata-rata putaran (taruhan) normal,Media dei giri (scommesse) normali,Promedio de giro normal (apuesta)
+普通旋转（投注）赢分金额,จำนวนเงินที่ชนะการหมุน (เดิมพัน) ปกติ,Normal spin (bet) winning amount,Jumlah kemenangan putaran normal (taruhan).,Importo vincente del giro normale (scommessa).,Monto ganador del giro normal (apuesta)
+购买小游戏次数,จำนวนการซื้อมินิเกม,Number of mini-game purchases,Jumlah pembelian mini-game,Numero di acquisti di minigiochi,Número de compras de minijuegos
+SLOTS游戏,เกมสล็อต,Slots game,Permainan slot,Giochi di slot,Juegos de tragamonedas
+合作模式：收益分成， 本月费率 XX，下个月费率 XX , รูปแบบความร่วมมือ: ส่วนแบ่งรายได้ อัตราของเดือนนี้คือ XX อัตราของเดือนถัดไปคือ XX," cooperation model: revenue sharing, this month's rate is xx, next month's rate is xx"," model kerjasama: bagi hasil, tarif bulan ini xx, tarif bulan depan xx"," modello di cooperazione: compartecipazione alle entrate, la tariffa di questo mese è xx, la tariffa del mese prossimo è xx"," modelo de cooperación: reparto de ingresos, la tarifa de este mes es xx, la tarifa del próximo mes es xx"
+收益分成,การแบ่งปันรายได้,Revenue Sharing,Pembagian Pendapatan,Condivisione delle entrate,Participación en los ingresos
+本月费率,อัตราของเดือนนี้,This month's rate,Tarif bulan ini,Tasso di questo mese,Tasa de este mes
+下个月费率,อัตราของเดือนหน้า,Next month's rate,Tarif bulan depan,Tasso del mese prossimo,Tasa del próximo mes
+商户币种,สกุลเงินของผู้ขาย,Merchant currency,Mata uang pedagang,Valuta del commerciante,Moneda comercial
+客户端默认语言,ภาษาเริ่มต้นของไคลเอ็นต์,Client default language,Bahasa default klien,Lingua predefinita del client,Idioma predeterminado del cliente
+预付款金额,จำนวนเงินที่ชำระล่วงหน้า,Prepayment amount,Jumlah pembayaran di muka,Importo del pagamento anticipato,Monto del pago por adelantado
+剩余预付款,เงินดาวน์คงเหลือ,Remaining advance payment,Sisa uang muka,Acconto residuo,Pago inicial restante
+联系方式,ข้อมูลการติดต่อ,Contact details,Informasi kontak,Informazioni sui contatti,Información del contacto
+服务器地址,ที่อยู่เซิร์ฟเวอร์,Server address,Alamat server,Indirizzo del server,Dirección del servidor
+服务器回调地址,ที่อยู่ติดต่อกลับของเซิร์ฟเวอร์,Server callback address,Alamat panggilan balik server,Indirizzo di richiamata del server,Dirección de devolución de llamada del servidor
+退出全屏按钮,ปุ่มออกจากโหมดเต็มหน้าจอ,Exit full screen button,Tombol keluar dari layar penuh,Pulsante esci dallo schermo intero,Botón salir de pantalla completa
+退出按钮链接,ลิงค์ปุ่มออก,Exit button link,Tautan tombol keluar,Collegamento del pulsante esci,Enlace del botón de salida
+显示名称和链接,ชื่อที่แสดงและลิงค์,Display name and link,Nama tampilan dan tautan,Visualizza nome e collegamento,Nombre para mostrar y enlace
+请输入退出按钮链接,กรุณาใส่ลิงค์ปุ่มออก,Enter the exit button link,Silakan masukkan tautan tombol keluar,Inserisci il link del pulsante di uscita,Por favor ingrese el enlace del botón de salida
+显示名称和时间,ชื่อที่แสดงและเวลา,Display name and time,Tampilkan nama dan waktu,Visualizza nome e ora,Mostrar nombre y hora
+RTP设置,การตั้งค่า RTP,Rtp settings,Pengaturan rtp,Impostazioni rtp,Configuración de rtp
+止损止盈开关,หยุดการขาดทุนและรับผลกำไร,Stop loss and take profit switch,Hentikan kerugian dan ambil keuntungan,Stop loss e cambio di profitto,Cambio de parada de pérdidas y toma de ganancias
+赢取最高投注倍数,ชนะตัวคูณเดิมพันสูงสุด,Win the highest bet multiple,Menangkan pengganda taruhan tertinggi,Vinci il moltiplicatore di scommessa più alto,Gana el multiplicador de apuesta más alto
+个人RTP设置,การตั้งค่า RTP ส่วนบุคคล,Personal rtp settings,Pengaturan rtp pribadi,Impostazioni rtp personali,Configuración personal de rtp
+游戏分类,หมวดหมู่,Category,Kategori,Categoria,Categoría
+游戏搜索,ค้นหาเกม,Game search,Pencarian permainan,Ricerca del gioco,Búsqueda de juegos
+请输入游戏名称,กรุณากรอกชื่อเกม,Enter the game name,Silakan masukkan nama permainan,Inserisci il nome del gioco,Por favor ingresa el nombre del juego
+游戏编号,หมายเลขเกม,Game id,Nomor permainan,Numero di gioco,Numero de juego
+止盈止损开关,ขายทำกำไรและหยุดการขาดทุนสลับ,Stop profit and stop loss switch,Saklar ambil untung dan hentikan kerugian,Prendi profitto e cambia stop loss,Tomar ganancias y detener las pérdidas
+游戏投注,การเดิมพันเกม,Game betting,Taruhan permainan,Scommesse sul gioco,Apuestas de juego
+商户ID,รหัสผู้ขาย,Merchant id,Id pedagang,Id commerciante,Id de comerciante
+免费游戏开关,สลับเกมฟรี,Free game switch,Saklar permainan gratis,Interruttore di giochi gratuiti,Cambio de juegos gratis
+预设面额,สกุลเงินเริ่มต้น,Preset denomination,Denominasi bawaan,Denominazione predefinita,Denominación por defecto
+游戏下注,การเดิมพันเกม,Game betting,Taruhan permainan,Scommesse sul gioco,Apuestas de juegos
+投注详情,รายละเอียดการเดิมพัน,Betting details,Detail taruhan,Dettagli delle scommesse,Detalles de las apuestas
+日志管理,การจัดการบันทึก,Log management,Manajemen catatan,Gestione del registro,Gestión de registros
+个人奖池,เงินรางวัลส่วนตัว,Personal prize pool,Kumpulan hadiah pribadi,Montepremi personale,Bolsa de premios personal
+日子查询-奖池,กลุ่มรางวัลแบบสอบถามวัน,Date query-prize pool,Kumpulan hadiah kueri harian,Montepremi per query giornaliere,Fondo de premios de consulta del día
+待审审批日志-奖池,กลุ่มรางวัลบันทึกการอนุมัติที่รอดำเนินการ,Pending approval log-reward pool,Kumpulan hadiah log menunggu persetujuan,Montepremi del registro in attesa di approvazione,Pendiente de aprobación del registro de premios acumulados
+大额中奖,ชนะรางวัลแจ็คพอตใหญ่,Big prize,Kemenangan jackpot besar,Grande vincita del jackpot,Gran premio mayor
+待审批日志-大额,บันทึกที่รอการอนุมัติเป็นจำนวนมาก,Pending approval log - large amount,Log menunggu persetujuan dalam jumlah besar,Registro in attesa di approvazione: quantità elevata,Registro pendiente de aprobación: gran cantidad
+日志查询-大额,บันทึกแบบสอบถามจำนวนมาก,Log query-large amount,Catat jumlah permintaan yang besar,Registra una quantità elevata di query,Consulta de registro: cantidad grande
+所属运营商+A1209,โอเปอเรเตอร์ในเครือ +A1209,Operator + a1209,Operator afiliasi +a1209,L'operatore affiliato +a1209,El operador afiliado +a1209
+币种,สกุลเงิน,Currency,Mata uang,Valuta,Divisa
+中奖金额,จำนวนเงินที่ชนะ,Winning amount,Jumlah kemenangan,Importo vincente,Monto ganador
+实际派发金额,จำนวนเงินจริงที่กระจาย,Actual distribution amount,Jumlah sebenarnya yang didistribusikan,Importo effettivo distribuito,Cantidad real distribuida
+中奖是触发条件,การชนะคือสิ่งกระตุ้น,Winning a prize is a trigger condition,Kemenangan adalah pemicunya,Vincere è il fattore scatenante,Ganar es el detonante
+核对时间,ตรวจสอบเวลา,Check time,Periksa waktu,Controlla l'ora,Comprobar la hora
+核对人,ตัวตรวจสอบ,Checker,Pemeriksa,Controllore,Inspector
+记录时间,บันทึกเวลา,Recording time,Catat waktu,Tempo record,Tiempo récord
+商户,พ่อค้า,Merchants,Pedagang,Mercante,Comerciante
+风控管理,การจัดการควบคุมความเสี่ยง,Risk control management,Manajemen pengendalian risiko,Gestione del controllo del rischio,Gestión del control de riesgos
+半闭维护,การบำรุงรักษาแบบกึ่งปิด,Semi-closed maintenance,Pemeliharaan semi tertutup,Manutenzione semichiusa,Mantenimiento semicerrado
+半闭维护是白名单用户可以进入游戏,การบำรุงรักษาแบบกึ่งปิดจะอนุญาตให้ผู้ใช้ที่ได้รับอนุญาตพิเศษสามารถเข้าสู่เกมได้,Semi-closed maintenance means whitelisted users can enter the game,Pemeliharaan semi-tertutup memungkinkan pengguna yang masuk daftar putih untuk memasuki game,La manutenzione semi-chiusa consente agli utenti inseriti nella whitelist di accedere al gioco,El mantenimiento semicerrado permite a los usuarios incluidos en la lista blanca ingresar al juego
+全闭维护,การบำรุงรักษาที่ปิดสนิท,Fully closed maintenance,Pemeliharaan tertutup sepenuhnya,Manutenzione completamente chiusa,Mantenimiento completamente cerrado
+全闭维护是所有用户无法进入场馆,การบำรุงรักษาที่ปิดสนิทหมายความว่าผู้ใช้ทุกคนไม่สามารถเข้าสู่สถานที่ได้,Fully closed maintenance means that all users cannot enter the venue,Pemeliharaan yang sepenuhnya tertutup berarti semua pengguna tidak dapat memasuki venue.,La manutenzione completamente chiusa significa che tutti gli utenti non possono accedere alla sede.,El mantenimiento completamente cerrado significa que todos los usuarios no pueden ingresar al recinto.
+操作日志,บันทึกการดำเนินงาน,Operation log,Catatan operasi,Registro delle operazioni,Registro de operaciones
+半闭白名单,บัญชีขาวที่ปิดไว้ครึ่งหนึ่ง,Semi-closed whitelist,Daftar putih setengah tertutup,Whitelist semichiusa,Lista blanca medio cerrada
+维护模式,โหมดการบำรุงรักษา,Maintenance mode,Modus pemeliharaan,Modalità di manutenzione,Modo de mantenimiento
+维护状态,สถานะการบำรุงรักษา,Maintenance status,Status pemeliharaan,Stato di manutenzione,Estado de mantenimiento
+IP地址,ที่อยู่ IP,Ip address,Alamat ip,Indirizzo ip,Dirección ip
+添加时间,เพิ่มเวลา,Add time,Tambahkan waktu,Aggiungi tempo,Agregar tiempo
+倍数,หลายรายการ,Multiple,Banyak,Multiplo,Múltiple
+用户IP,ไอพีผู้ใช้,User ip,Ip pengguna,Ip utente,Ip de usuario
+总投注（电子和百人）,เดิมพันทั้งหมด (อิเล็กทรอนิกส์และ 100 คน),Total bets (electronics and 100 people),Total taruhan (elektronik dan 100 orang),Scommesse totali (elettronica e 100 persone),Apuestas totales (electrónica y 100 personas)
+总赢分（电子和百人）,คะแนนรวมที่ชนะ (อิเล็กทรอนิกส์และ 100 คน),Total win points (electronics and 100 people),Total poin kemenangan (elektronik dan 100 orang),Punti vincenti totali (elettronica e 100 persone),Puntos ganadores totales (electrónica y 100 personas)
+总盈亏（电子和百人）,กำไรขาดทุนรวม (อิเล็กทรอนิกส์และ 100 คน),Total profit and loss (electronics and 100 people),Total untung dan rugi (elektronik dan 100 orang),Profitti e perdite totali (elettronica e 100 persone),Pérdidas y ganancias totales (electrónica y 100 personas)
+回报率（电子和百人）,อัตราผลตอบแทน (อิเล็กทรอนิกส์และ 100 คน),Rate of return (electronics and 100 people),Tingkat pengembalian (elektronik dan 100 orang),Tasso di rendimento (elettronica e 100 persone),Tasa de retorno (electrónica y 100 personas)
+玩家RTP控制列表,รายการควบคุม RTP ของผู้เล่น,Player rtp control list,Daftar kontrol rtp pemain,Elenco di controllo rtp del giocatore,Lista de control de rtp del jugador
+共计,ทั้งหมด ,Total ,Total ,Totale ,Total 
+条数据, ข้อมูล, Data, Data, Dati, Datos
+平台维护,การบำรุงรักษาแพลตฟอร์ม,Platform maintenance,Pemeliharaan platform,Manutenzione della piattaforma,Mantenimiento de plataforma
+半维护,กึ่งบำรุงรักษา,Semi-maintenance,Semi-pemeliharaan,Semi-manutenzione,Semi-mantenimiento
+全维护,การบำรุงรักษาเต็มรูปแบบ,Full maintenance,Pemeliharaan penuh,Manutenzione completa,Mantenimiento completo
+操作者,ตัวดำเนินการ,Operator,Operator,Operatore,Operador
+变化值,เปลี่ยนค่า,Change value,Mengubah nilai,Cambiare valore,Cambiar valor
+调整前数据,ข้อมูลก่อนการปรับ,Data before adjustment,Data sebelum penyesuaian,Dati prima della regolazione,Datos antes del ajuste
+调整后数据,ปรับข้อมูลแล้ว,Adjusted data,Data yang disesuaikan,Dati rettificati,Datos ajustados
+设置成功,ตั้งค่าสำเร็จ,Set up for success,Penyiapan berhasil,Installazione riuscita,Configuración exitosa
+平缓型,ประเภทอ่อนโยน,Smooth type,Tipe lembut,Tipo gentile,Tipo gentil
+混合型,ไฮบริด,Hybrid,Hibrida,Ibrido,Híbrido
+心跳型,ประเภทการเต้นของหัวใจ,Heartbeat type,Tipe detak jantung,Tipo di battito cardiaco,Tipo de latido
+代理商户,บัญชีตัวแทน,Agents,Akun agen,Conto agente,Cuenta de agente
+游戏配置RTP,การกำหนดค่าเกม RTP,Game configuration rtp,Rtp konfigurasi permainan,Configurazione del gioco rtp,Configuración del juego rtp
+玩家历史RTP,ประวัติผู้เล่น RTP,Player historical rtp,Rtp riwayat pemain,Rtp della cronologia del giocatore,Rtp del historial del jugador
+控制RTP,ควบคุม RTP,Controlling rtp,Kontrol rtp,Controlla l'rtp,Controlar rtp
+被控制时RTP,RTP เมื่อได้รับการควบคุม,Rtp when controlled,Rtp saat dikontrol,Rtp quando controllato,Rtp cuando se controla
+批量取消,การยกเลิกแบทช์,Batch cancellation,Pembatalan batch,Cancellazione batch,Cancelación de lote
+请输入用户IP,กรุณากรอก IP ของผู้ใช้,Enter user ip,Silakan masukkan ip pengguna,Inserisci l'ip dell'utente,Por favor ingrese la ip del usuario
+用户IP不能为空,IP ของผู้ใช้ต้องไม่เว้นว่าง,User ip cannot be empty,Ip pengguna tidak boleh kosong,L'ip dell'utente non può essere vuoto,La ip del usuario no puede estar vacía
+半闭维护是在系统当中的IP才能访问场馆,การบำรุงรักษาแบบกึ่งปิดหมายความว่ามีเพียง IP ในระบบเท่านั้นที่สามารถเข้าถึงสถานที่ได้,Semi-closed maintenance requires that only ip addresses in the system can access the venue,Pemeliharaan semi-tertutup berarti hanya ip dalam sistem yang dapat mengakses tempat tersebut.,La manutenzione semichiusa significa che solo l'ip nel sistema può accedere alla sede.,El mantenimiento semicerrado significa que solo la ip del sistema puede acceder al lugar.
+注意,สังเกต,Notice,Melihat,Avviso,Aviso
+合计缴费,ยอดชำระทั้งหมด,Total payment,Jumlah pembayaran,Pagamento totale,Pago total
+购买小游戏总数据,ซื้อข้อมูลทั้งหมดของมินิเกม,Total data of purchased mini games,Beli total data mini-game,Acquista i dati totali dei minigiochi,Compra de datos totales de minijuegos.
+购买小游戏七日,ซื้อมินิเกมเป็นเวลาเจ็ดวัน,Buy a mini game for seven days,Beli mini game selama tujuh hari,Acquista minigiochi per sette giorni,Compra minijuegos durante siete días
+购买小游戏本月,ซื้อมินิเกมในเดือนนี้,Buy mini games this month,Beli mini game bulan ini,Acquista minigiochi questo mese,Compra minijuegos este mes
+本月数据,ข้อมูลเดือนนี้,This month's data,Data bulan ini,I dati di questo mese,Los datos de este mes.
+七日数据,ข้อมูลเจ็ดวัน,Seven-day data,Data tujuh hari,Dati di sette giorni,Datos de siete días
+指标名称,ชื่อตัวบ่งชี้,Indicator name,Nama indikator,Nome dell'indicatore,Nombre del indicador
+今日下注,วางเดิมพันของคุณวันนี้,Bet today,Pasang taruhan anda hari ini,Piazza la tua scommessa oggi,Haz tu apuesta hoy
+历史下注,การเดิมพันทางประวัติศาสตร์,Historical betting,Taruhan sejarah,Scommesse storiche,Apuestas históricas
+历史输赢,ชัยชนะและความพ่ายแพ้ครั้งประวัติศาสตร์,Historical wins and losses,Kemenangan dan kekalahan bersejarah,Vittorie e sconfitte storiche,Victorias y derrotas históricas
+今日输赢,วันนี้จะชนะหรือแพ้,Today's win or loss,Menang atau kalah hari ini,La vittoria o la sconfitta di oggi,La victoria o la derrota de hoy
+搜索时间,เวลาค้นหา,Search time,Waktu pencarian,Tempo di ricerca,Tiempo de búsqueda
+所属商户,พ่อค้า,Merchant,Pedagang,Mercante,Comerciante
+用户账户,บัญชีผู้ใช้,User accounts,Akun pengguna,Conto utente,Cuenta de usuario
+今日下注额,จำนวนเงินเดิมพันวันนี้,Today's bet amount,Jumlah taruhan hari ini,Importo della scommessa di oggi,Monto de la apuesta de hoy
+历史下注额,จำนวนเงินเดิมพันในอดีต,Historical betting amount,Jumlah taruhan historis,Importo scommessa storica,Monto histórico de la apuesta
+调控玩家,ควบคุมผู้เล่น,Controlling players,Kontrol pemain,Controlla i giocatori,Controlar jugadores
+当该用户回报率达到目标值回复,ตอบกลับเมื่ออัตราผลตอบแทนของผู้ใช้ถึงค่าเป้าหมาย,"When the user return rate reaches the target value, reply",Membalas ketika tingkat pengembalian pengguna mencapai nilai target,Rispondi quando il tasso di rendimento dell'utente raggiunge il valore target,Responder cuando la tasa de retorno del usuario alcance el valor objetivo
+请选择游戏厂商,เลือกผู้ให้บริการ,Select provider,Pilih penyedia,Seleccionar proveedor,Seleziona fornitore
+请选择游戏,เลือกเกม,Select Game,Pilih Permainan,Seleziona gioco,Seleccionar juego
+账号RTP,บัญชีRTP,Account rtp,Akunrtp,Accountrtp,Cuentartp
+自动解除控制,ปล่อยการควบคุมอัตโนมัติ,Automatic release control,Pelepasan kendali secara otomatis,Rilascio automatico del controllo,Liberación automática del control.
+确认取消当前的RTP控制,ยืนยันการยกเลิกการควบคุม RTP ปัจจุบัน,Confirm to cancel the current rtp control,Konfirmasikan untuk membatalkan kontrol rtp saat ini,Conferma per annullare il controllo rtp corrente,Confirmar para cancelar el control rtp actual
+转账预警,การแจ้งเตือนการโอน,Transfer warning,Peringatan transfer,Avviso di trasferimento,Alerta de transferencia
+转账预警（总控）,คำเตือนการโอน (ตัวควบคุมหลัก),Transfer warning (Master control),Peringatan transfer (Kontrol master),Avviso di trasferimento (controllo master),Advertencia de transferencia (control maestro)
+转出金额,จำนวนเงินที่โอน,Transfer amount,Jumlah transfer,Importo del trasferimento,Monto de la transferencia
+触发时间,เวลาทริกเกอร์,Trigger time,Waktu pemicu,Tempo di attivazione,Tiempo de activación
+全部已读,อ่านทั้งหมด,All read,Semua dibaca,Tutti letti,Todo leído
+已读,อ่าน,Read,Membaca,Leggere,Leer
+未读,ยังไม่ได้อ่าน,Unread,Belum dibaca,Non letto,No leído
+回报率预警,อัตราการกลับคำเตือน,Return rate warning,Peringatan tingkat pengembalian,Avviso sul tasso di rendimento,Advertencia de tasa de retorno
+回报率预警（总控）,ระบบเตือนอัตราการส่งกลับ (ระบบควบคุมหลัก),Return rate warning (Master control),Peringatan tingkat pengembalian (Kontrol utama),Avviso di tasso di ritorno (controllo master),Aviso de tasa de retorno (Control maestro)
+总盈利,กำไรทั้งหมด,Total profit,Keuntungan total,Profitto totale,Beneficio total
+日志描述,คำอธิบายบันทึก,Log description,Deskripsi log,Descrizione del registro,Descripción del registro
+游戏报表,รายงานเกม,Game report,Laporan permainan,Resoconto della partita,Informe del juego
+总控,การควบคุมหลัก,Master control,Kontrol utama,Controllo principale,Control maestro
+信息,ข้อมูล,Info,Info,Info,Info
+联系人,ผู้ติดต่อ,Contact,Kontak person,Referente,Persona de contacto
+合作模式,โหมดความร่วมมือ,Cooperation model,Modus kerjasama,Modalità di cooperazione,Modo de cooperación
+平台费,ค่าธรรมเนียมแพลตฟอร์ม,Platform fee,Biaya platform,Tariffa della piattaforma,Tarifa de plataforma
+会员前缀,คำนำหน้าสมาชิก,Member prefix,Awalan anggota,Prefisso membro,Prefijo de miembro
+请输入会员前缀,กรุณากรอกคำนำหน้าสมาชิก,Enter the member prefix,Silakan masukkan awalan anggota,Inserisci il prefisso del membro,Por favor ingrese el prefijo de miembro
+请输入服务器回调地址,กรุณากรอกที่อยู่ติดต่อกลับของเซิร์ฟเวอร์,Enter the server callback address,Silakan masukkan alamat panggilan balik server,Inserisci l'indirizzo di richiamata del server,Por favor ingrese la dirección de devolución de llamada del servidor
+请输入用户白名单,กรุณากรอกรายชื่อผู้ใช้ที่อนุญาต,Enter the user whitelist,Silakan masukkan daftar putih pengguna,Inserisci la lista bianca degli utenti,Por favor ingrese la lista blanca de usuarios
+商户名称不能为空,ชื่อผู้ขายต้องไม่เว้นว่าง,Merchant name cannot be empty,Nama pedagang wajib diisi,Il nome del commerciante non può essere vuoto,El nombre del comerciante no puede estar vacío
+商户账号不能为空,บัญชีผู้ขายไม่สามารถเว้นว่างได้,Merchant account cannot be empty,Akun pedagang tidak boleh kosong,Il conto commerciante non può essere vuoto,La cuenta de comerciante no puede estar vacía
+请选择合作模式,โปรดเลือกโหมดความร่วมมือ,Select the cooperation mode,Silakan pilih mode kerjasama,Seleziona la modalità di cooperazione,Por favor seleccione el modo de cooperación
+服务器回调地址不能为空,ที่อยู่ติดต่อกลับของเซิร์ฟเวอร์ต้องไม่เว้นว่าง,Server callback address cannot be empty,Alamat panggilan balik server tidak boleh kosong,L'indirizzo di richiamata del server non può essere vuoto,La dirección de devolución de llamada del servidor no puede estar vacía
+新商户默认密码,รหัสผ่านเริ่มต้นของผู้ขายใหม่,New merchant default password,Kata sandi default pedagang baru,Nuova password predefinita del commerciante,Nueva contraseña predeterminada del comerciante
+"有未填写的联系方式,请补全后添加",มีข้อมูลการติดต่อที่ยังไม่ได้กรอก กรุณากรอกและเพิ่ม,"There are contact details that are not filled in, please complete them and add them","Ada informasi kontak yang belum terisi, silakan lengkapi dan tambahkan.","Sono presenti informazioni di contatto non compilate, completale e aggiungile.","Hay información de contacto sin completar, complétela y agréguela."
+请选择商户类型,กรุณาเลือกประเภทร้านค้า,Select merchant type,Silakan pilih jenis pedagang,Seleziona il tipo di commerciante,Por favor seleccione el tipo de comerciante
+请选择商户币种,เลือกสกุลเงินของผู้ค้า,Select merchant currency,Pilih mata uang merchant,Seleziona la valuta del commerciante,Seleccione la moneda del comerciante
+添加商户,เพิ่มร้านค้า,Add merchant,Tambahkan pedagang,Aggiungi commerciante,Agregar comerciante
+最高投注数,จำนวนเดิมพันสูงสุด,Maximum bet amount,Jumlah taruhan maksimum,Numero massimo di scommesse,Número máximo de apuestas
+最高投注数可设置30~10000区间,"จำนวนเงินเดิมพันสูงสุดสามารถกำหนดได้ตั้งแต่ 30 ถึง 10,000","The maximum bet amount can be set between 30 and 10,000",Jumlah taruhan maksimum dapat diatur dari 30 hingga 10.000,L'importo massimo della scommessa può essere impostato da 30 a 10.000,El importe máximo de la apuesta se puede establecer entre 30 y 10.000
+面额,นิกาย,Denomination,Denominasi,Denominazione,Denominación
+BET值,มูลค่าเดิมพัน,Bet value,Nilai taruhan,Valore della scommessa,Valor de apuesta
+警告,เตือน,Warn,Memperingatkan,Avvisare,Advertir
+确认操作,ยืนยันการดำเนินการ,Confirm the operation,Konfirmasikan tindakan,Conferma l'azione,Confirmar acción
+未找到玩家,ไม่พบผู้เล่น,Player not found,Pemain tidak ditemukan,Giocatore non trovato,Jugador no encontrado
+玩家,ผู้เล่น,Player,Pemain,Giocatore,Jugador
+状态已修改,สถานะได้รับการแก้ไขแล้ว,Status modified,Status telah diubah,Lo stato è stato modificato,El estado ha sido modificado.
+批量修改RTP,แก้ไข RTP เป็นชุด,Batch modify RTP,Ubah RTP secara batch,Modifica RTP in batch,Modificar RTP en lotes
+账号状态,สถานะบัญชี,Account Status,Status akun,Stato dell'account,Estado de la cuenta
+在线状态,สถานะออนไลน์,Online Status,Status daring,Stato in linea,Estado en línea
+所属线路商,ผู้ให้บริการสายที่เป็นของ,Line carrier,Penyedia jalur milik,Fornitore della linea di appartenenza,Proveedor de línea de pertenencia
+总输赢,ชนะหรือแพ้ทั้งหมด,Total wins and losses,Menang atau kalah total,Vincita o perdita totale,Ganancia o pérdida total
+调控游戏,เกมควบคุม,Control Game,Permainan kontrol,Gioco di controllo,Juego de control
+所属余额,ยอดคงเหลือที่สอดคล้องกัน,Balance,Saldo yang sesuai,Il saldo corrispondente,El saldo correspondiente
+所属线路商余额,ยอดคงเหลือของผู้ให้บริการสายในเครือ,Balance of the line carrier,Saldo penyedia jalur terafiliasi,Saldo del fornitore della linea affiliata,Saldo del proveedor de línea afiliado
+会员信息,ข้อมูลสมาชิก,Member info,Informasi anggota,Informazioni sui membri,Información de miembro
+当前回报率,อัตราผลตอบแทนปัจจุบัน,Current rate of return,Tingkat pengembalian saat ini,Tasso di rendimento attuale,Tasa de rendimiento actual
+退出按钮,ปุ่มออก,Exit Button,Tombol keluar,Pulsante di uscita,Botón de salida
+最高投注倍数,ตัวคูณเดิมพันสูงสุด,Maximum bet multiple,Pengganda taruhan maksimum,Moltiplicatore massimo della scommessa,Multiplicador de apuesta máxima
+显示名字和时间,แสดงชื่อและเวลา,Display name and time,Tampilkan nama dan waktu,Mostra nome e ora,Mostrar nombre y hora
+在,ใน ,In ,Di dalam ,In ,En 
+盈利, กำไร, Profit, Laba, Profitto, Ganancia
+维护完成,การบำรุงรักษาเสร็จสิ้น,Maintenance completed,Pemeliharaan selesai,Manutenzione completata,Mantenimiento completado
+所属运行商,ผู้ประกอบการที่เป็นเจ้าของ,Operator,Operator milik,Operatore di proprietà,Operador propio
+未核对,ไม่ได้ตรวจสอบ,Unchecked,Tidak diperiksa,Non controllato,No comprobado
+已核对,ตรวจสอบแล้ว,Checked,Diperiksa,Controllato,Comprobado
+重置密码,รีเซ็ตรหัสผ่าน,Reset Password,Mengatur ulang kata sandi,Reimpostare la password,Restablecer contraseña
+编辑,แก้ไข,Edit,Sunting,Modificare,Editar
+商户和币种至少一个必填,ต้องมีผู้ขายและสกุลเงินอย่างน้อยหนึ่งรายการ,At least one of the merchant and currency is required,Setidaknya satu pedagang dan mata uang diperlukan,È richiesto almeno uno tra commerciante e valuta,Se requiere al menos uno de comerciante y moneda.
+流水,ฝ่ายขาย,Sales,Penjualan,Saldi,Ventas
+记录,บันทึก,Record,Catatan,Documentazione,Registro
+在线,ออนไลน์,Online,Daring,In linea,En línea
+离线,ออฟไลน์,Offline,Luring,Non in linea,Desconectado
+下月指标,ตัวชี้วัดเดือนหน้า,Next month's indicators,Indikator bulan depan,Indicatore del mese prossimo,Indicador del próximo mes
+默认语言,ภาษาเริ่มต้น,Default language,Bahasa bawaan,Lingua predefinita,Idioma predeterminado
+请输入商户账号,ป้อนบัญชีผู้ค้า,Enter the merchant account,Masukkan rekening pedagang,Inserisci il conto del commerciante,Ingrese a la cuenta mercantil
+请输入用户名称,กรอกชื่อผู้ใช้,Enter the user name,Masukkan nama pengguna,Inserisci il nome utente,Ingrese el nombre de usuario
+每日游戏,เกมรายวัน,Daily games,Permainan harian,Gioco quotidiano,Juego diario
+该运营商未使用这个币种,โอเปอเรเตอร์นี้ไม่ได้ใช้สกุลเงินนี้,This operator does not use this currency,Operator ini tidak menggunakan mata uang ini,Questo operatore non utilizza questa valuta,Este operador no utiliza esta moneda
+换算,การเปลี่ยนแปลง,Conversion,Konversi,Conversione,Konversi
+半维护状态与全维护状态不可同时开启,ไม่สามารถเปิดใช้งานสถานะกึ่งการบํารุงรักษาและสถานะการบํารุงรักษาเต็มรูปแบบพร้อมกันได้,The semi-maintenance state and the full maintenance state cannot be enabled at the same time,Status semi-pemeliharaan dan status pemeliharaan penuh tidak dapat diaktifkan secara bersamaan,Lo stato di semi-manutenzione e lo stato di manutenzione completa non possono essere abilitati contemporaneamente,El estado de semimantenimiento y el estado de mantenimiento completo no se pueden habilitar al mismo tiempo
+修改错误,แก้ไขข้อผิดพลาด,Fix the error,Perbaiki kesalahan,Correggi l'errore,Arreglar el error
+游戏ID已存在,รหัสเกมมีอยู่แล้ว,The game ID already exists,ID game sudah ada,L'ID del gioco esiste già,El ID del juego ya existe
+不能添加admin运营商,คุณไม่สามารถเพิ่มโอเปอเรเตอร์ผู้ดูแลระบบได้,You cannot add an admin operator,Anda tidak dapat menambahkan operator admin,Non è possibile aggiungere un operatore amministratore,No se puede agregar un operador de administración
+账户未设置权限,บัญชีไม่ได้ตั้งค่าสิทธิ์,The account does not have permissions set,Akun tidak memiliki izin yang ditetapkan,L'account non dispone di autorizzazioni impostate,La cuenta no tiene permisos establecidos
+商户不存在,ร้านค้าไม่มีอยู่จริง,The merchant does not exist,Merchant tidak ada,Il commerciante non esiste,El comerciante no existe
+该币种下没有这个商户或未代理该商户,ไม่มีผู้ค้าในสกุลเงินนี้หรือไม่มีตัวแทนสําหรับผู้ค้ารายนี้,There is no merchant in this currency or there is no agent for this merchant,Tidak ada pedagang dalam mata uang ini atau tidak ada agen untuk pedagang ini,Non esiste un commerciante in questa valuta o non esiste un agente per questo commerciante,No hay ningún comerciante en esta moneda o no hay un agente para este comerciante
+未填写商户,ร้านค้าไม่เต็ม,Merchant is not filled,Merchant tidak terisi,Il commerciante non è stato compilato,El comerciante no está lleno
+添加失败,เพิ่มไม่สําเร็จ,Failed to add,Gagal menambahkan,Impossibile aggiungere,No se pudo agregar
+修改失败,การปรับเปลี่ยนล้มเหลว,The modification failed,Modifikasi gagal,La modifica non è riuscita,Error en la modificación
+个人RTP权限已关闭,สิทธิ์ RTP ส่วนบุคคลถูกปิด,Personal RTP permissions are turned off,Izin RTP pribadi dinonaktifkan,Le autorizzazioni RTP personali sono disattivate,Los permisos personales de RTP están desactivados
+操作用户,ผู้ดำเนินการ,Operator,Operator,Operatore,Operador
+字段名称,ชื่อฟิลด์,Field name,Nama bidang,Nome del campo,Nombre del campo
+厂商名称,ผู้ผลิต,Provider,Penyedia,Fornitore,Proveedor
+语言配置获取失败,ไม่สามารถรับการกําหนดค่าภาษาได้,Failed to obtain the language configuration,Gagal mendapatkan konfigurasi bahasa,Impossibile ottenere la configurazione della lingua,No se pudo obtener la configuración de idioma
+服务器IP白名单,รายการที่อนุญาตพิเศษที่อยู่ IP ของเซิร์ฟเวอร์,Server IP address whitelist,Daftar putih alamat IP server,Whitelist degli indirizzi IP del server,Lista blanca de direcciones IP del servidor
+关闭RTP调控失败,ไม่สามารถปิดใช้งานการกลั่นกรอง RTP,Failed to disable RTP moderation,Gagal menonaktifkan moderasi RTP,Impossibile disabilitare la moderazione RTP,No se pudo deshabilitar la moderación de RTP
+商户为必填项,ผู้ค้าเป็นสิ่งจําเป็น,Merchant is required,Merchant diperlukan,È richiesto il commerciante,Se requiere comerciante
+状态调整失败,การปรับสถานะล้มเหลว,The status adjustment failed,Penyesuaian status gagal,La regolazione dello stato non è riuscita,Error en el ajuste de estado
+玩家唯一标识解析错误,ข้อผิดพลาดในการแยกวิเคราะห์ตัวระบุเฉพาะของผู้เล่น,Player Unique Identifier parsing error,Kesalahan penguraian Pengidentifikasi Unik Pemain,Errore di analisi dell'identificatore univoco del giocatore,Error de análisis del identificador único del jugador
+请选择玩家,โปรดเลือกผู้เล่น,Please select a player,Silakan pilih pemain,Seleziona un giocatore,"Por favor, selecciona un jugador"
+未代理该商户,ผู้ค้าไม่ได้เป็นตัวแทน,The merchant is not represented,Merchant tidak diwakili,Il commerciante non è rappresentato,El comerciante no está representado
+该商户未使用这个币种,ผู้ค้าไม่ได้ใช้สกุลเงินนี้,The merchant does not use this currency,Merchant tidak menggunakan mata uang ini,Il commerciante non utilizza questa valuta,El comerciante no utiliza esta moneda
+请在商戶和币种选择其中一个,โปรดเลือกหนึ่งในร้านค้าและสกุลเงิน,Please select one of the merchant and currency,Silakan pilih salah satu merchant dan mata uang,Si prega di selezionare uno dei commercianti e la valuta,Seleccione uno de los comerciantes y la moneda
+请选择商户,โปรดเลือกร้านค้า,Please select a merchant,Silakan pilih merchant,Seleziona un commerciante,"Por favor, seleccione un comerciante"
+不能添加admin商户,ไม่สามารถเพิ่มผู้ขายผู้ดูแลระบบได้,It is not possible to add admin merchants,Tidak mungkin menambahkan merchant admin,Non è possibile aggiungere esercenti amministratori,No es posible agregar comerciantes administradores
+获取配置失败,รับการกําหนดค่าไม่สําเร็จ,Failed to get the configuration,Gagal mendapatkan konfigurasi,Impossibile ottenere la configurazione,No se pudo obtener la configuración
+请填写至少一个联系方式,กรุณากรอกข้อมูลการติดต่ออย่างน้อยหนึ่งรายการ,Please fill in at least one contact details,Silakan isi setidaknya satu informasi kontak,Inserisci almeno un'informazione di contatto,Por favor complete al menos una información de contacto
+边框,กรอบ,Frame,Bingkai,Inquadrare,Marco
+表头,ส่วนหัว,Header,Tajuk,Intestazione,Encabezamiento
+高度铺满,ปูพื้นอย่างดี,Highly paved,Beraspal tinggi,Altamente pavimentato,Altamente pavimentato
+宽松,หย่อน,Loose,Lax,Trascurato,Laxo
+中等,ปานกลาง,Medium,Sedang,Medio,Medio
+紧凑,ข้อตกลง,Compact,Padat,Compatto,Compacto
+用户登录已超时,หมดเวลาเข้าสู่ระบบของผู้ใช้,User login timeout,Batas waktu login pengguna habis,Timeout di accesso utente,Tiempo de espera de inicio de sesión del usuario
+游戏厂商,ผู้ผลิต,Provider,Penyedia,Fornitore,Proveedor
+请输入备注,ป้อนหมายเหตุ,Enter notes,Masukkan catatan,Inserisci delle note,Introducir notas
+确认取消修改当前商户,ยืนยันการยกเลิกร้านค้าปัจจุบัน,Confirm the cancellation of the current merchant,Konfirmasikan pembatalan merchant saat ini,Confermare l'annullamento dell'attuale commerciante,Confirmar la cancelación del comerciante actual
+是否确认,ยืนยันหรือไม่,Confirm or not,Konfirmasi atau tidak,Confermare o meno,Confirmar o no
+确认添加商户,ยืนยันเพื่อเพิ่มผู้ขาย,Confirm to add merchants,Konfirmasi untuk menambahkan merchant,Conferma per aggiungere commercianti,Confirmar para agregar comerciantes
+确认对用户进行RTP设置,ยืนยันว่าตั้งค่า RTP สําหรับผู้ใช้,Confirm that the RTP settings are set for the user,Konfirmasikan bahwa pengaturan RTP diatur untuk pengguna,Verificare che le impostazioni RTP siano configurate per l'utente,Confirme que la configuración de RTP esté configurada para el usuario
+确认关闭该用户的游戏调控,ยืนยันว่าปิดการกลั่นกรองเกมสําหรับผู้ใช้,Confirm that game moderation is turned off for the user,Konfirmasikan bahwa moderasi game dinonaktifkan untuk pengguna,Verifica che la moderazione del gioco sia disattivata per l'utente,Confirme que la moderación del juego está desactivada para el usuario
+确认审核当前预警,ยืนยันการตรวจสอบการแจ้งเตือนปัจจุบัน,Confirm the review of the current alert,Konfirmasikan peninjauan pemberitahuan saat ini,Confermare la revisione dell'avviso corrente,Confirmar la revisión de la alerta actual
+是否确定删除选中的白名单用户,ยืนยันว่าจะลบผู้ใช้ที่อนุญาตพิเศษที่เลือกหรือไม่,Confirm whether to delete the selected whitelisted users,Konfirmasikan apakah akan menghapus pengguna yang diizinkan yang dipilih,Conferma se eliminare gli utenti selezionati nella whitelist,Confirme si desea eliminar los usuarios seleccionados de la lista blanca
+确认修改用户,ยืนยันการปรับเปลี่ยนของผู้ใช้,Confirm the modification of the user,Konfirmasikan modifikasi pengguna,Conferma la modifica dell'utente,Confirmar la modificación del usuario
+确认重置该用户密码,ยืนยันการรีเซ็ตรหัสผ่านของผู้ใช้,Confirm to reset the user's password,Konfirmasi untuk mengatur ulang kata sandi pengguna,Conferma per reimpostare la password dell'utente,Confirmar para restablecer la contraseña del usuario
+确认对选中的游戏进行设置RTP,ยืนยันว่าตั้งค่า RTP สําหรับเกมที่เลือกแล้ว,Confirm that the RTP is set for the selected game,Konfirmasikan bahwa RTP diatur untuk game yang dipilih,Verifica che l'rtp sia impostato per il gioco selezionato,Confirme que el RTP está configurado para el juego seleccionado
+确认调整当前游戏运行状态,ยืนยันว่าสถานะการทํางานของเกมปัจจุบันได้รับการปรับแล้ว,Confirm that the current game running status is adjusted,Konfirmasikan bahwa status game yang sedang berjalan saat ini disesuaikan,Verifica che lo stato di esecuzione del gioco corrente sia regolato,Confirme que el estado de ejecución actual del juego está ajustado
+确认修改游戏设置,ยืนยันเพื่อแก้ไขการตั้งค่าเกม,Confirm to modify the game settings,Konfirmasi untuk mengubah pengaturan game,Conferma per modificare le impostazioni di gioco,Confirmar para modificar la configuración del juego
+确认删除下注配置,ยืนยันการลบการกําหนดค่าการเดิมพัน,Confirm the deletion of the betting configuration,Konfirmasikan penghapusan konfigurasi taruhan,Conferma l'eliminazione della configurazione delle scommesse,Confirmar la eliminación de la configuración de apuestas
+归属国家,ประเทศที่สังกัด,Country of Belonging,Negara Asal,Paese di appartenenza,País de pertenencia
+请选择归属国家,เลือกประเทศ,Select country,Pilih negara,Seleziona il paese,Seleccione país
+泰国,TH,TH,TH,TH,TH
+菲律宾,PH,PH,PH,PH,PH0
+巴西,BR,BR,BR,BR,BR
+美国,US,US,US,US,US
+赢取最高倍数,ชนะตัวคูณสูงสุด,Win highest multiplier,Menangkan pengganda tertinggi,Vinci il moltiplicatore più alto,Gana el multiplicador más alto
+赢取最高钱数,ชนะเงินสูงสุด,Win highest money,Menangkan uang tertinggi,Vinci il denaro più alto,Gana el dinero más alto
+自动解除RTP,ปล่อย RTP โดยอัตโนมัติ,Automatically release RTP,Rilis RTP secara otomatis,Rilascia automaticamente RTP,Liberar RTP automáticamente
+控制时间,ควบคุมเวลา,Control time,Waktu kontrol,Tempo di controllo,Controlar el tiempo
+请输入唯一标识,ป้อนตัวระบุที่ไม่ซ้ำ,Enter unique identifier,Masukkan pengenal unik,Inserisci un identificatore univoco,Introduzca un identificador único
+待审批日志-奖池,กลุ่มรางวัลบันทึกการอนุมัติที่รอดำเนินการ,Pending Approval Log-Reward Pool,Log Persetujuan Tertunda-Kumpulan Hadiah,Registro approvazione in sospeso - Pool di premi,Grupo de recompensas de registro de aprobación pendiente
+日志查询-奖池,บันทึกการค้นหา-รางวัล,Log Query-Prize Pool,Kumpulan Hadiah Kueri Log,Log delle query-montepremi,Consulta de registro: pozo de premios
+运营商默认权限组,กลุ่มการอนุญาตเริ่มต้นของผู้ให้บริการ,Carrier default permission group,Grup izin default operator,Gruppo di autorizzazioni predefinito dell'operatore,Grupo de permisos predeterminado del transportista
+线路商默认权限组,กลุ่มการอนุญาตเริ่มต้นของผู้ให้บริการสาย,Line provider default permission group,Grup izin default penyedia jalur,Gruppo di autorizzazioni predefinito del provider di linea,Grupo de permisos predeterminados del proveedor de línea
+超级管理员,ผู้ดูแลระบบระดับสูง,Super Administrator,Administrator super,Super amministratore,Superadministrador
+chatId填写机器码不能为空,ChatId กรอกรหัสเครื่องและไม่สามารถเว้นว่างได้,The chatId machine code cannot be empty,ChatId mengisi kode mesin dan tidak boleh kosong,ChatId inserisce il codice macchina e non può essere vuoto,ChatId completa el código de máquina y no puede estar vacío
+机器码填写chatId不能为空,chatId ที่กรอกในรหัสเครื่องต้องไม่เว้นว่าง,The chatId in the machine code cannot be empty,ChatId yang diisi kode mesin tidak boleh kosong.,Il chatId inserito nel codice macchina non può essere vuoto,El chatId completado en el código de máquina no puede estar vacío.
+今日总投注,ยอดเดิมพันรวมวันนี้,Total bets today,Total taruhan hari ini,Scommesse totali oggi,Apuestas totales hoy
+本月总投注,ยอดเดิมพันรวมในเดือนนี้,Total bets this month,Total taruhan bulan ini,Scommesse totali questo mese,Apuestas totales este mes
+上月总投注,ยอดเดิมพันรวมเดือนที่แล้ว,Total bets last month,Total taruhan bulan lalu,Scommesse totali del mese scorso,Apuestas totales del mes pasado
+设置规则,ตั้งกฎเกณฑ์,Set rules,Tetapkan aturan,Stabilisci le regole,Establecer reglas
+转账值不能添加多个条件,ค่าโอนไม่สามารถเพิ่มเงื่อนไขหลายรายการได้,Transfer value cannot add multiple conditions,Nilai transfer tidak dapat menambahkan beberapa kondisi,Il valore di trasferimento non può aggiungere alcune condizioni,El valor de transferencia no puede sumar múltiples condiciones
+添加如果,เพิ่มถ้า,Add if,Tambahkan jika,Aggiungi se,Agregar si
+添加规则,เพิ่มกฎเกณฑ์,Add rules,Tambahkan aturan,Aggiungi regole,Agregar reglas
+请输入触发值,ป้อนค่าทริกเกอร์,Enter trigger value,Masukkan nilai pemicu,Inserisci il valore di attivazione,Ingresar valor de activación
+机器人识别码,รหัสประจำตัวบอท,BOT Identification code,Kode Identifikasi BOT,Codice identificativo BOT,Código de identificación del BOT
+请输入机器人识别码,กรอกรหัสประจำตัว BOT,Enter BOT identification code,Masukkan kode identifikasi BOT,Inserisci il codice identificativo BOT,Ingrese el código de identificación BOT
+请输入chatId,ป้อน chatId,Enter chatId,Masukkan chatId,Inserisci chatId,Ingresar el ID del chat
+Telegram机器人所在频道ID,ID ช่อง Telegram BOT,Telegram BOT channel ID,ID saluran BOT Telegram,ID canale BOT Telegram,ID del canal BOT de Telegram
+Telegram机器人识别码,รหัสระบุตัวตนของ Telegram BOT,Telegram BOT identification code,Kode identifikasi BOT Telegram,Codice identificativo BOT di Telegram,Código de identificación del BOT de Telegram
+确认设置预警值么,ยืนยันการตั้งค่าคำเตือนหรือไม่,Confirm to set the warning value?,Konfirmasi untuk menetapkan nilai peringatan?,Confermare l'impostazione del valore di avviso?,Confirmar para configurar el valor de advertencia?
+如果,ถ้า,If,Jika,Se,Si
+并且,และ,And,Dan,E,Y
+那么,ดังนั้น,So,Jadi,Quindi,Entonces
+风控预警设置（总控）,การตั้งค่าคำเตือนการควบคุมความเสี่ยง (การควบคุมหลัก),Risk control warning settings (master control),Pengaturan peringatan pengendalian risiko (kontrol induk),Impostazioni di avviso del controllo del rischio (controllo principale),Configuración de advertencia de control de riesgo (control maestro)
+累计盈利,กำไรสะสม,Cumulative profit,Keuntungan kumulatif,Profitto cumulativo,Ganancias acumuladas
+单笔盈利,กำไรเดี่ยว,Single profit,Keuntungan tunggal,Profitto singolo,Ganancias individuales
+发出预警,คำเตือนปัญหา,Issue warning,Terbitkan peringatan,Avviso di emissione,Emitir advertencia
+转账值,มูลค่าการโอน,Transfer value,Nilai transfer,Valore di trasferimento,Transferir valor
+上传,อัปโหลด,Upload,Unggah,Carica,Subir
+当该用户回报率达到目标值恢复,เมื่ออัตราการส่งคืนของผู้ใช้ถึงค่าเป้าหมาย อัตราดังกล่าวจะกลับมาทำงานต่อ,"When the user return rate reaches the target value, it will resume","Ketika tingkat pengembalian pengguna mencapai nilai target, maka akan dilanjutkan","Quando il tasso di ritorno dell'utente raggiunge il valore target, riprenderà","Cuando la tasa de retorno del usuario alcance el valor objetivo, se reanudará."
+账号,บัญชี,Account,Akun,Account,Cuenta
+预警类型存在重复的请检查后提交,ประเภทคำเตือนซ้ำ โปรดตรวจสอบก่อนส่ง,"The warning type is duplicated, please check before submitting.","Jenis peringatan diduplikasi, harap periksa sebelum mengirimkan.","Il tipo di avviso è duplicato, controllare prima di inviare.",El tipo de advertencia está duplicado; compruébelo antes de enviarlo.
+该类型已存在,ประเภทนี้มีอยู่แล้ว,This type already exists,Tipe ini sudah ada,Questo tipo esiste già,Este tipo ya existe
+默认投注金额,จำนวนเงินเดิมพันเริ่มต้น,Default bet amount,Jumlah taruhan default,Importo puntata predefinito,Monto de apuesta predeterminado
+线注额度,จำนวนเงินเดิมพันต่อบรรทัด,Line bet amount,Jumlah taruhan baris,Importo puntata linea,Monto de apuesta de línea
+设置玩家进入游戏时的初始默认投注金额：投注金额=投注额*投注倍数*游戏线数,กำหนดจำนวนเงินเดิมพันเริ่มต้นเมื่อผู้เล่นเข้าสู่เกม: จำนวนเงินเดิมพัน = จำนวนเงินเดิมพัน * จำนวนเดิมพัน * จำนวนบรรทัดเกม,Set the initial default bet amount when the player enters the game: bet amount = bet amount * bet multiple * number of game lines,Tetapkan jumlah taruhan default awal saat pemain memasuki permainan: jumlah taruhan = jumlah taruhan * kelipatan taruhan * jumlah baris permainan,Imposta l'importo puntata predefinito iniziale quando il giocatore entra nel gioco: importo puntata = importo puntata * multiplo puntata * numero di linee di gioco,Establezca el monto de apuesta predeterminado inicial cuando el jugador ingresa al juego: monto de apuesta = monto de apuesta * múltiplo de apuesta * número de líneas de juego
+投注倍数,เดิมพันหลายรายการ,Bet multiple,Kelipatan taruhan,Multiplo puntata,Múltiplo de apuesta
+0.01投注倍数10 * 游戏线数30=总投注3,0.01 เดิมพันหลาย 10 * ไลน์เกม 30 = เดิมพันรวม 3,0.01 Bet Multiple 10 * Game Lines 30 = Total Bet 3,"0,01 Taruhan Kelipatan 10 * Garis Permainan 30 = Total Taruhan 3","0,01 Scommessa Multipla 10 * Linee Di Gioco 30 = Scommessa Totale 3","0,01 Apuesta Múltiple 10 * Líneas De Juego 30 = Apuesta Total 3"
+* 游戏线数,* จำนวนบรรทัดเกม,* Game lines,* Baris permainan,* Linee di gioco,* Líneas de juego
+= 总投注,= เดิมพันทั้งหมด,= Total bets,= Total taruhan,= Scommesse totali,= Apuestas totales
+请输入服务器IP白名单,ป้อนรายการที่อนุญาต IP ของเซิร์ฟเวอร์,Enter server IP whitelist,Masukkan daftar putih IP server,Inserisci la whitelist degli IP del server,Introduzca la lista blanca de IP del servidor
+国家,ประเทศ,Country,Negara,Paese,País
+请选择国家,เลือกประเทศ,Select country,Pilih negara,Seleziona il paese,Seleccione país
+开启状态,เกี่ยวกับสถานะ,On state,Keadaan terbuka,Stato aperto,Estado abierto
+输入不合法或商户名称重复,ชื่อร้านค้าที่คุณป้อนไม่ถูกต้องหรือซ้ำกัน,The merchant name you entered is illegal or repeated,Nama pedagang yang Anda masukkan ilegal atau berulang,Il nome del commerciante inserito è illegale o ripetuto,El nombre del comerciante que ingresó es ilegal o está repetido
+赢取最高钱数可设置区间,ในอนาคตจะมีการพัฒนาเทคโนโลยีที่แข็งแกร่งที่สุดในโลก,You can set the interval for winning the maximum amount of money,Jumlah maksimum uang yang dapat Anda menangkan dapat diatur dalam kisaran tertentu,L'importo massimo di denaro che puoi vincere può essere impostato in un intervallo,La cantidad máxima de dinero que puedes ganar se puede establecer en un rango
+赢取最高倍数可设置,สามารถตั้งค่าตัวคูณการชนะสูงสุดได้,The highest multiplier to win can be set,Pengganda kemenangan maksimum dapat diatur,È possibile impostare il moltiplicatore di vincita massimo,Se puede establecer el multiplicador de ganancia máximo
+请选择用户,เลือกผู้ใช้,Select user,Pilih pengguna,Seleziona utente,Seleccionar usuario
+选择游戏状态,เลือกสถานะเกม,Select game status,Pilih status permainan,Seleziona stato gioco,Seleccionar estado del juego
+币种不能为空,สกุลเงินไม่สามารถเว้นว่างได้,Currency cannot be empty,Mata uang tidak boleh kosong,Valuta non può essere vuota,La moneda no puede estar vacía
+联系方式至少有一条填写联系人与联系方式,ข้อมูลการติดต่อต้องมีอย่างน้อยหนึ่งบุคคลติดต่อและข้อมูลการติดต่อ,Contact information must have at least one contact person and contact information,Informasi kontak harus memiliki setidaknya satu orang kontak dan informasi kontak,Le informazioni di contatto devono avere almeno una persona di contatto e informazioni di contatto,La información de contacto debe tener al menos una persona de contacto y su información de contacto
+所属商户余额,ยอดเงินคงเหลือของร้านค้า,Merchant balance,Saldo pedagang,Saldo commerciante,Saldo mercantil
+输入不合法,การป้อนข้อมูลที่ผิดกฎหมาย,Illegal input,Input ilegal,Input illegale,Entrada ilegal
+未转移金额（当前余额）,จำนวนเงินที่ยังไม่ได้โอน (ยอดคงเหลือปัจจุบัน),Untransferred amount (current balance),Jumlah yang belum ditransfer (saldo saat ini),Importo non trasferito (saldo corrente),Importe no transferido (saldo actual)
+回报率（Slots）,อัตราผลตอบแทน (สล็อต),Return rate (Slots),Tingkat pengembalian (Slot),Tasso di ritorno (Slot),Tasa de retorno (tragamonedas)
+总赢分（Slots）,เงินรางวัลทั้งหมด (สล็อต),Total Winnings (Slots),Total Kemenangan (Slot),Vincite totali (Slot),Ganancias totales (tragamonedas)
+总投注（Slots）,เดิมพันทั้งหมด (สล็อต),Total bets (Slots),Total taruhan (Slot),Scommesse totali (Slot),Apuestas totales (tragamonedas)
+封禁状态,สถานะการแบน,Ban status,Status larangan,Stato di ban,Estado de prohibición
+Slots个人奖池,เงินรางวัลส่วนตัวของสล็อต,Slots personal prize pool,Kumpulan hadiah pribadi slot,Monete premio personali delle slot,Pozo de premios personal de las tragamonedas
+当用户回报率达到目标时解除控制,การควบคุมการปล่อยเมื่ออัตราผลตอบแทนของผู้ใช้ถึงเป้าหมาย,Release control when user return rate reaches target,Lepaskan kendali saat tingkat pengembalian pengguna mencapai target,Rilascia il controllo quando il tasso di ritorno dell'utente raggiunge l'obiettivo,Liberar el control cuando la tasa de retorno del usuario alcance el objetivo
+"账号RTP＞自动解除控制,为增加用户RTP.(RTP在区间内解除)",บัญชี RTP＞ปล่อยการควบคุมโดยอัตโนมัติเพื่อเพิ่ม RTP ของผู้ใช้ (RTP จะถูกปล่อยภายในช่วงเวลา),Account RTP＞Automatically release control to increase user RTP. (RTP is released within the interval),RTP Akun＞Secara otomatis melepaskan kontrol untuk meningkatkan RTP pengguna. (RTP dilepaskan dalam interval),Account RTP＞Rilascia automaticamente il controllo per aumentare l'RTP utente. (RTP viene rilasciato entro l'intervallo),RTP de la cuenta ＞ Libera automáticamente el control para aumentar el RTP del usuario. (El RTP se libera dentro del intervalo)
+"账号RTP＜自动解除控制,为降低用户RTP.(RTP在区间内解除)",บัญชี RTP＜การควบคุมการปล่อยโดยอัตโนมัติเพื่อลด RTP ของผู้ใช้ (RTP จะถูกปล่อยภายในช่วง),"Account RTP＜Automatic release control, to reduce user RTP. (RTP is released within the range)","RTP Akun＜Kontrol pelepasan otomatis, untuk mengurangi RTP pengguna. (RTP dilepaskan dalam rentang)","Account RTP＜Rilascia automaticamente il controllo, per ridurre l'RTP utente. (RTP viene rilasciato entro l'intervallo)",RTP de la cuenta ＜ Libera automáticamente el control para reducir el RTP del usuario. (El RTP se libera dentro del rango)
+账号RTP=自动解除控制.（当RTP=目标值时才会解除）,บัญชี RTP=ปล่อยการควบคุมโดยอัตโนมัติ (จะถูกปล่อยเมื่อ RTP=ค่าเป้าหมาย),Account RTP=automatically releases control. (It will be released when RTP=target value),RTP Akun=secara otomatis melepaskan kontrol. (Akan dilepaskan saat RTP=nilai target),Account RTP=rilascia automaticamente il controllo. (Verrà rilasciato quando RTP=valore target),RTP de la cuenta = libera automáticamente el control. (Se liberará cuando el RTP = valor objetivo)
+电子投注/结算(游戏),การเดิมพัน/การชำระเงินทางอิเล็กทรอนิกส์ (เกม),Electronic betting/settlement (games),Taruhan/penyelesaian elektronik (permainan),Scommesse/regolamenti elettronici (giochi),Apuestas/liquidación electrónica (juegos)
+转入,โอนเข้า,Transfer in,Transfer masuk,Trasferimento in,Transferencia de entrada
+转出,โอนออก,Transfer out,Transfer keluar,Trasferimento in uscita,Transferencia de salida
+IP不合法,IP ไม่ถูกต้อง,Invalid IP,IP tidak valid,IP non valido,IP no válida

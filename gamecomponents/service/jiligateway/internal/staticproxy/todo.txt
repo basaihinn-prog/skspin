@@ -1,0 +1,1 @@
+admin.createUser( { user: "fred", pwd: "123456",   roles: [ { role: "userAdminAnyDatabase", db: "admin" } ] })

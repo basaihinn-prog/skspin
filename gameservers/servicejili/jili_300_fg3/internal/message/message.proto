@@ -1,0 +1,43 @@
+syntax = "proto3";
+package message;
+option go_package = "./";
+
+message fg3_Column {
+    repeated int32 Col = 1;
+}
+
+message fg3_AwardData {
+    optional int32 Symbol = 1;
+    optional int32 Line = 2;
+    optional double Win = 3;
+    optional double Mult = 4;
+}
+
+message fg3_SplitInfo {
+    optional int32 Pos = 1;
+    optional int32 Level = 2;
+}
+
+message fg3_SpinAck {
+    repeated fg3_Column PlateSymbol = 1;
+    repeated fg3_AwardData AwardDataVec = 2;
+    repeated fg3_SplitInfo Split = 3;
+    optional int32 AwardTypeFlag = 4;
+    optional double ReelMult = 5;
+    optional double TotalWin = 6;
+    optional string ShowIndex = 7;
+    optional double NowMoney = 8;
+    optional int32 AckType = 9;
+    optional bool Extra = 10;
+    repeated fg3_AwardData PreAwardDataVec = 11;
+    optional double PreTotalWin = 12;
+    optional double RTP = 13;
+    repeated fg3_Column PlateSymbolLog = 14;
+    optional bool IsBonus = 15;
+}
+
+message fg3_GameInfoData {
+    optional bool ShowExtra = 1;
+    repeated double Mul = 2;
+}
+

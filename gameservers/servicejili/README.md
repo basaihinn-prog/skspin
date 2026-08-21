@@ -1,0 +1,1 @@
+*** 下注历史失效的时候 手动删除 /data/game/bin/cache/uat-history.jlfafafa3.com/en-US/ingame 文件 ***

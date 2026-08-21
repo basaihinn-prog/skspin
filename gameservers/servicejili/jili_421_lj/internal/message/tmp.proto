@@ -1,0 +1,43 @@
+syntax = "proto3";
+
+package message;
+option go_package = "serve/servicejili/jili_421_lj/message";
+
+message Column {
+
+  repeated int32 Row = 1;
+}
+
+message Single {
+
+  repeated message.Column Col = 1;
+}
+
+message AwardData {
+
+  int32 Symbol = 1;
+  int32 Line = 2;
+  double Win = 3;
+}
+
+message SpinAck {
+
+  repeated message.Single Plate_symbol = 1;
+  repeated message.AwardData Award_data_vec = 2;
+  repeated double Wild_odd = 3;
+  double Wild_win = 4;
+  double Mult = 5;
+  int32 Get_bonus = 6;
+  int32 Bonus_symbol = 7;
+  bool Extra = 8;
+  int32 Award_type_flag = 9;
+  double Total_win = 10;
+  double RT_p = 11;
+  int32 LI_d = 12;
+  int32 RI_d = 13;
+}
+
+message GemInfo {
+
+  int32 data = 1;
+}

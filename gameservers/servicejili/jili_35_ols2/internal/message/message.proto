@@ -1,0 +1,24 @@
+syntax = "proto3";
+package message;
+option go_package = "./";
+
+message ols2_SpinAck {
+    optional int32 Award = 1;
+    repeated int32 PlateSymbol = 2;
+    optional int32 RespinTimes = 3;
+    optional double Mult = 4;
+    optional double PlateWin = 5;
+    optional double MultWin = 6;
+    optional double ExtraWin = 7;
+    optional double RespinWin = 8;
+    optional double TotalWin = 9;
+    optional string ShowIndex = 10;
+    optional double NowMoney = 11;
+    optional int32 AckType = 12;
+}
+
+message ols2_GameInfoData {
+    repeated double OddList = 7;
+    optional double OddFactor = 8;
+}
+

@@ -1,0 +1,66 @@
+{
+  "InitLowGroupWeight": [50,50],
+
+  "RTPGroupID": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ],
+  "HighRTPGroupWeight": [ 0, 0, 0, 0, 40, 0, 0, 20, 20, 10, 10 ],
+  "LowRTPGroupWeight": [ 30, 40, 45, 30, 0, 0, 0, 0, 0, 0, 0 ],
+
+  "RTPGroup": {
+    "RTP1": {
+      "ID": "0",
+      "MinBullet": 5,
+      "MaxBullet": 10
+    },
+    "RTP2": {
+      "ID": "20",
+      "MinBullet": 10,
+      "MaxBullet": 20
+    },
+    "RTP3": {
+      "ID": "40",
+      "MinBullet": 15,
+      "MaxBullet": 30
+    },
+    "RTP4": {
+      "ID": "60",
+      "MinBullet": 15,
+      "MaxBullet": 30
+    },
+    "RTP5": {
+      "ID": "80",
+      "MinBullet": 15,
+      "MaxBullet": 30
+    },
+    "RTP6": {
+      "ID": "901",
+      "MinBullet": 20,
+      "MaxBullet": 50
+    },
+    "RTP7": {
+      "ID": "902",
+      "MinBullet": 20,
+      "MaxBullet": 80
+    },
+    "RTP8": {
+      "ID": "100",
+      "MinBullet": 10,
+      "MaxBullet": 30
+    },
+    "RTP9": {
+      "ID": "150",
+      "MinBullet": 10,
+      "MaxBullet": 30
+    },
+    "RTP10": {
+      "ID": "200",
+      "MinBullet": 20,
+      "MaxBullet": 50
+    },
+    "RTP11": {
+      "ID": "300",
+      "MinBullet": 10,
+      "MaxBullet": 50
+    }
+  }
+}
+

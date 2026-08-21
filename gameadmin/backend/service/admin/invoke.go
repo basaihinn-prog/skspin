@@ -1,0 +1,241 @@
+package main
+
+import (
+	"context"
+	"errors"
+	"fmt"
+	"game/duck/lazy"
+	"game/duck/logger"
+	"game/duck/rpc1"
+	"game/duck/ut2/httputil"
+	"io"
+	"net/http"
+	"strings"
+
+	"google.golang.org/grpc"
+	"google.golang.org/grpc/metadata"
+)
+
+var UseJsonBytesCodec = rpc1.UseCodec(rpc1.JsonBytesCodec{})
+
+type Path struct {
+	Server  string // 服务器名(进程)
+	Service string // grpc 服务名
+	Method  string // grpc 方法名
+}
+
+func NewPath(path string, dfService string) (ret *Path) {
+
+	if path != "" && path[0] == '/' {
+		path = path[1:]
+	}
+
+	part := strings.Split(path, "/")
+	switch len(part) {
+	case 3:
+		ret = &Path{Server: part[0], Service: part[1], Method: part[2]}
+	case 2:
+		ret = &Path{Server: dfService, Service: part[0], Method: part[1]}
+	default:
+		ret = &Path{}
+	}
+
+	return
+}
+
+type InvokeArg struct {
+	Pid      int64
+	Lang     string
+	Path     *Path
+	Data     []byte
+	Ip       string
+	Username string
+}
+
+func (arg *InvokeArg) Meta() metadata.MD {
+	md := metadata.New(map[string]string{
+		"pid":  fmt.Sprintf("%d", arg.Pid),
+		"lang": arg.Lang,
+		"ip":   arg.Ip,
+	})
+
+	if arg.Username != "" {
+		md.Set("username-bin", arg.Username)
+	}
+
+	return md
+}
+
+func GetClient(server string) (*grpc.ClientConn, error) {
+	return lazy.GrpcClient.GetClient(server, UseJsonBytesCodec)
+}
+
+func Invoke(arg *InvokeArg) any {
+
+	ctx := metadata.NewOutgoingContext(context.TODO(), arg.Meta())
+
+	path := arg.Path
+
+	conn, err := GetClient(path.Server)
+	if err != nil {
+		logger.Info("连接rpc失败", err)
+		return err
+	}
+
+	api := "/" + path.Service + "/" + path.Method
+
+	resp := []byte{}
+	err = conn.Invoke(ctx, api, arg.Data, &resp)
+	if err != nil {
+		return errors.New(rpc1.GetErrorMessage(err))
+	} else {
+		return resp
+	}
+}
+
+type IChecker interface {
+	GetPidAndUname(token string) (int64, string)
+	IsAllowAndShoudLogin(path *Path) (bool, bool)
+}
+
+type handler struct {
+	checker   IChecker
+	dfService string
+}
+
+func NewHttpHandler(checker IChecker, dfService string) *handler {
+	return &handler{checker: checker, dfService: dfService}
+}
+
+func (h *handler) invokeWith(r *http.Request) any {
+	if r.Method != http.MethodPost {
+		return errors.New("not allow")
+	}
+
+	path := NewPath(r.URL.Path, h.dfService)
+
+	allow, shouldLogin := h.checker.IsAllowAndShoudLogin(path)
+	if !allow {
+		return errors.New("not allow")
+	}
+
+	token := r.Header.Get("Authorization")
+
+	pid, username := h.checker.GetPidAndUname(token)
+	if shouldLogin && pid == 0 {
+		return errors.New("用户登录已超时")
+	}
+
+	defer r.Body.Close()
+	buf, err := io.ReadAll(r.Body)
+	if err != nil {
+		return err
+	}
+
+	arg := InvokeArg{
+		Lang:     r.Header.Get("Lang"),
+		Ip:       httputil.GetIPFromRequest(r),
+		Path:     path,
+		Pid:      pid,
+		Username: username,
+		Data:     buf,
+	}
+
+	if path.Server == lazy.ServiceName {
+		var iscalled bool
+		resp := InvokeSelf(&arg, &iscalled)
+		if iscalled {
+			return resp
+		}
+		return errors.New("method not found")
+	}
+
+	// _, ok := useProxyMap.Load(path.Server)
+	// if ok {
+	// 	return InvokeGrpcMQ(&arg)
+	// }
+
+	return Invoke(&arg)
+}
+
+func (h *handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
+
+	resp := h.invokeWith(r)
+
+	origin := r.Header.Get("Origin")
+	allowedOrigins := map[string]bool{
+		"https://admin.ppslot.site":    true,
+		"https://ppslot.site":          true,
+		"https://h5.ppslot.site":       true,
+		"https://api.cocodr.xyz":       true,
+		"https://history.cocodr.xyz":   true,
+		"https://pg.bxbet.asia":        true,
+		"https://m-pg.bxbet.asia":      true,
+		"https://static-pg.bxbet.asia": true,
+		"http://localhost:4568":        true,
+		"http://localhost:3000":        true,
+	}
+
+	if allowedOrigins[origin] {
+		w.Header().Set("Access-Control-Allow-Origin", origin)
+	} else {
+		w.Header().Set("Access-Control-Allow-Origin", "https://admin.ppslot.site")
+	}
+
+	w.Header().Set("Access-Control-Allow-Methods", "GET,POST,PUT,DELETE,PATCH,OPTIONS")
+	w.Header().Set("Access-Control-Allow-Headers", "Content-Type, Authorization, X-Requested-With, Accept")
+	w.Header().Set("Access-Control-Allow-Credentials", "true")
+	w.Header().Set("Content-Type", "application/json; charset=UTF-8")
+	w.WriteHeader(http.StatusOK)
+	w.Write(lazy.MakeMsg(resp, nil))
+}
+
+// 调用自身的grpc接口。并且经过 UnaryInterceptor
+func InvokeSelf(arg *InvokeArg, iscalled *bool) any {
+	path := arg.Path
+
+	serviceImpl, methodImpl := getDesc(path.Service, path.Method)
+	if serviceImpl == nil {
+		*iscalled = false
+		return nil
+	}
+
+	df := func(v interface{}) error {
+		return rpc1.JsonBytesCodec{}.Unmarshal(arg.Data, v)
+	}
+
+	ctx := metadata.NewIncomingContext(context.TODO(), arg.Meta())
+
+	*iscalled = true
+
+	resp, err := methodImpl.Handler(serviceImpl.Impl, ctx, df, rpc1.DefaultUnaryInterceptor)
+	if err != nil {
+		return err
+	}
+
+	return resp
+}
+
+func getDesc(service, method string) (*rpc1.DescAndImpl, *grpc.MethodDesc) {
+
+	sdesc, ok := lazy.GrpcServer.ServiceDescMap.Load(service)
+	if !ok {
+		return nil, nil
+	}
+
+	for _, v := range sdesc.Desc.Methods {
+		if v.MethodName == method {
+			return sdesc, &v
+		}
+	}
+
+	return nil, nil
+}
+
+// func InvokeGrpcMQ(arg *InvokeArg) any {
+// 	resp, err := mq.CallGrpc(arg.Path.Server, arg.Path.Service, arg.Path.Method, arg.Meta(), arg.Data)
+// 	if err != nil {
+// 		return err
+// 	}
+// 	return resp
+// }

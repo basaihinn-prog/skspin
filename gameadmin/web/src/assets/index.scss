@@ -1,0 +1,92 @@
+html,
+body {
+	height: 100%;
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+
+
+}
+
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+
+#app {
+	display: flex;
+	flex-grow: 1;
+	height: 100%;
+}
+
+.flex {
+	display: flex;
+	display: -webkit-flex;
+}
+
+.flex_vbox {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+}
+
+.flex_hbox {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+}
+
+.flex_grow {
+	flex-grow: 1;
+}
+
+.flex_child_center {
+	align-items: center;
+	justify-content: center;
+}
+.flex_child_end {
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.flex_self_center {
+	align-self: center;
+}
+
+.fill_height {
+	height: 100%;
+}
+
+.fill_width {
+	width: 100%;
+}
+
+
+
+.el-menu-vertical-demo {
+	transition: width 0.3s ease!important; /* 控制宽度变化的时间，0.3秒 */
+}
+
+.el-menu-vertical-demo.el-menu--collapse {
+	width: 64px; /* 收起时的宽度 */
+}
+
+.el-menu-vertical-demo:not(.el-menu--collapse) {
+	width: 200px; /* 展开时的宽度 */
+}
+
+.el-tabs__content{
+	overflow: visible!important;
+}
+
+
+.el-pager li.more+li:is(li:last-child){
+	display: none;
+}

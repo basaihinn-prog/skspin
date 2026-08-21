@@ -1,0 +1,19 @@
+# 格式化proto文件
+# 需要安装对应编辑器的 clang-format 插件
+# 文档 https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+
+
+# 语言: None, Cpp, Java, JavaScript, ObjC, Proto, TableGen, TextProto
+Language:	Proto
+# 对齐连续的尾随的注释
+AlignTrailingComments:	true
+# 缩进宽度
+IndentWidth:	4
+# 连续赋值时，对齐所有等号
+AlignConsecutiveAssignments:	true
+# 连续声明时，对齐所有声明的变量名
+AlignConsecutiveDeclarations:	true
+# 每行字符的限制，0表示没有限制
+ColumnLimit:	0
+# 允许短的函数放在同一行: None, InlineOnly(定义在类中), Empty(空函数), Inline(定义在类中，空函数), All
+AllowShortFunctionsOnASingleLine:	Empty

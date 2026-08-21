@@ -1,0 +1,49 @@
+syntax = "proto3";
+package message;
+option go_package = "./";
+import "google/protobuf/timestamp.proto";
+
+message bfs_Column {
+    repeated int32 Col = 1;
+}
+
+message bfs_AwardData {
+    repeated int32 SerialVec = 1;
+    optional double Win = 2;
+}
+
+message bfs_AwardDataDetail {
+    repeated int32 SerialVec = 1;
+    optional double Win = 2;
+    optional int32 Symbol = 3;
+    optional int32 LineNum = 4;
+}
+
+message bfs_SinglePlate {
+    repeated bfs_Column PlateSymbol = 1;
+    repeated bfs_AwardData AwardDataVec = 2;
+    optional int32 AwardTypeFlag = 3;
+    optional double Win = 4;
+    repeated bfs_AwardDataDetail MergedADV = 5;
+    optional int32 GetFreeCount = 6;
+    optional int32 FreeRemainRound = 7;
+    optional int32 FreeNowRound = 8;
+    optional int32 FreeTotalRound = 9;
+    optional bool MaxFlag = 10;
+}
+
+message bfs_SpinAck {
+    repeated bfs_SinglePlate AckQueue = 1;
+    optional double FreeTotalWin = 2;
+    optional double TotalWin = 3;
+    optional string ShowIndex = 4;
+    optional double NowMoney = 5;
+    optional int32 AckType = 6;
+    optional double RTP = 7;
+}
+
+message bfs_GameInfoData {
+    optional bool ShowExtra = 1;
+    repeated double Mul = 2;
+}
+

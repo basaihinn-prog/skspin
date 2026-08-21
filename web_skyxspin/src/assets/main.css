@@ -1,0 +1,55 @@
+@import './base.css';
+
+*{
+
+  -webkit-tap-highlight-color: transparent;
+}
+#app {
+  margin: 0 auto;
+  padding: 0;
+  font-weight: normal;
+  overflow: hidden;
+}
+
+html{
+  width: 100%;
+  height: 100vh;
+}
+
+body{
+  background-color: #151929;
+  background-image: url("./bg_pc_pad.webp");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.RTPSelect{
+  z-index: 999999999999999!important;
+  height: 150px;
+}
+
+
+.sortSelectPopper{
+  background: #242937!important;
+  border: 0 solid rgba(0,0,0,0)!important;
+  box-shadow: none;
+}
+
+.sortSelectPopper .el-popper__arrow{
+  display: none;
+}
+.sortSelectPopper .el-select-dropdown__item.is-selected{
+  color: #ffffff!important;
+}
+.sortSelectPopper .el-select-dropdown__item.is-hovering{
+  background: #4d93fb!important;
+}
+
+.filter_game_item .el-icon svg path{
+    transition: 0.3s;
+}
+.filter_game_item:hover .el-icon svg path{
+    fill: #4d93fb;
+}

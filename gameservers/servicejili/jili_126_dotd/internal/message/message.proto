@@ -1,0 +1,50 @@
+syntax = "proto3";
+package message;
+option go_package = "./";
+import "google/protobuf/timestamp.proto";
+
+message dotd_ColumnB {
+    repeated bool RowB = 1;
+}
+
+message dotd_Column {
+    repeated int32 Row = 1;
+}
+
+message dotd_AwardData {
+    optional int32 Symbol = 1;
+    optional int32 Count = 2;
+    optional int32 Line = 3;
+    optional double Win = 4;
+}
+
+message dotd_RoundInfo {
+    repeated dotd_Column PlateSymbol = 1;
+    repeated dotd_ColumnB WildCover = 2;
+    repeated int32 WildExpandColumn = 3;
+    repeated dotd_AwardData AwardDataVec = 4;
+    optional int32 AwardTypeFlag = 5;
+    optional int32 FreeRemainRound = 6;
+    optional double RoundWin = 7;
+    optional double Mult = 8;
+    optional bool MaxFlag = 9;
+    repeated dotd_Column PlateSymbolReal = 10;
+    optional int32 FreeNowRound = 11;
+    optional int32 FGRound = 12;
+}
+
+message dotd_SpinAck {
+    repeated dotd_RoundInfo RoundQueue = 1;
+    optional double FreeTotalWin = 2;
+    optional double TotalWin = 3;
+    optional string ShowIndex = 4;
+    optional double NowMoney = 5;
+    optional int32 AckType = 6;
+    optional double RTP = 7;
+}
+
+message dotd_GameInfoData {
+    optional bool ShowExtra = 1;
+    repeated double Mul = 2;
+}
+

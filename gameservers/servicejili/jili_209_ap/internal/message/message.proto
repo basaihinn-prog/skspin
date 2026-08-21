@@ -1,0 +1,69 @@
+syntax = "proto3";
+package message;
+option go_package = "./";
+import "google/protobuf/timestamp.proto";
+
+message ap_Grid {
+    optional int32 Col = 1;
+    optional int32 Row = 2;
+}
+
+message ap_MSymbol {
+    optional int32 Symbol = 1;
+    optional int32 Length = 2;
+    optional int32 Energy = 3;
+    optional bool Framed = 4;
+}
+
+message ap_MColumn {
+    repeated ap_MSymbol MColumn = 1;
+}
+
+message ap_MysColumn {
+    optional int32 Column = 1;
+    optional int32 Type = 2;
+}
+
+message ap_AwardData {
+    optional int32 Symbol = 1;
+    optional int32 Count = 2;
+    optional int32 LineNum = 3;
+    optional double Win = 4;
+    repeated ap_Grid GridVec = 5;
+}
+
+message ap_ComboStageInfo {
+    repeated ap_MColumn ComboStageSymbol = 1;
+    optional double ComboStageWin = 2;
+    optional double ComboStageMult = 3;
+    repeated ap_AwardData AwardDataVec = 4;
+    repeated ap_MColumn FillSymbols = 5;
+    repeated ap_MColumn ChangeSymbols = 6;
+}
+
+message ap_RoundInfo {
+    repeated ap_ComboStageInfo ComboStageData = 1;
+    optional double RoundWin = 2;
+    optional int32 AwardTypeFlag = 3;
+    optional int32 FreeRemainRound = 4;
+    repeated ap_MysColumn MysteryColumns = 5;
+    optional int32 ScatterCount = 6;
+}
+
+message ap_SpinAck {
+    repeated ap_RoundInfo RoundQueue = 1;
+    optional double FreeTotalWin = 2;
+    optional double TotalWin = 3;
+    optional int64 LogIndex = 4;
+    optional string ShowIndex = 5;
+    optional double NowMoney = 6;
+    optional int32 AckType = 7;
+    optional double RTP = 8;
+    optional double Bet = 9;
+}
+
+message ap_GameInfoData {
+    optional bool ShowExtra = 1;
+    repeated double Mul = 2;
+}
+

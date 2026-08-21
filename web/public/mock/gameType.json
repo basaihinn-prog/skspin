@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "label": "ALL",
+    "icon": "all.png"
+  },
+  {
+    "id": 2,
+    "label": "SLOT",
+    "icon": "slot.png"
+  },
+  {
+    "id": 3,
+    "label": "MINI",
+    "icon": "mini.png"
+  }
+]

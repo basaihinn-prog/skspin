@@ -1,0 +1,65 @@
+package staticproxy
+
+import (
+	"bytes"
+	"fmt"
+	"game/comm/mq"
+	"io"
+	"net/http"
+	"time"
+
+	"github.com/nats-io/nats.go"
+)
+
+func api_proxy(w http.ResponseWriter, r *http.Request) {
+	w.WriteHeader(404)
+}
+
+func gameService(w http.ResponseWriter, r *http.Request) {
+	// action=doInit&symbol=vs20olympx&cver=230048&index=1&counter=1&repeat=0&mgckey=eyJQIjoxMDA3MDUsIkUiOjE3MjI0MzM4OTgsIlMiOjEwMDMsIkQiOiJwcF92czIwb2x5bXB4In0.GQtZWIrU-lZXjWNHiQhodLFd_EsAPUr31QyO9LoOgI4
+
+	// action=doInit&symbol=vs20olympx&cver=237859&index=1&counter=1&repeat=0&mgckey=AUTHTOKEN@17f8076abf3edb3c651be065210634dcd0b4ba1231c206e4405c0fa4455b9ec0~stylename@hllgd_hollygod~SESSION@5df8d3d1-dfa3-4cff-983f-6bd0853c162f~SN@273d3dc7
+
+	var (
+		payload []byte
+		err     error
+	)
+
+	payload, err = io.ReadAll(r.Body)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+	r.Body = io.NopCloser(bytes.NewReader(payload))
+
+	header := nats.Header(r.Header)
+	header.Set("query", r.URL.RawQuery)
+
+	subj := fmt.Sprintf("pp_%s.%s", r.PostFormValue("symbol"), r.PostFormValue("action"))
+	if r.PostFormValue("symbol") == "vs20olympx" {
+		subj = fmt.Sprintf("pp_vs20olympx.%s", r.PostFormValue("action"))
+	}
+	resp, err := mq.NC().RequestMsg(&nats.Msg{
+		Subject: subj,
+		Data:    payload,
+		Header:  header,
+	}, time.Second*60)
+
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+	if errstr := resp.Header.Get("error"); errstr != "" {
+		http.Error(w, errstr, http.StatusInternalServerError)
+		return
+	}
+
+	w.Header().Set("Content-Type", "text/html;charset=UTF-8")
+	w.Header().Set("Access-Control-Allow-Origin", "*") // 允许所有源，或指定特定源
+	w.Header().Set("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+	w.Header().Set("Access-Control-Allow-Headers", "Content-Type, Authorization")
+	// 设置缓存控制
+	w.Header().Set("Cache-Control", "no-cache, no-store, max-age=0, must-revalidate")
+
+	w.Write(resp.Data)
+}

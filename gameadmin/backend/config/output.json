@@ -1,0 +1,626 @@
+[
+    {
+        "gameId": "pg_3",
+        "reward_percent": -14
+    },
+    {
+        "gameId": "pg_20",
+        "reward_percent": -78
+    },
+    {
+        "gameId": "pg_24",
+        "reward_percent": -3
+    },
+    {
+        "gameId": "pg_25",
+        "reward_percent": -61
+    },
+    {
+        "gameId": "pg_29",
+        "reward_percent": -68
+    },
+    {
+        "gameId": "pg_33",
+        "reward_percent": -49
+    },
+    {
+        "gameId": "pg_34",
+        "reward_percent": -42
+    },
+    {
+        "gameId": "pg_35",
+        "reward_percent": -165
+    },
+    {
+        "gameId": "pg_36",
+        "reward_percent": -39
+    },
+    {
+        "gameId": "pg_37",
+        "reward_percent": -58
+    },
+    {
+        "gameId": "pg_38",
+        "reward_percent": -69
+    },
+    {
+        "gameId": "pg_39",
+        "reward_percent": -3
+    },
+    {
+        "gameId": "pg_40",
+        "reward_percent": -71
+    },
+    {
+        "gameId": "pg_42",
+        "reward_percent": -65
+    },
+    {
+        "gameId": "pg_44",
+        "reward_percent": -89
+    },
+    {
+        "gameId": "pg_48",
+        "reward_percent": -74
+    },
+    {
+        "gameId": "pg_50",
+        "reward_percent": -73
+    },
+    {
+        "gameId": "pg_53",
+        "reward_percent": -121
+    },
+    {
+        "gameId": "pg_54",
+        "reward_percent": -71
+    },
+    {
+        "gameId": "pg_57",
+        "reward_percent": -81
+    },
+    {
+        "gameId": "pg_58",
+        "reward_percent": -79
+    },
+    {
+        "gameId": "pg_59",
+        "reward_percent": -80
+    },
+    {
+        "gameId": "pg_60",
+        "reward_percent": -69
+    },
+    {
+        "gameId": "pg_61",
+        "reward_percent": -78
+    },
+    {
+        "gameId": "pg_62",
+        "reward_percent": -71
+    },
+    {
+        "gameId": "pg_63",
+        "reward_percent": -44
+    },
+    {
+        "gameId": "pg_64",
+        "reward_percent": -60
+    },
+    {
+        "gameId": "pg_65",
+        "reward_percent": 2
+    },
+    {
+        "gameId": "pg_68",
+        "reward_percent": -58
+    },
+    {
+        "gameId": "pg_69",
+        "reward_percent": -29
+    },
+    {
+        "gameId": "pg_70",
+        "reward_percent": -52
+    },
+    {
+        "gameId": "pg_74",
+        "reward_percent": 0
+    },
+    {
+        "gameId": "pg_75",
+        "reward_percent": -2
+    },
+    {
+        "gameId": "pg_79",
+        "reward_percent": -76
+    },
+    {
+        "gameId": "pg_82",
+        "reward_percent": -68
+    },
+    {
+        "gameId": "pg_83",
+        "reward_percent": -75
+    },
+    {
+        "gameId": "pg_86",
+        "reward_percent": -119
+    },
+    {
+        "gameId": "pg_87",
+        "reward_percent": 2
+    },
+    {
+        "gameId": "pg_88",
+        "reward_percent": -87
+    },
+    {
+        "gameId": "pg_89",
+        "reward_percent": -2
+    },
+    {
+        "gameId": "pg_91",
+        "reward_percent": -100
+    },
+    {
+        "gameId": "pg_92",
+        "reward_percent": -75
+    },
+    {
+        "gameId": "pg_93",
+        "reward_percent": -67
+    },
+    {
+        "gameId": "pg_94",
+        "reward_percent": -73
+    },
+    {
+        "gameId": "pg_95",
+        "reward_percent": -81
+    },
+    {
+        "gameId": "pg_97",
+        "reward_percent": -71
+    },
+    {
+        "gameId": "pg_98",
+        "reward_percent": -74
+    },
+    {
+        "gameId": "pg_100",
+        "reward_percent": -57
+    },
+    {
+        "gameId": "pg_101",
+        "reward_percent": -74
+    },
+    {
+        "gameId": "pg_102",
+        "reward_percent": -96
+    },
+    {
+        "gameId": "pg_103",
+        "reward_percent": -75
+    },
+    {
+        "gameId": "pg_104",
+        "reward_percent": 2
+    },
+    {
+        "gameId": "pg_105",
+        "reward_percent": -75
+    },
+    {
+        "gameId": "pg_106",
+        "reward_percent": 0
+    },
+    {
+        "gameId": "pg_107",
+        "reward_percent": -77
+    },
+    {
+        "gameId": "pg_108",
+        "reward_percent": -57
+    },
+    {
+        "gameId": "pg_110",
+        "reward_percent": -79
+    },
+    {
+        "gameId": "pg_112",
+        "reward_percent": -62
+    },
+    {
+        "gameId": "pg_113",
+        "reward_percent": -77
+    },
+    {
+        "gameId": "pg_114",
+        "reward_percent": -88
+    },
+    {
+        "gameId": "pg_115",
+        "reward_percent": -71
+    },
+    {
+        "gameId": "pg_117",
+        "reward_percent": -74
+    },
+    {
+        "gameId": "pg_118",
+        "reward_percent": -69
+    },
+    {
+        "gameId": "pg_119",
+        "reward_percent": -88
+    },
+    {
+        "gameId": "pg_120",
+        "reward_percent": -61
+    },
+    {
+        "gameId": "pg_121",
+        "reward_percent": -55
+    },
+    {
+        "gameId": "pg_122",
+        "reward_percent": -81
+    },
+    {
+        "gameId": "pg_123",
+        "reward_percent": -74
+    },
+    {
+        "gameId": "pg_124",
+        "reward_percent": -100
+    },
+    {
+        "gameId": "pg_125",
+        "reward_percent": -82
+    },
+    {
+        "gameId": "pg_126",
+        "reward_percent": 0
+    },
+    {
+        "gameId": "pg_127",
+        "reward_percent": -66
+    },
+    {
+        "gameId": "pg_128",
+        "reward_percent": -75
+    },
+    {
+        "gameId": "pg_129",
+        "reward_percent": -80
+    },
+    {
+        "gameId": "pg_130",
+        "reward_percent": -80
+    },
+    {
+        "gameId": "pg_132",
+        "reward_percent": -65
+    },
+    {
+        "gameId": "pg_135",
+        "reward_percent": -2
+    },
+    {
+        "gameId": "pg_1312883",
+        "reward_percent": -70
+    },
+    {
+        "gameId": "pg_1338274",
+        "reward_percent": -79
+    },
+    {
+        "gameId": "pg_1340277",
+        "reward_percent": -90
+    },
+    {
+        "gameId": "pg_1368367",
+        "reward_percent": -82
+    },
+    {
+        "gameId": "pg_1372643",
+        "reward_percent": -72
+    },
+    {
+        "gameId": "pg_1381200",
+        "reward_percent": -87
+    },
+    {
+        "gameId": "pg_1397455",
+        "reward_percent": -100
+    },
+    {
+        "gameId": "pg_1402846",
+        "reward_percent": -91
+    },
+    {
+        "gameId": "pg_1418544",
+        "reward_percent": -118
+    },
+    {
+        "gameId": "pg_1420892",
+        "reward_percent": -126
+    },
+    {
+        "gameId": "pg_1432733",
+        "reward_percent": -113
+    },
+    {
+        "gameId": "pg_1448762",
+        "reward_percent": -101
+    },
+    {
+        "gameId": "pg_1451122",
+        "reward_percent": -119
+    },
+    {
+        "gameId": "pg_1473388",
+        "reward_percent": -83
+    },
+    {
+        "gameId": "pg_1489936",
+        "reward_percent": -2
+    },
+    {
+        "gameId": "pg_1492288",
+        "reward_percent": -87
+    },
+    {
+        "gameId": "pg_1508783",
+        "reward_percent": -100
+    },
+    {
+        "gameId": "pg_1513328",
+        "reward_percent": -89
+    },
+    {
+        "gameId": "pg_1529867",
+        "reward_percent": -83
+    },
+    {
+        "gameId": "pg_1543462",
+        "reward_percent": -89
+    },
+    {
+        "gameId": "pg_1555350",
+        "reward_percent": -76
+    },
+    {
+        "gameId": "pg_1568554",
+        "reward_percent": -96
+    },
+    {
+        "gameId": "pg_1572362",
+        "reward_percent": -75
+    },
+    {
+        "gameId": "pg_1580541",
+        "reward_percent": -122
+    },
+    {
+        "gameId": "pg_1594259",
+        "reward_percent": -93
+    },
+    {
+        "gameId": "pg_1601012",
+        "reward_percent": -98
+    },
+    {
+        "gameId": "pg_1615454",
+        "reward_percent": -77
+    },
+    {
+        "gameId": "pg_1623475",
+        "reward_percent": -100
+    },
+    {
+        "gameId": "pg_1635221",
+        "reward_percent": -97
+    },
+    {
+        "gameId": "pg_1648578",
+        "reward_percent": -76
+    },
+    {
+        "gameId": "pg_1655268",
+        "reward_percent": -88
+    },
+    {
+        "gameId": "pg_1671262",
+        "reward_percent": 2
+    },
+    {
+        "gameId": "pg_1682240",
+        "reward_percent": -70
+    },
+    {
+        "gameId": "pg_1695365",
+        "reward_percent": 2
+    },
+    {
+        "gameId": "pg_1717688",
+        "reward_percent": -81
+    },
+    {
+        "gameId": "jili_21_ols",
+        "reward_percent": -34
+    },
+    {
+        "gameId": "jili_35_ols2",
+        "reward_percent": -57
+    },
+    {
+        "gameId": "jili_37_sweetheart5",
+        "reward_percent": -66
+    },
+    {
+        "gameId": "jili_38_fs",
+        "reward_percent": -65
+    },
+    {
+        "gameId": "jili_47_bfs",
+        "reward_percent": -63
+    },
+    {
+        "gameId": "jili_49_fullhouse",
+        "reward_percent": -88
+    },
+    {
+        "gameId": "jili_77_bk",
+        "reward_percent": -63
+    },
+    {
+        "gameId": "jili_91_ifff",
+        "reward_percent": -135
+    },
+    {
+        "gameId": "jili_103_mw2",
+        "reward_percent": -43
+    },
+    {
+        "gameId": "jili_108_mw3",
+        "reward_percent": -27
+    },
+    {
+        "gameId": "jili_109_fg",
+        "reward_percent": -65
+    },
+    {
+        "gameId": "jili_110_ali",
+        "reward_percent": -24
+    },
+    {
+        "gameId": "jili_126_dotd",
+        "reward_percent": -29
+    },
+    {
+        "gameId": "jili_130_thor",
+        "reward_percent": -23
+    },
+    {
+        "gameId": "jili_181_wa",
+        "reward_percent": -70
+    },
+    {
+        "gameId": "jili_183_gj",
+        "reward_percent": -42
+    },
+    {
+        "gameId": "jili_191_petra",
+        "reward_percent": -59
+    },
+    {
+        "gameId": "jili_193_df",
+        "reward_percent": -21
+    },
+    {
+        "gameId": "jili_223_fgp",
+        "reward_percent": -26
+    },
+    {
+        "gameId": "jili_252_zeus",
+        "reward_percent": -69
+    },
+    {
+        "gameId": "jili_258_dl",
+        "reward_percent": -30
+    },
+    {
+        "gameId": "jili_299_pw",
+        "reward_percent": 27
+    },
+    {
+        "gameId": "jili_300_fg3",
+        "reward_percent": -64
+    },
+    {
+        "gameId": "pp_vs20olympx",
+        "reward_percent": -75
+    },
+    {
+        "gameId": "pp_vs20fruitsw",
+        "reward_percent": -26
+    },
+    {
+        "gameId": "pp_vs20sugarrush",
+        "reward_percent": 2
+    },
+    {
+        "gameId": "pp_vs20starlight",
+        "reward_percent": 4
+    },
+    {
+        "gameId": "pp_vs20starlightx",
+        "reward_percent": -70
+    },
+    {
+        "gameId": "pp_vs20olympx",
+        "reward_percent": -75
+    },
+    {
+        "gameId": "pp_vs20fruitsw",
+        "reward_percent": -26
+    },
+    {
+        "gameId": "pp_vs20sugarrush",
+        "reward_percent": 2
+    },
+    {
+        "gameId": "pp_vs20starlight",
+        "reward_percent": 4
+    },
+    {
+        "gameId": "pp_vs20starlightx",
+        "reward_percent": -70
+    },
+    {
+        "gameId": "pp_vs5aztecgems",
+        "reward_percent": -36
+    },
+    {
+        "gameId": "pp_vs10bblotgl",
+        "reward_percent": -38
+    },
+    {
+        "gameId": "pp_vs20doghouse2",
+        "reward_percent": -79
+    },
+    {
+        "gameId": "pp_vs20fruitparty",
+        "reward_percent": -24
+    },
+    {
+        "gameId": "pp_vs20procount",
+        "reward_percent": -74
+    },
+    {
+        "gameId": "pp_vs20sugarrushx",
+        "reward_percent": -61
+    },
+    {
+        "gameId": "pp_vs20sugrux",
+        "reward_percent": -18
+    },
+    {
+        "gameId": "pp_vs25goldparty",
+        "reward_percent": -23
+    },
+    {
+        "gameId": "pp_vs25pandagold",
+        "reward_percent": -23
+    },
+    {
+        "gameId": "pp_vs40wildwest",
+        "reward_percent": -74
+    },
+    {
+        "gameId": "pp_vswaysbufking",
+        "reward_percent": -62
+    }
+]

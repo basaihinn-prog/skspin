@@ -1,0 +1,18 @@
+launchurl: "https://h5.ppslot.site/"
+websocket: "wss://api.cocodr.xyz/login"
+gamehistoryurl: "https://history.cocodr.xyz/"
+pglaunchurl: "https://m-pg.bxbet.asia/39/index.html?ot=abcd1234abcd123432531532111kkafa&btt=1&l=en&ops=000102030404e44708090b853992e98c&or=static-pg.bxbet.asia"
+blacklocs:
+    - CN
+
+replacegames: 
+    ZhaoCaiMao: pg_89
+    JinNiu: pg_98
+    MaJiang2: pg_74
+
+    XingYunXiang: pg_75
+    BaoZang: pg_87
+    MaJiang: pg_65
+    TuZi: pg_1543462
+
+

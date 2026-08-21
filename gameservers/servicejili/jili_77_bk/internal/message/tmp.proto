@@ -1,0 +1,63 @@
+syntax = "proto3";
+package message;
+option go_package = "./";
+import "google/protobuf/timestamp.proto";
+
+message bk_Column {
+    repeated int32 Row = 1;
+}
+
+message bk_AwardData {
+    optional int32 Index = 1;
+    optional int32 Symbol = 2;
+    optional int32 Count = 3;
+    optional double Money = 4;
+}
+
+message bk_SinglePlate {
+    repeated bk_Column PlateSymbol = 1;
+    repeated bk_AwardData AwardDataList = 2;
+    optional double SingleWin = 3;
+    optional double SingleMul = 4;
+    repeated int32 NextRow = 5;
+    optional bool MaxFlag = 6;
+}
+
+message bk_MainData {
+    repeated bk_SinglePlate PlateQueue = 1;
+    optional double MainWin = 2;
+    optional int32 ScatterCount = 3;
+    optional double ScatterWin = 4;
+    optional bool MaxFlag = 5;
+}
+
+message bk_SingleFree {
+    repeated bk_SinglePlate FreePlateQueue = 1;
+    optional double FreeWin = 2;
+    optional int32 FreePlus = 3;
+    optional int32 AwardType = 4;
+    optional double NowMoney = 5;
+    optional int32 FreeNowRound = 6;
+    optional int32 FreeTotalRound = 7;
+    optional bool MaxFlag = 8;
+}
+
+message bk_FreeData {
+    repeated bk_SingleFree FreeQueue = 1;
+    optional double FreeTotalWin = 2;
+}
+
+message bk_SpinAck {
+    repeated bk_MainData MainInfo = 1;
+    repeated bk_FreeData FreeInfo = 2;
+    optional double TotalWin = 3;
+    optional int32 AwardType = 4;
+    optional string ShowIndex = 5;
+    optional double NowMoney = 6;
+    optional int32 AckType = 7;
+    optional double Bet = 8;
+    optional double RTP = 9;
+    optional int32 LID = 10;
+    optional int32 RID = 11;
+}
+

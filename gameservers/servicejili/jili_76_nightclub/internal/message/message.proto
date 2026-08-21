@@ -1,0 +1,37 @@
+syntax = "proto3";
+package message;
+option go_package = "./";
+
+message custom_Block {
+    optional uint32 row = 1;
+    optional uint32 column = 2;
+}
+
+message custom_Plate {
+    repeated custom_ColumnData column = 1;
+    optional double win = 2;
+    repeated custom_Award award = 3;
+}
+
+message custom_Award {
+    optional int32 symbol = 1;
+    optional double win = 2;
+    optional int64 maxColumn = 3;
+    optional int64 connect = 4;
+}
+
+message custom_AllPlate {
+    repeated custom_Plate plate = 1;
+    optional int64 freeCount = 2;
+    optional int64 freeRate = 3;
+}
+
+message custom_ColumnData {
+    repeated custom_Cell row = 1;
+}
+
+message custom_Cell {
+    optional int32 symbol = 1;
+    optional bool isConnect = 2;
+}
+

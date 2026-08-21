@@ -1,0 +1,21 @@
+
+syntax = "proto3";
+
+package slots;
+
+message GetYeJiRatioReq {
+    enum GameType {
+        Slots = 0;
+    }
+
+    GameType Game = 1;
+}
+
+message GetYeJiRatioResp {
+    double Ratio = 1;
+}
+
+service SlotsConfigRpc {
+    // 获取业绩计算比例
+    rpc GetYeJiRatio(GetYeJiRatioReq) returns (GetYeJiRatioResp);
+}

@@ -1,0 +1,11 @@
+{
+	"ready": 20,
+	"rock": 30,
+	"startBetAnimation": 20,
+	"startBet": 120,
+	"endBet": 40,
+	"rateUp": 10,
+	"draw": 70,
+	"settle": 90,
+	"playerDotCtlPercent": 100 //百分比
+}

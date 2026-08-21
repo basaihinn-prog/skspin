@@ -1,0 +1,523 @@
+package db
+
+import (
+	"bytes"
+	"context"
+	"encoding/gob"
+	"encoding/json"
+	"fmt"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/bson/primitive"
+	"go.mongodb.org/mongo-driver/mongo"
+	"io"
+	"log/slog"
+	"os"
+	"serve/comm/ut"
+	"sync"
+
+	"github.com/klauspost/compress/zstd"
+	"go.mongodb.org/mongo-driver/mongo/options"
+)
+
+const (
+	DataFolders = "data"
+	PageNum     = int64(8)
+)
+
+func GetSimulate[p any](docs []p) ([]p, error) {
+	var file *os.File
+	var err error
+	var wg sync.WaitGroup
+	filePathStr := fmt.Sprintf("%v/%v_1.cache", DataFolders, GetMongoDbName())
+	//在根目录下的data中获取文件中的数据
+	// 打开文件
+	_, err = os.Stat(filePathStr)
+	if os.IsNotExist(err) {
+		{ //从mongo中查询数据
+			coll := Collection("simulate")
+			filter := D("selected", true)
+			//先查询总数
+			totalCount, err := coll.CountDocuments(context.TODO(), filter) //10000
+			if err != nil {
+				slog.Error("coll.CountDocuments::err: ", "err", err)
+				return docs, err
+			}
+			//总数分8份获取每波的个数
+
+			pageSize := totalCount / PageNum
+			if totalCount%PageNum != 0 {
+				pageSize++
+			}
+			fmt.Println(fmt.Sprintf("一共有%v条数据, 需要分8波完成, 每波%v条", totalCount, pageSize))
+			if totalCount == 0 {
+				fmt.Println("没有错，不玩了")
+				return docs, err
+			}
+			//协程数量
+			numGoroutines := PageNum
+			// 创建一个通道来控制并发
+			semaphore := make(chan int, numGoroutines)
+			resChan := make(chan int, PageNum)
+			delChan := make(chan []primitive.ObjectID, PageNum)
+			defer close(semaphore)
+			defer close(resChan)
+			defer close(delChan)
+			for i := int64(0); i < PageNum; i++ {
+				// 获取当前批次
+				start := i * pageSize
+				end := start + pageSize
+				if end > totalCount {
+					end = totalCount
+				}
+				// 启动协程处理批次
+				semaphore <- int(i + 1) // 向管道发送数据
+				wg.Add(1)
+				fmt.Println(fmt.Sprintf("第%v波已经插入管道", int(i+1)))
+				go saveFileHandler(start, pageSize, coll, semaphore, &wg, int(i+1), filter)
+			}
+			wg.Wait()
+			////cur, _ := coll.Find(context.TODO(), filter, options.Find().SetProjection(D("bucketid", 1, "type", 1, "BucketMix", 1, "BucketStable", 1, "BucketHeartBeat", 1, "times", 1)))
+			//cur, _ := coll.Find(context.TODO(), filter, options.Find().SetProjection(D("bucketid", 1, "type", 1,
+			//	"BucketHeartBeat", 1, "BucketWave", 1, "BucketGov", 1, "BucketMix", 1, "BucketStable", 1,
+			//	"BucketHighAward", 1, "BucketSuperHighAward", 1, "times", 1)).SetSort(bson.D{{"_id", 1}}))
+			//err = cur.All(context.TODO(), &docs)
+			//if err != nil {
+			//	slog.Error("cur.All(context.TODO(), &docs)::err: ", err)
+			//	return docs, err
+			//}
+			//if len(docs) == 0 {
+			//	coll = Collection("rawSpinData")
+			//	cur, _ := coll.Find(context.TODO(), filter, options.Find().SetProjection(D("bucketid", 1, "type", 1, "BucketHeartBeat", 1, "BucketWave", 1, "BucketGov", 1, "BucketMix", 1, "BucketStable", 1, "BucketHighAward", 1, "BucketSuperHighAward", 1, "times", 1)))
+			//	err = cur.All(context.TODO(), &docs)
+			//	if err != nil {
+			//		slog.Error("cur.All(context.TODO(), &docs)::err: ", err)
+			//		return docs, err
+			//	}
+			//}
+			////获取游戏id，将查出的数据存到根目录下的data
+			//buffer := ut.BP.Get()
+			//defer ut.BP.Put(buffer)
+			//encoder := gob.NewEncoder(buffer)
+			//if err = encoder.Encode(docs); err != nil {
+			//	slog.Error("encoder.Encode(docs)::err: ", err)
+			//	return docs, err
+			//}
+			//
+			//// 创建一个压缩器
+			//var compressedData bytes.Buffer
+			//encoder2, err := zstd.NewWriter(&compressedData)
+			//if err != nil {
+			//	panic(err)
+			//}
+			//
+			//// 压缩数据
+			//_, err = encoder2.Write(buffer.Bytes())
+			//if err != nil {
+			//	panic(err)
+			//}
+			//// 关闭编码器以 flush 数据
+			//err = encoder2.Close()
+			//if err != nil {
+			//	panic(err)
+			//}
+			//
+			////创建文件，并写入
+			//// 创建文件夹（如果不存在）
+			//err = os.MkdirAll(docStr, os.ModePerm)
+			//if err != nil {
+			//	slog.Error("Error creating directory:", err)
+			//	return docs, err
+			//}
+			//// 创建文件
+			//var fileIn *os.File
+			//fileIn, createErr := os.Create(filePathStr)
+			//if createErr != nil {
+			//	slog.Error("Error creating file:", createErr)
+			//	return docs, createErr
+			//}
+			//defer fileIn.Close()
+			//// 使用 io.WriteString 写入内容
+			//_, err = io.WriteString(fileIn, compressedData.String())
+			//if err != nil {
+			//	slog.Error("Error writing to file:", err)
+			//	return docs, err
+			//}
+		}
+	} else {
+		defer file.Close()
+
+		// 创建一个通道来控制并发
+		semaphore := make(chan int, PageNum)
+		docMap := make(map[int][]p)
+		for i := 0; i < int(PageNum); i++ {
+			// 启动协程处理批次
+			semaphore <- i + 1 // 向管道发送数据
+			wg.Add(1)
+			fmt.Println(fmt.Sprintf("第%v波已经插入管道", int(i+1)))
+			go readFileHandler(docMap, i)
+		}
+
+		for i := 0; i < int(PageNum); i++ {
+			docs = append(docs, docMap[i]...)
+		}
+	}
+	return docs, nil
+}
+func GetSimulateByTableName[p any](docs []p, tableName string) ([]p, error) {
+	var file *os.File
+	var err error
+	docStr := "data"
+	filePathStr := fmt.Sprintf("%v/%v.cache", docStr, GetMongoDbName())
+	//在根目录下的data中获取文件中的数据
+	// 打开文件
+	file, err = os.Open(filePathStr)
+	if err != nil {
+		{ //从mongo中查询数据
+			coll := Collection(tableName)
+			filter := D("selected", true)
+			cur, _ := coll.Find(context.TODO(), filter, options.Find().SetProjection(D("bucketid", 1, "BucketMix", 1, "BucketStable", 1, "BucketHeartBeat", 1)))
+			err = cur.All(context.TODO(), &docs)
+			if err != nil {
+				slog.Error("cur.All(context.TODO(), &docs)::err: ", err)
+				return docs, err
+			}
+			//获取游戏id，将查出的数据存到根目录下的data
+			buffer := ut.BP.Get()
+			defer ut.BP.Put(buffer)
+			encoder := gob.NewEncoder(buffer)
+			if err = encoder.Encode(docs); err != nil {
+				slog.Error("encoder.Encode(docs)::err: ", err)
+				return docs, err
+			}
+
+			// 创建一个压缩器
+			var compressedData bytes.Buffer
+			encoder2, err := zstd.NewWriter(&compressedData)
+			if err != nil {
+				panic(err)
+			}
+
+			// 压缩数据
+			_, err = encoder2.Write(buffer.Bytes())
+			if err != nil {
+				panic(err)
+			}
+			// 关闭编码器以 flush 数据
+			err = encoder2.Close()
+			if err != nil {
+				panic(err)
+			}
+
+			//创建文件，并写入
+			// 创建文件夹（如果不存在）
+			err = os.MkdirAll(docStr, os.ModePerm)
+			if err != nil {
+				slog.Error("Error creating directory:", err)
+				return docs, err
+			}
+			// 创建文件
+			var fileIn *os.File
+			fileIn, createErr := os.Create(filePathStr)
+			if createErr != nil {
+				slog.Error("Error creating file:", createErr)
+				return docs, createErr
+			}
+			defer fileIn.Close()
+			// 使用 io.WriteString 写入内容
+			_, err = io.WriteString(fileIn, compressedData.String())
+			if err != nil {
+				slog.Error("Error writing to file:", err)
+				return docs, err
+			}
+		}
+	} else {
+		defer file.Close()
+		// 读取文件内容
+		content, err := io.ReadAll(file)
+		if err != nil {
+			slog.Error("Error:", err)
+			return docs, err
+		}
+		if len(content) > 0 {
+			// 压缩后的数据 compressedData 是二进制形式
+			compressedData := content // 你的压缩数据
+			// 解压缩
+			decoder, err := zstd.NewReader(bytes.NewReader(compressedData))
+			if err != nil {
+				panic(err)
+			}
+			decompressedData, err := io.ReadAll(decoder)
+			if err != nil {
+				panic(err)
+			}
+			decoder.Close()
+			//解码
+			decoder2 := gob.NewDecoder(bytes.NewReader(decompressedData))
+			decoder2.Decode(&docs)
+		}
+	}
+	return docs, nil
+}
+func GetSimulateByTableNames[p any](docs []p, tableName string) ([]p, error) {
+	var file *os.File
+	var err error
+	docStr := "data"
+	filePathStr := fmt.Sprintf("%v/%v.cache", docStr, GetMongoDbName())
+	//在根目录下的data中获取文件中的数据
+	// 打开文件
+	file, err = os.Open(filePathStr)
+	if err != nil {
+		{ //从mongo中查询数据
+			coll := Collection(tableName)
+			filter := D("selected", true)
+			//cur, _ := coll.Find(context.TODO(), filter, options.Find().SetProjection(D("type", 1, "data.gametype", 1, "bucketid", 1, "BucketMix", 1, "BucketStable", 1, "BucketHeartBeat", 1)))
+			cur, _ := coll.Find(context.TODO(), filter, options.Find().SetProjection(D("type", 1, "data.gametype", 1, "bucketid", 1, "BucketHeartBeat", 1, "BucketWave", 1, "BucketGov", 1, "BucketMix", 1, "BucketStable", 1, "BucketHighAward", 1, "BucketSuperHighAward", 1)))
+			err = cur.All(context.TODO(), &docs)
+			if err != nil {
+				slog.Error("cur.All(context.TODO(), &docs)::err: ", err)
+				return docs, err
+			}
+			//获取游戏id，将查出的数据存到根目录下的data
+			buffer := ut.BP.Get()
+			defer ut.BP.Put(buffer)
+			encoder := gob.NewEncoder(buffer)
+			if err = encoder.Encode(docs); err != nil {
+				slog.Error("encoder.Encode(docs)::err: ", err)
+				return docs, err
+			}
+
+			// 创建一个压缩器
+			var compressedData bytes.Buffer
+			encoder2, err := zstd.NewWriter(&compressedData)
+			if err != nil {
+				panic(err)
+			}
+
+			// 压缩数据
+			_, err = encoder2.Write(buffer.Bytes())
+			if err != nil {
+				panic(err)
+			}
+			// 关闭编码器以 flush 数据
+			err = encoder2.Close()
+			if err != nil {
+				panic(err)
+			}
+
+			//创建文件，并写入
+			// 创建文件夹（如果不存在）
+			err = os.MkdirAll(docStr, os.ModePerm)
+			if err != nil {
+				slog.Error("Error creating directory:", err)
+				return docs, err
+			}
+			// 创建文件
+			var fileIn *os.File
+			fileIn, createErr := os.Create(filePathStr)
+			if createErr != nil {
+				slog.Error("Error creating file:", createErr)
+				return docs, createErr
+			}
+			defer fileIn.Close()
+			// 使用 io.WriteString 写入内容
+			_, err = io.WriteString(fileIn, compressedData.String())
+			if err != nil {
+				slog.Error("Error writing to file:", err)
+				return docs, err
+			}
+		}
+	} else {
+		defer file.Close()
+		// 读取文件内容
+		content, err := io.ReadAll(file)
+		if err != nil {
+			slog.Error("Error:", err)
+			return docs, err
+		}
+		if len(content) > 0 {
+			// 压缩后的数据 compressedData 是二进制形式
+			compressedData := content // 你的压缩数据
+			// 解压缩
+			decoder, err := zstd.NewReader(bytes.NewReader(compressedData))
+			if err != nil {
+				panic(err)
+			}
+			decompressedData, err := io.ReadAll(decoder)
+			if err != nil {
+				panic(err)
+			}
+			decoder.Close()
+			//解码
+			decoder2 := gob.NewDecoder(bytes.NewReader(decompressedData))
+			decoder2.Decode(&docs)
+		}
+	}
+	return docs, nil
+}
+
+func GetSimulateB[p any](docs []p, collName string) ([]p, error) {
+	var file *os.File
+	var err error
+	docStr := "data"
+	filePathStr := fmt.Sprintf("%v/%v.cache", docStr, GetMongoDbName())
+	//在根目录下的data中获取文件中的数据
+	// 打开文件
+	file, err = os.Open(filePathStr)
+	if err != nil {
+		{ //从mongo中查询数据
+			coll := Collection(collName)
+			filter := D("selected", true)
+			cur, _ := coll.Find(context.TODO(), filter, options.Find().SetProjection(D("bucketid", 1, "type", 1)))
+			err = cur.All(context.TODO(), &docs)
+			if err != nil {
+				slog.Error("cur.All(context.TODO(), &docs)::err: ", err)
+				return docs, err
+			}
+			//获取游戏id，将查出的数据存到根目录下的data
+			buffer := ut.BP.Get()
+			defer ut.BP.Put(buffer)
+			encoder := gob.NewEncoder(buffer)
+			if err = encoder.Encode(docs); err != nil {
+				slog.Error("encoder.Encode(docs)::err: ", err)
+				return docs, err
+			}
+
+			// 创建一个压缩器
+			var compressedData bytes.Buffer
+			encoder2, err := zstd.NewWriter(&compressedData)
+			if err != nil {
+				panic(err)
+			}
+
+			// 压缩数据
+			_, err = encoder2.Write(buffer.Bytes())
+			if err != nil {
+				panic(err)
+			}
+			// 关闭编码器以 flush 数据
+			err = encoder2.Close()
+			if err != nil {
+				panic(err)
+			}
+
+			//创建文件，并写入
+			// 创建文件夹（如果不存在）
+			err = os.MkdirAll(docStr, os.ModePerm)
+			if err != nil {
+				slog.Error("Error creating directory:", err)
+				return docs, err
+			}
+			// 创建文件
+			var fileIn *os.File
+			fileIn, createErr := os.Create(filePathStr)
+			if createErr != nil {
+				slog.Error("Error creating file:", createErr)
+				return docs, createErr
+			}
+			defer fileIn.Close()
+			// 使用 io.WriteString 写入内容
+			_, err = io.WriteString(fileIn, compressedData.String())
+			if err != nil {
+				slog.Error("Error writing to file:", err)
+				return docs, err
+			}
+		}
+	} else {
+		defer file.Close()
+		// 读取文件内容
+		content, err := io.ReadAll(file)
+		if err != nil {
+			slog.Error("Error:", err)
+			return docs, err
+		}
+		if len(content) > 0 {
+			// 压缩后的数据 compressedData 是二进制形式
+			compressedData := content // 你的压缩数据
+			// 解压缩
+			decoder, err := zstd.NewReader(bytes.NewReader(compressedData))
+			if err != nil {
+				panic(err)
+			}
+			decompressedData, err := io.ReadAll(decoder)
+			if err != nil {
+				panic(err)
+			}
+			decoder.Close()
+			//解码
+			decoder2 := gob.NewDecoder(bytes.NewReader(decompressedData))
+			decoder2.Decode(&docs)
+		}
+	}
+	return docs, nil
+}
+
+func saveFileHandler(start int64, pageSize int64, coll *mongo.Collection, semaphore chan int, wg *sync.WaitGroup, num int, filter bson.D) {
+	defer wg.Done()
+	var docs []interface{}
+	var err error
+	cur, _ := coll.Find(context.TODO(), filter, options.Find().SetProjection(D("bucketid", 1, "type", 1,
+		"BucketHeartBeat", 1, "BucketWave", 1, "BucketGov", 1, "BucketMix", 1, "BucketStable", 1,
+		"BucketHighAward", 1, "BucketSuperHighAward", 1, "times", 1)).
+		SetSkip(start).SetLimit(pageSize).SetSort(bson.D{{"_id", 1}}))
+	err = cur.All(context.TODO(), &docs)
+	if err != nil {
+		slog.Error("cur.All(context.TODO(), &docs)::err: ", err)
+		return
+	}
+	if len(docs) == 0 {
+		coll = Collection("rawSpinData")
+		cur, _ := coll.Find(context.TODO(), filter, options.Find().SetProjection(D("bucketid", 1, "type", 1, "BucketHeartBeat", 1, "BucketWave", 1, "BucketGov", 1, "BucketMix", 1, "BucketStable", 1, "BucketHighAward", 1, "BucketSuperHighAward", 1, "times", 1)))
+		err = cur.All(context.TODO(), &docs)
+		if err != nil {
+			slog.Error("cur.All(context.TODO(), &docs)::err: ", err)
+			return
+		}
+	}
+	//存入文件
+	//获取游戏id，将查出的数据存到根目录下的data
+	buffer := ut.BP.Get()
+	defer ut.BP.Put(buffer)
+	marshal, err := json.Marshal(docs)
+	if err != nil {
+
+	}
+	//创建文件，并写入
+	// 创建文件夹（如果不存在）
+	err = os.MkdirAll(DataFolders, os.ModePerm)
+	if err != nil {
+		slog.Error("Error creating directory:", err)
+		return
+	}
+	// 创建文件
+	var fileIn *os.File
+	filePathStr := fmt.Sprintf("%v/%v_%v.cache", DataFolders, GetMongoDbName(), num)
+	fileIn, createErr := os.Create(filePathStr)
+	if createErr != nil {
+		slog.Error("Error creating file:", createErr)
+		return
+	}
+	defer fileIn.Close()
+	// 使用 io.WriteString 写入内容
+	_, err = fileIn.Write(marshal)
+	if err != nil {
+		slog.Error("Error writing to file:", err)
+		return
+	}
+
+	<-semaphore
+}
+func readFileHandler[p any](docMap map[int][]p, i int) {
+	// 读取文件内容
+	filePathStr := fmt.Sprintf("%v/%v_%v.cache", DataFolders, GetMongoDbName(), i+1)
+	file, err := os.Open(filePathStr)
+	content, err := io.ReadAll(file)
+	if err != nil {
+		slog.Error("Error:", err)
+		return
+	}
+	if len(content) > 0 {
+		var docs []p
+		err = json.Unmarshal(content, &docs)
+		docMap[i] = docs
+	}
+}

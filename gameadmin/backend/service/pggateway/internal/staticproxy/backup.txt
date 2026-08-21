@@ -1,0 +1,109 @@
+
+	// proxy := newProxy()
+
+	// serveMux := http.NewServeMux()
+	// serveMux.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+	// 	ul := gamedata.Get().ReverseProxyUrls[r.Host]
+	// 	if ul == nil {
+	// 		w.WriteHeader(404)
+	// 		return
+	// 	}
+
+	// 	if r.Method == http.MethodOptions {
+	// 		w.Header().Set("Access-Control-Allow-Origin", "*")
+	// 		w.Header().Set("Access-Control-Allow-Headers", "*")
+	// 		return
+	// 	}
+
+	// 	r.URL.RawQuery = ""
+
+	// 	var err error
+	// 	file := path.Join("cache", ul.Host, r.URL.RequestURI())
+
+	// 	inuri := r.URL.RequestURI()
+	// 	lg := slog.With(
+	// 		"file", file,
+	// 		"inuri", inuri,
+	// 		"method", r.Method,
+	// 	)
+
+	// 	defer func() {
+	// 		lg = lg.With(
+	// 			// "Header", w.Header(),
+	// 			"error", err,
+	// 		)
+	// 		lg.Info("req resources")
+	// 		// 2024/04/16 08:32:11 INFO req resources file=cache/m.pgsoft-games.com/98/index.html inuri=/98/index.html method=GET from=cache error=<nil>
+	// 	}()
+
+	// 	if strings.HasSuffix(file, ".js.map") {
+	// 		w.WriteHeader(404)
+	// 		return
+	// 	}
+
+	// 	if true {
+	// 		w.Header().Set("Access-Control-Allow-Origin", "*")
+	// 		w.Header().Set("Access-Control-Allow-Headers", "*")
+	// 		if strings.HasSuffix(file, "sw.js") {
+	// 			w.Header().Set("Service-Worker-Allowed", "/")
+	// 			w.Header().Add("Content-Type", "application/javascript")
+	// 			w.Header().Add("Content-Type", "charset=UTF-8")
+	// 		}
+
+	// 		if strings.HasSuffix(file, "/index.js") ||
+	// 			strings.HasSuffix(file, "/index.json") ||
+	// 			strings.HasSuffix(file, "/index.html") ||
+	// 			false {
+	// 			w.Header().Set("Cache-Control", "public, max-age=120, s-maxage=604800")
+	// 		} else {
+	// 			// max-age=31536000
+	// 			w.Header().Set("Cache-Control", "max-age=31536000")
+	// 		}
+
+	// 		if data, err := os.ReadFile(file); err == nil {
+	// 			var modtime time.Time
+	// 			if d, e := os.Stat(file); e == nil {
+	// 				modtime = d.ModTime()
+	// 			}
+	// 			http.ServeContent(w, r, file, modtime, bytes.NewReader(data))
+	// 			lg = lg.With("from", "cache")
+
+	// 			// http.ServeFile()
+	// 			return
+	// 		}
+
+	// 		outuri := ul.JoinPath(r.URL.Path).String()
+	// 		lg = lg.With("outuri", outuri)
+	// 		req := lo.Must(http.NewRequest(http.MethodGet, outuri, nil))
+	// 		req.Header.Set("Refer", "https://m.pgsoft-games.com/")
+	// 		// req.Header.Set("Origin", "https://m.pgsoft-games.com")
+
+	// 		resp, err := http.DefaultClient.Do(req)
+	// 		// resp, err := http.Get(ul.JoinPath(r.URL.Path).String())
+	// 		if err != nil {
+	// 			// w.WriteHeader(http.Status)
+	// 			http.Error(w, err.Error(), http.StatusInternalServerError)
+	// 			return
+	// 		}
+	// 		defer resp.Body.Close()
+	// 		body, err := io.ReadAll(resp.Body)
+	// 		if err != nil {
+	// 			// w.WriteHeader(http.Status)
+	// 			http.Error(w, err.Error(), http.StatusInternalServerError)
+	// 			return
+	// 		}
+	// 		lg = lg.With("Status", resp.Status)
+
+	// 		if resp.StatusCode != http.StatusOK {
+	// 			w.WriteHeader(resp.StatusCode)
+	// 			return
+	// 		}
+
+	// 		lg = lg.With("from", "REMOTE")
+	// 		if indexRegexp.MatchString(inuri) {
+	// 			body = bytes.Replace(body, []byte("</script>"), []byte(`</script><script>window.gtag=console.log;window.dataLayer=[];</script>`), 1)
+	// 		}
+	// 		writefile(file, body)
+	// 		http.ServeContent(w, r, file, time.Now(), bytes.NewReader(body))
+	// 	}
+	// })

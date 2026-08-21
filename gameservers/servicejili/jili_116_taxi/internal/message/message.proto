@@ -1,0 +1,1487 @@
+syntax = "proto3";
+package message;
+option go_package = "./";
+import "google/protobuf/timestamp.proto";
+
+message buff_BuffParam {
+    optional int64 BuffID = 1;
+    optional int32 Minute = 2;
+    optional double Param1 = 3;
+    optional double Param2 = 4;
+    optional double Param3 = 5;
+    optional double Param4 = 6;
+}
+
+message buff_EBuffOut {
+    optional int64 BuffIndex = 1;
+    optional int64 BuffID = 2;
+    optional int32 GameID = 3;
+    optional int64 BeginTime = 4;
+    optional int64 EndTime = 5;
+    optional int32 BuffType = 6;
+    optional double Param1 = 7;
+    optional double Param2 = 8;
+    optional double Param3 = 9;
+    optional double Param4 = 10;
+}
+
+message buff_WBuffOut {
+    optional int64 BuffIndex = 1;
+    optional int64 BuffID = 2;
+    optional int32 GameID = 3;
+    optional int32 Amount = 4;
+    optional int64 StartTime = 5;
+    optional int64 ExpiredTime = 6;
+    optional double Ratio = 7;
+    optional int32 BuffType = 8;
+    optional int32 Icon = 9;
+    optional int32 Star = 10;
+    optional string Name = 11;
+    optional string Desc = 12;
+    optional int32 Minute = 13;
+    optional double Param1 = 14;
+    optional double Param2 = 15;
+    optional double Param3 = 16;
+    optional double Param4 = 17;
+}
+
+message buff_GetPlayerBackAck {
+    optional int32 Result = 1;
+    repeated buff_WBuffOut List = 2;
+    repeated buff_WBuffOut IList = 3;
+}
+
+message buff_GetPlayerBuffAck {
+    optional int32 Result = 1;
+    repeated buff_EBuffOut List = 2;
+}
+
+message buff_AddPlayerBuffAck {
+    optional int32 Result = 1;
+    optional int32 State = 2;
+    repeated buff_WBuffOut Info = 3;
+}
+
+message buff_UsePlayerBuffAck {
+    optional int32 Result = 1;
+    optional int32 State = 2;
+    repeated buff_EBuffOut Info = 3;
+}
+
+message buff_UpdatelayerBuffAck {
+    optional int32 Result = 1;
+    optional int32 State = 2;
+}
+
+message buff_GetSettingParamAck {
+    optional int32 Result = 1;
+    repeated buff_BuffParam Info = 2;
+}
+
+message gaia_GaiaResponse {
+    optional int32 type = 1;
+    optional int32 ret = 2;
+    optional string token = 3;
+    optional string msg = 4;
+    optional bytes data = 5;
+}
+
+message gaia_Card {
+    optional int32 GameID = 1;
+    optional int32 Level = 2;
+    optional int32 CardIndex = 3;
+    optional int32 Star = 4;
+    optional int32 Count = 5;
+}
+
+message gaia_Mission {
+    optional uint32 ItemID = 1;
+    optional uint32 ItemCount = 2;
+    optional int64 ExtendID = 3;
+}
+
+message gaia_ServiceData {
+    optional uint32 missionReward = 1;
+    optional int32 jpType = 2;
+    optional double jpWin = 3;
+    optional double fullJpWin = 4;
+    optional int32 trialfinish = 5;
+    optional int32 trialaward = 6;
+    optional int32 freeremain = 7;
+    repeated gaia_Card cardlist = 8;
+    optional double buffmul = 9;
+    optional double buffmulwin = 10;
+    optional int32 buffexbet = 11;
+    optional int32 bufffree = 12;
+    repeated gaia_Mission missionlist = 13;
+    optional string ErrorMsg = 14;
+}
+
+message gaia_DebrisAInfoReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 currencynumber = 3;
+    optional int32 lang = 4;
+}
+
+message gaia_DebrisPInfoReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 currencynumber = 3;
+    optional int32 ano = 4;
+}
+
+message gaia_DebrisPGetReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 currencynumber = 3;
+}
+
+message gaia_DebrisExchangeReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 currencynumber = 3;
+    optional int32 ano = 4;
+    optional int32 fno = 5;
+    optional int32 amount = 6;
+}
+
+message gaia_FullJPInfoReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+}
+
+message gaia_FullJPInfoAllReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+}
+
+message gaia_FullJPHistoryReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+}
+
+message gaia_FullJPInfoAck {
+    optional double value = 1;
+    optional double full = 2;
+    optional int32 minvip = 3;
+    optional double minbet = 4;
+}
+
+message gaia_FullJPInfoAllAck {
+    optional int32 acktype = 1;
+    repeated gaia_FullJPList list = 2;
+}
+
+message gaia_FullJPList {
+    optional int32 apiid = 1;
+    optional int32 gameid = 2;
+    optional double value = 3;
+    optional double full = 4;
+}
+
+message gaia_FullJPHistoryAck {
+    repeated gaia_FullJPHistoryData list = 1;
+}
+
+message gaia_FullJPHistoryData {
+    optional string winner = 1;
+    optional string nickname = 2;
+    optional double win = 3;
+    optional int32 time = 4;
+}
+
+message gaia_ItemListReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 lang = 3;
+    optional int32 currencynumber = 4;
+}
+
+message gaia_ItemAllGameReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 lang = 3;
+    optional int32 currencynumber = 4;
+}
+
+message gaia_ItemUseCardReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 currencynumber = 3;
+    optional string itemindex = 4;
+    optional string itemid = 5;
+    optional string amount = 6;
+}
+
+message gaia_ItemCheckNewReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+}
+
+message gaia_ItemGetMailReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 currencynumber = 3;
+}
+
+message gaia_ItemSetReadReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 currencynumber = 3;
+}
+
+message gaia_MissionDailyReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional string lang = 3;
+    optional int32 currencynumber = 4;
+    optional bool isNow = 5;
+    optional int32 level = 6;
+}
+
+message gaia_ReplayListReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 currencynumber = 3;
+}
+
+message gaia_ReplayGetReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional string index = 3;
+}
+
+message gaia_ReplayCheckReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+}
+
+message gaia_ReplayListAck {
+    optional int32 acktype = 1;
+    repeated gaia_ReplayLDF list = 2;
+}
+
+message gaia_ReplayLDF {
+    repeated gaia_ReplayLClient row = 1;
+}
+
+message gaia_ReplayLClient {
+    optional int32 aid = 1;
+    optional string account = 2;
+    optional string name = 3;
+    optional double bet = 4;
+    optional double win = 5;
+    optional double odd = 6;
+    optional double adjustwin = 7;
+    optional int32 currency = 8;
+    optional string currsymbol = 9;
+    optional double currunit = 10;
+    optional string time = 11;
+    optional string index = 12;
+}
+
+message gaia_ReplayGetAck {
+    optional int32 acktype = 1;
+    optional string ack = 2;
+}
+
+message gaia_ReplayCheckAck {
+    optional int32 acktype = 1;
+    optional bool needinit = 2;
+}
+
+message gaia_TrialInfoReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 vip = 3;
+    optional int32 lang = 4;
+}
+
+message gaia_TrialSignUpReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 vip = 3;
+    optional int32 actno = 4;
+}
+
+message gaia_TrialGiveUpReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 actno = 3;
+}
+
+message gaia_TrialInfoAck {
+    optional int32 acktype = 1;
+    optional int32 nowactno = 2;
+    optional int32 targettype = 3;
+    repeated gaia_TrialAward awarddesc = 4;
+    optional int32 pstate = 5;
+    repeated gaia_TrialPData trialinfo = 6;
+    repeated double bet = 7;
+    optional bool remind = 8;
+    repeated gaia_TrialAward remindinfo = 9;
+    repeated int32 rtags = 10;
+    optional string start = 11;
+    optional string end = 12;
+}
+
+message gaia_TrialAward {
+    optional int32 award = 1;
+    optional int32 type = 2;
+    optional double gate = 3;
+    optional int32 gameid = 4;
+    optional int32 itemid = 5;
+    optional int32 amount = 6;
+    repeated gaia_TrialItem data = 7;
+    optional double money = 8;
+}
+
+message gaia_TrialItem {
+    optional int32 star = 1;
+    optional int32 icon = 2;
+    optional int32 type = 3;
+    optional double bet = 4;
+    optional string gamename = 5;
+}
+
+message gaia_TrialPData {
+    optional int32 apiid = 1;
+    optional int32 gameid = 2;
+    optional int32 sac = 3;
+    optional int32 activityno = 4;
+    optional double totalbet = 5;
+    optional double totalwin = 6;
+    optional double property = 7;
+}
+
+message gaia_TrialSignUpAck {
+    optional int32 acktype = 1;
+    repeated gaia_TrialPData trialinfo = 2;
+}
+
+message gaia_TrialGiveUpAck {
+    optional int32 acktype = 1;
+    optional int32 award = 2;
+}
+
+message gaia_UnionJPInfoReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+}
+
+message gaia_UnionJPInfoAllReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+}
+
+message gaia_UnionJPHistoryReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+}
+
+message gaia_UnionJPBlockReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 currencynumber = 3;
+}
+
+message gaia_UnionJPInfoAck {
+    repeated gaia_UnionJPPool list = 1;
+}
+
+message gaia_UnionJPPool {
+    optional int32 type = 1;
+    optional double value = 2;
+}
+
+message gaia_UnionJPInfoAllAck {
+    repeated gaia_UnionJPPool plist = 1;
+    repeated int32 glist = 2;
+}
+
+message gaia_UnionJPHistoryAck {
+    repeated gaia_UnionJPHistoryData list = 1;
+}
+
+message gaia_UnionJPHistoryData {
+    optional int32 type = 1;
+    optional string winner = 2;
+    optional string nickname = 3;
+    optional double win = 4;
+    optional int32 gameID = 5;
+}
+
+message gaia_UnionJPBlockAck {
+    repeated double list = 1;
+}
+
+message gaia_VipSignInfoReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 currencynumber = 3;
+}
+
+message gaia_VipSignRewardReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 currencynumber = 3;
+    optional string index = 4;
+}
+
+message gaia_VipSignInfoAck {
+    repeated gaia_VipSignInfoData info = 1;
+    optional int32 result = 2;
+}
+
+message gaia_VipSignInfoData {
+    repeated gaia_VipSignTreasure treasurelist = 1;
+    optional string expiredtime = 2;
+    optional int32 error = 3;
+}
+
+message gaia_VipSignTreasure {
+    optional string index = 1;
+    optional int32 minvip = 2;
+    optional double exp = 3;
+    optional bool isopen = 4;
+}
+
+message gaia_VipSignRewardAck {
+    repeated gaia_VipSignRewardData info = 1;
+    optional int32 result = 2;
+}
+
+message gaia_VipSignRewardData {
+    optional int32 itemid = 1;
+    optional int32 count = 2;
+    optional int32 error = 3;
+    optional int32 icon = 4;
+}
+
+message gaia_CheckMallReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 apiid = 3;
+    optional bool isvol = 4;
+    optional int32 voltype = 5;
+}
+
+message gaia_CheckMallAck {
+    repeated gaia_GameMallSetting Settings = 1;
+    optional int32 Show = 2;
+}
+
+message gaia_GameMallSetting {
+    optional int32 GameID = 1;
+    optional int32 APIID = 2;
+    optional int32 AlterID = 3;
+    optional int32 DescType = 4;
+    optional int32 DescRounds = 5;
+    optional double MaxBet = 6;
+    optional double PriceOdd = 7;
+    optional bool ForSale = 8;
+    repeated double BetVec = 9;
+    optional int32 ReelNo = 10;
+    optional int32 BetNo = 11;
+    optional bool Event = 12;
+}
+
+message gaia_LevelReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 currencynumber = 3;
+}
+
+message gaia_BuffBackReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 apiid = 3;
+    optional int32 lang = 4;
+}
+
+message gaia_BuffNowReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 apiid = 3;
+    optional int32 gameid = 4;
+}
+
+message gaia_BuffUseReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 apiid = 3;
+    optional int32 gameid = 4;
+    optional int64 buffidx = 5;
+    optional int64 buffid = 6;
+    optional int32 currency = 7;
+}
+
+message gaia_BuffParamReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    repeated int64 idlist = 3;
+}
+
+message gaia_VerifyGiftCodeReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional int32 apiid = 3;
+    optional string giftcode = 4;
+}
+
+message gaia_CheckBlockGiftCodeReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+}
+
+message gaia_VerifyGiftCodeAck {
+    optional int32 Code = 1;
+    optional int32 Type = 2;
+    optional int32 Round = 3;
+}
+
+message gaia_CheckBlockGiftCodeAck {
+    optional int32 Code = 1;
+    optional string Message = 2;
+    optional bool IsBlock = 3;
+    optional int32 BlockDuration = 4;
+    optional int32 ErrorInputAmount = 5;
+}
+
+message level_LevelServiceReq {
+    optional int32 accountID = 1;
+}
+
+message level_LevelServiceResp {
+    optional int32 level = 1;
+    optional double exp = 2;
+    optional double nextExp = 3;
+    repeated level_RewardData nextReward = 4;
+    repeated level_RewardData reward = 5;
+    optional int32 error = 6;
+    optional int32 betOpen = 7;
+}
+
+message level_RewardData {
+    optional int32 amount = 1;
+    optional int32 betOpen = 2;
+    optional int32 newGame = 3;
+    optional int32 origin = 4;
+    repeated int32 newGames = 5;
+    repeated int32 unlock = 6;
+    optional int32 vipExp = 7;
+    optional int32 ruby = 8;
+    optional int32 itemID = 9;
+    optional int32 ItemCount = 10;
+    optional int64 buffID = 11;
+    optional int32 buffCount = 12;
+    optional int32 cardBookID = 13;
+    optional int32 cardBookCount = 14;
+    optional int32 show = 15;
+}
+
+message lifeService_LifeServiceInitInfo {
+    optional string userID = 1;
+    optional int64 accountID = 2;
+    optional int32 gameID = 3;
+    optional string token = 4;
+    optional int32 route = 5;
+    optional int32 apiID = 6;
+}
+
+message longhu_GetLonghuListRequest {
+    optional int32 apiID = 1;
+    optional int32 accountID = 2;
+    optional int32 subAgentCode = 3;
+    optional int32 GameID = 4;
+}
+
+message longhu_LonghuListMixPlayer {
+    optional int32 no = 1;
+    optional string account = 2;
+    optional string nickname = 3;
+    optional int32 gameID = 4;
+    optional double win = 5;
+    optional double odd = 6;
+    optional int64 createTime = 7;
+}
+
+message longhu_LonghuListMixPlayerAdmin {
+    repeated longhu_LonghuListMixPlayer player = 1;
+    repeated longhu_LonghuListMixPlayer playerList = 2;
+}
+
+message longhu_LonghuListMix {
+    repeated longhu_LonghuListMixPlayerAdmin win = 1;
+    repeated longhu_LonghuListMixPlayerAdmin odd = 2;
+}
+
+message longhu_LonghuListResponse {
+    optional int32 errorCode = 1;
+    optional string message = 2;
+    repeated longhu_LonghuListMix data = 3;
+    optional int64 resetTime = 4;
+}
+
+message lotto_LotteryReq {
+    optional int32 LottoSerial = 1;
+    optional string LottoJiliSerial = 2;
+}
+
+message lotto_LotteryInfoResp {
+    repeated lotto_LotteryInfo Cur = 1;
+    repeated lotto_LotteryInfo Last = 2;
+    repeated lotto_LotteryInfo JiliLasts = 3;
+    repeated lotto_LotteryRewardList LastReward = 4;
+    repeated lotto_RewardInfo LottoRewards = 5;
+    repeated lotto_RewardInfo JiliRewards = 6;
+    optional int32 Type = 7;
+}
+
+message lotto_RewardInfo {
+    optional int32 Type = 1;
+    optional double Reward = 2;
+    optional int32 RewardType = 3;
+}
+
+message lotto_LotteryInfo {
+    optional int32 LottoSerial = 1;
+    optional string LottoJiliSerial = 2;
+    optional google.protobuf.Timestamp EndTime = 3;
+    optional google.protobuf.Timestamp DrawTime = 4;
+    optional google.protobuf.Timestamp JiliDrawTime = 5;
+    repeated lotto_LotteryRewardNumber DrawNumber = 6;
+    repeated lotto_LotteryTicketList TicketList = 7;
+}
+
+message lotto_LotteryRewardNumber {
+    optional int32 Type = 1;
+    repeated int32 Number = 2;
+}
+
+message lotto_LottoLogReq {
+    optional int32 LottoSerial = 1;
+}
+
+message lotto_LotteryTicketList {
+    repeated lotto_LotteryTicket Lotterys = 1;
+}
+
+message lotto_LotteryTicket {
+    optional int32 LottoSerial = 1;
+    optional string LottoJiliSerial = 2;
+    optional int32 LotterySet = 3;
+    optional int32 LotteryNumber = 4;
+    optional google.protobuf.Timestamp GetTime = 6;
+}
+
+message lotto_LotteryRewardList {
+    repeated lotto_LotteryReward Lotterys = 1;
+}
+
+message lotto_LotteryReward {
+    optional int32 LottoSerial = 1;
+    optional string LottoJiliSerial = 2;
+    optional int32 LotteryNumber = 3;
+    optional int32 AwardType = 4;
+    optional double Reward = 5;
+    optional int32 RewardType = 6;
+}
+
+message lotto_LotteryPlayer {
+    optional int32 Type = 1;
+    optional double BetAmount = 2;
+    optional double GainLotteryBet = 3;
+    optional int32 NextLotteryAmount = 4;
+}
+
+message mission_MissionReportReq {
+}
+
+message mission_Reward {
+}
+
+message mission_MissionReportResponse {
+}
+
+message mission_DailyMissionDataReq {
+}
+
+message mission_DailyMissionDataResponse {
+}
+
+message mission_DailyMissionInfo {
+}
+
+message mission_DailyMissionData {
+}
+
+message mission_ItemCard {
+}
+
+message mission_GiftPack {
+}
+
+message mission_Gift {
+}
+
+message server_Response {
+    optional int32 ack = 1;
+    optional bytes response = 2;
+    optional int32 error = 3;
+    optional string ErrorMsg = 4;
+}
+
+message server_Request {
+    optional int32 ack = 1;
+    optional bytes req = 2;
+}
+
+message server_SpinReq {
+    optional int64 bet = 1;
+    optional uint32 cheat = 2;
+    optional uint32 itemIndex = 3;
+    optional uint32 itemID = 4;
+    optional uint32 amount = 5;
+    optional int32 trialNo = 6;
+    optional int32 currencyNumber = 7;
+    optional int64 mallBet = 8;
+    optional uint32 vip = 9;
+    optional bytes customReq = 10;
+    optional bool isFree = 11;
+}
+
+message server_SpinResponse {
+    optional bytes allPlate = 1;
+    optional uint32 spinState = 2;
+    optional int64 totalWin = 3;
+    optional int64 roundIndex = 4;
+    optional uint32 missionReward = 5;
+    optional int64 postMoney = 6;
+    optional int64 preMoney = 8;
+    repeated server_JpOpen jp = 9;
+    optional bytes lottery = 10;
+    optional int64 fullJpWin = 11;
+    optional int32 freeSpinCount = 12;
+    repeated server_TrialSpinResp trialResp = 13;
+    optional bytes cardBookResp = 14;
+}
+
+message server_InfoReq {
+    optional string os = 1;
+    optional string language = 2;
+    repeated server_Browser browser = 3;
+    optional string version = 4;
+    optional string model = 5;
+}
+
+message server_Browser {
+    optional string type = 1;
+    optional string version = 2;
+    optional string language = 3;
+    optional uint32 width = 4;
+    optional uint32 height = 5;
+    optional float ratio = 6;
+}
+
+message server_InfoResponse {
+    repeated server_Wallet wallet = 1;
+    repeated server_SpinResponse spinResponse = 2;
+    optional bytes extraInfo = 4;
+    repeated double jpUnlockBet = 5;
+    repeated server_PreferRoundShow prefer = 6;
+    repeated server_MallInfo mall = 7;
+    optional double rtp = 8;
+    repeated server_FreeSpinData free = 9;
+}
+
+message server_PreferRoundShow {
+    optional double BaseRound = 1;
+    optional double SigmaRound = 2;
+    optional double CV = 3;
+    optional double HR = 4;
+    optional double MGR = 5;
+    optional int32 Range = 6;
+    optional int32 Show = 7;
+}
+
+message server_Wallet {
+    optional string currencyName = 1;
+    optional int32 currencyNumber = 2;
+    optional int64 coin = 3;
+    repeated int64 bet = 4;
+    optional double unit = 5;
+    optional double ratio = 6;
+    optional string currencySymbol = 7;
+    optional double rate = 8;
+    optional double cycle = 9;
+    optional int64 lower = 10;
+    optional int64 upper = 11;
+    optional int32 decimal = 12;
+}
+
+message server_NoticeReq {
+    optional string lang = 1;
+    optional int32 currencyNumber = 2;
+}
+
+message server_NoticeInfo {
+    optional int32 type = 1;
+    optional int64 value = 2;
+    optional string message = 3;
+    optional bytes customData = 4;
+    optional int32 currencyNumber = 5;
+}
+
+message server_NoticeResponse {
+    repeated server_NoticeInfo notice = 1;
+}
+
+message server_Itemdata {
+    optional int32 itemindex = 1;
+    optional int32 itemid = 2;
+    optional int32 amount = 3;
+    optional int32 gameid = 4;
+    optional int32 lvmin = 5;
+    optional int32 lvmax = 6;
+    optional double coinlimit = 7;
+    optional int32 dailyremaintimes = 8;
+    optional string startTime = 9;
+    optional string expiredtime = 10;
+    optional double bet = 11;
+    optional int32 spinpaytype = 12;
+    optional double givetype = 13;
+    optional int32 wintype = 14;
+    optional double winmultiplier = 15;
+    optional double winmaxmag = 16;
+    optional int32 winmagset = 17;
+    optional double itemvalue = 18;
+    optional string itemname = 19;
+    optional int32 icon = 20;
+    optional int32 banreason = 21;
+    optional string itemdesc = 22;
+    optional int32 star = 23;
+    optional string gamename = 24;
+    optional int32 currencynumber = 25;
+    optional int32 source = 26;
+    optional double playvalue = 27;
+    optional int64 start = 28;
+    optional int64 expired = 29;
+}
+
+message server_BackPackInfo {
+    optional int32 result = 1;
+    repeated server_Itemdata playeritemdata = 2;
+}
+
+message server_BackPack {
+    repeated server_BackPackInfo info = 1;
+    optional int32 ret = 2;
+}
+
+message server_CheckUseItemReq {
+    optional double bet = 1;
+    optional int32 itemindex = 2;
+    optional int32 itemid = 3;
+    optional int32 amount = 4;
+    optional int32 currencyNumber = 5;
+}
+
+message server_ItemInfo {
+    optional int32 result = 1;
+    optional double bet = 2;
+    optional int32 spinpaytype = 3;
+    optional int32 givetype = 4;
+    optional int32 wintype = 5;
+    optional double winmultiplier = 6;
+    optional double winmaxmag = 7;
+    optional double winmagupperbound = 8;
+    optional double winmaglowerbound = 9;
+    optional int32 star = 10;
+    optional int32 icon = 11;
+    optional int32 alterid = 12;
+    optional double coinlimit = 13;
+    optional int32 source = 14;
+    optional double playvalue = 15;
+}
+
+message server_CheckUseItem {
+    repeated server_ItemInfo info = 1;
+    optional int32 ret = 2;
+}
+
+message server_ListAllGameInfo {
+    optional int32 result = 1;
+    repeated server_ItemListData canuseitem = 2;
+}
+
+message server_ItemListData {
+    optional int32 gameid = 1;
+    optional int32 ownamount = 2;
+    optional int32 canamount = 3;
+    optional int32 minitemindex = 4;
+}
+
+message server_MailInfo {
+    optional int32 result = 1;
+    repeated server_Maildata usermailackdata = 2;
+    optional int32 isread = 3;
+}
+
+message server_Maildata {
+    optional int32 idx = 1;
+    optional int32 accountid = 2;
+    optional int32 source = 3;
+    repeated server_Content content = 4;
+    optional int32 isread = 5;
+    optional string createtime = 6;
+    optional int64 created = 7;
+}
+
+message server_Content {
+    optional int32 action = 1;
+    optional int32 gameid = 2;
+    optional int32 itemid = 3;
+    optional double amount = 4;
+    optional string createtime = 5;
+    optional int32 wintype = 6;
+    optional string msg = 7;
+    optional int32 star = 8;
+}
+
+message server_GetUserMail {
+    repeated server_MailInfo info = 1;
+    optional int32 ret = 2;
+}
+
+message server_ReadMailResp {
+    repeated server_ReadMailInfo info = 1;
+    optional int32 ret = 2;
+}
+
+message server_ReadMailInfo {
+    optional int32 result = 1;
+}
+
+message server_doubleArray {
+    repeated double value = 1;
+}
+
+message server_uint32Array {
+    repeated uint32 value = 1;
+}
+
+message server_DailyMissionInfo {
+    optional string message = 1;
+}
+
+message server_TrialBet {
+    optional int64 bet = 1;
+    optional int32 actno = 2;
+    optional int32 currencyNumber = 3;
+    optional uint32 vip = 4;
+    optional bytes customReq = 5;
+}
+
+message server_TrialInfo {
+    optional int32 acktype = 1;
+    optional int32 nowactno = 2;
+    optional int32 targettype = 3;
+    repeated server_TrialAwardData awarddesc = 4;
+    optional int32 pstate = 5;
+    repeated server_TrialPlayer trialinfo = 6;
+    repeated double bet = 7;
+    optional bool remind = 8;
+    repeated server_TrialAwardData remindinfo = 9;
+    repeated int32 rtags = 10;
+    optional int64 start = 11;
+    optional int64 end = 12;
+}
+
+message server_TrialPlayer {
+    optional int32 apiid = 1;
+    optional int32 gameid = 2;
+    optional int32 sac = 3;
+    optional int32 activityno = 4;
+    optional double totalbet = 5;
+    optional double totalwin = 6;
+    optional double property = 7;
+}
+
+message server_TrialAwardData {
+    optional int32 award = 1;
+    optional int32 type = 2;
+    optional double gate = 3;
+    optional int32 gameid = 4;
+    optional int32 itemid = 5;
+    optional int32 amount = 6;
+    repeated server_TrialItemData data = 7;
+    optional double money = 8;
+}
+
+message server_TrialItemData {
+    optional int32 star = 1;
+    optional int32 icon = 2;
+    optional int32 type = 3;
+    optional double bet = 4;
+    optional string gamename = 5;
+}
+
+message server_TrialSignUp {
+    optional int32 acktype = 1;
+    repeated server_TrialPlayer trialinfo = 2;
+}
+
+message server_TrialGiveUp {
+    optional int32 acktype = 1;
+    optional int32 award = 2;
+    repeated server_TrialMoneyLog gamelog = 3;
+}
+
+message server_TrialMoneyLog {
+    optional int32 AccountID = 1;
+    optional int64 RoundIndex = 2;
+    optional double RatedWin = 3;
+    optional double NowProperty = 4;
+    optional string LogTime = 5;
+}
+
+message server_TrialInfoReq {
+    optional int32 vip = 1;
+    optional int32 lang = 2;
+    optional int32 actno = 3;
+}
+
+message server_TrialSpinResp {
+    optional int32 finish = 1;
+    optional int32 award = 2;
+}
+
+message server_VipSignInfoReq {
+    optional int32 currency = 1;
+}
+
+message server_VipSignInfoResp {
+    repeated server_Treasure TreasureList = 1;
+    optional google.protobuf.Timestamp ExpiredTime = 2;
+    optional int32 Error = 3;
+}
+
+message server_Treasure {
+    optional string Index = 1;
+    optional int32 MinVip = 2;
+    optional double Exp = 3;
+    optional bool IsOpen = 4;
+}
+
+message server_VipSignRewardReq {
+    optional int32 currency = 1;
+    optional string treasureIndex = 2;
+}
+
+message server_VipSignRewardResp {
+    optional int32 ItemID = 1;
+    optional int32 Count = 2;
+    optional int32 Error = 3;
+    optional int32 Icon = 4;
+}
+
+message server_MallInfo {
+    optional double PriceOdd = 1;
+    optional int32 DescType = 2;
+    optional int64 MaxBet = 3;
+    optional int32 AlterID = 4;
+    optional int32 Show = 5;
+}
+
+message server_ExtraSpinReq {
+    optional int64 bet = 1;
+    optional int32 currencyNumber = 2;
+    optional uint32 vip = 3;
+}
+
+message server_DebrisReq {
+    optional uint32 no = 1;
+    optional uint32 formula = 2;
+    optional uint32 amount = 3;
+    optional uint32 currencynumber = 4;
+}
+
+message server_FreeSpinData {
+    optional int32 Remain = 1;
+    optional double bet = 2;
+}
+
+message server_VerifyGiftCodeRequest {
+    optional string giftcode = 1;
+}
+
+message server_VerifyGiftCodeResponse {
+    optional int32 Code = 1;
+    optional int32 Round = 2;
+    optional int32 Type = 3;
+}
+
+message server_JpListResp {
+    repeated server_JpInfo info = 1;
+}
+
+message server_JpHistoryReq {
+    optional google.protobuf.Timestamp startTime = 1;
+    optional google.protobuf.Timestamp endTime = 2;
+}
+
+message server_JpHistoryResp {
+    repeated server_JpHistoryInfo list = 1;
+}
+
+message server_JpInfo {
+    optional int32 type = 1;
+    optional double value = 2;
+}
+
+message server_JpHistoryInfo {
+    optional int32 type = 1;
+    optional string winner = 2;
+    optional double win = 3;
+    optional int32 gameID = 4;
+    optional string nickname = 5;
+}
+
+message server_JpMarqueeInfo {
+    optional uint32 aID = 1;
+    optional uint32 gameID = 2;
+    optional int32 type = 3;
+    optional string winner = 4;
+    optional double win = 5;
+    optional string winnerNickname = 6;
+}
+
+message server_JpOpen {
+    optional int32 type = 1;
+    optional double win = 2;
+}
+
+message server_JpShowData {
+    repeated server_JpInfo info = 1;
+    repeated int32 game = 2;
+}
+
+message server_FullJpListResp {
+    optional double value = 1;
+    optional double full = 2;
+    optional uint32 minVip = 3;
+    optional double minBet = 4;
+}
+
+message server_FullJpHistoryReq {
+    optional google.protobuf.Timestamp startTime = 1;
+    optional google.protobuf.Timestamp endTime = 2;
+}
+
+message server_FullJpHistoryResp {
+    repeated server_FullJpHistoryInfo list = 1;
+}
+
+message server_FullJpAllResp {
+    repeated server_FullJp list = 1;
+}
+
+message server_FullJpHistoryInfo {
+    optional string winner = 1;
+    optional double win = 2;
+    optional int64 time = 3;
+}
+
+message server_FullJp {
+    optional uint32 gameID = 1;
+    optional double value = 2;
+    optional double full = 3;
+}
+
+message server_SpecialMode {
+    repeated server_EachMode mode = 1;
+}
+
+message server_EachMode {
+    repeated server_SpinResponse spinResponse = 1;
+}
+
+message promotion_GameInfoIndia {
+    optional int32 typeID = 1;
+    repeated int32 games = 2;
+}
+
+message promotion_GamePromotionIndiaCommand {
+    optional bool enabled = 1;
+    repeated promotion_GameInfoIndia promotions = 2;
+}
+
+message promotion_Top {
+    optional double win = 1;
+    optional double Odd = 2;
+}
+
+message promotion_GamePromotionList {
+    optional int32 gameID = 1;
+    repeated int32 labels = 2;
+    optional int32 mall = 3;
+    optional int32 dAU = 4;
+    repeated promotion_Top top = 5;
+}
+
+message promotion_GamePromotionCommand {
+    optional bool enabled = 1;
+    repeated promotion_GamePromotionList list = 2;
+}
+
+message promotion_PromotionRequest {
+    optional int32 apiID = 1;
+    optional int32 accountID = 2;
+    optional int32 loginGameID = 3;
+    optional int32 gameID = 4;
+    optional string userID = 5;
+    optional string token = 6;
+    optional int32 siteID = 7;
+}
+
+message sn_getNoticeReq {
+}
+
+message sn_getNoticeResp {
+}
+
+message sn_noticeInfo {
+}
+
+message sn_signNoticeReq {
+}
+
+message sn_lifeResp {
+}
+
+message sn_UpdateGame {
+}
+
+message taxi_Column {
+    repeated int32 Col = 1;
+}
+
+message taxi_ColumnFloat {
+    repeated double Col = 1;
+}
+
+message taxi_Grid {
+    optional int32 Col = 1;
+    optional int32 Row = 2;
+    optional int32 Symbol = 3;
+}
+
+message taxi_NumCollectData {
+    repeated taxi_Grid Target = 1;
+    repeated taxi_Grid Source = 2;
+}
+
+message taxi_AwardData {
+    optional int32 Symbol = 1;
+    optional int32 Count = 2;
+    optional int32 Line = 3;
+    optional double Win = 4;
+}
+
+message taxi_RoundInfo {
+    repeated taxi_Column PlateSymbol = 1;
+    repeated taxi_ColumnFloat PlateSymbolNum = 2;
+    repeated taxi_AwardData AwardDataVec = 3;
+    optional int32 AwardTypeFlag = 4;
+    optional int32 BonusRemainRound = 5;
+    optional double RoundWin = 6;
+    repeated taxi_NumCollectData NumCollectPosDriver = 7;
+    repeated taxi_NumCollectData NumCollectPosRolls = 8;
+}
+
+message taxi_SpinAck {
+    repeated taxi_RoundInfo RoundQueue = 1;
+    optional double BonusTotalWin = 2;
+    optional double TotalWin = 3;
+    repeated taxi_ColumnFloat FinalCheck = 4;
+    optional string ShowIndex = 5;
+    optional double NowMoney = 6;
+    optional int32 AckType = 7;
+}
+
+message taxi_GameInfoAck {
+    repeated taxi_WalletInfo WalletInfo = 1;
+    optional int32 ArcadeNo = 2;
+    optional bool CanIntoArcade = 3;
+    optional bool Test = 4;
+    repeated taxi_PreferRoundShow Prefer = 5;
+    optional int32 FreeSpinRemain = 6;
+}
+
+message taxi_GameReqData {
+    optional int32 aid = 1;
+    optional int32 apiid = 2;
+    optional string token = 3;
+    optional bytes encode = 4;
+    repeated taxi_SpinReq spin = 5;
+    repeated taxi_CheckMallReq checkMall = 6;
+}
+
+message taxi_SpinReq {
+    optional double Bet = 1;
+    optional int32 Extra = 2;
+    optional int32 Currency = 3;
+    optional int32 TestMode = 4;
+    optional int32 MallID = 5;
+    optional double MallBet = 6;
+    optional int32 VipLv = 7;
+    optional int32 Free = 8;
+    optional int32 Trial = 9;
+    optional int32 Level = 10;
+}
+
+message taxi_CheckMallReq {
+    optional int32 Currency = 1;
+}
+
+message taxi_ResData {
+    optional int32 ret = 1;
+    optional int32 type = 2;
+    optional string token = 3;
+    optional string msg = 4;
+    repeated taxi_InfoData data = 5;
+}
+
+message taxi_InfoData {
+    optional bytes encode = 1;
+    repeated taxi_SpinAllData spinAll = 2;
+    repeated taxi_GameInfoAck gameInfo = 3;
+    repeated taxi_CheckMallAck checkMall = 4;
+    repeated taxi_LoginDataAck loginData = 5;
+    repeated taxi_HeartAck heart = 6;
+    repeated taxi_ExchangeAck exchange = 7;
+    repeated taxi_LastSpinAck lastSpin = 8;
+}
+
+message taxi_SpinAllData {
+    repeated taxi_SpinAck info = 1;
+    repeated taxi_ServiceData serviceInfo = 2;
+    optional bytes serviceProto = 3;
+}
+
+message taxi_ServiceData {
+    optional uint32 missionReward = 1;
+    optional int32 jpType = 2;
+    optional double jpWin = 3;
+    optional double fullJpWin = 4;
+    optional int32 trialfinish = 5;
+    optional int32 trialaward = 6;
+    optional int32 freeremain = 7;
+}
+
+message taxi_WalletInfo {
+    optional int32 currencyNumber = 1;
+    optional string currencyName = 2;
+    optional string currencySymbol = 3;
+    optional double coin = 4;
+    repeated double bet = 5;
+    optional double unit = 6;
+    optional double ratio = 7;
+    optional double rate = 8;
+    optional double upper = 9;
+    optional double lower = 10;
+    optional int32 cycle = 11;
+    optional int32 decimal = 12;
+}
+
+message taxi_PreferRoundShow {
+    optional int32 BaseRound = 1;
+    optional int32 SigmaRound = 2;
+    optional double CV = 3;
+    optional double HR = 4;
+    optional double MGR = 5;
+    optional int32 Range = 6;
+    optional int32 Show = 7;
+}
+
+message taxi_CheckMallAck {
+    repeated taxi_GameMallSetting Settings = 1;
+    optional int32 Show = 2;
+}
+
+message taxi_GameMallSetting {
+    optional int32 GameID = 1;
+    optional int32 APIID = 2;
+    optional int32 AlterID = 3;
+    optional int32 DescType = 4;
+    optional int32 DescRounds = 5;
+    optional double MaxBet = 6;
+    optional double PriceOdd = 7;
+    optional bool ForSale = 8;
+    repeated double BetVec = 9;
+    optional int32 ReelNo = 10;
+    optional int32 BetNo = 11;
+    optional bool Event = 12;
+}
+
+message taxi_LoginDataAck {
+    optional int32 result = 1;
+    optional int32 aid = 2;
+}
+
+message taxi_LoginDataReq {
+    optional string Token = 1;
+    optional int32 Source = 2;
+    optional string OSType = 3;
+    optional string OSVersion = 4;
+    optional string Browser = 5;
+    optional string BrowserVersion = 6;
+    optional int32 BrowserTag = 7;
+    optional string Machine = 8;
+    optional int32 Width = 9;
+    optional int32 Height = 10;
+    optional double Ratio = 11;
+    optional string Language = 12;
+    optional int32 Cheat = 13;
+}
+
+message taxi_LogoutReq {
+    optional int32 aid = 1;
+}
+
+message taxi_HeartAck {
+    optional int32 state = 1;
+    optional string message = 2;
+}
+
+message taxi_ExchangeReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+    optional string stamp = 3;
+}
+
+message taxi_ExchangeAck {
+    repeated taxi_Wallet wallet = 1;
+    optional string stamp = 2;
+}
+
+message taxi_Wallet {
+    optional double coin = 1;
+    optional int32 currencyNumber = 2;
+    optional double ratio = 3;
+    optional double rate = 4;
+    optional double unit = 5;
+}
+
+message taxi_LastReq {
+    optional int32 aid = 1;
+    optional string token = 2;
+}
+
+message taxi_LastSpinAck {
+    optional int32 result = 1;
+    repeated taxi_SpinAck lastSpin = 2;
+}
+

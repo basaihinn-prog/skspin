@@ -1,0 +1,14 @@
+{
+  "ProjectID": "PSFM-00001-98-1",
+  "Modules": [
+    "PSFM-00001-98-1-BS",
+    "PSFM-00001-98-1-FS"
+	],
+  "RTP": "9800",
+  "BonusGames": {
+     "BonusGame1": {
+      "ModuleID": "PSFM-00001-98-1-FS",
+      "MaxTimes": 1
+    }
+  }
+}

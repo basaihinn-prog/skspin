@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+	<title>admin api</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="main.js?v=8151705"></script>
+	<link rel="icon" href="favicon.ico" />
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="main()">
+	<div class="container">
+		<div id="left"></div>
+
+		<div id="right">
+			Authorization: 
+			<!-- <textarea id="token" rows=2></textarea> -->
+			<input type="text" id="token" value="admin" ><br />
+
+			pid: 
+			<input type="text" id="pid" value="100001" ><br />
+			<!-- appid: <input type="text" id="appid" value="fake"> <br /> -->
+
+			参数:
+			<textarea id="params"></textarea>
+			<button id="excute">执行</button>
+			<!-- <div id="excutediv">
+					<button id="excutelogin">登录</button>
+					<button id="excutereset">重置</button>
+					<button id="excuteunlock">解锁</button>
+					<button id="excuteinit">批量添加</button>
+				</div> -->
+			<br />
+			返回: ***console查看详细数据***
+			<textarea id="result" readonly="true"></textarea>
+		</div>
+	</div>
+</body>
+
+</html>

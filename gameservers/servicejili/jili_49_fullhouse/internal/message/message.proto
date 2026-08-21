@@ -1,0 +1,51 @@
+syntax = "proto3";
+package message;
+option go_package = "./";
+
+message custom_Block {
+    optional uint32 row = 1;
+    optional uint32 column = 2;
+}
+
+message custom_Cell {
+    optional int32 symbol = 1;
+    optional uint32 row = 2;
+    optional uint32 column = 3;
+    optional uint32 isGold = 4;
+    optional uint32 lastGold = 5;
+}
+
+message custom_AwardReel {
+    optional int32 symbol = 1;
+    repeated custom_Block block = 2;
+    optional double win = 3;
+    optional uint32 bonus = 4;
+    optional uint32 maxLen = 5;
+}
+
+message custom_Combo {
+    repeated custom_Cell change = 1;
+    repeated custom_AwardReel award = 2;
+    optional double win = 3;
+    optional uint32 comboBonus = 4;
+    repeated custom_Cell extraChange = 5;
+}
+
+message custom_Plate {
+    repeated custom_ColumnData column = 1;
+    repeated custom_Combo combo = 3;
+    optional double win = 4;
+    optional double bonusWin = 5;
+    optional bool isBonus = 6;
+    optional uint32 totalFreeSpin = 7;
+}
+
+message custom_AllPlate {
+    repeated custom_Plate plate = 1;
+}
+
+message custom_ColumnData {
+    repeated int32 row = 1;
+    repeated uint32 isGold = 2;
+}
+

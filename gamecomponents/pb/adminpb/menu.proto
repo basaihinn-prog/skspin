@@ -1,0 +1,26 @@
+syntax = "proto3";
+import "pb/empty.proto";
+import "pb/adminpb/info.proto";
+
+
+message MenuListResp {
+    repeated DBMenu MenuList = 1;
+}
+
+message DelMenuReq {
+    int64 ID = 1;
+}
+
+service AdminMenu {
+    // 获取菜单列表
+    rpc MenuList(Empty) returns (MenuListResp);
+
+    // 添加菜单
+    rpc AddMenu(DBMenu) returns (Empty);
+
+    // 编辑菜单
+    rpc UpdateMenu(DBMenu) returns (Empty);
+
+    // 删除菜单
+    rpc DelMenu(DelMenuReq) returns (Empty);
+}

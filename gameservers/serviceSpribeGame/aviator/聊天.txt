@@ -1,0 +1,266 @@
+{"channel":"AviatorLikeIdReq","targetController":1,"content":{"c":"like","r":-1,"p":{"setLike":true,"messageId":120}}}
+
+{"id":13,"targetController":1,"content":{"c":"like","p":{"code":200,"messageId":120,"usersLikesNumber":2}}}
+
+请求数据：
+{
+  "channel": "AviatorLikeIdReq",
+  "targetController": 1,
+  "content": {
+    "c": "like",
+    "r": -1,
+    "p": {
+      "setLike": true,
+      "messageId": 120
+    }
+  }
+}
+channel: "AviatorLikeIdReq"`: 这表示消息的通道或类型，这里是“Aviator点赞ID请求”。
+targetController: 1`: 目标控制器ID，可能是服务器或游戏逻辑的标识。
+content: 消息内容。
+c: "like"`: 操作类型，这里是“点赞”。
+r: -1`: 可能表示请求ID或序列号，-1可能表示一个新的请求。
+p: 参数。
+setLike: true`: 设置点赞状态为真，即用户点赞。
+messageId: 120`: 关联的消息ID，可能是游戏内聊天或通知的消息。
+
+响应数据：
+{
+  "id": 13,
+  "targetController": 1,
+  "content": {
+    "c": "like",
+    "p": {
+      "code": 200,
+      "messageId": 120,
+      "usersLikesNumber": 2
+    }
+  }
+}
+id: 13`: 响应ID，可能用于匹配请求和响应。
+targetController: 1`: 与请求中的目标控制器ID一致。
+content: 响应内容。
+c: "like"`: 操作类型，与请求一致，表示点赞操作。
+p: 参数。
+code: 200`: 状态码，200表示成功。
+messageId: 120`: 与请求中的消息ID一致，确认是针对同一条消息的操作。
+usersLikesNumber: 2`: 当前消息的点赞数量，表示现在有2个用户点赞了这条消息。
+
+总结：
+这些数据表示一个用户在Aviator游戏中对一条消息（messageId: 120）进行了点赞操作。请求通过AviatorLikeIdReq通道发送，目标控制器为1。响应确认了点赞操作成功（code: 200），并返回了当前消息的点赞数量（usersLikesNumber: 2）。这表明游戏系统支持实时互动功能，如聊天消息的点赞，增强了玩家之间的互动体验。
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+{"channel":"AviatorAddChatMessageIdReq","targetController":1,"content":{"c":"AddChatMessage","r":-1,"p":{"message":"😂😕😕😕😕😕😕"}}}
+
+{"id":13,"targetController":1,"content":{"c":"AddChatMessages","p":{"code":200,"messages":[{"message":"😂😕😕😕😕😕😕","messageId":121,"messageType":"message","playerName":"bwrJzUwDyF","profileImage":"av-4.png"}]}}}
+
+字段解析：
+"channel": "AviatorAddChatMessageIdReq"
+👉 表示这是一个 Aviator 游戏聊天消息请求通道。
+"targetController": 1
+👉 通常表示消息发送至游戏服务器中具体的控制器（Controller）编号。
+1 一般代表聊天控制器（Chat Controller）。
+"content" 对象内：
+"c": "AddChatMessage"
+👉 客户端请求执行的指令，即 增加一条聊天消息。
+"r": -1
+👉 通常表示请求ID（Request ID），服务器会在响应中将其返回。-1可能表示无需特殊响应，或是客户端暂未指定具体请求ID。
+"p": {"message": "😂😕😕😕😕😕😕"}
+👉 具体的聊天消息内容，这里是一系列表情符号，表示玩家发送的一条聊天表情消息。
+
+字段解析：
+"id": 13
+👉 服务器为本次响应分配的唯一标识符，用于客户端确认回复对应的请求。
+"targetController": 1
+👉 响应对应的控制器依旧是聊天控制器。
+"content" 对象内：
+"c": "AddChatMessages"
+👉 服务器返回客户端的指令，即成功添加聊天消息。
+"p" 对象内：
+"code": 200：
+👉 HTTP 状态码模式（200代表请求成功处理）。
+"messages": [...] 数组：
+👉 服务器返回给客户端关于本次聊天消息的详细内容，通常用来展示在玩家聊天界面：
+"message": "😂😕😕😕😕😕😕"：原始聊天消息内容。
+"messageId": 121：服务器为该消息分配的唯一ID，用于后续引用、删除或修改等操作。
+"messageType": "message"：消息类型，一般为普通聊天消息。
+"playerName": "bwrJzUwDyF"：发送该消息的玩家名称（匿名或随机生成的游戏内昵称）。
+"profileImage": "av-4.png"：发送者头像标识符（游戏中头像图片文件名）。
+
+在 Spribe 的 Aviator 游戏中，这类消息的作用和工作流程为：
+客户端（玩家）发送聊天消息：
+用户在聊天框输入并发送消息。
+客户端构建 JSON 格式请求，传递给游戏服务器。
+服务器接收并处理消息：
+验证消息合法性。
+存储并分配消息 ID。
+广播该消息给所有游戏中的其他玩家或特定群体。
+服务器返回确认和细节信息：
+将处理后的消息详情返回给发送消息的客户端。
+客户端收到后，显示在聊天窗口中（包括玩家昵称、头像、消息内容等）。
+
+总结：
+你提供的内容是 Aviator 游戏中涉及聊天消息发送与接收的典型客户端-服务器通信示例，体现了游戏前后端实时通信的基本模式：
+客户端 → 服务器（请求发送聊天消息）
+服务器 → 客户端（返回确认并广播消息详情）
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+{"channel":"AviatorAddChatMessageIdReq","targetController":1,"content":{"c":"AddChatMessage","r":-1,"p":{"message":"/gif:1081415491857719338"}}}
+
+{"id":13,"targetController":1,"content":{"c":"AddChatMessages","p":{"code":200,"messages":[{"messageId":122,"messageType":"gif","playerName":"bwrJzUwDyF","profileImage":"av-4.png","gifInfo":"{\"preview\": \"https://media.tenor.com/DwH1qQbIoCoAAAAD/aidan-hutchinson-detroit-lions.png\",\"duration\": 3.5,\"size\": 5675474,\"dims\": [384,480],\"url\": \"https://media.tenor.com/DwH1qQbIoCoAAAAC/aidan-hutchinson-detroit-lions.gif\"}"}]}}}
+
+表示这是一个请求添加聊天消息的通道，很可能客户端通过这个通道向服务器发送添加聊天消息的请求。Aviator 说明这是 Aviator 游戏相关的消息。
+targetController: 1 表示消息的目标控制器 ID。在复杂的系统中，可能有多个控制器处理不同的逻辑，这个字段指定了哪个控制器负责处理这个聊天消息请求。
+content: 包含实际的消息内容。
+c: "AddChatMessage" 表示要执行的命令是 "添加聊天消息"。
+r: -1 可能是一个请求 ID，用于匹配请求和响应。-1 可能是个默认值或者表示不需要追踪。
+p: 包含消息的参数。
+message: "/gif:1081415491857719338" 这看起来是一个特殊的命令格式，表示发送 GIF 消息。/gif: 标识这是一个 GIF 消息，后面的数字 1081415491857719338 很可能是 GIF 的 ID，服务器会根据这个 ID 找到对应的 GIF 信息。
+总结：
+这段 JSON 数据代表客户端请求服务器在 Aviator 游戏的聊天中添加一条 GIF 消息。客户端只提供了 GIF 的 ID，服务器需要根据这个 ID 查找 GIF 的具体信息。
+
+id: 13 可能是这个响应的 ID，可以用来和请求进行匹配。
+targetController: 1 与请求中的 targetController 对应，表示这个响应是由同一个控制器发出的。
+content: 包含响应的内容。
+c: "AddChatMessages" 表示这个响应是关于添加聊天消息的。 注意，这里是AddChatMessages，复数形式，表明可以一次性添加多条消息。
+p: 包含响应的参数。
+code: 200 HTTP 状态码，表示请求成功。
+messages: 一个包含消息的数组。这里只有一个消息。
+messageId: 122 这条消息的唯一 ID。
+messageType: "gif" 消息类型是 GIF。
+playerName: "bwrJzUwDyF" 发送消息的玩家的名称。
+profileImage: "av-4.png" 玩家的头像图片。
+gifInfo: 一个 JSON 字符串，包含 GIF 的详细信息。
+preview: "https://media.tenor.com/DwH1qQbIoCoAAAAD/aidan-hutchinson-detroit-lions.png" GIF 的预览图 URL。
+duration: 3.5 GIF 的时长，单位可能是秒。
+size: 5675474 GIF 的大小，单位可能是字节。
+dims: [384,480] GIF 的尺寸，宽度和高度。
+url: "https://media.tenor.com/DwH1qQbIoCoAAAAC/aidan-hutchinson-detroit-lions.gif" GIF 的完整 URL。
+
+总结：
+这段 JSON 数据代表服务器成功接收了添加 GIF 消息的请求，并返回了 GIF 消息的详细信息，包括消息 ID、消息类型、玩家信息以及 GIF 的各种属性（预览图、时长、大小、尺寸、URL）。客户端可以使用这些信息在聊天界面上显示 GIF 消息。
+
+整体流程：
+客户端发送请求，要求添加一条 GIF 消息，只提供了 GIF 的 ID。
+服务器接收到请求，根据 GIF ID 查找 GIF 的详细信息。
+服务器将包含 GIF 详细信息的聊天消息添加到聊天记录中。
+服务器返回响应，确认消息添加成功，并将完整的消息信息（包括 GIF 详细信息）发送给客户端。
+客户端接收到响应，在聊天界面上显示 GIF 消息。
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+{"channel":"AviatorAddChatMessageIdReq","targetController":1,"content":{"c":"AddChatMessage","r":-1,"p":{"message":"/share_bet:17522161"}}}
+
+{"id":13,"targetController":1,"content":{"c":"AddChatMessages","p":{"code":200,"messages":[{"messageId":123,"messageType":"win_info","playerName":"bwrJzUwDyF","profileImage":"av-4.png","winInfo":{"bet":160,"winAmount":1802.38,"playerName":"goP0y","multiplier":11.26,"currency":"BRL","profileImage":"av-38.png","roundId":1471169,"roundMaxMultiplier":76.63}}]}}}
+
+第一段 JSON：{"channel":"AviatorAddChatMessageIdReq","targetController":1,"content":{"c":"AddChatMessage","r":-1,"p":{"message":"/share_bet:17522161"}}}
+这是一个客户端（通常是玩家的浏览器）发送给服务器的请求，目的是在 Aviator 游戏的聊天室中添加一条消息。
+channel: "AviatorAddChatMessageIdReq"
+这指定了消息的频道或类型。AviatorAddChatMessageIdReq 表明这是一个请求添加聊天消息的请求。
+targetController: 1
+这通常指服务器上的一个特定控制器或模块，负责处理这类请求。1 可能是聊天控制器的 ID。
+content: {"c":"AddChatMessage","r":-1,"p":{"message":"/share_bet:17522161"}}
+这是请求的具体内容。
+c: "AddChatMessage"
+c 可能是 "command" 的缩写，表示要执行的命令是 "添加聊天消息"。
+r: -1
+r 可能是 "request ID" 的缩写。-1 可能表示客户端不需要服务器对这个特定请求进行响应确认（fire-and-forget 模式）。
+p: {"message":"/share_bet:17522161"}
+p 可能是 "parameters" 或 "payload" 的缩写，包含命令的参数。
+message: "/share_bet:17522161"
+这是要发送的实际聊天消息。
+/share_bet: 这部分很可能是一个特殊的命令前缀，告诉游戏服务器这是一条分享投注信息的请求。
+17522161 这部分很可能是一个唯一的投注 ID，用于标识玩家想要分享的具体投注。
+总结：
+第一段 JSON 的意思是：玩家想要在 Aviator 游戏的聊天室中分享 ID 为 17522161 的投注。客户端通过发送一个带有 /share_bet 命令和投注 ID 的消息来实现这一点。服务器应该解析这条消息，并可能将其格式化后显示在聊天室中，让其他玩家可以看到这个投注的详情。
+
+
+第二段 JSON：{"id":13,"targetController":1,"content":{"c":"AddChatMessages","p":{"code":200,"messages":[{"messageId":123,"messageType":"win_info","playerName":"bwrJzUwDyF","profileImage":"av-4.png","winInfo":{"bet":160,"winAmount":1802.38,"playerName":"goP0y","multiplier":11.26,"currency":"BRL","profileImage":"av-38.png","roundId":1471169,"roundMaxMultiplier":76.63}}]}}}
+这是服务器发送给客户端的响应，通常是为了更新客户端的聊天室内容。
+id: 13
+这是响应的 ID，可能用于客户端跟踪和匹配请求/响应。
+targetController: 1
+与请求中的 targetController 对应，表示这个响应是针对聊天控制器的。
+content: {"c":"AddChatMessages","p":{"code":200,"messages":[{"messageId":123,"messageType":"win_info","playerName":"bwrJzUwDyF","profileImage":"av-4.png","winInfo":{"bet":160,"winAmount":1802.38,"playerName":"goP0y","multiplier":11.26,"currency":"BRL","profileImage":"av-38.png","roundId":1471169,"roundMaxMultiplier":76.63}}]}}
+这是响应的具体内容。
+c: "AddChatMessages"
+c 仍然是 "command" 的缩写，表示要执行的命令是 "添加聊天消息"（复数形式，因为可以一次添加多条）。
+p: {"code":200,"messages":[{"messageId":123,"messageType":"win_info","playerName":"bwrJzUwDyF","profileImage":"av-4.png","winInfo":{"bet":160,"winAmount":1802.38,"playerName":"goP0y","multiplier":11.26,"currency":"BRL","profileImage":"av-38.png","roundId":1471169,"roundMaxMultiplier":76.63}}]}
+p 包含 "parameters" 或 "payload"。
+code: 200
+这是一个 HTTP 状态码，200 表示成功。
+messages: [...]
+这是一个数组，包含要添加的聊天消息。在这个例子中，只有一条消息。
+messageId: 123
+消息的唯一 ID。
+messageType: "win_info"
+消息类型，表明这是一条关于赢钱信息的特殊消息。
+playerName: "bwrJzUwDyF"
+发布这条消息的玩家的名字（可能是触发系统自动发布消息的玩家）。
+profileImage: "av-4.png"
+发布消息的玩家的头像文件名。
+winInfo: {...}
+包含具体赢钱信息的对象。
+bet: 160
+下注金额。
+winAmount: 1802.38
+赢得的金额。
+playerName: "goP0y"
+实际赢得这笔钱的玩家的名字。
+multiplier: 11.26
+赢得的倍数。
+currency: "BRL"
+货币类型（巴西雷亚尔）。
+profileImage: "av-38.png"
+赢钱玩家的头像文件名。
+roundId: 1471169
+发生赢钱的游戏回合 ID。
+roundMaxMultiplier: 76.63
+* 此回合最大的倍率
+总结：
+第二段 JSON 的意思是：服务器通知客户端，在聊天室中添加一条新的系统消息。这条消息是关于玩家 "goP0y" 在第 1471169 回合赢钱的信息。"goP0y" 下注了 160 BRL，以 11.26 的倍数赢得了 1802.38 BRL。该回合的最大倍率为76.63。 玩家 "bwrJzUwDyF" 可能触发了这个系统消息的生成（例如，通过某种操作或达到某个条件）。
+
+两段 JSON 之间的关系：
+
+这两段 JSON 并不直接相关。第一段是玩家发起的分享投注请求，第二段是服务器推送的赢钱信息通知。它们都与 Aviator 游戏的聊天功能有关，但代表了不同的操作和消息类型。
+
+完整的Aviator游戏聊天系统交互过程推测:
+玩家互动（第一段JSON）
+玩家在游戏界面中进行投注。
+玩家可以选择分享自己的投注信息到聊天室。
+客户端向服务器发送AviatorAddChatMessageIdReq请求,其中message字段包含/share_bet:投注ID。
+系统自动消息（第二段JSON）
+某一局游戏结束。
+服务器检测到有玩家(goP0y)赢得了 significant 的金额。
+服务器生成一条win_info类型的消息。
+服务器向所有在线玩家的客户端推送AddChatMessages响应，其中messages数组包含生成的win_info消息。
+聊天室更新
+客户端收到服务器的响应。
+客户端解析AddChatMessages响应,提取出messages数组中的消息。
+客户端将解析后的消息添加到聊天室界面,所有玩家都能看到。
+对于分享投注的请求,服务器可能也会格式化投注信息,并以类似AddChatMessages的方式推送给所有客户端。
+总的来说，这些JSON数据片段展示了Spribe Aviator游戏中聊天系统的一部分功能，包括玩家手动分享投注和系统自动发布赢钱信息。这两种机制都有助于增强游戏的社交互动性。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,84 @@
+syntax = "proto3";
+
+package message;
+option go_package = "serve/servicejili/jili_379_mpt/message";
+
+message Column {
+
+    repeated int32 Col = 1;
+}
+
+message ColumnM {
+
+    repeated double Col = 1;
+}
+
+message AwardData {
+
+    int32 Index = 1;
+    int32 Pos = 2;
+    repeated int32 Symbol = 3;
+    repeated double Mul = 4;
+    double All_mul = 5;
+    double Win = 6;
+}
+
+message PotSymbol {
+
+    int32 Pos = 1;
+    int32 Symbol = 2;
+    double Mul = 3;
+}
+
+message Mystery {
+
+    bool IsJ_p = 1;
+    int32 Pos = 2;
+    int32 Symbol = 3;
+    double Mul = 4;
+}
+
+message Collect {
+
+    int32 Pos = 1;
+    repeated int32 C_pos = 2;
+    double Mul = 3;
+    double Extra = 4;
+}
+
+message ComboStageInfo {
+
+    repeated Column Symbol = 1;
+    repeated ColumnM Mul = 2;
+    repeated Column Final_symbol = 3;
+    repeated ColumnM Final_mul = 4;
+    repeated Collect Collect_list = 5;
+    repeated Mystery Mystery_list = 6;
+    repeated AwardData Award_data_vec = 7;
+    double Combo_stage_win = 8;
+    int32 Pot_type = 9;
+    repeated PotSymbol Pot_list = 10;
+    int32 Re_spin_remain_round = 11;
+    int32 Re_spin_total_round = 12;
+    bool Get_re_spin = 13;
+}
+
+message SpinAck {
+
+    repeated ComboStageInfo Round_info = 1;
+    int32 Game_type = 2;
+    int32 Reel_type = 3;
+    double Total_win = 4;
+    string Show_index = 5;
+    double Now_money = 6;
+    int32 Ack_type = 7;
+    double RT_p = 8;
+    int32 Extra = 9;
+    int32 LI_d = 10;
+    int32 RI_d = 11;
+}
+
+message GameInfoData {
+
+    repeated double Mul = 1;
+}

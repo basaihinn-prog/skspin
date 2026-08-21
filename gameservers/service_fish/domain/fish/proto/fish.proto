@@ -1,0 +1,79 @@
+syntax = "proto3";
+package fish.proto;
+
+import "serve/service_fish/models/proto/common_fish.proto";
+
+message RoundStart {
+    common.fish.proto.EMSGID msgid                                         = 1;
+    string room_uuid                                                       = 2;
+}
+
+message RoundEnd {
+    common.fish.proto.EMSGID msgid                                         = 1;
+    string room_uuid                                                       = 2;
+    int32 next_scene                                                       = 3;
+}
+
+message BezierInfo {
+    message Point {
+        int32 x                                                            = 1;
+        int32 y                                                            = 2;
+    }
+    int32 time                                                             = 1;
+    Point start_point                                                      = 2;
+    Point end_point                                                        = 3;
+    Point op1_point                                                        = 4;
+    Point op2_point                                                        = 5;
+}
+
+message BroadcastFishIn {
+    common.fish.proto.EMSGID msgid                                         = 1;
+    string room_uuid                                                       = 2;    // 房間編號(唯一id)
+    FishInfo fish                                                          = 3;
+}
+
+message BroadcastFishOut {
+    common.fish.proto.EMSGID msgid                                         = 1;
+    string room_uuid                                                       = 2;    // 房間編號(唯一id)
+    string uuid                                                            = 3;    // 魚的編號(唯一id)
+    int32 type                                                             = 4;    // 消失的方式 0:直接消失 1:魚死掉
+}
+
+message BroadcastGroupIn {
+    common.fish.proto.EMSGID msgid                                         = 1;
+    string room_uuid                                                       = 2;    // 房間編號(唯一id)
+    repeated FishInfo group_fish                                           = 3;    // 群游的魚資訊
+}
+
+message AllFishCall {
+    common.fish.proto.EMSGID msgid                                         = 1;
+    string room_uuid                                                       = 2;    // 房間編號(唯一id)
+}
+
+message AllFishRecall {
+    common.fish.proto.EMSGID msgid                                         = 1;
+    string room_uuid                                                       = 2;    // 房間編號(唯一id)
+    repeated FishInfo all_fish                                             = 3;
+}
+
+message FishInfo {
+    string uuid                                                            = 1;    // 魚的編號(唯一id)
+    int32 symbol_id                                                        = 2;    // 魚的種類編號(symbol id)
+    int32 life                                                             = 3;    // 游的總時間
+    int64 elapsed_time                                                     = 4;    // 目前經過時間(秒數) (Server用UTC計算)
+    repeated BezierInfo path                                               = 5;    // 游的路徑
+    string rtpId                                                           = 6;    // 指定的RtpId "":不指定
+    GroupInfo group                                                        = 7;    // 魚群的資訊
+}
+
+message BroadcastFishChange {
+    common.fish.proto.EMSGID msgid                                         = 1;
+    string room_uuid                                                       = 2;    // 房間編號(唯一id)
+    string uuid                                                            = 3;    // 魚的編號(唯一id)
+    int32 symbol_id                                                        = 4;    // 魚的種類編號(symbol id)
+}
+
+message GroupInfo {
+    string uuid                                                            = 1;   // 魚群的編號(唯一id)
+    int32 separation                                                       = 2;   // 群游所需的參數
+}

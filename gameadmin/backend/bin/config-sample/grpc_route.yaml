@@ -1,0 +1,25 @@
+mongo: mongodb://myUserAdmin:doudou123456@127.0.0.1:27017/?authSource=admin
+
+BaoZang: 127.0.0.1:11007
+Hilo: 127.0.0.1:11009
+JinNiu: 127.0.0.1:11013
+NiuBi: 127.0.0.1:11005
+Roma: 127.0.0.1:11010
+RomaX: 127.0.0.1:11011
+TuZi: 127.0.0.1:11014
+XingYunXiang: 127.0.0.1:11012
+YingCaiShen.http.test: :30002
+ZhaoCaiMao: 127.0.0.1:11008
+admin.http: :11110
+gamecenter: 127.0.0.1:11001
+gamecenter.http: 127.0.0.1:11004
+gateway.http: :11080
+proxy: 127.0.0.1:11003
+proxy.mq: 127.0.0.1:11002
+slots: 127.0.0.1:11006
+stats: 127.0.0.1:11015
+MaJiang.http.test: :30005
+MaJiang2.http.test: :30006
+Bonaza.http.test: 127.0.0.1:30007
+Olympus.http.test: 127.0.0.1:40001
+SugarRush.http.test: :40002

@@ -1,0 +1,3402 @@
+[
+  {
+    "gameType": 2,
+    "id": 100,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-100.webp",
+    "sort": 1,
+    "newSort": 1
+  },
+  {
+    "gameType": 2,
+    "id": 101,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-101.webp",
+    "sort": 2,
+    "newSort": 2
+  },
+  {
+    "gameType": 2,
+    "id": 102,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-102.webp",
+    "sort": 3,
+    "newSort": 3
+  },
+  {
+    "gameType": 2,
+    "id": 103,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-103.webp",
+    "sort": 4,
+    "newSort": 4
+  },
+  {
+    "gameType": 2,
+    "id": 104,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-104.webp",
+    "sort": 5,
+    "newSort": 5
+  },
+  {
+    "gameType": 2,
+    "id": 105,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-105.webp",
+    "sort": 6,
+    "newSort": 6
+  },
+  {
+    "gameType": 2,
+    "id": 106,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-106.webp",
+    "sort": 7,
+    "newSort": 7
+  },
+  {
+    "gameType": 2,
+    "id": 107,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-107.webp",
+    "sort": 8,
+    "newSort": 8
+  },
+  {
+    "gameType": 2,
+    "id": 108,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-108.webp",
+    "sort": 9,
+    "newSort": 9
+  },
+  {
+    "gameType": 2,
+    "id": 110,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-110.webp",
+    "sort": 10,
+    "newSort": 10
+  },
+  {
+    "gameType": 2,
+    "id": 112,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-112.webp",
+    "sort": 11,
+    "newSort": 11
+  },
+  {
+    "gameType": 2,
+    "id": 113,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-113.webp",
+    "sort": 12,
+    "newSort": 12
+  },
+  {
+    "gameType": 2,
+    "id": 114,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-114.webp",
+    "sort": 13,
+    "newSort": 13
+  },
+  {
+    "gameType": 2,
+    "id": 115,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-115.webp",
+    "sort": 14,
+    "newSort": 14
+  },
+  {
+    "gameType": 2,
+    "id": 117,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-117.webp",
+    "sort": 15,
+    "newSort": 15
+  },
+  {
+    "gameType": 2,
+    "id": 118,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-118.webp",
+    "sort": 16,
+    "newSort": 16
+  },
+  {
+    "gameType": 2,
+    "id": 119,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-119.webp",
+    "sort": 17,
+    "newSort": 17
+  },
+  {
+    "gameType": 2,
+    "id": 120,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-120.webp",
+    "sort": 18,
+    "newSort": 18
+  },
+  {
+    "gameType": 2,
+    "id": 121,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-121.webp",
+    "sort": 19,
+    "newSort": 19
+  },
+  {
+    "gameType": 2,
+    "id": 122,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-122.webp",
+    "sort": 20,
+    "newSort": 20
+  },
+  {
+    "gameType": 2,
+    "id": 123,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-123.webp",
+    "sort": 21,
+    "newSort": 21
+  },
+  {
+    "gameType": 2,
+    "id": 124,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-124.webp",
+    "sort": 22,
+    "newSort": 22
+  },
+  {
+    "gameType": 2,
+    "id": 125,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-125.webp",
+    "sort": 23,
+    "newSort": 23
+  },
+  {
+    "gameType": 2,
+    "id": 126,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-126.webp",
+    "sort": 24,
+    "newSort": 24
+  },
+  {
+    "gameType": 2,
+    "id": 127,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-127.webp",
+    "sort": 25,
+    "newSort": 25
+  },
+  {
+    "gameType": 2,
+    "id": 128,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-128.webp",
+    "sort": 26,
+    "newSort": 26
+  },
+  {
+    "gameType": 2,
+    "id": 129,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-129.webp",
+    "sort": 27,
+    "newSort": 27
+  },
+  {
+    "gameType": 2,
+    "id": 130,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-130.webp",
+    "sort": 28,
+    "newSort": 28
+  },
+  {
+    "gameType": 2,
+    "id": 1312883,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1312883.webp",
+    "sort": 29,
+    "newSort": 29
+  },
+  {
+    "gameType": 2,
+    "id": 132,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-132.webp",
+    "sort": 30,
+    "newSort": 30
+  },
+  {
+    "gameType": 2,
+    "id": 1338274,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1338274.webp",
+    "sort": 31,
+    "newSort": 31
+  },
+  {
+    "gameType": 2,
+    "id": 1340277,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1340277.webp",
+    "sort": 32,
+    "newSort": 32
+  },
+  {
+    "gameType": 2,
+    "id": 135,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-135.webp",
+    "sort": 33,
+    "newSort": 33
+  },
+  {
+    "gameType": 2,
+    "id": 1368367,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1368367.webp",
+    "sort": 34,
+    "newSort": 34
+  },
+  {
+    "gameType": 2,
+    "id": 1372643,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1372643.webp",
+    "sort": 35,
+    "newSort": 35
+  },
+  {
+    "gameType": 2,
+    "id": 1381200,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1381200.webp",
+    "sort": 36,
+    "newSort": 36
+  },
+  {
+    "gameType": 2,
+    "id": 1397455,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1397455.webp",
+    "sort": 37,
+    "newSort": 37
+  },
+  {
+    "gameType": 2,
+    "id": 1402846,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1402846.webp",
+    "sort": 38,
+    "newSort": 38
+  },
+  {
+    "gameType": 2,
+    "id": 1418544,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1418544.webp",
+    "sort": 39,
+    "newSort": 39
+  },
+  {
+    "gameType": 2,
+    "id": 1420892,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1420892.webp",
+    "sort": 40,
+    "newSort": 40
+  },
+  {
+    "gameType": 2,
+    "id": 1432733,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1432733.webp",
+    "sort": 41,
+    "newSort": 41
+  },
+  {
+    "gameType": 2,
+    "id": 1448762,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1448762.webp",
+    "sort": 42,
+    "newSort": 42
+  },
+  {
+    "gameType": 2,
+    "id": 1451122,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1451122.webp",
+    "sort": 43,
+    "newSort": 43
+  },
+  {
+    "gameType": 2,
+    "id": 1473388,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1473388.webp",
+    "sort": 44,
+    "newSort": 44
+  },
+  {
+    "gameType": 2,
+    "id": 1489936,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1489936.webp",
+    "sort": 45,
+    "newSort": 45
+  },
+  {
+    "gameType": 2,
+    "id": 1513328,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1513328.webp",
+    "sort": 46,
+    "newSort": 46
+  },
+  {
+    "gameType": 2,
+    "id": 1529867,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1529867.webp",
+    "sort": 47,
+    "newSort": 47
+  },
+  {
+    "gameType": 2,
+    "id": 1543462,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1543462.webp",
+    "sort": 48,
+    "newSort": 48
+  },
+  {
+    "gameType": 2,
+    "id": 1555350,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1555350.webp",
+    "sort": 49,
+    "newSort": 49
+  },
+  {
+    "gameType": 2,
+    "id": 1568554,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1568554.webp",
+    "sort": 50,
+    "newSort": 50
+  },
+  {
+    "gameType": 2,
+    "id": 1572362,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1572362.webp",
+    "sort": 51,
+    "newSort": 51
+  },
+  {
+    "gameType": 2,
+    "id": 1580541,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1580541.webp",
+    "sort": 52,
+    "newSort": 52
+  },
+  {
+    "gameType": 2,
+    "id": 1594259,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1594259.webp",
+    "sort": 53,
+    "newSort": 53
+  },
+  {
+    "gameType": 2,
+    "id": 1601012,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1601012.webp",
+    "sort": 54,
+    "newSort": 54
+  },
+  {
+    "gameType": 2,
+    "id": 1615454,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1615454.webp",
+    "sort": 55,
+    "newSort": 55
+  },
+  {
+    "gameType": 2,
+    "id": 1635221,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1635221.webp",
+    "sort": 56,
+    "newSort": 56
+  },
+  {
+    "gameType": 2,
+    "id": 1648578,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1648578.webp",
+    "sort": 57,
+    "newSort": 57
+  },
+  {
+    "gameType": 2,
+    "id": 1655268,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1655268.webp",
+    "sort": 58,
+    "newSort": 58
+  },
+  {
+    "gameType": 2,
+    "id": 1671262,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1671262.webp",
+    "sort": 59,
+    "newSort": 59
+  },
+  {
+    "gameType": 2,
+    "id": 1682240,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1682240.webp",
+    "sort": 60,
+    "newSort": 60
+  },
+  {
+    "gameType": 2,
+    "id": 1695365,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1695365.webp",
+    "sort": 61,
+    "newSort": 61
+  },
+  {
+    "gameType": 2,
+    "id": 1717688,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1717688.webp",
+    "sort": 62,
+    "newSort": 62
+  },
+  {
+    "gameType": 2,
+    "id": 20,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-20.webp",
+    "sort": 63,
+    "newSort": 63
+  },
+  {
+    "gameType": 2,
+    "id": 24,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-24.webp",
+    "sort": 64,
+    "newSort": 64
+  },
+  {
+    "gameType": 2,
+    "id": 25,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-25.webp",
+    "sort": 65,
+    "newSort": 65
+  },
+  {
+    "gameType": 2,
+    "id": 29,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-29.webp",
+    "sort": 66,
+    "newSort": 66
+  },
+  {
+    "gameType": 2,
+    "id": 3,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-3.webp",
+    "sort": 67,
+    "newSort": 67
+  },
+  {
+    "gameType": 2,
+    "id": 33,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-33.webp",
+    "sort": 68,
+    "newSort": 68
+  },
+  {
+    "gameType": 2,
+    "id": 34,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-34.webp",
+    "sort": 69,
+    "newSort": 69
+  },
+  {
+    "gameType": 2,
+    "id": 35,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-35.webp",
+    "sort": 70,
+    "newSort": 70
+  },
+  {
+    "gameType": 2,
+    "id": 36,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-36.webp",
+    "sort": 71,
+    "newSort": 71
+  },
+  {
+    "gameType": 2,
+    "id": 37,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-37.webp",
+    "sort": 72,
+    "newSort": 72
+  },
+  {
+    "gameType": 2,
+    "id": 38,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-38.webp",
+    "sort": 73,
+    "newSort": 73
+  },
+  {
+    "gameType": 2,
+    "id": 39,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-39.webp",
+    "sort": 74,
+    "newSort": 74
+  },
+  {
+    "gameType": 2,
+    "id": 40,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-40.webp",
+    "sort": 75,
+    "newSort": 75
+  },
+  {
+    "gameType": 2,
+    "id": 42,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-42.webp",
+    "sort": 76,
+    "newSort": 76
+  },
+  {
+    "gameType": 2,
+    "id": 44,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-44.webp",
+    "sort": 77,
+    "newSort": 77
+  },
+  {
+    "gameType": 2,
+    "id": 48,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-48.webp",
+    "sort": 78,
+    "newSort": 78
+  },
+  {
+    "gameType": 2,
+    "id": 50,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-50.webp",
+    "sort": 79,
+    "newSort": 79
+  },
+  {
+    "gameType": 2,
+    "id": 53,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-53.webp",
+    "sort": 80,
+    "newSort": 80
+  },
+  {
+    "gameType": 2,
+    "id": 54,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-54.webp",
+    "sort": 81,
+    "newSort": 81
+  },
+  {
+    "gameType": 2,
+    "id": 57,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-57.webp",
+    "sort": 82,
+    "newSort": 82
+  },
+  {
+    "gameType": 2,
+    "id": 58,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-58.webp",
+    "sort": 83,
+    "newSort": 83
+  },
+  {
+    "gameType": 2,
+    "id": 59,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-59.webp",
+    "sort": 84,
+    "newSort": 84
+  },
+  {
+    "gameType": 2,
+    "id": 60,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-60.webp",
+    "sort": 85,
+    "newSort": 85
+  },
+  {
+    "gameType": 2,
+    "id": 61,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-61.webp",
+    "sort": 86,
+    "newSort": 86
+  },
+  {
+    "gameType": 2,
+    "id": 62,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-62.webp",
+    "sort": 87,
+    "newSort": 87
+  },
+  {
+    "gameType": 2,
+    "id": 63,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-63.webp",
+    "sort": 88,
+    "newSort": 88
+  },
+  {
+    "gameType": 2,
+    "id": 64,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-64.webp",
+    "sort": 89,
+    "newSort": 89
+  },
+  {
+    "gameType": 2,
+    "id": 65,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-65.webp",
+    "sort": 90,
+    "newSort": 90
+  },
+  {
+    "gameType": 2,
+    "id": 68,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-68.webp",
+    "sort": 91,
+    "newSort": 91
+  },
+  {
+    "gameType": 2,
+    "id": 69,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-69.webp",
+    "sort": 92,
+    "newSort": 92
+  },
+  {
+    "gameType": 2,
+    "id": 70,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-70.webp",
+    "sort": 93,
+    "newSort": 93
+  },
+  {
+    "gameType": 2,
+    "id": 74,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-74.webp",
+    "sort": 94,
+    "newSort": 94
+  },
+  {
+    "gameType": 2,
+    "id": 75,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-75.webp",
+    "sort": 95,
+    "newSort": 95
+  },
+  {
+    "gameType": 2,
+    "id": 79,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-79.webp",
+    "sort": 96,
+    "newSort": 96
+  },
+  {
+    "gameType": 2,
+    "id": 82,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-82.webp",
+    "sort": 97,
+    "newSort": 97
+  },
+  {
+    "gameType": 2,
+    "id": 83,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-83.webp",
+    "sort": 98,
+    "newSort": 98
+  },
+  {
+    "gameType": 2,
+    "id": 86,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-86.webp",
+    "sort": 99,
+    "newSort": 99
+  },
+  {
+    "gameType": 2,
+    "id": 87,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-87.webp",
+    "sort": 100,
+    "newSort": 100
+  },
+  {
+    "gameType": 2,
+    "id": 88,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-88.webp",
+    "sort": 101,
+    "newSort": 101
+  },
+  {
+    "gameType": 2,
+    "id": 89,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-89.webp",
+    "sort": 102,
+    "newSort": 102
+  },
+  {
+    "gameType": 2,
+    "id": 91,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-91.webp",
+    "sort": 103,
+    "newSort": 103
+  },
+  {
+    "gameType": 2,
+    "id": 92,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-92.webp",
+    "sort": 104,
+    "newSort": 104
+  },
+  {
+    "gameType": 2,
+    "id": 93,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-93.webp",
+    "sort": 105,
+    "newSort": 105
+  },
+  {
+    "gameType": 2,
+    "id": 94,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-94.webp",
+    "sort": 106,
+    "newSort": 106
+  },
+  {
+    "gameType": 2,
+    "id": 95,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-95.webp",
+    "sort": 107,
+    "newSort": 107
+  },
+  {
+    "gameType": 2,
+    "id": 97,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-97.webp",
+    "sort": 108,
+    "newSort": 108
+  },
+  {
+    "gameType": 2,
+    "id": 98,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-98.webp",
+    "sort": 109,
+    "newSort": 109
+  },
+  {
+    "gameType": 2,
+    "id": 1623475,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG-1623475.webp",
+    "sort": 110,
+    "newSort": 110
+  },
+  {
+    "gameType": 2,
+    "id": 1879752,
+    "manufacturer": 1,
+    "manufacturerName": "PG",
+    "runStatus": 1,
+    "icon": "PG_1879752.webp",
+    "sort": 111,
+    "newSort": 110
+  },
+  {
+    "gameType": 2,
+    "id": "21_ols",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-21_ols.webp",
+    "sort": 1,
+    "newSort": 111
+  },
+  {
+    "gameType": 2,
+    "id": "35_ols2",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-35_ols2.webp",
+    "sort": 2,
+    "newSort": 112
+  },
+  {
+    "gameType": 2,
+    "id": "37_sweetheart5",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-37_sweetheart5.webp",
+    "sort": 3,
+    "newSort": 113
+  },
+  {
+    "gameType": 2,
+    "id": "38_fs",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-38_fs.webp",
+    "sort": 4,
+    "newSort": 114
+  },
+  {
+    "gameType": 2,
+    "id": "47_bfs",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-47_bfs.webp",
+    "sort": 5,
+    "newSort": 115
+  },
+  {
+    "gameType": 2,
+    "id": "49_fullhouse",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-49_fullhouse.webp",
+    "sort": 6,
+    "newSort": 116
+  },
+  {
+    "gameType": 2,
+    "id": "77_bk",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-77_bk.webp",
+    "sort": 7,
+    "newSort": 117
+  },
+  {
+    "gameType": 2,
+    "id": "91_ifff",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-91_ifff.webp",
+    "sort": 8,
+    "newSort": 118
+  },
+  {
+    "gameType": 2,
+    "id": "109_fg",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-109_fg.webp",
+    "sort": 9,
+    "newSort": 119
+  },
+  {
+    "gameType": 2,
+    "id": "110_ali",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-110_ali.webp",
+    "sort": 10,
+    "newSort": 120
+  },
+  {
+    "gameType": 2,
+    "id": "126_dotd",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-126_dotd.webp",
+    "sort": 11,
+    "newSort": 121
+  },
+  {
+    "gameType": 2,
+    "id": "130_thor",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-130_thor.webp",
+    "sort": 12,
+    "newSort": 122
+  },
+  {
+    "gameType": 2,
+    "id": "181_wa",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-181_wa.webp",
+    "sort": 13,
+    "newSort": 123
+  },
+  {
+    "gameType": 2,
+    "id": "183_gj",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-183_gj.webp",
+    "sort": 14,
+    "newSort": 124
+  },
+  {
+    "gameType": 2,
+    "id": "191_petra",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-191_petra.webp",
+    "sort": 15,
+    "newSort": 125
+  },
+  {
+    "gameType": 2,
+    "id": "193_df",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-193_df.webp",
+    "sort": 16,
+    "newSort": 126
+  },
+  {
+    "gameType": 2,
+    "id": "223_fgp",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-223_fgp.webp",
+    "sort": 17,
+    "newSort": 127
+  },
+  {
+    "gameType": 2,
+    "id": "252_zeus",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-252_zeus.webp",
+    "sort": 18,
+    "newSort": 128
+  },
+  {
+    "gameType": 2,
+    "id": "258_dl",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-258_dl.webp",
+    "sort": 19,
+    "newSort": 129
+  },
+  {
+    "gameType": 2,
+    "id": "300_fg3",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-300_fg3.webp",
+    "sort": 20,
+    "newSort": 130
+  },
+  {
+    "gameType": 2,
+    "id": "108_mw3",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-108_mw3.webp",
+    "sort": 21,
+    "newSort": 131
+  },
+  {
+    "gameType": 2,
+    "id": "103_mw2",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-103_mw2.webp",
+    "sort": 22,
+    "newSort": 132
+  },
+  {
+    "gameType": 2,
+    "id": "303_mp2",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-303_mp2.webp",
+    "sort": 23,
+    "newSort": 133
+  },
+  {
+    "gameType": 2,
+    "id": "214_ka",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-214_ka.webp",
+    "sort": 61,
+    "newSort": 171
+  },
+  {
+    "gameType": 2,
+    "id": "2_csh",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-2_csh.webp",
+    "sort": 24,
+    "newSort": 134
+  },
+  {
+    "gameType": 2,
+    "id": "4_tks",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-4_tks.webp",
+    "sort": 25,
+    "newSort": 135
+  },
+  {
+    "gameType": 2,
+    "id": "5_chilli",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-5_chilli.webp",
+    "sort": 26,
+    "newSort": 136
+  },
+  {
+    "gameType": 2,
+    "id": "6_luckytree",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-6_luckytree.webp",
+    "sort": 27,
+    "newSort": 137
+  },
+  {
+    "gameType": 2,
+    "id": "16_kk2",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-16_kk2.webp",
+    "sort": 28,
+    "newSort": 138
+  },
+  {
+    "gameType": 2,
+    "id": "36_bbc",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-36_bbc.webp",
+    "sort": 29,
+    "newSort": 139
+  },
+  {
+    "gameType": 2,
+    "id": "40_ols3",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-40_ols3.webp",
+    "sort": 30,
+    "newSort": 140
+  },
+  {
+    "gameType": 2,
+    "id": "44_fivestar",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-44_fivestar.webp",
+    "sort": 31,
+    "newSort": 141
+  },
+  {
+    "gameType": 2,
+    "id": "45_cbt",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-45_cbt.webp",
+    "sort": 32,
+    "newSort": 142
+  },
+  {
+    "gameType": 2,
+    "id": "76_nightclub",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-76_nightclub.webp",
+    "sort": 33,
+    "newSort": 143
+  },
+  {
+    "gameType": 2,
+    "id": "85_mw",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-85_mw.webp",
+    "sort": 34,
+    "newSort": 144
+  },
+  {
+    "gameType": 2,
+    "id": "100_sr",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-100_sr.webp",
+    "sort": 35,
+    "newSort": 145
+  },
+  {
+    "gameType": 2,
+    "id": "102_rs2",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-102_rs2.webp",
+    "sort": 36,
+    "newSort": 146
+  },
+  {
+    "gameType": 2,
+    "id": "115_aa",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-115_aa.webp",
+    "sort": 37,
+    "newSort": 147
+  },
+  {
+    "gameType": 2,
+    "id": "116_taxi",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-116_taxi.webp",
+    "sort": 38,
+    "newSort": 148
+  },
+  {
+    "gameType": 2,
+    "id": "135_me",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-135_me.webp",
+    "sort": 39,
+    "newSort": 149
+  },
+  {
+    "gameType": 2,
+    "id": "137_ge",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-137_ge.webp",
+    "sort": 40,
+    "newSort": 150
+  },
+  {
+    "gameType": 2,
+    "id": "145_ln",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-145_ln.webp",
+    "sort": 41,
+    "newSort": 151
+  },
+  {
+    "gameType": 2,
+    "id": "176_cny",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-176_cny.webp",
+    "sort": 42,
+    "newSort": 152
+  },
+  {
+    "gameType": 2,
+    "id": "208_phoenix",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-208_phoenix.webp",
+    "sort": 43,
+    "newSort": 153
+  },
+  {
+    "gameType": 2,
+    "id": "225_ctk",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-225_ctk.webp",
+    "sort": 44,
+    "newSort": 154
+  },
+  {
+    "gameType": 2,
+    "id": "230_cts",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-230_cts.webp",
+    "sort": 45,
+    "newSort": 155
+  },
+  {
+    "gameType": 2,
+    "id": "239_dbg",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-239_dbg.webp",
+    "sort": 46,
+    "newSort": 156
+  },
+  {
+    "gameType": 2,
+    "id": "238_bby",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-238_bby.webp",
+    "sort": 47,
+    "newSort": 157
+  },
+  {
+    "gameType": 2,
+    "id": "299_pw",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-299_pw.webp",
+    "sort": 48,
+    "newSort": 158
+  },
+  {
+    "gameType": 2,
+    "id": "58_gq",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-58_gq.webp",
+    "sort": 49,
+    "newSort": 159
+  },
+  {
+    "gameType": 2,
+    "id": "142_bh",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-142_bh.webp",
+    "sort": 50,
+    "newSort": 160
+  },
+  {
+    "gameType": 2,
+    "id": "166_utaxi",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-166_utaxi.webp",
+    "sort": 51,
+    "newSort": 161
+  },
+  {
+    "gameType": 2,
+    "id": "134_mw4",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-134_mw4.webp",
+    "sort": 52,
+    "newSort": 162
+  },
+  {
+    "gameType": 2,
+    "id": "136_samba",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-136_samba.webp",
+    "sort": 53,
+    "newSort": 163
+  },
+  {
+    "gameType": 2,
+    "id": "144_cai",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-144_cai.webp",
+    "sort": 54,
+    "newSort": 164
+  },
+  {
+    "gameType": 2,
+    "id": "146_fb",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-146_fb.webp",
+    "sort": 55,
+    "newSort": 165
+  },
+  {
+    "gameType": 2,
+    "id": "209_ap",
+    "manufacturer": 2,
+    "manufacturerName": "JILI",
+    "runStatus": 1,
+    "icon": "JILI-209_ap.webp",
+    "sort": 56,
+    "newSort": 166
+  },
+  {
+    "gameType": 2,
+    "id": "vs20fruitsw",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Sweet-Bonanza.webp",
+    "sort": 1,
+    "newSort": 172
+  },
+  {
+    "gameType": 2,
+    "id": "vs20sugarrush",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Sugar-Rush.webp",
+    "sort": 2,
+    "newSort": 173
+  },
+  {
+    "gameType": 2,
+    "id": "vs20olympx",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Gates-of-Olympus-1000.webp",
+    "sort": 3,
+    "newSort": 174
+  },
+  {
+    "gameType": 2,
+    "id": "vs20starlightx",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Starlight-Princess-1000.webp",
+    "sort": 4,
+    "newSort": 175
+  },
+  {
+    "gameType": 2,
+    "id": "vs20starlight",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Starlight-Princess.webp",
+    "sort": 5,
+    "newSort": 176
+  },
+  {
+    "gameType": 2,
+    "id": "vs40wildwest",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Wild-West-Gold.webp",
+    "sort": 6,
+    "newSort": 177
+  },
+  {
+    "gameType": 2,
+    "id": "vswaysbufking",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Buffalo-King-Megaways.webp",
+    "sort": 7,
+    "newSort": 178
+  },
+  {
+    "gameType": 2,
+    "id": "vs20procount",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Wisdom-of-Athena.webp",
+    "sort": 8,
+    "newSort": 179
+  },
+  {
+    "gameType": 2,
+    "id": "vs5aztecgems",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Aztec-Gems.webp",
+    "sort": 9,
+    "newSort": 180
+  },
+  {
+    "gameType": 2,
+    "id": "vs20doghouse2",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "The-Dog-House-Dog-or-Alive.webp",
+    "sort": 10,
+    "newSort": 181
+  },
+  {
+    "gameType": 2,
+    "id": "vs20sugrux",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Sugar-Rush-Xmas.webp",
+    "sort": 11,
+    "newSort": 182
+  },
+  {
+    "gameType": 2,
+    "id": "vs10bblotgl",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Big-Bass-Secrets-of-the-Golden-Lake.webp",
+    "sort": 12,
+    "newSort": 183
+  },
+  {
+    "gameType": 2,
+    "id": "vs20fruitparty",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Fruit-Party.webp",
+    "sort": 13,
+    "newSort": 184
+  },
+  {
+    "gameType": 2,
+    "id": "vs25pandagold",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Panda's-Fortune.webp",
+    "sort": 14,
+    "newSort": 185
+  },
+  {
+    "gameType": 2,
+    "id": "vs25goldparty",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Gold-Party.webp",
+    "sort": 15,
+    "newSort": 186
+  },
+  {
+    "gameType": 2,
+    "id": "vs20sugarrushx",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Sugar-Rush-1000.webp",
+    "sort": 16,
+    "newSort": 187
+  },
+  {
+    "gameType": 2,
+    "id": "vs10jokerhot",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Joker's-Jewels-Hot.webp",
+    "sort": 17,
+    "newSort": 188
+  },
+  {
+    "gameType": 2,
+    "id": "vs5jjwild",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Joker's-Jewels-Wild.webp",
+    "sort": 18,
+    "newSort": 189
+  },
+  {
+    "gameType": 2,
+    "id": "vs5joker",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Jokers-Jewels.webp",
+    "sort": 19,
+    "newSort": 190
+  },
+  {
+    "gameType": 2,
+    "id": "vs10bhallbnza2",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Big-Bass-Halloween-2.webp",
+    "sort": 20,
+    "newSort": 191
+  },
+  {
+    "gameType": 2,
+    "id": "vs10fangfree",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Fangtastic-Freespins.webp",
+    "sort": 21,
+    "newSort": 192
+  },
+  {
+    "gameType": 2,
+    "id": "vs40wildrun",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Fortune-Hit'n-Roll.webp",
+    "sort": 22,
+    "newSort": 193
+  },
+  {
+    "gameType": 2,
+    "id": "vs20sh",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Shining-Hot-20.webp",
+    "sort": 23,
+    "newSort": 194
+  },
+  {
+    "gameType": 2,
+    "id": "vs10bxmasbnza",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Christmas-Big-Bass-Bonanza.webp",
+    "sort": 24,
+    "newSort": 195
+  },
+  {
+    "gameType": 2,
+    "id": "vswayschilheat",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Chilli-Heat-Megaways.webp",
+    "sort": 25,
+    "newSort": 196
+  },
+  {
+    "gameType": 2,
+    "id": "vs117649starz",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Starz-Megaways.webp",
+    "sort": 26,
+    "newSort": 197
+  },
+  {
+    "gameType": 2,
+    "id": "vs20fourmc",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Candy-Corner.webp",
+    "sort": 27,
+    "newSort": 198
+  },
+  {
+    "gameType": 2,
+    "id": "vs25ultwolgol",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Wolf-Gold-Ultimate.webp",
+    "sort": 28,
+    "newSort": 199
+  },
+  {
+    "gameType": 2,
+    "id": "vs20sbxmas",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Sweet-Bonanza-Xmas.webp",
+    "sort": 29,
+    "newSort": 200
+  },
+  {
+    "gameType": 2,
+    "id": "vs25xmasparty",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Penguins-Christmas-Party-Time.webp",
+    "sort": 30,
+    "newSort": 201
+  },
+  {
+    "gameType": 2,
+    "id": "vs20clreacts",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Moleionaire.webp",
+    "sort": 31,
+    "newSort": 202
+  },
+  {
+    "gameType": 2,
+    "id": "vswaysmfreya",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Might-of-Freya-Megaways.webp",
+    "sort": 32,
+    "newSort": 203
+  },
+  {
+    "gameType": 2,
+    "id": "vswayssevenc",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "7-Clovers-of-Fortune.webp",
+    "sort": 33,
+    "newSort": 204
+  },
+  {
+    "gameType": 2,
+    "id": "vswaysfreezet",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Eternal-Empress---Freeze-Time.webp",
+    "sort": 34,
+    "newSort": 205
+  },
+  {
+    "gameType": 2,
+    "id": "vs15godsofwar",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Zeus-vs-Hades---Gods-of-War.webp",
+    "sort": 35,
+    "newSort": 206
+  },
+  {
+    "gameType": 2,
+    "id": "vs5himalaw",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Himalayan-Wild.webp",
+    "sort": 36,
+    "newSort": 207
+  },
+  {
+    "gameType": 2,
+    "id": "vs20schristmas",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Starlight-Christmas.webp",
+    "sort": 37,
+    "newSort": 208
+  },
+  {
+    "gameType": 2,
+    "id": "vs25btygold",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Bounty-Gold.webp",
+    "sort": 38,
+    "newSort": 209
+  },
+  {
+    "gameType": 2,
+    "id": "vs50juicyfr",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Juicy-Fruits.webp",
+    "sort": 39,
+    "newSort": 210
+  },
+  {
+    "gameType": 2,
+    "id": "vs20drgbless",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Dragon-Hero.webp",
+    "sort": 40,
+    "newSort": 211
+  },
+  {
+    "gameType": 2,
+    "id": "vs1dragon8",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "888-Dragons.webp",
+    "sort": 41,
+    "newSort": 212
+  },
+  {
+    "gameType": 2,
+    "id": "vs1tigers",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Triple-Tigers.webp",
+    "sort": 42,
+    "newSort": 213
+  },
+  {
+    "gameType": 2,
+    "id": "vs20olympdice",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Gates-of-Olympus-Dice.webp",
+    "sort": 43,
+    "newSort": 214
+  },
+  {
+    "gameType": 2,
+    "id": "vs9aztecgemsdx",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Aztec-Gems-Deluxe.webp",
+    "sort": 44,
+    "newSort": 215
+  },
+  {
+    "gameType": 2,
+    "id": "vs10bbfloats",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Big-Bass-Floats-my-Boat.webp",
+    "sort": 45,
+    "newSort": 216
+  },
+  {
+    "gameType": 2,
+    "id": "vs10bburger",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Big-Burger-Load-it-up-with-Xtra-Cheese.webp",
+    "sort": 46,
+    "newSort": 217
+  },
+  {
+    "gameType": 2,
+    "id": "vs10cowgold",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Cowboys-Gold.webp",
+    "sort": 47,
+    "newSort": 218
+  },
+  {
+    "gameType": 2,
+    "id": "vs10firestrike",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Fire-Strike.webp",
+    "sort": 48,
+    "newSort": 219
+  },
+  {
+    "gameType": 2,
+    "id": "vs10threestar",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Three-Star-Fortune.webp",
+    "sort": 49,
+    "newSort": 220
+  },
+  {
+    "gameType": 2,
+    "id": "vs15diamond",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Diamond-Strike.webp",
+    "sort": 50,
+    "newSort": 221
+  },
+  {
+    "gameType": 2,
+    "id": "vs20bnnzdice",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Sweet-Bonanza-Dice.webp",
+    "sort": 51,
+    "newSort": 222
+  },
+  {
+    "gameType": 2,
+    "id": "vs20candyblitz",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Candy-Blitz.webp",
+    "sort": 52,
+    "newSort": 223
+  },
+  {
+    "gameType": 2,
+    "id": "vs20candybltz2",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Candy-Blitz-Bombs.webp",
+    "sort": 53,
+    "newSort": 224
+  },
+  {
+    "gameType": 2,
+    "id": "vs20cbrhst",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Cyber-Heist.webp",
+    "sort": 54,
+    "newSort": 225
+  },
+  {
+    "gameType": 2,
+    "id": "vs20cjcluster",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Candy-Jar-Clusters.webp",
+    "sort": 55,
+    "newSort": 226
+  },
+  {
+    "gameType": 2,
+    "id": "vs20cleocatra",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Cleocatra.webp",
+    "sort": 56,
+    "newSort": 227
+  },
+  {
+    "gameType": 2,
+    "id": "vs20clustext",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Gears-of-Horus.webp",
+    "sort": 57,
+    "newSort": 228
+  },
+  {
+    "gameType": 2,
+    "id": "vs20doghouse",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "The-Dog-House.webp",
+    "sort": 58,
+    "newSort": 229
+  },
+  {
+    "gameType": 2,
+    "id": "vs20forge",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Forge-of-Olympus.webp",
+    "sort": 60,
+    "newSort": 230
+  },
+  {
+    "gameType": 2,
+    "id": "vs20gatotgates",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Gates-of-Gatot-Kaca.webp",
+    "sort": 61,
+    "newSort": 231
+  },
+  {
+    "gameType": 2,
+    "id": "vs20gatotx",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Gates-of-Gatot-Kaca-1000.webp",
+    "sort": 62,
+    "newSort": 232
+  },
+  {
+    "gameType": 2,
+    "id": "vs20goldclust",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Rabbit-Garden.webp",
+    "sort": 63,
+    "newSort": 233
+  },
+  {
+    "gameType": 2,
+    "id": "vs20goldfever",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Gems-Bonanza.webp",
+    "sort": 64,
+    "newSort": 234
+  },
+  {
+    "gameType": 2,
+    "id": "vs20multiup",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Wheel-O'Gold.webp",
+    "sort": 65,
+    "newSort": 235
+  },
+  {
+    "gameType": 2,
+    "id": "vs20olympgate",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Gates-of-Olympus.webp",
+    "sort": 66,
+    "newSort": 236
+  },
+  {
+    "gameType": 2,
+    "id": "vs20pbonanza",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Pyramid-Bonanza.webp",
+    "sort": 67,
+    "newSort": 237
+  },
+  {
+    "gameType": 2,
+    "id": "vs20portals",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Fire-Portals.webp",
+    "sort": 68,
+    "newSort": 238
+  },
+  {
+    "gameType": 2,
+    "id": "vs20saiman",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Saiyan-Mania.webp",
+    "sort": 69,
+    "newSort": 239
+  },
+  {
+    "gameType": 2,
+    "id": "vs20stickypos",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Ice-Lobster.webp",
+    "sort": 70,
+    "newSort": 240
+  },
+  {
+    "gameType": 2,
+    "id": "vs20tweethouse",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "The-Tweety-House.webp",
+    "sort": 71,
+    "newSort": 241
+  },
+  {
+    "gameType": 2,
+    "id": "vs40stckwldlvl",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Ripe-Rewards.webp",
+    "sort": 72,
+    "newSort": 242
+  },
+  {
+    "gameType": 2,
+    "id": "vs50dmdcascade",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Diamond-Cascade.webp",
+    "sort": 73,
+    "newSort": 243
+  },
+  {
+    "gameType": 2,
+    "id": "vswayswest",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Mystic-Chief.webp",
+    "sort": 74,
+    "newSort": 244
+  },
+  {
+    "gameType": 2,
+    "id": "vswayswildgang",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "The-Wild-Gang.webp",
+    "sort": 75,
+    "newSort": 245
+  },
+  {
+    "gameType": 2,
+    "id": "vswayswildwest",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Wild-West-Gold-Megaways.webp",
+    "sort": 76,
+    "newSort": 246
+  },
+  {
+    "gameType": 2,
+    "id": "vs20bonzgold",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Bonanza-Gold.webp",
+    "sort": 77,
+    "newSort": 247
+  },
+  {
+    "gameType": 2,
+    "id": "vs1024fortune",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Fortune-Ace.webp",
+    "sort": 78,
+    "newSort": 248
+  },
+  {
+    "gameType": 2,
+    "id": "vs1024mahjwins",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Mahjong-Wins.webp",
+    "sort": 79,
+    "newSort": 249
+  },
+  {
+    "gameType": 2,
+    "id": "vs1024mjwinbns",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Mahjong-Wins-Bonus.webp",
+    "sort": 80,
+    "newSort": 250
+  },
+  {
+    "gameType": 2,
+    "id": "vs7776aztec",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Aztec-Bonanza.webp",
+    "sort": 81,
+    "newSort": 251
+  },
+  {
+    "gameType": 2,
+    "id": "vswaysmadame",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Madame-Destiny-Megaways.webp",
+    "sort": 82,
+    "newSort": 252
+  },
+  {
+    "gameType": 2,
+    "id": "vswaysmegahays",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Barnyard-Megahays-Megaways.webp",
+    "sort": 83,
+    "newSort": 253
+  },
+  {
+    "gameType": 2,
+    "id": "vswaysoldminer",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Old-Gold-Miner-Megaways.webp",
+    "sort": 84,
+    "newSort": 254
+  },
+  {
+    "gameType": 2,
+    "id": "vswaysstampede",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Fire-Stampede.webp",
+    "sort": 85,
+    "newSort": 255
+  },
+  {
+    "gameType": 2,
+    "id": "vs40rainbowr",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Rainbow-Reels.webp",
+    "sort": 86,
+    "newSort": 256
+  },
+  {
+    "gameType": 2,
+    "id": "vs1fufufu",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Fu-Fu-Fu.webp",
+    "sort": 87,
+    "newSort": 257
+  },
+  {
+    "gameType": 2,
+    "id": "vs5jokerdice",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Joker's-Jewel-Dice.webp",
+    "sort": 88,
+    "newSort": 258
+  },
+  {
+    "gameType": 2,
+    "id": "vs20framazon",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Fruits-of-the-Amazon.webp",
+    "sort": 89,
+    "newSort": 259
+  },
+  {
+    "gameType": 2,
+    "id": "vswaysmoneyman",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "The-Money-Men-Megaways.webp",
+    "sort": 90,
+    "newSort": 260
+  },
+  {
+    "gameType": 2,
+    "id": "vs20hotzone",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "African-Elephant.webp",
+    "sort": 91,
+    "newSort": 261
+  },
+  {
+    "gameType": 2,
+    "id": "vs20hstgldngt",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Heist-for-the-Golden-Nuggets.webp",
+    "sort": 92,
+    "newSort": 262
+  },
+  {
+    "gameType": 2,
+    "id": "vs20jewelparty",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Jewel-Rush.webp",
+    "sort": 93,
+    "newSort": 263
+  },
+  {
+    "gameType": 2,
+    "id": "vs20lvlup",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Pub-Kings.webp",
+    "sort": 94,
+    "newSort": 264
+  },
+  {
+    "gameType": 2,
+    "id": "vs20mparty",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Wild-Hop-&-Drop.webp",
+    "sort": 95,
+    "newSort": 265
+  },
+  {
+    "gameType": 2,
+    "id": "vs20piggybank",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Piggy-Bankers.webp",
+    "sort": 96,
+    "newSort": 266
+  },
+  {
+    "gameType": 2,
+    "id": "vs25holiday",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Holiday-Ride.webp",
+    "sort": 97,
+    "newSort": 267
+  },
+  {
+    "gameType": 2,
+    "id": "vs25pandatemple",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Panda-Fortune-2.webp",
+    "sort": 98,
+    "newSort": 268
+  },
+  {
+    "gameType": 2,
+    "id": "vs40demonpots",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Demon-Pots.webp",
+    "sort": 99,
+    "newSort": 269
+  },
+  {
+    "gameType": 2,
+    "id": "vs9hotroll",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Hot-Chilli.webp",
+    "sort": 100,
+    "newSort": 270
+  },
+  {
+    "gameType": 2,
+    "id": "vs10amm",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Amazing-Money-Machine.webp",
+    "sort": 101,
+    "newSort": 271
+  },
+  {
+    "gameType": 2,
+    "id": "vs10egypt",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Ancient-Egypt.webp",
+    "sort": 102,
+    "newSort": 272
+  },
+  {
+    "gameType": 2,
+    "id": "vs10eyestorm",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Eye-of-the-Storm.webp",
+    "sort": 103,
+    "newSort": 273
+  },
+  {
+    "gameType": 2,
+    "id": "vs10floatdrg",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Floating-Dragon.webp",
+    "sort": 104,
+    "newSort": 274
+  },
+  {
+    "gameType": 2,
+    "id": "vs10goldfish",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Fishin-Reels.webp",
+    "sort": 105,
+    "newSort": 275
+  },
+  {
+    "gameType": 2,
+    "id": "vs10mayangods",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "John-Hunter-And-The-Mayan-Gods.webp",
+    "sort": 106,
+    "newSort": 276
+  },
+  {
+    "gameType": 2,
+    "id": "vs20aladdinsorc",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Aladdin-and-the-Sorcerer.webp",
+    "sort": 107,
+    "newSort": 277
+  },
+  {
+    "gameType": 2,
+    "id": "vs20chickdrop",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Chicken-Drop.webp",
+    "sort": 108,
+    "newSort": 278
+  },
+  {
+    "gameType": 2,
+    "id": "vs20daydead",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Day-of-Dead.webp",
+    "sort": 109,
+    "newSort": 279
+  },
+  {
+    "gameType": 2,
+    "id": "vs20egypttrs",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Egyptian Fortunes.webp",
+    "sort": 110,
+    "newSort": 280
+  },
+  {
+    "gameType": 2,
+    "id": "vs20eking",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Emerald-King.webp",
+    "sort": 111,
+    "newSort": 281
+  },
+  {
+    "gameType": 2,
+    "id": "vs20ekingrr",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Emerald-King-Rainbow-Road.webp",
+    "sort": 112,
+    "newSort": 282
+  },
+  {
+    "gameType": 2,
+    "id": "vs20emptybank",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Empty-the-Bank.webp",
+    "sort": 113,
+    "newSort": 283
+  },
+  {
+    "gameType": 2,
+    "id": "vs20fparty2",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 1,
+    "icon": "Fruit-Party-2.webp",
+    "sort": 114,
+    "newSort": 284
+  },
+  {
+    "gameType": 2,
+    "id": "vs10noodles",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 0,
+    "icon": "Oodles-of-Noodles.webp",
+    "sort": 115,
+    "newSort": 285
+  },
+  {
+    "gameType": 2,
+    "id": "vs10bbdoubled",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 0,
+    "icon": "Big-Bass-Vegas-Double-Down-Deluxe.webp",
+    "sort": 116,
+    "newSort": 286
+  },
+  {
+    "gameType": 2,
+    "id": "vs20clustcol",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 0,
+    "icon": "Sweet-Kingdom.webp",
+    "sort": 117,
+    "newSort": 287
+  },
+  {
+    "gameType": 2,
+    "id": "vs20dhcluster2",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 0,
+    "icon": "The-Dog-House---Muttley-Crew.webp",
+    "sort": 118,
+    "newSort": 288
+  },
+  {
+    "gameType": 2,
+    "id": "vs40bigjuan",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 0,
+    "icon": "Big-Juan.webp",
+    "sort": 119,
+    "newSort": 289
+  },
+  {
+    "gameType": 2,
+    "id": "vs25bkofkngdm",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 0,
+    "icon": "Book-Of-Kingdoms.webp",
+    "sort": 120,
+    "newSort": 290
+  },
+  {
+    "gameType": 2,
+    "id": "vs10txbigbass",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 0,
+    "icon": "Big-Bass-Splash.webp",
+    "sort": 121,
+    "newSort": 291
+  },
+  {
+    "gameType": 2,
+    "id": "vs12bbb",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 0,
+    "icon": "Bigger-Bass-Bonanza.webp",
+    "sort": 122,
+    "newSort": 292
+  },
+  {
+    "gameType": 2,
+    "id": "vs12bbbxmas",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 0,
+    "icon": "Bigger-Bass-Blizzard---Christmas-Catch.webp",
+    "sort": 123,
+    "newSort": 293
+  },
+  {
+    "gameType": 2,
+    "id": "vs20aztecgates",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 0,
+    "icon": "Gates-of-Aztec.webp",
+    "sort": 124,
+    "newSort": 294
+  },
+  {
+    "gameType": 2,
+    "id": "vs20mustanggld2",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 0,
+    "icon": "Clover-Gold.webp",
+    "sort": 125,
+    "newSort": 295
+  },
+  {
+    "gameType": 2,
+    "id": "vs20procountx",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 0,
+    "icon": "Wisdom-of-Athena-1000.webp",
+    "sort": 126,
+    "newSort": 296
+  },
+  {
+    "gameType": 2,
+    "id": "vswaysfirewmw",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 0,
+    "icon": "Blazing-Wilds-Megaways.webp",
+    "sort": 127,
+    "newSort": 297
+  },
+  {
+    "gameType": 2,
+    "id": "vs25scarabqueen",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 0,
+    "icon": "John-Hunter-and-the-Tomb-of-the-Scarab-Queen.webp",
+    "sort": 128,
+    "newSort": 298
+  },
+  {
+    "gameType": 2,
+    "id": "vs20ninjapower",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 0,
+    "icon": "Power-of-Ninja.webp",
+    "sort": 129,
+    "newSort": 299
+  },
+  {
+    "gameType": 2,
+    "id": "vs20bison",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 0,
+    "icon": "Release-the-Bison.webp",
+    "sort": 130,
+    "newSort": 300
+  },
+  {
+    "gameType": 2,
+    "id": "vs15samurai4",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 0,
+    "icon": "Rise-of-Samurai-4.webp",
+    "sort": 131,
+    "newSort": 301
+  },
+  {
+    "gameType": 2,
+    "id": "vswaysmonkey",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 0,
+    "icon": "3-Dancing-Monkeys.webp",
+    "sort": 132,
+    "newSort": 302
+  },
+  {
+    "gameType": 2,
+    "id": "vs20shootstars",
+    "manufacturer": 3,
+    "manufacturerName": "PP",
+    "runStatus": 0,
+    "icon": "Heroic-Spins.webp",
+    "sort": 133,
+    "newSort": 303
+  },
+  {
+    "gameType": 2,
+    "id": "126_dotd",
+    "manufacturer": 5,
+    "manufacturerName": "TADA",
+    "runStatus": 1,
+    "icon": "TADA-126_dotd.webp",
+    "sort": 134,
+    "newSort": 304
+  },
+  {
+    "gameType": 2,
+    "id": "252_zeus",
+    "manufacturer": 5,
+    "manufacturerName": "TADA",
+    "runStatus": 1,
+    "icon": "TADA-252_zeus.webp",
+    "sort": 135,
+    "newSort": 305
+  },
+  {
+    "gameType": 2,
+    "id": "49_fullhouse",
+    "manufacturer": 5,
+    "manufacturerName": "TADA",
+    "runStatus": 1,
+    "icon": "TADA-49_fullhouse.webp",
+    "sort": 136,
+    "newSort": 306
+  },
+  {
+    "gameType": 2,
+    "id": "103_mw2",
+    "manufacturer": 5,
+    "manufacturerName": "TADA",
+    "runStatus": 1,
+    "icon": "TADA-103_mw2.webp",
+    "sort": 137,
+    "newSort": 307
+  },
+  {
+    "gameType": 2,
+    "id": "35_ols2",
+    "manufacturer": 5,
+    "manufacturerName": "TADA",
+    "runStatus": 1,
+    "icon": "TADA-35_ols2.webp",
+    "sort": 138,
+    "newSort": 308
+  },
+  {
+    "gameType": 2,
+    "id": "223_fgp",
+    "manufacturer": 5,
+    "manufacturerName": "TADA",
+    "runStatus": 1,
+    "icon": "TADA-223_fgp.webp",
+    "sort": 139,
+    "newSort": 309
+  },
+  {
+    "gameType": 2,
+    "id": "109_fg",
+    "manufacturer": 5,
+    "manufacturerName": "TADA",
+    "runStatus": 1,
+    "icon": "TADA-109_fg.webp",
+    "sort": 140,
+    "newSort": 310
+  },
+  {
+    "gameType": 2,
+    "id": "110_ali",
+    "manufacturer": 5,
+    "manufacturerName": "TADA",
+    "runStatus": 1,
+    "icon": "TADA_110_ali.webp",
+    "sort": 141,
+    "newSort": 311
+  },
+  {
+    "gameType": 2,
+    "id": "181_wa",
+    "manufacturer": 5,
+    "manufacturerName": "TADA",
+    "runStatus": 1,
+    "icon": "TADA-181_wa.webp",
+    "sort": 142,
+    "newSort": 312
+  },
+  {
+    "gameType": 2,
+    "id": "300_fg3",
+    "manufacturer": 5,
+    "manufacturerName": "TADA",
+    "runStatus": 1,
+    "icon": "TADA-300_fg3.webp",
+    "sort": 143,
+    "newSort": 313
+  },
+  {
+    "gameType": 2,
+    "id": "208_phoenix",
+    "manufacturer": 5,
+    "manufacturerName": "TADA",
+    "runStatus": 1,
+    "icon": "TADA-208_phoenix.webp",
+    "sort": 144,
+    "newSort": 314
+  },
+  {
+    "gameType": 2,
+    "id": "37_sweetheart5",
+    "manufacturer": 5,
+    "manufacturerName": "TADA",
+    "runStatus": 1,
+    "icon": "TADA-37_sweetheart5.webp",
+    "sort": 145,
+    "newSort": 315
+  },
+  {
+    "gameType": 2,
+    "id": "76_nightclub",
+    "manufacturer": 5,
+    "manufacturerName": "TADA",
+    "runStatus": 1,
+    "icon": "TADA-76_nightclub.webp",
+    "sort": 146,
+    "newSort": 316
+  },
+  {
+    "gameType": 2,
+    "id": "183_gj",
+    "manufacturer": 5,
+    "manufacturerName": "TADA",
+    "runStatus": 1,
+    "icon": "TADA-183_gj.webp",
+    "sort": 147,
+    "newSort": 317
+  },
+  {
+    "gameType": 2,
+    "id": "134_mw4",
+    "manufacturer": 5,
+    "manufacturerName": "TADA",
+    "runStatus": 1,
+    "icon": "TADA-134_mw4.webp",
+    "sort": 148,
+    "newSort": 318
+  },
+  {
+    "gameType": 2,
+    "id": "77_bk",
+    "manufacturer": 5,
+    "manufacturerName": "TADA",
+    "runStatus": 1,
+    "icon": "TADA-77_bk.webp",
+    "sort": 149,
+    "newSort": 319
+  },
+  {
+    "gameType": 2,
+    "id": "44_fivestar",
+    "manufacturer": 5,
+    "manufacturerName": "TADA",
+    "runStatus": 1,
+    "icon": "TADA-44_fivestar.webp",
+    "sort": 150,
+    "newSort": 320
+  },
+  {
+    "gameType": 2,
+    "id": "209_ap",
+    "manufacturer": 5,
+    "manufacturerName": "TADA",
+    "runStatus": 1,
+    "icon": "TADA-209_ap.webp",
+    "sort": 151,
+    "newSort": 321
+  },
+  {
+    "gameType": 2,
+    "id": "193_df",
+    "manufacturer": 5,
+    "manufacturerName": "TADA",
+    "runStatus": 1,
+    "icon": "TADA-193_df.webp",
+    "sort": 152,
+    "newSort": 322
+  },
+  {
+    "gameType": 2,
+    "id": "21_ols",
+    "manufacturer": 5,
+    "manufacturerName": "TADA",
+    "runStatus": 1,
+    "icon": "TADA-21_ols.webp",
+    "sort": 153,
+    "newSort": 323
+  },
+  {
+    "gameType": 2,
+    "id": "47_bfs",
+    "manufacturer": 5,
+    "manufacturerName": "TADA",
+    "runStatus": 1,
+    "icon": "TADA-47_bfs.webp",
+    "sort": 154,
+    "newSort": 324
+  },
+  {
+    "gameType": 2,
+    "id": "91_ifff",
+    "manufacturer": 5,
+    "manufacturerName": "TADA",
+    "runStatus": 1,
+    "icon": "TADA-91_ifff.webp",
+    "sort": 155,
+    "newSort": 325
+  },
+  {
+    "gameType": 2,
+    "id": "100_sr",
+    "manufacturer": 5,
+    "manufacturerName": "TADA",
+    "runStatus": 1,
+    "icon": "TADA-100_sr.webp",
+    "sort": 156,
+    "newSort": 326
+  },
+  {
+    "gameType": 2,
+    "id": "108_mw3",
+    "manufacturer": 5,
+    "manufacturerName": "TADA",
+    "runStatus": 1,
+    "icon": "TADA-108_mw3.webp",
+    "sort": 157,
+    "newSort": 327
+  },
+  {
+    "gameType": 2,
+    "id": "130_thor",
+    "manufacturer": 5,
+    "manufacturerName": "TADA",
+    "runStatus": 1,
+    "icon": "TADA-130_thor.webp",
+    "sort": 158,
+    "newSort": 328
+  },
+  {
+    "gameType": 2,
+    "id": "191_petra",
+    "manufacturer": 5,
+    "manufacturerName": "TADA",
+    "runStatus": 1,
+    "icon": "TADA-191_petra.webp",
+    "sort": 159,
+    "newSort": 329
+  },
+  {
+    "gameType": 2,
+    "id": "214_ka",
+    "manufacturer": 5,
+    "manufacturerName": "TADA",
+    "runStatus": 1,
+    "icon": "TADA-214_ka.webp",
+    "sort": 160,
+    "newSort": 330
+  },
+  {
+    "gameType": 2,
+    "id": "258_dl",
+    "manufacturer": 5,
+    "manufacturerName": "TADA",
+    "runStatus": 1,
+    "icon": "TADA-258_dl.webp",
+    "sort": 161,
+    "newSort": 331
+  },
+  {
+    "gameType": 2,
+    "id": "299_pw",
+    "manufacturer": 5,
+    "manufacturerName": "TADA",
+    "runStatus": 1,
+    "icon": "TADA-299_pw.webp",
+    "sort": 162,
+    "newSort": 332
+  },
+  {
+    "gameType": 3,
+    "id": 1,
+    "manufacturer": 4,
+    "manufacturerName": "SPRIBE",
+    "runStatus": 0,
+    "icon": "SPRIBE-1.webp",
+    "sort": 1,
+    "newSort": 333
+  },
+  {
+    "gameType": 3,
+    "id": 2,
+    "manufacturer": 4,
+    "manufacturerName": "SPRIBE",
+    "runStatus": 0,
+    "icon": "SPRIBE-2.webp",
+    "sort": 2,
+    "newSort": 334
+  },
+  {
+    "gameType": 3,
+    "id": 3,
+    "manufacturer": 4,
+    "manufacturerName": "SPRIBE",
+    "runStatus": 0,
+    "icon": "SPRIBE-3.webp",
+    "sort": 3,
+    "newSort": 335
+  },
+  {
+    "gameType": 3,
+    "id": 4,
+    "manufacturer": 4,
+    "manufacturerName": "SPRIBE",
+    "runStatus": 0,
+    "icon": "SPRIBE-4.webp",
+    "sort": 4,
+    "newSort": 336
+  },
+  {
+    "gameType": 3,
+    "id": 5,
+    "manufacturer": 4,
+    "manufacturerName": "SPRIBE",
+    "runStatus": 0,
+    "icon": "SPRIBE-5.webp",
+    "sort": 5,
+    "newSort": 337
+  },
+  {
+    "gameType": 3,
+    "id": 6,
+    "manufacturer": 4,
+    "manufacturerName": "SPRIBE",
+    "runStatus": 0,
+    "icon": "SPRIBE-6.webp",
+    "sort": 6,
+    "newSort": 338
+  },
+  {
+    "gameType": 3,
+    "id": 7,
+    "manufacturer": 4,
+    "manufacturerName": "SPRIBE",
+    "runStatus": 0,
+    "icon": "SPRIBE-7.webp",
+    "sort": 7,
+    "newSort": 339
+  },
+  {
+    "gameType": 3,
+    "id": 8,
+    "manufacturer": 4,
+    "manufacturerName": "SPRIBE",
+    "runStatus": 0,
+    "icon": "SPRIBE-8.webp",
+    "sort": 8,
+    "newSort": 340
+  },
+  {
+    "gameType": 3,
+    "id": 9,
+    "manufacturer": 4,
+    "manufacturerName": "SPRIBE",
+    "runStatus": 0,
+    "icon": "SPRIBE-9.webp",
+    "sort": 9,
+    "newSort": 341
+  },
+  {
+    "gameType": 3,
+    "id": 10,
+    "manufacturer": 4,
+    "manufacturerName": "SPRIBE",
+    "runStatus": 0,
+    "icon": "SPRIBE-10.webp",
+    "sort": 10,
+    "newSort": 342
+  },
+  {
+    "gameType": 3,
+    "id": 11,
+    "manufacturer": 4,
+    "manufacturerName": "SPRIBE",
+    "runStatus": 0,
+    "icon": "SPRIBE-11.webp",
+    "sort": 11,
+    "newSort": 343
+  }
+]

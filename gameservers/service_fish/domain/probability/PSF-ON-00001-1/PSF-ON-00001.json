@@ -1,0 +1,19 @@
+{
+  "GameID": "PSF-ON-00001",
+  "GameType": 1,
+  "BetList": [
+    1
+  ],
+  "RTPList": {
+    "RTP1": {
+      "ID": "98",
+      "RTP": "9800",
+      "BetList": {
+        "Bet1": {
+          "Bet": 1,
+          "ProjectID": "PSFM-00001-98-1"
+        }
+      }
+    }
+  }
+}

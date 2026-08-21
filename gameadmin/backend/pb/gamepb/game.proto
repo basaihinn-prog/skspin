@@ -1,0 +1,70 @@
+syntax = "proto3";
+
+// import "pb/duck/mongodb/TimeStamp.proto";
+import "pb/empty.proto";
+
+message Log {
+    int64  Pid     = 1; // 玩家ID
+    int64  Bet     = 2; // 下注
+    int64  Win     = 3; // 输赢（是指产出，不是净输赢）
+    string GameID  = 4; // 游戏ID，用于标识是哪个游戏
+    string RoundID = 5; // 对局ID，方便查询
+    string Comment = 6; // 注释
+    int64  Balance = 7; // 余额
+}
+
+message AddLogReq {
+    repeated Log List = 1;
+}
+
+message GetBalanceReq {
+    int64 Pid = 1;
+}
+
+message GetBalanceResp {
+    int64  Balance = 1;
+    string Uid     = 2; // 玩家外部ID
+}
+
+message ModifyGoldReq {
+    int64  Pid     = 1; // 玩家ID
+    int64  Change  = 2; // 金币变化：>0 加钱， <0 扣钱
+    string Comment = 3; // 注释
+}
+
+message TokenReq {
+    string Token = 1;
+}
+message TokenResp {
+    string WsUrl = 1; // 返回websocket 服务地址
+}
+
+/*
+    扣钱在这种 接入游戏 的模式下将会是一个耗时操作
+        如：请求接口，建立连接，参数验证等等
+
+    所以扣钱和日志不能作为一个接口提供
+
+    捕鱼：
+        提前前扣入合适的金额。避免打游戏过程中实时扣除满足不了效率
+    百人：
+        下注时按最大赔付扣除金额
+    slots:
+        按需扣除
+
+    等游戏结果出来后，单独写入游戏日志
+*/
+
+// Game => GameCenter => Plat3 => uf/Mega
+
+// 给游戏调用
+service GameRpc {
+    // 金币操作
+    rpc ModifyGold(ModifyGoldReq) returns (GetBalanceResp);
+    // 获取玩家余额
+    rpc GetBalance(GetBalanceReq) returns (GetBalanceResp);
+    // 写入下注日志
+    rpc AddLog(AddLogReq) returns (Empty);
+    // 验证token
+    rpc ValidateToken(TokenReq) returns (Empty);
+}

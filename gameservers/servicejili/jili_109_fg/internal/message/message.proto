@@ -1,0 +1,32 @@
+syntax = "proto3";
+package message;
+option go_package = "./";
+
+message fg_Column {
+    repeated int32 Col = 1;
+}
+
+message fg_AwardData {
+    optional int32 Symbol = 1;
+    optional int32 Line = 2;
+    optional double Win = 3;
+}
+
+message fg_SpinAck {
+    repeated fg_Column PlateSymbol = 1;
+    repeated fg_AwardData AwardDataVec = 2;
+    optional int32 AwardTypeFlag = 3;
+    optional double Mult = 4;
+    optional double TotalWin = 5;
+    optional string ShowIndex = 6;
+    optional double NowMoney = 7;
+    optional int32 AckType = 8;
+    optional bool Extra = 9;
+    optional double RTP = 10;
+}
+
+message fg_GameInfoData {
+    optional bool ShowExtra = 1;
+    repeated double Mul = 2;
+}
+

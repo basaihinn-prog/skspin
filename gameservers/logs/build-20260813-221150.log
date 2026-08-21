@@ -1,0 +1,887 @@
+=== Building ./service/betlog -> bin/service_betlog ===
+go: downloading github.com/samber/lo v1.49.1
+go: downloading github.com/ClickHouse/clickhouse-go v1.5.4
+go: downloading golang.org/x/sys v0.28.0
+go: downloading go.mongodb.org/mongo-driver v1.17.3
+go: downloading github.com/klauspost/compress v1.17.11
+go: downloading golang.org/x/text v0.21.0
+go: downloading golang.org/x/crypto v0.31.0
+go: downloading golang.org/x/sync v0.10.0
+BUILD OK [1]: bin/service_betlog
+=== Building ./service/pg_100 -> bin/service_pg_100 ===
+go: downloading github.com/cespare/xxhash/v2 v2.1.2
+go: downloading github.com/phuslu/iploc v1.0.20241031
+BUILD OK [2]: bin/service_pg_100
+=== Building ./service/pg_101 -> bin/service_pg_101 ===
+BUILD OK [3]: bin/service_pg_101
+=== Building ./service/pg_102 -> bin/service_pg_102 ===
+BUILD OK [4]: bin/service_pg_102
+=== Building ./service/pg_103 -> bin/service_pg_103 ===
+BUILD OK [5]: bin/service_pg_103
+=== Building ./service/pg_104 -> bin/service_pg_104 ===
+BUILD OK [6]: bin/service_pg_104
+=== Building ./service/pg_105 -> bin/service_pg_105 ===
+BUILD OK [7]: bin/service_pg_105
+=== Building ./service/pg_106 -> bin/service_pg_106 ===
+BUILD OK [8]: bin/service_pg_106
+=== Building ./service/pg_107 -> bin/service_pg_107 ===
+BUILD OK [9]: bin/service_pg_107
+=== Building ./service/pg_108 -> bin/service_pg_108 ===
+BUILD OK [10]: bin/service_pg_108
+=== Building ./service/pg_110 -> bin/service_pg_110 ===
+BUILD OK [11]: bin/service_pg_110
+=== Building ./service/pg_112 -> bin/service_pg_112 ===
+BUILD OK [12]: bin/service_pg_112
+=== Building ./service/pg_113 -> bin/service_pg_113 ===
+BUILD OK [13]: bin/service_pg_113
+=== Building ./service/pg_114 -> bin/service_pg_114 ===
+BUILD OK [14]: bin/service_pg_114
+=== Building ./service/pg_115 -> bin/service_pg_115 ===
+BUILD OK [15]: bin/service_pg_115
+=== Building ./service/pg_117 -> bin/service_pg_117 ===
+BUILD OK [16]: bin/service_pg_117
+=== Building ./service/pg_118 -> bin/service_pg_118 ===
+BUILD OK [17]: bin/service_pg_118
+=== Building ./service/pg_119 -> bin/service_pg_119 ===
+BUILD OK [18]: bin/service_pg_119
+=== Building ./service/pg_120 -> bin/service_pg_120 ===
+BUILD OK [19]: bin/service_pg_120
+=== Building ./service/pg_121 -> bin/service_pg_121 ===
+BUILD OK [20]: bin/service_pg_121
+=== Building ./service/pg_122 -> bin/service_pg_122 ===
+BUILD OK [21]: bin/service_pg_122
+=== Building ./service/pg_123 -> bin/service_pg_123 ===
+BUILD OK [22]: bin/service_pg_123
+=== Building ./service/pg_124 -> bin/service_pg_124 ===
+BUILD OK [23]: bin/service_pg_124
+=== Building ./service/pg_125 -> bin/service_pg_125 ===
+BUILD OK [24]: bin/service_pg_125
+=== Building ./service/pg_126 -> bin/service_pg_126 ===
+BUILD OK [25]: bin/service_pg_126
+=== Building ./service/pg_127 -> bin/service_pg_127 ===
+BUILD OK [26]: bin/service_pg_127
+=== Building ./service/pg_128 -> bin/service_pg_128 ===
+BUILD OK [27]: bin/service_pg_128
+=== Building ./service/pg_129 -> bin/service_pg_129 ===
+BUILD OK [28]: bin/service_pg_129
+=== Building ./service/pg_130 -> bin/service_pg_130 ===
+BUILD OK [29]: bin/service_pg_130
+=== Building ./service/pg_1312883 -> bin/service_pg_1312883 ===
+BUILD OK [30]: bin/service_pg_1312883
+=== Building ./service/pg_132 -> bin/service_pg_132 ===
+BUILD OK [31]: bin/service_pg_132
+=== Building ./service/pg_1338274 -> bin/service_pg_1338274 ===
+BUILD OK [32]: bin/service_pg_1338274
+=== Building ./service/pg_1340277 -> bin/service_pg_1340277 ===
+BUILD OK [33]: bin/service_pg_1340277
+=== Building ./service/pg_135 -> bin/service_pg_135 ===
+BUILD OK [34]: bin/service_pg_135
+=== Building ./service/pg_1368367 -> bin/service_pg_1368367 ===
+BUILD OK [35]: bin/service_pg_1368367
+=== Building ./service/pg_1372643 -> bin/service_pg_1372643 ===
+BUILD OK [36]: bin/service_pg_1372643
+=== Building ./service/pg_1381200 -> bin/service_pg_1381200 ===
+BUILD OK [37]: bin/service_pg_1381200
+=== Building ./service/pg_1397455 -> bin/service_pg_1397455 ===
+BUILD OK [38]: bin/service_pg_1397455
+=== Building ./service/pg_1402846 -> bin/service_pg_1402846 ===
+BUILD OK [39]: bin/service_pg_1402846
+=== Building ./service/pg_1418544 -> bin/service_pg_1418544 ===
+BUILD OK [40]: bin/service_pg_1418544
+=== Building ./service/pg_1420892 -> bin/service_pg_1420892 ===
+BUILD OK [41]: bin/service_pg_1420892
+=== Building ./service/pg_1432733 -> bin/service_pg_1432733 ===
+BUILD OK [42]: bin/service_pg_1432733
+=== Building ./service/pg_1448762 -> bin/service_pg_1448762 ===
+BUILD OK [43]: bin/service_pg_1448762
+=== Building ./service/pg_1451122 -> bin/service_pg_1451122 ===
+BUILD OK [44]: bin/service_pg_1451122
+=== Building ./service/pg_1473388 -> bin/service_pg_1473388 ===
+BUILD OK [45]: bin/service_pg_1473388
+=== Building ./service/pg_1489936 -> bin/service_pg_1489936 ===
+BUILD OK [46]: bin/service_pg_1489936
+=== Building ./service/pg_1492288 -> bin/service_pg_1492288 ===
+BUILD OK [47]: bin/service_pg_1492288
+=== Building ./service/pg_1508783 -> bin/service_pg_1508783 ===
+BUILD OK [48]: bin/service_pg_1508783
+=== Building ./service/pg_1513328 -> bin/service_pg_1513328 ===
+BUILD OK [49]: bin/service_pg_1513328
+=== Building ./service/pg_1529867 -> bin/service_pg_1529867 ===
+BUILD OK [50]: bin/service_pg_1529867
+=== Building ./service/pg_1543462 -> bin/service_pg_1543462 ===
+BUILD OK [51]: bin/service_pg_1543462
+=== Building ./service/pg_1555350 -> bin/service_pg_1555350 ===
+BUILD OK [52]: bin/service_pg_1555350
+=== Building ./service/pg_1568554 -> bin/service_pg_1568554 ===
+BUILD OK [53]: bin/service_pg_1568554
+=== Building ./service/pg_1572362 -> bin/service_pg_1572362 ===
+BUILD OK [54]: bin/service_pg_1572362
+=== Building ./service/pg_1580541 -> bin/service_pg_1580541 ===
+BUILD OK [55]: bin/service_pg_1580541
+=== Building ./service/pg_1594259 -> bin/service_pg_1594259 ===
+BUILD OK [56]: bin/service_pg_1594259
+=== Building ./service/pg_1601012 -> bin/service_pg_1601012 ===
+BUILD OK [57]: bin/service_pg_1601012
+=== Building ./service/pg_1615454 -> bin/service_pg_1615454 ===
+BUILD OK [58]: bin/service_pg_1615454
+=== Building ./service/pg_1623475 -> bin/service_pg_1623475 ===
+BUILD OK [59]: bin/service_pg_1623475
+=== Building ./service/pg_1635221 -> bin/service_pg_1635221 ===
+BUILD OK [60]: bin/service_pg_1635221
+=== Building ./service/pg_1648578 -> bin/service_pg_1648578 ===
+BUILD OK [61]: bin/service_pg_1648578
+=== Building ./service/pg_1655268 -> bin/service_pg_1655268 ===
+BUILD OK [62]: bin/service_pg_1655268
+=== Building ./service/pg_1671262 -> bin/service_pg_1671262 ===
+BUILD OK [63]: bin/service_pg_1671262
+=== Building ./service/pg_1682240 -> bin/service_pg_1682240 ===
+BUILD OK [64]: bin/service_pg_1682240
+=== Building ./service/pg_1695365 -> bin/service_pg_1695365 ===
+BUILD OK [65]: bin/service_pg_1695365
+=== Building ./service/pg_1717688 -> bin/service_pg_1717688 ===
+BUILD OK [66]: bin/service_pg_1717688
+=== Building ./service/pg_1879752 -> bin/service_pg_1879752 ===
+BUILD OK [67]: bin/service_pg_1879752
+=== Building ./service/pg_20 -> bin/service_pg_20 ===
+BUILD OK [68]: bin/service_pg_20
+=== Building ./service/pg_24 -> bin/service_pg_24 ===
+BUILD OK [69]: bin/service_pg_24
+=== Building ./service/pg_25 -> bin/service_pg_25 ===
+BUILD OK [70]: bin/service_pg_25
+=== Building ./service/pg_29 -> bin/service_pg_29 ===
+BUILD OK [71]: bin/service_pg_29
+=== Building ./service/pg_3 -> bin/service_pg_3 ===
+BUILD OK [72]: bin/service_pg_3
+=== Building ./service/pg_33 -> bin/service_pg_33 ===
+BUILD OK [73]: bin/service_pg_33
+=== Building ./service/pg_34 -> bin/service_pg_34 ===
+BUILD OK [74]: bin/service_pg_34
+=== Building ./service/pg_35 -> bin/service_pg_35 ===
+BUILD OK [75]: bin/service_pg_35
+=== Building ./service/pg_36 -> bin/service_pg_36 ===
+BUILD OK [76]: bin/service_pg_36
+=== Building ./service/pg_37 -> bin/service_pg_37 ===
+BUILD OK [77]: bin/service_pg_37
+=== Building ./service/pg_38 -> bin/service_pg_38 ===
+BUILD OK [78]: bin/service_pg_38
+=== Building ./service/pg_39 -> bin/service_pg_39 ===
+BUILD OK [79]: bin/service_pg_39
+=== Building ./service/pg_40 -> bin/service_pg_40 ===
+BUILD OK [80]: bin/service_pg_40
+=== Building ./service/pg_42 -> bin/service_pg_42 ===
+BUILD OK [81]: bin/service_pg_42
+=== Building ./service/pg_44 -> bin/service_pg_44 ===
+BUILD OK [82]: bin/service_pg_44
+=== Building ./service/pg_48 -> bin/service_pg_48 ===
+BUILD OK [83]: bin/service_pg_48
+=== Building ./service/pg_50 -> bin/service_pg_50 ===
+BUILD OK [84]: bin/service_pg_50
+=== Building ./service/pg_53 -> bin/service_pg_53 ===
+BUILD OK [85]: bin/service_pg_53
+=== Building ./service/pg_54 -> bin/service_pg_54 ===
+BUILD OK [86]: bin/service_pg_54
+=== Building ./service/pg_57 -> bin/service_pg_57 ===
+BUILD OK [87]: bin/service_pg_57
+=== Building ./service/pg_58 -> bin/service_pg_58 ===
+BUILD OK [88]: bin/service_pg_58
+=== Building ./service/pg_59 -> bin/service_pg_59 ===
+BUILD OK [89]: bin/service_pg_59
+=== Building ./service/pg_60 -> bin/service_pg_60 ===
+BUILD OK [90]: bin/service_pg_60
+=== Building ./service/pg_61 -> bin/service_pg_61 ===
+BUILD OK [91]: bin/service_pg_61
+=== Building ./service/pg_62 -> bin/service_pg_62 ===
+BUILD OK [92]: bin/service_pg_62
+=== Building ./service/pg_63 -> bin/service_pg_63 ===
+BUILD OK [93]: bin/service_pg_63
+=== Building ./service/pg_64 -> bin/service_pg_64 ===
+BUILD OK [94]: bin/service_pg_64
+=== Building ./service/pg_65 -> bin/service_pg_65 ===
+BUILD OK [95]: bin/service_pg_65
+=== Building ./service/pg_68 -> bin/service_pg_68 ===
+BUILD OK [96]: bin/service_pg_68
+=== Building ./service/pg_69 -> bin/service_pg_69 ===
+BUILD OK [97]: bin/service_pg_69
+=== Building ./service/pg_70 -> bin/service_pg_70 ===
+BUILD OK [98]: bin/service_pg_70
+=== Building ./service/pg_74 -> bin/service_pg_74 ===
+BUILD OK [99]: bin/service_pg_74
+=== Building ./service/pg_75 -> bin/service_pg_75 ===
+BUILD OK [100]: bin/service_pg_75
+=== Building ./service/pg_79 -> bin/service_pg_79 ===
+BUILD OK [101]: bin/service_pg_79
+=== Building ./service/pg_82 -> bin/service_pg_82 ===
+BUILD OK [102]: bin/service_pg_82
+=== Building ./service/pg_83 -> bin/service_pg_83 ===
+BUILD OK [103]: bin/service_pg_83
+=== Building ./service/pg_86 -> bin/service_pg_86 ===
+BUILD OK [104]: bin/service_pg_86
+=== Building ./service/pg_87 -> bin/service_pg_87 ===
+BUILD OK [105]: bin/service_pg_87
+=== Building ./service/pg_88 -> bin/service_pg_88 ===
+BUILD OK [106]: bin/service_pg_88
+=== Building ./service/pg_89 -> bin/service_pg_89 ===
+BUILD OK [107]: bin/service_pg_89
+=== Building ./service/pg_91 -> bin/service_pg_91 ===
+BUILD OK [108]: bin/service_pg_91
+=== Building ./service/pg_92 -> bin/service_pg_92 ===
+BUILD OK [109]: bin/service_pg_92
+=== Building ./service/pg_93 -> bin/service_pg_93 ===
+BUILD OK [110]: bin/service_pg_93
+=== Building ./service/pg_94 -> bin/service_pg_94 ===
+BUILD OK [111]: bin/service_pg_94
+=== Building ./service/pg_95 -> bin/service_pg_95 ===
+BUILD OK [112]: bin/service_pg_95
+=== Building ./service/pg_97 -> bin/service_pg_97 ===
+BUILD OK [113]: bin/service_pg_97
+=== Building ./service/pg_98 -> bin/service_pg_98 ===
+BUILD OK [114]: bin/service_pg_98
+=== Building ./serviceSpribeGame/aviator -> bin/serviceSpribeGame_aviator ===
+go: downloading github.com/lesismal/nbio v1.6.2
+go: downloading github.com/tidwall/gjson v1.18.0
+go: downloading github.com/tidwall/pretty v1.2.0
+go: downloading github.com/tidwall/match v1.1.1
+BUILD OK [115]: bin/serviceSpribeGame_aviator
+=== Building ./service_fish -> bin/service_fish ===
+go: downloading github.com/fasthttp/websocket v1.5.12
+go: downloading github.com/sasha-s/go-deadlock v0.3.5
+go: downloading github.com/valyala/fasthttp v1.58.0
+go: downloading github.com/petermattis/goid v0.0.0-20240813172612-4fcff4a6cae7
+go: downloading github.com/savsgio/gotils v0.0.0-20240704082632-aef3928b8a38
+go: downloading golang.org/x/net v0.33.0
+go: downloading github.com/gomodule/redigo v1.9.2
+go: downloading github.com/andybalholm/brotli v1.1.1
+go: downloading github.com/valyala/bytebufferpool v1.0.0
+service_fish/main.go:10:2: package serve/fish_comm/broadcaster is not in std (/usr/local/go/src/serve/fish_comm/broadcaster)
+service_fish/main.go:11:2: package serve/fish_comm/flux is not in std (/usr/local/go/src/serve/fish_comm/flux)
+service_fish/main.go:12:2: package serve/fish_comm/logger is not in std (/usr/local/go/src/serve/fish_comm/logger)
+service_fish/main.go:13:2: package serve/fish_comm/mysql is not in std (/usr/local/go/src/serve/fish_comm/mysql)
+service_fish/main.go:14:2: package serve/fish_comm/player is not in std (/usr/local/go/src/serve/fish_comm/player)
+service_fish/main.go:5:2: package serve/fish_comm/version is not in std (/usr/local/go/src/serve/fish_comm/version)
+service_fish/main.go:15:2: package serve/fish_comm/watchdog is not in std (/usr/local/go/src/serve/fish_comm/watchdog)
+service_fish/application/watchdogfish/maintain.go:7:2: package serve/fish_comm/jackpot-client is not in std (/usr/local/go/src/serve/fish_comm/jackpot-client)
+service_fish/domain/fish/fish_pool.go:20:2: package serve/fish_comm/common is not in std (/usr/local/go/src/serve/fish_comm/common)
+service_fish/domain/fish/fish.go:9:2: package serve/fish_comm/error-code is not in std (/usr/local/go/src/serve/fish_comm/error-code)
+service_fish/domain/file/fish_file_data.go:8:2: package serve/fish_comm/rng is not in std (/usr/local/go/src/serve/fish_comm/rng)
+service_fish/domain/broadcaster/broadcaster_fish.go:6:2: package serve/fish_comm/broadcaster/proto is not in std (/usr/local/go/src/serve/fish_comm/broadcaster/proto)
+service_fish/domain/broadcaster/broadcaster_fish.go:7:2: package serve/fish_comm/common/proto is not in std (/usr/local/go/src/serve/fish_comm/common/proto)
+service_fish/domain/broadcaster/broadcaster_fish.go:10:2: package serve/fish_comm/format is not in std (/usr/local/go/src/serve/fish_comm/format)
+service_fish/application/gameuser/game_user.go:30:2: package serve/fish_comm/blacklist is not in std (/usr/local/go/src/serve/fish_comm/blacklist)
+service_fish/application/gameuser/game_user.go:36:2: package serve/fish_comm/heart-beat is not in std (/usr/local/go/src/serve/fish_comm/heart-beat)
+service_fish/application/gameuser/game_user.go:37:2: package serve/fish_comm/idle is not in std (/usr/local/go/src/serve/fish_comm/idle)
+service_fish/application/gameuser/game_user.go:38:2: package serve/fish_comm/jackpot-client/jackpot is not in std (/usr/local/go/src/serve/fish_comm/jackpot-client/jackpot)
+service_fish/application/gameuser/game_user.go:40:2: package serve/fish_comm/maintain is not in std (/usr/local/go/src/serve/fish_comm/maintain)
+service_fish/application/gameuser/game_user.go:41:2: package serve/fish_comm/mediator is not in std (/usr/local/go/src/serve/fish_comm/mediator)
+service_fish/application/gameuser/game_user.go:43:2: package serve/fish_comm/session is not in std (/usr/local/go/src/serve/fish_comm/session)
+service_fish/application/gameuser/game_user.go:44:2: package serve/fish_comm/session-manager is not in std (/usr/local/go/src/serve/fish_comm/session-manager)
+service_fish/application/gameuser/game_user.go:45:2: package serve/fish_comm/vip is not in std (/usr/local/go/src/serve/fish_comm/vip)
+service_fish/application/gameuser/game_user.go:46:2: package serve/fish_comm/wallet is not in std (/usr/local/go/src/serve/fish_comm/wallet)
+service_fish/application/accountingmanager/accounting_manager.go:19:2: package serve/fish_comm/accounting is not in std (/usr/local/go/src/serve/fish_comm/accounting)
+service_fish/domain/auth/service.go:8:2: package serve/fish_comm/http is not in std (/usr/local/go/src/serve/fish_comm/http)
+service_fish/application/activity/service.go:7:2: package serve/fish_comm/redis is not in std (/usr/local/go/src/serve/fish_comm/redis)
+service_fish/application/botuser/bot_user.go:24:2: package serve/fish_comm/common-function is not in std (/usr/local/go/src/serve/fish_comm/common-function)
+BUILD OK [116]: bin/service_fish
+=== Building ./servicefacai/facai_22043 -> bin/servicefacai_facai_22043 ===
+BUILD OK [117]: bin/servicefacai_facai_22043
+=== Building ./servicehacksaw/hacksaw_1067 -> bin/servicehacksaw_hacksaw_1067 ===
+BUILD OK [118]: bin/servicehacksaw_hacksaw_1067
+=== Building ./servicehacksaw/hacksaw_1084 -> bin/servicehacksaw_hacksaw_1084 ===
+BUILD OK [119]: bin/servicehacksaw_hacksaw_1084
+=== Building ./servicehacksaw/hacksaw_1087 -> bin/servicehacksaw_hacksaw_1087 ===
+BUILD OK [120]: bin/servicehacksaw_hacksaw_1087
+=== Building ./servicehacksaw/hacksaw_1117 -> bin/servicehacksaw_hacksaw_1117 ===
+BUILD OK [121]: bin/servicehacksaw_hacksaw_1117
+=== Building ./servicehacksaw/hacksaw_1144 -> bin/servicehacksaw_hacksaw_1144 ===
+BUILD OK [122]: bin/servicehacksaw_hacksaw_1144
+=== Building ./servicehacksaw/hacksaw_1160 -> bin/servicehacksaw_hacksaw_1160 ===
+BUILD OK [123]: bin/servicehacksaw_hacksaw_1160
+=== Building ./servicehacksaw/hacksaw_1164 -> bin/servicehacksaw_hacksaw_1164 ===
+BUILD OK [124]: bin/servicehacksaw_hacksaw_1164
+=== Building ./servicehacksaw/hacksaw_1168 -> bin/servicehacksaw_hacksaw_1168 ===
+BUILD OK [125]: bin/servicehacksaw_hacksaw_1168
+=== Building ./servicehacksaw/hacksaw_1172 -> bin/servicehacksaw_hacksaw_1172 ===
+BUILD OK [126]: bin/servicehacksaw_hacksaw_1172
+=== Building ./servicehacksaw/hacksaw_1209 -> bin/servicehacksaw_hacksaw_1209 ===
+BUILD OK [127]: bin/servicehacksaw_hacksaw_1209
+=== Building ./servicehacksaw/hacksaw_1213 -> bin/servicehacksaw_hacksaw_1213 ===
+BUILD OK [128]: bin/servicehacksaw_hacksaw_1213
+=== Building ./servicehacksaw/hacksaw_1217 -> bin/servicehacksaw_hacksaw_1217 ===
+BUILD OK [129]: bin/servicehacksaw_hacksaw_1217
+=== Building ./servicehacksaw/hacksaw_1233 -> bin/servicehacksaw_hacksaw_1233 ===
+BUILD OK [130]: bin/servicehacksaw_hacksaw_1233
+=== Building ./servicehacksaw/hacksaw_1237 -> bin/servicehacksaw_hacksaw_1237 ===
+BUILD OK [131]: bin/servicehacksaw_hacksaw_1237
+=== Building ./servicehacksaw/hacksaw_1243 -> bin/servicehacksaw_hacksaw_1243 ===
+BUILD OK [132]: bin/servicehacksaw_hacksaw_1243
+=== Building ./servicehacksaw/hacksaw_1620 -> bin/servicehacksaw_hacksaw_1620 ===
+BUILD OK [133]: bin/servicehacksaw_hacksaw_1620
+=== Building ./servicejdb/jdb_14010 -> bin/servicejdb_jdb_14010 ===
+BUILD OK [134]: bin/servicejdb_jdb_14010
+=== Building ./servicejdb/jdb_14027 -> bin/servicejdb_jdb_14027 ===
+BUILD OK [135]: bin/servicejdb_jdb_14027
+=== Building ./servicejdb/jdb_14034 -> bin/servicejdb_jdb_14034 ===
+BUILD OK [136]: bin/servicejdb_jdb_14034
+=== Building ./servicejdb/jdb_14035 -> bin/servicejdb_jdb_14035 ===
+BUILD OK [137]: bin/servicejdb_jdb_14035
+=== Building ./servicejdb/jdb_14038 -> bin/servicejdb_jdb_14038 ===
+BUILD OK [138]: bin/servicejdb_jdb_14038
+=== Building ./servicejdb/jdb_14039 -> bin/servicejdb_jdb_14039 ===
+BUILD OK [139]: bin/servicejdb_jdb_14039
+=== Building ./servicejdb/jdb_14040 -> bin/servicejdb_jdb_14040 ===
+BUILD OK [140]: bin/servicejdb_jdb_14040
+=== Building ./servicejdb/jdb_14041 -> bin/servicejdb_jdb_14041 ===
+BUILD OK [141]: bin/servicejdb_jdb_14041
+=== Building ./servicejdb/jdb_14042 -> bin/servicejdb_jdb_14042 ===
+BUILD OK [142]: bin/servicejdb_jdb_14042
+=== Building ./servicejdb/jdb_14043 -> bin/servicejdb_jdb_14043 ===
+BUILD OK [143]: bin/servicejdb_jdb_14043
+=== Building ./servicejdb/jdb_14044 -> bin/servicejdb_jdb_14044 ===
+BUILD OK [144]: bin/servicejdb_jdb_14044
+=== Building ./servicejdb/jdb_14045 -> bin/servicejdb_jdb_14045 ===
+BUILD OK [145]: bin/servicejdb_jdb_14045
+=== Building ./servicejdb/jdb_14047 -> bin/servicejdb_jdb_14047 ===
+BUILD OK [146]: bin/servicejdb_jdb_14047
+=== Building ./servicejdb/jdb_14048 -> bin/servicejdb_jdb_14048 ===
+BUILD OK [147]: bin/servicejdb_jdb_14048
+=== Building ./servicejdb/jdb_14050 -> bin/servicejdb_jdb_14050 ===
+BUILD OK [148]: bin/servicejdb_jdb_14050
+=== Building ./servicejdb/jdb_14052 -> bin/servicejdb_jdb_14052 ===
+BUILD OK [149]: bin/servicejdb_jdb_14052
+=== Building ./servicejdb/jdb_14054 -> bin/servicejdb_jdb_14054 ===
+BUILD OK [150]: bin/servicejdb_jdb_14054
+=== Building ./servicejdb/jdb_14055 -> bin/servicejdb_jdb_14055 ===
+BUILD OK [151]: bin/servicejdb_jdb_14055
+=== Building ./servicejdb/jdb_14058 -> bin/servicejdb_jdb_14058 ===
+BUILD OK [152]: bin/servicejdb_jdb_14058
+=== Building ./servicejdb/jdb_14059 -> bin/servicejdb_jdb_14059 ===
+BUILD OK [153]: bin/servicejdb_jdb_14059
+=== Building ./servicejdb/jdb_14060 -> bin/servicejdb_jdb_14060 ===
+BUILD OK [154]: bin/servicejdb_jdb_14060
+=== Building ./servicejdb/jdb_14061 -> bin/servicejdb_jdb_14061 ===
+BUILD OK [155]: bin/servicejdb_jdb_14061
+=== Building ./servicejdb/jdb_14063 -> bin/servicejdb_jdb_14063 ===
+BUILD OK [156]: bin/servicejdb_jdb_14063
+=== Building ./servicejdb/jdb_14064 -> bin/servicejdb_jdb_14064 ===
+BUILD OK [157]: bin/servicejdb_jdb_14064
+=== Building ./servicejdb/jdb_14065 -> bin/servicejdb_jdb_14065 ===
+BUILD OK [158]: bin/servicejdb_jdb_14065
+=== Building ./servicejdb/jdb_14067 -> bin/servicejdb_jdb_14067 ===
+BUILD OK [159]: bin/servicejdb_jdb_14067
+=== Building ./servicejdb/jdb_14068 -> bin/servicejdb_jdb_14068 ===
+BUILD OK [160]: bin/servicejdb_jdb_14068
+=== Building ./servicejdb/jdb_14070 -> bin/servicejdb_jdb_14070 ===
+BUILD OK [161]: bin/servicejdb_jdb_14070
+=== Building ./servicejdb/jdb_14075 -> bin/servicejdb_jdb_14075 ===
+BUILD OK [162]: bin/servicejdb_jdb_14075
+=== Building ./servicejdb/jdb_14077 -> bin/servicejdb_jdb_14077 ===
+BUILD OK [163]: bin/servicejdb_jdb_14077
+=== Building ./servicejdb/jdb_14079 -> bin/servicejdb_jdb_14079 ===
+BUILD OK [164]: bin/servicejdb_jdb_14079
+=== Building ./servicejdb/jdb_14080 -> bin/servicejdb_jdb_14080 ===
+BUILD OK [165]: bin/servicejdb_jdb_14080
+=== Building ./servicejdb/jdb_14082 -> bin/servicejdb_jdb_14082 ===
+BUILD OK [166]: bin/servicejdb_jdb_14082
+=== Building ./servicejdb/jdb_14083 -> bin/servicejdb_jdb_14083 ===
+BUILD OK [167]: bin/servicejdb_jdb_14083
+=== Building ./servicejdb/jdb_14084 -> bin/servicejdb_jdb_14084 ===
+BUILD OK [168]: bin/servicejdb_jdb_14084
+=== Building ./servicejdb/jdb_14085 -> bin/servicejdb_jdb_14085 ===
+BUILD OK [169]: bin/servicejdb_jdb_14085
+=== Building ./servicejdb/jdb_14086 -> bin/servicejdb_jdb_14086 ===
+BUILD OK [170]: bin/servicejdb_jdb_14086
+=== Building ./servicejdb/jdb_14087 -> bin/servicejdb_jdb_14087 ===
+BUILD OK [171]: bin/servicejdb_jdb_14087
+=== Building ./servicejdb/jdb_14088 -> bin/servicejdb_jdb_14088 ===
+BUILD OK [172]: bin/servicejdb_jdb_14088
+=== Building ./servicejdb/jdb_14091 -> bin/servicejdb_jdb_14091 ===
+BUILD OK [173]: bin/servicejdb_jdb_14091
+=== Building ./servicejdb/jdb_14093 -> bin/servicejdb_jdb_14093 ===
+BUILD OK [174]: bin/servicejdb_jdb_14093
+=== Building ./servicejdb/jdb_14094 -> bin/servicejdb_jdb_14094 ===
+BUILD OK [175]: bin/servicejdb_jdb_14094
+=== Building ./servicejdb/jdb_14098 -> bin/servicejdb_jdb_14098 ===
+BUILD OK [176]: bin/servicejdb_jdb_14098
+=== Building ./servicejdb/jdb_14099 -> bin/servicejdb_jdb_14099 ===
+BUILD OK [177]: bin/servicejdb_jdb_14099
+=== Building ./servicejdb/jdb_15001 -> bin/servicejdb_jdb_15001 ===
+BUILD OK [178]: bin/servicejdb_jdb_15001
+=== Building ./servicejdb/jdb_8002 -> bin/servicejdb_jdb_8002 ===
+BUILD OK [179]: bin/servicejdb_jdb_8002
+=== Building ./servicejdb/jdb_8003 -> bin/servicejdb_jdb_8003 ===
+BUILD OK [180]: bin/servicejdb_jdb_8003
+=== Building ./servicejdb/jdb_8006 -> bin/servicejdb_jdb_8006 ===
+BUILD OK [181]: bin/servicejdb_jdb_8006
+=== Building ./servicejdb/jdb_8015 -> bin/servicejdb_jdb_8015 ===
+BUILD OK [182]: bin/servicejdb_jdb_8015
+=== Building ./servicejdb/jdb_8017 -> bin/servicejdb_jdb_8017 ===
+BUILD OK [183]: bin/servicejdb_jdb_8017
+=== Building ./servicejdb/jdb_8020 -> bin/servicejdb_jdb_8020 ===
+BUILD OK [184]: bin/servicejdb_jdb_8020
+=== Building ./servicejdb/jdb_8022 -> bin/servicejdb_jdb_8022 ===
+BUILD OK [185]: bin/servicejdb_jdb_8022
+=== Building ./servicejdb/jdb_8047 -> bin/servicejdb_jdb_8047 ===
+BUILD OK [186]: bin/servicejdb_jdb_8047
+=== Building ./servicejdb/jdb_8048 -> bin/servicejdb_jdb_8048 ===
+BUILD OK [187]: bin/servicejdb_jdb_8048
+=== Building ./servicejdb/jdb_8049 -> bin/servicejdb_jdb_8049 ===
+BUILD OK [188]: bin/servicejdb_jdb_8049
+=== Building ./servicejdb/jdb_8050 -> bin/servicejdb_jdb_8050 ===
+BUILD OK [189]: bin/servicejdb_jdb_8050
+=== Building ./servicejili/jili_100_sr -> bin/servicejili_jili_100_sr ===
+BUILD OK [190]: bin/servicejili_jili_100_sr
+=== Building ./servicejili/jili_102_rs2 -> bin/servicejili_jili_102_rs2 ===
+BUILD OK [191]: bin/servicejili_jili_102_rs2
+=== Building ./servicejili/jili_103_mw2 -> bin/servicejili_jili_103_mw2 ===
+BUILD OK [192]: bin/servicejili_jili_103_mw2
+=== Building ./servicejili/jili_106_twinwins -> bin/servicejili_jili_106_twinwins ===
+BUILD OK [193]: bin/servicejili_jili_106_twinwins
+=== Building ./servicejili/jili_108_mw3 -> bin/servicejili_jili_108_mw3 ===
+BUILD OK [194]: bin/servicejili_jili_108_mw3
+=== Building ./servicejili/jili_109_fg -> bin/servicejili_jili_109_fg ===
+BUILD OK [195]: bin/servicejili_jili_109_fg
+=== Building ./servicejili/jili_110_ali -> bin/servicejili_jili_110_ali ===
+BUILD OK [196]: bin/servicejili_jili_110_ali
+=== Building ./servicejili/jili_115_aa -> bin/servicejili_jili_115_aa ===
+BUILD OK [197]: bin/servicejili_jili_115_aa
+=== Building ./servicejili/jili_116_taxi -> bin/servicejili_jili_116_taxi ===
+BUILD OK [198]: bin/servicejili_jili_116_taxi
+=== Building ./servicejili/jili_126_dotd -> bin/servicejili_jili_126_dotd ===
+BUILD OK [199]: bin/servicejili_jili_126_dotd
+=== Building ./servicejili/jili_130_thor -> bin/servicejili_jili_130_thor ===
+BUILD OK [200]: bin/servicejili_jili_130_thor
+=== Building ./servicejili/jili_134_mw4 -> bin/servicejili_jili_134_mw4 ===
+BUILD OK [201]: bin/servicejili_jili_134_mw4
+=== Building ./servicejili/jili_135_me -> bin/servicejili_jili_135_me ===
+BUILD OK [202]: bin/servicejili_jili_135_me
+=== Building ./servicejili/jili_136_samba -> bin/servicejili_jili_136_samba ===
+BUILD OK [203]: bin/servicejili_jili_136_samba
+=== Building ./servicejili/jili_137_ge -> bin/servicejili_jili_137_ge ===
+BUILD OK [204]: bin/servicejili_jili_137_ge
+=== Building ./servicejili/jili_142_bh -> bin/servicejili_jili_142_bh ===
+BUILD OK [205]: bin/servicejili_jili_142_bh
+=== Building ./servicejili/jili_144_cai -> bin/servicejili_jili_144_cai ===
+BUILD OK [206]: bin/servicejili_jili_144_cai
+=== Building ./servicejili/jili_145_ln -> bin/servicejili_jili_145_ln ===
+BUILD OK [207]: bin/servicejili_jili_145_ln
+=== Building ./servicejili/jili_146_fb -> bin/servicejili_jili_146_fb ===
+BUILD OK [208]: bin/servicejili_jili_146_fb
+=== Building ./servicejili/jili_164_pirate -> bin/servicejili_jili_164_pirate ===
+BUILD OK [209]: bin/servicejili_jili_164_pirate
+=== Building ./servicejili/jili_166_utaxi -> bin/servicejili_jili_166_utaxi ===
+BUILD OK [210]: bin/servicejili_jili_166_utaxi
+=== Building ./servicejili/jili_16_kk2 -> bin/servicejili_jili_16_kk2 ===
+BUILD OK [211]: bin/servicejili_jili_16_kk2
+=== Building ./servicejili/jili_171_sc -> bin/servicejili_jili_171_sc ===
+BUILD OK [212]: bin/servicejili_jili_171_sc
+=== Building ./servicejili/jili_176_cny -> bin/servicejili_jili_176_cny ===
+BUILD OK [213]: bin/servicejili_jili_176_cny
+=== Building ./servicejili/jili_17_sweetheart -> bin/servicejili_jili_17_sweetheart ===
+BUILD OK [214]: bin/servicejili_jili_17_sweetheart
+=== Building ./servicejili/jili_180_loe -> bin/servicejili_jili_180_loe ===
+BUILD OK [215]: bin/servicejili_jili_180_loe
+=== Building ./servicejili/jili_181_wa -> bin/servicejili_jili_181_wa ===
+BUILD OK [216]: bin/servicejili_jili_181_wa
+=== Building ./servicejili/jili_183_gj -> bin/servicejili_jili_183_gj ===
+BUILD OK [217]: bin/servicejili_jili_183_gj
+=== Building ./servicejili/jili_191_petra -> bin/servicejili_jili_191_petra ===
+BUILD OK [218]: bin/servicejili_jili_191_petra
+=== Building ./servicejili/jili_193_df -> bin/servicejili_jili_193_df ===
+BUILD OK [219]: bin/servicejili_jili_193_df
+=== Building ./servicejili/jili_198_sl -> bin/servicejili_jili_198_sl ===
+BUILD OK [220]: bin/servicejili_jili_198_sl
+=== Building ./servicejili/jili_208_phoenix -> bin/servicejili_jili_208_phoenix ===
+BUILD OK [221]: bin/servicejili_jili_208_phoenix
+=== Building ./servicejili/jili_209_ap -> bin/servicejili_jili_209_ap ===
+BUILD OK [222]: bin/servicejili_jili_209_ap
+=== Building ./servicejili/jili_214_ka -> bin/servicejili_jili_214_ka ===
+BUILD OK [223]: bin/servicejili_jili_214_ka
+=== Building ./servicejili/jili_21_ols -> bin/servicejili_jili_21_ols ===
+BUILD OK [224]: bin/servicejili_jili_21_ols
+=== Building ./servicejili/jili_223_fgp -> bin/servicejili_jili_223_fgp ===
+BUILD OK [225]: bin/servicejili_jili_223_fgp
+=== Building ./servicejili/jili_225_ctk -> bin/servicejili_jili_225_ctk ===
+BUILD OK [226]: bin/servicejili_jili_225_ctk
+=== Building ./servicejili/jili_226_witch -> bin/servicejili_jili_226_witch ===
+BUILD OK [227]: bin/servicejili_jili_226_witch
+=== Building ./servicejili/jili_230_cts -> bin/servicejili_jili_230_cts ===
+BUILD OK [228]: bin/servicejili_jili_230_cts
+=== Building ./servicejili/jili_238_bby -> bin/servicejili_jili_238_bby ===
+BUILD OK [229]: bin/servicejili_jili_238_bby
+=== Building ./servicejili/jili_239_dbg -> bin/servicejili_jili_239_dbg ===
+BUILD OK [230]: bin/servicejili_jili_239_dbg
+=== Building ./servicejili/jili_252_zeus -> bin/servicejili_jili_252_zeus ===
+BUILD OK [231]: bin/servicejili_jili_252_zeus
+=== Building ./servicejili/jili_258_dl -> bin/servicejili_jili_258_dl ===
+BUILD OK [232]: bin/servicejili_jili_258_dl
+=== Building ./servicejili/jili_26_sweetheart3 -> bin/servicejili_jili_26_sweetheart3 ===
+BUILD OK [233]: bin/servicejili_jili_26_sweetheart3
+=== Building ./servicejili/jili_299_pw -> bin/servicejili_jili_299_pw ===
+BUILD OK [234]: bin/servicejili_jili_299_pw
+=== Building ./servicejili/jili_2_csh -> bin/servicejili_jili_2_csh ===
+BUILD OK [235]: bin/servicejili_jili_2_csh
+=== Building ./servicejili/jili_300_fg3 -> bin/servicejili_jili_300_fg3 ===
+BUILD OK [236]: bin/servicejili_jili_300_fg3
+=== Building ./servicejili/jili_301_jpj -> bin/servicejili_jili_301_jpj ===
+BUILD OK [237]: bin/servicejili_jili_301_jpj
+=== Building ./servicejili/jili_302_mcp -> bin/servicejili_jili_302_mcp ===
+BUILD OK [238]: bin/servicejili_jili_302_mcp
+=== Building ./servicejili/jili_303_mp2 -> bin/servicejili_jili_303_mp2 ===
+BUILD OK [239]: bin/servicejili_jili_303_mp2
+=== Building ./servicejili/jili_324_ed -> bin/servicejili_jili_324_ed ===
+BUILD OK [240]: bin/servicejili_jili_324_ed
+=== Building ./servicejili/jili_33_pp -> bin/servicejili_jili_33_pp ===
+BUILD OK [241]: bin/servicejili_jili_33_pp
+=== Building ./servicejili/jili_35_ols2 -> bin/servicejili_jili_35_ols2 ===
+BUILD OK [242]: bin/servicejili_jili_35_ols2
+=== Building ./servicejili/jili_36_bbc -> bin/servicejili_jili_36_bbc ===
+BUILD OK [243]: bin/servicejili_jili_36_bbc
+=== Building ./servicejili/jili_372_dts -> bin/servicejili_jili_372_dts ===
+BUILD OK [244]: bin/servicejili_jili_372_dts
+=== Building ./servicejili/jili_375_psd -> bin/servicejili_jili_375_psd ===
+BUILD OK [245]: bin/servicejili_jili_375_psd
+=== Building ./servicejili/jili_376_samurai -> bin/servicejili_jili_376_samurai ===
+BUILD OK [246]: bin/servicejili_jili_376_samurai
+=== Building ./servicejili/jili_379_mpt -> bin/servicejili_jili_379_mpt ===
+BUILD OK [247]: bin/servicejili_jili_379_mpt
+=== Building ./servicejili/jili_37_sweetheart5 -> bin/servicejili_jili_37_sweetheart5 ===
+BUILD OK [248]: bin/servicejili_jili_37_sweetheart5
+=== Building ./servicejili/jili_38_fs -> bin/servicejili_jili_38_fs ===
+BUILD OK [249]: bin/servicejili_jili_38_fs
+=== Building ./servicejili/jili_399_tct -> bin/servicejili_jili_399_tct ===
+BUILD OK [250]: bin/servicejili_jili_399_tct
+=== Building ./servicejili/jili_400_tlp -> bin/servicejili_jili_400_tlp ===
+BUILD OK [251]: bin/servicejili_jili_400_tlp
+=== Building ./servicejili/jili_40_ols3 -> bin/servicejili_jili_40_ols3 ===
+BUILD OK [252]: bin/servicejili_jili_40_ols3
+=== Building ./servicejili/jili_421_lj -> bin/servicejili_jili_421_lj ===
+BUILD OK [253]: bin/servicejili_jili_421_lj
+=== Building ./servicejili/jili_43_xiyangyang -> bin/servicejili_jili_43_xiyangyang ===
+BUILD OK [254]: bin/servicejili_jili_43_xiyangyang
+=== Building ./servicejili/jili_44_fivestar -> bin/servicejili_jili_44_fivestar ===
+BUILD OK [255]: bin/servicejili_jili_44_fivestar
+=== Building ./servicejili/jili_45_cbt -> bin/servicejili_jili_45_cbt ===
+BUILD OK [256]: bin/servicejili_jili_45_cbt
+=== Building ./servicejili/jili_47_bfs -> bin/servicejili_jili_47_bfs ===
+BUILD OK [257]: bin/servicejili_jili_47_bfs
+=== Building ./servicejili/jili_49_fullhouse -> bin/servicejili_jili_49_fullhouse ===
+BUILD OK [258]: bin/servicejili_jili_49_fullhouse
+=== Building ./servicejili/jili_4_tks -> bin/servicejili_jili_4_tks ===
+BUILD OK [259]: bin/servicejili_jili_4_tks
+=== Building ./servicejili/jili_51_mc -> bin/servicejili_jili_51_mc ===
+BUILD OK [260]: bin/servicejili_jili_51_mc
+=== Building ./servicejili/jili_58_gq -> bin/servicejili_jili_58_gq ===
+BUILD OK [261]: bin/servicejili_jili_58_gq
+=== Building ./servicejili/jili_5_chilli -> bin/servicejili_jili_5_chilli ===
+BUILD OK [262]: bin/servicejili_jili_5_chilli
+=== Building ./servicejili/jili_67_mp -> bin/servicejili_jili_67_mp ===
+BUILD OK [263]: bin/servicejili_jili_67_mp
+=== Building ./servicejili/jili_6_luckytree -> bin/servicejili_jili_6_luckytree ===
+BUILD OK [264]: bin/servicejili_jili_6_luckytree
+=== Building ./servicejili/jili_76_nightclub -> bin/servicejili_jili_76_nightclub ===
+BUILD OK [265]: bin/servicejili_jili_76_nightclub
+=== Building ./servicejili/jili_77_bk -> bin/servicejili_jili_77_bk ===
+BUILD OK [266]: bin/servicejili_jili_77_bk
+=== Building ./servicejili/jili_85_mw -> bin/servicejili_jili_85_mw ===
+BUILD OK [267]: bin/servicejili_jili_85_mw
+=== Building ./servicejili/jili_87_bog -> bin/servicejili_jili_87_bog ===
+BUILD OK [268]: bin/servicejili_jili_87_bog
+=== Building ./servicejili/jili_91_ifff -> bin/servicejili_jili_91_ifff ===
+BUILD OK [269]: bin/servicejili_jili_91_ifff
+=== Building ./servicepp/ip2world -> bin/servicepp_ip2world ===
+BUILD OK [270]: bin/servicepp_ip2world
+=== Building ./servicepp/pp_vs1024fortune -> bin/servicepp_pp_vs1024fortune ===
+BUILD OK [271]: bin/servicepp_pp_vs1024fortune
+=== Building ./servicepp/pp_vs1024mahjwins -> bin/servicepp_pp_vs1024mahjwins ===
+BUILD OK [272]: bin/servicepp_pp_vs1024mahjwins
+=== Building ./servicepp/pp_vs1024mjwinbns -> bin/servicepp_pp_vs1024mjwinbns ===
+BUILD OK [273]: bin/servicepp_pp_vs1024mjwinbns
+=== Building ./servicepp/pp_vs10amm -> bin/servicepp_pp_vs10amm ===
+BUILD OK [274]: bin/servicepp_pp_vs10amm
+=== Building ./servicepp/pp_vs10bbbonanza -> bin/servicepp_pp_vs10bbbonanza ===
+BUILD OK [275]: bin/servicepp_pp_vs10bbbonanza
+=== Building ./servicepp/pp_vs10bbdoubled -> bin/servicepp_pp_vs10bbdoubled ===
+BUILD OK [276]: bin/servicepp_pp_vs10bbdoubled
+=== Building ./servicepp/pp_vs10bbfloats -> bin/servicepp_pp_vs10bbfloats ===
+BUILD OK [277]: bin/servicepp_pp_vs10bbfloats
+=== Building ./servicepp/pp_vs10bbfmission -> bin/servicepp_pp_vs10bbfmission ===
+BUILD OK [278]: bin/servicepp_pp_vs10bbfmission
+=== Building ./servicepp/pp_vs10bblotgl -> bin/servicepp_pp_vs10bblotgl ===
+BUILD OK [279]: bin/servicepp_pp_vs10bblotgl
+=== Building ./servicepp/pp_vs10bbsplxmas -> bin/servicepp_pp_vs10bbsplxmas ===
+BUILD OK [280]: bin/servicepp_pp_vs10bbsplxmas
+=== Building ./servicepp/pp_vs10bburger -> bin/servicepp_pp_vs10bburger ===
+BUILD OK [281]: bin/servicepp_pp_vs10bburger
+=== Building ./servicepp/pp_vs10bbxext -> bin/servicepp_pp_vs10bbxext ===
+BUILD OK [282]: bin/servicepp_pp_vs10bbxext
+=== Building ./servicepp/pp_vs10bhallbnza2 -> bin/servicepp_pp_vs10bhallbnza2 ===
+BUILD OK [283]: bin/servicepp_pp_vs10bhallbnza2
+=== Building ./servicepp/pp_vs10bxmasbnza -> bin/servicepp_pp_vs10bxmasbnza ===
+BUILD OK [284]: bin/servicepp_pp_vs10bxmasbnza
+=== Building ./servicepp/pp_vs10cowgold -> bin/servicepp_pp_vs10cowgold ===
+BUILD OK [285]: bin/servicepp_pp_vs10cowgold
+=== Building ./servicepp/pp_vs10egypt -> bin/servicepp_pp_vs10egypt ===
+BUILD OK [286]: bin/servicepp_pp_vs10egypt
+=== Building ./servicepp/pp_vs10eyestorm -> bin/servicepp_pp_vs10eyestorm ===
+BUILD OK [287]: bin/servicepp_pp_vs10eyestorm
+=== Building ./servicepp/pp_vs10fangfree -> bin/servicepp_pp_vs10fangfree ===
+BUILD OK [288]: bin/servicepp_pp_vs10fangfree
+=== Building ./servicepp/pp_vs10firestrike -> bin/servicepp_pp_vs10firestrike ===
+BUILD OK [289]: bin/servicepp_pp_vs10firestrike
+=== Building ./servicepp/pp_vs10floatdrg -> bin/servicepp_pp_vs10floatdrg ===
+BUILD OK [290]: bin/servicepp_pp_vs10floatdrg
+=== Building ./servicepp/pp_vs10goldfish -> bin/servicepp_pp_vs10goldfish ===
+BUILD OK [291]: bin/servicepp_pp_vs10goldfish
+=== Building ./servicepp/pp_vs10jokerhot -> bin/servicepp_pp_vs10jokerhot ===
+BUILD OK [292]: bin/servicepp_pp_vs10jokerhot
+=== Building ./servicepp/pp_vs10mayangods -> bin/servicepp_pp_vs10mayangods ===
+BUILD OK [293]: bin/servicepp_pp_vs10mayangods
+=== Building ./servicepp/pp_vs10noodles -> bin/servicepp_pp_vs10noodles ===
+BUILD OK [294]: bin/servicepp_pp_vs10noodles
+=== Building ./servicepp/pp_vs10threestar -> bin/servicepp_pp_vs10threestar ===
+BUILD OK [295]: bin/servicepp_pp_vs10threestar
+=== Building ./servicepp/pp_vs10txbigbass -> bin/servicepp_pp_vs10txbigbass ===
+BUILD OK [296]: bin/servicepp_pp_vs10txbigbass
+=== Building ./servicepp/pp_vs117649starz -> bin/servicepp_pp_vs117649starz ===
+BUILD OK [297]: bin/servicepp_pp_vs117649starz
+=== Building ./servicepp/pp_vs12bbb -> bin/servicepp_pp_vs12bbb ===
+BUILD OK [298]: bin/servicepp_pp_vs12bbb
+=== Building ./servicepp/pp_vs12bbbxmas -> bin/servicepp_pp_vs12bbbxmas ===
+BUILD OK [299]: bin/servicepp_pp_vs12bbbxmas
+=== Building ./servicepp/pp_vs15diamond -> bin/servicepp_pp_vs15diamond ===
+BUILD OK [300]: bin/servicepp_pp_vs15diamond
+=== Building ./servicepp/pp_vs15godsofwar -> bin/servicepp_pp_vs15godsofwar ===
+BUILD OK [301]: bin/servicepp_pp_vs15godsofwar
+=== Building ./servicepp/pp_vs1dragon8 -> bin/servicepp_pp_vs1dragon8 ===
+BUILD OK [302]: bin/servicepp_pp_vs1dragon8
+=== Building ./servicepp/pp_vs1fufufu -> bin/servicepp_pp_vs1fufufu ===
+BUILD OK [303]: bin/servicepp_pp_vs1fufufu
+=== Building ./servicepp/pp_vs1tigers -> bin/servicepp_pp_vs1tigers ===
+BUILD OK [304]: bin/servicepp_pp_vs1tigers
+=== Building ./servicepp/pp_vs20aladdinsorc -> bin/servicepp_pp_vs20aladdinsorc ===
+BUILD OK [305]: bin/servicepp_pp_vs20aladdinsorc
+=== Building ./servicepp/pp_vs20aztecgates -> bin/servicepp_pp_vs20aztecgates ===
+BUILD OK [306]: bin/servicepp_pp_vs20aztecgates
+=== Building ./servicepp/pp_vs20bnnzdice -> bin/servicepp_pp_vs20bnnzdice ===
+BUILD OK [307]: bin/servicepp_pp_vs20bnnzdice
+=== Building ./servicepp/pp_vs20bonzgold -> bin/servicepp_pp_vs20bonzgold ===
+BUILD OK [308]: bin/servicepp_pp_vs20bonzgold
+=== Building ./servicepp/pp_vs20candyblitz -> bin/servicepp_pp_vs20candyblitz ===
+BUILD OK [309]: bin/servicepp_pp_vs20candyblitz
+=== Building ./servicepp/pp_vs20candybltz2 -> bin/servicepp_pp_vs20candybltz2 ===
+BUILD OK [310]: bin/servicepp_pp_vs20candybltz2
+=== Building ./servicepp/pp_vs20cbrhst -> bin/servicepp_pp_vs20cbrhst ===
+BUILD OK [311]: bin/servicepp_pp_vs20cbrhst
+=== Building ./servicepp/pp_vs20chickdrop -> bin/servicepp_pp_vs20chickdrop ===
+BUILD OK [312]: bin/servicepp_pp_vs20chickdrop
+=== Building ./servicepp/pp_vs20cjcluster -> bin/servicepp_pp_vs20cjcluster ===
+BUILD OK [313]: bin/servicepp_pp_vs20cjcluster
+=== Building ./servicepp/pp_vs20cleocatra -> bin/servicepp_pp_vs20cleocatra ===
+BUILD OK [314]: bin/servicepp_pp_vs20cleocatra
+=== Building ./servicepp/pp_vs20clreacts -> bin/servicepp_pp_vs20clreacts ===
+BUILD OK [315]: bin/servicepp_pp_vs20clreacts
+=== Building ./servicepp/pp_vs20clustext -> bin/servicepp_pp_vs20clustext ===
+BUILD OK [316]: bin/servicepp_pp_vs20clustext
+=== Building ./servicepp/pp_vs20daydead -> bin/servicepp_pp_vs20daydead ===
+BUILD OK [317]: bin/servicepp_pp_vs20daydead
+=== Building ./servicepp/pp_vs20dhcluster2 -> bin/servicepp_pp_vs20dhcluster2 ===
+BUILD OK [318]: bin/servicepp_pp_vs20dhcluster2
+=== Building ./servicepp/pp_vs20doghouse -> bin/servicepp_pp_vs20doghouse ===
+BUILD OK [319]: bin/servicepp_pp_vs20doghouse
+=== Building ./servicepp/pp_vs20doghouse2 -> bin/servicepp_pp_vs20doghouse2 ===
+BUILD OK [320]: bin/servicepp_pp_vs20doghouse2
+=== Building ./servicepp/pp_vs20doghousemh -> bin/servicepp_pp_vs20doghousemh ===
+BUILD OK [321]: bin/servicepp_pp_vs20doghousemh
+=== Building ./servicepp/pp_vs20drgbless -> bin/servicepp_pp_vs20drgbless ===
+BUILD OK [322]: bin/servicepp_pp_vs20drgbless
+=== Building ./servicepp/pp_vs20egypttrs -> bin/servicepp_pp_vs20egypttrs ===
+BUILD OK [323]: bin/servicepp_pp_vs20egypttrs
+=== Building ./servicepp/pp_vs20eking -> bin/servicepp_pp_vs20eking ===
+BUILD OK [324]: bin/servicepp_pp_vs20eking
+=== Building ./servicepp/pp_vs20ekingrr -> bin/servicepp_pp_vs20ekingrr ===
+BUILD OK [325]: bin/servicepp_pp_vs20ekingrr
+=== Building ./servicepp/pp_vs20emptybank -> bin/servicepp_pp_vs20emptybank ===
+BUILD OK [326]: bin/servicepp_pp_vs20emptybank
+=== Building ./servicepp/pp_vs20forge -> bin/servicepp_pp_vs20forge ===
+BUILD OK [327]: bin/servicepp_pp_vs20forge
+=== Building ./servicepp/pp_vs20fourmc -> bin/servicepp_pp_vs20fourmc ===
+BUILD OK [328]: bin/servicepp_pp_vs20fourmc
+=== Building ./servicepp/pp_vs20fparty2 -> bin/servicepp_pp_vs20fparty2 ===
+BUILD OK [329]: bin/servicepp_pp_vs20fparty2
+=== Building ./servicepp/pp_vs20framazon -> bin/servicepp_pp_vs20framazon ===
+BUILD OK [330]: bin/servicepp_pp_vs20framazon
+=== Building ./servicepp/pp_vs20fruitparty -> bin/servicepp_pp_vs20fruitparty ===
+BUILD OK [331]: bin/servicepp_pp_vs20fruitparty
+=== Building ./servicepp/pp_vs20fruitsw -> bin/servicepp_pp_vs20fruitsw ===
+BUILD OK [332]: bin/servicepp_pp_vs20fruitsw
+=== Building ./servicepp/pp_vs20fruitswx -> bin/servicepp_pp_vs20fruitswx ===
+BUILD OK [333]: bin/servicepp_pp_vs20fruitswx
+=== Building ./servicepp/pp_vs20gatotgates -> bin/servicepp_pp_vs20gatotgates ===
+BUILD OK [334]: bin/servicepp_pp_vs20gatotgates
+=== Building ./servicepp/pp_vs20gatotx -> bin/servicepp_pp_vs20gatotx ===
+BUILD OK [335]: bin/servicepp_pp_vs20gatotx
+=== Building ./servicepp/pp_vs20goldclust -> bin/servicepp_pp_vs20goldclust ===
+BUILD OK [336]: bin/servicepp_pp_vs20goldclust
+=== Building ./servicepp/pp_vs20goldfever -> bin/servicepp_pp_vs20goldfever ===
+BUILD OK [337]: bin/servicepp_pp_vs20goldfever
+=== Building ./servicepp/pp_vs20gravity -> bin/servicepp_pp_vs20gravity ===
+BUILD OK [338]: bin/servicepp_pp_vs20gravity
+=== Building ./servicepp/pp_vs20hotzone -> bin/servicepp_pp_vs20hotzone ===
+BUILD OK [339]: bin/servicepp_pp_vs20hotzone
+=== Building ./servicepp/pp_vs20hstgldngt -> bin/servicepp_pp_vs20hstgldngt ===
+BUILD OK [340]: bin/servicepp_pp_vs20hstgldngt
+=== Building ./servicepp/pp_vs20jewelparty -> bin/servicepp_pp_vs20jewelparty ===
+BUILD OK [341]: bin/servicepp_pp_vs20jewelparty
+=== Building ./servicepp/pp_vs20lvlup -> bin/servicepp_pp_vs20lvlup ===
+BUILD OK [342]: bin/servicepp_pp_vs20lvlup
+=== Building ./servicepp/pp_vs20mparty -> bin/servicepp_pp_vs20mparty ===
+BUILD OK [343]: bin/servicepp_pp_vs20mparty
+=== Building ./servicepp/pp_vs20multiup -> bin/servicepp_pp_vs20multiup ===
+BUILD OK [344]: bin/servicepp_pp_vs20multiup
+=== Building ./servicepp/pp_vs20mustanggld2 -> bin/servicepp_pp_vs20mustanggld2 ===
+BUILD OK [345]: bin/servicepp_pp_vs20mustanggld2
+=== Building ./servicepp/pp_vs20olympdice -> bin/servicepp_pp_vs20olympdice ===
+BUILD OK [346]: bin/servicepp_pp_vs20olympdice
+=== Building ./servicepp/pp_vs20olympgate -> bin/servicepp_pp_vs20olympgate ===
+BUILD OK [347]: bin/servicepp_pp_vs20olympgate
+=== Building ./servicepp/pp_vs20olympx -> bin/servicepp_pp_vs20olympx ===
+BUILD OK [348]: bin/servicepp_pp_vs20olympx
+=== Building ./servicepp/pp_vs20pbonanza -> bin/servicepp_pp_vs20pbonanza ===
+BUILD OK [349]: bin/servicepp_pp_vs20pbonanza
+=== Building ./servicepp/pp_vs20piggybank -> bin/servicepp_pp_vs20piggybank ===
+BUILD OK [350]: bin/servicepp_pp_vs20piggybank
+=== Building ./servicepp/pp_vs20portals -> bin/servicepp_pp_vs20portals ===
+BUILD OK [351]: bin/servicepp_pp_vs20portals
+=== Building ./servicepp/pp_vs20procount -> bin/servicepp_pp_vs20procount ===
+BUILD OK [352]: bin/servicepp_pp_vs20procount
+=== Building ./servicepp/pp_vs20procountx -> bin/servicepp_pp_vs20procountx ===
+BUILD OK [353]: bin/servicepp_pp_vs20procountx
+=== Building ./servicepp/pp_vs20saiman -> bin/servicepp_pp_vs20saiman ===
+BUILD OK [354]: bin/servicepp_pp_vs20saiman
+=== Building ./servicepp/pp_vs20santawonder -> bin/servicepp_pp_vs20santawonder ===
+BUILD OK [355]: bin/servicepp_pp_vs20santawonder
+=== Building ./servicepp/pp_vs20sbxmas -> bin/servicepp_pp_vs20sbxmas ===
+BUILD OK [356]: bin/servicepp_pp_vs20sbxmas
+=== Building ./servicepp/pp_vs20schristmas -> bin/servicepp_pp_vs20schristmas ===
+BUILD OK [357]: bin/servicepp_pp_vs20schristmas
+=== Building ./servicepp/pp_vs20sh -> bin/servicepp_pp_vs20sh ===
+BUILD OK [358]: bin/servicepp_pp_vs20sh
+=== Building ./servicepp/pp_vs20starlight -> bin/servicepp_pp_vs20starlight ===
+BUILD OK [359]: bin/servicepp_pp_vs20starlight
+=== Building ./servicepp/pp_vs20starlightx -> bin/servicepp_pp_vs20starlightx ===
+BUILD OK [360]: bin/servicepp_pp_vs20starlightx
+=== Building ./servicepp/pp_vs20stickypos -> bin/servicepp_pp_vs20stickypos ===
+BUILD OK [361]: bin/servicepp_pp_vs20stickypos
+=== Building ./servicepp/pp_vs20sugarrush -> bin/servicepp_pp_vs20sugarrush ===
+BUILD OK [362]: bin/servicepp_pp_vs20sugarrush
+=== Building ./servicepp/pp_vs20sugarrushx -> bin/servicepp_pp_vs20sugarrushx ===
+BUILD OK [363]: bin/servicepp_pp_vs20sugarrushx
+=== Building ./servicepp/pp_vs20sugrux -> bin/servicepp_pp_vs20sugrux ===
+BUILD OK [364]: bin/servicepp_pp_vs20sugrux
+=== Building ./servicepp/pp_vs20tweethouse -> bin/servicepp_pp_vs20tweethouse ===
+BUILD OK [365]: bin/servicepp_pp_vs20tweethouse
+=== Building ./servicepp/pp_vs243lionsgold -> bin/servicepp_pp_vs243lionsgold ===
+BUILD OK [366]: bin/servicepp_pp_vs243lionsgold
+=== Building ./servicepp/pp_vs25badge -> bin/servicepp_pp_vs25badge ===
+BUILD OK [367]: bin/servicepp_pp_vs25badge
+=== Building ./servicepp/pp_vs25bkofkngdm -> bin/servicepp_pp_vs25bkofkngdm ===
+BUILD OK [368]: bin/servicepp_pp_vs25bkofkngdm
+=== Building ./servicepp/pp_vs25btygold -> bin/servicepp_pp_vs25btygold ===
+BUILD OK [369]: bin/servicepp_pp_vs25btygold
+=== Building ./servicepp/pp_vs25checaishen -> bin/servicepp_pp_vs25checaishen ===
+BUILD OK [370]: bin/servicepp_pp_vs25checaishen
+=== Building ./servicepp/pp_vs25goldparty -> bin/servicepp_pp_vs25goldparty ===
+BUILD OK [371]: bin/servicepp_pp_vs25goldparty
+=== Building ./servicepp/pp_vs25holiday -> bin/servicepp_pp_vs25holiday ===
+BUILD OK [372]: bin/servicepp_pp_vs25holiday
+=== Building ./servicepp/pp_vs25pandagold -> bin/servicepp_pp_vs25pandagold ===
+BUILD OK [373]: bin/servicepp_pp_vs25pandagold
+=== Building ./servicepp/pp_vs25pandatemple -> bin/servicepp_pp_vs25pandatemple ===
+BUILD OK [374]: bin/servicepp_pp_vs25pandatemple
+=== Building ./servicepp/pp_vs25scarabqueen -> bin/servicepp_pp_vs25scarabqueen ===
+BUILD OK [375]: bin/servicepp_pp_vs25scarabqueen
+=== Building ./servicepp/pp_vs25ultwolgol -> bin/servicepp_pp_vs25ultwolgol ===
+BUILD OK [376]: bin/servicepp_pp_vs25ultwolgol
+=== Building ./servicepp/pp_vs25xmasparty -> bin/servicepp_pp_vs25xmasparty ===
+BUILD OK [377]: bin/servicepp_pp_vs25xmasparty
+=== Building ./servicepp/pp_vs40bigjuan -> bin/servicepp_pp_vs40bigjuan ===
+BUILD OK [378]: bin/servicepp_pp_vs40bigjuan
+=== Building ./servicepp/pp_vs40demonpots -> bin/servicepp_pp_vs40demonpots ===
+BUILD OK [379]: bin/servicepp_pp_vs40demonpots
+=== Building ./servicepp/pp_vs40rainbowr -> bin/servicepp_pp_vs40rainbowr ===
+BUILD OK [380]: bin/servicepp_pp_vs40rainbowr
+=== Building ./servicepp/pp_vs40stckwldlvl -> bin/servicepp_pp_vs40stckwldlvl ===
+BUILD OK [381]: bin/servicepp_pp_vs40stckwldlvl
+=== Building ./servicepp/pp_vs40wildrun -> bin/servicepp_pp_vs40wildrun ===
+BUILD OK [382]: bin/servicepp_pp_vs40wildrun
+=== Building ./servicepp/pp_vs40wildwest -> bin/servicepp_pp_vs40wildwest ===
+BUILD OK [383]: bin/servicepp_pp_vs40wildwest
+=== Building ./servicepp/pp_vs50dmdcascade -> bin/servicepp_pp_vs50dmdcascade ===
+BUILD OK [384]: bin/servicepp_pp_vs50dmdcascade
+=== Building ./servicepp/pp_vs50juicyfr -> bin/servicepp_pp_vs50juicyfr ===
+BUILD OK [385]: bin/servicepp_pp_vs50juicyfr
+=== Building ./servicepp/pp_vs5aztecgems -> bin/servicepp_pp_vs5aztecgems ===
+BUILD OK [386]: bin/servicepp_pp_vs5aztecgems
+=== Building ./servicepp/pp_vs5himalaw -> bin/servicepp_pp_vs5himalaw ===
+BUILD OK [387]: bin/servicepp_pp_vs5himalaw
+=== Building ./servicepp/pp_vs5jjwild -> bin/servicepp_pp_vs5jjwild ===
+BUILD OK [388]: bin/servicepp_pp_vs5jjwild
+=== Building ./servicepp/pp_vs5joker -> bin/servicepp_pp_vs5joker ===
+BUILD OK [389]: bin/servicepp_pp_vs5joker
+=== Building ./servicepp/pp_vs5jokerdice -> bin/servicepp_pp_vs5jokerdice ===
+BUILD OK [390]: bin/servicepp_pp_vs5jokerdice
+=== Building ./servicepp/pp_vs5luckytig -> bin/servicepp_pp_vs5luckytig ===
+BUILD OK [391]: bin/servicepp_pp_vs5luckytig
+=== Building ./servicepp/pp_vs7776aztec -> bin/servicepp_pp_vs7776aztec ===
+BUILD OK [392]: bin/servicepp_pp_vs7776aztec
+=== Building ./servicepp/pp_vs9aztecgemsdx -> bin/servicepp_pp_vs9aztecgemsdx ===
+BUILD OK [393]: bin/servicepp_pp_vs9aztecgemsdx
+=== Building ./servicepp/pp_vs9hotroll -> bin/servicepp_pp_vs9hotroll ===
+BUILD OK [394]: bin/servicepp_pp_vs9hotroll
+=== Building ./servicepp/pp_vswaysbufking -> bin/servicepp_pp_vswaysbufking ===
+BUILD OK [395]: bin/servicepp_pp_vswaysbufking
+=== Building ./servicepp/pp_vswayschilheat -> bin/servicepp_pp_vswayschilheat ===
+BUILD OK [396]: bin/servicepp_pp_vswayschilheat
+=== Building ./servicepp/pp_vswaysdogs -> bin/servicepp_pp_vswaysdogs ===
+BUILD OK [397]: bin/servicepp_pp_vswaysdogs
+=== Building ./servicepp/pp_vswaysfirewmw -> bin/servicepp_pp_vswaysfirewmw ===
+BUILD OK [398]: bin/servicepp_pp_vswaysfirewmw
+=== Building ./servicepp/pp_vswaysfreezet -> bin/servicepp_pp_vswaysfreezet ===
+BUILD OK [399]: bin/servicepp_pp_vswaysfreezet
+=== Building ./servicepp/pp_vswayskrakenmw -> bin/servicepp_pp_vswayskrakenmw ===
+BUILD OK [400]: bin/servicepp_pp_vswayskrakenmw
+=== Building ./servicepp/pp_vswayslions -> bin/servicepp_pp_vswayslions ===
+BUILD OK [401]: bin/servicepp_pp_vswayslions
+=== Building ./servicepp/pp_vswaysmadame -> bin/servicepp_pp_vswaysmadame ===
+BUILD OK [402]: bin/servicepp_pp_vswaysmadame
+=== Building ./servicepp/pp_vswaysmegahays -> bin/servicepp_pp_vswaysmegahays ===
+BUILD OK [403]: bin/servicepp_pp_vswaysmegahays
+=== Building ./servicepp/pp_vswaysmfreya -> bin/servicepp_pp_vswaysmfreya ===
+BUILD OK [404]: bin/servicepp_pp_vswaysmfreya
+=== Building ./servicepp/pp_vswaysmoneyman -> bin/servicepp_pp_vswaysmoneyman ===
+BUILD OK [405]: bin/servicepp_pp_vswaysmoneyman
+=== Building ./servicepp/pp_vswaysmonkey -> bin/servicepp_pp_vswaysmonkey ===
+BUILD OK [406]: bin/servicepp_pp_vswaysmonkey
+=== Building ./servicepp/pp_vswaysoldminer -> bin/servicepp_pp_vswaysoldminer ===
+BUILD OK [407]: bin/servicepp_pp_vswaysoldminer
+=== Building ./servicepp/pp_vswayspowzeus -> bin/servicepp_pp_vswayspowzeus ===
+BUILD OK [408]: bin/servicepp_pp_vswayspowzeus
+=== Building ./servicepp/pp_vswaysrhino -> bin/servicepp_pp_vswaysrhino ===
+BUILD OK [409]: bin/servicepp_pp_vswaysrhino
+=== Building ./servicepp/pp_vswayssevenc -> bin/servicepp_pp_vswayssevenc ===
+BUILD OK [410]: bin/servicepp_pp_vswayssevenc
+=== Building ./servicepp/pp_vswaysstampede -> bin/servicepp_pp_vswaysstampede ===
+BUILD OK [411]: bin/servicepp_pp_vswaysstampede
+=== Building ./servicepp/pp_vswayswbounty -> bin/servicepp_pp_vswayswbounty ===
+BUILD OK [412]: bin/servicepp_pp_vswayswbounty
+=== Building ./servicepp/pp_vswayswest -> bin/servicepp_pp_vswayswest ===
+BUILD OK [413]: bin/servicepp_pp_vswayswest
+=== Building ./servicepp/pp_vswayswildgang -> bin/servicepp_pp_vswayswildgang ===
+BUILD OK [414]: bin/servicepp_pp_vswayswildgang
+=== Building ./servicepp/pp_vswayswildwest -> bin/servicepp_pp_vswayswildwest ===
+BUILD OK [415]: bin/servicepp_pp_vswayswildwest
+=== Building ./servicepp/robot_dispatch_center -> bin/servicepp_robot_dispatch_center ===
+BUILD OK [416]: bin/servicepp_robot_dispatch_center
+=== Building ./servicepp/robot_dispatch_center_hgc -> bin/servicepp_robot_dispatch_center_hgc ===
+BUILD OK [417]: bin/servicepp_robot_dispatch_center_hgc
+=== Building ./servicepp/robot_game365_center -> bin/servicepp_robot_game365_center ===
+BUILD OK [418]: bin/servicepp_robot_game365_center

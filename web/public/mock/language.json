@@ -1,0 +1,22 @@
+[
+  {
+    "label": "中文",
+    "code": "zh",
+    "icon": "public/cn.webp"
+  },
+  {
+    "label": "English",
+    "code": "en",
+    "icon": "public/en.webp"
+  },
+  {
+    "label": "ITmm",
+    "code": "it",
+    "icon": "public/it.webp"
+  },
+  {
+    "label": "ESLint",
+    "code": "es",
+    "icon": "public/es.webp"
+  }
+]

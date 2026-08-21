@@ -1,0 +1,155 @@
+{
+  "Objects": {
+    "F00": {
+      "FishID": 0,
+      "Speed": 40,
+      "Layer": 2,
+      "ExtraData": []
+    },
+    "F01": {
+      "FishID": 1,
+      "Speed": 35,
+      "Layer": 2,
+      "ExtraData": []
+    },
+    "F02": {
+      "FishID": 2,
+      "Speed": 30,
+      "Layer": 2,
+      "ExtraData": []
+    },
+    "F03": {
+      "FishID": 3,
+      "Speed": 45,
+      "Layer": 2,
+      "ExtraData": []
+    },
+    "F04": {
+      "FishID": 4,
+      "Speed": 20,
+      "Layer": 2,
+      "ExtraData": []
+    },
+    "F05": {
+      "FishID": 5,
+      "Speed": 40,
+      "Layer": 2,
+      "ExtraData": []
+    },
+    "F06": {
+      "FishID": 6,
+      "Speed": 40,
+      "Layer": 3,
+      "ExtraData": []
+    },
+    "F07": {
+      "FishID": 7,
+      "Speed": 35,
+      "Layer": 3,
+      "ExtraData": []
+    },
+    "F08": {
+      "FishID": 8,
+      "Speed": 30,
+      "Layer": 3,
+      "ExtraData": []
+    },
+    "F09": {
+      "FishID": 9,
+      "Speed": 45,
+      "Layer": 3,
+      "ExtraData": []
+    },
+    "F10": {
+      "FishID": 10,
+      "Speed": 25,
+      "Layer": 3,
+      "ExtraData": []
+    },
+    "F11": {
+      "FishID": 11,
+      "Speed": 40,
+      "Layer": 3,
+      "ExtraData": []
+    },
+    "F12": {
+      "FishID": 12,
+      "Speed": 40,
+      "Layer": 3,
+      "ExtraData": []
+    },
+    "F13": {
+      "FishID": 13,
+      "Speed": 35,
+      "Layer": 3,
+      "ExtraData": []
+    },
+    "F14": {
+      "FishID": 14,
+      "Speed": 30,
+      "Layer": 3,
+      "ExtraData": []
+    },
+    "F15": {
+      "FishID": 15,
+      "Speed": 45,
+      "Layer": 3,
+      "ExtraData": []
+    },
+    "F16": {
+      "FishID": 16,
+      "Speed": 25,
+      "Layer": 3,
+      "ExtraData": []
+    },
+    "F17": {
+      "FishID": 17,
+      "Speed": 40,
+      "Layer": 3,
+      "ExtraData": []
+    },
+    "F203": {
+      "FishID": 203,
+      "Speed": 50,
+      "Layer": 3,
+      "ExtraData": []
+    },
+    "F303": {
+      "FishID": 303,
+      "Speed": 15,
+      "Layer": 4,
+      "ExtraData": []
+    },
+    "F401": {
+      "FishID": 401,
+      "Speed": 40,
+      "Layer": 1,
+      "ExtraData": []
+    },
+    "F402": {
+      "FishID": 402,
+      "Speed": 40,
+      "Layer": 1,
+      "ExtraData": []
+    },
+    "F403": {
+      "FishID": 403,
+      "Speed": 40,
+      "Layer": 1,
+      "ExtraData": []
+    },
+    "F600": {
+      "FishID": 600,
+      "Speed": 5,
+      "Layer": 4,
+      "ExtraData": []
+    },
+    "F601": {
+      "FishID": 601,
+      "Speed": 5,
+      "Layer": 4,
+      "ExtraData": []
+    }
+
+  }
+}

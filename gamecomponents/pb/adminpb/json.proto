@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+import "pb/empty.proto";
+import "pb/duck/mongodb/ObjectID.proto";
+import "pb/duck/mongodb/TimeStamp.proto";
+
+message FileContent {
+    string FileName = 1;
+    string Content  = 2;
+}
+
+message DBConfigFileLog {
+    ObjectID  Id       = 1; //@gotags:bson:"_id"
+    int64     User     = 2; // 操作人
+    string    FileName = 3;
+    string    Content  = 4;
+    TimeStamp CreateAt = 5; // 操作时间
+}
+
+message FileHistoryResp {
+    repeated DBConfigFileLog List = 1;
+}
+
+message FileHistoryReq {
+    int64  Count    = 1; // 最近多少条
+    string FileName = 2; // 文件名
+}
+
+service AdminConfigFile {
+
+    // 保存配置
+    rpc SaveConfig(FileContent) returns (Empty);
+    // 读取配置 Content 不传
+    rpc LoadConfig(FileContent) returns (FileContent);
+
+    // 查看某个文件的历史记录 最近n条
+    rpc FileHistory(FileHistoryReq) returns (FileHistoryResp);
+}

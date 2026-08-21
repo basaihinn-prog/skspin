@@ -1,0 +1,60 @@
+syntax = "proto3";
+
+package message;
+option go_package = "serve/servicejili/jili_226_witch/message";
+
+message Column {
+
+    repeated int32 Row = 1;
+}
+
+message AwardData {
+
+    int32 Symbol = 1;
+    int32 Count = 2;
+    double Win = 3;
+}
+
+message SinglePlate {
+
+    repeated message.Column Symbol = 1;
+    double Single_win = 2;
+    repeated message.AwardData Award_data_vec = 3;
+    int32 Crystal_type = 4;
+    bool Need_eliminate = 5;
+    repeated Column Eliminate = 6;
+}
+
+message RoundInfo {
+
+    repeated SinglePlate Plate_queue = 1;
+    double Round_win = 2;
+    repeated double Round_mul_show = 3;
+    double Round_mul = 4;
+    int32 Eliminate_count = 5;
+    int32 Award_type_flag = 6;
+    int32 Scatter_count = 7;
+    double Scatter_win = 8;
+    bool Get_free = 9;
+    int32 Get_free_round = 10;
+    bool Max_flag = 11;
+}
+
+message FreeData {
+
+    repeated message.RoundInfo Free_queue = 1;
+    double Free_total_win = 2;
+}
+
+message SpinAck {
+
+    RoundInfo Main_game = 1;
+    FreeData Free_game = 2;
+    double Total_win = 3;
+    string Show_index = 4;
+    double Now_money = 5;
+    int32 Ack_type = 6;
+    double RT_p = 7;
+    int32 LI_d = 8;
+    int32 RI_d = 9;
+}

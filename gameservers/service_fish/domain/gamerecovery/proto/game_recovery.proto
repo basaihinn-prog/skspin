@@ -1,0 +1,19 @@
+syntax = "proto3";
+package game.recovery.proto;
+
+message GameRecovery {
+    Rtp rtp                     = 1;
+    Mercenary mercenary         = 2;
+}
+
+message Rtp {
+    string id                   = 1;    // RTP ID
+    int32 state                 = 2;    // RTP high / low
+    uint64 budget               = 3;    // RTP 水位
+    uint64 denominator          = 4;    // RTP 分母
+}
+
+message Mercenary {
+    uint64 bullet_collection                = 1;    // 玩家目前的子彈收集條
+    map<uint64, uint64> mercenaryData       = 2;    // <傭兵的代號 0:步槍, 1:散彈槍, 2:火箭筒>傭兵正在使用的子彈數
+}

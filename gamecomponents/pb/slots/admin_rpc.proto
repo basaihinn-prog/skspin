@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package slots;
+
+import "pb/empty.proto";
+import "pb/slots/pool.proto";
+
+//@ts: prefix(slots)
+service AdminSlotsRpc {
+    // 获取个人奖池
+    rpc GetSelfSlotsPool(GetSelfSlotsPoolReq) returns (GetSelfSlotsPoolResp);
+    // 设置个人奖池
+    rpc SetSelfSlotsPool(SetSelfSlotsPoolReq) returns (Empty);
+}

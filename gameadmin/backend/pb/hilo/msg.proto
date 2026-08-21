@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package hilo;
+
+import "pb/slots/data.proto";
+// import "pb/duck/mongodb/TimeStamp.proto";
+
+message GetAwardPoolResp {
+    int64 Val = 1;
+}
+
+message SetAwardPoolReq {
+    int64 Val = 1;
+}
+
+message RuntimeDataResp {
+    string Json = 1; // json字符串
+}

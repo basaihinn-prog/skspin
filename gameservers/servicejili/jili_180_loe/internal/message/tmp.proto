@@ -1,0 +1,52 @@
+syntax = "proto3";
+
+package message;
+option go_package = "serve/servicejili/jili_180_loe/message";
+
+message Column {
+
+    repeated int32 Col = 1;
+}
+
+message AwardData {
+
+    int32 Symbol = 1;
+    int32 Count = 2;
+    int32 Line = 3;
+    double Win = 4;
+    double Mult = 5;
+}
+
+message RoundInfo {
+
+    repeated Column Plate_symbol = 1;
+    repeated AwardData Award_data_vec = 2;
+    int32 Award_type_flag = 3;
+    int32 Free_type = 4;
+    int32 Free_remain_round = 5;
+    double Round_win = 6;
+    double Nudge_mult = 7;
+    int32 Nudge = 8;
+    repeated int32 Nudge_reel_result = 9;
+    int32 Free_now_round = 10;
+    int32 Free_total_round = 11;
+    bool Max_flag = 12;
+    double Scatter_win = 13;
+}
+
+message SpinAck {
+
+    repeated RoundInfo Round_queue = 1;
+    double Free_total_win = 2;
+    double Total_win = 3;
+    string Show_index = 4;
+    double Now_money = 5;
+    int32 Ack_type = 6;
+    double RT_p = 7;
+}
+
+message GameInfoData {
+
+    bool Show_extra = 1;
+    repeated double Mul = 2;
+}

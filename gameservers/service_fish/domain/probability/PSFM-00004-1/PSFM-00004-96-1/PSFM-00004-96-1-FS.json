@@ -1,0 +1,286 @@
+{
+  "ModuleType": "",
+  "BaseData": {
+    "ProjectID": "",
+    "ModuleID": "",
+    "GameType": "",
+    "StripType": "",
+    "GameTypeDetail": "",
+    "BonusList": []
+  },
+
+  "StripTable": {
+    "Normal": {
+      "UseIcon": [ 4033, 4032, 4031, 5, 4, 3, 2, 1, 0, 3034, 3033, 3032, 3031, 26 ],
+      "HitWeight": [ 0, 0, 0, 1, 1, 2, 2, 4, 4, 12, 12, 10, 10, 25 ]
+    },
+    "Block": {
+      "UseIcon": [ 4033, 4032, 4031, 5, 4, 3, 2, 1, 0, 3034, 3033, 3032, 3031, 26 ],
+      "HitWeight": [ 1, 5, 10, 25, 25, 25, 25, 25, 25, 1, 1, 1, 1, 0 ]
+    }
+  },
+
+  "Icons": {
+    "little zombie 1": {
+      "IconID": 3031,
+      "IconPays": [
+        2000
+      ]
+    },
+    "little zombie 2": {
+      "IconID": 3032,
+      "IconPays": [
+        2000
+      ]
+    },
+    "little zombie 3": {
+      "IconID": 3033,
+      "IconPays": [
+        2000
+      ]
+    },
+    "little zombie 4": {
+      "IconID": 3034,
+      "IconPays": [
+        2000
+      ]
+    },
+    "zombie 1": {
+      "IconID": 0,
+      "IconPays": [
+        2000
+      ]
+    },
+    "zombie 2": {
+      "IconID": 1,
+      "IconPays": [
+        2000
+      ]
+    },
+    "zombie 3": {
+      "IconID": 2,
+      "IconPays": [
+        2000
+      ]
+    },
+    "zombie 4": {
+      "IconID": 3,
+      "IconPays": [
+        2000
+      ]
+    },
+    "zombie 5": {
+      "IconID": 4,
+      "IconPays": [
+        2000
+      ]
+    },
+    "zombie 6": {
+      "IconID": 5,
+      "IconPays": [
+        2000
+      ]
+    },
+    "demon 3_1": {
+      "IconID": 4031,
+      "IconPays": [
+        2000
+      ]
+    },
+    "demon 3_2": {
+      "IconID": 4032,
+      "IconPays": [
+        2000
+      ]
+    },
+    "demon 3_3": {
+      "IconID": 4033,
+      "IconPays": [
+        2000
+      ]
+    },
+    "mystery symbol random change": {
+      "IconID": 26,
+      "IconPays": [
+        0
+      ]
+    }
+  },
+
+  "ChangeLink_1": {
+    "ChangeIconId": [
+      26
+    ],
+    "ChangeCandidate_Normal": {
+      "ChangeCandidate_1": {
+        "IconID": 3031,
+        "Weight": 8
+      },
+      "ChangeCandidate_2": {
+        "IconID": 3032,
+        "Weight": 8
+      },
+      "ChangeCandidate_3": {
+        "IconID": 3033,
+        "Weight": 2
+      },
+      "ChangeCandidate_4": {
+        "IconID": 3034,
+        "Weight": 2
+      },
+      "ChangeCandidate_5": {
+        "IconID": 0,
+        "Weight": 1
+      },
+      "ChangeCandidate_6": {
+        "IconID": 1,
+        "Weight": 1
+      },
+      "ChangeCandidate_7": {
+        "IconID": 2,
+        "Weight": 1
+      },
+      "ChangeCandidate_8": {
+        "IconID": 3,
+        "Weight": 1
+      },
+      "ChangeCandidate_9": {
+        "IconID": 4,
+        "Weight": 1
+      },
+      "ChangeCandidate_10": {
+        "IconID": 5,
+        "Weight": 0
+      },
+      "ChangeCandidate_11": {
+        "IconID": 4031,
+        "Weight": 0
+      },
+      "ChangeCandidate_12": {
+        "IconID": 4032,
+        "Weight": 0
+      },
+      "ChangeCandidate_13": {
+        "IconID": 4033,
+        "Weight": 0
+      }
+    },
+    "ChangeCandidate_Block": {
+      "ChangeCandidate_1": {
+        "IconID": 3031,
+        "Weight": 8
+      },
+      "ChangeCandidate_2": {
+        "IconID": 3032,
+        "Weight": 8
+      },
+      "ChangeCandidate_3": {
+        "IconID": 3033,
+        "Weight": 2
+      },
+      "ChangeCandidate_4": {
+        "IconID": 3034,
+        "Weight": 2
+      },
+      "ChangeCandidate_5": {
+        "IconID": 0,
+        "Weight": 1
+      },
+      "ChangeCandidate_6": {
+        "IconID": 1,
+        "Weight": 1
+      },
+      "ChangeCandidate_7": {
+        "IconID": 2,
+        "Weight": 1
+      },
+      "ChangeCandidate_8": {
+        "IconID": 3,
+        "Weight": 1
+      },
+      "ChangeCandidate_9": {
+        "IconID": 4,
+        "Weight": 1
+      },
+      "ChangeCandidate_10": {
+        "IconID": 5,
+        "Weight": 0
+      },
+      "ChangeCandidate_11": {
+        "IconID": 4031,
+        "Weight": 0
+      },
+      "ChangeCandidate_12": {
+        "IconID": 4032,
+        "Weight": 0
+      },
+      "ChangeCandidate_13": {
+        "IconID": 4033,
+        "Weight": 0
+      }
+    }
+  },
+
+  "MixAward": [
+    {
+      "MixAwardId": 3,
+      "IconLinkThreshold": 3,
+      "Pay": [ 9,12,14,15,17,18,20,21,22,23,24,25,26,27,28,30,32,33,34,35,36,37,38,40,42,43,44,45,46,47,48,50,52,53,54,55,56,57,58,60,62,63,65,66,68,70,72,75,78,80,82,84,85,87,88,90,92,93,95,96,98,100,102,104,105,107,108,110,112,113,115,116,118,120,122,125,128,130,132,135,138,140,142,145,148,150,152,155,158,160,162,165,168,170,180,182,185,188,190,200,202,204,205,207,208,210,212,213,215,216,218,220,222,225,228,230,232,235,238,240,242,245,248,250,252,255,258,260,270,280,282,285,288,290,300,302,304,305,307,308,310,312,313,315,316,318,320,322,325,328,330,332,335,338,340,342,345,348,350,352,355,358,360,370,380,382,385,388,390,400,402,405,408,410,420,430,440,450,460,480,500,502,504,505,507,508,510,512,513,515,516,518,520,522,525,528,530,532,535,538,540,542,545,548,550,552,555,558,560,570,580,582,585,588,590,600,602,605,608,610,620,630,640,650,660,680,700,702,705,708,710,720,730,740,750,780,800,802,805,808,810,820,830,840,850,880,900,1000,1002,1005,1008,1010,1020,1030,1040,1050,1080,1100,1200,1300,2000 ],
+      "MixIconGroup": [
+        {
+          "IconId": 3031,
+          "Quantity": 2
+        },
+        {
+          "IconId": 3032,
+          "Quantity": 5
+        },
+        {
+          "IconId": 3033,
+          "Quantity": 8
+        },
+        {
+          "IconId": 3034,
+          "Quantity": 10
+        },
+        {
+          "IconId": 0,
+          "Quantity": 20
+        },
+        {
+          "IconId": 1,
+          "Quantity": 30
+        },
+        {
+          "IconId": 2,
+          "Quantity": 40
+        },
+        {
+          "IconId": 3,
+          "Quantity": 50
+        },
+        {
+          "IconId": 4,
+          "Quantity": 80
+        },
+        {
+          "IconId": 5,
+          "Quantity": 100
+        },
+        {
+          "IconId": 4031,
+          "Quantity": 200
+        },
+        {
+          "IconId": 4032,
+          "Quantity": 300
+        },
+        {
+          "IconId": 4033,
+          "Quantity": 500
+        }
+      ],
+      "WildGroup": []
+    }
+  ]
+}

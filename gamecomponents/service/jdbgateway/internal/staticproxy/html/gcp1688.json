@@ -1,0 +1,50 @@
+{
+  "web": {
+    "domains": [
+      "{{HOST}}"
+    ]
+  },
+  "agent": {
+    "domains": [
+      "{{HOST}}",
+      "{{HOST}}"
+    ]
+  },
+  "st": {
+    "domains": [
+      "{{HOST}}_443_0",
+      "{{HOST}}_443_0",
+      "{{HOST}}_443_0",
+      "{{HOST}}_443_0",
+      "{{HOST}}_443_0"
+    ]
+  },
+  "ba": {
+    "domains": [
+      "{{HOST}}_443_0",
+      "{{HOST}}_443_0",
+      "{{HOST}}_443_0",
+      "{{HOST}}_443_0",
+      "{{HOST}}_443_0"
+    ]
+  },
+  "envObj": {
+    "lineInfoFileName": "gcp1688",
+    "report": "https://{{HOST}}",
+    "gameapp": "https://{{HOST}}/",
+    "home": "{{HOST}}",
+    "jobServer": "https://{{HOST}}",
+    "speedyBaseMark": "4",
+    "achievementUI": ""
+  },
+  "gameAppByCurrency": {
+    "RP": "https://{{HOST}}/",
+    "RPO": "https://{{HOST}}/",
+    "RB": "https://{{HOST}}/"
+  },
+  "homeUrlByCurrency": {
+    "RP": "{{HOST}}",
+    "RPO": "{{HOST}}",
+    "RB": "{{HOST}}"
+  }
+}

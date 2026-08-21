@@ -1,0 +1,8 @@
+IsDevEnv: false
+OpenWhite: true
+IconAddr: https://admin.ppslot.site
+DefaultPermissionId: 169
+Alert:
+  Hour: false
+WhiteIps:
+  - 0.0.0.0/0

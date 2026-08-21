@@ -1,0 +1,64 @@
+html.light {
+    /* 自定义深色背景颜色 rgb(37 99 235)*/
+    --el-color-primary: rgb(37 99 235);
+    --el-color-primary-light-3: rgb(27, 102, 178);
+    --el-color-primary-dark-2: rgba(27, 102, 178);
+    --el-color-primary-light-5: rgba(27, 102, 178, 0.4);
+    --el-menu-item-height:40px;
+    --el-menu-sub-item-height:40px;
+    --el-menu-item-font-size: var(--el-font-size-small);
+    --el-font-family: 'Helvetica Neue', 'PingFang SC', '微软雅黑';
+    --el-overlay-color-lighter: rgba(199, 199, 199, 0.2);
+}
+.el-overlay{
+    backdrop-filter: blur(2px);
+}
+.rightView{
+    background: var(--el-bg-color);
+}
+.el-menu{
+    border-right: solid 0 #fff;
+}
+/*.el-dialog{*/
+/*    padding: 0;*/
+/*    border: 1px solid #cccccc59;*/
+/*    border-radius: 0.5rem;*/
+/*    overflow-y: scroll;*/
+/*    background: var(--el-overlay-color-lighter);*/
+/*    backdrop-filter: blur(10px);*/
+/*}*/
+/*.el-dialog__body{*/
+/*    background: white;*/
+/*    padding: calc(var(--el-dialog-padding-primary) + 10px) var(--el-dialog-padding-primary);*/
+/*    color: var(--el-text-color-regular);*/
+/*    font-size: var(--el-dialog-content-font-size);*/
+/*}*/
+.el-dialog__title{
+    font-weight: bolder;
+}
+iframe{
+    border-width: 0;
+}
+.el-menu a{
+    text-decoration: none;
+    color: var(--el-menu-text-color);
+}
+.el-menu .is-active a{
+    color: var(--el-color-primary);
+}
+.el-menu-item-group__title{
+    padding: 0;
+}
+.el-input,.el-button {
+    font-size: var(--el-font-size-extra-small);
+}
+.el-tabs__item, .el-radio-button__inner, .el-table--default,
+.el-select-v2__placeholder,
+.el-select-dropdown__item, .el-textarea__inner, .el-select__placeholder {
+    font-size: 12px;
+}
+.small-font{
+    font-size: 12px;
+    color: rgba(18, 31, 62, 0.74);
+    margin-bottom: 0 !important;
+}

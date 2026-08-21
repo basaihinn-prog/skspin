@@ -1,0 +1,15 @@
+syntax = "proto3";
+package message;
+option go_package = "./";
+import "google/protobuf/timestamp.proto";
+
+message ifff_SpinAck {
+    repeated int32 PlateSymbol = 1;
+    optional int32 Award = 2;
+    optional double TotalWin = 3;
+    optional string ShowIndex = 4;
+    optional double NowMoney = 5;
+    optional int32 AckType = 6;
+    optional double RTP = 7;
+}
+

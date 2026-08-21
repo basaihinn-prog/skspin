@@ -1,0 +1,43 @@
+syntax = "proto3";
+import "pb/empty.proto";
+import "pb/adminpb/info.proto";
+
+message GroupListResp {
+    int64           Count = 1;
+    repeated DBAuth List  = 2;
+}
+
+message AddGroupReq {
+    string Name   = 1;
+    string Remark = 2;
+}
+
+message GroupIdReq {
+    int64 Gid = 1;
+}
+
+message EditPowerReq {
+    repeated int64 PowerList = 1;
+    int64          Gid       = 2;
+}
+
+
+message PowerListResp {
+    repeated DBMenu MenuList     = 1;
+    int64                 Gid          = 2;
+    repeated int64        CheckedArray = 3;
+}
+
+service AdminGroup {
+    // 获取权限组列表
+    rpc GroupList(PageListReq) returns (GroupListResp);
+
+    // 添加权限组
+    rpc AddGroup(AddGroupReq) returns (Empty);
+
+    // 根据权限ID查看权限详情
+    rpc GetPowerDetailsById(GroupIdReq) returns (PowerListResp);
+
+    // 修改权限组菜单
+    rpc EditPowerDetails(EditPowerReq) returns (Empty);
+}

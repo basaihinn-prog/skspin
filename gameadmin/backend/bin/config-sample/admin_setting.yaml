@@ -1,0 +1,7 @@
+IsDevEnv: true
+OpenWhite: false
+IconAddr: https://dl.pg2.com/
+Alert:
+  Hour: false
+WhiteIps:
+  - 127.0.0.1

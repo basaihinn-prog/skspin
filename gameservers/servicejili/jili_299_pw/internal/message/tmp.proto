@@ -1,0 +1,40 @@
+syntax = "proto3";
+package message;
+option go_package = "./";
+import "google/protobuf/timestamp.proto";
+
+message pw_Column {
+    repeated int32 Row = 1;
+}
+
+message pw_Single {
+    repeated pw_Column Col = 1;
+}
+
+message pw_AwardData {
+    optional int32 Symbol = 1;
+    optional int32 Line = 2;
+    optional double Win = 3;
+}
+
+message pw_SpinAck {
+    repeated pw_Single PlateSymbol = 1;
+    repeated pw_AwardData AwardDataVec = 2;
+    optional double Mult = 3;
+    optional bool GetBonus = 4;
+    optional int32 BonusSymbol = 5;
+    optional bool Extra = 6;
+    optional int32 AwardTypeFlag = 7;
+    optional double TotalWin = 8;
+    optional string ShowIndex = 9;
+    optional double NowMoney = 10;
+    optional int32 AckType = 11;
+    optional double RTP = 12;
+    optional int32 LID = 13;
+    optional int32 RID = 14;
+}
+
+message pw_GameInfoData {
+    repeated double Mul = 1;
+}
+

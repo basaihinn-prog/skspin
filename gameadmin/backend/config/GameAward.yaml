@@ -1,0 +1,224 @@
+  - ID: pg_3
+    NoAwardPercent: 7
+  - ID: pg_20
+    NoAwardPercent: -74
+  - ID: pg_24
+    NoAwardPercent: -2
+  - ID: pg_25
+    NoAwardPercent: -58
+  - ID: pg_29
+    NoAwardPercent: -64
+  - ID: pg_33
+    NoAwardPercent: -46
+  - ID: pg_34
+    NoAwardPercent: -40
+  - ID: pg_35
+    NoAwardPercent: -157
+  - ID: pg_36
+    NoAwardPercent: -37
+  - ID: pg_37
+    NoAwardPercent: -55
+  - ID: pg_38
+    NoAwardPercent: -65
+  - ID: pg_39
+    NoAwardPercent: -2
+  - ID: pg_40
+    NoAwardPercent: -67
+  - ID: pg_42
+    NoAwardPercent: -61
+  - ID: pg_44
+    NoAwardPercent: -84
+  - ID: pg_48
+    NoAwardPercent: -70
+  - ID: pg_50
+    NoAwardPercent: -69
+  - ID: pg_53
+    NoAwardPercent: -115
+  - ID: pg_54
+    NoAwardPercent: -67
+  - ID: pg_57
+    NoAwardPercent: -77
+  - ID: pg_58
+    NoAwardPercent: -75
+  - ID: pg_59
+    NoAwardPercent: -76
+  - ID: pg_60
+    NoAwardPercent: -65
+  - ID: pg_61
+    NoAwardPercent: -74
+  - ID: pg_62
+    NoAwardPercent: -67
+  - ID: pg_63
+    NoAwardPercent: -41
+  - ID: pg_64
+    NoAwardPercent: -57
+  - ID: pg_65
+    NoAwardPercent: 1
+  - ID: pg_68
+    NoAwardPercent: -55
+  - ID: pg_69
+    NoAwardPercent: -27
+  - ID: pg_70
+    NoAwardPercent: -49
+  - ID: pg_74
+    NoAwardPercent: 0
+  - ID: pg_75
+    NoAwardPercent: -1
+  - ID: pg_79
+    NoAwardPercent: -72
+  - ID: pg_82
+    NoAwardPercent: -64
+  - ID: pg_83
+    NoAwardPercent: -71
+  - ID: pg_86
+    NoAwardPercent: -113
+  - ID: pg_87
+    NoAwardPercent: 1
+  - ID: pg_88
+    NoAwardPercent: -82
+  - ID: pg_89
+    NoAwardPercent: -1
+  - ID: pg_91
+    NoAwardPercent: -95
+  - ID: pg_92
+    NoAwardPercent: -71
+  - ID: pg_93
+    NoAwardPercent: -63
+  - ID: pg_94
+    NoAwardPercent: -69
+  - ID: pg_95
+    NoAwardPercent: -77
+  - ID: pg_97
+    NoAwardPercent: -67
+  - ID: pg_98
+    NoAwardPercent: -70
+  - ID: pg_100
+    NoAwardPercent: -54
+  - ID: pg_101
+    NoAwardPercent: -70
+  - ID: pg_102
+    NoAwardPercent: -91
+  - ID: pg_103
+    NoAwardPercent: -71
+  - ID: pg_104
+    NoAwardPercent: 1
+  - ID: pg_105
+    NoAwardPercent: -71
+  - ID: pg_106
+    NoAwardPercent: 0
+  - ID: pg_107
+    NoAwardPercent: -73
+  - ID: pg_108
+    NoAwardPercent: -54
+  - ID: pg_110
+    NoAwardPercent: -75
+  - ID: pg_112
+    NoAwardPercent: -59
+  - ID: pg_113
+    NoAwardPercent: -73
+  - ID: pg_114
+    NoAwardPercent: -83
+  - ID: pg_115
+    NoAwardPercent: -67
+  - ID: pg_117
+    NoAwardPercent: -70
+  - ID: pg_118
+    NoAwardPercent: -65
+  - ID: pg_119
+    NoAwardPercent: -83
+  - ID: pg_120
+    NoAwardPercent: -58
+  - ID: pg_121
+    NoAwardPercent: -52
+  - ID: pg_122
+    NoAwardPercent: -77
+  - ID: pg_123
+    NoAwardPercent: -70
+  - ID: pg_124
+    NoAwardPercent: -95
+  - ID: pg_125
+    NoAwardPercent: -78
+  - ID: pg_126
+    NoAwardPercent: 0
+  - ID: pg_127
+    NoAwardPercent: -62
+  - ID: pg_128
+    NoAwardPercent: -71
+  - ID: pg_129
+    NoAwardPercent: -76
+  - ID: pg_130
+    NoAwardPercent: -76
+  - ID: pg_132
+    NoAwardPercent: -61
+  - ID: pg_135
+    NoAwardPercent: -1
+  - ID: pg_1312883
+    NoAwardPercent: -66
+  - ID: pg_1338274
+    NoAwardPercent: -75
+  - ID: pg_1340277
+    NoAwardPercent: -85
+  - ID: pg_1368367
+    NoAwardPercent: -78
+  - ID: pg_1372643
+    NoAwardPercent: -68
+  - ID: pg_1381200
+    NoAwardPercent: -82
+  - ID: pg_1397455
+    NoAwardPercent: -95
+  - ID: pg_1402846
+    NoAwardPercent: -86
+  - ID: pg_1418544
+    NoAwardPercent: -112
+  - ID: pg_1420892
+    NoAwardPercent: -120
+  - ID: pg_1432733
+    NoAwardPercent: -107
+  - ID: pg_1448762
+    NoAwardPercent: -96
+  - ID: pg_1451122
+    NoAwardPercent: -113
+  - ID: pg_1473388
+    NoAwardPercent: -79
+  - ID: pg_1489936
+    NoAwardPercent: -1
+  - ID: pg_1492288
+    NoAwardPercent: -82
+  - ID: pg_1508783
+    NoAwardPercent: -95
+  - ID: pg_1513328
+    NoAwardPercent: -84
+  - ID: pg_1529867
+    NoAwardPercent: -79
+  - ID: pg_1543462
+    NoAwardPercent: -84
+  - ID: pg_1555350
+    NoAwardPercent: -72
+  - ID: pg_1568554
+    NoAwardPercent: -91
+  - ID: pg_1572362
+    NoAwardPercent: -71
+  - ID: pg_1580541
+    NoAwardPercent: -116
+  - ID: pg_1594259
+    NoAwardPercent: -88
+  - ID: pg_1601012
+    NoAwardPercent: -93
+  - ID: pg_1615454
+    NoAwardPercent: -73
+  - ID: pg_1623475
+    NoAwardPercent: -95
+  - ID: pg_1635221
+    NoAwardPercent: -92
+  - ID: pg_1648578
+    NoAwardPercent: -72
+  - ID: pg_1655268
+    NoAwardPercent: -83
+  - ID: pg_1671262
+    NoAwardPercent: 1
+  - ID: pg_1682240
+    NoAwardPercent: -66
+  - ID: pg_1695365
+    NoAwardPercent: 1
+  - ID: pg_1717688
+    NoAwardPercent: -77

@@ -1,0 +1,5 @@
+{
+  "shutdown": false,
+  "message": "!!!!!!!!!! Server will shutdown in 1 min. !!!!!!!!!!",
+  "database_reload": false
+}

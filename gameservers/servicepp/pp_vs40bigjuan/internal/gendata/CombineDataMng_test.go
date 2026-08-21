@@ -1,0 +1,18 @@
+package gendata
+
+import "testing"
+
+func Test_handler(t *testing.T) {
+	tests := []struct {
+		name string
+	}{
+		{
+			name: "",
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			handler2()
+		})
+	}
+}

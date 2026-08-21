@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "label": "hotGame",
+    "gameSource": "hotGame.json"
+  },
+  {
+    "id": 2,
+    "label": "festival",
+    "gameSource": "festival.json"
+  },
+  {
+    "id": 3,
+    "label": "newGame",
+    "gameSource": "newGame.json"
+  },
+  {
+    "id": 4,
+    "label": "animal",
+    "gameSource": "animal.json"
+  }
+]
+

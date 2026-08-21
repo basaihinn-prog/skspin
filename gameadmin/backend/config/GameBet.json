@@ -1,0 +1,1640 @@
+[
+  {
+    "Game_id": "jili_2_csh",
+    "GameName": "Chin Shi Huang",
+    "Bet": "0.5,1,2,3,5,10,20,30,40,50,80,100,200,500,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_4_tks",
+    "GameName": "God Of Martial",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_5_chilli",
+    "GameName": "Hot Chilli",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_6_luckytree",
+    "GameName": "Fortune tree",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,500,800,1000,2000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_16_kk2",
+    "GameName": "Jungle King",
+    "Bet": "0.5,1,2,3,5,10,20,30,40,50,80,100,200,500,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_21_ols",
+    "GameName": "FA FA FA",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,500,800,1000,2000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_35_ols2",
+    "GameName": "Crazy 777",
+    "Bet": "0.6,1.2,3,6,9,15,30,45,90,210,300,450,600,960,1920",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_36_bbc",
+    "GameName": "Bao boon chin",
+    "Bet": "0.5,1,2,3,5,10,20,30,40,50,80,100,200,500,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_37_sweetheart5",
+    "GameName": "Night City",
+    "Bet": "0.5,1,2,3,5,10,20,30,40,50,80,100,200,500,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_38_fs",
+    "GameName": "Fengshen",
+    "Bet": "0.5,1,2,3,5,10,20,30,40,50,80,100,200,500,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_40_ols3",
+    "GameName": "Crazy FaFaFa",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,500,800,1000,2000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_44_fivestar",
+    "GameName": "Diamond Party",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_45_cbt",
+    "GameName": "Golden Bank",
+    "Bet": "0.5,1,2,3,5,10,20,30,40,50,80,100,200,500,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_47_bfs",
+    "GameName": "Charge Buffalo",
+    "Bet": "0.5,1,2,3,5,10,20,30,40,50,80,100,200,500,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_49_fullhouse",
+    "GameName": "Super Ace",
+    "Bet": "0.5,1,2,3,5,10,20,30,40,50,80,100,200,500,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_58_gq",
+    "GameName": "Golden Queen",
+    "Bet": "0.5,1,2,3,5,10,20,30,40,50,80,100,200,500,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_76_nightclub",
+    "GameName": "Party Night",
+    "Bet": "0.3,0.5,1,1.5,2,3,5,10,20,30,40,50,80,100,200",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_77_bk",
+    "GameName": "Boxing King",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_85_mw",
+    "GameName": "Pharaoh Treasure",
+    "Bet": "0.5,1,2,3,5,10,20,30,40,50,80,100,200,500,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_87_bog",
+    "GameName": "Book of Gold",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_91_ifff",
+    "GameName": "Lucky Coming",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,500,800,1000,2000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_100_sr",
+    "GameName": "Super Rich",
+    "Bet": "1,2,3,5,10,15,20,30,40,60,80,120,160,240,320,480,640,960,1280,1920",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_102_rs2",
+    "GameName": "ROMA X",
+    "Bet": "1.2,3,6,9,15,30,45,60,90,150,210,300,600,900,1200",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_103_mw2",
+    "GameName": "Golden Empire",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_108_mw3",
+    "GameName": "Magic Lamp",
+    "Bet": "0.5,1,2,3,5,10,20,30,40,50,80,100,200,500,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_109_fg",
+    "GameName": "Fortune Gems",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_115_aa",
+    "GameName": "Agent Ace",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_116_taxi",
+    "GameName": "Happy Taxi",
+    "Bet": "1.2,3,6,9,15,30,45,60,90,150,210,300,600,900,1200",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_130_thor",
+    "GameName": "Thor X",
+    "Bet": "1.2,3,6,9,15,30,45,60,90,150,210,300,600,900,1200",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_135_me",
+    "GameName": "Mayan Empire",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_137_ge",
+    "GameName": "Gold Rush",
+    "Bet": "0.5,1,2,3,5,10,20,30,40,50,80,100,200,500,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_142_bh",
+    "GameName": "Bonus Hunter",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_145_ln",
+    "GameName": "Neko Fortune",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_166_utaxi",
+    "GameName": "WILD RACER",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_176_cny",
+    "GameName": "Master Tiger",
+    "Bet": "0.6,1.2,3,6,9,15,30,45,90,210,300,450,600,960,1920",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_181_wa",
+    "GameName": "WILD ACE",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_208_phoenix",
+    "GameName": "Trial of Phoenix",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_225_ctk",
+    "GameName": "Cricket King 18",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_230_cts",
+    "GameName": "Cricket Sah 75",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_238_bby",
+    "GameName": "Bangla Beauty",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_239_dbg",
+    "GameName": "Dabanggg",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_252_zeus",
+    "GameName": "Zeus",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_258_dl",
+    "GameName": "Devil Fire 2",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_300_fg3",
+    "GameName": "Fortune Gems 3",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_26_sweetheart3",
+    "GameName": "Hawaii Beauty",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_67_mp",
+    "GameName": "Monkey Party",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_126_dotd",
+    "GameName": "Bone Fortune",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_134_mw4",
+    "GameName": "Mega Ace",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_136_samba",
+    "GameName": "SAMBA",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_144_cai",
+    "GameName": "JILI CAISHEN",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_146_fb",
+    "GameName": "World Cup",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_183_gj",
+    "GameName": "GOLDEN JOKER",
+    "Bet": "1,2,3,5,10,15,20,30,40,60,80,120,160,240,320,480,640,960,1280,1920",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_191_petra",
+    "GameName": "Golden Temple",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_193_df",
+    "GameName": "Devil Fire",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_209_ap",
+    "GameName": "Aztec Priestess",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_214_ka",
+    "GameName": "King Arthur",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_299_pw",
+    "GameName": "Witches Night",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_303_mp2",
+    "GameName": "Fortune Monkey",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_110_ali",
+    "GameName": "Ali Baba",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "jili_223_fgp",
+    "GameName": "Fortune Gems 2",
+    "Bet": "1,2,3,5,8,10,20,50,100,200,300,400,500,700,1000",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pg_100",
+    "GameName": "Candy Bonanza",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pg_101",
+    "GameName": "Rise of Apollo",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 20
+  },
+  {
+    "Game_id": "pg_102",
+    "GameName": "Mermaid Riches",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 20
+  },
+  {
+    "Game_id": "pg_103",
+    "GameName": "Crypto Gold",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_104",
+    "GameName": "Wild Bandito",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_105",
+    "GameName": "Heist Stakes",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_106",
+    "GameName": "Ways of the Qilin",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_107",
+    "GameName": "Legendary Monkey King",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_108",
+    "GameName": "Buffalo Win",
+    "Bet": "0.1,1,10,50",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pg_110",
+    "GameName": "Jurassic Kingdom",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_112",
+    "GameName": "Oriental Prosperity",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_113",
+    "GameName": "Raider Jane's Crypt of Fortune",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_114",
+    "GameName": "Emoji Riches",
+    "Bet": "0.1,1,10,50",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pg_115",
+    "GameName": "Supermarket Spree",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_117",
+    "GameName": "Cocktail Nights",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_118",
+    "GameName": "Mask Carnival",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_119",
+    "GameName": "Spirited Wonders",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_120",
+    "GameName": "The Queen's Banquet",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_121",
+    "GameName": "Destiny of Sun & Moon",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_122",
+    "GameName": "Garuda Gems",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_123",
+    "GameName": "Rooster Rumble",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_124",
+    "GameName": "Battleground Royale",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_125",
+    "GameName": "Butterfly Blossom",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_126",
+    "GameName": "Fortune Tiger",
+    "Bet": "0.2,2,20,100",
+    "DefaultBet": 0.2,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pg_127",
+    "GameName": "Speed Winner",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_128",
+    "GameName": "Legend of Perseus",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_129",
+    "GameName": "Win Win Fish Prawn Crab",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_130",
+    "GameName": "Lucky Piggy",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_1312883",
+    "GameName": "Prosperity Fortune Tree",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_132",
+    "GameName": "Wild Coaster",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_1338274",
+    "GameName": "Totem Wonders",
+    "Bet": "0.1,1,5,20",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pg_1340277",
+    "GameName": "Asgardian Rising",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_135",
+    "GameName": "Wild Bounty Showdown",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_1368367",
+    "GameName": "Alchemy Gold",
+    "Bet": "0.1,1,5,20",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pg_1372643",
+    "GameName": "Diner Delight",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_1381200",
+    "GameName": "Hawaiian Tiki",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_1397455",
+    "GameName": "Fruity Candy",
+    "Bet": "0.1,1,5,20",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pg_1402846",
+    "GameName": "Midas Fortune",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_1418544",
+    "GameName": "Bakery Bonanza",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_1420892",
+    "GameName": "Rave Party Fever",
+    "Bet": "0.1,1,5,20",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pg_1432733",
+    "GameName": "Mystical Spirits",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_1448762",
+    "GameName": "Songkran Splash",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_1451122",
+    "GameName": "Dragon Hatch2",
+    "Bet": "0.1,1,5,20",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pg_1473388",
+    "GameName": "Cruise Royale",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_1489936",
+    "GameName": "Ultimate Striker",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_1513328",
+    "GameName": "Super Golf Drive",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_1529867",
+    "GameName": "Ninja Raccoon Frenzy",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_1543462",
+    "GameName": "Fortune Rabbit",
+    "Bet": "0.1,1,10,50",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pg_1555350",
+    "GameName": "Forge Of Wealth",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_1568554",
+    "GameName": "Wild Heist Cashout",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_1572362",
+    "GameName": "Gladiators Glory",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_1580541",
+    "GameName": "Mafia Mayhem",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_1594259",
+    "GameName": "Safari Wilds",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_1601012",
+    "GameName": "Lucky Clover Lady",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_1615454",
+    "GameName": "Werewolf's Hunt",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_1623475",
+    "GameName": "Anubis Wrath",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_1635221",
+    "GameName": "Zombie Outbreak",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_1648578",
+    "GameName": "Shark Hunter",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_1655268",
+    "GameName": "Tsar Treasures",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_1671262",
+    "GameName": "Gemstones Gold",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_1682240",
+    "GameName": "Cash Mania",
+    "Bet": "0.1,1,10,50",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pg_1695365",
+    "GameName": "Fortune Dragon",
+    "Bet": "0.2,2,20,100",
+    "DefaultBet": 0.2,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pg_1717688",
+    "GameName": "Mystic Potion",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_20",
+    "GameName": "Reel Love",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_24",
+    "GameName": "Win Win Won",
+    "Bet": "1,5,20,100,500",
+    "DefaultBet": 5,
+    "DefaultBetLevel": 1
+  },
+  {
+    "Game_id": "pg_25",
+    "GameName": "Plushie Frenzy",
+    "Bet": "0.03,0.3,1,6",
+    "DefaultBet": 1,
+    "DefaultBetLevel": 1
+  },
+  {
+    "Game_id": "pg_29",
+    "GameName": "Dragon Legend",
+    "Bet": "0.1,1,5,20",
+    "DefaultBet": 1,
+    "DefaultBetLevel": 1
+  },
+  {
+    "Game_id": "pg_3",
+    "GameName": "Fortune Gods",
+    "Bet": "0.06,0.6,2,12",
+    "DefaultBet": 0.6,
+    "DefaultBetLevel": 6
+  },
+  {
+    "Game_id": "pg_33",
+    "GameName": "Hip Hop Panda",
+    "Bet": "0.03,0.3,1,6",
+    "DefaultBet": 1,
+    "DefaultBetLevel": 1
+  },
+  {
+    "Game_id": "pg_34",
+    "GameName": "Legend of Hou Yi",
+    "Bet": "0.03,0.3,1,6",
+    "DefaultBet": 1,
+    "DefaultBetLevel": 1
+  },
+  {
+    "Game_id": "pg_35",
+    "GameName": "Mr. Hallow-Win",
+    "Bet": "0.03,0.3,1,6",
+    "DefaultBet": 1,
+    "DefaultBetLevel": 1
+  },
+  {
+    "Game_id": "pg_36",
+    "GameName": "Prosperity Lion",
+    "Bet": "0.1,1,5,20",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pg_37",
+    "GameName": "Santa's Gift Rush",
+    "Bet": "0.03,0.3,1,6",
+    "DefaultBet": 1,
+    "DefaultBetLevel": 1
+  },
+  {
+    "Game_id": "pg_38",
+    "GameName": "Gem Saviour Sword",
+    "Bet": "0.1,1,5,25",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pg_39",
+    "GameName": "Piggy Gold",
+    "Bet": "1,10,100,500",
+    "DefaultBet": 1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pg_40",
+    "GameName": "Jungle Delight",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_42",
+    "GameName": "Ganesha Gold",
+    "Bet": "0.03,0.3,1,6",
+    "DefaultBet": 1,
+    "DefaultBetLevel": 1
+  },
+  {
+    "Game_id": "pg_44",
+    "GameName": "Emperor's Favour",
+    "Bet": "0.03,0.3,1,6",
+    "DefaultBet": 1,
+    "DefaultBetLevel": 1
+  },
+  {
+    "Game_id": "pg_48",
+    "GameName": "Double Fortune",
+    "Bet": "0.03,0.3,1,6",
+    "DefaultBet": 1,
+    "DefaultBetLevel": 1
+  },
+  {
+    "Game_id": "pg_50",
+    "GameName": "Journey to the Wealth",
+    "Bet": "0.03,0.3,1,6",
+    "DefaultBet": 1,
+    "DefaultBetLevel": 1
+  },
+  {
+    "Game_id": "pg_53",
+    "GameName": "The Great Icescape",
+    "Bet": "0.04,0.4,2,8",
+    "DefaultBet": 0.04,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pg_54",
+    "GameName": "Captain's Bounty",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_57",
+    "GameName": "Dragon Hatch",
+    "Bet": "0.1,1,10,50",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pg_58",
+    "GameName": "Vampire's Charm",
+    "Bet": "0.1,1,5,20",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pg_59",
+    "GameName": "Ninja vs Samurai",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_60",
+    "GameName": "Leprechaun Riches",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_61",
+    "GameName": "Flirting Scholar",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_62",
+    "GameName": "Gem Saviour Conquest",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_63",
+    "GameName": "Dragon Tiger Luck",
+    "Bet": "1,10,100,500",
+    "DefaultBet": 1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pg_64",
+    "GameName": "Muay Thai Champion",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_65",
+    "GameName": "Mahjong Ways",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_68",
+    "GameName": "Fortune Mouse",
+    "Bet": "0.2,2,20,100",
+    "DefaultBet": 0.2,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pg_69",
+    "GameName": "Bikini Paradise",
+    "Bet": "0.04,0.4,2,8",
+    "DefaultBet": 0.04,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pg_70",
+    "GameName": "Candy Burst",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_74",
+    "GameName": "Mahjong Ways2",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_75",
+    "GameName": "Ganesha Fortune",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_79",
+    "GameName": "Dreams of Macau",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_82",
+    "GameName": "Phoenix Rises",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_83",
+    "GameName": "Wild Fireworks",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_86",
+    "GameName": "Galactic Gems",
+    "Bet": "0.04,0.4,2,8",
+    "DefaultBet": 0.04,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pg_87",
+    "GameName": "Treasures of Aztec",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_88",
+    "GameName": "Jewels of Prosperity",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_89",
+    "GameName": "Lucky Neko",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_91",
+    "GameName": "Guardians of Ice and Fire",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_92",
+    "GameName": "Thai River Wonders",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_93",
+    "GameName": "Opera Dynasty",
+    "Bet": "0.05,0.5,2.5,10",
+    "DefaultBet": 0.5,
+    "DefaultBetLevel": 3
+  },
+  {
+    "Game_id": "pg_94",
+    "GameName": "Bali Vacation",
+    "Bet": "0.1,1,10,50",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pg_95",
+    "GameName": "Majestic Treasures",
+    "Bet": "0.1,1,10,50",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pg_97",
+    "GameName": "Jack Frost's Winter",
+    "Bet": "0.1,1,10,50",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pg_98",
+    "GameName": "Fortune OX",
+    "Bet": "0.1,1,10,50",
+    "DefaultBet": 0.1,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20fruitsw",
+    "GameName": "Sweet Bonanza",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20sugarrush",
+    "GameName": "Sugar Rush",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20olympx",
+    "GameName": "Gates of Olympus 1000",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20starlightx",
+    "GameName": "Starlight Princess 1000",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20starlight",
+    "GameName": "Starlight Princess",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs25scarabqueen",
+    "GameName": "John Hunter and the Tomb of the Scarab Queen",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20olympgate",
+    "GameName": "Gates of Olympus",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20sbxmas",
+    "GameName": "Sweet Bonanza Xmas",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs9aztecgemsdx",
+    "GameName": "Aztec Gems Deluxe",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs40wildwest",
+    "GameName": "Wild West Gold",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vswaysbufking",
+    "GameName": "Buffalo King Megaways",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20ninjapower",
+    "GameName": "Power of Ninja",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20procount",
+    "GameName": "Wisdom of Athena",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs5aztecgems",
+    "GameName": "Aztec Gems",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20saiman",
+    "GameName": "Saiyan Mania",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs1024mahjwins",
+    "GameName": "Mahjong Wins",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20candybltz2",
+    "GameName": "Candy Blitz Bombs",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vswayswildwest",
+    "GameName": "Wild West Gold Megaways",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20pbonanza",
+    "GameName": "Pyramid Bonanza",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20olympdice",
+    "GameName": "Gates of Olympus Dice",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs10threestar",
+    "GameName": "Three Star Fortune",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs1024mjwinbns",
+    "GameName": "Mahjong Wins Bonus",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs7776aztec",
+    "GameName": "Aztec Bonanza",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20portals",
+    "GameName": "Fire Portals",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20bison",
+    "GameName": "Release the Bison",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs40stckwldlvl",
+    "GameName": "Ripe Rewards",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20gatotx",
+    "GameName": "Gates of Gatot Kaca 1000",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20doghouse2",
+    "GameName": "The Dog House - Dog or Alive",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20tweethouse",
+    "GameName": "The Tweety House",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20sugrux",
+    "GameName": "Sugar Rush Xmas",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs10firestrike",
+    "GameName": "Fire Strike",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20bonzgold",
+    "GameName": "Bonanza Gold",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs10bblotgl",
+    "GameName": "Big Bass - Secrets of the Golden Lake",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs15godsofwar",
+    "GameName": "Zeus vs Hades - Gods of War",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vswayswest",
+    "GameName": "Mystic Chief",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vswaysmegahays",
+    "GameName": "Barnyard Megahays Megaways",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20cleocatra",
+    "GameName": "Cleocatra",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20fruitparty",
+    "GameName": "Fruit Party",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20cbrhst",
+    "GameName": "Cyber Heist",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20stickypos",
+    "GameName": "Ice Lobster",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20doghousemh",
+    "GameName": "The Dog House Multihold",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20gatotgates",
+    "GameName": "Gates of Gatot Kaca",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vswaysmadame",
+    "GameName": "Madame Destiny Megaways",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs15samurai4",
+    "GameName": "Rise of Samurai 4",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs10bburger",
+    "GameName": "Big Burger Load it up with Xtra Cheese",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs50dmdcascade",
+    "GameName": "Diamond Cascade",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs10bbfloats",
+    "GameName": "Big Bass Floats my Boat",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20clustext",
+    "GameName": "Gears of Horus",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs1tigers",
+    "GameName": "Triple Tigers",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs25pandagold",
+    "GameName": "Panda's Fortune",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20schristmas",
+    "GameName": "Starlight Christmas",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vswayswildgang",
+    "GameName": "The Wild Gang",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs10cowgold",
+    "GameName": "Cowboys Gold",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20cjcluster",
+    "GameName": "Candy Jar Clusters",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20goldclust",
+    "GameName": "Rabbit Garden",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vswaysstampede",
+    "GameName": "Fire Stampede",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20multiup",
+    "GameName": "Wheel O'Gold",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20candyblitz",
+    "GameName": "Candy Blitz",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vswaysstrlght",
+    "GameName": "Fortunes of Aztec",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vswaysoldminer",
+    "GameName": "Old Gold Miner Megaways",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs20bnnzdice",
+    "GameName": "Sweet Bonanza Dice",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs25goldparty",
+    "GameName": "Gold Party",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "pp_vs25xmasparty",
+    "GameName": "Penguins Christmas Party Time",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  },
+  {
+    "Game_id": "vs20sugarrushx",
+    "GameName": "Sugar Rush 1000",
+    "Bet": "0.05,600",
+    "DefaultBet": 0.05,
+    "DefaultBetLevel": 10
+  }
+]

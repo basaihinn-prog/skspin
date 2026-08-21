@@ -1,0 +1,53 @@
+syntax = "proto3";
+package message;
+option go_package = "./";
+import "google/protobuf/timestamp.proto";
+
+message phoenix_Column {
+    repeated int32 Col = 1;
+}
+
+message phoenix_AwardData {
+    optional int32 Symbol = 1;
+    optional int32 Count = 2;
+    optional int32 LineNum = 3;
+    optional double Win = 4;
+}
+
+message phoenix_ComboStageInfo {
+    repeated phoenix_Column ComboStageSymbol = 1;
+    repeated phoenix_Column FillSymbols = 2;
+    optional int32 PlateHitSum = 3;
+    optional int32 PlateLevel = 4;
+    repeated int32 EliminatedPos = 5;
+    repeated phoenix_AwardData TempAward = 6;
+    repeated int32 FGChange = 7;
+    repeated phoenix_Column ComboStageSymbolChanged = 8;
+    optional bool MaxFlag = 9;
+}
+
+message phoenix_RoundInfo {
+    repeated phoenix_ComboStageInfo ComboStageData = 1;
+    repeated phoenix_AwardData AwardDataVec = 2;
+    optional double RoundWin = 3;
+    optional int32 AwardTypeFlag = 4;
+    optional int32 FreeRemainRound = 5;
+    optional bool MaxFlag = 6;
+}
+
+message phoenix_SpinAck {
+    repeated phoenix_RoundInfo RoundQueue = 1;
+    optional double FreeTotalWin = 2;
+    optional double TotalWin = 3;
+    optional string ShowIndex = 4;
+    optional double NowMoney = 5;
+    optional int32 AckType = 6;
+    optional double Bet = 7;
+    optional double RTP = 8;
+}
+
+message phoenix_GameInfoData {
+    optional bool ShowExtra = 1;
+    repeated double Mul = 2;
+}
+

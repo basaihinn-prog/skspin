@@ -1,0 +1,31 @@
+{
+	"mongo": "mongodb://myUserAdmin:doudou123456@127.0.0.1:27017/?authSource=admin",
+	"gateway.http": ":11080",
+	"gamecenter.http": ":11004",
+	"gamecenter.http.test": ":30001",
+	"admin.http": ":11110",
+
+	"gamecenter.mongo": "127.0.0.1:27017",
+	"slots.mongo":"127.0.0.1:27017",
+	"admin.mongo":"127.0.0.1:27017",
+	"stats.mongo":"127.0.0.1:27017",
+
+	"gamecenter": "127.0.0.1:11001",
+	"proxy.mq": "127.0.0.1:11002",
+	"proxy": "127.0.0.1:11003",
+	"NiuBi": "127.0.0.1:11005",
+	"slots":"127.0.0.1:11006",
+	"BaoZang": "127.0.0.1:11007",
+	"ZhaoCaiMao": "127.0.0.1:11008",
+	"Hilo": "127.0.0.1:11009",
+	"Roma": "127.0.0.1:11010",
+	"RomaX": "127.0.0.1:11011",
+	"XingYunXiang": "127.0.0.1:11012",
+	"JinNiu": "127.0.0.1:11013",
+	"TuZi": "127.0.0.1:11014",
+	"stats":"127.0.0.1:11015",
+
+	"YingCaiShen.http.test": ":30002",
+
+	"endline": "xxxx"
+}

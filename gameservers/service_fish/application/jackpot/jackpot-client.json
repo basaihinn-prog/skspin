@@ -1,0 +1,36 @@
+{
+  "說明": [
+    "1. MYS = 神秘彩金, LKD = 抽獎活動, LKD2 = 紅包",
+    "2. server: JP 伺服器位址 (設定為空白即可關閉)",
+    "3. retryTimes: 重新連線次數 (設定為 -1 會一直重試直到連線為止)",
+    "4. retryPeriod: 重新連線間隔時間 (單位: 秒)",
+    "4. updatePeriod: 更新頻率 (單位: 秒)",
+    "5. useSSL: 是否使用 SSL"
+  ],
+  "MYS": {
+    "//server": "host.docker.internal",
+    "//port": 82,
+    "server": "192.168.128.10",
+    "port": 3888,
+    "retryTimes": -1,
+    "retryPeriod": 3,
+    "updatePeriod": 3,
+    "useSSL": false
+  },
+  "LKD": {
+    "server": "host.docker.internal",
+    "port": 82,
+    "retryTimes": -1,
+    "retryPeriod": 3,
+    "updatePeriod": 1,
+    "useSSL": false
+  },
+  "LKD2": {
+    "server": "host.docker.internal",
+    "port": 82,
+    "retryTimes": -1,
+    "retryPeriod": 3,
+    "updatePeriod": 1,
+    "useSSL": false
+  }
+}

@@ -1,0 +1,63 @@
+syntax = "proto3";
+package message;
+option go_package = "./";
+
+message ali_Grid {
+    optional int32 Col = 1;
+    optional int32 Row = 2;
+}
+
+message ali_MSymbol {
+    optional int32 Symbol = 1;
+    optional int32 Length = 2;
+}
+
+message ali_MColumn {
+    repeated ali_MSymbol MColumn = 1;
+}
+
+message ali_AwardData {
+    optional int32 Symbol = 1;
+    optional int32 Count = 2;
+    optional int32 LineNum = 3;
+    optional double Win = 4;
+    repeated ali_Grid GridVec = 5;
+}
+
+message ali_ComboStageInfo {
+    repeated ali_MColumn ComboStageSymbol = 1;
+    optional double ComboStageWin = 2;
+    optional double ComboStageMult = 3;
+    repeated ali_AwardData AwardDataVec = 4;
+    repeated ali_MColumn FillSymbols = 5;
+    optional bool MaxFlag = 6;
+}
+
+message ali_RoundInfo {
+    repeated ali_ComboStageInfo ComboStageData = 1;
+    optional double RoundWin = 2;
+    optional int32 AwardTypeFlag = 3;
+    optional int32 FreeRemainRound = 4;
+    optional double EnterChest = 5;
+    optional int32 MaxLength = 6;
+    optional int32 ScatterCount = 7;
+    optional bool MaxFlag = 8;
+}
+
+message ali_SpinAck {
+    repeated ali_RoundInfo RoundQueue = 1;
+    optional double FreeTotalWin = 2;
+    optional double TotalWin = 3;
+    optional int64 LogIndex = 4;
+    optional string ShowIndex = 5;
+    optional double NowMoney = 6;
+    optional int32 AckType = 7;
+    optional double RTP = 8;
+    optional bool Extra = 9;
+}
+
+message ali_GameInfoData {
+    optional bool ShowExtra = 1;
+    repeated double Mul = 2;
+}
+

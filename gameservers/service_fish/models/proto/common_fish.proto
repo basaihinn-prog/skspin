@@ -1,0 +1,41 @@
+syntax = "proto3";
+package common.fish.proto;
+
+message Header {
+    EMSGID msgid                                                        = 1;
+}
+
+message BetRateLine {
+    int32 bet_level_index                                               = 1;
+    int32 bet_index                                                     = 2;
+    int32 line_index                                                    = 3;
+    int32 rate_index                                                    = 4;
+}
+
+message Point {
+    double x                                                            = 1;
+    double y                                                            = 2;
+}
+
+enum EMSGID {
+    eReserved                                                           = 0;
+
+    eAllFishCall                                                        = 3000; // 現在場內全部魚 要求
+    eAllFishRecall                                                      = 3001; // 現在場內全部魚 回覆
+
+    eBetChange                                                          = 3100; // 砲台 BET 改變
+    eBroadcastBetChange                                                 = 3101; // 廣播 砲台 BET 改變
+    eBroadcastShoot                                                     = 3102; // 廣播 發射子彈
+    eBroadcastFishIn                                                    = 3103; // 廣播 新魚進場
+    eBroadcastFishOut                                                   = 3104; // 廣播 場上魚消失
+    eBroadcastFishChange                                                = 3105; // 廣播 Fish 改變
+    eBroadcastGroupIn                                                   = 3106; // 廣播 群游
+
+    eMercenaryOpenCall                                                  = 4200; // 傭兵 啟動 要求
+    eMercenaryOpenRecall                                                = 4201; // 傭兵 啟動 回覆
+
+    eRoundStart                                                         = 4700; // 廣播 新場開始
+    eRoundEnd                                                           = 4701; // 廣播 此場結束
+
+    eShoot                                                              = 4800; // 發射子彈
+}

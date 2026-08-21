@@ -1,0 +1,71 @@
+syntax = "proto3";
+
+package gc;
+
+message PlayerAnalysis {
+    string ID  = 1; // @gotags: bson:"_id"
+    int64  Pid = 2;
+    int64  Bet = 3; //
+    int64  Win = 4; //
+}
+
+message AppAnalysis {
+    string ID    = 1; // @gotags: bson:"_id"
+    string AppID = 2;
+    int64  Bet   = 3;
+    int64  Win   = 4;
+}
+
+message GameAnalysis {
+    string ID     = 1; // @gotags: bson:"_id"
+    string GameID = 2;
+    int64  Bet    = 3;
+    int64  Win    = 4;
+}
+
+enum SearchType {
+    Day = 0;
+    Mon = 1;
+}
+
+message PlayerAnalysisReq {
+    int64 Pid       = 1;
+    int64 PageIndex = 2;
+    int64 PageSize  = 3;
+}
+
+message PlayerAnalysisResp {
+    int64                   Count = 1;
+    repeated PlayerAnalysis List  = 2;
+}
+
+message AppAnalysisReq {
+    string     AppID     = 1;
+    SearchType Search    = 2;
+    int64      PageIndex = 3;
+    int64      PageSize  = 4;
+}
+
+message AppAnalysisResp {
+    int64                Count = 1;
+    repeated AppAnalysis List  = 2;
+}
+
+message GameAnalysisReq {
+    string     GameID    = 1;
+    SearchType Search    = 2;
+    int64      PageIndex = 3;
+    int64      PageSize  = 4;
+}
+
+message GameAnalysisResp {
+    int64                 Count = 1;
+    repeated GameAnalysis List  = 2;
+}
+
+//@ts: prefix(gamecenter)
+service AdminAnalysis {
+    rpc Player(PlayerAnalysisReq) returns (PlayerAnalysisResp);
+    rpc App(AppAnalysisReq) returns (AppAnalysisResp);
+    rpc Game(GameAnalysisReq) returns (GameAnalysisResp);
+}

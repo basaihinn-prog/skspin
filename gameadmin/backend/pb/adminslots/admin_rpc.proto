@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package adminslots;
+
+import "pb/slots/data.proto";
+import "pb/empty.proto";
+
+message JsonData {
+    string Data = 1;
+}
+
+message AdminRecoverPanReq {
+    string UniqueStr = 1;
+}
+
+message GetLast10DayRunTimeDataResp {
+    slots.ThreeMonkeyRunTimeResp General         = 1;
+    repeated slots.SlotsStatsBuyGame.Doc BuyGame = 2;
+}
+
+service AdminSlotsRpc {
+    rpc AdminRecoverPan(AdminRecoverPanReq) returns (JsonData);
+    rpc GenCombineData(Empty) returns (Empty);
+    rpc GenerateData(Empty) returns (Empty);
+    rpc GetLast10DayRunTimeData(Empty) returns (JsonData);
+    rpc GetPoolStatus(Empty) returns (JsonData);
+    rpc ExtractAction(JsonData) returns (Empty);
+    rpc SwitchAutoCreateData(JsonData) returns (Empty);
+}

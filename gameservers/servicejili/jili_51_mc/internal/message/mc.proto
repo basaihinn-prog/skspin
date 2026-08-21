@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+package message;
+option go_package = "serve/servicejili/jili_51_mc/message";
+
+message PlateInfoDetail {
+
+    repeated int32 Plate_symbol = 1;
+    repeated int32 Order = 2;
+    double Plate_win = 3;
+}
+
+message SpinAck {
+
+    double Wheel_win = 1;
+    double Plate_win = 2;
+    bool Is_near_win = 3;
+    repeated PlateInfoDetail Plate_info = 4;
+    double Total_win = 5;
+    int32 Award_type_flag = 6;
+    string Show_index = 7;
+    double Now_money = 8;
+    int32 Ack_type = 9;
+    double RT_p = 10;
+    bool Is_bonus = 11;
+}
+
+message GameInfoData {
+
+    repeated Wheel Wheel_list = 1;
+}
+
+message Wheel {
+
+    repeated double money = 1;
+}

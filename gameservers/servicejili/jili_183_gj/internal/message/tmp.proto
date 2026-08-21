@@ -1,0 +1,45 @@
+syntax = "proto3";
+package message;
+option go_package = "./";
+
+message gj_Column {
+    repeated int32 Col = 1;
+}
+
+message gj_AwardData {
+    optional int32 Symbol = 1;
+    optional int32 Count = 2;
+    optional int32 Line = 3;
+    optional double Win = 4;
+    optional double Mult = 5;
+}
+
+message gj_RoundInfo {
+    repeated gj_Column PlateSymbol = 1;
+    repeated gj_AwardData AwardDataVec = 2;
+    optional int32 AwardTypeFlag = 3;
+    optional int32 RespinColumn = 4;
+    optional int32 ToWildColumn = 5;
+    optional double Wheel = 6;
+    optional double WheelWin = 7;
+    optional double RoundWin = 8;
+    optional bool MaxFlag = 9;
+}
+
+message gj_SpinAck {
+    repeated gj_RoundInfo RoundQueue = 1;
+    optional double TotalWin = 2;
+    optional string ShowIndex = 3;
+    optional double NowMoney = 4;
+    optional int32 AckType = 5;
+    optional bool Extra = 6;
+    optional double RTP = 12;
+    optional int32 LID = 13;
+    optional int32 RID = 14;
+}
+
+message gj_GameInfoAck {
+    repeated double Mul = 6;
+    repeated double WheelList = 9;
+}
+

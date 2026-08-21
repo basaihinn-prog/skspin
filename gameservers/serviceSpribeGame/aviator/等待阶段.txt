@@ -1,0 +1,1472 @@
+{"channel":"AviatorCurrentBetsInfoIdReq","targetController":1,"content":{"c":"currentBetsInfo","r":-1,"p":{}}}
+
+{
+    "channel": "AviatorCurrentBetsInfoIdReq",
+    "targetController": 1,
+    "content": {
+        "c": "currentBetsInfo",
+        "r": -1,
+        "p": {}
+    }
+}
+
+发送阶段：新一局游戏开始，等待阶段
+channel: 表示消息的通道或类型，这里是 "AviatorCurrentBetsInfoIdReq"，可能指的是某种与投注信息相关的请求。
+targetController: 表示目标控制器的标识符，这里是 1，可能指定了处理这个请求的特定控制器或模块。
+content: 表示消息的具体内容，包含以下几个字段：
+c: 表示命令或操作类型，这里是 "currentBetsInfo"，可能表示请求当前投注信息。
+r: 表示请求的标识符或编号，这里是 -1，可能表示这是一个新的请求或未指定请求编号。
+p: 表示请求的参数或数据，这里是一个空对象 {}，表示没有附加参数或数据。
+总结起来，这个消息可能是某个系统或应用程序中用来请求当前投注信息的请求，目标是控制器 1，没有附加参数。
+应该用于检测玩家是否下注。
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+{"id":13,"targetController":1,"content":{"c":"currentBetsInfo","p":{"bets":[{"bet":100,"betId":1,"currency":"BRL","payout":1.76,"player_id":"62","profileImage":"av-37.png","username":"HIb08","winAmount":176.96},{"bet":98.5,"betId":1,"currency":"BRL","payout":1.87,"player_id":"46","profileImage":"av-32.png","username":"MkDUt","winAmount":184.73},{"bet":96,"betId":1,"currency":"BRL","payout":2.88,"player_id":"123","profileImage":"av-43.png","username":"6WDRB","winAmount":277.22},{"bet":95.19999694824219,"betId":1,"currency":"BRL","payout":1.25,"player_id":"44","profileImage":"av-39.png","username":"UugVh","winAmount":119.87},{"bet":95,"betId":1,"currency":"BRL","payout":5.33,"player_id":"20","profileImage":"av-1.png","username":"m9bbm","winAmount":507.02},{"bet":91,"betId":1,"currency":"BRL","payout":3.7,"player_id":"174","profileImage":"av-37.png","username":"qaVu6","winAmount":337.09},{"bet":87.30000305175781,"betId":1,"currency":"BRL","payout":3.43,"player_id":"82","profileImage":"av-36.png","username":"wVoc2","winAmount":300.1},{"bet":85.19999694824219,"betId":1,"currency":"BRL","payout":2.93,"player_id":"37","profileImage":"av-56.png","username":"bfoXA","winAmount":250.15},{"bet":85.19999694824219,"betId":2,"currency":"BRL","payout":3.58,"player_id":"11","profileImage":"av-9.png","username":"3SFn1","winAmount":305.29},{"bet":85,"betId":1,"currency":"BRL","payout":1.49,"player_id":"53","profileImage":"av-70.png","username":"xZZIK","winAmount":127.4},{"bet":78.9000015258789,"betId":1,"currency":"BRL","payout":1.81,"player_id":"179","profileImage":"av-34.png","username":"kykCg","winAmount":143.13},{"bet":78.69999694824219,"betId":2,"currency":"BRL","payout":2.23,"player_id":"53","profileImage":"av-70.png","username":"xZZIK","winAmount":175.7},{"bet":78.5,"betId":1,"currency":"BRL","payout":1.32,"player_id":"140","profileImage":"av-7.png","username":"d3dV4","winAmount":103.89},{"bet":77,"betId":1,"currency":"BRL","payout":2.05,"player_id":"187","profileImage":"av-48.png","username":"OgVDb","winAmount":158.21},{"bet":77,"betId":1,"currency":"BRL","payout":1.53,"player_id":"31","profileImage":"av-37.png","username":"mQS7Z","winAmount":118.32},{"bet":75,"betId":1,"currency":"BRL","payout":2.52,"player_id":"23","profileImage":"av-70.png","username":"z6KU4","winAmount":189.64},{"bet":74,"betId":1,"currency":"BRL","payout":3.19,"player_id":"127","profileImage":"av-7.png","username":"08mrU","winAmount":236.07},{"bet":74,"betId":2,"currency":"BRL","payout":4.05,"player_id":"77","profileImage":"av-4.png","username":"jFT49","winAmount":300.32},{"bet":73,"betId":1,"currency":"BRL","payout":1.24,"player_id":"27","profileImage":"av-27.png","username":"0NpE2","winAmount":91.16},{"bet":72.9000015258789,"betId":1,"currency":"BRL","payout":2.27,"player_id":"9","profileImage":"av-30.png","username":"NHvZf","winAmount":165.48},{"bet":68,"betId":1,"currency":"BRL","payout":9.46,"player_id":"148","profileImage":"av-30.png","username":"tlLrW","winAmount":643.48},{"bet":66,"betId":1,"currency":"BRL","payout":1.53,"player_id":"14","profileImage":"av-69.png","username":"47omI","winAmount":101.42},{"bet":65,"betId":1,"currency":"BRL","payout":1.29,"player_id":"84","profileImage":"av-29.png","username":"TRVUf","winAmount":83.9},{"bet":62,"betId":1,"currency":"BRL","payout":1.56,"player_id":"102","profileImage":"av-27.png","username":"glJ8F","winAmount":96.87},{"bet":59,"betId":1,"currency":"BRL","payout":1.86,"player_id":"81","profileImage":"av-25.png","username":"YJrbF","winAmount":109.74},{"bet":56.5,"betId":2,"currency":"BRL","payout":3.55,"player_id":"31","profileImage":"av-26.png","username":"AvSZV","winAmount":200.78},{"bet":52,"betId":2,"currency":"BRL","payout":2.07,"player_id":"46","profileImage":"av-32.png","username":"MkDUt","winAmount":107.73},{"bet":52,"betId":1,"currency":"BRL","payout":1.41,"player_id":"24","profileImage":"av-22.png","username":"q6QQD","winAmount":73.54},{"bet":51.5,"betId":1,"currency":"BRL","payout":1.97,"player_id":"120","profileImage":"av-34.png","username":"PFQUQ","winAmount":101.52},{"bet":49.20000076293945,"betId":1,"currency":"BRL","payout":1.72,"player_id":"160","profileImage":"av-52.png","username":"edT1P","winAmount":84.92},{"bet":49.099998474121094,"betId":1,"currency":"BRL","payout":1.82,"player_id":"56","profileImage":"av-38.png","username":"SmGCt","winAmount":89.82},{"bet":49,"betId":2,"currency":"BRL","payout":2.32,"player_id":"20","profileImage":"av-1.png","username":"m9bbm","winAmount":114.03},{"bet":49,"betId":1,"currency":"BRL","payout":1.24,"player_id":"61","profileImage":"av-53.png","username":"PvcA0","winAmount":61.19},{"bet":48.29999923706055,"betId":2,"currency":"BRL","payout":1.52,"player_id":"187","profileImage":"av-48.png","username":"OgVDb","winAmount":73.59},{"bet":48.20000076293945,"betId":2,"currency":"BRL","payout":1.74,"player_id":"26","profileImage":"av-40.png","username":"ZzKJt","winAmount":83.89},{"bet":48,"betId":1,"currency":"BRL","payout":2.86,"player_id":"156","profileImage":"av-29.png","username":"6meNd","winAmount":137.46},{"bet":47.20000076293945,"betId":1,"currency":"BRL","payout":1.46,"player_id":"132","profileImage":"av-36.png","username":"hm8eE","winAmount":69.01},{"bet":44.79999923706055,"betId":2,"currency":"BRL","payout":1.05,"player_id":"175","profileImage":"av-18.png","username":"mpiUG","winAmount":47.38},{"bet":44,"betId":2,"currency":"BRL","payout":1.82,"player_id":"123","profileImage":"av-43.png","username":"6WDRB","winAmount":80.48},{"bet":44,"betId":1,"currency":"BRL","payout":1.37,"player_id":"77","profileImage":"av-31.png","username":"fVRYZ","winAmount":60.7},{"bet":44,"betId":2,"currency":"BRL","payout":1.69,"player_id":"46","profileImage":"av-17.png","username":"cwsC3","winAmount":74.69},{"bet":44,"betId":2,"currency":"BRL","payout":1.1,"player_id":"8","profileImage":"av-70.png","username":"CyO8T","winAmount":48.51},{"bet":41.5,"betId":1,"currency":"BRL","payout":1.87,"player_id":"101","profileImage":"av-54.png","username":"ODhca","winAmount":77.83},{"bet":41.20000076293945,"betId":1,"currency":"BRL","payout":5.99,"player_id":"94","profileImage":"av-50.png","username":"m5iyR","winAmount":246.98},{"bet":41,"betId":1,"currency":"BRL","payout":3.86,"player_id":"8","profileImage":"av-63.png","username":"Dk0wk","winAmount":158.3},{"bet":41,"betId":2,"currency":"BRL","payout":2.21,"player_id":"24","profileImage":"av-30.png","username":"Vz449","winAmount":90.78},{"bet":40.290000915527344,"betId":2,"currency":"BRL","payout":1.86,"player_id":"101","profileImage":"av-54.png","username":"ODhca","winAmount":74.95},{"bet":40,"betId":2,"currency":"BRL","payout":1.25,"player_id":"84","profileImage":"av-29.png","username":"TRVUf","winAmount":50.36},{"bet":40,"betId":1,"currency":"BRL","payout":1.24,"player_id":"5","profileImage":"av-65.png","username":"MxSwk","winAmount":49.95},{"bet":39.599998474121094,"betId":1,"currency":"BRL","payout":2.02,"player_id":"83","profileImage":"av-40.png","username":"fxrRh","winAmount":80.03}],"betsCount":192,"cashOuts":[{"betId":1,"currency":"BRL","multiplier":1.76,"player_id":"62","winAmount":176.96},{"betId":1,"currency":"BRL","multiplier":1.87,"player_id":"46","winAmount":184.73},{"betId":1,"currency":"BRL","multiplier":2.88,"player_id":"123","winAmount":277.22},{"betId":1,"currency":"BRL","multiplier":1.25,"player_id":"44","winAmount":119.87},{"betId":1,"currency":"BRL","multiplier":5.33,"player_id":"20","winAmount":507.02},{"betId":1,"currency":"BRL","multiplier":3.7,"player_id":"174","winAmount":337.09},{"betId":1,"currency":"BRL","multiplier":3.43,"player_id":"82","winAmount":300.1},{"betId":1,"currency":"BRL","multiplier":2.93,"player_id":"37","winAmount":250.15},{"betId":2,"currency":"BRL","multiplier":3.58,"player_id":"11","winAmount":305.29},{"betId":1,"currency":"BRL","multiplier":1.49,"player_id":"53","winAmount":127.4},{"betId":1,"currency":"BRL","multiplier":1.81,"player_id":"179","winAmount":143.13},{"betId":2,"currency":"BRL","multiplier":2.23,"player_id":"53","winAmount":175.7},{"betId":1,"currency":"BRL","multiplier":1.32,"player_id":"140","winAmount":103.89},{"betId":1,"currency":"BRL","multiplier":2.05,"player_id":"187","winAmount":158.21},{"betId":1,"currency":"BRL","multiplier":1.53,"player_id":"31","winAmount":118.32},{"betId":1,"currency":"BRL","multiplier":2.52,"player_id":"23","winAmount":189.64},{"betId":1,"currency":"BRL","multiplier":3.19,"player_id":"127","winAmount":236.07},{"betId":2,"currency":"BRL","multiplier":4.05,"player_id":"77","winAmount":300.32},{"betId":1,"currency":"BRL","multiplier":1.24,"player_id":"27","winAmount":91.16},{"betId":1,"currency":"BRL","multiplier":2.27,"player_id":"9","winAmount":165.48},{"betId":1,"currency":"BRL","multiplier":9.46,"player_id":"148","winAmount":643.48},{"betId":1,"currency":"BRL","multiplier":1.53,"player_id":"14","winAmount":101.42},{"betId":1,"currency":"BRL","multiplier":1.29,"player_id":"84","winAmount":83.9},{"betId":1,"currency":"BRL","multiplier":1.56,"player_id":"102","winAmount":96.87},{"betId":1,"currency":"BRL","multiplier":1.86,"player_id":"81","winAmount":109.74},{"betId":2,"currency":"BRL","multiplier":3.55,"player_id":"31","winAmount":200.78},{"betId":2,"currency":"BRL","multiplier":2.07,"player_id":"46","winAmount":107.73},{"betId":1,"currency":"BRL","multiplier":1.41,"player_id":"24","winAmount":73.54},{"betId":1,"currency":"BRL","multiplier":1.97,"player_id":"120","winAmount":101.52},{"betId":1,"currency":"BRL","multiplier":1.72,"player_id":"160","winAmount":84.92},{"betId":1,"currency":"BRL","multiplier":1.82,"player_id":"56","winAmount":89.82},{"betId":2,"currency":"BRL","multiplier":2.32,"player_id":"20","winAmount":114.03},{"betId":1,"currency":"BRL","multiplier":1.24,"player_id":"61","winAmount":61.19},{"betId":2,"currency":"BRL","multiplier":1.52,"player_id":"187","winAmount":73.59},{"betId":2,"currency":"BRL","multiplier":1.74,"player_id":"26","winAmount":83.89},{"betId":1,"currency":"BRL","multiplier":2.86,"player_id":"156","winAmount":137.46},{"betId":1,"currency":"BRL","multiplier":1.46,"player_id":"132","winAmount":69.01},{"betId":2,"currency":"BRL","multiplier":1.05,"player_id":"175","winAmount":47.38},{"betId":2,"currency":"BRL","multiplier":1.82,"player_id":"123","winAmount":80.48},{"betId":1,"currency":"BRL","multiplier":1.37,"player_id":"77","winAmount":60.7},{"betId":2,"currency":"BRL","multiplier":1.69,"player_id":"46","winAmount":74.69},{"betId":2,"currency":"BRL","multiplier":1.1,"player_id":"8","winAmount":48.51},{"betId":1,"currency":"BRL","multiplier":1.87,"player_id":"101","winAmount":77.83},{"betId":1,"currency":"BRL","multiplier":5.99,"player_id":"94","winAmount":246.98},{"betId":1,"currency":"BRL","multiplier":3.86,"player_id":"8","winAmount":158.3},{"betId":2,"currency":"BRL","multiplier":2.21,"player_id":"24","winAmount":90.78},{"betId":2,"currency":"BRL","multiplier":1.86,"player_id":"101","winAmount":74.95},{"betId":2,"currency":"BRL","multiplier":1.25,"player_id":"84","winAmount":50.36},{"betId":1,"currency":"BRL","multiplier":1.24,"player_id":"5","winAmount":49.95},{"betId":1,"currency":"BRL","multiplier":2.02,"player_id":"83","winAmount":80.03}],"code":200}}}
+
+{
+    "id": 13,
+    "targetController": 1,
+    "content": {
+        "c": "currentBetsInfo",
+        "p": {
+            "bets": [{
+                "bet": 100,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 1.76,
+                "player_id": "62",
+                "profileImage": "av-37.png",
+                "username": "HIb08",
+                "winAmount": 176.96
+            }, {
+                "bet": 98.5,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 1.87,
+                "player_id": "46",
+                "profileImage": "av-32.png",
+                "username": "MkDUt",
+                "winAmount": 184.73
+            }, {
+                "bet": 96,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 2.88,
+                "player_id": "123",
+                "profileImage": "av-43.png",
+                "username": "6WDRB",
+                "winAmount": 277.22
+            }, {
+                "bet": 95.19999694824219,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 1.25,
+                "player_id": "44",
+                "profileImage": "av-39.png",
+                "username": "UugVh",
+                "winAmount": 119.87
+            }, {
+                "bet": 95,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 5.33,
+                "player_id": "20",
+                "profileImage": "av-1.png",
+                "username": "m9bbm",
+                "winAmount": 507.02
+            }, {
+                "bet": 91,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 3.7,
+                "player_id": "174",
+                "profileImage": "av-37.png",
+                "username": "qaVu6",
+                "winAmount": 337.09
+            }, {
+                "bet": 87.30000305175781,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 3.43,
+                "player_id": "82",
+                "profileImage": "av-36.png",
+                "username": "wVoc2",
+                "winAmount": 300.1
+            }, {
+                "bet": 85.19999694824219,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 2.93,
+                "player_id": "37",
+                "profileImage": "av-56.png",
+                "username": "bfoXA",
+                "winAmount": 250.15
+            }, {
+                "bet": 85.19999694824219,
+                "betId": 2,
+                "currency": "BRL",
+                "payout": 3.58,
+                "player_id": "11",
+                "profileImage": "av-9.png",
+                "username": "3SFn1",
+                "winAmount": 305.29
+            }, {
+                "bet": 85,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 1.49,
+                "player_id": "53",
+                "profileImage": "av-70.png",
+                "username": "xZZIK",
+                "winAmount": 127.4
+            }, {
+                "bet": 78.9000015258789,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 1.81,
+                "player_id": "179",
+                "profileImage": "av-34.png",
+                "username": "kykCg",
+                "winAmount": 143.13
+            }, {
+                "bet": 78.69999694824219,
+                "betId": 2,
+                "currency": "BRL",
+                "payout": 2.23,
+                "player_id": "53",
+                "profileImage": "av-70.png",
+                "username": "xZZIK",
+                "winAmount": 175.7
+            }, {
+                "bet": 78.5,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 1.32,
+                "player_id": "140",
+                "profileImage": "av-7.png",
+                "username": "d3dV4",
+                "winAmount": 103.89
+            }, {
+                "bet": 77,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 2.05,
+                "player_id": "187",
+                "profileImage": "av-48.png",
+                "username": "OgVDb",
+                "winAmount": 158.21
+            }, {
+                "bet": 77,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 1.53,
+                "player_id": "31",
+                "profileImage": "av-37.png",
+                "username": "mQS7Z",
+                "winAmount": 118.32
+            }, {
+                "bet": 75,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 2.52,
+                "player_id": "23",
+                "profileImage": "av-70.png",
+                "username": "z6KU4",
+                "winAmount": 189.64
+            }, {
+                "bet": 74,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 3.19,
+                "player_id": "127",
+                "profileImage": "av-7.png",
+                "username": "08mrU",
+                "winAmount": 236.07
+            }, {
+                "bet": 74,
+                "betId": 2,
+                "currency": "BRL",
+                "payout": 4.05,
+                "player_id": "77",
+                "profileImage": "av-4.png",
+                "username": "jFT49",
+                "winAmount": 300.32
+            }, {
+                "bet": 73,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 1.24,
+                "player_id": "27",
+                "profileImage": "av-27.png",
+                "username": "0NpE2",
+                "winAmount": 91.16
+            }, {
+                "bet": 72.9000015258789,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 2.27,
+                "player_id": "9",
+                "profileImage": "av-30.png",
+                "username": "NHvZf",
+                "winAmount": 165.48
+            }, {
+                "bet": 68,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 9.46,
+                "player_id": "148",
+                "profileImage": "av-30.png",
+                "username": "tlLrW",
+                "winAmount": 643.48
+            }, {
+                "bet": 66,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 1.53,
+                "player_id": "14",
+                "profileImage": "av-69.png",
+                "username": "47omI",
+                "winAmount": 101.42
+            }, {
+                "bet": 65,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 1.29,
+                "player_id": "84",
+                "profileImage": "av-29.png",
+                "username": "TRVUf",
+                "winAmount": 83.9
+            }, {
+                "bet": 62,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 1.56,
+                "player_id": "102",
+                "profileImage": "av-27.png",
+                "username": "glJ8F",
+                "winAmount": 96.87
+            }, {
+                "bet": 59,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 1.86,
+                "player_id": "81",
+                "profileImage": "av-25.png",
+                "username": "YJrbF",
+                "winAmount": 109.74
+            }, {
+                "bet": 56.5,
+                "betId": 2,
+                "currency": "BRL",
+                "payout": 3.55,
+                "player_id": "31",
+                "profileImage": "av-26.png",
+                "username": "AvSZV",
+                "winAmount": 200.78
+            }, {
+                "bet": 52,
+                "betId": 2,
+                "currency": "BRL",
+                "payout": 2.07,
+                "player_id": "46",
+                "profileImage": "av-32.png",
+                "username": "MkDUt",
+                "winAmount": 107.73
+            }, {
+                "bet": 52,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 1.41,
+                "player_id": "24",
+                "profileImage": "av-22.png",
+                "username": "q6QQD",
+                "winAmount": 73.54
+            }, {
+                "bet": 51.5,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 1.97,
+                "player_id": "120",
+                "profileImage": "av-34.png",
+                "username": "PFQUQ",
+                "winAmount": 101.52
+            }, {
+                "bet": 49.20000076293945,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 1.72,
+                "player_id": "160",
+                "profileImage": "av-52.png",
+                "username": "edT1P",
+                "winAmount": 84.92
+            }, {
+                "bet": 49.099998474121094,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 1.82,
+                "player_id": "56",
+                "profileImage": "av-38.png",
+                "username": "SmGCt",
+                "winAmount": 89.82
+            }, {
+                "bet": 49,
+                "betId": 2,
+                "currency": "BRL",
+                "payout": 2.32,
+                "player_id": "20",
+                "profileImage": "av-1.png",
+                "username": "m9bbm",
+                "winAmount": 114.03
+            }, {
+                "bet": 49,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 1.24,
+                "player_id": "61",
+                "profileImage": "av-53.png",
+                "username": "PvcA0",
+                "winAmount": 61.19
+            }, {
+                "bet": 48.29999923706055,
+                "betId": 2,
+                "currency": "BRL",
+                "payout": 1.52,
+                "player_id": "187",
+                "profileImage": "av-48.png",
+                "username": "OgVDb",
+                "winAmount": 73.59
+            }, {
+                "bet": 48.20000076293945,
+                "betId": 2,
+                "currency": "BRL",
+                "payout": 1.74,
+                "player_id": "26",
+                "profileImage": "av-40.png",
+                "username": "ZzKJt",
+                "winAmount": 83.89
+            }, {
+                "bet": 48,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 2.86,
+                "player_id": "156",
+                "profileImage": "av-29.png",
+                "username": "6meNd",
+                "winAmount": 137.46
+            }, {
+                "bet": 47.20000076293945,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 1.46,
+                "player_id": "132",
+                "profileImage": "av-36.png",
+                "username": "hm8eE",
+                "winAmount": 69.01
+            }, {
+                "bet": 44.79999923706055,
+                "betId": 2,
+                "currency": "BRL",
+                "payout": 1.05,
+                "player_id": "175",
+                "profileImage": "av-18.png",
+                "username": "mpiUG",
+                "winAmount": 47.38
+            }, {
+                "bet": 44,
+                "betId": 2,
+                "currency": "BRL",
+                "payout": 1.82,
+                "player_id": "123",
+                "profileImage": "av-43.png",
+                "username": "6WDRB",
+                "winAmount": 80.48
+            }, {
+                "bet": 44,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 1.37,
+                "player_id": "77",
+                "profileImage": "av-31.png",
+                "username": "fVRYZ",
+                "winAmount": 60.7
+            }, {
+                "bet": 44,
+                "betId": 2,
+                "currency": "BRL",
+                "payout": 1.69,
+                "player_id": "46",
+                "profileImage": "av-17.png",
+                "username": "cwsC3",
+                "winAmount": 74.69
+            }, {
+                "bet": 44,
+                "betId": 2,
+                "currency": "BRL",
+                "payout": 1.1,
+                "player_id": "8",
+                "profileImage": "av-70.png",
+                "username": "CyO8T",
+                "winAmount": 48.51
+            }, {
+                "bet": 41.5,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 1.87,
+                "player_id": "101",
+                "profileImage": "av-54.png",
+                "username": "ODhca",
+                "winAmount": 77.83
+            }, {
+                "bet": 41.20000076293945,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 5.99,
+                "player_id": "94",
+                "profileImage": "av-50.png",
+                "username": "m5iyR",
+                "winAmount": 246.98
+            }, {
+                "bet": 41,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 3.86,
+                "player_id": "8",
+                "profileImage": "av-63.png",
+                "username": "Dk0wk",
+                "winAmount": 158.3
+            }, {
+                "bet": 41,
+                "betId": 2,
+                "currency": "BRL",
+                "payout": 2.21,
+                "player_id": "24",
+                "profileImage": "av-30.png",
+                "username": "Vz449",
+                "winAmount": 90.78
+            }, {
+                "bet": 40.290000915527344,
+                "betId": 2,
+                "currency": "BRL",
+                "payout": 1.86,
+                "player_id": "101",
+                "profileImage": "av-54.png",
+                "username": "ODhca",
+                "winAmount": 74.95
+            }, {
+                "bet": 40,
+                "betId": 2,
+                "currency": "BRL",
+                "payout": 1.25,
+                "player_id": "84",
+                "profileImage": "av-29.png",
+                "username": "TRVUf",
+                "winAmount": 50.36
+            }, {
+                "bet": 40,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 1.24,
+                "player_id": "5",
+                "profileImage": "av-65.png",
+                "username": "MxSwk",
+                "winAmount": 49.95
+            }, {
+                "bet": 39.599998474121094,
+                "betId": 1,
+                "currency": "BRL",
+                "payout": 2.02,
+                "player_id": "83",
+                "profileImage": "av-40.png",
+                "username": "fxrRh",
+                "winAmount": 80.03
+            }],
+            "betsCount": 192,
+            "cashOuts": [{
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 1.76,
+                "player_id": "62",
+                "winAmount": 176.96
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 1.87,
+                "player_id": "46",
+                "winAmount": 184.73
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 2.88,
+                "player_id": "123",
+                "winAmount": 277.22
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 1.25,
+                "player_id": "44",
+                "winAmount": 119.87
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 5.33,
+                "player_id": "20",
+                "winAmount": 507.02
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 3.7,
+                "player_id": "174",
+                "winAmount": 337.09
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 3.43,
+                "player_id": "82",
+                "winAmount": 300.1
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 2.93,
+                "player_id": "37",
+                "winAmount": 250.15
+            }, {
+                "betId": 2,
+                "currency": "BRL",
+                "multiplier": 3.58,
+                "player_id": "11",
+                "winAmount": 305.29
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 1.49,
+                "player_id": "53",
+                "winAmount": 127.4
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 1.81,
+                "player_id": "179",
+                "winAmount": 143.13
+            }, {
+                "betId": 2,
+                "currency": "BRL",
+                "multiplier": 2.23,
+                "player_id": "53",
+                "winAmount": 175.7
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 1.32,
+                "player_id": "140",
+                "winAmount": 103.89
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 2.05,
+                "player_id": "187",
+                "winAmount": 158.21
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 1.53,
+                "player_id": "31",
+                "winAmount": 118.32
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 2.52,
+                "player_id": "23",
+                "winAmount": 189.64
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 3.19,
+                "player_id": "127",
+                "winAmount": 236.07
+            }, {
+                "betId": 2,
+                "currency": "BRL",
+                "multiplier": 4.05,
+                "player_id": "77",
+                "winAmount": 300.32
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 1.24,
+                "player_id": "27",
+                "winAmount": 91.16
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 2.27,
+                "player_id": "9",
+                "winAmount": 165.48
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 9.46,
+                "player_id": "148",
+                "winAmount": 643.48
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 1.53,
+                "player_id": "14",
+                "winAmount": 101.42
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 1.29,
+                "player_id": "84",
+                "winAmount": 83.9
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 1.56,
+                "player_id": "102",
+                "winAmount": 96.87
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 1.86,
+                "player_id": "81",
+                "winAmount": 109.74
+            }, {
+                "betId": 2,
+                "currency": "BRL",
+                "multiplier": 3.55,
+                "player_id": "31",
+                "winAmount": 200.78
+            }, {
+                "betId": 2,
+                "currency": "BRL",
+                "multiplier": 2.07,
+                "player_id": "46",
+                "winAmount": 107.73
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 1.41,
+                "player_id": "24",
+                "winAmount": 73.54
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 1.97,
+                "player_id": "120",
+                "winAmount": 101.52
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 1.72,
+                "player_id": "160",
+                "winAmount": 84.92
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 1.82,
+                "player_id": "56",
+                "winAmount": 89.82
+            }, {
+                "betId": 2,
+                "currency": "BRL",
+                "multiplier": 2.32,
+                "player_id": "20",
+                "winAmount": 114.03
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 1.24,
+                "player_id": "61",
+                "winAmount": 61.19
+            }, {
+                "betId": 2,
+                "currency": "BRL",
+                "multiplier": 1.52,
+                "player_id": "187",
+                "winAmount": 73.59
+            }, {
+                "betId": 2,
+                "currency": "BRL",
+                "multiplier": 1.74,
+                "player_id": "26",
+                "winAmount": 83.89
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 2.86,
+                "player_id": "156",
+                "winAmount": 137.46
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 1.46,
+                "player_id": "132",
+                "winAmount": 69.01
+            }, {
+                "betId": 2,
+                "currency": "BRL",
+                "multiplier": 1.05,
+                "player_id": "175",
+                "winAmount": 47.38
+            }, {
+                "betId": 2,
+                "currency": "BRL",
+                "multiplier": 1.82,
+                "player_id": "123",
+                "winAmount": 80.48
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 1.37,
+                "player_id": "77",
+                "winAmount": 60.7
+            }, {
+                "betId": 2,
+                "currency": "BRL",
+                "multiplier": 1.69,
+                "player_id": "46",
+                "winAmount": 74.69
+            }, {
+                "betId": 2,
+                "currency": "BRL",
+                "multiplier": 1.1,
+                "player_id": "8",
+                "winAmount": 48.51
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 1.87,
+                "player_id": "101",
+                "winAmount": 77.83
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 5.99,
+                "player_id": "94",
+                "winAmount": 246.98
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 3.86,
+                "player_id": "8",
+                "winAmount": 158.3
+            }, {
+                "betId": 2,
+                "currency": "BRL",
+                "multiplier": 2.21,
+                "player_id": "24",
+                "winAmount": 90.78
+            }, {
+                "betId": 2,
+                "currency": "BRL",
+                "multiplier": 1.86,
+                "player_id": "101",
+                "winAmount": 74.95
+            }, {
+                "betId": 2,
+                "currency": "BRL",
+                "multiplier": 1.25,
+                "player_id": "84",
+                "winAmount": 50.36
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 1.24,
+                "player_id": "5",
+                "winAmount": 49.95
+            }, {
+                "betId": 1,
+                "currency": "BRL",
+                "multiplier": 2.02,
+                "player_id": "83",
+                "winAmount": 80.03
+            }],
+            "code": 200
+        }
+    }
+}
+
+接收阶段：等待阶段
+外层结构:
+id: 13
+targetController: 1
+content: 这是一个包含子结构的对象
+content 对象:
+c: "currentBetsInfo"，表示当前的下注信息
+p: 这是一个包含多个属性的对象
+p 对象:
+bets: 这是一个数组，包含了多个下注记录，每个记录包含以下字段：
+bet: 下注金额
+betId: 下注ID
+currency: 货币单位，这里是BRL（巴西雷亚尔）
+payout: 赔率
+player_id: 玩家ID
+profileImage: 玩家头像
+username: 玩家用户名
+winAmount: 赢取金额
+betsCount: 总的下注次数，这里是192
+cashOuts: 这也是一个数组，包含了现金提取记录，每个记录包含以下字段：
+betId: 下注ID
+currency: 货币单位
+multiplier: 倍数
+player_id: 玩家ID
+winAmount: 赢取金额
+code: 200，表示请求成功
+详细解析
+下注记录（bets）:
+每个下注记录都包含了玩家下注的详细信息，比如下注金额、赔率、玩家ID等。
+例如，第一条记录：
+
+{
+  "bet": 100,
+  "betId": 1,
+  "currency": "BRL",
+  "payout": 1.76,
+  "player_id": "62",
+  "profileImage": "av-37.png",
+  "username": "HIb08",
+  "winAmount": 176.96
+}
+玩家ID为62的用户下注了100 BRL，赔率为1.76，最终赢取了176.96 BRL。
+现金提取记录（cashOuts）:
+每个现金提取记录包含了玩家提现的详细信息。
+例如，第一条记录：
+
+{
+  "betId": 1,
+  "currency": "BRL",
+  "multiplier": 1.76,
+  "player_id": "62",
+  "winAmount": 176.96
+}
+这与bets中的第一条记录对应，玩家ID为62的用户提取了176.96 BRL，倍数为1.76。
+总结
+这个数据结构主要包含了当前的下注信息和现金提取记录。
+每个下注和提现都关联到特定的玩家和金额。
+货币单位统一为BRL（巴西雷亚尔）。
+总共记录了192次下注。
+此条记录应该用于“上一手”功能的数据查看
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+{"id":13,"targetController":1,"content":{"c":"changeState","p":{"newStateId":1,"code":200,"roundId":1320758,"timeLeft":6000}}}
+
+{
+    "id": 13,
+    "targetController": 1,
+    "content": {
+        "c": "changeState",
+        "p": {
+            "newStateId": 1,
+            "code": 200,
+            "roundId": 1320758,
+            "timeLeft": 6000
+        }
+    }
+}
+
+接收阶段：等待阶段
+"id": 13,表示这个数据的唯一标识符是 13。
+"targetController": 1,表示这个数据的目标控制器编号为 1。
+"content" 是一个对象,包含了数据的具体内容:
+"c": "changeState" 表示这个数据的操作是改变状态(change state)。
+"p" 是一个对象,包含了改变状态操作的参数(parameters):
+"newStateId": 1 表示新的状态 ID 为 1。
+"code": 200 表示操作的状态码为 200,通常表示操作成功。
+"roundId": 1320758 表示当前的回合(round)ID 为 1320758。
+"timeLeft": 6000 表示剩余时间为 6000,可能是毫秒(ms)。
+综上,这个 JSON 数据描述了一个改变状态的操作,将状态改变为 ID 为 1 的新状态,操作成功(状态码 200),当前回合 ID 为 1320758,剩余时间 6000 毫秒。这可能是某个游戏或应用程序中的一个状态更新事件。
+此条记录应该用于新的回合开始，正式进入等待阶段6秒。
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+{"id":13,"targetController":1,"content":{"c":"updateCurrentBets","p":{"betsCount":1,"code":200}}}
+
+{
+    "id": 13,
+    "targetController": 1,
+    "content": {
+        "c": "updateCurrentBets",
+        "p": {
+            "betsCount": 1,
+            "code": 200
+        }
+    }
+}
+
+接收阶段：等待阶段
+顶级结构:
+"id": 13： 消息的唯一标识符。这通常用于跟踪请求和响应，尤其是在异步通信中。
+"targetController": 1： 指定消息的目标控制器。这类似于在一个应用程序中，不同的部分（控制器）处理不同的任务。这里，消息是发给ID为1的控制器。
+"content": { ... }： 消息的主要内容。
+content 内部:
+"c": "updateCurrentBets"： 指定要执行的操作或命令的名称。 这里，命令是 "updateCurrentBets"，很可能表示更新当前的赌注信息。
+"p": { ... }： "p" 通常代表 "parameters"（参数），也就是与命令一起发送的数据。
+p (参数) 内部:
+"betsCount": 1： 表示当前的赌注数量为1。
+"code": 200： 这通常是一个状态码。 HTTP状态码200通常表示 "OK"（成功）。 在这里，它可能表示操作成功完成。
+此条记录应该用于等待阶段是开始有玩家投注的通知。
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+{"id":13,"targetController":1,"content":{"c":"updateCurrentBets","p":{"bets":[{"bet":100,"player_id":"113","betId":1,"currency":"BRL","profileImage":"av-49.png","username":"oneQf"},{"bet":100,"player_id":"28","betId":1,"currency":"BRL","profileImage":"av-46.png","username":"DvQZW"},{"bet":100,"player_id":"151","betId":1,"currency":"BRL","profileImage":"av-23.png","username":"hQEoh"},{"bet":100,"player_id":"157","betId":1,"currency":"BRL","profileImage":"av-38.png","username":"Mw089"},{"bet":100,"player_id":"41","betId":1,"currency":"BRL","profileImage":"av-36.png","username":"qTz9E"},{"bet":100,"player_id":"162","betId":1,"currency":"BRL","profileImage":"av-69.png","username":"lLVTD"},{"bet":100,"player_id":"36","betId":1,"currency":"BRL","profileImage":"av-8.png","username":"sgxlC"},{"bet":98,"player_id":"33","betId":1,"currency":"BRL","profileImage":"av-51.png","username":"bo23D"},{"bet":97.4,"player_id":"23","betId":1,"currency":"BRL","profileImage":"av-51.png","username":"igWsG"},{"bet":97,"player_id":"118","betId":1,"currency":"BRL","profileImage":"av-58.png","username":"KW46X"},{"bet":93,"player_id":"8","betId":1,"currency":"BRL","profileImage":"av-55.png","username":"intrP"},{"bet":91,"player_id":"112","betId":1,"currency":"BRL","profileImage":"av-61.png","username":"sTZlN"},{"bet":90.7,"player_id":"7","betId":1,"currency":"BRL","profileImage":"av-14.png","username":"7giXv"},{"bet":90.4,"player_id":"18","betId":1,"currency":"BRL","profileImage":"av-29.png","username":"G0b9e"},{"bet":90,"player_id":"96","betId":1,"currency":"BRL","profileImage":"av-18.png","username":"78KGi"},{"bet":88,"player_id":"177","betId":1,"currency":"BRL","profileImage":"av-28.png","username":"RbtDZ"},{"bet":85,"player_id":"176","betId":1,"currency":"BRL","profileImage":"av-14.png","username":"FAOXd"},{"bet":83,"player_id":"69","betId":1,"currency":"BRL","profileImage":"av-15.png","username":"w4meo"},{"bet":82,"player_id":"62","betId":1,"currency":"BRL","profileImage":"av-3.png","username":"TG1EJ"},{"bet":81.7,"player_id":"152","betId":1,"currency":"BRL","profileImage":"av-7.png","username":"b5RyB"},{"bet":81,"player_id":"185","betId":1,"currency":"BRL","profileImage":"av-47.png","username":"fDWbt"},{"bet":79,"player_id":"123","betId":1,"currency":"BRL","profileImage":"av-41.png","username":"pqqcI"},{"bet":78.5,"player_id":"177","betId":2,"currency":"BRL","profileImage":"av-28.png","username":"RbtDZ"},{"bet":77,"player_id":"124","betId":1,"currency":"BRL","profileImage":"av-66.png","username":"PPP2f"},{"bet":76.5,"player_id":"62","betId":2,"currency":"BRL","profileImage":"av-3.png","username":"TG1EJ"},{"bet":76,"player_id":"194","betId":1,"currency":"BRL","profileImage":"av-62.png","username":"G6Tc7"},{"bet":74.8,"player_id":"102","betId":1,"currency":"BRL","profileImage":"av-12.png","username":"iWncA"},{"bet":74.7,"player_id":"93","betId":1,"currency":"BRL","profileImage":"av-53.png","username":"P1Lo8"},{"bet":74.3,"player_id":"135","betId":1,"currency":"BRL","profileImage":"av-57.png","username":"W8Oyo"},{"bet":73.9,"player_id":"183","betId":1,"currency":"BRL","profileImage":"av-12.png","username":"qpnlh"},{"bet":73,"player_id":"62","betId":2,"currency":"BRL","profileImage":"av-64.png","username":"HqvMR"},{"bet":72,"player_id":"182","betId":1,"currency":"BRL","profileImage":"av-53.png","username":"dK896"},{"bet":68,"player_id":"18","betId":2,"currency":"BRL","profileImage":"av-3.png","username":"wIKAO"},{"bet":66.9,"player_id":"88","betId":1,"currency":"BRL","profileImage":"av-70.png","username":"rvhXU"},{"bet":65.9,"player_id":"90","betId":1,"currency":"BRL","profileImage":"av-42.png","username":"CXJZt"},{"bet":65.5,"player_id":"1","betId":1,"currency":"BRL","profileImage":"av-47.png","username":"CUL8g"},{"bet":65.09,"player_id":"60","betId":1,"currency":"BRL","profileImage":"av-7.png","username":"lK1nT"},{"bet":63.2,"player_id":"111","betId":1,"currency":"BRL","profileImage":"av-24.png","username":"KuG3F"},{"bet":62.5,"player_id":"48","betId":1,"currency":"BRL","profileImage":"av-38.png","username":"Sh0ru"},{"bet":59.7,"player_id":"33","betId":2,"currency":"BRL","profileImage":"av-51.png","username":"bo23D"},{"bet":59.5,"player_id":"116","betId":1,"currency":"BRL","profileImage":"av-25.png","username":"ZWPeW"},{"bet":57.8,"player_id":"20","betId":1,"currency":"BRL","profileImage":"av-3.png","username":"j8x5Q"},{"bet":56.6,"player_id":"201","betId":1,"currency":"BRL","profileImage":"av-21.png","username":"iSW4y"},{"bet":53.4,"player_id":"18","betId":2,"currency":"BRL","profileImage":"av-29.png","username":"G0b9e"},{"bet":53,"player_id":"50","betId":1,"currency":"BRL","profileImage":"av-37.png","username":"2UdvR"},{"bet":53,"player_id":"14","betId":1,"currency":"BRL","profileImage":"av-24.png","username":"eIXb2"},{"bet":53,"player_id":"165","betId":1,"currency":"BRL","profileImage":"av-46.png","username":"HcrYS"},{"bet":52,"player_id":"97","betId":1,"currency":"BRL","profileImage":"av-22.png","username":"oKmsB"},{"bet":51.5,"player_id":"151","betId":2,"currency":"BRL","profileImage":"av-23.png","username":"hQEoh"},{"bet":49.3,"player_id":"195","betId":1,"currency":"BRL","profileImage":"av-30.png","username":"b47Yp"}],"betsCount":144,"code":200}}}
+
+{
+    "id": 13,
+    "targetController": 1,
+    "content": {
+        "c": "updateCurrentBets",
+        "p": {
+            "bets": [{
+                "bet": 100,
+                "player_id": "113",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-49.png",
+                "username": "oneQf"
+            }, {
+                "bet": 100,
+                "player_id": "28",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-46.png",
+                "username": "DvQZW"
+            }, {
+                "bet": 100,
+                "player_id": "151",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-23.png",
+                "username": "hQEoh"
+            }, {
+                "bet": 100,
+                "player_id": "157",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-38.png",
+                "username": "Mw089"
+            }, {
+                "bet": 100,
+                "player_id": "41",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-36.png",
+                "username": "qTz9E"
+            }, {
+                "bet": 100,
+                "player_id": "162",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-69.png",
+                "username": "lLVTD"
+            }, {
+                "bet": 100,
+                "player_id": "36",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-8.png",
+                "username": "sgxlC"
+            }, {
+                "bet": 98,
+                "player_id": "33",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-51.png",
+                "username": "bo23D"
+            }, {
+                "bet": 97.4,
+                "player_id": "23",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-51.png",
+                "username": "igWsG"
+            }, {
+                "bet": 97,
+                "player_id": "118",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-58.png",
+                "username": "KW46X"
+            }, {
+                "bet": 93,
+                "player_id": "8",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-55.png",
+                "username": "intrP"
+            }, {
+                "bet": 91,
+                "player_id": "112",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-61.png",
+                "username": "sTZlN"
+            }, {
+                "bet": 90.7,
+                "player_id": "7",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-14.png",
+                "username": "7giXv"
+            }, {
+                "bet": 90.4,
+                "player_id": "18",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-29.png",
+                "username": "G0b9e"
+            }, {
+                "bet": 90,
+                "player_id": "96",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-18.png",
+                "username": "78KGi"
+            }, {
+                "bet": 88,
+                "player_id": "177",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-28.png",
+                "username": "RbtDZ"
+            }, {
+                "bet": 85,
+                "player_id": "176",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-14.png",
+                "username": "FAOXd"
+            }, {
+                "bet": 83,
+                "player_id": "69",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-15.png",
+                "username": "w4meo"
+            }, {
+                "bet": 82,
+                "player_id": "62",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-3.png",
+                "username": "TG1EJ"
+            }, {
+                "bet": 81.7,
+                "player_id": "152",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-7.png",
+                "username": "b5RyB"
+            }, {
+                "bet": 81,
+                "player_id": "185",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-47.png",
+                "username": "fDWbt"
+            }, {
+                "bet": 79,
+                "player_id": "123",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-41.png",
+                "username": "pqqcI"
+            }, {
+                "bet": 78.5,
+                "player_id": "177",
+                "betId": 2,
+                "currency": "BRL",
+                "profileImage": "av-28.png",
+                "username": "RbtDZ"
+            }, {
+                "bet": 77,
+                "player_id": "124",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-66.png",
+                "username": "PPP2f"
+            }, {
+                "bet": 76.5,
+                "player_id": "62",
+                "betId": 2,
+                "currency": "BRL",
+                "profileImage": "av-3.png",
+                "username": "TG1EJ"
+            }, {
+                "bet": 76,
+                "player_id": "194",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-62.png",
+                "username": "G6Tc7"
+            }, {
+                "bet": 74.8,
+                "player_id": "102",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-12.png",
+                "username": "iWncA"
+            }, {
+                "bet": 74.7,
+                "player_id": "93",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-53.png",
+                "username": "P1Lo8"
+            }, {
+                "bet": 74.3,
+                "player_id": "135",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-57.png",
+                "username": "W8Oyo"
+            }, {
+                "bet": 73.9,
+                "player_id": "183",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-12.png",
+                "username": "qpnlh"
+            }, {
+                "bet": 73,
+                "player_id": "62",
+                "betId": 2,
+                "currency": "BRL",
+                "profileImage": "av-64.png",
+                "username": "HqvMR"
+            }, {
+                "bet": 72,
+                "player_id": "182",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-53.png",
+                "username": "dK896"
+            }, {
+                "bet": 68,
+                "player_id": "18",
+                "betId": 2,
+                "currency": "BRL",
+                "profileImage": "av-3.png",
+                "username": "wIKAO"
+            }, {
+                "bet": 66.9,
+                "player_id": "88",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-70.png",
+                "username": "rvhXU"
+            }, {
+                "bet": 65.9,
+                "player_id": "90",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-42.png",
+                "username": "CXJZt"
+            }, {
+                "bet": 65.5,
+                "player_id": "1",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-47.png",
+                "username": "CUL8g"
+            }, {
+                "bet": 65.09,
+                "player_id": "60",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-7.png",
+                "username": "lK1nT"
+            }, {
+                "bet": 63.2,
+                "player_id": "111",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-24.png",
+                "username": "KuG3F"
+            }, {
+                "bet": 62.5,
+                "player_id": "48",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-38.png",
+                "username": "Sh0ru"
+            }, {
+                "bet": 59.7,
+                "player_id": "33",
+                "betId": 2,
+                "currency": "BRL",
+                "profileImage": "av-51.png",
+                "username": "bo23D"
+            }, {
+                "bet": 59.5,
+                "player_id": "116",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-25.png",
+                "username": "ZWPeW"
+            }, {
+                "bet": 57.8,
+                "player_id": "20",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-3.png",
+                "username": "j8x5Q"
+            }, {
+                "bet": 56.6,
+                "player_id": "201",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-21.png",
+                "username": "iSW4y"
+            }, {
+                "bet": 53.4,
+                "player_id": "18",
+                "betId": 2,
+                "currency": "BRL",
+                "profileImage": "av-29.png",
+                "username": "G0b9e"
+            }, {
+                "bet": 53,
+                "player_id": "50",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-37.png",
+                "username": "2UdvR"
+            }, {
+                "bet": 53,
+                "player_id": "14",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-24.png",
+                "username": "eIXb2"
+            }, {
+                "bet": 53,
+                "player_id": "165",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-46.png",
+                "username": "HcrYS"
+            }, {
+                "bet": 52,
+                "player_id": "97",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-22.png",
+                "username": "oKmsB"
+            }, {
+                "bet": 51.5,
+                "player_id": "151",
+                "betId": 2,
+                "currency": "BRL",
+                "profileImage": "av-23.png",
+                "username": "hQEoh"
+            }, {
+                "bet": 49.3,
+                "player_id": "195",
+                "betId": 1,
+                "currency": "BRL",
+                "profileImage": "av-30.png",
+                "username": "b47Yp"
+            }],
+            "betsCount": 144,
+            "code": 200
+        }
+    }
+}
+
+接收阶段：等待阶段
+1. 基本信息
+id: 13
+表示这条消息的唯一标识符，通常用于区分不同的消息。
+targetController: 1
+表示这条消息的目标控制器或接收方的标识符。
+2. 内容部分 (content)
+c: "updateCurrentBets"
+表示这条消息的内容类型是更新当前投注。
+p: 包含具体的投注数据和其他相关信息。
+3. 投注数据 (p)
+bets: 一个包含多个投注对象的数组，每个对象表示一个玩家的投注信息。以下是每个投注对象的关键字段：
+bet: 投注金额（单位：货币单位）。
+player_id: 玩家的唯一标识符。
+betId: 投注的唯一标识符。
+currency: 投注使用的货币类型（这里是BRL，表示巴西雷亚尔）。
+profileImage: 玩家的头像图片文件名。
+username: 玩家的用户名。
+示例：
+
+{
+  "bet": 100,
+  "player_id": "113",
+  "betId": 1,
+  "currency": "BRL",
+  "profileImage": "av-49.png",
+  "username": "oneQf"
+}
+表示玩家oneQf（ID为113）投注了100 BRL，这是他的第1笔投注，头像图片为av-49.png。
+betsCount: 144
+表示当前的投注总数为144笔。
+code: 200
+表示操作的成功状态码（200通常表示成功）。
+4. 总结
+这条消息的主要目的是更新当前投注信息。
+包含了144笔投注的详细信息，每笔投注都标注了投注金额、玩家信息、货币类型等。
+投注数据按金额从高到低排列（从100 BRL到49.3 BRL）。
+此条数据应该用于实时统计当前回合下注总数。
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+{"channel":"AviatorBetIdReq","targetController":1,"content":{"c":"bet","r":-1,"p":{"bet":3,"clientSeed":"DUawlGyem93hDIG1sxfq","betId":1,"freeBet":false}}}
+{"id":13,"targetController":1,"content":{"c":"bet","p":{"bet":3,"betId":1,"code":200,"player_id":"51279","profileImage":"av-4.png","username":"5953102207"}}}
+
+{
+    "channel": "AviatorBetIdReq",
+    "targetController": 1,
+    "content": {
+        "c": "bet",
+        "r": -1,
+        "p": {
+            "bet": 3,
+            "clientSeed": "DUawlGyem93hDIG1sxfq",
+            "betId": 1,
+            "freeBet": false
+        }
+    }
+} {
+    "id": 13,
+    "targetController": 1,
+    "content": {
+        "c": "bet",
+        "p": {
+            "bet": 3,
+            "betId": 1,
+            "code": 200,
+            "player_id": "51279",
+            "profileImage": "av-4.png",
+            "username": "5953102207"
+        }
+    }
+}
+
+发送/接收阶段：等待阶段，自己投注
+第一段 JSON（投注请求）
+channel: "AviatorBetIdReq" → 这个消息的通道名称，表示是 Aviator 游戏的投注 ID 请求。
+targetController: 1 → 目标控制器，通常用于指定服务器上的处理模块。
+content: 游戏投注的具体内容
+c: "bet" → 代表 投注 操作
+r: -1 → 可能是一个请求 ID 或状态码（通常 -1 代表新请求）
+p: 投注参数
+bet: 3 → 投注金额 3（单位未明确，可能是游戏币或真钱）
+clientSeed: "DUawlGyem93hDIG1sxfq" → 客户端随机种子（用于公平性验证）
+betId: 1 → 当前投注的唯一 ID
+freeBet: false → 不是免费投注（true 表示使用免费投注）
+✅ 总结：玩家请求投注 3（游戏币/金钱），并提交了一个随机种子用于游戏公平性验证。
+
+第二段 JSON（投注确认）
+id: 13 → 服务器返回的消息 ID（可能用于异步处理）
+targetController: 1 → 目标控制器，与前面请求保持一致
+content: 服务器返回的投注确认内容
+c: "bet" → 仍然表示投注相关的操作
+p: 具体投注数据
+bet: 3 → 投注金额 3
+betId: 1 → 和请求中的 betId 一致，表示确认该投注
+code: 200 → 投注成功（200 通常是 HTTP 或 API 通用的成功状态码）
+player_id: "51279" → 玩家 ID
+profileImage: "av-4.png" → 该玩家的头像（可能用于 UI 显示）
+username: "5953102207" → 该玩家的用户名
+✅ 总结：服务器确认玩家 ID 51279（用户名 5953102207）的投注请求（金额 3）已成功处理。
+
+整体流程总结
+玩家发起投注请求
+下注金额：3
+生成随机种子 clientSeed 以验证公平性
+服务器收到请求后分配 betId = 1
+服务器返回投注成功确认
+服务器确认 betId = 1 的投注已成功处理
+绑定玩家 ID 51279（用户名：5953102207）
+返回状态码 200，表示投注成功
+可能的扩展
+如果投注失败，code 可能会返回 400 或其他错误代码，并附带错误信息。
+clientSeed 可能用于 Aviator 游戏的 随机数生成（RNG）验证，确保游戏公平。
+freeBet: false 说明该投注是 真实资金模式，可能还存在 true（免费投注）模式。
+最终结论
+这两段 JSON 数据是 Aviator 游戏中的投注流程：
+
+第一段 JSON 是 投注请求，玩家下注 3，并提供 clientSeed 以保证公平性。
+第二段 JSON 是 投注确认，服务器确认投注成功，并返回 200 状态码，表示玩家的投注生效。
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+{"id":13,"targetController":1,"content":{"c":"newBalance","p":{"code":200,"newBalance":80006.23}}}
+
+{
+    "id": 13,
+    "targetController": 1,
+    "content": {
+        "c": "newBalance",
+        "p": {
+            "code": 200,
+            "newBalance": 80006.23
+        }
+    }
+}
+
+接收阶段：等待阶段
+id: 数据包的唯一标识符，值为13。
+targetController: 目标控制器的ID，值为1。
+content: 数据包的内容，包含两个子字段：
++ c: 命令或动作的代码，值为newBalance，可能表示更新余额的操作。
++ p: 参数或数据，包含两个子字段：
+- code: 状态码，值为200，通常表示操作成功。
+- newBalance: 新的余额，值为80006.23，可能是游戏中的虚拟货币余额。
+综上所述，这个数据包可能是服务器通知客户端更新游戏中的余额，新的余额为80006.23，操作状态码为200，表示成功。
+此条数据应该用于玩家自己钱包余额的变化。
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+{"id":13,"targetController":1,"content":{"c":"cashOut","p":{"cashouts":[{"betAmount":3,"betId":1,"player_id":"51279","winAmount":3.33}],"code":200,"multiplier":1.11,"operatorKey":"release"}}}
+{"id":13,"targetController":1,"content":{"c":"newBalance","p":{"code":200,"newBalance":80006.56}}}
+
+{
+    "id": 13,
+    "targetController": 1,
+    "content": {
+        "c": "cashOut",
+        "p": {
+            "cashouts": [{
+                "betAmount": 3,
+                "betId": 1,
+                "player_id": "51279",
+                "winAmount": 3.33
+            }],
+            "code": 200,
+            "multiplier": 1.11,
+            "operatorKey": "release"
+        }
+    }
+} {
+    "id": 13,
+    "targetController": 1,
+    "content": {
+        "c": "newBalance",
+        "p": {
+            "code": 200,
+            "newBalance": 80006.56
+        }
+    }
+}
+
+接收阶段：等待阶段，自己提现
+第一条消息：结算信息（cashOut）
+消息类型：cashOut 表示玩家进行了结算（提前提现）。
+玩家投注信息：
+投注金额：betAmount: 3（玩家投注了 3 个单位的金额）。
+投注 ID：betId: 1（当前投注的唯一标识符是 1）。
+玩家 ID：player_id: "51279"（玩家的唯一标识是 51279）。
+赢得金额：winAmount: 3.33（玩家通过这次结算赢得了 3.33 个单位金额）。
+结算倍数：multiplier: 1.11（玩家在 1.11 倍时选择了结算）。
+状态码：code: 200（表示操作成功）。
+操作标识：operatorKey: "release"，可能用于标识当前操作的类型或状态。
+
+第二条消息：更新余额（newBalance）
+消息类型：newBalance 表示玩家的账户余额已更新。
+状态码：code: 200（表示操作成功）。
+新余额：newBalance: 80006.56（玩家当前账户的新余额是 80006.56 个单位金额）。
+
+总结：
+玩家（ID: 51279）在 Aviator 游戏中投注了 3 个单位金额，在 1.11 倍 时选择了结算，获得了 3.33 个单位金额。
+结算完成后，玩家的账户余额更新为 80006.56 个单位金额。

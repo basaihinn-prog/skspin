@@ -1,0 +1,9 @@
+C_Yellow_Pig,//橙色熊      1
+C_Purple_Pig,//紫色熊      2
+C_Red_Pig,//红色熊          3
+C_Green_star,//绿色星星  4
+C_Banana,//香蕉气球        5
+C_Heart,//爱心                  6
+C_Ball,//棒棒糖                  7
+C_Scatter,//糖果火箭         8
+图案0的处理可以参照兔子之前金砖的处理

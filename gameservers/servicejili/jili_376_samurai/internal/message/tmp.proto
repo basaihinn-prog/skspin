@@ -1,0 +1,56 @@
+syntax = "proto3";
+
+package message;
+option go_package = "serve/servicejili/jili_376_samurai/message";
+
+message Column {
+
+    repeated int32 Col = 1;
+}
+
+message AwardData {
+
+    int32 Symbol = 1;
+    int32 Count = 2;
+    int32 Connect = 3;
+    double Win = 4;
+}
+
+message DisplayAwardVec {
+
+    repeated AwardData Award_data_vec = 1;
+}
+
+message RoundInfo {
+
+    repeated Column Plate_symbol = 1;
+    repeated AwardData Award_data_vec = 2;
+    int32 Award_type_flag = 3;
+    int32 Free_remain_round = 4;
+    int32 Free_now_round = 5;
+    int32 Free_total_round = 6;
+    int32 Add_round = 7;
+    double Round_win = 8;
+    bool Max_flag = 9;
+    repeated Column Plate_symbol_log = 10;
+    repeated double Display_win = 11;
+    repeated DisplayAwardVec Display_award = 12;
+}
+
+message SpinAck {
+
+    repeated RoundInfo Round_queue = 1;
+    double Bet = 2;
+    double Free_total_win = 3;
+    double Total_win = 4;
+    string Show_index = 5;
+    double Now_money = 6;
+    int32 Ack_type = 7;
+    double RT_p = 8;
+}
+
+message GameInfoData {
+
+    bool Show_extra = 1;
+    repeated double Mul = 2;
+}

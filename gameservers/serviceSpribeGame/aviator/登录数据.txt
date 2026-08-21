@@ -1,0 +1,170 @@
+{"channel":"AviatorLoginIdReq","targetController":0,"content":{"api":"1.7.19","cl":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjcmVhdGUiOjE3MzYzMTMyNjcsInVzZXIiOiJ7XCJpZFwiOjUxMTk2LFwib3BlcmF0ZXJfaWRcIjoxLFwiYWdlbnRfaWRcIjoxMDAwMTMsXCJhcHBfaWRcIjoxMDAxMyxcImFjY291bnRfdHlwZVwiOjAsXCJub3dfZ2FtZV9pZFwiOjEwMDAwMSxcIm5pY2tfbmFtZVwiOlwiVFRxNFd1NHJGZVwiLFwidG9rZW5cIjpcImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpqY21WaGRHVWlPakUzTXpNME5qSTFORE1zSW5WelpYSWlPaUo3WENKcFpGd2lPakV3TURBeE15eGNJbTl3WlhKaGRHVnlYMmxrWENJNk1TeGNJbUZuWlc1MFgybGtYQ0k2TVRBd01ERXpMRndpWVhCd1gybGtYQ0k2TVRBd01UTXNYQ0poWTJOdmRXNTBYM1I1Y0dWY0lqb3dMRndpYm05M1gyZGhiV1ZmYVdSY0lqb3dMRndpYm1samExOXVZVzFsWENJNlhDSmNJaXhjSW5SdmEyVnVYQ0k2WENKY0lpeGNJbXhoYm1kMVlXZGxYQ0k2WENKY0lpeGNJbkpsWjJsdmJsd2lPbHdpYUd0Y0luMGlmUS5LNnJWT0VJNlpyZ2pReFgtWVRqcnFFU0hZbndDZnNZS0Z0ZzQzWkdtSGxRXCIsXCJsYW5ndWFnZVwiOlwiXCIsXCJyZWdpb25cIjpcImhrXCJ9In0.FExP-6a0fHUXqjCTLGI6VvV91-T1icdfdzdG6UWmzzc"}}
+
+{
+    "channel": "AviatorLoginIdReq",
+    "targetController": 0,
+    "content": {
+        "api": "1.7.19",
+        "cl": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjcmVhdGUiOjE3MzYzMTMyNjcsInVzZXIiOiJ7XCJpZFwiOjUxMTk2LFwib3BlcmF0ZXJfaWRcIjoxLFwiYWdlbnRfaWRcIjoxMDAwMTMsXCJhcHBfaWRcIjoxMDAxMyxcImFjY291bnRfdHlwZVwiOjAsXCJub3dfZ2FtZV9pZFwiOjEwMDAwMSxcIm5pY2tfbmFtZVwiOlwiVFRxNFd1NHJGZVwiLFwidG9rZW5cIjpcImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpqY21WaGRHVWlPakUzTXpNME5qSTFORE1zSW5WelpYSWlPaUo3WENKcFpGd2lPakV3TURBeE15eGNJbTl3WlhKaGRHVnlYMmxrWENJNk1TeGNJbUZuWlc1MFgybGtYQ0k2TVRBd01ERXpMRndpWVhCd1gybGtYQ0k2TVRBd01UTXNYQ0poWTJOdmRXNTBYM1I1Y0dWY0lqb3dMRndpYm05M1gyZGhiV1ZmYVdSY0lqb3dMRndpYm1samExOXVZVzFsWENJNlhDSmNJaXhjSW5SdmEyVnVYQ0k2WENKY0lpeGNJbXhoYm1kMVlXZGxYQ0k2WENKY0lpeGNJbkpsWjJsdmJsd2lPbHdpYUd0Y0luMGlmUS5LNnJWT0VJNlpyZ2pReFgtWVRqcnFFU0hZbndDZnNZS0Z0ZzQzWkdtSGxRXCIsXCJsYW5ndWFnZVwiOlwiXCIsXCJyZWdpb25cIjpcImhrXCJ9In0.FExP-6a0fHUXqjCTLGI6VvV91-T1icdfdzdG6UWmzzc"
+    }
+}
+
+发送阶段：进入游戏
+channel：该字段的值为“AviatorLoginIdReq”，可能表示这是一个用于登录的请求通道。
+targetController：该字段的值为0，可能表示目标控制器的编号或标识。
+content：该字段包含了具体的登录请求内容，包括：
+api：该字段的值为“1.7.19”，可能表示使用的API版本号。
+cl：该字段的值是一个经过Base64编码和JSON Web Token（JWT）加密的字符串，包含了用户的信息，包括：
+create：创建时间戳（1736313267）。
+user：用户信息，包括：
+id：用户ID（51196）。
+operator_id：操作员ID（1）。
+agent_id：代理商ID（100013）。
+app_id：应用ID（10013）。
+account_type：账户类型（0）。
+no_game_id：无游戏ID（100001）。
+nick_name：昵称（“TFQ4Wu4rFe”）。
+token：令牌（一个长字符串）。
+language：语言（空字符串）。
+region：地区（“kh”）。
+综上所述，这个数据包似乎是用于登录请求的，包含了用户的信息和令牌等数据。
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+{"content":{"ct":1024,"ms":500000,"tk":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjcmVhdGUiOjE3MzYzMTMyNjcsInVzZXIiOiJ7XCJpZFwiOjUxMTk2LFwib3BlcmF0ZXJfaWRcIjoxLFwiYWdlbnRfaWRcIjoxMDAwMTMsXCJhcHBfaWRcIjoxMDAxMyxcImFjY291bnRfdHlwZVwiOjAsXCJub3dfZ2FtZV9pZFwiOjEwMDAwMSxcIm5pY2tfbmFtZVwiOlwiVFRxNFd1NHJGZVwiLFwidG9rZW5cIjpcImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpqY21WaGRHVWlPakUzTXpNME5qSTFORE1zSW5WelpYSWlPaUo3WENKcFpGd2lPakV3TURBeE15eGNJbTl3WlhKaGRHVnlYMmxrWENJNk1TeGNJbUZuWlc1MFgybGtYQ0k2TVRBd01ERXpMRndpWVhCd1gybGtYQ0k2TVRBd01UTXNYQ0poWTJOdmRXNTBYM1I1Y0dWY0lqb3dMRndpYm05M1gyZGhiV1ZmYVdSY0lqb3dMRndpYm1samExOXVZVzFsWENJNlhDSmNJaXhjSW5SdmEyVnVYQ0k2WENKY0lpeGNJbXhoYm1kMVlXZGxYQ0k2WENKY0lpeGNJbkpsWjJsdmJsd2lPbHdpYUd0Y0luMGlmUS5LNnJWT0VJNlpyZ2pReFgtWVRqcnFFU0hZbndDZnNZS0Z0ZzQzWkdtSGxRXCIsXCJsYW5ndWFnZVwiOlwiXCIsXCJyZWdpb25cIjpcImhrXCJ9In0.FExP-6a0fHUXqjCTLGI6VvV91-T1icdfdzdG6UWmzzc"}}
+
+{
+    "content": {
+        "ct": 1024,
+        "ms": 500000,
+        "tk": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjcmVhdGUiOjE3MzYzMTMyNjcsInVzZXIiOiJ7XCJpZFwiOjUxMTk2LFwib3BlcmF0ZXJfaWRcIjoxLFwiYWdlbnRfaWRcIjoxMDAwMTMsXCJhcHBfaWRcIjoxMDAxMyxcImFjY291bnRfdHlwZVwiOjAsXCJub3dfZ2FtZV9pZFwiOjEwMDAwMSxcIm5pY2tfbmFtZVwiOlwiVFRxNFd1NHJGZVwiLFwidG9rZW5cIjpcImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpqY21WaGRHVWlPakUzTXpNME5qSTFORE1zSW5WelpYSWlPaUo3WENKcFpGd2lPakV3TURBeE15eGNJbTl3WlhKaGRHVnlYMmxrWENJNk1TeGNJbUZuWlc1MFgybGtYQ0k2TVRBd01ERXpMRndpWVhCd1gybGtYQ0k2TVRBd01UTXNYQ0poWTJOdmRXNTBYM1I1Y0dWY0lqb3dMRndpYm05M1gyZGhiV1ZmYVdSY0lqb3dMRndpYm1samExOXVZVzFsWENJNlhDSmNJaXhjSW5SdmEyVnVYQ0k2WENKY0lpeGNJbXhoYm1kMVlXZGxYQ0k2WENKY0lpeGNJbkpsWjJsdmJsd2lPbHdpYUd0Y0luMGlmUS5LNnJWT0VJNlpyZ2pReFgtWVRqcnFFU0hZbndDZnNZS0Z0ZzQzWkdtSGxRXCIsXCJsYW5ndWFnZVwiOlwiXCIsXCJyZWdpb25cIjpcImhrXCJ9In0.FExP-6a0fHUXqjCTLGI6VvV91-T1icdfdzdG6UWmzzc"
+    }
+}
+
+接收阶段：进入游戏
+ct (创建时间):
+值: 1024
+说明: 可能表示某种创建时间的标识符，或者是与游戏会话相关的一个时间戳。
+ms (毫秒):
+值: 500000
+说明: 可能代表某种延迟时间或游戏中的持续时间，可能用于控制游戏的周期性事件或计时。
+tk (token):
+说明: 这是一个JSON Web Token (JWT)，用于用户身份验证。它包含了用户的身份信息和一些控制参数。下面是token的详细解析：
+Header:
+指明了使用的签名算法（HS256）和类型（JWT）。
+Payload:
+created (创建时间): 1736313267，表示token生成的时间戳，这通常用于会话管理，确保token在合理的时间内有效。
+user:
+id: 511996，用户的唯一标识符，游戏中用于跟踪用户的状态和数据。
+operator_id: 1，可能表示操作员或管理员的身份，用于管理用户或游戏的功能。
+agent_id: 100013，代理商ID，可能与游戏的推广或代理商有关。
+account_type: 0，表示账户类型，可能区分普通用户、VIP用户等。
+now_game_id: 100001，当前游戏ID，指示用户正在参与的具体游戏实例。
+nick_name: T4W4rFe，用户的昵称，在游戏中用于显示和识别。
+token: 包含JWT的签名部分，确保数据的完整性和真实性。
+language: ""，可能用于用户的语言偏好，当前为空。
+region: "hk"，用户所在的区域，可能影响游戏的内容或服务器选择。
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+{"channel":"AviatorGameInfoIdReq","targetController":0,"content":{"zn":"aviator_core","un":"100001&&demo","pw":"","p":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjcmVhdGUiOjE3MzM0NjI1NDMsInVzZXIiOiJ7XCJpZFwiOjEwMDAxMyxcIm9wZXJhdGVyX2lkXCI6MSxcImFnZW50X2lkXCI6MTAwMDEzLFwiYXBwX2lkXCI6MTAwMTMsXCJhY2NvdW50X3R5cGVcIjowLFwibm93X2dhbWVfaWRcIjowLFwibmlja19uYW1lXCI6XCJcIixcInRva2VuXCI6XCJcIixcImxhbmd1YWdlXCI6XCJcIixcInJlZ2lvblwiOlwiaGtcIn0ifQ.K6rVOEI6ZrgjQxX-YTjrqESHYnwCfsYKFtg43ZGmHlQ","currency":"BRL","lang":"zh","sessionToken":"dMvszK9790Y8BoQ3D1Z1FaoxQAJw1F5xCqc2jpuZl1S8dQfagXVdOhcRqGIZDgbJ","platform":{"deviceInfo":"{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36\",\"os\":\"Windows\",\"browser\":\"Chrome\",\"device\":\"Unknown\",\"os_version\":\"windows-10\",\"browser_version\":\"131.0.0.0\",\"deviceType\":\"desktop\",\"orientation\":\"portrait\"}","userAgent":"\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36\"","deviceType":"desktop"},"version":"4.2.45","additionalParams":{}}}}
+
+{
+    "channel": "AviatorGameInfoIdReq",
+    "targetController": 0,
+    "content": {
+        "zn": "aviator_core",
+        "un": "100001&&demo",
+        "pw": "",
+        "p": {
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjcmVhdGUiOjE3MzM0NjI1NDMsInVzZXIiOiJ7XCJpZFwiOjEwMDAxMyxcIm9wZXJhdGVyX2lkXCI6MSxcImFnZW50X2lkXCI6MTAwMDEzLFwiYXBwX2lkXCI6MTAwMTMsXCJhY2NvdW50X3R5cGVcIjowLFwibm93X2dhbWVfaWRcIjowLFwibmlja19uYW1lXCI6XCJcIixcInRva2VuXCI6XCJcIixcImxhbmd1YWdlXCI6XCJcIixcInJlZ2lvblwiOlwiaGtcIn0ifQ.K6rVOEI6ZrgjQxX-YTjrqESHYnwCfsYKFtg43ZGmHlQ",
+            "currency": "BRL",
+            "lang": "zh",
+            "sessionToken": "dMvszK9790Y8BoQ3D1Z1FaoxQAJw1F5xCqc2jpuZl1S8dQfagXVdOhcRqGIZDgbJ",
+            "platform": {
+                "deviceInfo": "{\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36\",\"os\":\"Windows\",\"browser\":\"Chrome\",\"device\":\"Unknown\",\"os_version\":\"windows-10\",\"browser_version\":\"131.0.0.0\",\"deviceType\":\"desktop\",\"orientation\":\"portrait\"}",
+                "userAgent": "\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36\"",
+                "deviceType": "desktop"
+            },
+            "version": "4.2.45",
+            "additionalParams": {}
+        }
+    }
+}
+
+发送阶段：进入游戏
+请求的渠道（channel）
+"AviatorGameInfoIdReq"：表示这是一个请求Aviator游戏相关信息的请求。
+2. 目标控制器（targetController）
+0：表示请求的目标控制器为0，通常用于指定处理请求的后端服务或模块。
+3. 请求内容（content）
+"zn": "aviator_core"
+表示请求的业务模块是Aviator游戏的核心模块。
+"un": "100001&&demo"
+表示用户名或账户标识为100001&&demo，可能是用户ID和环境标识（如demo环境）的组合。
+"pw": ""
+表示密码字段为空，可能因为该请求不需要密码验证，或者密码验证在其他环节已经完成。
+"p": 包含多个与用户和会话相关的参数：
+"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+这是一个JWT（JSON Web Token），用于验证用户的身份和会话信息。JWT中通常包含用户ID、创建时间等信息。
+"currency": "BRL"
+表示用户使用的货币是巴西雷亚尔（BRL）。
+"lang": "zh"
+表示用户的语言偏好是中文（zh）。
+"sessionToken": "dMvszK9790Y8BoQ3D1Z1FaoxQAJw1F5xCqc2jpuZl1S8dQfagXVdOhcRqGIZDgbJ"
+表示当前会话的Token，用于验证用户的会话状态。
+"platform": 包含用户使用的设备信息：
+"deviceInfo": "{"userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36","os":"Windows","browser":"Chrome","device":"Unknown","os_version":"windows-10","browser_version":"131.0.0.0","deviceType":"desktop","orientation":"portrait"}"
+这是一个JSON字符串，包含了用户的设备信息，如操作系统（Windows 10）、浏览器（Chrome 131.0.0.0）、设备类型（桌面）等。
+"userAgent": ""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36""
+用户的浏览器User-Agent信息，用于识别用户的浏览器和操作系统。
+"deviceType": "desktop"
+表示用户使用的是桌面设备。
+"version": "4.2.45"
+表示客户端或应用的版本号为4.2.45。
+"additionalParams": {}
+表示没有额外的参数传递。
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+{"id":1,"targetController":0,"content":{"pi":0,"rl":[[1,"game_state","default",false,false,0,20,[]]],"rs":0,"un":"67590\u0026\u0026release","zn":"aviator_core_inst4"}}
+
+{
+    "id": 1,
+    "targetController": 0,
+    "content": {
+        "pi": 0,
+        "rl": [
+            [1, "game_state", "default", false, false, 0, 20, []]
+        ],
+        "rs": 0,
+        "un": "67590\u0026\u0026release",
+        "zn": "aviator_core_inst4"
+    }
+}
+
+接收阶段：进入游戏
+id: 1
+表示该数据的唯一标识符为1。
+targetController: 0
+表示目标控制器的标识符为0。
+content:
+这是一个嵌套的对象，包含以下字段：
+pi: 0
+可能表示某种索引或标识符，值为0。
+rl:
+这是一个数组，包含一个子数组：
+[1, "game_state", "default", false, false, 0, 20, []]:
+第一个元素 1 可能表示某种操作或命令的标识符。
+"game_state" 表示与游戏状态相关的操作。
+"default" 可能表示默认的配置或状态。
+false, false 可能表示两个布尔值，具体含义需要根据上下文判断。
+0 可能表示某种计数或索引。
+20 可能表示某种数值，如时间、次数等。
+[] 是一个空数组，可能表示没有额外的参数或数据。
+rs: 0
+可能表示某种状态或结果，值为0。
+un: "67590&&release"
+表示一个用户名或标识符，值为"67590&&release"，其中"&&"可能是某种分隔符。
+zn: "aviator_core_inst4"
+表示一个区域名称或标识符，值为"aviator_core_inst4"。
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+

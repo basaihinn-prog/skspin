@@ -1,0 +1,49 @@
+syntax = "proto3";
+package message;
+option go_package = "serve/servicejili/jili_106_twinwins/message";
+
+enum Symbol {
+
+  Wild = 0;
+  Bonus = 1;
+  Symbol1 = 2;
+  Symbol2 = 3;
+  Symbol3 = 4;
+  Symbol4 = 5;
+  Symbol5 = 6;
+  Symbol6 = 7;
+  Symbol7 = 8;
+  Symbol8 = 9;
+  Symbol9 = 10;
+  Symbol10 = 11;
+  Symbol11 = 12;
+}
+
+message Block {
+
+  uint32 row = 1;
+  uint32 column = 2;
+}
+
+message Plate {
+
+  repeated ColumnData column = 1;
+  double win = 2;
+  repeated int32 same_reel = 3;
+}
+
+message AllPlate {
+
+  repeated Plate plate = 1;
+}
+
+message ColumnData {
+
+  repeated Cell row = 1;
+}
+
+message Cell {
+
+  int32 symbol = 1;
+  bool is_connect = 2;
+}
